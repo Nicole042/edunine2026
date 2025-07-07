@@ -181,6 +181,32 @@ body {   /* fixed to the top */
     /* line-height: 1.1; */
     /*   min-height: 75rem; */
 }
+
+/* HOME SECTION STYLES */
+
+main {
+    position: relative;
+    max-width: 2560px;
+    margin: 0 auto;
+}
+
+.home-image-container {
+    color: #fff;
+    position: relative;
+}
+
+.home-text {
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    transform: translate(-13%, -40%);
+    /* padding: 50px; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+/* END HOME SECTION STYLES */
+
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -217,8 +243,8 @@ container.cv{
 }
 
 section {
-    margin-right: 15%;
-    margin-left: 15%;
+    /* margin-right: 15%; */
+    /* margin-left: 15%; */
     background-color: inherit;
     padding-top: 110px;
     /*padding-bottom: 50px; */
@@ -419,11 +445,12 @@ button {
   /*color: #fff;*/
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1240px) 
+{
     section {
-        margin-right: 15%;
+        /* margin-right: 15%;
         margin-left: 15%;
-        padding-top: 110px;
+        padding-top: 110px; */
     }
     section.primera {
         margin-right: 15%;
@@ -444,9 +471,9 @@ button {
 /* and (max-width: 1199.98px) */
 {
     section  {
-        margin-right: 10%;
+        /* margin-right: 10%;
         margin-left: 10%;
-        padding-top: 105px;
+        padding-top: 105px; */
     }
     section.primera {
         margin-right: 10%;
@@ -478,9 +505,9 @@ button {
 /*and (max-width: 800.98px)*/
 { 
     section  {
-        margin-right: 2%;
+        /* margin-right: 2%;
         margin-left: 2%;
-        padding-top: 105px;
+        padding-top: 105px; */
     }
     section.primera {
         margin-right: 2%;
