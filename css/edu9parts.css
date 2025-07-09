@@ -20,7 +20,7 @@ body {
 
 .navbar-nav .nav-link.active {
     background: #336699;
-    color: white;
+    color: rgba(184, 132, 132);
    /* color: #EDA72F; */
 }
 
