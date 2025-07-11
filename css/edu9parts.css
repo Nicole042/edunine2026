@@ -538,3 +538,362 @@ footer {
     padding-right: 15px;
 }
 /*////////////////////////////////////////////////////////*/
+
+/* Language Dropdown Responsive Styles */
+.dropdown {
+    position: relative;
+}
+
+/* Language dropdown button responsive styling */
+#languageDropdown {
+    font-size: 14px;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+
+#languageDropdown img {
+    height: 18px;
+    width: auto;
+}
+
+/* Language dropdown menu positioning */
+.dropdown-menu-end {
+    right: 0 !important;
+    left: auto !important;
+}
+
+/* Media query for tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+    #languageDropdown {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    
+    #languageDropdown img {
+        height: 16px;
+    }
+    
+    /* Ensure dropdown menu doesn't overflow on smaller screens */
+    .dropdown-menu-end {
+        right: 0 !important;
+        left: auto !important;
+        min-width: 150px;
+        max-width: 200px;
+    }
+    
+    .dropdown-item {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    
+    .dropdown-item img {
+        height: 16px;
+    }
+
+    /*/////////////////////////////////////////////////////////////////////////////////*/
+        
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+    #languageDropdown {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+    
+    #languageDropdown .me-2 {
+        margin-right: 4px !important;
+    }
+    
+    #languageDropdown img {
+        height: 14px;
+    }
+    
+    .dropdown-menu-end {
+        right: 0 !important;
+        left: auto !important;
+        min-width: 120px;
+        max-width: 160px;
+        margin-top: 2px;
+    }
+    
+    .dropdown-item {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    
+    .dropdown-item img {
+        height: 14px;
+    }
+    
+    .dropdown-item .me-2 {
+        margin-right: 4px !important;
+    }
+}
+
+/* Media query for very small screens */
+@media only screen and (max-width: 350px) {
+    #languageDropdown {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    
+    #languageDropdown img {
+        height: 12px;
+    }
+    
+    .dropdown-menu-end {
+        min-width: 100px;
+        max-width: 130px;
+    }
+    
+    .dropdown-item {
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+    
+    .dropdown-item img {
+        height: 12px;
+    }
+}
+
+/* Additional responsive improvements for language dropdown */
+@media only screen and (max-width: 576px) {
+    /* Ensure the navbar container doesn't cause horizontal overflow */
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    /* Improve language dropdown positioning on mobile */
+    .dropdown-menu-end {
+        transform: translateX(-50%) !important;
+        right: 50% !important;
+        left: auto !important;
+    }
+    
+    /* Make sure language dropdown doesn't get cut off */
+    .navbar .dropdown {
+        position: static;
+    }
+    
+    .navbar .dropdown .dropdown-menu {
+        position: absolute;
+        right: 0;
+        left: auto;
+        z-index: 1050;
+    }
+}
+
+/* Prevent horizontal scroll on very small screens */
+@media only screen and (max-width: 320px) {
+    .container-fluid {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .pe-1000 {
+        padding-right: 0 !important;
+    }
+    
+    #languageDropdown {
+        min-width: auto;
+        padding: 3px 5px;
+    }
+    
+    .dropdown-menu-end {
+        min-width: 90px;
+        font-size: 10px;
+    }
+}
+
+/* Fix for navbar container responsiveness */
+@media only screen and (max-width: 768px) {
+    .pe-1000 {
+        padding-right: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pe-1000 {
+        padding-right: 0.5rem !important;
+    }
+}
+
+/* Language Dropdown Responsive Styles */
+.dropdown {
+    position: relative;
+}
+
+/* Language dropdown button responsive styling */
+#languageDropdown {
+    font-size: 14px;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
+
+#languageDropdown img {
+    height: 18px;
+    width: auto;
+}
+
+/* Language dropdown menu positioning */
+.dropdown-menu-end {
+    right: 0 !important;
+    left: auto !important;
+}
+
+/* Media query for tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+    #languageDropdown {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    
+    #languageDropdown img {
+        height: 16px;
+    }
+    
+    /* Ensure dropdown menu doesn't overflow on smaller screens */
+    .dropdown-menu-end {
+        right: 0 !important;
+        left: auto !important;
+        min-width: 150px;
+        max-width: 200px;
+    }
+    
+    .dropdown-item {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    
+    .dropdown-item img {
+        height: 16px;
+    }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+    #languageDropdown {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+    
+    #languageDropdown .me-2 {
+        margin-right: 4px !important;
+    }
+    
+    #languageDropdown img {
+        height: 14px;
+    }
+    
+    .dropdown-menu-end {
+        right: 0 !important;
+        left: auto !important;
+        min-width: 120px;
+        max-width: 160px;
+        margin-top: 2px;
+    }
+    
+    .dropdown-item {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    
+    .dropdown-item img {
+        height: 14px;
+    }
+    
+    .dropdown-item .me-2 {
+        margin-right: 4px !important;
+    }
+}
+
+/* Media query for very small screens */
+@media only screen and (max-width: 350px) {
+    #languageDropdown {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    
+    #languageDropdown img {
+        height: 12px;
+    }
+    
+    .dropdown-menu-end {
+        min-width: 100px;
+        max-width: 130px;
+    }
+    
+    .dropdown-item {
+        padding: 5px 8px;
+        font-size: 11px;
+    }
+    
+    .dropdown-item img {
+        height: 12px;
+    }
+}
+
+/* Fix for navbar container responsiveness */
+@media only screen and (max-width: 768px) {
+    .pe-1000 {
+        padding-right: 1rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .pe-1000 {
+        padding-right: 0.5rem !important;
+    }
+}
+
+/* Additional responsive improvements for language dropdown */
+@media only screen and (max-width: 576px) {
+    /* Ensure the navbar container doesn't cause horizontal overflow */
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    /* Improve language dropdown positioning on mobile */
+    .dropdown-menu-end {
+        transform: translateX(-50%) !important;
+        right: 50% !important;
+        left: auto !important;
+    }
+    
+    /* Make sure language dropdown doesn't get cut off */
+    .navbar .dropdown {
+        position: static;
+    }
+    
+    .navbar .dropdown .dropdown-menu {
+        position: absolute;
+        right: 0;
+        left: auto;
+        z-index: 1050;
+    }
+}
+
+/* Prevent horizontal scroll on very small screens */
+@media only screen and (max-width: 320px) {
+    .container-fluid {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .pe-1000 {
+        padding-right: 0 !important;
+    }
+    
+    #languageDropdown {
+        min-width: auto;
+        padding: 3px 5px;
+    }
+    
+    .dropdown-menu-end {
+        min-width: 90px;
+        font-size: 10px;
+    }
+}
