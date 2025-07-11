@@ -1,127 +1,142 @@
 <!-- Navigation Bar -->
 <nav id="#header" class="navbar fixed-top">
     <div class="container-fluid p-0 bg-white">
-        <div class="container-fluid container-sm p-0">
+        <!--container sm restrict the max width-->
+        <div class="container-fluid p-0">
             <div class="textColor">
-                <div class="row justify-content-center align-items-center mx-auto">
-                    <div class="col-12 col-md-3 p-0">
-                        <!-- <div class="display-3 fw-bold py-2 text-center text-lg-start d-none d-lg-block">LOGO</div> -->
-                        <div class="py-1 text-sm-start text-lg-start d-none d-md-block"><img class="iconHeight"
-                                             src="../images/logo_edunineBrand.png" alt="logo"></div>
+                <!-- Single row with all elements aligned horizontally -->
+                <div class="row justify-content-between align-items-start py-2 w-100">
+                    <!-- Logo - Left side -->
+                    <div class="col-auto ps-4">
+                        <div class="py-0">
+                            <img class="iconHeight" src="../images/logo_edunineBrand.png" alt="logo">
+                        </div>
                     </div>
-                     <div class="col-8 col-md-6">
+                    
+                    <!-- Susan's part
+                    Commenting the title
+                    <div class="col-8 col-md-6">
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="py-2"><h2 class="fw-bold text-center lh-1 m-0">EDUNINE 2026</h2>
                                 <h6 class="fw-medium text-center lh-1 m-0 d-none d-md-block">X IEEE World Engineering Education Conference</h6>
                                 <h6 class="fw-thin text-center lh-1 m-1 d-none d-md-block">March 8-11, 2025 - Mexico City, Mexico</h6> 
                             </div>
                         </div>
-                    </div>
-                    <div class="col-4 col-md-3">
-                        <div class="d-flex justify-content-end align-items-end">
-
-                            <a id="language1" href="#">
-                                <div class="me-1 py-2"><img src="../images/languages/selector/port.jpeg"></div></a>
-                            <script>
-                                var currentLocation = window.location.href;
-                                currentLocation = currentLocation.split("eng");
-                                var output = currentLocation[0] + "port" + currentLocation[1];
-                                document.getElementById('language1').href = output;
-                            </script> 
-                            <a id="language2" href="#">
-                                <div class="me-1 py-2"><img  src="../images/languages/selector/sp.jpeg"></div></a>
-                            <script>
-                                var currentLocation = window.location.href;
-                                currentLocation = currentLocation.split("eng");
-                                var output = currentLocation[0] + "sp" + currentLocation[1];
-                                document.getElementById('language2').href = output;
-                            </script>                             
+                    </div>-->
+                    <!-- Main Menu and Language Dropdown - Right side -->
+                    <div class="col-auto pe-1000">
+                        <div class="d-flex align-items-center">
+                            <!-- Main Menu -->
+                            <div class="navbarBgDark me-3" data-bs-theme="light">
+                                <nav class="navbar navbar-expand-md p-0">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+                                            aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                        <ul class="navbar-nav"> <!-- Remove text-uppercase -->
+                                            <li class="nav-item"><a class="nav-link" href="index.php"><span>Home</span></a></li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">About</a>   
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                                                    <li><a class="dropdown-item nav-link" href="index.php?id=coordinators">Coordinators</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="committees.php">Committees</a></li>                                          
+                                                    <li><a class="dropdown-item nav-link" href="technical.php">Technical Cooperation</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="index.php?id=venue">Venue & Host Institution</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="ieeePolicies.php">IEEE Policies</a></li> 
+                                                    <li><a class="dropdown-item nav-link" href="https://edunine.eu/pastConferences.html">Past Conferences</a></li>                                         
+                                                    <li><a class="dropdown-item nav-link" href="https://edunine.eu/index.html">EDUNINE Clearing House</a></li> 
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false">Author</a>   
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                                                    <li><a class="dropdown-item nav-link" href="index.php?id=dates">Conference Schedule and Important Dates</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="information.php">Composing Conference Paper and Submission</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="information.php?id=suitable">Topics & Pre-Submission Checklist</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="information.php?id=typeChoose">Manuscript Categories (1 to 5) and Types (Full, WIP, Workshop, DS Paper)</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="information.php?id=templateChoose">Mandatory Conference Paper Templates</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="information.php?id=submission">Manuscript Submission</a> </li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewNotif.php">Peer Review Process Notification</a> </li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewNotif.php?id=peerReview">Peer Review Outcomes</a> </li>
+                                                    <li><a class="dropdown-item nav-link" href="finalInformation.php">Final Paper Preparation</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="finalInformation.php?id=fpsubm">Final Paper Submission</a> </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Reviewer</a>   
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php">Information for Reviewers</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=dates">Timeline for Reviewers</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revGuide">EDUNINE Conference Review Process</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revSignup">Reviewer Registration</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revSignin">Reviewer Portal</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Get Ready</a>   
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                                                    <li><a class="dropdown-item nav-link" href="fees.php">Registration and Payment</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="techSession.php">Paper Presentation Guidelines</a> </li> 
+                                                    <li><a class="dropdown-item nav-link" href="techSession.php?id=chair">Session Chair Guidelines</a> </li>
+                                                    <li><a class="dropdown-item nav-link" href="place.php">Hotels and Transportation</a> </li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Conference</a>   
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                                                    <li><a class="dropdown-item nav-link" href="program.php?id=tour">Pre-Conference Tour</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="program.php?id=pcworkshops">Pre-Conference Workshops</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="program.php?id=program">Conference Program</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="program.php?id=awards">Awards</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="postConf.php">Post-Conference Outcomes</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item"><a class="nav-link" href="mailto:edunine@edunine.eu">Contact us</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            
+                            <!-- Language Dropdown -->
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle d-flex align-items-center" type="button" 
+                                        id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="../images/languages/selector/eng.jpeg" alt="English" style="height: 20px;" class="me-2">
+                                    Language
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center" id="lang-port" href="#">
+                                            <img src="../images/languages/selector/port.jpeg" alt="Portuguese" style="height: 20px;" class="me-2"> Portuguese
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item d-flex align-items-center" id="lang-sp" href="#">
+                                            <img src="../images/languages/selector/sp.jpeg" alt="Spanish" style="height: 20px;" class="me-2"> Spanish
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <hr class="my-0 d-md-none">
-            <!--  <div class="text-center display-3 fw-bold mb-2 d-lg-none">LOGO</div> -->
-            <div class="navbarBgDark" data-bs-theme="light">
-                <nav class="navbar navbar-expand-md justify-content-center justify-content-md-between p-0">
-
-                    <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        Menu
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-between " id="navbarNavDropdown">
-                        <ul class="navbar-nav text-uppercase ps-3">
-                            <li class="nav-item"><a class="nav-link" href="index.php"><span>Home</span></a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">About</a>   
-                                <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                                    <li><a class="dropdown-item nav-link" href="index.php?id=coordinators">Coordinators</a></li>
-                                    <li><a class="dropdown-item nav-link" href="committees.php">Committees</a></li>                                          
-                                    <li><a class="dropdown-item nav-link" href="technical.php">Technical Cooperation</a></li>
-                                    <li><a class="dropdown-item nav-link" href="index.php?id=venue">Venue & Host Institution</a></li>
-                                    <li><a class="dropdown-item nav-link" href="ieeePolicies.php">IEEE Policies</a></li> 
-                                    <li><a class="dropdown-item nav-link" href="https://edunine.eu/pastConferences.html">Past Conferences</a></li>                                         
-                                    <li><a class="dropdown-item nav-link" href="https://edunine.eu/index.html">EDUNINE Clearing House</a></li> 
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false">Author</a>   
-                                <ul class="dropdown-menu" aria-labelledby="dropdown02">
-                                    <li><a class="dropdown-item nav-link" href="index.php?id=dates">Conference Schedule and Important Dates</a></li>
-                                    <li><a class="dropdown-item nav-link" href="information.php">Composing Conference Paper and Submission</a></li>
-                                    <li><a class="dropdown-item nav-link" href="information.php?id=suitable">Topics & Pre-Submission Checklist</a></li>
-                                    <li><a class="dropdown-item nav-link" href="information.php?id=typeChoose">Manuscript Categories (1 to 5) and Types (Full, WIP, Workshop, DS Paper)</a></li>
-                                    <li><a class="dropdown-item nav-link" href="information.php?id=templateChoose">Mandatory Conference Paper Templates</a></li>
-                                    <li><a class="dropdown-item nav-link" href="information.php?id=submission">Manuscript Submission</a> </li>
-                                    <li><a class="dropdown-item nav-link" href="reviewNotif.php">Peer Review Process Notification</a> </li>
-                                    <li><a class="dropdown-item nav-link" href="reviewNotif.php?id=peerReview">Peer Review Outcomes</a> </li>
-                                    <li><a class="dropdown-item nav-link" href="finalInformation.php">Final Paper Preparation</a></li>
-                                    <li><a class="dropdown-item nav-link" href="finalInformation.php?id=fpsubm">Final Paper Submission</a> </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Reviewer</a>   
-                                <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                                    <li><a class="dropdown-item nav-link" href="reviewers.php">Information for Reviewers</a></li>
-                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=dates">Timeline for Reviewers</a></li>
-                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revGuide">EDUNINE Conference Review Process</a></li>
-                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revSignup">Reviewer Registration</a></li>
-                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revSignin">Reviewer Portal</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Get Ready</a>   
-                                <ul class="dropdown-menu" aria-labelledby="dropdown04">
-                                    <li><a class="dropdown-item nav-link" href="fees.php">Registration and Payment</a></li>
-                                    <li><a class="dropdown-item nav-link" href="techSession.php">Paper Presentation Guidelines</a> </li> 
-                                    <li><a class="dropdown-item nav-link" href="techSession.php?id=chair">Session Chair Guidelines</a> </li>
-                                    <li><a class="dropdown-item nav-link" href="place.php">Hotels and Transportation</a> </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Conference</a>   
-                                <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                                    <li><a class="dropdown-item nav-link" href="program.php?id=tour">Pre-Conference Tour</a></li>
-                                    <li><a class="dropdown-item nav-link" href="program.php?id=pcworkshops">Pre-Conference Workshops</a></li>
-                                    <li><a class="dropdown-item nav-link" href="program.php?id=program">Conference Program</a></li>
-                                    <li><a class="dropdown-item nav-link" href="program.php?id=awards">Awards</a></li>
-                                    <li><a class="dropdown-item nav-link" href="postConf.php">Post-Conference Outcomes</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="mailto:edunine@edunine.eu">Contact us</a></li>
-                            <li class="nav-item"><a class="nav-link text-primary" href="#dates"></a></li>
-                        </ul>
-                 <!--       <ul class="navbar-nav text-uppercase ps-3 me-2 justify-content-end">
-                            <li class="nav-item me-2"><a class="btn btn-dark" href="#dates" role="button">Timeline</a></li>
-                        </ul> -->
-                    </div>
-                </nav>
-            </div>
         </div>
     </div>
 </nav>
+
+<script>
+const currentUrl = window.location.href;
+const baseParts = currentUrl.split("eng");
+const prefix = baseParts[0];
+const suffix = baseParts[1];
+
+document.getElementById("lang-port").href = prefix + "port" + suffix;
+document.getElementById("lang-sp").href = prefix + "sp" + suffix;
+</script>
 
 <script src ="../js/actualPage.js"></script>
 <!-- end header -->

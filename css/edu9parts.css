@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 /* Show it is fixed to the top */
 body {
     min-height: 75rem;
@@ -20,13 +22,18 @@ body {
 
 .navbar-nav .nav-link.active {
     background: #336699;
-    color: rgba(184, 132, 132);
+    color: white;
    /* color: #EDA72F; */
+   /*
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 600;*/
+
 }
 
+/**Underline*/
 .nav-link:hover {
-   /* color: #EDA72F; */
-   color: blue;
+   /* color: #EDA72F; FAILLLLLLLLL*/
+   color: #1259aa;
 }
 
 .nav-link {
@@ -34,6 +41,7 @@ body {
     color: black;
 }
 .navbar-nav .nav-link.active {
+    /*IT WORKSSSSSSSS*/
     background: #336699;
     color: white;
    /* color: #EDA72F; */
@@ -41,13 +49,48 @@ body {
 
 .nav-link:hover {
    /* color: #EDA72F; */
-   color: blue;
+   color: #1259aa;
+   /*When the cursor is on click*/
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 500;
 }
 
 .nav-link {
     /* color: #fff; */
     color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
+
+/*///////////////////////////////////////
+ Dropdown item*/
+
+.dropdown-toggle {
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+}
+/**/
+
+/*Adding dropdown menu style*/
+.dropdown-menu .dropdown-item {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding: 1px;
+    font-size: 14px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+/*//////////////////////////////*/
+
+
 
 .getBtn {
     /*  color: #fff; */
@@ -467,3 +510,31 @@ footer {
     opacity: 1;
 }
 
+/*/////////////////////////////////////////////////////////*/
+/*For the bar of navigation*/
+/*Style for the "primera" section */
+.primera {
+    background-color: #f8f9fa; /* light background */
+    padding: 20px 5;
+    /*font-family: 'Quicksand', sans-serif;
+    font-size: 14px;*/
+}
+
+/*Style for "breadcrumb" section */
+.breadcrumb {
+    list-style: none;
+    padding: 3;
+    margin: 5;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+/* Style the list of breadcrumb */
+.breadcrumb-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*////////////////////////////////////////////////////////*/

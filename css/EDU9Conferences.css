@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 /*
 :root {
     --headerHeight: 120px;
@@ -181,9 +183,37 @@ body {   /* fixed to the top */
     /* line-height: 1.1; */
     /*   min-height: 75rem; */
 }
+
+/* HOME SECTION STYLES */
+
+main {
+    position: relative;
+    max-width: 2560px;
+    margin: 0 auto;
+}
+
+.home-image-container {
+    color: #fff;
+    position: relative;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.home-text {
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    transform: translate(-13%, -40%);
+    /* padding: 50px; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+/* END HOME SECTION STYLES */
+
 .container-fluid {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0px;
+    margin-left: 0px;
 
 }
 .tope{
@@ -194,14 +224,14 @@ body {   /* fixed to the top */
 }
 
 container {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 0px;
+    margin-left: 0px;
     background-color: inherit;
 }
 container.cv{
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 2000px;
   padding-top: 75%; /* 4:3 Aspect Ratio */
 }
 
@@ -217,29 +247,33 @@ container.cv{
 }
 
 section {
-    margin-right: 15%;
-    margin-left: 15%;
+    /* margin-right: 15%; */
+    /* margin-left: 15%; */
     background-color: inherit;
     padding-top: 110px;
     /*padding-bottom: 50px; */
 }
+
+/*The padding of About the Conference and Home > About has been solved.*/
 section.primera {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 0%;
+    margin-left: 0%;
     background-color: inherit;
-    padding-top: 1px;
+    padding-top: 0px;
 }
+
 section.inicial {
     margin-right: 15%;
     margin-left: 15%;
     background-color: inherit;
     padding-top: 135px;
 }
+
 .espacio {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 0%;
+    margin-left: 0%;
     background-color: inherit;
-    padding-top: 110px;
+    padding-top: 0px;
 }
 
 
@@ -248,8 +282,8 @@ section.inicial {
     font-weight: 700;
 }   
 .container-fluid-footer {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0px;
+    margin-left: 0px;
     background-color: black;
     color: white;
 }
@@ -318,9 +352,18 @@ ul {
     width: 100%;
     height: 100%;
 }
+
 /* Style the list of breadcrumb */
+.breadcrumb-container {
+    max-width: 2000px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
 ul.breadcrumb {
-    padding: 10px 16px;
+    /*The last modifier is for the margin of the words "Home > About"*/
+    padding: 10px 10px 5px 15px;
     list-style: none;
     background-color: #eee;
 }
@@ -328,13 +371,13 @@ ul.breadcrumb {
 /* Display list items side by side */
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 10px;
     color: black;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
-    padding: 8px;
+    padding: 10px;
     color: black;
     content: ">\00a0";
 }
@@ -363,9 +406,21 @@ ul.breadcrumb li a:hover {
     background-color: black;
     color: white;
     cursor: pointer;
-    padding: 15px;
+    padding: 0px;
     border-radius: 4px;
 }
+/* CLASES DE BTN PERSONALIZADAS DE BOOTSTRAP */
+.btn-primary {
+  background-color: #004080; /* nuevo color de fondo */
+  border-color: #c31cb7;     /* nuevo color del borde */
+  color: #fff;               /* texto blanco */
+}
+
+.btn-primary:hover {
+  background-color: #233bee;
+  border-color: #000000;
+}
+
 
 #myTopBtn:hover {
     background-color: grey;
@@ -419,94 +474,7 @@ button {
   /*color: #fff;*/
 }
 
-@media only screen and (max-width: 1240px) {
-    section {
-        margin-right: 15%;
-        margin-left: 15%;
-        padding-top: 110px;
-    }
-    section.primera {
-        margin-right: 15%;
-        margin-left: 15%;
-        background-color: inherit;
-        padding-top: 10px;
-    }
-    section.inicial {
-        margin-right: 15%;
-        margin-left: 15%;
-        background-color: inherit;
-        padding-top: 135px;
-    }
-}
 
-/* Small devices (tablets, 768px and up) */
-@media only screen and (max-width: 810px) 
-/* and (max-width: 1199.98px) */
-{
-    section  {
-        margin-right: 10%;
-        margin-left: 10%;
-        padding-top: 105px;
-    }
-    section.primera {
-        margin-right: 10%;
-        margin-left: 10%;
-        background-color: inherit;
-        padding-top: 10px;
-    }
-    section.inicial {
-        margin-right: 10%;
-        margin-left: 10%;
-        background-color: inherit;
-        padding-top: 115px;
-    }
-    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 700;
-        /*    font-size: 1rem !important */
-        /*         line-height: 1; */
-        color: inherit;
-    }
-    p, li, ul, ol {
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 300;
-        /*    font-size: 1rem !important; */
-    }   
-}
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media only screen  and (max-width: 599px) 
-/*and (max-width: 800.98px)*/
-{ 
-    section  {
-        margin-right: 2%;
-        margin-left: 2%;
-        padding-top: 105px;
-    }
-    section.primera {
-        margin-right: 2%;
-        margin-left: 2%;
-        background-color: inherit;
-        padding-top: 10px;
-    }
-    section.inicial {
-        margin-right: 2%;
-        margin-left: 2%;
-        background-color: inherit;
-        padding-top: 115px;
-    }
-    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 500; 
-        /*  line-height: 1; */ 
-        color: inherit;
-    }
-    p, li, ul, ol {
-        /*font-family: 'Lato', sans-serif;*/
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 300;
-        /*   font-size: 0.50rem !important; */
-    }   
-}
 
 .person {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -652,11 +620,7 @@ button:focus {
     display: inline-block;
     margin-right: 15px;
 }
-@media (max-width: 414px) {
-    .header-top ul li {
-        margin-right: 0px;
-    }
-}
+
 .header-top .header-top-left a {
     margin-right: 8px;
     font-size: 12px;
@@ -791,6 +755,143 @@ button:focus {
     font-size: 0.9rem;
     padding-top: 8px;
 }
+@media only screen and (max-width: 1420px) 
+{
+    section {
+        /* margin-right: 15%;
+        margin-left: 15%;
+        padding-top: 110px; */
+    }
+    /* CLASES AGREGADAS SOBREESCRITAS PARA EL MODELO RESPONSIVO */
+    .display-4 {
+        font-size: 2.3rem; 
+    }
+    h3, h4 {
+        font-size: 1.5rem; 
+    }
+    
+    /*For phone I guess*/
+    section.primera {
+        margin-right: 0%;
+        margin-left: 0%;
+        background-color: inherit;
+        padding-top: 0px;
+    }
+    section.inicial {
+        margin-right: 15%;
+        margin-left: 15%;
+        background-color: inherit;
+        padding-top: 135px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (max-width: 855px) 
+/* and (max-width: 1199.98px) */
+{
+    section  {
+        /* margin-right: 10%;
+        margin-left: 10%;
+        padding-top: 105px; */
+    }
+    /*primera section*/
+    section.primera {
+        margin-right: 0%;
+        margin-left: 0%;
+        background-color: inherit;
+        padding-top: 0px;
+    }
+    section.inicial {
+        margin-right: 10%;
+        margin-left: 10%;
+        background-color: inherit;
+        padding-top: 115px;
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+        /*    font-size: 1rem !important */
+        /*         line-height: 1; */
+        color: inherit;
+    }
+    p, li, ul, ol {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 300;
+        /*    font-size: 1rem !important; */
+    }   
+    /* CLASES AGREGADAS SOBREESCRITAS PARA EL MODELO RESPONSIVO */
+    .display-4 {
+        font-size: 2rem; 
+    }
+    h3, h4 {
+        font-size: 1.1rem; 
+    }
+}
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media only screen  and (max-width: 600px) 
+/*and (max-width: 800.98px)*/
+{ 
+    section {
+        /* margin-right: 2%;
+        margin-left: 2%;
+        padding-top: 105px; */
+    }
+    section.primera {
+        margin-right: 0%;
+        margin-left: 0%;
+        background-color: inherit;
+        padding-top: 0px;
+    }
+    section.inicial {
+        margin-right: 2%;
+        margin-left: 2%;
+        background-color: inherit;
+        padding-top: 115px;
+    }
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 500; 
+        /*  line-height: 1; */ 
+        color: inherit;
+    }
+    p, li, ul, ol {
+        /*font-family: 'Lato', sans-serif;*/
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 300;
+        /*   font-size: 0.50rem !important; */
+    }   
+    /* CLASES AGREGADAS SOBREESCRITAS PARA EL MODELO RESPONSIVO */
+    .display-4 {
+        font-size: 1.7rem; 
+    }
+    h3, h4 {
+        font-size: 1rem; 
+    }
+}
+@media (max-width: 570px) {
+    .header-top ul li {
+        margin-right: 0px;
+    }
+
+    /* CLASES AGREGADAS SOBREESCRITAS PARA EL MODELO RESPONSIVO */
+    .display-4 {
+        font-size: 1.1rem; 
+    }
+    h3, h4 {
+        font-size: 0.7rem; 
+    }
+}
+@media (max-width: 350px) {
+
+    /* CLASES AGREGADAS SOBREESCRITAS PARA EL MODELO RESPONSIVO */
+    .display-4 {
+        font-size: 0.9rem; 
+    }
+    h3, h4 {
+        font-size: 0.5rem; 
+    }
+}
+
 
 @media (min-width: 1140px) {
     .horizontal-timeline .items .items-list {
@@ -804,3 +905,48 @@ button:focus {
     }
 }
 /*============= End sequence line css =============*/
+
+/*/////////////////////////////////////////////////////////*/
+/*For the bar of navigation*/
+/*Style for the "primera" section */
+/*MODIFICATIONSSSSSSSSS*/
+.primera {
+    padding: 0px 0px; /* Vertical padding (top/bottom) and horizontal padding (left/right) */
+    margin: 0px 0px; /* Add margin if needed */
+    border-radius: 0px; /* Optional: rounded corners */
+    /*font-family: 'Quicksand', sans-serif;
+    font-size: 14px;*/
+    /*width: 89vw;*/
+}
+
+/*Style for "breadcrumb" section */
+/* Home > About
+
+/*This inherit is key for the font style of the bar.*/
+.custom-breadcrumb li {
+    font-family: inherit;
+    color: #1259aa; 
+}
+
+.custom-breadcrumb a {
+    font-family: inherit;
+    text-decoration: none;
+    color: #1259aa; 
+}
+
+.custom-breadcrumb a:hover {
+    text-decoration: underline;
+    color: #1259aa; 
+}
+
+/**/
+/* Remove horizontal padding/gutter from all Bootstrap rows and containers */
+.container,
+.container-fluid,
+.row {
+  padding-left: 0 !important;
+  padding-right: 1 !important;
+  --bs-gutter-x: 0 !important;
+}
+
+/*////////////////////////////////////////////////////////*/
