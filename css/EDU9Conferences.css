@@ -250,8 +250,8 @@ section {
     /*padding-bottom: 50px; */
 }
 section.primera {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 2%;
+    margin-left: 2%;
     background-color: inherit;
     padding-top: 1px;
 }
@@ -457,7 +457,24 @@ button {
   /*color: #fff;*/
 }
 
+/* CLASES PERSONALIZADAS DEL CARRUSEL */
+.carousel-control-next, 
+.carousel-control-prev {
+    width: 4%;
+}
+.carousel-inner {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: auto;
+    height: 550px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: cornflowerblue; 
+  border-radius: 50%;
+}
 
+/* FIN DE LAS CLASES PERSONALIZADAS DEL CARRUSEL */
 
 .person {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -752,6 +769,9 @@ button:focus {
     h3, h4 {
         font-size: 1.5rem; 
     }
+    .carousel-inner {
+        height: 780px;
+    }
     
     section.primera {
         margin-right: 15%;
@@ -807,9 +827,12 @@ button:focus {
     h3, h4 {
         font-size: 1.1rem; 
     }
+    .carousel-inner {
+        height: 865px;
+    }
 }
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media only screen  and (max-width: 600px) 
+@media only screen  and (max-width: 670px) 
 /*and (max-width: 800.98px)*/
 { 
     section  {
@@ -860,6 +883,9 @@ button:focus {
     }
     h3, h4 {
         font-size: 0.7rem; 
+    }
+    .carousel-inner {
+        height: 1300px;
     }
 }
 @media (max-width: 350px) {
