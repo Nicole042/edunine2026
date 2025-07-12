@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-/* Show it is fixed to the top */
+/* EXPLANATION of EACH LINE in Css
+
+/*Show it is fixed to the top */
 body {
     min-height: 75rem;
   /*  padding-top: 8.5rem; */
@@ -8,18 +10,29 @@ body {
 /* 
 * navbar
 */
+
+/*Sets the text color to dark blue. Applied to the main navigation container*/
 .textColor {
     color: #030F27;
 }
 
+/*Applied to the main navigation menu wrapper*/
 .navbarBgDark {
     background: whitesmoke; /* #0056b3;  #030F27; */
     border-bottom: 3px solid black; 
+    margin-top: 25px; /* Add space above the menu */
 }
+
+
 .topnav {
     border-bottom: 3px solid black;  
 }
 
+/* Css descender selector
+.navbar-nav: a class usually applied to the <ul> (unordered list) element in a Bootstrap navigation bar.
+.nav-link: a class usually applied to the <a> (link) elements inside that <ul>.
+.active: a class that marks the currently active/selected link.
+*/
 .navbar-nav .nav-link.active {
     background: #336699;
     color: white;
@@ -30,23 +43,7 @@ body {
 
 }
 
-/**Underline*/
-.nav-link:hover {
-   /* color: #EDA72F; FAILLLLLLLLL*/
-   color: #1259aa;
-}
-
-.nav-link {
-    /* color: #fff; */
-    color: black;
-}
-.navbar-nav .nav-link.active {
-    /*IT WORKSSSSSSSS*/
-    background: #336699;
-    color: white;
-   /* color: #EDA72F; */
-}
-
+/* Any nav-link when the user hovers over it.*/
 .nav-link:hover {
    /* color: #EDA72F; */
    color: #1259aa;
@@ -120,11 +117,17 @@ hr.div1 {
         height: 80px;
         width: 116px; 
     }
+    
+    /* Desktop navigation positioning */
+    .navbarBgDark {
+        margin-top: 25px; /* More space on desktop */
+    }
 }
 /* 
 * Schedule section
 */
-/* The actual timeline (the vertical ruler) */
+/* The actual timeline (the vertical ruler) 
+NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
 .main-timeline-2 {
     position: relative;
 }
@@ -552,6 +555,7 @@ footer {
     font-size: 14px;
     padding: 8px 12px;
     white-space: nowrap;
+    margin-top: 20px; /* Add space above the language dropdown */
 }
 
 #languageDropdown img {
@@ -597,41 +601,7 @@ footer {
     /* Fix for navbar container responsiveness */
     .pe-1000 {
         padding-right: 1rem !important;
-    }
-
-    /*3*/
-    /* Media query for tablets and smaller devices */
-    #languageDropdown {
-        font-size: 12px;
-        padding: 6px 10px;
-    }
-    
-    #languageDropdown img {
-        height: 16px;
-    }
-    
-    /* Ensure dropdown menu doesn't overflow on smaller screens */
-    .dropdown-menu-end {
-        right: 0 !important;
-        left: auto !important;
-        min-width: 150px;
-        max-width: 200px;
-    }
-    
-    .dropdown-item {
-        padding: 8px 12px;
-        font-size: 13px;
-    }
-    
-    .dropdown-item img {
-        height: 16px;
-    }
-
-    /*4*/
-    /* Fix for navbar container responsiveness */
-    .pe-1000 {
-        padding-right: 1rem !important;
-    }     
+    }  
 }
 
 /*Only one 480*/
@@ -676,46 +646,6 @@ footer {
     .pe-1000 {
         padding-right: 0.5rem !important;
     }
-
-    /*3*/
-        #languageDropdown {
-        font-size: 11px;
-        padding: 5px 8px;
-    }
-    
-    #languageDropdown .me-2 {
-        margin-right: 4px !important;
-    }
-    
-    #languageDropdown img {
-        height: 14px;
-    }
-    
-    .dropdown-menu-end {
-        right: 0 !important;
-        left: auto !important;
-        min-width: 120px;
-        max-width: 160px;
-        margin-top: 2px;
-    }
-    
-    .dropdown-item {
-        padding: 6px 10px;
-        font-size: 12px;
-    }
-    
-    .dropdown-item img {
-        height: 14px;
-    }
-    
-    .dropdown-item .me-2 {
-        margin-right: 4px !important;
-    }
-
-    /*4*/
-    .pe-1000 {
-        padding-right: 0.5rem !important;
-    }
 }
 
 /* Media query for very small screens */
@@ -742,62 +672,11 @@ footer {
     .dropdown-item img {
         height: 12px;
     }
-
-    /*2*/
-
-    #languageDropdown {
-        font-size: 10px;
-        padding: 4px 6px;
-    }
-    
-    #languageDropdown img {
-        height: 12px;
-    }
-    
-    .dropdown-menu-end {
-        min-width: 100px;
-        max-width: 130px;
-    }
-    
-    .dropdown-item {
-        padding: 5px 8px;
-        font-size: 11px;
-    }
-    
-    .dropdown-item img {
-        height: 12px;
-    }
-
 }
 
 /* Additional responsive improvements for language dropdown */
 @media only screen and (max-width: 576px) {
     /* Ensure the navbar container doesn't cause horizontal overflow */
-    .navbar-nav {
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    /* Improve language dropdown positioning on mobile */
-    .dropdown-menu-end {
-        transform: translateX(-50%) !important;
-        right: 50% !important;
-        left: auto !important;
-    }
-    
-    /* Make sure language dropdown doesn't get cut off */
-    .navbar .dropdown {
-        position: static;
-    }
-    
-    .navbar .dropdown .dropdown-menu {
-        position: absolute;
-        right: 0;
-        left: auto;
-        z-index: 1050;
-    }
-
-    /*2*/
     /* Additional responsive improvements for language dropdown */
     /* Ensure the navbar container doesn't cause horizontal overflow */
     .navbar-nav {
@@ -823,7 +702,6 @@ footer {
         left: auto;
         z-index: 1050;
     }
-
 }
 
 /* Prevent horizontal scroll on very small screens */
@@ -846,48 +724,55 @@ footer {
         min-width: 90px;
         font-size: 10px;
     }
+}
 
-    /*2*/
-     .container-fluid {
-        padding-left: 5px;
-        padding-right: 5px;
+/* Additional options for moving navigation menu down */
+
+/* Option A: Move the entire navigation container down */
+.pe-1000 {
+    padding-top: 15px; /* Adds space above the navigation container */
+}
+
+/* Option B: Alternative - use transform to move menu down */
+/*
+.navbarBgDark {
+    transform: translateY(15px);
+}
+*/
+
+/* Option C: Adjust the parent container alignment */
+/*
+.d-flex.align-items-center.flex-wrap {
+    align-items: flex-end !important;
+}
+*/
+
+/* Responsive adjustments for navigation positioning */
+@media screen and (min-width: 992px) {
+    .sideLine {
+        border-right: none;
+    }
+    .iconHeight {
+        height: 80px;
+        width: 116px; 
+    }
+    
+    /* Desktop navigation positioning */
+    .navbarBgDark {
+        margin-top: 25px; /* More space on desktop */
+    }
+}
+
+/* Tablet and mobile adjustments */
+@media only screen and (max-width: 768px) {
+    .navbarBgDark {
+        margin-top: 10px; /* Less space on smaller screens */
     }
     
     .pe-1000 {
-        padding-right: 0 !important;
+        padding-top: 5px;
     }
-    
-    #languageDropdown {
-        min-width: auto;
-        padding: 3px 5px;
-    }
-    
-    .dropdown-menu-end {
-        min-width: 90px;
-        font-size: 10px;
-    }
-
 }
 
-/* Language Dropdown Responsive Styles */
-.dropdown {
-    position: relative;
-}
 
-/* Language dropdown button responsive styling */
-#languageDropdown {
-    font-size: 14px;
-    padding: 8px 12px;
-    white-space: nowrap;
-}
 
-#languageDropdown img {
-    height: 18px;
-    width: auto;
-}
-
-/* Language dropdown menu positioning */
-.dropdown-menu-end {
-    right: 0 !important;
-    left: auto !important;
-}
