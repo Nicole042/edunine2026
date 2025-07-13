@@ -21,6 +21,10 @@ body {
     background: whitesmoke; /* #0056b3;  #030F27; */
     border-bottom: 3px solid black; 
     margin-top: 25px; /* Add space above the menu */
+    /*Responsive??*/
+    padding: 1rem 1rem; /* Add padding for better spacing */
+    /*border-radius: 5px; /* Optional: rounded corners */
+    /*margin-left: 20%;*/
 }
 
 
@@ -59,7 +63,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     /*Size for Home and "Contact Us"*/
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 2px;
 }
 
@@ -69,7 +73,7 @@ body {
 .dropdown-toggle {
     font-family: 'Quicksand', sans-serif;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
 }
 /**/
@@ -80,7 +84,7 @@ body {
     font-weight: 400;
     padding: 1px;
     /*Menu words*/
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .dropdown-menu .dropdown-item:hover {
@@ -89,7 +93,10 @@ body {
 }
 
 /*//////////////////////////////*/
-
+/*MAX WICTH FOR THE HEADEEEEER*/
+.navbar .container {
+    max-width: 1100px; /* Your desired width */
+}
 
 
 .getBtn {
@@ -104,25 +111,14 @@ body {
 .iconHeight {
     height: 100%;
     width: 100%;
+    min-width: 80px;  /* Prevents it from becoming microscopic */
+    /*object-fit: contain;
+    /*padding: 5px 0px 5px 20px; /* top, right, bottom, left */
 }
 hr.div1 {
     border-top: 1px solid black;
 }
 
-@media screen and (min-width: 992px) {
-    .sideLine {
-        border-right: none;
-    }
-    .iconHeight {
-        height: 80px;
-        width: 116px; 
-    }
-    
-    /* Desktop navigation positioning */
-    .navbarBgDark {
-        margin-top: 25px; /* More space on desktop */
-    }
-}
 /* 
 * Schedule section
 */
@@ -204,26 +200,50 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
 .right-2::after {
     left: -14px;
 }
-@media only screen and (max-width: 1240px) {
+
+/*.header-container {
+    max-width: 50px;  /* or 1320px, depending on your layout width */
+   /* width: 100%;
+    margin: 0 auto;
+/*}*/
+
+@media only screen and (max-width: 1420px) {
     .container {
-        margin-right: 20%;
-        margin-left: 20%;
+    margin: 0 auto;
+    padding: 0 20px;
     }
+
+
+    .navbar-collapse.show {
+        display: block !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        z-index: 1000;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+        /* Add these for better layout */
+        padding: 0.5rem 1rem;
+        box-sizing: border-box;
+        /*This lien made it change*/
+        width: 70vw;
+        word-break: break-word;
+    }
+    
     .iconHeight {
-        height: 80px;
-        width: 116px; 
+        height: 40%;
+        width: 100%;
     }
-}
-/* Small devices (tablets, 768px and up) */
-@media only screen and (max-width: 810px) 
-/*and (max-width: 1199.98px)*/
-{
-    /* The actual timeline (the vertical ruler) */
+    
+    /* Timeline adjustments */
     .main-timeline-2 {
         position: relative;
     }
-
-    /* The actual timeline (the vertical ruler) */
+    
     .main-timeline-2::after {
         content: '';
         position: absolute;
@@ -231,18 +251,16 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
         background-color: #26c6da;
         top: 0;
         bottom: 0;
-        left: 50%; 
+        left: 50%;
         margin-left: -3px;
     }
-
-    /* Container around content */
+    
     .timeline-2 {
         position: relative;
         background-color: inherit;
         width: 50%;
     }
-
-    /* The circles on the timeline */
+    
     .timeline-2::after {
         content: '';
         position: absolute;
@@ -254,109 +272,516 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
         border-radius: 50%;
         z-index: 1;
     }
-
-    /* Place the container to the left */
+    
     .left-2 {
-        /* padding: 0px 40px 20px 0px; */
         padding: 0px 28px 14px 0px;
         left: 0;
     }
-
-    /* Place the container to the right */
+    
     .right-2 {
-        /* padding: 0px 0px 20px 40px; */
         padding: 0px 0px 14px 28px;
         left: 50%;
     }
-
-    /* Add arrows to the left container (pointing right) */
+    
     .left-2::before {
         content: " ";
         position: absolute;
         top: 18px;
         z-index: 1;
-        /* right: 30px; */
         right: 15px;
         border: medium solid blue;
         border-width: 10px 0 10px 10px;
         border-color: transparent transparent transparent white;
     }
-
-    /* Add arrows to the right container (pointing left) */
+    
     .right-2::before {
         content: " ";
         position: absolute;
         top: 18px;
         z-index: 1;
-        /*left: 30px;*/
         left: 15px;
         border: medium solid blue;
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
     }
-
-    /* Fix the circle for containers on the right side */
+    
     .right-2::after {
-        left: -14px;
+        left: 14px;
     }
+
+    /* Very compact navigation 
+    Home and Contact Us*/
+    .nav-link {
+        font-size: 18px;
+        padding: 0.3rem 0.4rem;
+        letter-spacing: 0.5px;
+    }
+}
+
+
+@media only screen and (max-width: 1140px) {
+    .container {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    
+    .dropdown-item.nav-link {  
+  /* your sizing here */  
+       font-size: 18px;
+    }   
+
+    /* Header layout adjustments */
+    .header-container .row {
+        flex-wrap: nowrap !important;
+    }
+    
     .iconHeight {
-    height: 60px;
-    width: 87px;
-}
+        height: 70px;
+        width: 100px;
+    }
+    
+    /* Hamburger Menu Controls */
+    .navbar-toggler {
+        display: block !important;
+        border: 1px solid #ccc;
+        padding: 4px 8px;
+    }
+    
+    .navbar-collapse.show {
+        display: block !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        z-index: 1000;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+        /* Add these for better layout */
+        padding: 0.5rem 1rem;
+        box-sizing: border-box;
+        /*This lien made it change*/
+        width: 70vw;
+    }
+    
+    .navbar-nav {
+        flex-direction: column !important;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .nav-link {
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid #e0e0e0;
+        white-space: normal; 
+        font-size: 16px;
+    }
+    
+    .nav-link:last-child {
+        border-bottom: none;
+    }
+    
+    .dropdown-toggle {
+        font-size: 20px;
+        padding: 0.75rem 1rem;
+    }
+    
+    /* Language dropdown adjustments */
+    #languageDropdown {
+        font-size: 12px;
+        padding: 6px 10px;
+        margin-top: 10px;
+    }
+    
+    #languageDropdown img {
+        height: 16px;
+    }
+    
+    .dropdown-menu-end {
+        right: 0 !important;
+        left: auto !important;
+        min-width: 150px;
+        max-width: 200px;
+    }
+    
+    .dropdown-item {
+        padding: 8px 2px;
+        font-size: 20px;
+    }
+    
+    .dropdown-item img {
+        height: 16px;
+    }
+    
+    /*Home and Contact Us*/
+     .nav-link {
+        font-size: 15px;
+        padding: 0.3rem 0.4rem;
+        letter-spacing: 0.5px;
+    }
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media only screen and (max-width: 599px)
-/*and (max-width: 800.98px) */
-{ 
 
-    /* Place the timelime to the left */
+@media only screen and (max-width: 855px) {
+    /* Keep header horizontal */
+    .header-container .row {
+        flex-wrap: nowrap !important;
+    }
+    
+    .iconHeight {
+        height: 60px;
+        width: 87px;
+        min-width: 40px;
+    }
+    
+    /* Navigation adjustments */
+    .nav-link {
+        font-size: 14px;
+        padding: 0.6rem 0.8rem;
+        letter-spacing: 1px;
+    }
+    
+    .dropdown-toggle {
+        font-size: 14px;
+        padding: 0.6rem 0.8rem;
+    }
+    
+    /* Language dropdown */
+    #languageDropdown {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+    
+    #languageDropdown img {
+        height: 14px;
+    }
+    
+    .dropdown-menu-end {
+        min-width: 130px;
+        max-width: 170px;
+    }
+    
+    .dropdown-item {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+    
+    .dropdown-item img {
+        height: 14px;
+    }
+    
+    /* Navigation positioning */
+    .navbarBgDark {
+        margin-top: 0 !important;
+        padding: 0.25rem 0.5rem;
+    }
+    
+    .pe-1000 {
+        padding-top: 0;
+        padding-right: 0.75rem !important;
+    }
+    
+    /* Timeline mobile adjustments */
     .main-timeline-2::after {
         left: 31px;
     }
-
-    /* Full-width containers */
+    
     .timeline-2 {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
-
-    /* Make sure that all arrows are pointing leftwards */
+    
     .timeline-2::before {
         left: 60px;
         border: medium solid white;
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
     }
-
-    /* Make sure all circles are at the same spot */
+    
     .left-2::after,
     .right-2::after {
         left: 18px;
     }
-
+    
     .left-2::before {
         right: auto;
     }
-
-    /* Make all right containers behave like the left ones */
+    
     .right-2 {
         left: 0%;
     }
-    .iconHeight {
-    height: 40px;
-    width: 58px;
 }
-}
-/* Media queries - Responsive timeline on screens less than 400px wide */
-@media only screen and (max-width: 399px){
+
+
+@media only screen and (max-width: 670px) {
+    /* Keep header horizontal */
+    .header-container .row {
+        flex-wrap: nowrap !important;
+    }
     
- .iconHeight {
-    height: 40px;
-    width: 55px;
+    .iconHeight {
+        height: 50px;
+        width: 70px;
+        min-width: 35px;
+    }
+    
+    /* Navigation adjustments */
+    .nav-link {
+        font-size: 12px;
+        padding: 0.5rem 0.6rem;
+        letter-spacing: 0.8px;
+    }
+    
+    .dropdown-toggle {
+        font-size: 12px;
+        padding: 0.5rem 0.6rem;
+    }
+    
+    /* Language dropdown */
+    #languageDropdown {
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    
+    #languageDropdown img {
+        height: 12px;
+    }
+    
+    .dropdown-menu-end {
+        right: 0 !important;
+        left: auto !important;
+        min-width: 120px;
+        max-width: 150px;
+    }
+    
+    .dropdown-item {
+        padding: 6px 8px;
+        font-size: 11px;
+    }
+    
+    .dropdown-item img {
+        height: 12px;
+    }
+    
+    /* Navigation positioning */
+    .navbar-nav {
+        flex-direction: row;
+    }
+    
+    .pe-1000 {
+        padding-right: 0.5rem !important;
+    }
 }
+
+
+@media only screen and (max-width: 570px) {
+    /* Keep header horizontal */
+    .header-container .row {
+        flex-wrap: nowrap !important;
+    }
+    
+   .dropdown-item.nav-link {  
+  /* your sizing here */  
+       font-size: 12px;
+    }   
+
+    .iconHeight {
+        height: 40px;
+        width: 58px;
+        min-width: 30px;
+    }
+    
+    /* Very compact navigation 
+    Home and Contact Us*/
+    .nav-link {
+        font-size: 15px;
+        padding: 0.3rem 0.4rem;
+        letter-spacing: 0.5px;
+    }
+    
+    /*Options bar*/
+    .dropdown-toggle {
+        font-size: 12px;
+        padding: 0.3rem 0.4rem;
+    }
+    
+    /* Language dropdown */
+    #languageDropdown {
+        font-size: 9px;
+        padding: 3px 5px;
+    }
+    
+    #languageDropdown .me-2 {
+        margin-right: 2px !important;
+    }
+    
+    #languageDropdown img {
+        height: 12px;
+    }
+    
+    .dropdown-menu-end {
+        right: 0 !important;
+        left: auto !important;
+        min-width: 100px;
+        max-width: 170px;
+        margin-top: 2px;
+    }
+    
+    .dropdown-item {
+        padding: 5px 7px;
+        font-size: 10px;
+    }
+    
+    .dropdown-item img {
+        height: 12px;
+    }
+    
+    .dropdown-item .me-2 {
+        margin-right: 2px !important;
+    }
+
+    
+    .pe-1000 {
+        padding-right: 0.25rem !important;
+    }
 }
+
+
+@media only screen and (max-width: 350px) {
+    /* Keep header horizontal even on very small screens */
+    .header-container .row {
+        flex-wrap: nowrap !important;
+    }
+    
+    .container-fluid {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    
+    .iconHeight {
+        height: 30px;
+        width: 45px;
+        min-width: 25px;
+    }
+    
+    /* Minimal navigation */
+    .nav-link {
+        font-size: 8px;
+        padding: 0.2rem 0.3rem;
+        letter-spacing: 0.3px;
+    }
+    
+    .dropdown-toggle {
+        font-size: 8px;
+        padding: 0.2rem 0.3rem;
+    }
+    
+    /* Minimal language dropdown */
+    #languageDropdown {
+        min-width: auto;
+        padding: 2px 4px;
+        font-size: 8px;
+    }
+    
+    #languageDropdown img {
+        height: 10px;
+    }
+    
+    .dropdown-menu-end {
+        min-width: 80px;
+        max-width: 110px;
+        font-size: 8px;
+    }
+    
+    .dropdown-item {
+        padding: 3px 5px;
+        font-size: 9px;
+    }
+    
+    .dropdown-item img {
+        height: 10px;
+    }
+    
+    /* Minimal navigation */
+    .nav-link {
+        font-size: 7px;
+        padding: 0.05rem 0.1rem;
+    }
+    
+    .dropdown-toggle {
+        font-size: 7px;
+        padding: 0.05rem 0.1rem;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    /* Keep header horizontal even at minimum width */
+    .header-container .row {
+        flex-wrap: nowrap !important;
+    }
+    
+    .container-fluid {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    
+    .pe-1000 {
+        padding-right: 0 !important;
+    }
+    
+    .iconHeight {
+        height: 20px;
+        width: auto;
+        min-width: 15px;
+    }
+    
+    #languageDropdown {
+        min-width: auto;
+        padding: 1px 3px;
+        font-size: 7px;
+    }
+    
+    .dropdown-menu-end {
+        min-width: 70px;
+        font-size: 8px;
+    }
+    
+    /* Minimal navigation for very small screens */
+    .nav-link {
+        font-size: 6px;
+        padding: 0.02rem 0.05rem;
+    }
+    
+    .dropdown-toggle {
+        font-size: 6px;
+        padding: 0.02rem 0.05rem;
+    }
+}
+
+/* Additional options for moving navigation menu down */
+
+/* Option A: Move the entire navigation container down */
+.pe-1000 {
+    padding-top: 15px; /* Adds space above the navigation container */
+}
+
+/* Option B: Alternative - use transform to move menu down */
+/*
+.navbarBgDark {
+    transform: translateY(15px);
+}
+*/
+
+/* Option C: Adjust the parent container alignment */
+/*
+.d-flex.align-items-center.flex-wrap {
+    align-items: flex-end !important;
+}
+*/
 
 /* 
 * End schedule section 
@@ -371,8 +796,7 @@ footer {
     --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
     color: var(--default-color);
     background-color: var(--background-color);
-    font-size: 14px;
-    /* padding-bottom: 50px; */
+    font-size: 20px;
     position: relative;
 }
 
@@ -516,17 +940,15 @@ footer {
     opacity: 1;
 }
 
-/*/////////////////////////////////////////////////////////*/
-/*For the bar of navigation*/
-/*Style for the "primera" section */
+/*////////////////////////////////////////////////////////*/
+/* Navigation Bar and Breadcrumb Styles */
+/*////////////////////////////////////////////////////////*/
+
 .primera {
-    background-color: #f8f9fa; /* light background */
+    background-color: #f8f9fa;
     padding: 20px 5;
-    /*font-family: 'Quicksand', sans-serif;
-    font-size: 14px;*/
 }
 
-/*Style for "breadcrumb" section */
 .breadcrumb {
     list-style: none;
     padding: 3;
@@ -536,243 +958,83 @@ footer {
     font-size: 14px;
 }
 
-/* Style the list of breadcrumb */
 .breadcrumb-container {
     max-width: 1140px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-/*////////////////////////////////////////////////////////*/
 
 /* Language Dropdown Responsive Styles */
 .dropdown {
     position: relative;
 }
 
-/* Language dropdown button responsive styling */
 #languageDropdown {
-    font-size: 14px;
+    font-size: 20px;
     padding: 8px 12px;
     white-space: nowrap;
-    margin-top: 20px; /* Add space above the language dropdown */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 #languageDropdown img {
-    height: 18px;
+    height: 15px;
     width: auto;
 }
 
-/* Language dropdown menu positioning */
 .dropdown-menu-end {
     right: 0 !important;
     left: auto !important;
 }
 
-/* Media query for tablets and smaller devices */
-@media only screen and (max-width: 768px) {
-    #languageDropdown {
-        font-size: 12px;
-        padding: 6px 10px;
-    }
-    
-    #languageDropdown img {
-        height: 16px;
-    }
-    
-    /* Ensure dropdown menu doesn't overflow on smaller screens */
-    .dropdown-menu-end {
-        right: 0 !important;
-        left: auto !important;
-        min-width: 150px;
-        max-width: 200px;
-    }
-    
-    .dropdown-item {
-        padding: 8px 12px;
-        font-size: 13px;
-    }
-    
-    .dropdown-item img {
-        height: 16px;
-    }
-
-    /*2*/
-    /* Fix for navbar container responsiveness */
-    .pe-1000 {
-        padding-right: 1rem !important;
-    }  
+/* Core Layout Styles - Force horizontal alignment */
+.header-container .row {
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    min-height: 60px;
 }
 
-/*Only one 480*/
-
-/* Media query for mobile devices */
-@media only screen and (max-width: 480px) {
-    #languageDropdown {
-        font-size: 11px;
-        padding: 5px 8px;
-    }
-    
-    #languageDropdown .me-2 {
-        margin-right: 4px !important;
-    }
-    
-    #languageDropdown img {
-        height: 14px;
-    }
-    
-    .dropdown-menu-end {
-        right: 0 !important;
-        left: auto !important;
-        min-width: 120px;
-        max-width: 160px;
-        margin-top: 2px;
-    }
-    
-    .dropdown-item {
-        padding: 6px 10px;
-        font-size: 12px;
-    }
-    
-    .dropdown-item img {
-        height: 14px;
-    }
-    
-    .dropdown-item .me-2 {
-        margin-right: 4px !important;
-    }
-
-    /*2*/
-    .pe-1000 {
-        padding-right: 0.5rem !important;
-    }
+.header-container .col-auto {
+    flex-shrink: 0;
 }
 
-/* Media query for very small screens */
-@media only screen and (max-width: 350px) {
-    #languageDropdown {
-        font-size: 10px;
-        padding: 4px 6px;
-    }
-    
-    #languageDropdown img {
-        height: 12px;
-    }
-    
-    .dropdown-menu-end {
-        min-width: 100px;
-        max-width: 130px;
-    }
-    
-    .dropdown-item {
-        padding: 5px 8px;
-        font-size: 11px;
-    }
-    
-    .dropdown-item img {
-        height: 12px;
-    }
+.header-container .col-auto:first-child {
+    min-width: fit-content;
 }
 
-/* Additional responsive improvements for language dropdown */
-@media only screen and (max-width: 576px) {
-    /* Ensure the navbar container doesn't cause horizontal overflow */
-    /* Additional responsive improvements for language dropdown */
-    /* Ensure the navbar container doesn't cause horizontal overflow */
-    .navbar-nav {
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    /* Improve language dropdown positioning on mobile */
-    .dropdown-menu-end {
-        transform: translateX(-50%) !important;
-        right: 50% !important;
-        left: auto !important;
-    }
-    
-    /* Make sure language dropdown doesn't get cut off */
-    .navbar .dropdown {
-        position: static;
-    }
-    
-    .navbar .dropdown .dropdown-menu {
-        position: absolute;
-        right: 0;
-        left: auto;
-        z-index: 1050;
-    }
+.header-container .col-auto:last-child {
+    flex: 1;
+    min-width: 10px;
 }
 
-/* Prevent horizontal scroll on very small screens */
-@media only screen and (max-width: 320px) {
-    .container-fluid {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    
-    .pe-1000 {
-        padding-right: 0 !important;
-    }
-    
-    #languageDropdown {
-        min-width: auto;
-        padding: 3px 5px;
-    }
-    
-    .dropdown-menu-end {
-        min-width: 90px;
-        font-size: 10px;
-    }
+.iconHeight {
+    max-height: 80px;
+    width: auto;
+    min-width: 40px;
 }
 
-/* Additional options for moving navigation menu down */
-
-/* Option A: Move the entire navigation container down */
-.pe-1000 {
-    padding-top: 15px; /* Adds space above the navigation container */
-}
-
-/* Option B: Alternative - use transform to move menu down */
-/*
 .navbarBgDark {
-    transform: translateY(15px);
-}
-*/
-
-/* Option C: Adjust the parent container alignment */
-/*
-.d-flex.align-items-center.flex-wrap {
-    align-items: flex-end !important;
-}
-*/
-
-/* Responsive adjustments for navigation positioning */
-@media screen and (min-width: 992px) {
-    .sideLine {
-        border-right: none;
-    }
-    .iconHeight {
-        height: 80px;
-        width: 116px; 
-    }
-    
-    /* Desktop navigation positioning */
-    .navbarBgDark {
-        margin-top: 25px; /* More space on desktop */
-    }
+    margin-top: 25px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 0.75rem 1.25rem;
 }
 
-/* Tablet and mobile adjustments */
-@media only screen and (max-width: 768px) {
-    .navbarBgDark {
-        margin-top: 10px; /* Less space on smaller screens */
-    }
-    
-    .pe-1000 {
-        padding-top: 5px;
-    }
+#languageDropdown {
+    margin-top: 0 !important;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
+.d-flex.justify-content-center.align-items-center {
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+}
 
-
+.pe-1000 {
+    padding-top: 15px;
+}

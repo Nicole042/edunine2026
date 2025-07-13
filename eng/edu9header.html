@@ -1,13 +1,29 @@
 <!-- Navigation Bar -->
 <nav id="#header" class="navbar fixed-top">
-    <div class="container-fluid p-0 bg-white">
+    <!--isntead container-fluid and p-0-->
+    <div class="container-fluid bg-white px-3">
         <!--container sm restrict the max width-->
-        <div class="container-fluid p-0">
+        <div class="container header-container align-items-center px-3">
             <div class="textColor">
-                <!-- Single row with all elements aligned horizontally -->
-                <div class="row justify-content-between align-items-start py-2 w-100">
-                    <!-- Logo - Left side -->
-                    <div class="col-auto ps-4">
+                <!-- Single row with all elements aligned horizontally 
+                 
+                Instead of justify-content-between, make it justiofy-content-center 
+                what ios w-100 for?-->
+                <div class="row justify-content-center align-items-center py-0">
+                    <!-- Logo - Left side 
+                     deleted one attribute ps-4, and just leaving col-auto
+                    
+                    Adding spacing classes between elements me-5
+                    Not modifying in css, but trying here
+                    me-1 to me-5: Margin-end (right margin) - small to large
+
+                    ms-1 to ms-5: Margin-start (left margin) - small to large
+                    mx-1 to mx-5: Margin on both left and right
+                    pe-1 to pe-5: Padding-end (right padding)
+                    ps-1 to ps-5: Padding-start (left padding)
+                    px-1 to px-5: Padding on both left and right
+                    -->
+                    <div class="col-auto pe-0 me-1 me-md-3 d-flex align-items-center">
                         <div class="py-0">
                             <img class="iconHeight" src="../images/logo_edunineBrand.png" alt="logo">
                         </div>
@@ -23,19 +39,24 @@
                             </div>
                         </div>
                     </div>-->
-                    <!-- Main Menu and Language Dropdown - Right side -->
-                    <div class="col-auto pe-1000">
-                        <div class="d-flex align-items-center flex-wrap">
+                    <!-- Main Menu and Language Dropdown - Right side 
+                    Leaving pe-1000, and  just leaving col-auto 
+                    -->
+                    <div class="col-auto pe-5">
+                        <!--gap-3 or -5 is not working-->
+                        <div class="d-flex justify-content-between align-items-center py-2">
                             <!-- Main Menu -->
                             <div class="navbarBgDark me-3" data-bs-theme="light">
-                                <nav class="navbar navbar-expand-md p-0">
+                                <nav class="navbar navbar-expand-xxl p-0">
                                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
                                             aria-expanded="false" aria-label="Toggle navigation">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
-                                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                        <ul class="navbar-nav"> <!-- Remove text-uppercase -->
+                                    <!--Removign navbar wouldn't make a change, it seems-->
+                                    <div class="navbar-collapse" id="navbarNavDropdown">
+                                        <ul class="navbar-nav"> <!-- Remove text-uppercase
+                                            remove collapse -->
                                             <li class="nav-item"><a class="nav-link" href="index.php"><span>Home</span></a></li>
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">About</a>   
@@ -100,7 +121,7 @@
                             </div>
                             
                             <!-- Language Dropdown -->
-                            <div class="dropdown">
+                            <div class="dropdown d-flex align-items-center">
                                 <button class="btn btn-light dropdown-toggle d-flex align-items-center" type="button" 
                                         id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="../images/languages/selector/eng.jpg" alt="English" style="height: 20px;" class="me-2">
