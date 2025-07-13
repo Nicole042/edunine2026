@@ -75,9 +75,10 @@
             </section>
                 <!-- About section -->
                  <!-- PARTE SUSAN INICIO -->
-            <section class="primera">
+            <section id="primera">
                 <div class="container-fluid align-content-start py-0">
-                    <ul class="breadcrumb custom-breadcumb">
+        <!--breadcrumb was wrongly written-->
+                    <ul class="breadcrumb custom-breadcrumb">
                         <li><a href="index.php">Home</a></li>
                         <li>About</li>
                     </ul> 
@@ -161,14 +162,16 @@
             </section>
         
             <!-- Timeline section -->
-            <!-- <section id="dates">
-                <!-- <div class="container-fluid align-content-start py-0">
-                    <ul class="breadcrumb">
+            <!-- <section id="dates">-->
+                <div class="container-fluid align-content-start py-0">
+                    <ul class="breadcrumb custom-breadcrumb">
                         <li><a href="index.php">Home</a></li>
+                         <!--Dates????-->
                         <li><a href="index.php?id=dates">Author</a></li>
                         <li>Conference_Schedule_and_Important_Dates</li>
                     </ul> 
-                </div> -->
+                </div> 
+
                 <!--<div class="container-fluid py-5 bg-body-secondary">
                     <div class="row">
                         <div class="col-sm-12 text-sm-left">
@@ -491,12 +494,14 @@
     <!-- Coordinators section -->
     <section id="coordinators">
         <div class="container-fluid align-content-start py-0">
-            <ul class="breadcrumb">
+            <ul class="breadcrumb custom-breadcrumb">
                 <li><a href="index.php">Home</a></li>
+        <!--Same reference, why??-->
                 <li><a href="index.php">About</a></li>
                 <li>Coordinators</li>
             </ul> 
         </div>
+        <!--
         <div class="container-fluid py-5"> 
             <div class="row">
                 <div class="col-sm-12 text-sm-left">
@@ -603,6 +608,7 @@
                                                     <input type ="hidden" name="name" value="dr_da_silva">
                                                     <input type ="hidden" name="position" value="Technical Program Co-Chair">
                                                     <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form> -->
+                                                    <!--
                                             <p class="mb-0"> <a href="../../cv_congresses_en/dr_da_silva.pdf" class="border-white btn btn-primary btn-sm" role="button">View CV</a></p>           
                                         </div>
                                     </div>
@@ -713,7 +719,7 @@
                 </div>
             </div> 
         </div>
-    </section> 
+    </section> -->
 
     <section> 
         <!--V3-->
@@ -734,8 +740,9 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>José Martín Molina Espinosa</h6>
+                                <text>Conference Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -744,8 +751,9 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>Claudio R. Brito</h6>
+                                <text>General Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -754,8 +762,9 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>Melany M. Ciampi</h6>
+                                <text>Co Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -764,13 +773,16 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>To be assigned</h6>
+                                <text>Awards Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
+                            <!--
+                            <h5> 0 slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -784,8 +796,9 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>To be assigned</h6>
+                                <text>Technical Program Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -794,8 +807,9 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>Ana Luna</h6>
+                                <text>Technical Program Co-Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -804,8 +818,18 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+        <!--Line 610-->
+                                <h6>Agatha da Silva Ovando</h6>
+                                <text>Technical Program Co-Chair</text>
+                                <!--
+                                <button class="btn btn-light">View CV</button>
+                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
+                                -->
+                                                    
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a></p>   
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -814,13 +838,20 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>Alejandro Adorjan Olivera</h6>
+                                <text>Technical Program Co-Chair</text>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a></p> 
                             </div>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
+                            <!--
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -833,8 +864,9 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                 <h6>Mario Chong</h6>
+                                <text>Publication Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -843,8 +875,9 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>Maria Isabel Pozzo</h6>
+                                <text>Doctoral Symposium Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -853,8 +886,9 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>Rafael R. Rentería Ramos</h6>
+                                <text>Workshops Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -863,27 +897,46 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>Roberto Portillo</h6>
+                                <text>Conference Support Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
+                            <!--
+                            <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
+                            -->
                         </div>
                     </div>
                 </div>
 
                 <div class="carousel-item">
                     <div class="row h-100 justify-content-center align-items-center">
+
                         <div class="col image-hover">
                          <!--Changing this attribute: class="d-block w-100"  for class:"img-fluid"-->
+
+                         <!--
                              <img src="../images/logos_cooperation/logo_sbc.gif"
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
                                 <h5>Some Text</h5>
                                 <button class="btn btn-light">Learn More</button>
+                            </div>-->
+                        </div>
+
+                        <div class="col image-hover">
+                         <!--Changing this attribute: class="d-block w-100"  for class:"img-fluid"-->
+                             <img src="../images/logos_cooperation/logo_sbc.gif"
+                                class="img-fluid"
+                                alt="Logo SBC">
+                            <div class="overlay-content">
+                            <!--REPEATED!!-->
+                                <h6>Mario Chong</h6>
+                                <text>Public Relations Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -892,33 +945,28 @@
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
+                                <h6>Orlando Fittipaldi</h6>
+                                <text>Finance / Treasurer Chair</text>
+                                <button class="btn btn-light">View CV</button>
                             </div>
                         </div>
+                        
                         <div class="col image-hover">
                          <!--Changing this attribute: class="d-block w-100"  for class:"img-fluid"-->
-                             <img src="../images/logos_cooperation/logo_sbc.gif"
+                            <!--
+                            <img src="../images/logos_cooperation/logo_sbc.gif"
                                 class="img-fluid"
                                 alt="Logo SBC">
                             <div class="overlay-content">
                                 <h5>Some Text</h5>
                                 <button class="btn btn-light">Learn More</button>
-                            </div>
-                        </div>
-                        <div class="col image-hover">
-                         <!--Changing this attribute: class="d-block w-100"  for class:"img-fluid"-->
-                             <img src="../images/logos_cooperation/logo_sbc.gif"
-                                class="img-fluid"
-                                alt="Logo SBC">
-                            <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
+                            <!--
+                            <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -985,14 +1033,16 @@
             </div>
         </div>
     </section>  -->
-    <!-- Organization section -->
-    <!-- <section id="org">
+    <!-- Organization section 
+     when I put id, the nthe blank spaces in the borders delete automatically-->
+    <section id="org">
         <div class="container-fluid align-content-start py-0">
-            <ul class="breadcrumb">
+            <ul class="breadcrumb custom-breadcrumb">
                 <li><a href="index.php">Home</a></li>
                 <li>Organizational_Institutions</li>
             </ul> 
         </div>
+        <!--
         <div class="container-fluid py-5">
             <div class="row">
                 <div class="col-lg-12 text-sm-left">

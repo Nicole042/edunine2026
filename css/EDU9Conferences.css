@@ -413,7 +413,7 @@ ul.breadcrumb li a:hover {
 }
 
 .btn-primary:hover {
-  background-color: #233bee;
+  background-color: rgb(10, 30, 73);
   border-color: #000000;
 }
 
@@ -1035,18 +1035,30 @@ button:focus {
 /*For the bar of navigation*/
 /*Style for the "primera" section */
 /*MODIFICATIONSSSSSSSSS*/
+
+/*Style for "breadcrumb" section */
+/* Home > About*/
+
 .primera {
     padding: 0px 0px; /* Vertical padding (top/bottom) and horizontal padding (left/right) */
     margin: 0px 0px; /* Add margin if needed */
     border-radius: 0px; /* Optional: rounded corners */
     /*font-family: 'Quicksand', sans-serif;
-    font-size: 14px;*/
+    font-size: 14px;
     /*width: 89vw;*/
 }
 
-/*Style for "breadcrumb" section */
-/* Home > About
 
+/*Style for "breadcrumb" section */
+/* Home > About > Coordinators*/
+.coordinators{
+    padding: 0px 0px; /* Vertical padding (top/bottom) and horizontal padding (left/right) */
+    margin: 0px 0px; /* Add margin if needed */
+    border-radius: 0px; /* Optional: rounded corners */
+    /*font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    /*width: 89vw;*/
+}
 /*This inherit is key for the font style of the bar.*/
 .custom-breadcrumb li {
     font-family: inherit;
