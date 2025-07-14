@@ -56,18 +56,6 @@
                             <h1 class="display-4 fw-bold">Education Conference</h1>
                             <h4 class="fw-bold">March 8-11, 2026 - Mexico City, Mexico</h4>
                             <h3 class="fw-bold">"Theme of the conference: To be assigned"</h3>
-
-        <main>
-        <!-- Home section -->
-            <section id="top">
-                <!-- Full-width image -->
-                <div class="home-image-container">
-                    <div class="home-text row">
-                        <div class="col-sm-12">
-                            <h1 class="display-4 fw-bold">X IEEE World Engineering</h1>
-                            <h1 class="display-4 fw-bold">Education Conference</h1>
-                            <h4 class="fw-bold">March 8-11, 2026 - Mexico City, Mexico</h4>
-                            <h3 class="fw-bold">"Theme of the conference: To be assigned"</h3>
                         </div>
                     </div>
                     <img class="img-fluid w-100" src="../images/city/homeImage.jpeg" alt="EDUNINE Banner">

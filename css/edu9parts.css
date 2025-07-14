@@ -11,6 +11,10 @@ body {
 * navbar
 */
 
+.navbar {
+    padding-top: 0;
+}
+
 /*Sets the text color to dark blue. Applied to the main navigation container*/
 .textColor {
     color: #030F27;
