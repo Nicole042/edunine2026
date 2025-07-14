@@ -742,7 +742,12 @@
                             <div class="overlay-content">
                                 <h6>José Martín Molina Espinosa</h6>
                                 <text>Conference Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p>   
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -753,7 +758,12 @@
                             <div class="overlay-content">
                                 <h6>Claudio R. Brito</h6>
                                 <text>General Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p>   
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -764,7 +774,12 @@
                             <div class="overlay-content">
                                 <h6>Melany M. Ciampi</h6>
                                 <text>Co Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p>   
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -775,7 +790,12 @@
                             <div class="overlay-content">
                                 <h6>To be assigned</h6>
                                 <text>Awards Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p>   
                             </div>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
@@ -798,7 +818,12 @@
                             <div class="overlay-content">
                                 <h6>To be assigned</h6>
                                 <text>Technical Program Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p>   
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -809,7 +834,12 @@
                             <div class="overlay-content">
                                 <h6>Ana Luna</h6>
                                 <text>Technical Program Co-Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p>   
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -829,7 +859,8 @@
                                 <p class="mb-0"> 
                                     <a href="../../cv_congresses_en/dr_da_silva.pdf" 
                                     class="border-white btn btn-primary btn-sm" 
-                                    role="button">View CV</a></p>   
+                                    role="button">View CV</a>
+                                </p>   
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -844,7 +875,8 @@
                                 <p class="mb-0"> 
                                     <a href="../../cv_congresses_en/dr_da_silva.pdf" 
                                     class="border-white btn btn-primary btn-sm" 
-                                    role="button">View CV</a></p> 
+                                    role="button">View CV</a>
+                                </p> 
                             </div>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
@@ -866,7 +898,13 @@
                             <div class="overlay-content">
                                  <h6>Mario Chong</h6>
                                 <text>Publication Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p> 
+
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -877,7 +915,12 @@
                             <div class="overlay-content">
                                 <h6>Maria Isabel Pozzo</h6>
                                 <text>Doctoral Symposium Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p> 
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -888,7 +931,12 @@
                             <div class="overlay-content">
                                 <h6>Rafael R. Rentería Ramos</h6>
                                 <text>Workshops Chair</text>
-                                <button class="btn btn-light">View CV</button>
+
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p> 
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -899,7 +947,12 @@
                             <div class="overlay-content">
                                 <h6>Roberto Portillo</h6>
                                 <text>Conference Support Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p> 
                             </div>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
@@ -923,7 +976,12 @@
                             <!--REPEATED!!-->
                                 <h6>Mario Chong</h6>
                                 <text>Public Relations Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p> 
                             </div>
                         </div>
                         <div class="col image-hover">
@@ -934,7 +992,12 @@
                             <div class="overlay-content">
                                 <h6>Orlando Fittipaldi</h6>
                                 <text>Finance / Treasurer Chair</text>
-                                <button class="btn btn-light">View CV</button>
+                                
+                                <p class="mb-0"> 
+                                    <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                                    class="border-white btn btn-primary btn-sm" 
+                                    role="button">View CV</a>
+                                </p> 
                             </div>
                         </div>
                         
