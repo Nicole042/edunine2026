@@ -916,19 +916,6 @@
 
                         <div class="col image-hover">
                          <!--Changing this attribute: class="d-block w-100"  for class:"img-fluid"-->
-
-                         <!--
-                             <img src="../images/logos_cooperation/logo_sbc.gif"
-                                class="img-fluid"
-                                alt="Logo SBC">
-                            <div class="overlay-content">
-                                <h5>Some Text</h5>
-                                <button class="btn btn-light">Learn More</button>
-                            </div>-->
-                        </div>
-
-                        <div class="col image-hover">
-                         <!--Changing this attribute: class="d-block w-100"  for class:"img-fluid"-->
                              <img src="../images/logos_cooperation/logo_sbc.gif"
                                 class="img-fluid"
                                 alt="Logo SBC">
@@ -967,6 +954,19 @@
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                             -->
+                        </div>
+
+                         <div class="col image-hover">
+                         <!--Changing this attribute: class="d-block w-100"  for class:"img-fluid"-->
+
+                         <!--
+                             <img src="../images/logos_cooperation/logo_sbc.gif"
+                                class="img-fluid"
+                                alt="Logo SBC">
+                            <div class="overlay-content">
+                                <h5>Some Text</h5>
+                                <button class="btn btn-light">Learn More</button>
+                            </div>-->
                         </div>
                     </div>
                 </div>
