@@ -768,6 +768,56 @@ button:focus {
     font-size: 0.9rem;
     padding-top: 8px;
 }
+
+/*============= End sequence line css =============*/
+
+/*/////////////////////////////////////////////////////////*/
+/*For the bar of navigation*/
+/*Style for the "primera" section */
+/*MODIFICATIONSSSSSSSSS*/
+.primera {
+    padding: 0px 0px; /* Vertical padding (top/bottom) and horizontal padding (left/right) */
+    margin: 0px 0px; /* Add margin if needed */
+    border-radius: 0px; /* Optional: rounded corners */
+    /*font-family: 'Quicksand', sans-serif;
+    font-size: 14px;*/
+    /*width: 89vw;*/
+}
+
+/*Style for "breadcrumb" section */
+/* Home > About
+
+/*This inherit is key for the font style of the bar.*/
+.custom-breadcrumb li {
+    font-family: inherit;
+    color: #1259aa; 
+}
+
+.custom-breadcrumb a {
+    font-family: inherit;
+    text-decoration: none;
+    color: #1259aa; 
+}
+
+.custom-breadcrumb a:hover {
+    text-decoration: underline;
+    color: #1259aa; 
+}
+
+/**/
+/* Remove horizontal padding/gutter from all Bootstrap rows and containers */
+.container,
+.container-fluid,
+.row {
+  padding-left: 0 !important;
+  padding-right: 1 !important;
+  --bs-gutter-x: 0 !important;
+}
+
+/*////////////////////////////////////////////////////////*/
+/* MEDIA QUERIES*/
+/*////////////////////////////////////////////////////////*/
+
 @media only screen and (max-width: 1420px) 
 {
     section {
@@ -929,49 +979,3 @@ button:focus {
         top: -40px;
     }
 }
-/*============= End sequence line css =============*/
-
-/*/////////////////////////////////////////////////////////*/
-/*For the bar of navigation*/
-/*Style for the "primera" section */
-/*MODIFICATIONSSSSSSSSS*/
-.primera {
-    padding: 0px 0px; /* Vertical padding (top/bottom) and horizontal padding (left/right) */
-    margin: 0px 0px; /* Add margin if needed */
-    border-radius: 0px; /* Optional: rounded corners */
-    /*font-family: 'Quicksand', sans-serif;
-    font-size: 14px;*/
-    /*width: 89vw;*/
-}
-
-/*Style for "breadcrumb" section */
-/* Home > About
-
-/*This inherit is key for the font style of the bar.*/
-.custom-breadcrumb li {
-    font-family: inherit;
-    color: #1259aa; 
-}
-
-.custom-breadcrumb a {
-    font-family: inherit;
-    text-decoration: none;
-    color: #1259aa; 
-}
-
-.custom-breadcrumb a:hover {
-    text-decoration: underline;
-    color: #1259aa; 
-}
-
-/**/
-/* Remove horizontal padding/gutter from all Bootstrap rows and containers */
-.container,
-.container-fluid,
-.row {
-  padding-left: 0 !important;
-  padding-right: 1 !important;
-  --bs-gutter-x: 0 !important;
-}
-
-/*////////////////////////////////////////////////////////*/
