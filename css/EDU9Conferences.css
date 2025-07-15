@@ -869,10 +869,9 @@ button:focus {
 
 /*////////////////////////////////////////////////////////*/
 /*Styling new navigation*/
-
 .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 4px;
     padding: 5px 5px;
 }
@@ -881,6 +880,7 @@ button:focus {
     background-color: #2e5897; /* bootstrap primary */
 /*color: #fff;*/
 }
+
 
 /*////////////////////////////////////////////////////////*/
 /* MEDIA QUERIES*/
@@ -921,7 +921,7 @@ button:focus {
     /*Styling new navigation*/
     .section-nav .nav-link {
         font-family: "Quicksand", sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         border-radius: 4px;
         padding: 5px 5px;
     }
@@ -975,6 +975,19 @@ button:focus {
     }
     .carousel-inner {
         height: 865px;
+    }
+
+     /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    background-color: #2e5897; /* bootstrap primary */
+    /*color: #fff;*/
     }
 }
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -1048,6 +1061,19 @@ button:focus {
     .carousel-inner {
         height: 1300px;
     }
+
+     /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 0px;
+    border-radius: 1px;
+    padding: 2px 2px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    background-color: #2e5897; /* bootstrap primary */
+    /*color: #fff;*/
+    }
 }
 @media (max-width: 350px) {
 
@@ -1058,6 +1084,18 @@ button:focus {
     }
     h3, h4 {
         font-size: 0.5rem; 
+    }
+    /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 0%;
+    border-radius: 1px;
+    padding: 2px 2px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    background-color: #2e5897; /* bootstrap primary */
+    /*color: #fff;*/
     }
 }
 
@@ -1071,5 +1109,18 @@ button:focus {
 
     .horizontal-timeline .items .items-list .event-date {
         top: -40px;
+    }
+
+      /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    border-radius: 1px;
+    padding: 2px 2px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    background-color: #2e5897; /* bootstrap primary */
+    /*color: #fff;*/
     }
 }
