@@ -122,14 +122,48 @@
                         <li>Conference_Schedule_and_Important_Dates</li>
                     </ul> 
                 </div> -->
-                <div class="container-fluid text-center py-5">
+                <div class="container-fluid text-center">
                     <div class="row">
                         <div class="col-sm-12 ">
-                            <h2 class="display-5 fw-bold">Conference Schedule and Important Dates </h2><p class="fs-5 text-center mx-auto px-5">Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
+                            <h2 class="display-5 fw-bold px-3">Conference Schedule and Important Dates </h2><p class="fs-5 text-center mx-auto px-5">Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
                         </div>
                     </div>
                 </div>
                 <div class="container-fluid">
+                    <div class="row g-5"> 
+                        <div class="col d-flex justify-content-center flex-wrap gap-3 btn-schdule-style"> 
+                            <button type="button" class="btn btn-primary">
+                                Paper Submission Guide 
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Peer Review Outcome
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Final Paper Submission
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Notification of Second Review
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row g-5"> 
+                        <div class="col d-flex justify-content-center flex-wrap gap-3"> 
+                            <button type="button" class="btn btn-primary">
+                                Author & Participant Registration 
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Presentation & Chair Info
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Hybrid Conference
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Post Conference Products
+                            </button>
+                        </div> 
+                    </div> 
+                </div> 
+                <!-- <div class="container-fluid">
                     <div class= "container-fluid tope  pb-5">
                                             
                         <div class="row g-5">
@@ -254,7 +288,7 @@
                             <div class= "col text-sm-left">
                                 <div class="clearfix">
                                         <img class="col-3 p-2 rounded float-sm-start img-fluid"
-            src="../images/decoration/notiFinalReview.jpg"   alt="Notification Second Review Image">
+                                        src="../images/decoration/notiFinalReview.jpg"   alt="Notification Second Review Image">
                                     <h4 class="fw-bold">Notification of Second Review</h4>
                                     <p class="fs-6 mb-4"> You'll receive a summary via email detailing the second review process conducted in line with the Final Paper Preparation Guidelines. This review will ensure compliance with quality standards for content, English, and format, as well as alignment of Paper uploaded information with the final paper, proper PDF generation through PDFeXpress, and successful completion of the copyright transfer.  Once the copyright transfer is finalized and the paper clears all checks, it undergoes evaluation by IEEECrossCheck. Final Papers Papers that do not meet these requirements will be rejected and cannot be published in IEEE Xplore. </p>
                                     
@@ -283,14 +317,12 @@
                                 </div>
                             </div>
                         </div>
-                        
-    <hr class="bg_white">
-                        
+                        <hr class="bg_white">
                         <div class="row g-5">
                             <div class= "col text-sm-left">
                                 <div class="clearfix">
-                                        <img class="col-3 p-2 rounded float-sm-start img-fluid"
-            src="../images/decoration/registration.jpg"  alt="Registration Process Image">                                                <h4 class="fw-bold">Author and Participants (non-authors) Registration</h4>
+                                    <img class="col-3 p-2 rounded float-sm-start img-fluid"
+                                    src="../images/decoration/registration.jpg"  alt="Registration Process Image">                                                <h4 class="fw-bold">Author and Participants (non-authors) Registration</h4>
                                     <p class="fs-6 mb-4">Attention <b>Authors</b>: To ensure your accepted final paper is published in the <b>IEEE Xplore®</b> digital library (please note that IEEE reserves the right to reject papers not meeting standards), registration and oral presentation at the conference are mandatory. Each author registration permits the presentation and publication of one paper, with the option to include an additional paper for an extra publication fee. Unpresented accepted papers cannot be submitted for publication in <b>IEEE Xplore®</b>.</p>
                                     <p class="fs-6 mb-4"><br>For <b>Authors</b> and <b>Participants (non-authors)</b>: Registration grants access to all conference sessions, workshops, tours, and other activities, both online and in-person. After the conference, certificates for participation and paper presentation will be issued. Registration fees vary based on Early, Normal, or Late deadlines. Payment options include credit card (PayPal) in Euros or bank transfer in Euros or U.S. Dollars. Registration will be provided post-acceptance notification. For further details, click the button below.</p>
                                     <p class="mb-0"><a href="fees.php" class="border-white btn btn-primary btn-sm" role="button">Registration and Payment (Authors and Participants)</a> 
@@ -326,18 +358,16 @@
                                 </div>
                             </div>
                         </div>
-                                        
-    <hr class="bg_white">
-                        
+                            <hr class="bg_white">
                         <div class="row g-5">
                             <div class= "col text-sm-left">
                                 <div class="clearfix">
-                                        <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/sessionPresentation.jpg"  alt="Paper Presentation Guidelines Image">                          <h4 class="fw-bold">Presentation Guidelines & Session Chair Opportunities</h4>
-                                        <p class="fs-6 mb-4">We invite all authors to carefully review the Paper Presentation Guidelines to ensure a smooth and successful participation in the conference. The guidelines include important information on timing, format (in-person or virtual), and technical requirements for your session.</p>
-                                        <p class="fs-6 mb-4">In addition, if you are interested in serving as a Session Chair for the technical session in which your paper is scheduled, we welcome your involvement! This is a great opportunity to contribute to the conference community by helping facilitate presentations and discussions.</p>
-    <p class="fs-6 mb-4">Please consult the guidelines and indicate your interest in chairing by following the instructions provided in the links below:</p>
+                                    <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/sessionPresentation.jpg"  alt="Paper Presentation Guidelines Image">                          <h4 class="fw-bold">Presentation Guidelines & Session Chair Opportunities</h4>
+                                    <p class="fs-6 mb-4">We invite all authors to carefully review the Paper Presentation Guidelines to ensure a smooth and successful participation in the conference. The guidelines include important information on timing, format (in-person or virtual), and technical requirements for your session.</p>
+                                    <p class="fs-6 mb-4">In addition, if you are interested in serving as a Session Chair for the technical session in which your paper is scheduled, we welcome your involvement! This is a great opportunity to contribute to the conference community by helping facilitate presentations and discussions.</p>
+                                    <p class="fs-6 mb-4">Please consult the guidelines and indicate your interest in chairing by following the instructions provided in the links below:</p>
                                     <p class="mb-0"><a href="techSession.php" class="border-white btn btn-primary btn-sm" role="button">Paper Presentation Guidelines</a> 
-                                        <a href="techSession.php?id=chair" class="border-white btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
+                                    <a href="techSession.php?id=chair" class="border-white btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
                                     </p>                                                           </div>
                                 <div class="container-fluid mt-2">
                                     <div class="row">
@@ -363,8 +393,8 @@
                         <div class="row g-5">
                             <div class= "col text-sm-left">
                                 <div class="clearfix">
-                                        <img class="col-3 p-2 rounded float-sm-start img-fluid" 
-                        src="../images/decoration/conference.jpg" alt="Conference  Image">                                 <h4 class="fw-bold">Hybrid Conference</h4>
+                                    <img class="col-3 p-2 rounded float-sm-start img-fluid" 
+                                    src="../images/decoration/conference.jpg" alt="Conference  Image">                                 <h4 class="fw-bold">Hybrid Conference</h4>
                                         <p class="fs-6 mb-4">Welcome to our conference! Alongside our exciting lineup of dates, we're thrilled to offer a diverse array of activities to enhance your experience. Click the buttons below to access the conference program (a detailed agenda will be available after registration), where you'll find detailed information on sessions and activities. Dive deeper into our pre-conference workshops for valuable insights and knowledge sharing. Plus, don't miss out on our pre-conference cultural immersion tour, a unique opportunity to explore and engage with the local culture. Get ready for an enriching and unforgettable event!</p>
                                 <p class="mb-0"> <a href="program.php?id=tour" class="border-white btn btn-primary btn-sm" role="button">Pre-conference Tour Program</a></p>
                                 <p> <a href="workshops.php?id=pcworkshops" class="border-white btn btn-primary btn-sm" role="button">Online Pre-conference Workshops Program</a> 
@@ -414,7 +444,7 @@
                             <div class= "col text-sm-left">
                                 <div class="clearfix">
                                         <img class="col-3 p-2 rounded float-sm-start img-fluid" 
-                src="../images/decoration/postConference.jpg" alt="Final Paper Submission Process Image">                                <h4 class="fw-bold">Post Conference Products</h4>
+                                        src="../images/decoration/postConference.jpg" alt="Final Paper Submission Process Image">                                <h4 class="fw-bold">Post Conference Products</h4>
                                         <p class="fs-6 mb-4"> Estimated Date of Post-Conference Products: Includes the publication of conference proceedings and issuance of author and participant certificates of participation.</p>
                                     <p class="mb-0"><a href="postConf.php" class="border-white btn btn-primary btn-sm" role="button">Post Conference Products</a></p>
                                                             </div>
@@ -437,8 +467,8 @@
                             </div>
                         </div>       
                     </div>
-                </div>           
-            </section> -->
+                </div>            -->
+            </section> 
     <!-- Coordinators section -->
     <!-- <section id="coordinators">
         <div class="container-fluid align-content-start py-0">

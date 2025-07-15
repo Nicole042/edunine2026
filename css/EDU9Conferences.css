@@ -405,16 +405,20 @@ ul.breadcrumb li a:hover {
     padding: 0px;
     border-radius: 4px;
 }
-/* CLASES DE BTN PERSONALIZADAS DE BOOTSTRAP */
+/* CLASES DE BTN PERSONALIZADAS DE BOOTSTRAP PARA BOTONES */
 .btn-primary {
-  background-color: #004080; /* nuevo color de fondo */
-  border-color: #c31cb7;     /* nuevo color del borde */
-  color: #fff;               /* texto blanco */
+  background-color: #0479ef; /* nuevo color de fondo */
+  border-color: black;     /* nuevo color del borde */
+  color: #fff; 
+  border-width: 0px;              /* texto blanco */
 }
 
 .btn-primary:hover {
-  background-color: #233bee;
-  border-color: #000000;
+  background-color: #242c6a;
+  border-color: white;
+}
+.btn-schdule-style {
+    padding-bottom: 6px;
 }
 
 
@@ -896,7 +900,7 @@ button:focus {
     /* CLASES AGREGADAS SOBREESCRITAS PARA EL MODELO RESPONSIVO */
     .display-4,
     .display-5 {
-        font-size: 1.1rem; 
+        font-size: 1.3rem; 
     }
     h3, h4 {
         font-size: 0.7rem; 
