@@ -111,41 +111,6 @@
                         </button>
                     </div>
                 </div>
-
-                
-                <!-- <div class="container-fluid py-5">   
-                    <div class="row">
-                        <div class="col-sm-12 text-sm-left">
-                                <h2 class="display-5 fw-bold">About the Conference</h2>
-                                <span id="dots"></span></p><div id="more">
-                            <h4>A Premier Hybrid Experience</h4>
-                            <p>We are pleased to invite you to contribute to the <b>X IEEE World Engineering Education Conference (EDUNINE2026)</b>, a leading international event that will take place in a hybrid format—both online and in person—at <b>Tecnológico de Monterrey</b> in <b>Mexico City, Mexico</b>, from <b>March 8 to 11, 2026</b>.</p>
-                            <h4>Call for Papers</h4>
-                            <p>We welcome original submissions in <b>English</b>, which will undergo a rigorous peer-review process, under the following categories within the field of interest of the <b>IEEE Education Society</b>:</p><ul>
-                                <li><b>Category 1:</b> Implemented teaching techniques, classroom experience reports, or pedagogical tools (as full papers or work in progress papers)
-                                </li><li><bCategory 2:</b> New curricula and educational program proposals, including regional or national adaptations (as full papers or work in progress papers)
-                                </li><li><b>Category 3:</b> Educational research papers (as full papers or work in progress papers)
-                                </li><li><b>Category 4:</b> Research-in-Development (RID) papers for doctoral students (as doctoral symposium papers).
-                                </li><li><b>Category 5:</b> Workshop Proposal Papers for Online Pre-Conference Workshops, Plenary and Panel Proposal Papers.</li></ul>
-                            <p>The <b>IEEE Education Society’s</b> field of interest encompasses the theory and practice of education and educational technology related to the effective delivery of knowledge in disciplines that fall within <b>IEEE’s</b> scope, such as engineering, computing, and technology-related fields.</p>
-                            <p>Accepted papers that meet IEEE quality standards will be published in IEEE Xplore®. Each accepted paper must be presented orally at the conference by at least one registered author. Presentations may be delivered in <i>English</i>, <i>Spanish</i>, or <i>Portuguese</i>.
-                                <h4>A Dynamic and Inclusive Program</h4>
-                                <p><b>EDUNINE2026</b> addresses emerging trends and challenges in engineering, computing, and technology education. This year’s conference will explore its central theme in all its facets—how it transforms teaching and learning practices, reshapes the skills required by future professionals, and responds to the evolving demands of industries and societies.
-                                    The program features plenary talks, panel discussions, and special sessions designed to foster critical reflection and exchange on these topics. Discussions will engage with questions around the future of work, the alignment between education and societal needs, and how to better serve diverse and underserved populations through inclusive educational strategies.</p>
-                                <p>In addition to parallel paper presentations and workshops, the conference will also host the EDUNINE Doctoral Symposium, providing a platform for doctoral students to share ongoing research and receive feedback from experts in the field.</p>
-                                <h4>Accessibility and Inclusivity</h4>
-                                <p>The hybrid format ensures that all participants—regardless of location—can fully engage in the conference. Whether attending virtually or onsite, everyone has the opportunity to participate, learn, and contribute.</p>
-                                <h4>An Engaging Conference Atmosphere</h4>
-                                <p>Beyond the academic program, <b>EDUNINE2026</b> offers a vibrant environment for connection and informal exchange. Enjoy hybrid coffee breaks, brunch meetups, cultural activities, and pre-conference tours designed to foster community and collaboration. These experiences enrich the academic dialogue and reflect the diversity and vitality of our international community.</p>
-                                <h4>A Conference with Impact</h4>
-                                <p><b>EDUNINE</b> is an integral part of the <b>IEEE Education Society's</b> family of regional conferences, alongside <b>FIE</b>, <b>EDUCON</b>, and <b>TALE</b>. These events are recognized as premier venues for advancing global dialogue, research, and innovation in education.</p>
-                                <p><b>Join Us</b></p>
-                                <p>Be part of <b>EDUNINE2026</b>—a forum where ideas converge, knowledge grows, and meaningful connections are made. Through an engaging program of papers, plenaries, panels, and special sessions, the conference will examine the challenges and opportunities that define the future of engineering and technology education. We look forward to your participation in this timely and impactful event.</p>
-                            </div>
-                            <button class=" btn btn-primary btn-lg border-4" onclick="changeReadMore()" id="myBtn">Read more</button>
-                        </div>
-                    </div>
-                </div> -->
             </section>
         
             <!-- Timeline section -->
@@ -157,10 +122,10 @@
                         <li>Conference_Schedule_and_Important_Dates</li>
                     </ul> 
                 </div> -->
-                <div class="container-fluid py-5 bg-body-secondary">
+                <div class="container-fluid text-center py-5">
                     <div class="row">
-                        <div class="col-sm-12 text-sm-left">
-                            <h2 class="display-5 fw-bold">Conference Schedule and Important Dates: </h2>               <p>Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
+                        <div class="col-sm-12 ">
+                            <h2 class="display-5 fw-bold">Conference Schedule and Important Dates </h2><p class="fs-5 text-center mx-auto px-5">Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
                         </div>
                     </div>
                 </div>
