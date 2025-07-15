@@ -22,7 +22,31 @@
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
+        <!--
+        SLICK CAROUSEL
+        -->
+
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
     </head>
+
+    <!--
+        START SLICK CAROUSEL
+        -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!--
+        END  SLICK CAROUSEL
+    -->
+
+
     <body onload = "obtenerFechas(), jump()">
         <?php
         if (empty($_GET["id"])) {
@@ -70,7 +94,28 @@
                         <li>About</li>
                     </ul> 
                 </div>
-                <!-- PARTE SUSAN FIN -->
+
+            <!-- New proposed breadcrumb -->
+                <nav class="section-nav" aria-label="Section navigation">
+                    <ul class="d-flex justify-content-end list-unstyled mb-0">
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="#about">About</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="#dates">Schedule</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="#coordinators">Coordinators</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="organizators">Organizers</a>
+                        </li>
+                        <!-- add/remove as needed
+                        There was no link for venue?? It tended to disappear -->
+                    </ul>
+                </nav>
+            <!-- PARTE SUSAN FIN -->
+
                  <div class="container-fluid px-0">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -115,7 +160,7 @@
         
             <!-- Timeline section -->
             <!-- <section id="dates">
-                <!-- <div class="container-fluid align-content-start py-0">
+                <!- <div class="container-fluid align-content-start py-0">
                     <ul class="breadcrumb">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="index.php?id=dates">Author</a></li>
@@ -440,6 +485,109 @@
                 </div>           
             </section> -->
     <!-- Coordinators section -->
+
+        <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--SECOND OPTION-->
+
+    <section id="coordinators">
+        <div class="container py-5">
+            <h2 class="display-5 fw-bold text-center mb-4">Coordinators</h2>
+            <div class="coordinators-slider">
+            <!-- Each .slide is one card / profile 
+             Only 2 slides here
+            <div class="slide image-hover text-center">
+                <img src="../images/logos_cooperation/logo_sbc.gif" class="img-fluid rounded-circle mb-2" alt="Conference Chair">
+                <h6>José Martín Molina Espinosa</h6>
+                <p>Conference Chair</p>
+                <a href="../../cv_congresses_en/dr_da_silva.pdf" class="btn btn-primary btn-sm">View CV</a>
+            </div>
+        -->
+
+            <div class="slide image-hover text-center">
+                <img src="../images/logos_cooperation/logo_sbc.gif" 
+                    class="img-fluid rounded-circle mb-2" 
+                    alt="General Chair">
+                <div class="overlay-content">
+                    <h6>Orlando Fittipaldi</h6>
+                    <text>Finance / Treasurer Chair</text>
+                    
+                    <p class="mb-0"> 
+                        <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                        class="border-white btn btn-primary btn-sm" 
+                        role="button">View CV</a>
+                    </p> 
+                </div>
+            </div>
+
+            <div class="slide image-hover text-center">
+                <img src="../images/logos_cooperation/logo_sbc.gif" 
+                    class="img-fluid rounded-circle mb-2" 
+                    alt="General Chair">
+                <div class="overlay-content">
+                    <h6>Orlando Fittipaldi</h6>
+                    <text>Finance / Treasurer Chair</text>
+                    
+                    <p class="mb-0"> 
+                        <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                        class="border-white btn btn-primary btn-sm" 
+                        role="button">View CV</a>
+                    </p> 
+                </div>
+            </div>
+
+            <div class="slide image-hover text-center">
+                <img src="../images/logos_cooperation/logo_sbc.gif" 
+                    class="img-fluid rounded-circle mb-2" 
+                    alt="General Chair">
+                <div class="overlay-content">
+                    <h6>Orlando Fittipaldi</h6>
+                    <text>Finance / Treasurer Chair</text>
+                    
+                    <p class="mb-0"> 
+                        <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                        class="border-white btn btn-primary btn-sm" 
+                        role="button">View CV</a>
+                    </p> 
+                </div>
+            </div>
+
+            <div class="slide image-hover text-center">
+                <img src="../images/logos_cooperation/logo_sbc.gif" 
+                    class="img-fluid rounded-circle mb-2" 
+                    alt="General Chair">
+                <div class="overlay-content">
+                    <h6>Orlando Fittipaldi</h6>
+                    <text>Finance / Treasurer Chair</text>
+                    
+                    <p class="mb-0"> 
+                        <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                        class="border-white btn btn-primary btn-sm" 
+                        role="button">View CV</a>
+                    </p> 
+                </div>
+            </div>
+
+            <div class="slide image-hover text-center">
+                <img src="../images/logos_cooperation/logo_sbc.gif"
+                                class="img-fluid rounded-circle mb-2"
+                                alt="Logo SBC">
+            
+                <div class="overlay-content">
+                    <h6>Orlando Fittipaldi</h6>
+                    <text>Finance / Treasurer Chair</text>
+                    
+                    <p class="mb-0"> 
+                        <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                        class="border-white btn btn-primary btn-sm" 
+                        role="button">View CV</a>
+                    </p> 
+                </div>
+            </div>
+
+            <!-- …repeat one <div class="slide"> per person…-->
+            </div>
+        </div>
+    </section>
     <!-- <section id="coordinators">
         <div class="container-fluid align-content-start py-0">
             <ul class="breadcrumb">
@@ -795,5 +943,25 @@
 <script src ="../js/backTop.js"></script>      
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<!-- SLICK CAROUSEL -->
+<script>
+jQuery(function($){
+  $('.coordinators-slider').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    responsive: [
+      { breakpoint: 992, settings: { slidesToShow: 2 } },
+      { breakpoint: 768, settings: { slidesToShow: 1 } }
+    ]
+  });
+});
+</script>
+
 </body>
 </html>                      
