@@ -19,9 +19,7 @@
         <link href="../css/edu9parts.css" rel="stylesheet"> 
 
 
-        <!-- Custom styles for this template -->
-        <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
-
+    
         <!--
         SLICK CAROUSEL
         -->
@@ -864,7 +862,7 @@
         </div>
     </section>  -->
     <!-- Organization section -->
-    <!-- <section id="org">
+    <section id="org">
         <div class="container-fluid align-content-start py-0">
             <ul class="breadcrumb">
                 <li><a href="index.php">Home</a></li>
@@ -931,13 +929,14 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section> 
         </main>
 
 <!-- Footer section -->
-<!-- <div class ="container-fluid">
-    <?php /* include "../includesHtml/final.html" */?>
-</div> -->
+<div class ="container-fluid">
+    <?php include '../includesHtml/final.html' ?>
+    <!--; was not important here -->
+</div> 
 <script src ="../js/datesFill.js?1"></script>
 <script src ="../js/readmorereadless.js"></script>
 <script src ="../js/backTop.js"></script>      
@@ -956,12 +955,13 @@ jQuery(function($){
     autoplay: true,
     autoplaySpeed: 5000,
     responsive: [
-      { breakpoint: 992, settings: { slidesToShow: 2 } },
-      { breakpoint: 768, settings: { slidesToShow: 1 } }
+      { breakpoint: 992, settings: { slidesToShow: 3 } },
+      { breakpoint: 768, settings: { slidesToShow: 2 } },
+      { breakpoint: 500, settings: { slidesToShow: 1 } }
     ]
   });
 });
 </script>
 
 </body>
-</html>                      
+</html>
