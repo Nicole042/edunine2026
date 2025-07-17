@@ -245,6 +245,7 @@ body {
             left: 0%;
           }
         }
+
         /* 
         * End schedule section 
         */
@@ -403,3 +404,77 @@ footer {
   opacity: 1;
 }
   
+
+
+
+/* PRUEBA S*/
+
+@media (max-width: 991.98px) {
+    /* Ajustes para el menú hamburguesa en móviles */
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        z-index: 1050;
+        padding: 2rem;
+        overflow-y: auto;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .navbar-collapse.show {
+        transform: translateX(0);
+    }
+    
+    /* Estilo para el botón de cerrar */
+    .navbar-toggler-close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        z-index: 1051;
+        background: none;
+        border: none;
+        color: #333;
+    }
+    
+    /* Ajustar el navbar-nav para móviles */
+    .navbar-nav {
+        margin-top: 3rem;
+        width: 100%;
+    }
+    
+    .nav-item {
+        margin-bottom: 1rem;
+    }
+    
+    .nav-link {
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+    }
+    
+    /* Ajustar dropdowns */
+    .dropdown-menu {
+        position: static !important;
+        float: none;
+        width: 100%;
+        margin-top: 0.5rem;
+        border: none;
+        box-shadow: none;
+    }
+    
+    /* Logo en móviles */
+    .navbar-brand {
+        z-index: 1051;
+        position: relative;
+    }
+    
+    /* Botón hamburguesa en móviles */
+    .navbar-toggler {
+        z-index: 1051;
+        position: relative;
+    }
+}

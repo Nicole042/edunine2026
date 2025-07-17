@@ -700,8 +700,9 @@
             </div> 
         </div>
     </section>  -->
-    <!-- Venue section -->
-    <!-- <section id="venue">
+
+    <!-- VENUE section -->
+    <section id="venue">
         <div class="container-fluid align-content-start py-0">
             <ul class="breadcrumb">
                 <li><a href="index.php">Home</a></li>
@@ -709,47 +710,376 @@
                 <li>Venue_and_Host_Institution</li>
             </ul> 
         </div>
-        <div class="container-fluid py-5 bg-body-secondary">
-            <div class="row">
-                <div class="col text-sm-left">
-                    <h2 class="display-5 fw-bold">Conference Venue Information</h2>
-                    <p>We are pleased to provide the following details about the venue for the upcoming conference, described below.</p>
-                    <h4><img class="img-fluid card-img-center" src="../images/logos_special/logo_Tec2.png" alt="Tecnologico de Monterrey"> Tecnológico de Monterrey</h4>
-                    <div class="row">
-                        <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                <img class="col-5 p-2 rounded float-sm-start" src="../images/decoration/TecMonterreyCCM.jpg" alt="Tecnologico de Monterrey">
-                                <p><b>Tecnológico de Monterrey</b> was founded in 1943 thanks to the vision of Don Eugenio Garza Sada and a group of entrepreneurs who formed a non-profit association called Enseñanza e Investigación Superior, A. C.</p>
+        
+        <style>
+            .venue-hero {
+                color: black;
+                position: relative;
+                overflow: hidden;
+            }
 
-                                <p><b>Tecnológico de Monterrey</b> is a private, non-profit, independent institution with no political and religious affiliations.</p>
+            .venue-hero .container-fluid {
+                position: relative;
+                z-index: 2;
+            }
 
-                                <p>The work of <b>Tecnológico de Monterrey</b> and all its campuses is supported by civil associations made up of a numerous group of outstanding leaders from all over the country who are committed to quality in higher education.</p>
+            .venue-title {
+                color: black;
+                font-size: 2rem;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
 
-                                <p>Every year, the board members of these civil associations meet to define the goals that will guide the major decisions which will help <b>Tecnológico de Monterrey</b> to meet its objective of driving the development of communities and the nation.</p>
+            .venue-subtitle {
+                font-size: 3rem;
+                opacity: 0.9;
+                margin-bottom: 2rem;
+            }
 
-                                <p><b>Tecnológico de Monterrey</b> enjoys the support of the national community, which participates in the raffles organized by the institution itself to expand its scholarship program and investment in infrastructure.</p>
+            .modern-card {
+                background: white;
+                border-radius: 24px;
+                border: none;
+                overflow: hidden;
+                transition: all 0.3s ease;
+            }
 
-                                <p><b>Tecnológico de Monterrey</b> enjoys the status of Free University School, which enables it to function as an educational institution.</p>
+            .modern-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+            }
 
-                                <p>These are some of the main events that distinguish our Institution 80 years after the foundation of Tecnológico de Monterrey.</p>                    
-                                <p class="text-end"><a href="https://tec.mx/en/" class="border-white btn btn-primary btn-sm" role="button">More Information about Tecnológico Monterrey</a> </p>
-                                <p>Conference Venue: Campus Ciudad de México. Free transportation will be provided from the recommended hotels in Mexico City to the campus.<span><a href="https://tec.mx/en/ciudad-de-mexico-campus" class="border-white btn btn-primary btn-sm" role="button">More Information about Campus Ciudad de México</a></span></p>
+            .modern-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 6px;
+                background: linear-gradient(90deg, #3282b8, #0f4c75);
+            }
 
-                                <p class="text-end"><a href="place.php" class="border-white btn btn-primary btn-sm" role="button">More Information about the venue and city</a></p> 
-                                <p class= "text-center">Campus Ciudad de México: Calle del Puente #222 Col. Ejidos de Huipulco, Tlalpan C.P. 14380, México D.F., México </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-4 d-flex justify-content-center mb-4 w-100">
-                        <div class="ratio ratio-16x9">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7531.8509441054875!2d-99.1458395864305!3d19.28560695435749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCalle%20del%20Puente%20%23222%20Col.%20Ejidos%20de%20Huipulco%2C%20Tlalpan%20C.P.%2014380%2C%20M%C3%A9xico%20D.F.!5e0!3m2!1sen!2sar!4v1747263668404!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        
-                        </div>       
+            .institution-header {
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                padding: 30px 30px 0 60px;
+            }
+
+            .institution-logo-container {
+                width: 100px;
+                height: 100px;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 25px;
+                overflow: hidden;
+            }
+
+            .institution-logo-container img {
+                width: 80%;
+                height: 80%;
+                object-fit: contain;
+            }
+
+            .institution-name {
+                font-size: 1.8rem;
+                font-weight: 700;
+                color: #1e293b;
+                margin-bottom: 5px;
+            }
+
+            .institution-founded {
+                color: #64748b;
+                font-size: 1.1rem;
+            }
+
+            .modern-content {
+                padding: 0 90px 30px;
+            }
+
+            .venue-image {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                border-radius: 16px;
+                margin-bottom: 25px;
+            }
+
+            .highlights-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 20px;
+                margin: 30px 0;
+            }
+
+            .highlight-item {
+                background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+                padding: 20px;
+                border-radius: 12px;
+                border-left: 4px solid #3282b8;
+                transition: all 0.3s ease;
+            }
+
+            .highlight-item:hover {
+                transform: translateX(5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            }
+
+            .highlight-title {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: #1e293b;
+                margin-bottom: 8px;
+            }
+
+            .highlight-text {
+                color: #64748b;
+                font-size: 0.95rem;
+                line-height: 1.5;
+            }
+
+            .campus-section {
+                background: white;
+                border-radius: 24px;
+                padding: 40px;
+                margin-bottom: 30px;
+            }
+
+            .campus-title {
+                font-size: 2rem;
+                font-weight: 700;
+                color: black;
+                margin-bottom: 20px;
+            }
+
+            .campus-description {
+                font-size: 1.1rem;
+                color: #475569;
+                line-height: 1.7;
+                margin-bottom: 25px;
+            }
+
+            .location-section {
+                background: white;
+                border-radius: 24px;
+                padding: 40px;
+                margin-bottom: 30px;
+            }
+
+            .address-card {
+                background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+                color: white;
+                padding: 30px;
+                padding-bottom: 15px;
+                border-radius: 16px;
+                text-align: center;
+                margin-bottom: 30px;
+                width: fit-content;
+                max-width: 400px; 
+                min-width: 300px; 
+                margin: 0 auto;
+            }
+
+            .address-title {
+                font-size: 1rem;
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+
+            .address-text {
+                font-size: 0.8rem;
+                line-height: 1.6;
+                opacity: 0.9;
+            }
+
+            .map-container {
+                border-radius: 16px;
+                overflow: hidden;
+                box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            }
+
+            .map-container iframe {
+                border-radius: 16px;
+            }
+
+            @media (max-width: 768px) {
+                .venue-title {
+                    font-size: 2.5rem;
+                }
+                
+                .institution-header {
+                    flex-direction: column;
+                    text-align: center;
+                }
+                
+                .institution-logo-container {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+                
+                .highlights-grid {
+                    grid-template-columns: 1fr;
+                }
+                
+                .modern-card,
+                .campus-section,
+                .location-section {
+                    margin: 0 -15px;
+                    border-radius: 0;
+                }
+
+                /* Fix para el contenedor del card */
+                .card.border-0 {
+                    margin: 0 15px !important;
+                }
+                
+                /* Fix para el espaciado del card Mexico City Campus */
+                .card-body.p-5 {
+                    padding: 2rem 2rem !important;
+                }
+            }
+            @media (max-width:768px){
+                .container-fluid {
+                    padding-left: 40px !important;
+                    padding-right: 30px !important;
+                }
+            }
+
+            
+        </style>
+
+        <!-- v title section -->
+        <div class="venue-hero">
+            <div class="container-fluid py-3">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1 class="venue-title">Conference Venue Information</h1>
+                        <p class="venue-subtitle">We are pleased to provide the following details about the venue for the upcoming conference</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>  -->
+
+        <!-- Main Content -->
+        <div class="container-fluid py-3 bg-White">
+            <div class="row">
+                <div class="col">
+                    <!-- Institution Card -->
+                    <div class="modern-card position-relative mb-4">
+                        <div class="institution-header">
+                            <div class="institution-logo-container">
+                                <img src="../images/logos_special/logo-tec-d.jpg" alt="Tecnológico de Monterrey Logo">
+                            
+                            </div>
+                            <div>
+                                <h2 class="institution-name">Tecnológico de Monterrey</h2>
+                                <p class="institution-founded">Founded in 1943 • 80 years of excellence</p>
+                            </div>
+                        </div>
+                        
+                        <div class="modern-content">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <p class="campus-description">
+                                        <strong>Tecnológico de Monterrey</strong> was founded in 1943 thanks to the vision of Don Eugenio Garza Sada and a group of entrepreneurs who formed a non-profit association called Enseñanza e Investigación Superior, A. C.
+                                    </p>
+                                    <p class="campus-description">
+                                        <strong>Tecnológico de Monterrey</strong> is a private, non-profit, independent institution with no political and religious affiliations, dedicated to driving the development of communities and the nation through quality higher education.
+                                    </p>
+                                    <a href="https://tec.mx/en/" class="border-white btn btn-primary btn-sm" role="button">
+                                        More Information about Tecnológico Monterrey
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="highlights-grid">
+                                <div class="highlight-item">
+                                    <h3 class="highlight-title">Academic Excellence</h3>
+                                    <p class="highlight-text">Supported by civil associations of outstanding leaders committed to quality higher education nationwide.</p>
+                                </div>
+                                
+                                <div class="highlight-item">
+                                    <h3 class="highlight-title">Community Support</h3>
+                                    <p class="highlight-text">Enjoys strong support from the national community through scholarship programs and infrastructure investment.</p>
+                                </div>
+                                
+                                <div class="highlight-item">
+                                    <h3 class="highlight-title">Free University Status</h3>
+                                    <p class="highlight-text">Holds the prestigious status of Free University School, enabling autonomous educational operations.</p>
+                                </div>
+                                
+                                <div class="highlight-item">
+                                    <h3 class="highlight-title">80 Years Legacy</h3>
+                                    <p class="highlight-text">Eight decades of distinguished events and achievements that have shaped our institution's excellence.</p>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+
+                    <!-- Campus Information -->
+                    <div class="row mb-5">
+                        <div class="col">
+                            <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
+                                <div class="row g-0">
+                                    <div class="col-md-5">
+                                        <img src="../images/decoration/universidadtecmonterrey.jpg" class="img-fluid h-100 object-fit-cover" alt="Tecnologico de Monterrey Campus">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body p-4">
+                                            <h2 class="h3 mb-3">Mexico City Campus</h2>
+                                            <p class="mb-4">Our conference will be held at the prestigious Mexico City campus, featuring state-of-the-art facilities and modern infrastructure designed to provide an exceptional academic and conference experience.</p>
+                                            
+                                            <div class="alert alert-success d-flex align-items-center mb-4">
+                                                <i class="bi bi-bus-front me-2 fs-4"></i>
+                                                <div>Free transportation will be provided from the recommended hotels in Mexico City to the campus.</div>
+                                            </div>
+                                            
+                                            <div class="d-flex flex-wrap gap-2">
+                                                <a href="https://tec.mx/en/ciudad-de-mexico-campus" class="btn btn-outline-primary">Campus Details</a>
+                                                <a href="place.php" class="btn btn-outline-secondary">About the Venue & City</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Location Section -->
+                    <div class="location-section">
+                        <h2 class="campus-title text-center mb-4">Venue Location</h2>
+                        
+                            <div class="row g-4">
+                                <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                                    <div class="address-card text center">
+                                        <h3 class="address-title">Campus Address</h3>
+                                        <div class="address-text">
+                                            <strong>Mexico City Campus</strong><br>
+                                            Calle del Puente #222<br>
+                                            Col. Ejidos de Huipulco<br>
+                                            Tlalpan C.P. 14380<br>
+                                            México D.F., México
+                                        </div>
+                                    </div>
+                                </div>
+
+                        <div class="col-md-6">
+                            <div class="map-container">
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7531.8509441054875!2d-99.1458395864305!3d19.28560695435749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCalle%20del%20Puente%20%23222%20Col.%20Ejidos%20de%20Huipulco%2C%20Tlalpan%20C.P.%2014380%2C%20M%C3%A9xico%20D.F.!5e0!3m2!1sen!2sar!4v1747263668404!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!-- END VENUE Section -->
+
     <!-- Organization section -->
     <!-- <section id="org">
         <div class="container-fluid align-content-start py-0">
