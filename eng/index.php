@@ -71,6 +71,7 @@
                     </ul> 
                 </div>
                 <!-- PARTE SUSAN FIN -->
+                <!-- ABOUT CONFERENCE SECTION -->
                  <div class="container-fluid px-0">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -112,71 +113,71 @@
                     </div>
                 </div>
             </section>
-        
-            <!-- Timeline section -->
-            <!-- <section id="dates">
-                <!-- <div class="container-fluid align-content-start py-0">
+            <!-- NAVAR SCHEDULE SECTION -->
+            <section id="dates">
+                <div class="container-fluid align-content-start py-0">
                     <ul class="breadcrumb">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="index.php?id=dates">Author</a></li>
                         <li>Conference_Schedule_and_Important_Dates</li>
                     </ul> 
-                </div> -->
-                <div class="container-fluid text-center">
+                </div>
+            <!-- SCHEDULE SECTION -->
+            <section class="schedule">
+                <div class="container-fluid text-center"
                     <div class="row">
                         <div class="col-sm-12 ">
-                            <h2 class="display-5 fw-bold px-3">Conference Schedule and Important Dates </h2><p class="fs-5 text-center mx-auto px-5">Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
+                            <h2 class="display-5 fw-bold px-3">Conference Schedule and Important Dates </h2><p class="fs-5 text-center mx-auto pb-3">Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid">
+                <!-- BOTONES SCHEDULE -->
+                <div class="container-fluid px-5 pb-3">
                     <div class="row g-5"> 
                         <div class="col d-flex justify-content-center flex-wrap gap-3 btn-schdule-style"> 
-                            <button type="button" class="btn btn-primary">
-                                Paper Submission Guide 
-                            </button>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary schedule-btn " id="showContentBtn">
+                                Paper Submission Guide </button>                           
+                            <button type="button" class="btn btn-primary schedule-btn" id="peerReview">
                                 Peer Review Outcome
                             </button>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary schedule-btn" id="finalPaper">
                                 Final Paper Submission
                             </button>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary schedule-btn" id="notificationReview">
                                 Notification of Second Review
                             </button>
                         </div>
                     </div>
                     <div class="row g-5"> 
                         <div class="col d-flex justify-content-center flex-wrap gap-3"> 
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary schedule-btn" id="authorParticipantRegistration">
                                 Author & Participant Registration 
                             </button>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary schedule-btn" id="presentationChairInfo">
                                 Presentation & Chair Info
                             </button>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary schedule-btn" id="hybridConference">
                                 Hybrid Conference
                             </button>
-                            <button type="button" class="btn btn-primary">
+                            <button type="button" class="btn btn-primary schedule-btn" id="postConference">
                                 Post Conference Products
                             </button>
                         </div> 
                     </div> 
                 </div> 
-                <!-- <div class="container-fluid">
-                    <div class= "container-fluid tope  pb-5">
-                                            
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
+                <!-- TABLAS DE CONTENIDOS -->
+                <div class="d-none mt-3 showContentBtn">
+                    <div class="container-fluid p-4">
+                            <div class= "col text-center p-5 tope rounded-3">
                                 <div class="clearfix">
                                         <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperComposition.jpg"  alt="Manuscript Composition and Submission"> 
-                            
                                     <h4 class="fw-bold">Composing your Conference Paper and Submission</h4>
                                     <p class="fs-6 mb-4"> Find key information on paper categories, formatting, themes, standards, and templates. Submit your original, unpublished work as a Full Paper, Work-in-Progress, Workshop Proposal, or Doctoral Symposium Paper. All submissions must be in English. Explore the links below for detailed information on submission categories, formatting guidelines, templates, and quality standards. Important deadlines for the paper categories are also listed. Be sure to review all requirements before submitting your work.</p>
-                                    <p class="mb-0"><a href="doc/cfp.pdf" class="border-white btn btn-primary btn-sm" role="button">Call for Papers</a>
-                                        <a href="information.php" class="border-white btn btn-primary btn-sm" role="button">Composing your Paper</a>
-                                        <a href="information.php?id=suitable" class="border-white btn btn-primary btn-sm" role="button">Topics</a>
-                                <a href="information.php?id=submission" class="border-white btn btn-primary btn-sm" role="button">Paper Submission</a></p> 
+                                    <p class="mb-0">
+                                        <a href="doc/cfp.pdf" class="btn btn-primary btn-sm me-2" role="button">Call for Papers</a>
+                                        <a href="information.php" class="btn btn-primary btn-sm me-2" role="button">Composing your Paper</a>
+                                        <a href="information.php?id=suitable" class="btn btn-primary btn-sm me-2" role="button">Topics</a>
+                                        <a href="information.php?id=submission" class="btn btn-primary btn-sm" role="button">Paper Submission</a></p> 
                                 </div>
                                 <div class="container-fluid mt-2">
                                     <div class="row">
@@ -184,7 +185,7 @@
                                             <h5 class="text-center">Event</h5>
                                         </div>
                                         <div class="col-3 bg-light border text-secondary">
-                                            <h5 class="text-center">Due Date</h5>
+                                            <h5 class="text-center align-middle">Due Date</h5>
                                         </div>
                                             <div class="col-9 bg-light border text-secondary">
                                             <p class="lh-sm text-center">Category 1 to 4 Full or WiP Papers Submission (Round #1)</p> 
@@ -201,55 +202,54 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <hr class="bg-white">
-                        
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
-                                <div class="clearfix">
-                                        <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerReview.jpg"  alt="Peer-Review Notification"> 
-                                    <h4 class="fw-bold">Peer Review Notification and Conditional Acceptance</h4>
-                                    <p class="fs-6 mb-4"> All submissions undergo <b>prescreening for scope and formatting</b>. Papers accepted after peer review must meet IEEE standards. <b>Conditionally accepted papers</b> require authors' improvements, resubmission and are subject to a second review by the Technical Program Committee (TPC) before final acceptance. Click below to learn more about the EDUNINE peer review process. The deadlines are also listed.</p>
-
-                                    <p class="mb-0"><a href="reviewNotif.php" class="border-white btn btn-primary btn-sm" role="button">Peer Review Process Notification</a>
-                                </div>
-                                <div class="container-fluid mt-2">
-                                    <div class="row">
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <h4 class="text-center">Event</h4>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <h4 class="text-center">Due Date</h4>
-                                        </div>
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Category 1 to 4 Peer Review Notification (Round #1)</p> 
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id="pnotif"></p>
-                                        </div>
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Category 5 Workshop Proposal Review Notification</p>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id="snotif"></p>
-                                        </div>
+                    </div>
+                    
+                </div>
+                <div class="d-none mt-3 peerReview">
+                    <div class="container-fluid p-4">
+                        <div class= "col text-center p-5 tope rounded-3">
+                            <div class="clearfix">
+                                <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerReview.jpg"  alt="Peer-Review Notification"> 
+                                <h4 class="fw-bold">Peer Review Notification and Conditional Acceptance</h4>
+                                <p class="fs-6 mb-4"> All submissions undergo <b>prescreening for scope and formatting</b>. Papers accepted after peer review must meet IEEE standards. <b>Conditionally accepted papers</b> require authors' improvements, resubmission and are subject to a second review by the Technical Program Committee (TPC) before final acceptance. Click below to learn more about the EDUNINE peer review process. The deadlines are also listed.</p>
+                                <p class="mb-0 pb-3"><a href="reviewNotif.php" class="btn btn-primary btn-sm" role="button">Peer Review Process Notification</a>
+                            </div>
+                            <div class="container-fluid mt-2">
+                                <div class="row">
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <h4 class="text-center">Event</h4>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <h4 class="text-center">Due Date</h4>
+                                    </div>
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <p class="lh-sm text-center">Category 1 to 4 Peer Review Notification (Round #1)</p> 
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <p class="lh-sm text-center" id="pnotif"></p>
+                                    </div>
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <p class="lh-sm text-center">Category 5 Workshop Proposal Review Notification</p>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <p class="lh-sm text-center" id="snotif"></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-                        <hr class="bg_white">
-                        
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
+                    </div>                   
+                </div>
+                <div class="d-none mt-3 finalPaper">
+                    <div class="container-fluid p-4">
+                            <div class= "col text-center p-5 tope rounded-3">
                                 <div class="clearfix">
-                                        <img class="col-3 p-2 rounded float-sm-start img-fluid"
+                                        <img class="col-4 p-2 rounded float-sm-start img-fluid"
                                             src="../images/decoration/finalPaper.jpg"  alt="Final Paper Preparation and Submission Image">
                                     <h4 class="fw-bold">Final Paper Preparation and Submission</h4>
                                     <p class="fs-6 mb-4"> <b>All accepted papers</b> undergo a <b>second review</b> by the EDUNINE Program Committee before final acceptance.</p>
                                     <p class="fs-6 mb-4"><b>Conditionally accepted papers</b> have an earlier deadline and may be resubmitted multiple times for additional review rounds, allowing authors to address required improvements and reduce the risk of rejection. Following each submission of your final paper, you'll receive a summary via email detailing the review process conducted in line with the Final Paper Guidelines.</p>
-                                    <p class="fs-6 mb-4">Regardless of acceptance type, all final papers must be submitted before the second review deadline. A final paper must fully comply with IEEE standards in terms of content, scope, English language quality, formatting (according to the provided templates), PDF creation through PDF eXpress, and copyright transfer to IEEE. Papers that do not meet these requirements will be rejected and cannot be published in IEEE Xplore. Prioritize the originality and plagiarism-free nature of your paper by utilizing a plagiarism checker. Once the copyright transfer is finalized and the paper clears all checks, it undergoes evaluation by IEEECrossCheck. For detailed guidelines on preparing your final paper, please click the link below.</p>
-                                    <p class="mb-0"><a href="finalInformation.php" class="border-white btn btn-primary btn-sm" role="button">Final Paper Preparation and Submission</a>
+                                    <p class="fs-6 mb-4">All final papers, regardless of acceptance type, must be submitted before the second review deadline and meet all IEEE requirements: content, scope, English quality, formatting (with templates), PDF via PDF eXpress, and copyright transfer. Papers that don't comply will be rejected and excluded from IEEE Xplore. Ensure originality using a plagiarism checker. After copyright transfer and checks, papers are reviewed by IEEECrossCheck. For full guidelines, see the link below.</p>
+                                    <p class="mb-0"><a href="finalInformation.php" class="btn btn-primary btn-sm" role="button">Final Paper Preparation and Submission</a>
                                 </div>
                                 <div class="container-fluid mt-2">
                                     <div class="row">
@@ -281,127 +281,127 @@
                                 </div>
                             </div>
                         </div>
-                    
-                        <hr class="bg_white">
-                        
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
-                                <div class="clearfix">
-                                        <img class="col-3 p-2 rounded float-sm-start img-fluid"
-                                        src="../images/decoration/notiFinalReview.jpg"   alt="Notification Second Review Image">
-                                    <h4 class="fw-bold">Notification of Second Review</h4>
-                                    <p class="fs-6 mb-4"> You'll receive a summary via email detailing the second review process conducted in line with the Final Paper Preparation Guidelines. This review will ensure compliance with quality standards for content, English, and format, as well as alignment of Paper uploaded information with the final paper, proper PDF generation through PDFeXpress, and successful completion of the copyright transfer.  Once the copyright transfer is finalized and the paper clears all checks, it undergoes evaluation by IEEECrossCheck. Final Papers Papers that do not meet these requirements will be rejected and cannot be published in IEEE Xplore. </p>
-                                    
-                                </div>
-                                <div class="container-fluid mt-2">
-                                    <div class="row">
+                </div>
+                <div class="d-none mt-3 notificationReview">
+                    <div class="container-fluid p-4">
+                        <div class= "col text-center p-5 tope rounded-3">
+                            <div class="clearfix">
+                                <img class="col-3 p-2 rounded float-sm-start img-fluid"
+                                src="../images/decoration/notiFinalReview.jpg"   alt="Notification Second Review Image">
+                                <h4 class="fw-bold pb-4">Notification of Second Review</h4>
+                                <p class="fs-6 mb-4"> You'll receive a summary via email detailing the second review process conducted in line with the Final Paper Preparation Guidelines. This review will ensure compliance with quality standards for content, English, and format, as well as alignment of Paper uploaded information with the final paper, proper PDF generation through PDFeXpress, and successful completion of the copyright transfer.  Once the copyright transfer is finalized and the paper clears all checks, it undergoes evaluation by IEEECrossCheck. Final Papers Papers that do not meet these requirements will be rejected and cannot be published in IEEE Xplore. </p>                                   
+                            </div>
+                            <div class="container-fluid mt-2">
+                                <div class="row">
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <h4 class="text-center">Event</h4>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <h4 class="text-center">Due Date</h4>
+                                    </div>
                                         <div class="col-9 bg-light border text-secondary">
-                                            <h4 class="text-center">Event</h4>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <h4 class="text-center">Due Date</h4>
-                                        </div>
-                                            <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Notification of Second review of  Categories 1-4 papers (Round #2)</p> 
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id="pfnotif"></p>
-                                        </div>
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Notification of Final Workshop Acceptance</p>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id="sfnotif"></p>
-                                        </div>
+                                        <p class="lh-sm text-center">Notification of Second review of  Categories 1-4 papers (Round #2)</p> 
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <p class="lh-sm text-center" id="pfnotif"></p>
+                                    </div>
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <p class="lh-sm text-center">Notification of Final Workshop Acceptance</p>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <p class="lh-sm text-center" id="sfnotif"></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <hr class="bg_white">
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
-                                <div class="clearfix">
-                                    <img class="col-3 p-2 rounded float-sm-start img-fluid"
-                                    src="../images/decoration/registration.jpg"  alt="Registration Process Image">                                                <h4 class="fw-bold">Author and Participants (non-authors) Registration</h4>
-                                    <p class="fs-6 mb-4">Attention <b>Authors</b>: To ensure your accepted final paper is published in the <b>IEEE Xplore®</b> digital library (please note that IEEE reserves the right to reject papers not meeting standards), registration and oral presentation at the conference are mandatory. Each author registration permits the presentation and publication of one paper, with the option to include an additional paper for an extra publication fee. Unpresented accepted papers cannot be submitted for publication in <b>IEEE Xplore®</b>.</p>
-                                    <p class="fs-6 mb-4"><br>For <b>Authors</b> and <b>Participants (non-authors)</b>: Registration grants access to all conference sessions, workshops, tours, and other activities, both online and in-person. After the conference, certificates for participation and paper presentation will be issued. Registration fees vary based on Early, Normal, or Late deadlines. Payment options include credit card (PayPal) in Euros or bank transfer in Euros or U.S. Dollars. Registration will be provided post-acceptance notification. For further details, click the button below.</p>
-                                    <p class="mb-0"><a href="fees.php" class="border-white btn btn-primary btn-sm" role="button">Registration and Payment (Authors and Participants)</a> 
-                                    </p> 
-                                </div>
-                                <div class="container-fluid mt-2">
-                                    <div class="row">
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <h4 class="text-center">Event</h4>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <h4 class="text-center">Due Date</h4>
-                                        </div>
-                                            <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Early Registration and Payment</p>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id="reg1"></p>
-                                        </div>
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Normal Registration and Payment</p>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id ="reg2"></p>
-                                        </div>
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Late Registration and Payment</p>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id ="reg3"></p>
-                                        </div>
+                    </div>
+                </div>
+                <div class="d-none mt-3 authorParticipantRegistration">
+                    <div class="container-fluid p-4">
+                        <div class= "col text-center p-5 tope rounded-3">
+                            <div class="clearfix">
+                                <img class="col-4 p-2 rounded float-sm-start img-fluid"
+                                src="../images/decoration/registration.jpg"  alt="Registration Process Image">                                                <h4 class="fw-bold">Author and Participants (non-authors) Registration</h4>
+                                <p class="fs-6 mb-4">Attention <b>Authors</b>: To ensure your accepted final paper is published in the <b>IEEE Xplore®</b> digital library (please note that IEEE reserves the right to reject papers not meeting standards), registration and oral presentation at the conference are mandatory. Each author registration permits the presentation and publication of one paper, with the option to include an additional paper for an extra publication fee. Unpresented accepted papers cannot be submitted for publication in <b>IEEE Xplore®</b>.</p>
+                                <p class="fs-6 mb-4"><br>For <b>Authors</b> and <b>Participants (non-authors)</b>: Registration grants access to all conference sessions, workshops, tours, and other activities, both online and in-person. After the conference, certificates for participation and paper presentation will be issued. Registration fees vary based on Early, Normal, or Late deadlines. Payment options include credit card (PayPal) in Euros or bank transfer in Euros or U.S. Dollars. Registration will be provided post-acceptance notification. For further details, click the button below.</p>
+                                <p class="mb-0"><a href="fees.php" class="btn btn-primary btn-sm" role="button">Registration and Payment (Authors and Participants)</a> 
+                                </p> 
+                            </div>
+                            <div class="container-fluid mt-2">
+                                <div class="row">
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <h4 class="text-center">Event</h4>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <h4 class="text-center">Due Date</h4>
+                                    </div>
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <p class="lh-sm text-center">Early Registration and Payment</p>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <p class="lh-sm text-center" id="reg1"></p>
+                                    </div>
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <p class="lh-sm text-center">Normal Registration and Payment</p>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <p class="lh-sm text-center" id ="reg2"></p>
+                                    </div>
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <p class="lh-sm text-center">Late Registration and Payment</p>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <p class="lh-sm text-center" id ="reg3"></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                            <hr class="bg_white">
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
+                    </div>
+                </div>
+                <div class="d-none mt-3 presentationChairInfo">
+                    <div class="container-fluid p-4">
+                            <div class= "col text-center p-5 tope rounded-3">
                                 <div class="clearfix">
-                                    <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/sessionPresentation.jpg"  alt="Paper Presentation Guidelines Image">                          <h4 class="fw-bold">Presentation Guidelines & Session Chair Opportunities</h4>
+                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/sessionPresentation.jpg"  alt="Paper Presentation Guidelines Image">                          <h4 class="fw-bold">Presentation Guidelines & Session Chair Opportunities</h4>
                                     <p class="fs-6 mb-4">We invite all authors to carefully review the Paper Presentation Guidelines to ensure a smooth and successful participation in the conference. The guidelines include important information on timing, format (in-person or virtual), and technical requirements for your session.</p>
                                     <p class="fs-6 mb-4">In addition, if you are interested in serving as a Session Chair for the technical session in which your paper is scheduled, we welcome your involvement! This is a great opportunity to contribute to the conference community by helping facilitate presentations and discussions.</p>
                                     <p class="fs-6 mb-4">Please consult the guidelines and indicate your interest in chairing by following the instructions provided in the links below:</p>
-                                    <p class="mb-0"><a href="techSession.php" class="border-white btn btn-primary btn-sm" role="button">Paper Presentation Guidelines</a> 
-                                    <a href="techSession.php?id=chair" class="border-white btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
+                                    <p class="mb-0"><a href="techSession.php" class="btn btn-primary btn-sm me-2" role="button">Paper Presentation Guidelines</a> 
+                                    <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
                                     </p>                                                           </div>
-                                <div class="container-fluid mt-2">
-                                    <div class="row">
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <h4 class="text-center">Event</h4>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <h4 class="text-center">Due Date</h4>
-                                        </div>
+                                    <div class="container-fluid mt-2">
+                                        <div class="row">
                                             <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Notify your interest in serving as technical session chair</p>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id="chair"></p>
+                                                <h4 class="text-center">Event</h4>
+                                            </div>
+                                            <div class="col-3 bg-light border text-secondary">
+                                                <h4 class="text-center">Due Date</h4>
+                                            </div>
+                                            <div class="col-9 bg-light border text-secondary">
+                                                <p class="lh-sm text-center">Notify your interest in serving as technical session chair</p>
+                                            </div>
+                                            <div class="col-3 bg-light border text-secondary">
+                                                <p class="lh-sm text-center" id="chair"></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        
-                        <hr class="bg_white">
-                        
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
+                    </div>
+                </div>
+                <div class="d-none mt-3 hybridConference">
+                    <div class="container-fluid p-4">
+                            <div class= "col text-center p-5 tope rounded-3">
                                 <div class="clearfix">
                                     <img class="col-3 p-2 rounded float-sm-start img-fluid" 
                                     src="../images/decoration/conference.jpg" alt="Conference  Image">                                 <h4 class="fw-bold">Hybrid Conference</h4>
-                                        <p class="fs-6 mb-4">Welcome to our conference! Alongside our exciting lineup of dates, we're thrilled to offer a diverse array of activities to enhance your experience. Click the buttons below to access the conference program (a detailed agenda will be available after registration), where you'll find detailed information on sessions and activities. Dive deeper into our pre-conference workshops for valuable insights and knowledge sharing. Plus, don't miss out on our pre-conference cultural immersion tour, a unique opportunity to explore and engage with the local culture. Get ready for an enriching and unforgettable event!</p>
-                                <p class="mb-0"> <a href="program.php?id=tour" class="border-white btn btn-primary btn-sm" role="button">Pre-conference Tour Program</a></p>
-                                <p> <a href="workshops.php?id=pcworkshops" class="border-white btn btn-primary btn-sm" role="button">Online Pre-conference Workshops Program</a> 
-                                    <a href="program.php?id=program" class="border-white btn btn-primary btn-sm" role="button">Conference Program</a>
-                                    <a href="program.php?id=awards" class="border-white btn btn-primary btn-sm" role="button">Conference Awards</a></p>
-                                    <p class="mb-0"><a href="techSession.php" class="border-white btn btn-primary btn-sm" role="button">Paper Presentation Guidelines</a> 
-                                        <a href="techSession.php?id=chair" class="border-white btn btn-primary btn-sm" role="button">Session Chair Guidelines</a></p>                                                           </div>
+                                    <p class="fs-6 mb-4">Welcome to our conference! Alongside our exciting lineup of dates, we're thrilled to offer a diverse array of activities to enhance your experience. Click the buttons below to access the conference program (a detailed agenda will be available after registration), where you'll find detailed information on sessions and activities. Dive deeper into our pre-conference workshops for valuable insights and knowledge sharing. Plus, don't miss out on our pre-conference cultural immersion tour, a unique opportunity to explore and engage with the local culture. Get ready for an enriching and unforgettable event!</p>
+                                    <p class="mb-0"> <a href="program.php?id=tour" class="btn btn-primary btn-sm me-2" role="button">Pre-conference Tour Program</a></p>
+                                    <p> <a href="workshops.php?id=pcworkshops" class="btn btn-primary btn-sm me-2" role="button">Online Pre-conference Workshops Program</a> 
+                                    <a href="program.php?id=program" class="btn btn-primary btn-sm me-2" role="button">Conference Program</a>
+                                    <a href="program.php?id=awards" class="btn btn-primary btn-sm me-2" role="button">Conference Awards</a></p>
+                                    <p class="mb-0"><a href="techSession.php" class="btn btn-primary btn-sm me-2" role="button">Paper Presentation Guidelines</a> 
+                                    <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a></p>                                                           </div>
                                 <div class="container-fluid mt-2">
                                     <div class="row">
                                         <div class="col-9 bg-light border text-secondary">
@@ -437,37 +437,36 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <hr class="bg_white">
-                    
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
-                                <div class="clearfix">
-                                        <img class="col-3 p-2 rounded float-sm-start img-fluid" 
-                                        src="../images/decoration/postConference.jpg" alt="Final Paper Submission Process Image">                                <h4 class="fw-bold">Post Conference Products</h4>
-                                        <p class="fs-6 mb-4"> Estimated Date of Post-Conference Products: Includes the publication of conference proceedings and issuance of author and participant certificates of participation.</p>
-                                    <p class="mb-0"><a href="postConf.php" class="border-white btn btn-primary btn-sm" role="button">Post Conference Products</a></p>
-                                                            </div>
-                                <div class="container-fluid mt-2">
-                                    <div class="row">
-                                        <div class="col-9 bg-light border text-secondary">
-                                            <h4 class="text-center">Event</h4>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <h4 class="text-center">Due Date</h4>
-                                        </div>
-                                            <div class="col-9 bg-light border text-secondary">
-                                            <p class="lh-sm text-center">Certificates have been sent, and the EDUNINE 2026 Proceedings have been submitted to IEEE Xplore for publication consideration</p>
-                                        </div>
-                                        <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id="postCongress"></p>
-                                        </div>
+                    </div>
+                </div>
+                <div class="d-none mt-3 postConference">
+                    <div class="container-fluid p-4">
+                        <div class= "col text-center p-5 tope rounded-3">
+                            <div class="clearfix">
+                                <img class="col-3 p-2 rounded float-sm-start img-fluid" 
+                                    src="../images/decoration/postConference.jpg" alt="Final Paper Submission Process Image">                                <h4 class="fw-bold">Post Conference Products</h4>
+                                    <p class="fs-6 mb-4"> Estimated Date of Post-Conference Products: Includes the publication of conference proceedings and issuance of author and participant certificates of participation.</p>
+                                    <p class="mb-0"><a href="postConf.php" class="btn btn-primary btn-sm" role="button">Post Conference Products</a></p>
+                            </div>
+                            <div class="container-fluid mt-2">
+                                <div class="row">
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <h4 class="text-center">Event</h4>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <h4 class="text-center">Due Date</h4>
+                                    </div>
+                                    <div class="col-9 bg-light border text-secondary">
+                                        <p class="lh-sm text-center">Certificates have been sent, and the EDUNINE 2026 Proceedings have been submitted to IEEE Xplore for publication consideration</p>
+                                    </div>
+                                    <div class="col-3 bg-light border text-secondary">
+                                        <p class="lh-sm text-center" id="postCongress"></p>
                                     </div>
                                 </div>
                             </div>
-                        </div>       
+                        </div>
                     </div>
-                </div>            -->
+                </div>
             </section> 
     <!-- Coordinators section -->
     <!-- <section id="coordinators">
@@ -823,6 +822,7 @@
 <script src ="../js/datesFill.js?1"></script>
 <script src ="../js/readmorereadless.js"></script>
 <script src ="../js/backTop.js"></script>      
+<script src="../js/scheduleSection.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
