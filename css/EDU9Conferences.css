@@ -245,7 +245,7 @@ section {
     /* margin-right: 15%; */
     /* margin-left: 15%; */
     background-color: inherit;
-    padding-top: 110px;
+    padding-top: 50px;
     /*padding-bottom: 50px; */
 }
 
@@ -422,6 +422,11 @@ ul.breadcrumb li a:hover {
 }
 .btn-schdule-style {
     padding-bottom: 6px;
+}
+.btn-active {
+    background-color: #336699;
+    border-color: white;
+    color: white;
 }
 
 

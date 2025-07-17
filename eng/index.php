@@ -135,7 +135,7 @@
                 <div class="container-fluid px-5 pb-3">
                     <div class="row g-5"> 
                         <div class="col d-flex justify-content-center flex-wrap gap-3 btn-schdule-style"> 
-                            <button type="button" class="btn btn-primary schedule-btn " id="showContentBtn">
+                            <button type="button" class="btn btn-primary schedule-btn btn-active" id="showContentBtn">
                                 Paper Submission Guide </button>                           
                             <button type="button" class="btn btn-primary schedule-btn" id="peerReview">
                                 Peer Review Outcome
@@ -166,7 +166,7 @@
                     </div> 
                 </div> 
                 <!-- TABLAS DE CONTENIDOS -->
-                <div class="d-none mt-3 showContentBtn">
+                <div class="mt-3 showContentBtn">
                     <div class="container-fluid p-4">
                             <div class= "col text-center p-5 tope rounded-3">
                                 <div class="clearfix">
