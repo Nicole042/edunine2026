@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-/* EXPLANATION of EACH LINE in Css
-
 /*Show it is fixed to the top */
 body {
     min-height: 75rem;
@@ -209,15 +207,19 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
     left: -14px;
 }
 @media only screen and (max-width: 1240px) {
+    /*Using percentages may avoid centering
+    This is key*/
     .container {
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: 0 auto;
+        margin-left: 0 auto;
     }
+
     .iconHeight {
         height: 80px;
         width: 116px; 
     }
 }
+
 /* Small devices (tablets, 768px and up) */
 @media only screen and (max-width: 810px) 
 /*and (max-width: 1199.98px)*/
@@ -306,7 +308,11 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
     .iconHeight {
     height: 60px;
     width: 87px;
-}
+    }
+
+    .container-menu{
+        width: auto;
+    }
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -569,8 +575,8 @@ footer {
 
 /* Language dropdown menu positioning */
 .dropdown-menu-end {
-    right: 0 !important;
-    left: auto !important;
+    right: 0 ;
+    left: auto ;
 }
 
 /* Media query for tablets and smaller devices */
@@ -586,10 +592,10 @@ footer {
     
     /* Ensure dropdown menu doesn't overflow on smaller screens */
     .dropdown-menu-end {
-        right: 0 !important;
-        left: auto !important;
-        min-width: 150px;
-        max-width: 200px;
+        right: 0 ;
+        left: auto ;
+        min-width: 100px;
+        max-width: 150px;
     }
     
     .dropdown-item {
@@ -604,7 +610,7 @@ footer {
     /*2*/
     /* Fix for navbar container responsiveness */
     .pe-1000 {
-        padding-right: 1rem !important;
+        padding-right: 1rem ;
     }  
 }
 
@@ -618,7 +624,7 @@ footer {
     }
     
     #languageDropdown .me-2 {
-        margin-right: 4px !important;
+        margin-right: 4px ;
     }
     
     #languageDropdown img {
@@ -626,8 +632,8 @@ footer {
     }
     
     .dropdown-menu-end {
-        right: 0 !important;
-        left: auto !important;
+        right: 0 ;
+        left: auto ;
         min-width: 120px;
         max-width: 160px;
         margin-top: 2px;
@@ -643,12 +649,12 @@ footer {
     }
     
     .dropdown-item .me-2 {
-        margin-right: 4px !important;
+        margin-right: 4px ;
     }
 
     /*2*/
     .pe-1000 {
-        padding-right: 0.5rem !important;
+        padding-right: 0.5rem ;
     }
 }
 
@@ -689,10 +695,9 @@ footer {
     }
     
     /* Improve language dropdown positioning on mobile */
-    .dropdown-menu-end {
-        transform: translateX(-50%) !important;
-        right: 50% !important;
-        left: auto !important;
+    .dropdown-menu-end {  
+        right: auto;
+        left: auto;
     }
     
     /* Make sure language dropdown doesn't get cut off */
@@ -702,7 +707,7 @@ footer {
     
     .navbar .dropdown .dropdown-menu {
         position: absolute;
-        right: 0;
+        right: auto;
         left: auto;
         z-index: 1050;
     }
@@ -716,7 +721,7 @@ footer {
     }
     
     .pe-1000 {
-        padding-right: 0 !important;
+        padding-right: 0 ;
     }
     
     #languageDropdown {
@@ -747,7 +752,7 @@ footer {
 /* Option C: Adjust the parent container alignment */
 /*
 .d-flex.align-items-center.flex-wrap {
-    align-items: flex-end !important;
+    align-items: flex-end ;
 }
 */
 

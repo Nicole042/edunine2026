@@ -182,6 +182,12 @@ body {   /* fixed to the top */
     /*   min-height: 75rem; */
 }
 
+/* Prevent horizontal scroll Susan did to prevent horisontal scrolling*/
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 /* HOME SECTION STYLES */
 
 main {
@@ -250,20 +256,20 @@ section {
     /*padding-bottom: 50px; */
 }
 
-/*The padding of About the Conference and Home > About has been solved.*/
+ /*margin not managed with porcentages*/
 section.primera {
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 0 auto;
+    margin-left: 0 15px;
     background-color: inherit;
-    padding-top: 0px;
+    padding-top: 10px;
 }
-
 section.inicial {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 0 auto;
+    margin-left: 0 15px;
     background-color: inherit;
     padding-top: 135px;
 }
+
 
 .espacio {
     margin-right: 0%;
@@ -804,16 +810,6 @@ button:focus {
     color: #1259aa; 
 }
 
-/**/
-/* Remove horizontal padding/gutter from all Bootstrap rows and containers */
-.container,
-.container-fluid,
-.row {
-  padding-left: 0 !important;
-  padding-right: 1 !important;
-  --bs-gutter-x: 0 !important;
-}
-
 /*////////////////////////////////////////////////////////*/
 /* Susan PART II*/
 /*////////////////////////////////////////////////////////*/
@@ -916,31 +912,6 @@ button:focus {
 /* END SLICK FOR ORGANIZERS */
 
 
-/* ====================================
-   LAYOUT AND RESPONSIVE FIXES
-   ==================================== */
-
-/* Prevent horizontal scroll */
-html, body {
-    overflow-x: hidden;
-    max-width: 100%;
-}
-
-.container-fluid {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.row {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.hstack {
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
 /* Fix Slick carousel padding issues */
 .coordinators-slider {
     margin: 0;
@@ -988,15 +959,16 @@ html, body {
         height: 780px;
     }
     
+    /*margin not managed with porcentages*/
     section.primera {
-        margin-right: 15%;
-        margin-left: 15%;
+        margin-right: 0 auto;
+        margin-left: 0 15px;
         background-color: inherit;
         padding-top: 10px;
     }
     section.inicial {
-        margin-right: 15%;
-        margin-left: 15%;
+        margin-right: 0 auto;
+        margin-left: 0 15px;
         background-color: inherit;
         padding-top: 135px;
     }
@@ -1015,7 +987,7 @@ html, body {
     }
 }
 
-@media (min-width: 1140px) {
+@media (max-width: 1140px) {
     .horizontal-timeline .items .items-list {
         display: inline-block;
         width: 24%;
@@ -1037,6 +1009,19 @@ html, body {
     .section-nav .nav-link:hover {
     font-weight: bold;
     color: #2e5897; /* blue text instead of background */
+    }
+
+    section.primera {
+        margin-right: 0 auto;
+        margin-left: 0 15px;
+        background-color: inherit;
+        padding-top: 10px;
+    }
+    section.inicial {
+        margin-right: 0 auto;
+        margin-left: 0 15px;
+        background-color: inherit;
+        padding-top: 135px;
     }
 }
 
@@ -1182,6 +1167,26 @@ html, body {
     font-weight: bold;
     color: #2e5897; /* blue text instead of background */
     }
+
+      /*margin not managed with porcentages*/
+    section.primera {
+        margin-right: 0 auto;
+        margin-left: 0px auto;
+        background-color: inherit;
+        padding-top: 10px;
+    }
+    section.inicial {
+        margin-right: 0 auto;
+        margin-left: 0px auto;
+        background-color: inherit;
+        padding-top: 135px;
+    }
+
+    /*For centering the carousel*/
+    .coordinators-slider {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 350px) {
 
@@ -1205,6 +1210,21 @@ html, body {
     font-weight: bold;
     color: #2e5897; /* blue text instead of background */
     }
+
+     /*margin not managed with porcentages*/
+    section.primera {
+        margin-right: 0 auto;
+        margin-left: 0px auto;
+        background-color: inherit;
+        padding-top: 10px;
+    }
+    section.inicial {
+        margin-right: 0 auto;
+        margin-left: 0px auto;
+        background-color: inherit;
+        padding-top: 135px;
+    }
+
 }
 
 

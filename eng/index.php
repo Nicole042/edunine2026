@@ -862,75 +862,7 @@
         </div>
     </section>  -->
     <!-- Organization section -->
-    <section id="org">
-        <div class="container-fluid align-content-start py-0">
-            <ul class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
-                <li>Organizational_Institutions</li>
-            </ul> 
-        </div>
-        <div class="container-fluid py-5">
-            <div class="row">
-                <div class="col-lg-12 text-sm-left">
-                    <h2 class="display-5 fw-bold">Organizational Institutions</h2>
-                    <p>We are honored to introduce the esteemed institutions that form the backbone of our organization.</p>
-                </div>
-            </div>
-            <div class="py-2 border rounded-5 bg-light">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 justify-content-center">
-                        <div class="col-sm-4 card person bg-transparent small text-center text-muted">
-                            <div class="card-body d-flex flex-column">                                    
-                                <img class="img-fluid card-img-center" src="../images/logos_special/IEEE_EdSocT.png" alt="IEEE EdSoc">             
-                                <div class="card-title"><h6><strong>SPONSOR</strong></h6></div>
-                                <div class="card-link"><a href="http://ieee-edusociety.org/">IEEE Education Society</a></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 card person bg-transparent small text-center text-muted">
-                            <div class="card-body d-flex flex-column"> 
-                                <img class="img-fluid card-img-center" src="../images/logos_special/logo_copecT.png" alt="COPEC">
-                                <div class="card-title"><h6><strong>SPONSOR & ORGANIZER</strong></h6></div> 
-                                <div class="card-link"><a href="http://www.copec.eu/">Science and Research Organization</a></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 card person bg-transparent small text-center text-muted">
-                            <div class="card-body d-flex flex-column"> 
-                                <img class="img-fluid card-img-center" src="../images/logos_special/logo_Tec2T.png" alt="Tecnológico de Monterrey" >
-                                <div class="card-title"><h6><strong>HOST</strong></h6></div> 
-                                <div class="card-link"><a href="https://tec.mx/en/">Tecnológico de Monterrey</a></div>
-                            </div>
-                        </div>
-                    </div>
-                <br />  
-                    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-2 justify-content-center">
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://iieducation.eu/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_iieT.png" alt="logo IIEducation" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://confedi.org.ar/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_confediT.png" alt="logo CONFEDI" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="http://www.asibei.net/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_asibeiT.png"  alt="logo ASIBEI" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://www.up.edu.pe/la-universidad">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_UPT.png"  alt="logo UP" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://www.galileo.edu/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_UGalileoT.png"  alt="logo U. Galileo" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://www.ufasta.edu.ar/ingenieria/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_FI_UFASTAT.png"  alt="logo FI_UFASTA" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> 
-        </main>
+    </main>
 
 <!-- Footer section -->
 <div class ="container-fluid">
