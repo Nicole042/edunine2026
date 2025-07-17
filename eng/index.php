@@ -173,11 +173,12 @@
                                         <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperComposition.jpg"  alt="Manuscript Composition and Submission"> 
                                     <h4 class="fw-bold">Composing your Conference Paper and Submission</h4>
                                     <p class="fs-6 mb-4"> Find key information on paper categories, formatting, themes, standards, and templates. Submit your original, unpublished work as a Full Paper, Work-in-Progress, Workshop Proposal, or Doctoral Symposium Paper. All submissions must be in English. Explore the links below for detailed information on submission categories, formatting guidelines, templates, and quality standards. Important deadlines for the paper categories are also listed. Be sure to review all requirements before submitting your work.</p>
-                                    <p class="mb-0">
+                                    <div class="d-flex flex-wrap gap-2 justify-content-center pb-3">
                                         <a href="doc/cfp.pdf" class="btn btn-primary btn-sm me-2" role="button">Call for Papers</a>
                                         <a href="information.php" class="btn btn-primary btn-sm me-2" role="button">Composing your Paper</a>
                                         <a href="information.php?id=suitable" class="btn btn-primary btn-sm me-2" role="button">Topics</a>
-                                        <a href="information.php?id=submission" class="btn btn-primary btn-sm" role="button">Paper Submission</a></p> 
+                                        <a href="information.php?id=submission" class="btn btn-primary btn-sm" role="button">Paper Submission</a>
+                                    </div> 
                                 </div>
                                 <div class="container-fluid mt-2">
                                     <div class="row">
@@ -212,7 +213,9 @@
                                 <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerReview.jpg"  alt="Peer-Review Notification"> 
                                 <h4 class="fw-bold">Peer Review Notification and Conditional Acceptance</h4>
                                 <p class="fs-6 mb-4"> All submissions undergo <b>prescreening for scope and formatting</b>. Papers accepted after peer review must meet IEEE standards. <b>Conditionally accepted papers</b> require authors' improvements, resubmission and are subject to a second review by the Technical Program Committee (TPC) before final acceptance. Click below to learn more about the EDUNINE peer review process. The deadlines are also listed.</p>
-                                <p class="mb-0 pb-3"><a href="reviewNotif.php" class="btn btn-primary btn-sm" role="button">Peer Review Process Notification</a>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center pb-3">
+                                    <a href="reviewNotif.php" class="btn btn-primary btn-sm" role="button">Peer Review Process Notification</a>
+                                </div>   
                             </div>
                             <div class="container-fluid mt-2">
                                 <div class="row">
@@ -249,7 +252,9 @@
                                     <p class="fs-6 mb-4"> <b>All accepted papers</b> undergo a <b>second review</b> by the EDUNINE Program Committee before final acceptance.</p>
                                     <p class="fs-6 mb-4"><b>Conditionally accepted papers</b> have an earlier deadline and may be resubmitted multiple times for additional review rounds, allowing authors to address required improvements and reduce the risk of rejection. Following each submission of your final paper, you'll receive a summary via email detailing the review process conducted in line with the Final Paper Guidelines.</p>
                                     <p class="fs-6 mb-4">All final papers, regardless of acceptance type, must be submitted before the second review deadline and meet all IEEE requirements: content, scope, English quality, formatting (with templates), PDF via PDF eXpress, and copyright transfer. Papers that don't comply will be rejected and excluded from IEEE Xplore. Ensure originality using a plagiarism checker. After copyright transfer and checks, papers are reviewed by IEEECrossCheck. For full guidelines, see the link below.</p>
-                                    <p class="mb-0"><a href="finalInformation.php" class="btn btn-primary btn-sm" role="button">Final Paper Preparation and Submission</a>
+                                    <div class="d-flex flex-wrap gap-2 justify-content-center pb-3">
+                                        <a href="finalInformation.php" class="btn btn-primary btn-sm" role="button">Final Paper Preparation and Submission</a>
+                                    </div>                     
                                 </div>
                                 <div class="container-fluid mt-2">
                                     <div class="row">
@@ -324,8 +329,9 @@
                                 src="../images/decoration/registration.jpg"  alt="Registration Process Image">                                                <h4 class="fw-bold">Author and Participants (non-authors) Registration</h4>
                                 <p class="fs-6 mb-4">Attention <b>Authors</b>: To ensure your accepted final paper is published in the <b>IEEE Xplore®</b> digital library (please note that IEEE reserves the right to reject papers not meeting standards), registration and oral presentation at the conference are mandatory. Each author registration permits the presentation and publication of one paper, with the option to include an additional paper for an extra publication fee. Unpresented accepted papers cannot be submitted for publication in <b>IEEE Xplore®</b>.</p>
                                 <p class="fs-6 mb-4"><br>For <b>Authors</b> and <b>Participants (non-authors)</b>: Registration grants access to all conference sessions, workshops, tours, and other activities, both online and in-person. After the conference, certificates for participation and paper presentation will be issued. Registration fees vary based on Early, Normal, or Late deadlines. Payment options include credit card (PayPal) in Euros or bank transfer in Euros or U.S. Dollars. Registration will be provided post-acceptance notification. For further details, click the button below.</p>
-                                <p class="mb-0"><a href="fees.php" class="btn btn-primary btn-sm" role="button">Registration and Payment (Authors and Participants)</a> 
-                                </p> 
+                                <div class="d-flex flex-wrap gap-2 justify-content-center pb-3">
+                                    <a href="fees.php" class="btn btn-primary btn-sm" role="button">Registration and Payment (Authors and Participants)</a> 
+                                </div>
                             </div>
                             <div class="container-fluid mt-2">
                                 <div class="row">
@@ -362,13 +368,15 @@
                     <div class="container-fluid p-4">
                             <div class= "col text-center p-5 tope rounded-3">
                                 <div class="clearfix">
-                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/sessionPresentation.jpg"  alt="Paper Presentation Guidelines Image">                          <h4 class="fw-bold">Presentation Guidelines & Session Chair Opportunities</h4>
+                                    <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/sessionPresentation.jpg"  alt="Paper Presentation Guidelines Image">                          <h4 class="fw-bold">Presentation Guidelines & Session Chair Opportunities</h4>
                                     <p class="fs-6 mb-4">We invite all authors to carefully review the Paper Presentation Guidelines to ensure a smooth and successful participation in the conference. The guidelines include important information on timing, format (in-person or virtual), and technical requirements for your session.</p>
                                     <p class="fs-6 mb-4">In addition, if you are interested in serving as a Session Chair for the technical session in which your paper is scheduled, we welcome your involvement! This is a great opportunity to contribute to the conference community by helping facilitate presentations and discussions.</p>
                                     <p class="fs-6 mb-4">Please consult the guidelines and indicate your interest in chairing by following the instructions provided in the links below:</p>
-                                    <p class="mb-0"><a href="techSession.php" class="btn btn-primary btn-sm me-2" role="button">Paper Presentation Guidelines</a> 
-                                    <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
-                                    </p>                                                           </div>
+                                    <div class="d-flex flex-wrap gap-2 justify-content-center pb-3">
+                                        <a href="techSession.php" class="btn btn-primary btn-sm me-2" role="button">Paper Presentation Guidelines</a> 
+                                        <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
+                                    </div>                                                          
+                                </div>
                                     <div class="container-fluid mt-2">
                                         <div class="row">
                                             <div class="col-9 bg-light border text-secondary">
@@ -396,12 +404,15 @@
                                     <img class="col-3 p-2 rounded float-sm-start img-fluid" 
                                     src="../images/decoration/conference.jpg" alt="Conference  Image">                                 <h4 class="fw-bold">Hybrid Conference</h4>
                                     <p class="fs-6 mb-4">Welcome to our conference! Alongside our exciting lineup of dates, we're thrilled to offer a diverse array of activities to enhance your experience. Click the buttons below to access the conference program (a detailed agenda will be available after registration), where you'll find detailed information on sessions and activities. Dive deeper into our pre-conference workshops for valuable insights and knowledge sharing. Plus, don't miss out on our pre-conference cultural immersion tour, a unique opportunity to explore and engage with the local culture. Get ready for an enriching and unforgettable event!</p>
-                                    <p class="mb-0"> <a href="program.php?id=tour" class="btn btn-primary btn-sm me-2" role="button">Pre-conference Tour Program</a></p>
-                                    <p> <a href="workshops.php?id=pcworkshops" class="btn btn-primary btn-sm me-2" role="button">Online Pre-conference Workshops Program</a> 
-                                    <a href="program.php?id=program" class="btn btn-primary btn-sm me-2" role="button">Conference Program</a>
-                                    <a href="program.php?id=awards" class="btn btn-primary btn-sm me-2" role="button">Conference Awards</a></p>
-                                    <p class="mb-0"><a href="techSession.php" class="btn btn-primary btn-sm me-2" role="button">Paper Presentation Guidelines</a> 
-                                    <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a></p>                                                           </div>
+                                    <div class="d-flex flex-wrap gap-2 justify-content-center pb-3"> 
+                                        <a href="program.php?id=tour" class="btn btn-primary btn-sm" role="button">Pre-conference Tour Program</a>
+                                        <a href="workshops.php?id=pcworkshops" class="btn btn-primary btn-sm me-2" role="button">Online Pre-conference Workshops Program</a> 
+                                        <a href="program.php?id=program" class="btn btn-primary btn-sm me-2" role="button">Conference Program</a>
+                                        <a href="program.php?id=awards" class="btn btn-primary btn-sm me-2" role="button">Conference Awards</a>
+                                        <a href="techSession.php" class="btn btn-primary btn-sm me-2" role="button">Paper Presentation Guidelines</a> 
+                                        <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
+                                    </div>                                                          
+                                </div>
                                 <div class="container-fluid mt-2">
                                     <div class="row">
                                         <div class="col-9 bg-light border text-secondary">
@@ -446,7 +457,9 @@
                                 <img class="col-3 p-2 rounded float-sm-start img-fluid" 
                                     src="../images/decoration/postConference.jpg" alt="Final Paper Submission Process Image">                                <h4 class="fw-bold">Post Conference Products</h4>
                                     <p class="fs-6 mb-4"> Estimated Date of Post-Conference Products: Includes the publication of conference proceedings and issuance of author and participant certificates of participation.</p>
-                                    <p class="mb-0"><a href="postConf.php" class="btn btn-primary btn-sm" role="button">Post Conference Products</a></p>
+                                    <div class="d-flex flex-wrap gap-2 justify-content-center pb-3">
+                                        <a href="postConf.php" class="btn btn-primary btn-sm" role="button">Post Conference Products</a>
+                                    </div>
                             </div>
                             <div class="container-fluid mt-2">
                                 <div class="row">

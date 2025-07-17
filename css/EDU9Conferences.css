@@ -413,7 +413,7 @@ ul.breadcrumb li a:hover {
   border-color: cornflowerblue;     /* nuevo color del borde */
   color: black; 
   border-width: 2px;      
-  border-radius: 15px;        /* texto blanco */
+  border-radius: 15px;       /* texto blanco */
 }
 
 .btn-primary:hover {
@@ -423,7 +423,6 @@ ul.breadcrumb li a:hover {
 .btn-schdule-style {
     padding-bottom: 6px;
 }
-.btn-
 
 
 #myTopBtn:hover {
