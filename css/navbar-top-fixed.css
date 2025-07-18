@@ -227,7 +227,7 @@ body {
           padding: 1rem;
         }
 
-        body {
+         body.menu-open {
           overflow: hidden !important; /* Previene que la página se desplace cuando el menú está abierto */
         }
 
