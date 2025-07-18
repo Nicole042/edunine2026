@@ -777,7 +777,7 @@ jQuery(function($){
     dots: true,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     responsive: [
       { breakpoint: 992, settings: { slidesToShow: 3 } },
       { breakpoint: 768, settings: { slidesToShow: 2 } },
