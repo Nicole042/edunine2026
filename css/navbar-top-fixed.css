@@ -203,6 +203,43 @@ body {
         .right-2::after {
           left: -14px;
         }
+
+          /* Menu colapsado flotante para pantallas pequeñas */
+
+        .navbar-collapse.show {
+          position: fixed !important;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          height: 100vh !important;
+          width: 100vw !important;
+          background-color: white;
+          z-index: 9999;
+          overflow-y: auto;
+          display: flex !important;
+          flex-direction: column;
+          padding-top: 70px; /* para no tapar la navbar */
+        }
+
+      
+        .navbar-collapse.show .nav-link {
+          padding: 1rem;
+        }
+
+        body {
+          overflow: hidden !important; /* Previene que la página se desplace cuando el menú está abierto */
+        }
+
+      .navbar-collapse .container,
+      .navbar-collapse .container-fluid,
+      .navbar-collapse .row {
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        height: 100% !important;
+      }
 }
 
         /* Media queries - Responsive timeline on screens less than 600px wide */
