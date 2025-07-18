@@ -176,7 +176,8 @@
                 <div class="container-fluid text-center py-5">
                     <div class="row">
                         <div class="col-sm-12 ">
-                            <h2 class="display-5 fw-bold">Conference Schedule and Important Dates </h2><p class="fs-5 text-center mx-auto px-5">Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
+                            <h2 class="display-5 fw-bold">Conference Schedule and Important Dates </h2>
+                            <p class="fs-5 text-center mx-auto px-5">Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
                         </div>
                     </div>
                 </div>
@@ -496,7 +497,7 @@
     <!--SECOND OPTION-->
 
     <section id="coordinators">
-        <div class="container py-5">
+        <div class="container">
             <h2 class="display-5 fw-bold text-center mb-4">Coordinators</h2>
             <div class="coordinators-slider">
             <!-- Each .slide is one card / profile 

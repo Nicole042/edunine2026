@@ -822,13 +822,14 @@ button:focus {
 /*Styling Profile Slick Carousel*/
 /* Target the dots’ pseudo-elements */
 
-/*.slick-dots li button:before {
-  width: 12px;           /* make ’em 12×12px squares /
+.slick-dots li button:before {
+  /*width: 12px;           /* make ’em 12×12px squares /
   height: 12px;
   border-radius: 0;      /* remove the circle /
   background-color: #ccc;/* your “inactive” color /
-  content: '';           /* ensure it still shows up /
-}*/
+  content: '';           /* ensure it still shows up */
+  padding-top: 20px;
+}
 
 /* HOVERING OVER AN IMAGE OF THE CONTRIBUTORS */
 .image-hover {
