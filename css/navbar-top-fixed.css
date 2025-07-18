@@ -15,7 +15,7 @@ body {
     background-color: #3399ff;
     color: white;
 }
-.topnav container-fluid{
+.topnav .container-fluid{
     width: 100%;
 }
 
@@ -206,7 +206,7 @@ body {
 
           /* Menu colapsado flotante para pantallas pequeñas */
 
-        .navbar-collapse.show {
+       .navbar-collapse.show {
           position: fixed !important;
           top: 0;
           left: 0;
@@ -214,32 +214,35 @@ body {
           bottom: 0;
           height: 100vh !important;
           width: 100vw !important;
-          background-color: white;
+          background-color: white; /* o rgba(255,255,255,0.97) */
           z-index: 9999;
           overflow-y: auto;
           display: flex !important;
           flex-direction: column;
-          padding-top: 70px; /* para no tapar la navbar */
+          padding-top: 70px;
+        }
+        
+        .navbar-collapse.show > * {
+          flex: 1;
+          width: 100%;
+        }
+        
+        .navbar-collapse .container,
+        .navbar-collapse .container-fluid,
+        .navbar-collapse .row {
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          height: 100% !important;
+        }
+        
+        body.menu-open {
+          overflow: hidden !important;
+          position: relative;
         }
 
-      
-        .navbar-collapse.show .nav-link {
-          padding: 1rem;
-        }
-
-         body.menu-open {
-          overflow: hidden !important; /* Previene que la página se desplace cuando el menú está abierto */
-        }
-
-      .navbar-collapse .container,
-      .navbar-collapse .container-fluid,
-      .navbar-collapse .row {
-        margin: 0 !important;
-        padding: 0 !important;
-        max-width: 100% !important;
-        width: 100% !important;
-        height: 100% !important;
-      }
+    
 }
 
         /* Media queries - Responsive timeline on screens less than 600px wide */
