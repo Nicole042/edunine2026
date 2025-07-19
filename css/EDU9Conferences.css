@@ -1209,8 +1209,6 @@ button:focus {
     .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
     font-size: 0%;
-    border-radius: 1px;
-    padding: 2px 2px;
     }
     .section-nav .nav-link.active,
     .section-nav .nav-link:hover {

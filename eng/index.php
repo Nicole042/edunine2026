@@ -72,7 +72,6 @@
                 </div>
             </section>
                 <!-- About section -->
-                 <!-- PARTE SUSAN INICIO -->
             <!--   
             <section class="primera">
                 <div class="container-fluid align-content-start py-0">
@@ -83,6 +82,7 @@
                 </div>
             -->
 
+            <!-- PARTE SUSAN INICIO -->
             <!-- New proposed breadcrumb -->
                 <nav class="section-nav" aria-label="Section navigation">
                     <ul class="d-flex justify-content-end list-unstyled mb-0">
@@ -487,15 +487,6 @@
         <div class="container">
             <h2 class="display-5 fw-bold text-center mb-4">Coordinators</h2>
             <div class="coordinators-slider">
-            <!-- Each .slide is one card / profile 
-             Only 2 slides here
-            <div class="slide image-hover text-center">
-                <img src="../images/logos_cooperation/logo_sbc.gif" class="img-fluid rounded-circle mb-2" alt="Conference Chair">
-                <h6>José Martín Molina Espinosa</h6>
-                <p>Conference Chair</p>
-                <a href="../../cv_congresses_en/dr_da_silva.pdf" class="btn btn-primary btn-sm">View CV</a>
-            </div>
-        -->
 
             <div class="slide image-hover text-center">
                 <img src="../images/logos_cooperation/logo_sbc.gif" 
