@@ -36,7 +36,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
         <div> 
             <!-- Navigation bar  -->
             <?php include "edu9header.html" ?> 
