@@ -211,6 +211,7 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
 @media only screen and (max-width: 1240px) {
     /*margin were 20% before, so that is why it was moving right*/
     .container {
+        width: 100%;
         margin-right: 0 auto;
         margin-left: 0 auto;
     }
@@ -715,6 +716,7 @@ footer {
     .container-fluid {
         padding-left: 5px;
         padding-right: 5px;
+        width: 100%;
     }
     
     .pe-1000 {
