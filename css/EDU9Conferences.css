@@ -391,22 +391,27 @@ ul.breadcrumb li a:hover {
     /* color: #01447e; */
     text-decoration: underline;
 }
-/* Scroll to top */
+/* Scroll to top made it round*/
 #myTopBtn {
+    outline: none;  
+    font-family: 'Quicksand';
+    padding: 3px;
+
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px; 
+    border: none; 
+    background-color: #004080;
+    color: white; 
+    font-size: 18px; 
+    cursor: pointer; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
     display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: 0px;
-    border-radius: 4px;
 }
+
 /* CLASES DE BTN PERSONALIZADAS DE BOOTSTRAP PARA BOTONES */
 .btn-primary {
   background-color:#eee; /* nuevo color de fondo */
@@ -780,6 +785,8 @@ button:focus {
     font-size: 0.9rem;
     padding-top: 8px;
 }
+
+
 @media only screen and (max-width: 1420px) 
 {
     section {
@@ -810,6 +817,18 @@ button:focus {
         margin-left: 15%;
         background-color: inherit;
         padding-top: 135px;
+    }
+     /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    border-radius: 1px;
+    padding: 2px 2px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    font-weight: bold;
+    color: #2e5897; /* blue text instead of background */
     }
 }
 
@@ -857,6 +876,18 @@ button:focus {
     .carousel-inner {
         height: 865px;
     }
+     /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 13px;
+    border-radius: 1px;
+    padding: 2px 2px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    font-weight: bold;
+    color: #2e5897; /* blue text instead of background */
+    }
 }
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media only screen  and (max-width: 670px) 
@@ -899,6 +930,18 @@ button:focus {
     h3, h4 {
         font-size: 1rem; 
     }
+     /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    border-radius: 1px;
+    padding: 2px 2px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    font-weight: bold;
+    color: #2e5897; /* blue text instead of background */
+    }
 }
 @media (max-width: 570px) {
     .header-top ul li {
@@ -916,6 +959,18 @@ button:focus {
     .carousel-inner {
         height: 1300px;
     }
+
+     /*For centering the carousel*/
+    .coordinators-slider {
+        width: 0 auto;
+        margin: 0 auto;
+    }
+
+      /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 0px;
+    }
 }
 @media (max-width: 350px) {
 
@@ -927,6 +982,14 @@ button:focus {
     h3, h4 {
         font-size: 0.5rem; 
     }
+
+       /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 0%;
+    }
+
+   
 }
 
 
@@ -939,6 +1002,19 @@ button:focus {
 
     .horizontal-timeline .items .items-list .event-date {
         top: -40px;
+    }
+
+    /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    border-radius: 1px;
+    padding: 2px 2px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    font-weight: bold;
+    color: #2e5897; /* blue text instead of background */
     }
 }
 /*============= End sequence line css =============*/
