@@ -515,12 +515,12 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="Conference Chair">
                     <div class="overlay-content">
-                        <h6>José Martín Molina Espinosa</h6>
-                        <text>Conference Chair</text>
+                        <h2>José Martín Molina Espinosa</h2>
+                        <h2>Conference Chair</<h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -531,12 +531,12 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h6>Claudio R. Brito</h6>
-                        <text>General Chair</text>
+                        <h2>Claudio R. Brito</h2>
+                        <h2>General Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -547,12 +547,12 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h6>Melany M. Ciampi</h6>
-                        <text>Co-Chair</text>
+                        <h2>Melany M. Ciampi</h2>
+                        <h2>Co-Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -563,12 +563,12 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h6>To be assigned</h6>
-                        <text>Awards Chair</text>
+                        <h2>To be assigned</h2>
+                        <h2>Awards Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -580,12 +580,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>To be assigned</h6>
-                        <text>Technical Program Chair</text>
+                        <h2>To be assigned</h2>
+                        <h2>Technical Program Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -597,12 +597,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Ana Luna</h6>
-                        <text>Technical Program Co-Chair</text>
+                        <h2>Ana Luna</h2>
+                        <h2>Technical Program Co-Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -614,12 +614,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Agatha da Silva Ovando</h6>
-                        <text>Technical Program Co-Chair</text>
+                        <h2>Agatha da Silva Ovando</h2>
+                        <h2>Technical Program Co-Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -631,12 +631,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Alejandro Adorjan Olivera</h6>
-                        <text>Technical Program Co-Chair</text>
+                        <h2>Alejandro Adorjan Olivera</h2>
+                        <h2>Technical Program Co-Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -648,12 +648,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Mario Chong</h6>
-                        <text>Publication Chair</text>
+                        <h2>Mario Chong</h2>
+                        <h2>Publication Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -665,12 +665,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Maria Isabel Pozzo</h6>
-                        <text>Doctoral Symposium Chair</text>
+                        <h2>Maria Isabel Pozzo</h2>
+                        <h2>Doctoral Symposium Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -682,12 +682,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Rafael R. Rentería Ramos</h6>
-                        <text>Workshops Chair</text>
+                        <h2>Rafael R. Rentería Ramos</h2>
+                        <h2>Workshops Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -699,12 +699,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Roberto Portillo</h6>
-                        <text>Conference Support Chair</text>
+                        <h2>Roberto Portillo</h2>
+                        <h2>Conference Support Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -716,12 +716,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Mario Chong</h6>
-                        <text>Public Relations Chair</text>
+                        <h2>Mario Chong</h2>
+                        <h2>Public Relations Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
@@ -733,12 +733,12 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h6>Orlando Fittipaldi</h6>
-                        <text>Finance / Treasurer Chair</text>
+                        <h2>Orlando Fittipaldi</h2>
+                        <h2>Finance / Treasurer Chair</h2>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-sm" 
+                            class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
                     </div>
