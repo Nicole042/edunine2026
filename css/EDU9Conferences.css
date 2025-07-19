@@ -222,6 +222,7 @@ container {
     margin-right: 0px;
     margin-left: 0px;
     background-color: inherit;
+    width: 100%;
 }
 container.cv{
   position: relative;
@@ -280,10 +281,12 @@ section.schedule {
     font-weight: 700;
 }   
 .container-fluid-footer {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 50% auto;
+    margin-left: 50% auto;
     background-color: black;
     color: white;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -786,6 +789,12 @@ button:focus {
     padding-top: 8px;
 }
 
+/* Prevent horizontal scroll Susan did to prevent horisontal scrolling
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}*/
+/**/
 
 @media only screen and (max-width: 1420px) 
 {
