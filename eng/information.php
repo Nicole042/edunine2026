@@ -556,22 +556,22 @@
             </div>  
 
             <!-- Formatting guidelines -->          
-            <div class="container-fluid py-3">
+            <div class="container py-3">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
                         <h6 class="display-6 fw-bold">EDUNINE Paper Types and Formatting Guidelines</h6> 
 
                         <p class="lh-sm">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
-                            <p class="lh-sm">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
+                        <p class="lh-sm">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
                     </div>
                 </div>
-
+            </div>
                 <!-- Convert to carousel ON MY OWN, from 0-->
                 <!--NEW VERSION FORMATTING TYPES-->
-                <?php include __DIR__ . '../cards.html'; ?>
+            <?php include __DIR__ . '../cards.html'; ?>
 
     
-            </div>
+ 
 
             </div>
             </div>
