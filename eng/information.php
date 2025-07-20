@@ -17,10 +17,26 @@
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
+        <link href="../css/flipcard.css" rel="stylesheet"> 
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
+        <!--Quicksand-->
+        <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap"
+        rel="stylesheet"
+        />
+        
+        <!--SLICK CAROUSEL-->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <!--END  SLICK CAROUSEL -->
     </head>
+
     <body onload = "jump()">
         <?php
         if (empty($_GET["id"])) {
@@ -538,8 +554,9 @@
                     <p class="lh-sm">Workshop proposals should demonstrate clear pedagogical goals, structured activities, and relevance to the educational community. Proposals lacking interactive elements or based solely on lectures will not be prioritized.</p> 
                 </div>                               
             </div>  
+
             <!-- Formatting guidelines -->          
-            <div class="container-fluid py-3 bg-body-white">
+            <div class="container-fluid py-3">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
                         <h6 class="display-6 fw-bold">EDUNINE Paper Types and Formatting Guidelines</h6> 
@@ -549,119 +566,14 @@
                     </div>
                 </div>
 
-                <!-- FULL Paper -->
-                <div class="row bg-info-subtle py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/fullPaper.jpg" alt="Full Paper Requirements"> 
-                            <h5 class="fs-3 fw-bold">Full Paper Formatting Guidelines</h5>
-                            <p class="lh-sm">The <b>Full Paper format</b> is intended for submissions that present mature, well-developed research results. This format applies to the following categories:</p><ul><li>
-                                    <b>Category 1: Implemented Teaching Techniques, Classroom Experience Reports, and Pedagogical Tools</b>
-                                </li><li><b>Category 2: New Curricula and Educational Program Proposals</b>
-                                </li><li><b>Category 3: Educational Research</b></li></ul>
+                <!-- Convert to carousel ON MY OWN, from 0-->
+                <!--NEW VERSION FORMATTING TYPES-->
+                <?php include __DIR__ . '../cards.html'; ?>
 
-                            <div class=" col d-flex flex-fill justify-content-center">
-                                <div class="card "> 
-                                    <div class="card-header">
-                                        <h6 class="fw-bold">Formatting:</h6>
-                                    </div>  
-                                    <div class="card-body">
-                                        <ul><li> 
-                                                <b>Abstract:</b> Include a concise, one-paragraph abstract (maximum 150 words).</li><li>
-                                                <b>Length:</b> Adheres to the specific page limit <b>(4 to 6 pages)</b> including references and  abstract</li><li>
-                                                <b>Template:</b> Use the provided IEEE Manuscript Templates to ensure consistent formatting as described in the "Mandatory Conference Paper Templates" section on this webpage.</li><li>
-                                                <b>English:</b> Use formal academic language and IEEE citation style.</li></ul> 
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <!-- WIP -->
-                <div class="row bg-light py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/wipPaper.jpg" alt="WIP Paper Requirements"> 
-                            <h5 class="fs-3 fw-bold">Work in Progress (WiP)Formatting Guidelines</h5>
-                            <p class="lh-sm">The <b>Work in Progress Papers</b> are suitable for ongoing projects with preliminary results or findings or an early stage of a research project. This format applies to the following categories:</p><ul><li>
-                                    <b>Category 1: Implemented Teaching Techniques, Classroom Experience Reports, and Pedagogical Tools</b>
-                                </li><li><b>Category 2: New Curricula and Educational Program Proposals</b>
-                                </li><li><b>Category 3: Educational Research</b></li></ul>
-                            <div class=" col d-flex flex-fill justify-content-center">
-                                <div class="card"> 
-                                    <div class="card-header">
-                                        <h6 class="fw-bold">Formatting:</h6>
-                                    </div>  
-                                    <div class="card-body">             
-                                        <ul><li>
-                                                <b>Title:</b> Begin your title with Work in Progress: followed by the specific paper title.</li><li>
-                                                <b>Abstract:</b> Include a concise, one-paragraph abstract (maximum 150 words).</li><li>
-                                                <b>Length:</b> Significantly shorter than a full paper <b>(2 to 4 pages)</b>, including references and abstract. </li><li>
-                                                <b>Template:</b> Use the provided IEEE Manuscript Templates to ensure consistent formatting as described in the "Mandatory Conference Paper Templates" section on this webpage.</li><li>
-                                                <b>English:</b> Use formal academic language and IEEE citation style.</li></ul>
-                                    </div>
-                                </div>  
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+    
+            </div>
 
-                <!-- DS Paper -->
-                
-                <div class="row bg-info-subtle py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/dsPaper.jpg" alt="Doctoral Symposium Paper Requirements"> 
-                            <h5 class="fs-3 fw-bold">Doctoral Symposium (DS) Paper Formatting Guidelines</h5>
-                            <p class="lh-sm"><p class="lh-sm">These papers provide a venue for doctoral students to share work in progress and receive feedback from the academic community. This format is required for:</p><ul><li>
-                                    <b>Category 4: Research-in-Development (RID) for Doctoral Students</b></li></ul>
-
-                            <div class=" col d-flex flex-fill justify-content-center">
-                                <div class="card"> 
-                                    <div class="card-header">
-                                        <h6 class="fw-bold">Formatting:</h6>
-                                    </div>  
-                                    <div class="card-body">             
-                                        <ul><li>
-                                                <b>Title:</b> Begin your Paper Title with "DS:"</li><li>
-                                                <b>Abstract:</b> Include a concise, one-paragraph abstract (maximum 150 words).</li><li>
-                                                <b>Length:</b> Papers should be a maximum of 4 pages, including references and abstract.</li><li>                                               
-                                                <b>Template:</b> Use the provided IEEE Manuscript Templates to ensure consistent formatting as described in the "Mandatory Conference Paper Templates" section on this webpage.</li><li>
-                                                <b>English:</b> Use formal academic language and IEEE citation style.</li></ul>
-                                    </div> 
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <!-- Workshop Proposal Paper -->
-
-                <div class="row bg-light py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/workshopPaper.jpg" alt="Workshop Proposal Paper Format"> 
-                            <h5 class="fs-3 fw-bold">Workshop Proposal Paper Formatting Guidelines</h5>
-                            <p class="lh-sm"><p class="lh-sm"><b>Workshop Papers</b> describe interactive, hands-on sessions intended for skill-building, discussion, and participant engagement. This format is used for:</p><ul><li>
-                                    <b>Category 5: Workshop Proposals</b></li></ul>
-                            <div class=" col d-flex flex-fill justify-content-center">
-                                <div class="card"> 
-                                    <div class="card-header">
-                                        <h6 class="fw-bold">Formatting:</h6>
-                                    </div>  
-                                    <div class="card-body">
-                                        <ul><li> 
-                                                <b>Title:</b> Begin your title with "Workshop:" followed by the specific workshop title.</li><li>
-                                                <b>Abstract:</b> Include a concise, one-paragraph abstract (maximum 150 words).</li><li>
-                                                <b>Length:</b> Choose either <b>Full Paper (up to 6 pages)</b> or <b>Short Paper (up to 2 pages)</b> format, both including references and abstract.</li><li>
-                                                <b>Template:</b> Use the provided IEEE Manuscript Templates to ensure consistent formatting as described in the "Mandatory Conference Paper Templates" section on this webpage.</li><li>
-                                                <b>English:</b> Use formal academic language and IEEE citation style.</li></ul>
-                                    </div>
-                                </div>                             
-                            </div>   
-                        </div>
-                    </div>
-                </div>
-
+            </div>
             </div>
         </section>
 
@@ -1143,5 +1055,13 @@
         <script src ="../js/backTop.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+        <!-- START SLICK CAROUSEL-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <script src="../js/slick-carousel-config.js"></script>
+        <!-- END  SLICK CAROUSEL-->   
     </body>
 </html>                      
