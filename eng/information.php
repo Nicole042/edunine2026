@@ -883,7 +883,7 @@
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>
 
-        <script src="js/sidebar.js"></script>
+        <script src="../js/sidebar.js"></script>
 
    </body>
 </html>                      
