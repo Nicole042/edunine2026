@@ -506,7 +506,7 @@
     <!-- Coordinators section This was the previous location, should we mantain it?-->
 
     <section id="coordinators">
-        <div class="container-fluid px-0">
+        <div class="container-fluid px-5">
             <h2 class="display-5 fw-bold text-center mb-4">Coordinators</h2>
             <div class="coordinators-slider">
 
