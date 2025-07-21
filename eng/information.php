@@ -36,9 +36,9 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+        <!-- <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
         <div> 
-            <!-- Navigation bar  -->
+            Navigation bar 
             <?php include "edu9header.html" ?> 
         </div>
         <div class="#main"></div>
@@ -66,9 +66,9 @@
                     </div>    
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- checklist  -->
-        <section id="suitable">
+        <!-- <section id="suitable">
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -78,7 +78,7 @@
                 </ul> 
             </div>
             <div class="container-fluid">
-                <!-- sequence section -->
+                sequence section
                 <div class="container-fluid px-4 py-5">
                     <h2 class="pb-2 border-bottom display-6 fw-bold">Manuscript Pre-Submission Checklist</h2>
                 </div>
@@ -145,7 +145,7 @@
                                 <button class="border-white btn btn-primary btn-sm" onclick="changeReadMore()" id="myBtn">Read more</button>
                             </div>
                         </div>
-                        <!--  </div> -->
+                         </div>
                     </div>
                 </div>
                 <div class="container-fluid py-3 bg-body-secondary">
@@ -228,11 +228,11 @@
                         </div>
                     </div>
                 </div>
-        </section>
+        </section> -->
 
         <!-- Determine your manuscript type -->
 
-        <section id="typeChoose">
+        <!-- <section id="typeChoose">
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -286,9 +286,9 @@
 
                         <p class="lh-sm">The conference accepts various categories of manuscripts, each with specific requirements aligned with the conference scope (see <a href="#suitable">Conference Suitability Analysis</a> for details). Proper adherence to these guidelines ensures consistency and facilitates the peer review and publication processes. Here is an overview of the accepted categories and their type, with links to the expected paper content. In the next section, formatting guidelines for each type are provided.</p>
                     </div>
-                </div>
+                </div> -->
                 <!-- Category 1 -->
-                <div class="row bg-info-subtle py-3">
+                <!-- <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat1.jpg" alt="Category 1 Paper Content">
@@ -337,9 +337,9 @@
                     <p class="lh-sm">Papers describing ongoing interventions, initial uses without sufficient evidence, or results that are preliminary or not statistically significant should be submitted as <b>Work-in-Progress (WIP) papers</b>, where early-stage insights are welcomed.</p>
                     <p class="lh-sm">Submissions that focus primarily on the design, development, or technical aspects of educational tools or platforms—rather than their effective pedagogical application—will <b>not be considered</b>.</p>
                     <p class="lh-sm">Manuscripts lacking real-world implementation or results analysis will be rejected.</p> 
-                </div>
+                </div> -->
                 <!-- Category 2 -->
-                <div class="row bg-light py-3">
+                <!-- <div class="row bg-light py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat2.jpg" alt="Category 2 Paper Contents"> 
@@ -387,10 +387,10 @@
                 <div class="row bg-light py-3">
                     <h5 class="fw-bold">Important: </h5>
                     <p class="lh-sm">This category is not intended for position papers or conceptual proposals that are primarily opinion-based or speculative. Instead, it is designed for concrete proposals with a clear path to implementation or those already in the process of being developed, piloted, or adapted across different regions or countries.</p> 
-                </div>
+                </div> -->
 
                 <!-- Category 3 -->        
-                <div class="row bg-info-subtle py-3">
+                <!-- <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat3.jpg" alt="Category 2 Paper Contents"> 
@@ -436,10 +436,10 @@
                 <div class="row bg-info-subtle py-3">
                     <h5 class="fw-bold">Important: </h5>
                     <p class="lh-sm">Submissions must be based on empirical data and should contribute new knowledge or insights into educational practices, with clear implications for improving education in engineering, computing, technology, or related fields.</p> 
-                </div>       
+                </div>        -->
 
                 <!-- Category 4 -->        
-                <div class="row bg-light py-3">
+                <!-- <div class="row bg-light py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat4.jpg" alt="Category 4 Paper Contents"> 
@@ -487,10 +487,10 @@
                 <div class="row bg-light py-3">
                     <h5 class="fw-bold">Important: </h5>
                     <p class="lh-sm">Submissions must represent genuine doctoral research efforts in progress. They should go beyond conceptual proposals by including a structured design and connection to literature, even if data collection and analysis are still underway.</p> 
-                </div>                       
+                </div>                        -->
 
                 <!-- Category 5 -->        
-                <div class="row bg-info-subtle py-3">
+                <!-- <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat5.jpg" alt="Category 4 Paper Contents"> 
@@ -537,9 +537,9 @@
                     <h5 class="fw-bold">Important: </h5>
                     <p class="lh-sm">Workshop proposals should demonstrate clear pedagogical goals, structured activities, and relevance to the educational community. Proposals lacking interactive elements or based solely on lectures will not be prioritized.</p> 
                 </div>                               
-            </div>  
+            </div>   -->
             <!-- Formatting guidelines -->          
-            <div class="container-fluid py-3 bg-body-white">
+            <!-- <div class="container-fluid py-3 bg-body-white">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
                         <h6 class="display-6 fw-bold">EDUNINE Paper Types and Formatting Guidelines</h6> 
@@ -547,10 +547,10 @@
                         <p class="lh-sm">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
                             <p class="lh-sm">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- FULL Paper -->
-                <div class="row bg-info-subtle py-3">
+                <!-- <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/fullPaper.jpg" alt="Full Paper Requirements"> 
@@ -576,9 +576,9 @@
                             </div> 
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- WIP -->
-                <div class="row bg-light py-3">
+                <!-- <div class="row bg-light py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/wipPaper.jpg" alt="WIP Paper Requirements"> 
@@ -604,11 +604,11 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>  -->
 
                 <!-- DS Paper -->
                 
-                <div class="row bg-info-subtle py-3">
+                <!-- <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/dsPaper.jpg" alt="Doctoral Symposium Paper Requirements"> 
@@ -633,10 +633,10 @@
                             </div>
                         </div> 
                     </div>
-                </div>
+                </div> -->
                 <!-- Workshop Proposal Paper -->
 
-                <div class="row bg-light py-3">
+                <!-- <div class="row bg-light py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/workshopPaper.jpg" alt="Workshop Proposal Paper Format"> 
@@ -663,11 +663,11 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
         <!-- Manuscript Template -->
 
-        <section id="templateChoose">
+        <!-- <section id="templateChoose">
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -734,11 +734,11 @@
                             <li> Depending on your Operating System and Microsoft Word version, the instructions can differ. Please refer to the Microsoft support or help section in your application. Here we explain the current instructions for Windows and Mac Operating system Microsoft Word application:</li>
 
                             <div class="row row-cols-2">
-                                <div class="col d-flex flex-fill justify-content-center">
+                                <div class="col d-flex flex-fill justify-content-center"> -->
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#windowsModal">For Windows</button>
+                                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#windowsModal">For Windows</button> -->
                                     <!-- Modal -->
-                                    <div class="modal fade" id="windowsModal" tabindex="-1" aria-labelledby="windowsModalLabel" aria-hidden="true">
+                                    <!-- <div class="modal fade" id="windowsModal" tabindex="-1" aria-labelledby="windowsModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-fullscreen-sm-down">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -784,11 +784,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col d-flex flex-fill justify-content-center">
+                                <div class="col d-flex flex-fill justify-content-center"> -->
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#macOSModal">For macOS</button>
+                                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#macOSModal">For macOS</button> -->
                                     <!-- Modal -->
-                                    <div class="modal fade" id="macOSModal" tabindex="-1" aria-labelledby="macOSModalLabel" aria-hidden="true">
+                                    <!-- <div class="modal fade" id="macOSModal" tabindex="-1" aria-labelledby="macOSModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-fullscreen-sm-down">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -874,9 +874,9 @@
                 </div>   
             </div>
 
-        </section>
+        </section> -->
         
- <section id="submission">
+ <!-- <section id="submission">
      
             <div class="container-fluid align-content-start py-0">
                 <ul class="breadcrumb">
@@ -902,9 +902,9 @@
                     </div>    
                 </div>
          </div>
-            <div class="container-fluid py-5">
+            <div class="container-fluid py-5"> -->
                 <!-- sequence section -->
-                <div class="container-fluid px-4 py-5">
+                <!-- <div class="container-fluid px-4 py-5">
                     <h2 class="pb-2 border-bottom display-6 fw-bold">Important Submission Guidelines:</h2>
                     <p>To ensure a successful submission for the conference, please follow these important guidelines closely. They will help you present your work in a clear and consistent format, and ensure a smooth review process. For a step-by-step guide on composing your paper, visit the <a href="information.php" class="border-white btn btn-primary btn-sm align-self-end" role="button">Composing your Conference Paper</a> page on this website.</p>
                     <ul>
@@ -918,17 +918,17 @@
                     <p class="fs-5 mb-4">Please note that EDUNINE2026 only accepts electronic submissions via <b>EDUNINE2026 SUBMISSION SYSTEM</b> system; <u>email submissions will not be accepted</u>.</p>                                       
                 </div>
             </div>                    
-        </section>
+        </section> -->
         <!-- falta agregar el link al nuevo sistema en la siguiente sección -->
         <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->
                     
 <!--  Instrucciones para OpenConf -->
-<section>
+<!-- <section>
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
-                            <div class="text-center">
+                            <div class="text-center"> -->
 
           <?php include "../includesHtml/commingSoon.html" ?>
                                 
@@ -944,10 +944,10 @@
                             <h2 class="display-6 fw-bold">How to Submit and Manage Your Paper with the EDUNINE2026 OpenConf system</h2>
                             <p class="fs-5 mb-4">This section provides a comprehensive guide on utilizing our online paper administration system for submitting your paper. Here, you'll find a link to the system and step-by-step instructions to ensure a smooth submission process.This guide will walk you through submitting your paper to EDUNINE2026 and managing it after submission.</p>
                                 -->
-                        </div>
+                        <!-- </div>
                     </div>    
                 </div>
-            </div>
+            </div> -->
     <!--
             <div class="container-fluid py-5 bg-white">
                 <div class="border bg-light">
