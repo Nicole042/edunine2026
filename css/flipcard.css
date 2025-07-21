@@ -1,15 +1,16 @@
 .card-body{
     max-width: auto;
     height: auto;
+    /*overflow: visible;*/
 }
 /* FLIP CARDS FORMAT */
 .container-card{
     /*width: 100%;*/
     max-width: 100%;     /* will shrink below 400px */
     height: 450px;
-    perspective: 700px;
+    /*perspective: 10px;*/
     border-radius: 2rem;
-    overflow: hidden;
+    overflow: visible;
     /*max-width: 800px;
     font-family: "Quicksand", sans-serif;
     /*background-color: rgb(110, 241, 23)*/
@@ -19,6 +20,7 @@
 .container-card:hover .card1 {
     cursor: pointer;
     transform: rotateY(180deg);   
+    /*overflow: visible;*/
 }
 .card1{
     height: 100%;
@@ -28,8 +30,10 @@
     /*transition: transform 1500ms;*/
     transform-style: preserve-3d;
     font-family: "Quicksand", sans-serif;
-    transition: transform 0.8s ease-in-out; /* animate the flip */
-    border-radius: 2rem;
+    transition: transform 0.7s ease-in-out; /* animate the flip */
+    /*border-radius: 2rem;*/
+    overflow: visible;
+    
 }
 
 
@@ -42,6 +46,7 @@
     /*display: flex;*/
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden; 
+    overflow: visible;
 }
 
 /* front face styling */
@@ -64,9 +69,7 @@
     z-index: 1;
 }
 
-.back1 .table {
-  font-family: "Quicksand", sans-serif;
-}
+
 @media (max-width: 1420px) {
      .container-card{
     max-width: 100%;     /* will shrink below 400px */
@@ -127,8 +130,8 @@
      .container-card{
     max-width: 100%;     /* will shrink below 400px */
     height: 580px;
-    perspective: 700px;
-    border-radius: 2rem;
+    /*perspective: 700px;
+    border-radius: 2rem;*/
     }
 
  }
