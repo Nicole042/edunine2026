@@ -246,26 +246,29 @@
             <ul>
                 <li>General
                     <ul>
-                        <li onclick = "showContent('InThisSection')">In this section</li>
-                        <li onclick = "showContent('GeneralInformation')">General Information</li>
+                        
+                        <button class="btn btn-link p-0" onclick="showContent('InThisSection')">In this section</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('GeneralInformation')">CGeneral Information</button></li>
                     </ul>
                 </li>
 
                 <li>Categories
-                    <ul>
-                        <li onclick="showContent('category1')">Categoría 1</li>
-                        <li onclick="showContent('category2')">Categoría 2</li>
-                        <li onclick="showContent('category3')">Categoría 3</li>
-                        <li onclick="showContent('category4')">Categoría 4</li>
-                        <li onclick="showContent('category5')">Categoría 5</li>
+                    <ul><li>
+                        <button class="btn btn-link p-0" onclick="showContent('category1')">Categoría 1</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('category2')">Categoría 2</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('category3')">Categoría 3</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('category4')">Categoría 4</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('category5')">Categoría 5</button></li>
                     </ul>
                 </li>
                 <li>Types
                     <ul>
-                        <li onclick="showContent('Type1')">Full paper</li>
-                        <li onclick="showContent('Type2')">Work-in-Progress paper</li>
-                        <li onclick="showContent('Type3')">Doctoral Symposium</li>
-                        <li onclick="showContent('Type4')">Workshop</li>
+                        
+                        <button class="btn btn-link p-0" onclick="showContent('Type1')">Full paper</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('Type2')">Work-in-Progress paper</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('Type3')">Doctoral Symposium</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('Type4')">Workshop</button></li>
+                        
                     </ul>
                 </li>
 
@@ -281,7 +284,7 @@
         <!-- Falta poner lo de linksSuperiores no se si ponerlo -->
         
         
-        <!--GENERAL SECTION-->>
+        <!--GENERAL SECTION-->
         <div id = "LinksSuperiores"class="container-fluid align-content-start pt-5 pb-0 section-content d-none">
             <ul class="breadcrumb">
                 <li><a href="index.php">Home</a></li>
