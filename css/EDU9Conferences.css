@@ -789,11 +789,11 @@ button:focus {
     padding-top: 8px;
 }
 
-/* Prevent horizontal scroll Susan did to prevent horisontal scrolling
+/* Prevent horizontal scroll Susan did to prevent horizontal scrolling*/
 html, body {
     overflow-x: hidden;
     max-width: 100%;
-}*/
+}
 /**/
 
 @media only screen and (max-width: 1420px) 
