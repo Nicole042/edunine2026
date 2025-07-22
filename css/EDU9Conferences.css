@@ -1042,7 +1042,7 @@ display: block;
   font-weight: bold;
   transform: translateY(-2px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  color: #004080;
+  color: #013970;
 }
 .sidebar-scrollable button:hover {
   cursor: pointer;
@@ -1063,3 +1063,18 @@ display: block;
   color: inherit;  
   box-shadow: none;
 }
+
+.nested-list {
+  display: none;
+  margin-left: 1rem;
+}
+
+.toggle-parent.open > .nested-list {
+  display: block;
+}
+
+.toggle-parent {
+  cursor: pointer;
+  user-select: none;
+}
+

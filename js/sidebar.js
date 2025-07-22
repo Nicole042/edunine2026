@@ -33,3 +33,12 @@ document.addEventListener('click', function (e) {
     sidebar.classList.remove('show');
   }
 });
+
+document.querySelectorAll('.toggle-parent').forEach(parent => {
+  parent.addEventListener('click', function (e) {
+    // Evitar que el clic en botones internos active el toggle
+    if (e.target.tagName.toLowerCase() === 'button') return;
+
+    this.classList.toggle('open');
+  });
+});

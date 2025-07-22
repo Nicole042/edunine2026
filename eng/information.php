@@ -258,16 +258,16 @@
         <div class="sidebar-inner">
             <h6><u>Manuscript Category type</u></h6>
             <ul>
-                <li>General
-                    <ul>
+                <li class="toggle-parent">General
+                    <ul  class="nested-list">
                         <li><button class="btn btn-link p-0" onclick="showContent('InThisSection')">In this section</button></li>
                         <li><button class="btn btn-link p-0" onclick="showContent('GeneralInformation')">General Information</button></li>
                     </ul>
                 </li>
 
-                <li>Categories
+                <li class="toggle-parent">Categories
 
-                    <ul>
+                    <ul  class="nested-list">
                         <li><button class="btn btn-link p-0" onclick="showContent('category1')">Categoría 1</button></li>
                         <li><button class="btn btn-link p-0" onclick="showContent('category2')">Categoría 2</button></li>
                         <li><button class="btn btn-link p-0" onclick="showContent('category3')">Categoría 3</button></li>
@@ -277,9 +277,9 @@
                     
                 </li>
 
-                <li>Types
+                <li class="toggle-parent">Types
                 
-                    <ul>
+                    <ul  class="nested-list">
                         <li><button class="btn btn-link p-0" onclick="showContent('Type1')">Full paper</button></li>
                         <li><button class="btn btn-link p-0" onclick="showContent('Type2')">Work-in-Progress paper</button></li>
                         <li><button class="btn btn-link p-0" onclick="showContent('Type3')">Doctoral Symposium</button></li>
