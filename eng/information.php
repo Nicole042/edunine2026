@@ -248,7 +248,7 @@
                     <ul>
                         
                         <button class="btn btn-link p-0" onclick="showContent('InThisSection')">In this section</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('GeneralInformation')">CGeneral Information</button></li>
+                        <button class="btn btn-link p-0" onclick="showContent('GeneralInformation')">General Information</button></li>
                     </ul>
                 </li>
 

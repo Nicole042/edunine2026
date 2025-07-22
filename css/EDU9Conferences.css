@@ -976,3 +976,15 @@ button:focus {
     color: #1259aa; 
 }
 
+/*TypeChoose "information.php/sidebar style"*/
+.sidebar-scrollable {
+  width: 250px; /* Ancho fijo */
+  flex-shrink: 0; /* Para que no se reduzca en pantallas pequeñas */
+  overflow-y: auto;
+  max-height: 100vh;
+  background-color: #cee7ff; /* opcional: fondo claro */
+  border-right: 1px solid #9ecbf9; /* opcional: línea separadora */
+  padding-right: 1rem;
+}
+
+
