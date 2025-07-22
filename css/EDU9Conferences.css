@@ -1098,3 +1098,11 @@ display: block;
   transform: rotate(90deg); /* flecha apunta hacia abajo */
 }
 
+/*LINK SUPERIOR DE SIDEBAR*/
+#LinksSuperiores {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
