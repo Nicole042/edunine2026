@@ -366,7 +366,8 @@
                                 </li><li><b>Empirical evidence of effectiveness</b> and a <b>critical analysis of results</b>, including what was learned, how the intervention affected teaching and learning, and its broader implications;
                                 </li><li><b>Reflective insights</b> that help other educators understand how they might adapt or benefit from the reported experience;
                                 </li><li><b>Clear situating within prior literature</b>, showing how the intervention builds on, complements, or challenges existing educational research and practices.
-                                </li></ul>  
+                                </li>
+                            </ul>  
                         </div>
                     </div>  
                 </div>
@@ -381,7 +382,8 @@
                                 </li><li>Relevance and educational impact
                                 </li><li>Situating the work within relevant prior research and literature
                                 </li><li>Transferability and usefulness to other educators                                
-                                </li></ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

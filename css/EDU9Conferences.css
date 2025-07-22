@@ -1015,7 +1015,6 @@ display: block;
 }
 
 .sidebar-scrollable ul {
-  list-style-type: disclosure-closed; 
   padding-left: 1.2rem;
 }
 
@@ -1073,8 +1072,29 @@ display: block;
   display: block;
 }
 
+
+/* Aplica una flechita antes del texto de .toggle-parent */
 .toggle-parent {
+  position: relative;
   cursor: pointer;
   user-select: none;
+  list-style: none;
+  padding-left: 1.2rem;
+}
+
+
+.toggle-parent::before {
+    
+  content: "▶"; /* Flechita cerrada (derecha) */
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+/* Cuando está abierto (se le añadió .open con JS), gira hacia abajo */
+.toggle-parent.open::before {
+  transform: rotate(90deg); /* flecha apunta hacia abajo */
 }
 
