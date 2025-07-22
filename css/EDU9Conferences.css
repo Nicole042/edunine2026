@@ -976,8 +976,10 @@ button:focus {
     color: #1259aa; 
 }
 
+
 /*TypeChoose "information.php/sidebar style"*/
 /* SIDEBAR: estilo general */
+
 .sidebar-scrollable {
   width: 250px;
   flex-shrink: 0;
@@ -1010,3 +1012,12 @@ button:focus {
   .sidebar-scrollable.show {
     display: block;
   }
+
+  .sidebar-scrollable ul {
+  list-style-type: disclosure-closed; /* o '▶', '➤', etc. */
+  padding-left: 1rem;
+}
+
+.sidebar-scrollable li {
+  margin-bottom: 4px;
+}

@@ -250,27 +250,27 @@
             <ul>
                 <li>General
 
-                    <button class="btn btn-link p-0" onclick="showContent('InThisSection')">In this section</button></li>
-                    <button class="btn btn-link p-0" onclick="showContent('GeneralInformation')">General Information</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('InThisSection')">In this section</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('GeneralInformation')">General Information</button></li>
 
                 </li>
 
                 <li>Categories
 
-                    <button class="btn btn-link p-0" onclick="showContent('category1')">Categoría 1</button></li>
-                    <button class="btn btn-link p-0" onclick="showContent('category2')">Categoría 2</button></li>
-                    <button class="btn btn-link p-0" onclick="showContent('category3')">Categoría 3</button></li>
-                    <button class="btn btn-link p-0" onclick="showContent('category4')">Categoría 4</button></li>
-                    <button class="btn btn-link p-0" onclick="showContent('category5')">Categoría 5</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('category1')">Categoría 1</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('category2')">Categoría 2</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('category3')">Categoría 3</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('category4')">Categoría 4</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('category5')">Categoría 5</button></li>
                     
                 </li>
 
                 <li>Types
                 
-                    <button class="btn btn-link p-0" onclick="showContent('Type1')">Full paper</button></li>
-                    <button class="btn btn-link p-0" onclick="showContent('Type2')">Work-in-Progress paper</button></li>
-                    <button class="btn btn-link p-0" onclick="showContent('Type3')">Doctoral Symposium</button></li>
-                    <button class="btn btn-link p-0" onclick="showContent('Type4')">Workshop</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('Type1')">Full paper</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('Type2')">Work-in-Progress paper</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('Type3')">Doctoral Symposium</button></li>
+                    <li><button class="btn btn-link p-0" onclick="showContent('Type4')">Workshop</button></li>
                     
 
                 </li>
