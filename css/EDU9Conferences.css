@@ -1106,3 +1106,7 @@ display: block;
   top: 0;
   z-index: 1000;
 }
+
+.breadcrumb {
+  margin-bottom: 0;
+}
