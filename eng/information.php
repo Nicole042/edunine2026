@@ -237,6 +237,16 @@
 
 <!--MEJORAS CODIGO-->>
 <section id="typeChoose" class="container-fluid d-flex px-4 py-4" style="gap: 2rem;">
+    
+    <div id = "LinksSuperiores"class="container-fluid align-content-start pt-5 pb-0 section-content d-none">
+        <ul class="breadcrumb">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php?id=dates">Author</a></li>
+            <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
+            <li>Determine_Manuscript_Category</li>
+        </ul> 
+    </div>
+        
 
     <button class="btn btn-outline-primary d-lg-none mb-3" onclick="toggleSidebar()">
       ☰ Menu
@@ -282,20 +292,10 @@
 
     <!-- CONTENIDO PRINCIPAL -->
     <main class = "content-scrollable flex-grow-1">
-        <!-- Aquí va todo lo que ya tienes como contenido extenso -->
-        
-        <!-- Falta poner lo de linksSuperiores no se si ponerlo -->
-        
-        
+
+    
         <!--GENERAL SECTION-->
-        <div id = "LinksSuperiores"class="container-fluid align-content-start pt-5 pb-0 section-content d-none">
-            <ul class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="index.php?id=dates">Author</a></li>
-                <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
-                <li>Determine_Manuscript_Category</li>
-            </ul> 
-        </div>
+
 
         <div id = "InThisSection" class= "container-fluid tope  py-3  section-content ">
             <div class="row g-5">
