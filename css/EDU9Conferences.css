@@ -1048,3 +1048,18 @@ display: block;
   cursor: pointer;
   background-color: #f0f8ff;
 }
+
+.sidebar-scrollable .btn-link {
+  text-decoration: none;     
+  color: inherit;           
+  background: none;        
+  box-shadow: none;        
+  outline: none;             
+}
+
+.sidebar-scrollable .btn-link:hover,
+.sidebar-scrollable .btn-link:focus {
+  text-decoration: none;
+  color: inherit;  
+  box-shadow: none;
+}
