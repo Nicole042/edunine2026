@@ -1016,15 +1016,35 @@ display: block;
 
 .sidebar-scrollable ul {
   list-style-type: disclosure-closed; 
-  padding-left: 1rem;
+  padding-left: 1.2rem;
 }
 
 /* Sangría para los botones internos */
 
 .sidebar-scrollable ul ul {
-  padding-left: 1.5rem; 
+  padding-left: 1.7rem; 
 }
 
 .sidebar-scrollable li {
   margin-bottom: 4px;
+}
+
+.sidebar-scrollable button {
+  transition: all 0.2s ease-in-out;
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+.sidebar-scrollable button.active {
+  background-color: #e6f0ff; /* Color de fondo claro */
+  border-radius: 5px;
+  font-weight: bold;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: #004080;
+}
+.sidebar-scrollable button:hover {
+  cursor: pointer;
+  background-color: #f0f8ff;
 }

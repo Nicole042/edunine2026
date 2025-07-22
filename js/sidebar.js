@@ -8,12 +8,14 @@ window.showContent = function(idToShow) {
   const target = document.getElementById(idToShow);
   if (target) target.classList.remove('d-none');
 
-  // Manejo de clase activa en los botones del sidebar
-  const allButtons = document.querySelectorAll('.sidebar-scrollable .btn-link');
+  // Remover clase activa de todos los botones
+  const allButtons = document.querySelectorAll('.sidebar-scrollable button');
   allButtons.forEach(btn => btn.classList.remove('active'));
 
-  const clickedButton = document.querySelector(`.btn-link[onclick="showContent('${idToShow}')"]`);
+  // Agregar clase activa al botón clicado
+  const clickedButton = document.querySelector(`button[onclick*="${idToShow}"]`);
   if (clickedButton) clickedButton.classList.add('active');
+
 };
 
 // Toggle del sidebar con botón hamburguesa
