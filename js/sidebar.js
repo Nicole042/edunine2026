@@ -7,3 +7,9 @@ window.showContent = function(idToShow) {
     const target = document.getElementById(idToShow);
     if (target) target.classList.remove('d-none');
 };
+
+
+function toggleSidebar() {
+  const sidebar = document.querySelector('.sidebar-scrollable');
+  sidebar.classList.toggle('show');
+}

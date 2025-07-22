@@ -238,6 +238,10 @@
 <!--MEJORAS CODIGO-->>
 <section id="typeChoose" class="container-fluid d-flex px-4 py-4" style="gap: 2rem;">
 
+    <button class="btn btn-outline-primary d-lg-none mb-3" onclick="toggleSidebar()">
+      ☰ Menu
+    </button>
+
     <!-- SIDEBAR SCROLLABLE -->
     <aside class="sidebar-scrollable">
         <!-- Aquí va el contenido tipo árbol -->
@@ -400,8 +404,7 @@
 
 
 
-
-        <!-- Manuscript Template -->
+<!-- Manuscript Template -->
 
         <section id="templateChoose">
             <div class="container-fluid align-content-start pt-5 pb-0">

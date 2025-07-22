@@ -977,14 +977,32 @@ button:focus {
 }
 
 /*TypeChoose "information.php/sidebar style"*/
+/* SIDEBAR: estilo general */
 .sidebar-scrollable {
-  width: 250px; /* Ancho fijo */
-  flex-shrink: 0; /* Para que no se reduzca en pantallas pequeñas */
+  width: 250px;
+  flex-shrink: 0;
   overflow-y: auto;
   max-height: 100vh;
-  background-color: #cee7ff; /* opcional: fondo claro */
-  border-right: 1px solid #9ecbf9; /* opcional: línea separadora */
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
   padding-right: 1rem;
 }
 
+/* RESPONSIVE: ocultar sidebar en pantallas pequeñas */
+@media (max-width: 991.98px) {
+  .sidebar-scrollable {
+    display: none;
+  }
 
+  .sidebar-scrollable.show {
+    display: block;
+    position: absolute;
+    top: 80px; /* ajusta según la altura de tu navbar */
+    left: 0;
+    z-index: 999;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    width: 250px;
+    height: calc(100vh - 80px); /* ajusta según navbar */
+  }
+}
