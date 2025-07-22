@@ -235,10 +235,10 @@
 
 
 
-<!--MEJORAS CODIGO-->>
+<!--MANUSCRIPT CATEGORY TYPE-->
 <section id="typeChoose" class="container-fluid d-flex px-4 py-4" style="gap: 2rem;">
     
-    <div id = "LinksSuperiores"class="container-fluid align-content-start pt-5 pb-0 section-content d-none">
+    <div id = "LinksSuperiores"class="container-fluid align-content-start pt-5 pb-0 section-content">
         <ul class="breadcrumb">
             <li><a href="index.php">Home</a></li>
             <li><a href="index.php?id=dates">Author</a></li>
@@ -255,7 +255,6 @@
 
     <!-- SIDEBAR SCROLLABLE -->
     <aside class="sidebar-scrollable">
-        <!-- Aquí va el contenido tipo árbol -->
         <div class="sidebar-inner">
             <h6><u>Manuscript Category type</u></h6>
             <ul>
@@ -292,7 +291,7 @@
         </div>
     </aside>
 
-    <!-- CONTENIDO PRINCIPAL -->
+    <!-- PRINCIPLE CONTENT-->
     <main class = "content-scrollable flex-grow-1">
 
 
@@ -397,7 +396,7 @@
 
         </div>
 
-        <!--Category 2-->>
+        <!--Category 2-->
 
     </main>
 
