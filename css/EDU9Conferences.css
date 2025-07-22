@@ -1006,3 +1006,7 @@ button:focus {
     height: calc(100vh - 80px); /* ajusta según navbar */
   }
 }
+
+  .sidebar-scrollable.show {
+    display: block;
+  }

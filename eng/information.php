@@ -249,31 +249,30 @@
             <h6><u>Manuscript Category type</u></h6>
             <ul>
                 <li>General
-                    <ul>
-                        
-                        <button class="btn btn-link p-0" onclick="showContent('InThisSection')">In this section</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('GeneralInformation')">General Information</button></li>
-                    </ul>
+
+                    <button class="btn btn-link p-0" onclick="showContent('InThisSection')">In this section</button></li>
+                    <button class="btn btn-link p-0" onclick="showContent('GeneralInformation')">General Information</button></li>
+
                 </li>
 
                 <li>Categories
-                    <ul><li>
-                        <button class="btn btn-link p-0" onclick="showContent('category1')">Categoría 1</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('category2')">Categoría 2</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('category3')">Categoría 3</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('category4')">Categoría 4</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('category5')">Categoría 5</button></li>
-                    </ul>
+
+                    <button class="btn btn-link p-0" onclick="showContent('category1')">Categoría 1</button></li>
+                    <button class="btn btn-link p-0" onclick="showContent('category2')">Categoría 2</button></li>
+                    <button class="btn btn-link p-0" onclick="showContent('category3')">Categoría 3</button></li>
+                    <button class="btn btn-link p-0" onclick="showContent('category4')">Categoría 4</button></li>
+                    <button class="btn btn-link p-0" onclick="showContent('category5')">Categoría 5</button></li>
+                    
                 </li>
+
                 <li>Types
-                    <ul>
-                        
-                        <button class="btn btn-link p-0" onclick="showContent('Type1')">Full paper</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('Type2')">Work-in-Progress paper</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('Type3')">Doctoral Symposium</button></li>
-                        <button class="btn btn-link p-0" onclick="showContent('Type4')">Workshop</button></li>
-                        
-                    </ul>
+                
+                    <button class="btn btn-link p-0" onclick="showContent('Type1')">Full paper</button></li>
+                    <button class="btn btn-link p-0" onclick="showContent('Type2')">Work-in-Progress paper</button></li>
+                    <button class="btn btn-link p-0" onclick="showContent('Type3')">Doctoral Symposium</button></li>
+                    <button class="btn btn-link p-0" onclick="showContent('Type4')">Workshop</button></li>
+                    
+
                 </li>
 
 
@@ -298,7 +297,7 @@
             </ul> 
         </div>
 
-        <div id = "InThisSection" class= "container-fluid tope  pb-5  section-content ">
+        <div id = "InThisSection" class= "container-fluid tope  py-3  section-content ">
             <div class="row g-5">
                 <div class= "col text-sm-left">
                     <div class="clearfix">
