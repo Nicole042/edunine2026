@@ -238,7 +238,7 @@
 <!--MANUSCRIPT CATEGORY TYPE-->
 <section id="typeChoose" class="container-fluid d-flex px-4 py-4" style="gap: 2rem;">
     
-    <div id="LinksSuperiores" class="pt-3 pb-2 px-4">
+    <div id="LinksSuperiores" class="pt-3 pb-2 px-4 d-none"> <!--INtentar manana los links superiores-->
         <ul class="breadcrumb">
             <li><a href="index.php">Home</a></li>
             <li><a href="index.php?id=dates">Author</a></li>
