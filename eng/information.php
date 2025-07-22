@@ -36,14 +36,16 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <!-- <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+    <main>    
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <div> 
-            Navigation bar 
+            <!-- Navigation bar  -->
             <?php include "edu9header.html" ?> 
         </div>
         <div class="#main"></div>
 
         <section id="top" class="inicial">
+            <!-- Cambiar por la parte de Susan breadcrumbs -->
             <div class="container-fluid align-content-start py-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -51,22 +53,22 @@
                     <li>Composing_Conference_Paper_and_Submission</li>
                 </ul> 
             </div>
-            <div class= "container-fluid tope  py-5">
-
+            <!-- fin de breadcrumbs -->
+            <!-- Trajeta de introduccion -->
+            <div class= "container-fluid tope py-5 rounded-3">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperComposition.jpg"  alt="Paper Composition Image">
+                                <img class="col-5 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperComposition.jpg"  alt="Paper Composition Image">
                             </div>
-                            <h2 class="display-6 fw-bold">Composing your Conference Paper and Paper Submission</h2>
-
-                            <p class="fs-5 mb-4">Discover crucial submission information! Click below for detailed overviews of submission categories, guidelines, themes, quality standards, and templates. Craft your paper as required and submit your original, unpublished manuscripts as a category 1 to 3 Full Paper or Work-in-Progress, or category 4 Doctoral Symposium Paper, all in English. We also accept Workshop as category 5 papers, in English. Ready to learn more? Explore the details below!</p>
+                            <h2 class="display-6 fw-bold text-center">Composing your Conference Paper and Paper Submission</h2>
+                            <p class="fs-5 mb-2 text-center">Find key submission details below! Review categories, guidelines, themes, quality standards, and templates. Submit your original, unpublished manuscript as a Full Paper (categories 1–3), Work-in-Progress, Doctoral Symposium Paper (category 4), or Workshop (category 5). All submissions must be in English.</p>
                         </div>
                     </div>    
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- checklist  -->
         <!-- <section id="suitable">
             <div class="container-fluid align-content-start pt-5 pb-0">
@@ -232,7 +234,7 @@
 
         <!-- Determine your manuscript type -->
 
-        <!-- <section id="typeChoose">
+        <!-- <!-- <section id="typeChoose">
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -279,276 +281,312 @@
                     </div>   
                 </div> 
             </div>
-            <div class="container-fluid py-3 bg-body-white">
+        </section> -->
+        <section>
+            <div class="container-fluid">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
-                        <h6 class="display-6 fw-bold">EDUNINE Categories and Content of Manuscripts</h6> 
-
-                        <p class="lh-sm">The conference accepts various categories of manuscripts, each with specific requirements aligned with the conference scope (see <a href="#suitable">Conference Suitability Analysis</a> for details). Proper adherence to these guidelines ensures consistency and facilitates the peer review and publication processes. Here is an overview of the accepted categories and their type, with links to the expected paper content. In the next section, formatting guidelines for each type are provided.</p>
+                        <h6 class="display-6 fw-bold text-center">EDUNINE Categories and Content of Manuscripts</h6> 
+                        <p class="lh-sm text-center px-4">The conference accepts various categories of manuscripts, each with specific requirements aligned with the conference scope (see <a href="#suitable">Conference Suitability Analysis</a> for details). Proper adherence to these guidelines ensures consistency and facilitates the peer review and publication processes. Here is an overview of the accepted categories and their type, with links to the expected paper content. In the next section, formatting guidelines for each type are provided.</p>
                     </div>
-                </div> -->
-                <!-- Category 1 -->
-                <!-- <div class="row bg-info-subtle py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat1.jpg" alt="Category 1 Paper Content">
-                            <h5 class="fs-3 fw-bold">Category 1: Implemented Teaching Techniques, Classroom Experience Reports, and Pedagogical Tools</h5>
-                            <p class="lh-sm">This category invites <b>evidence-based reports of instructional techniques, pedagogical tools, or classroom strategies that have been fully implemented and evaluated</b> in authentic educational settings.</p>
-                            <p class="lh-sm">EDUNINE are specifically interested in the <b>educational impact and effectiveness</b> of these tools or approaches in practice—not in the technical or developmental details of the tools themselves. Submissions should focus on <b>how the intervention was used pedagogically</b>, its outcomes, and what educators can learn from it.</p>
-                            <p class="lh-sm fs-5 fw-bold"><i>A Category 1 Paper undergoes a double-blind peer review process.</i></p>
+                </div>
+                <!-- BOTONES CATEGORY -->
+                <div class="container-fluid px-5 pb-3">
+                    <div class="row g-5"> 
+                        <div class="col d-flex justify-content-center flex-wrap gap-3 btn-schdule-style"> 
+                            <button type="button" class="btn btn-primary category-btn btn-active" id="category1">
+                                Category 1 </button>                           
+                            <button type="button" class="btn btn-primary category-btn" id="category2">
+                                Category 2
+                            </button>
+                            <button type="button" class="btn btn-primary category-btn" id="category3">
+                                Category 3
+                            </button>
+                            <button type="button" class="btn btn-primary category-btn" id="category4">
+                                Category 4
+                            </button>
+                            <button type="button" class="btn btn-primary category-btn" id="category5">
+                                Category 5
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+                <!-- TABLAS DE CONTENIDOS -->
+                <!-- category 1 -->
+                <div class="category1 container-fluid px-5 py-3">
+                    <div class="row bg-info-subtle rounded-3 justify-content-center">
+                        <div class= "col">
+                            <div class="clearfix text-center px-5 pt-5">
+                                <img class="col-4 rounded float-sm-start p-3" src="../images/decoration/paperCat1.jpg" alt="Category 1 Paper Content">
+                                <div class="p-3">
+                                    <h5 class="fs-3 fw-bold">Category 1: Implemented Teaching Techniques, Classroom Experience Reports, and Pedagogical Tools</h5>
+                                    <p class="lh-sm">This category invites <b>evidence-based reports of instructional techniques, pedagogical tools, or classroom strategies that have been fully implemented and evaluated</b> in authentic educational settings.</p>
+                                    <p class="lh-sm">EDUNINE are specifically interested in the <b>educational impact and effectiveness</b> of these tools or approaches in practice—not in the technical or developmental details of the tools themselves. Submissions should focus on <b>how the intervention was used pedagogically</b>, its outcomes, and what educators can learn from it.</p>
+                                    <p class="lh-sm fs-5 fw-bold"><i>A Category 1 Paper undergoes a double-blind peer review process.</i></p>                           
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class=" col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Content must include</h6>
+                                    </div>  
+                                    <div class="card-body">
+                                        <ul><li>A <b>clear and detailed description</b> of the implemented teaching method, tool, or activity;
+                                        </li><li>A comprehensive explanation of the <b>instructional context</b>, such as course type, student population, and institutional environment;
+                                        </li><li><b>Empirical evidence of effectiveness</b> and a <b>critical analysis of results</b>, including what was learned, how the intervention affected teaching and learning, and its broader implications;
+                                        </li><li><b>Reflective insights</b> that help other educators understand how they might adapt or benefit from the reported experience;
+                                        </li><li><b>Clear situating within prior literature</b>, showing how the intervention builds on, complements, or challenges existing educational research and practices.
+                                        </li></ul>  
+                                    </div>
+                                </div>  
+                            </div>                        
+                            <div class=" col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Evaluation will prioritize</h6>
+                                    </div>  
+                                    <div class="card-body">             
+                                        <ul><li>Clarity and specificity of the instructional intervention
+                                        </li><li>Rigor and transparency in the collection and interpretation of results
+                                        </li><li>Relevance and educational impact
+                                        </li><li>Situating the work within relevant prior research and literature
+                                        </li><li>Transferability and usefulness to other educators                                
+                                        </li></ul>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="p-4 text-center">
+                            <h5 class="fw-bold">Important: </h5>
+                            <p class="lh-sm">Papers describing ongoing interventions, initial uses without sufficient evidence, or results that are preliminary or not statistically significant should be submitted as <b>Work-in-Progress (WIP) papers</b>, where early-stage insights are welcomed.</p>
+                            <p class="lh-sm">Submissions that focus primarily on the design, development, or technical aspects of educational tools or platforms—rather than their effective pedagogical application—will <b>not be considered</b>.</p>
+                            <p class="lh-sm">Manuscripts lacking real-world implementation or results analysis will be rejected.</p> 
+                        </div>
+                    </div>
+                </div>    
+                <!-- Category 2 -->
+                <div class="category2 container-fluid px-5 py-3 d-none">
+                    <div class="row bg-warning-subtle rounded-3 justify-content-center">
+                        <div class= "col text-sm-left">
+                            <div class="clearfix text-center px-5 pt-5">
+                                <img class="col-4 p-3 rounded float-sm-start" src="../images/decoration/paperCat2.jpg" alt="Category 2 Paper Contents"> 
+                                <div class="p-3">
+                                    <h5 class="fs-3 fw-bold">Category 2: New Curricula and Educational Program Proposals (Including Regional and National Adaptations)</h5>
+                                    <p class="lh-sm">This category invites <b>innovative curriculum designs, educational programs, and pedagogical frameworks</b> that are <b>ready for implementation</b> or are in the <b>early stages of development</b>. We also welcome submissions that focus on <b>regional or national adaptations</b> of curricula, exploring how educational strategies and frameworks have been <b>implemented or adapted</b> in <b>different cultural, social, and educational contexts</b>.</p>
+                                    <p class="lh-sm">Submissions should focus on <b>practical solutions</b> that address current educational challenges and promote <b>enhanced teaching and learning in engineering, computing, and technology education</b>. These may include <b>national policy changes, regional adaptations of curricula</b>, or <b>cross-country comparisons of educational programs</b>.</p> 
+                                    <p class="lh-sm fs-5 fw-bold"><i>A Category 2 Paper undergoes a <b>double-blind peer review process</b>.</i></p>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class=" col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Content should include:</h6>
+                                    </div>  
+                                    <div class="card-body">
+                                        <ul><li><b>Detailed descriptions</b> of the curriculum, program, or framework, including its educational goals and pedagogical approach;
+                                            </li><li><b>Clear implementation plans</b>, outlining how the program or curriculum has been or will be carried out in real-world educational settings;
+                                            </li><li><b>Case studies or examples</b> of how the curriculum or program has been adapted to suit specific regional or national educational contexts, showing the impact on students, institutions, or countries involved;
+                                            </li><li><b>An analysis of challenges and adaptations</b> required when implementing curricula or programs in <b>diverse educational settings</b>, including cross-country comparisons if applicable;
+                                            </li><li><b>Expected outcomes</b>, including how the proposed program or curriculum will improve student learning, engagement, or achievement;
+                                            </li><li><b>An alignment with current educational trends or research</b>, showcasing how the proposal addresses existing needs or gaps in the field.
+                                            </li></ul>
+                                    </div>
+                                </div>
+                            </div>            
+                            <div class=" col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Evaluation will prioritize:</h6>
+                                    </div>  
+                                    <div class="card-body">             
+                                        <ul><li>Clarity and practicality of the proposed curriculum or program
+                                            </li><li>Alignment with educational goals and outcomes
+                                            </li><li>Potential impact on student learning and teaching effectiveness
+                                            </li><li>Relevance to current trends and challenges in education, including regional or national contexts
+                                            </li><li>Effectiveness of adaptations or comparisons in diverse educational settings
+                                            </li></ul>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="row py-3 text-center">
+                            <h5 class="fw-bold">Important: </h5>
+                            <p class="lh-sm">This category is not intended for position papers or conceptual proposals that are primarily opinion-based or speculative. Instead, it is designed for concrete proposals with a clear path to implementation or those already in the process of being developed, piloted, or adapted across different regions or countries.</p> 
+                        </div>
+                    </div>
+                </div>    
 
+                <!-- Category 3 -->   
+                <div class="category3 container-fluid px-5 py-3 d-none">
+                    <div class="row bg-category3 rounded-3 justify-content-center">     
+                        <div class= "col text-sm-left">
+                            <div class="clearfix text-center px-5 pt-5">
+                                <img class="col-4 p-3 rounded float-sm-start" src="../images/decoration/paperCat3.jpg" alt="Category 2 Paper Contents"> 
+                                <div class="p-3">
+                                    <h5 class="fs-3 fw-bold">Category 3: Educational Research Papers</h5>
+                                    <p class="lh-sm">This category invites rigorous, empirical research studies that contribute to the advancement of educational theory, practice, and policy. Submissions are welcomed on any topic related to engineering, computing, and technology education, including, but not limited to, pedagogical approaches, teaching strategies, assessment methods, curriculum development, and student engagement.</p>
+                                    <p class="lh-sm">The primary focus should be on empirical research that addresses specific educational challenges, tests new hypotheses, evaluates the effectiveness of teaching interventions, or provides insights into improving educational outcomes across diverse contexts.</p> 
+                                    <p class="lh-sm fs-5 fw-bold"><i>A Category 3 Paper undergoes a <b>double-blind peer review process</b>.</i></p>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class=" col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Content should include:</h6>
+                                    </div>  
+                                    <div class="card-body">
+                                        <ul><li><b>Clear research objectives</b>: Define the research question(s) or hypotheses that the paper aims to investigate, based on key educational issues in the field.
+                                            </li><li><b>Literature review</b>: Situate the study within the existing body of research, identifying gaps, trends, or opportunities for further exploration, and providing a solid foundation for the research.
+                                            </li><li><b>Methodology</b>: Provide a comprehensive description of the <b>research design</b> and methods employed (qualitative, quantitative, or mixed methods). Detail the <b>data collection process</b>, the <b>research instruments</b> used (e.g., surveys, assessments, interviews), and the <b>study population or sample</b>.
+                                            </li><li><b>Data analysis and results</b>: Present the results of the research, including any statistical analysis or qualitative insights derived from the collected data. Use clear visuals or tables where appropriate to enhance the presentation of findings.
+                                            </li><li><b>Discussion and interpretation</b>: Analyze the results in the context of the research objectives. Discuss the <b>implications of the findings</b> for educational theory, practice, and policy, and consider how they contribute to improving teaching methods, student learning, and overall educational outcomes.
+                                            </li><li><b>Conclusions and recommendations</b>: Summarize the key findings of the study and provide actionable <b>recommendations</b> for educators, institutions, or policymakers, based on the research results. Highlight areas for further investigation or research gaps.</li></ul>
+                                    </div>
+                                </div>
+                            </div>            
+                            <div class=" col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Evaluation will prioritize:</h6>
+                                    </div>  
+                                    <div class="card-body">             
+                                        <ul><li>Clarity of research questions and objectives
+                                            </li><li>Robust and transparent methodology, with a strong rationale for chosen methods
+                                            </li><li>Quality of data analysis and the relevance of findings to the field of education
+                                            </li><li>Implications for educational practice, theory, and policy
+                                            </li><li>Contribution to advancing knowledge in the field of education.</li></ul>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="row py-3 text-center">
+                            <h5 class="fw-bold">Important: </h5>
+                            <p class="lh-sm">Submissions must be based on empirical data and should contribute new knowledge or insights into educational practices, with clear implications for improving education in engineering, computing, technology, or related fields.</p> 
+                        </div>   
+                    </div>        
+                </div>
+                <!-- Category 4 -->        
+                <div class="category4 container-fluid px-5 py-3 d-none">
+                    <div class="row bg-category4 rounded-3 justify-content-center">  
+                        <div class= "col text-sm-left">
+                            <div class="clearfix text-center px-5 pt-5">
+                                <img class="col-4 p-3 rounded float-sm-start" src="../images/decoration/paperCat4.jpg" alt="Category 4 Paper Contents"> 
+                                <div class="p-3">
+                                    <h5 class="fs-3 fw-bold">Category 4: Research-in-Development (RID) for Doctoral Students (Doctoral Symposium Papers)</h5>
+                                    <p class="lh-sm">This category invites submissions from doctoral students who are engaged in the early or intermediate stages of their dissertation research. The goal is to provide a scholarly venue where doctoral candidates can present their research-in-development, receive constructive feedback, and engage with the academic community as they refine their work.</p>
+                                    <p class="lh-sm">Submissions in this category should reflect serious academic effort and be grounded in educational theory or empirical frameworks. While final results are not expected, papers should demonstrate a clear research direction and academic merit.</p>
+                                    <p class="lh-sm fs-5 fw-bold"><i>A Category 4 Paper undergoes a <b>single-blind peer review process</b>.</i></p>
+                                </div>
+                            </div>    
+                        </div>               
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class=" col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Content should include:</h6>
+                                    </div>  
+                                    <div class="card-body">
+                                        <ul><li><b>Research problem or question</b>: Clearly articulate the educational issue or problem the research addresses, providing motivation for the study within the broader field of engineering, computing, or technology education.
+                                            </li><li><b>Preliminary literature review</b>: Situate the proposed research within relevant academic literature, highlighting gaps or areas of contention that the doctoral study intends to explore or resolve.
+                                            </li><li><b>Theoretical framework</b>: Outline any theoretical perspectives or models guiding the inquiry and shaping the research design.
+                                            </li><li><b>Research design and methodology</b>: Describe the planned or ongoing methodology, including type of study (qualitative, quantitative, or mixed methods), intended population or sample, data collection methods, and rationale for design choices.
+                                            </li><li><b>Preliminary results or observations (if available)</b>: Share any early findings or insights that have emerged, or discuss anticipated outcomes and key assumptions.
+                                            </li><li><b>Expected contributions</b>: Discuss how the research is expected to contribute to the field, including implications for practice, theory, or policy, even if preliminary.
+                                            </li><li><b>Next steps and challenges</b>: Reflect on the current state of the research, challenges encountered, and plans for future development or refinement of the study.</li></ul>
+                                    </div>
+                                </div>
+                            </div>            
+                            <div class=" col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Evaluation will prioritize:</h6>
+                                    </div>  
+                                    <div class="card-body">             
+                                        <ul><li>Relevance and clarity of the research question
+                                            </li><li>Grounding in prior literature and theory
+                                            </li><li>Appropriateness and coherence of the research design
+                                            </li><li>Potential contribution to educational research or practice
+                                            </li><li>Academic rigor and level of maturity appropriate for doctoral research
+                                            </li></ul>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="row py-3 text-center">
+                            <h5 class="fw-bold">Important: </h5>
+                            <p class="lh-sm">Submissions must represent genuine doctoral research efforts in progress. They should go beyond conceptual proposals by including a structured design and connection to literature, even if data collection and analysis are still underway.</p> 
                         </div>
                     </div>    
-                </div>
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Content must include</h6>
-                            </div>  
-                            <div class="card-body">
-                                <ul><li>A <b>clear and detailed description</b> of the implemented teaching method, tool, or activity;
-                                    </li><li>A comprehensive explanation of the <b>instructional context</b>, such as course type, student population, and institutional environment;
-                                    </li><li><b>Empirical evidence of effectiveness</b> and a <b>critical analysis of results</b>, including what was learned, how the intervention affected teaching and learning, and its broader implications;
-                                    </li><li><b>Reflective insights</b> that help other educators understand how they might adapt or benefit from the reported experience;
-                                    </li><li><b>Clear situating within prior literature</b>, showing how the intervention builds on, complements, or challenges existing educational research and practices.
-                                    </li></ul>  
-                            </div>
-                        </div>  
-                    </div>
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Evaluation will prioritize</h6>
-                            </div>  
-                            <div class="card-body">             
-                                <ul><li>Clarity and specificity of the instructional intervention
-                                    </li><li>Rigor and transparency in the collection and interpretation of results
-                                    </li><li>Relevance and educational impact
-                                    </li><li>Situating the work within relevant prior research and literature
-                                    </li><li>Transferability and usefulness to other educators                                
-                                    </li></ul>
+                </div>  
+                <!-- Category 5 -->
+                <div class="category5 container-fluid px-5 py-3 d-none">
+                    <div class="row bg-success-subtle rounded-3 justify-content-center">          
+                        <div class= "col text-sm-left">
+                            <div class="clearfix text-center px-5 pt-5">
+                                <img class="col-4 p-3 rounded float-sm-start" src="../images/decoration/paperCat5.jpg" alt="Category 4 Paper Contents"> 
+                                <div class="p-3">
+                                    <h5 class="fs-3 fw-bold">Category 5: Workshop Proposal Papers</h5>
+                                    <p class="lh-sm">This category invites submissions from individuals or teams interested in leading interactive workshops designed for educators, researchers, and professionals. Workshops provide an opportunity to share expertise through engaging, hands-on sessions that emphasize active learning, reflection, and dialogue. These sessions are intended to deepen participants’ understanding of a specific topic and provide practical tools, resources, or strategies applicable to their teaching, research, or academic development.</p>
+                                    <p class="lh-sm">Workshops will be conducted <b>online on the  Sunday preceding the conference</b>, in accordance with university policies for EDUNINE2026. They may span <b>1 to 4 time slots</b>, with each slot lasting <b>1 hour and 30 minutes</b>. Proposals must represent original work not previously published or under review elsewhere.</p>
+                                    <p class="lh-sm fs-5 fw-bold"><i>A Category 5 Paper undergoes a <b>single-blind peer review process</b>.</i></p>
+                                </div>                          
+                            </div>    
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Proposals should include:</h6>
+                                    </div>  
+                                    <div class="card-body">
+                                        <ul><li><b>Workshop Overview</b>: Clearly describe the purpose, objectives, and scope of the workshop. Outline the central themes, topics to be addressed, and the relevance to the community of engineering, computing, or technology education. Mention any tools, technologies, or participant experiences to be featured during the session.
+                                            </li><li><b>Learning Activities</b>: Provide a detailed outline of the structure and sequence of workshop activities. Describe how interaction will be facilitated (e.g., breakout rooms, collaborative tools, simulations), and how hands-on engagement will be integrated. Specify the total duration and distribution of time across activities.
+                                            </li><li><b>Target Audience</b>: Identify the intended participants and their expected background knowledge. Indicate the level of the workshop (e.g., beginner, intermediate, advanced) and any prerequisites, if applicable.
+                                            </li><li><b>References</b>: Include citations to relevant literature, models, or resources referenced in the proposal. This section should demonstrate theoretical or practical grounding for the workshop's content and structure.
+                                            </li><li><b>Presenter Bios</b>: Provide brief biographies (up to 200 words each) for all presenters, including relevant experience, institutional affiliations, and areas of expertise. Presenter photos are optional but encouraged.</li></ul>
+                                    </div>
+                                </div>
+                            </div>            
+                            <div class="col d-flex flex-fill justify-content-center">
+                                <div class="w-100 card"> 
+                                    <div class="card-header">
+                                        <h6 class="fw-bold text-center">Evaluation will prioritize:</h6>
+                                    </div>  
+                                    <div class="card-body">             
+                                        <ul><li>Relevance and clarity of the workshop objectives
+                                            </li><li>Level of engagement and interactivity planned
+                                            </li><li>Appropriateness for the intended audience
+                                            </li><li>Connection to educational practice or research
+                                            </li><li>Organization, feasibility, and clarity of the proposal
+                                            </li><li>Qualifications and experience of the presenters.</li></ul>
+                                    </div>
+                                </div>  
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="row bg-info-subtle py-3">
-                    <h5 class="fw-bold">Important: </h5>
-                    <p class="lh-sm">Papers describing ongoing interventions, initial uses without sufficient evidence, or results that are preliminary or not statistically significant should be submitted as <b>Work-in-Progress (WIP) papers</b>, where early-stage insights are welcomed.</p>
-                    <p class="lh-sm">Submissions that focus primarily on the design, development, or technical aspects of educational tools or platforms—rather than their effective pedagogical application—will <b>not be considered</b>.</p>
-                    <p class="lh-sm">Manuscripts lacking real-world implementation or results analysis will be rejected.</p> 
-                </div> -->
-                <!-- Category 2 -->
-                <!-- <div class="row bg-light py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat2.jpg" alt="Category 2 Paper Contents"> 
-                            <h5 class="fs-3 fw-bold">Category 2: New Curricula and Educational Program Proposals (Including Regional and National Adaptations)</h5>
-                            <p class="lh-sm">This category invites <b>innovative curriculum designs, educational programs, and pedagogical frameworks</b> that are <b>ready for implementation</b> or are in the <b>early stages of development</b>. We also welcome submissions that focus on <b>regional or national adaptations</b> of curricula, exploring how educational strategies and frameworks have been <b>implemented or adapted</b> in <b>different cultural, social, and educational contexts</b>.</p>
-                            <p class="lh-sm">Submissions should focus on <b>practical solutions</b> that address current educational challenges and promote <b>enhanced teaching and learning in engineering, computing, and technology education</b>. These may include <b>national policy changes, regional adaptations of curricula</b>, or <b>cross-country comparisons of educational programs</b>.</p> 
-                            <p class="lh-sm fs-5 fw-bold"><i>A Category 2 Paper undergoes a <b>double-blind peer review process</b>.</i></p>
-                        </div>    
-                    </div>
-                </div>
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Content should include:</h6>
-                            </div>  
-                            <div class="card-body">
-                                <ul><li><b>Detailed descriptions</b> of the curriculum, program, or framework, including its educational goals and pedagogical approach;
-                                    </li><li><b>Clear implementation plans</b>, outlining how the program or curriculum has been or will be carried out in real-world educational settings;
-                                    </li><li><b>Case studies or examples</b> of how the curriculum or program has been adapted to suit specific regional or national educational contexts, showing the impact on students, institutions, or countries involved;
-                                    </li><li><b>An analysis of challenges and adaptations</b> required when implementing curricula or programs in <b>diverse educational settings</b>, including cross-country comparisons if applicable;
-                                    </li><li><b>Expected outcomes</b>, including how the proposed program or curriculum will improve student learning, engagement, or achievement;
-                                    </li><li><b>An alignment with current educational trends or research</b>, showcasing how the proposal addresses existing needs or gaps in the field.
-                                    </li></ul>
-
-                            </div>
-                        </div>
-                    </div>            
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Evaluation will prioritize:</h6>
-                            </div>  
-                            <div class="card-body">             
-                                <ul><li>Clarity and practicality of the proposed curriculum or program
-                                    </li><li>Alignment with educational goals and outcomes
-                                    </li><li>Potential impact on student learning and teaching effectiveness
-                                    </li><li>Relevance to current trends and challenges in education, including regional or national contexts
-                                    </li><li>Effectiveness of adaptations or comparisons in diverse educational settings
-                                    </li></ul>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="row bg-light py-3">
-                    <h5 class="fw-bold">Important: </h5>
-                    <p class="lh-sm">This category is not intended for position papers or conceptual proposals that are primarily opinion-based or speculative. Instead, it is designed for concrete proposals with a clear path to implementation or those already in the process of being developed, piloted, or adapted across different regions or countries.</p> 
-                </div> -->
-
-                <!-- Category 3 -->        
-                <!-- <div class="row bg-info-subtle py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat3.jpg" alt="Category 2 Paper Contents"> 
-                            <h5 class="fs-3 fw-bold">Category 3: Educational Research Papers</h5>
-                            <p class="lh-sm">This category invites rigorous, empirical research studies that contribute to the advancement of educational theory, practice, and policy. Submissions are welcomed on any topic related to engineering, computing, and technology education, including, but not limited to, pedagogical approaches, teaching strategies, assessment methods, curriculum development, and student engagement.</p>
-                            <p class="lh-sm">The primary focus should be on empirical research that addresses specific educational challenges, tests new hypotheses, evaluates the effectiveness of teaching interventions, or provides insights into improving educational outcomes across diverse contexts.</p> 
-                            <p class="lh-sm fs-5 fw-bold"><i>A Category 3 Paper undergoes a <b>double-blind peer review process</b>.</i></p>
-                        </div>    
-                    </div>
-                </div>
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Content should include:</h6>
-                            </div>  
-                            <div class="card-body">
-                                <ul><li><b>Clear research objectives</b>: Define the research question(s) or hypotheses that the paper aims to investigate, based on key educational issues in the field.
-                                    </li><li><b>Literature review</b>: Situate the study within the existing body of research, identifying gaps, trends, or opportunities for further exploration, and providing a solid foundation for the research.
-                                    </li><li><b>Methodology</b>: Provide a comprehensive description of the <b>research design</b> and methods employed (qualitative, quantitative, or mixed methods). Detail the <b>data collection process</b>, the <b>research instruments</b> used (e.g., surveys, assessments, interviews), and the <b>study population or sample</b>.
-                                    </li><li><b>Data analysis and results</b>: Present the results of the research, including any statistical analysis or qualitative insights derived from the collected data. Use clear visuals or tables where appropriate to enhance the presentation of findings.
-                                    </li><li><b>Discussion and interpretation</b>: Analyze the results in the context of the research objectives. Discuss the <b>implications of the findings</b> for educational theory, practice, and policy, and consider how they contribute to improving teaching methods, student learning, and overall educational outcomes.
-                                    </li><li><b>Conclusions and recommendations</b>: Summarize the key findings of the study and provide actionable <b>recommendations</b> for educators, institutions, or policymakers, based on the research results. Highlight areas for further investigation or research gaps.</li></ul>
-
-                            </div>
-                        </div>
-                    </div>            
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Evaluation will prioritize:</h6>
-                            </div>  
-                            <div class="card-body">             
-                                <ul><li>Clarity of research questions and objectives
-                                    </li><li>Robust and transparent methodology, with a strong rationale for chosen methods
-                                    </li><li>Quality of data analysis and the relevance of findings to the field of education
-                                    </li><li>Implications for educational practice, theory, and policy
-                                    </li><li>Contribution to advancing knowledge in the field of education.</li></ul>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="row bg-info-subtle py-3">
-                    <h5 class="fw-bold">Important: </h5>
-                    <p class="lh-sm">Submissions must be based on empirical data and should contribute new knowledge or insights into educational practices, with clear implications for improving education in engineering, computing, technology, or related fields.</p> 
-                </div>        -->
-
-                <!-- Category 4 -->        
-                <!-- <div class="row bg-light py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat4.jpg" alt="Category 4 Paper Contents"> 
-                            <h5 class="fs-3 fw-bold">Category 4: Research-in-Development (RID) for Doctoral Students (Doctoral Symposium Papers)</h5>
-                            <p class="lh-sm">This category invites submissions from doctoral students who are engaged in the early or intermediate stages of their dissertation research. The goal is to provide a scholarly venue where doctoral candidates can present their research-in-development, receive constructive feedback, and engage with the academic community as they refine their work.</p>
-                            <p class="lh-sm">Submissions in this category should reflect serious academic effort and be grounded in educational theory or empirical frameworks. While final results are not expected, papers should demonstrate a clear research direction and academic merit.</p>
-                            <p class="lh-sm fs-5 fw-bold"><i>A Category 4 Paper undergoes a <b>single-blind peer review process</b>.</i></p>
-                        </div>    
-                    </div>
-                </div>
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Content should include:</h6>
-                            </div>  
-                            <div class="card-body">
-                                <ul><li><b>Research problem or question</b>: Clearly articulate the educational issue or problem the research addresses, providing motivation for the study within the broader field of engineering, computing, or technology education.
-                                    </li><li><b>Preliminary literature review</b>: Situate the proposed research within relevant academic literature, highlighting gaps or areas of contention that the doctoral study intends to explore or resolve.
-                                    </li><li><b>Theoretical framework</b>: Outline any theoretical perspectives or models guiding the inquiry and shaping the research design.
-                                    </li><li><b>Research design and methodology</b>: Describe the planned or ongoing methodology, including type of study (qualitative, quantitative, or mixed methods), intended population or sample, data collection methods, and rationale for design choices.
-                                    </li><li><b>Preliminary results or observations (if available)</b>: Share any early findings or insights that have emerged, or discuss anticipated outcomes and key assumptions.
-                                    </li><li><b>Expected contributions</b>: Discuss how the research is expected to contribute to the field, including implications for practice, theory, or policy, even if preliminary.
-                                    </li><li><b>Next steps and challenges</b>: Reflect on the current state of the research, challenges encountered, and plans for future development or refinement of the study.</li></ul>
-
-                            </div>
-                        </div>
-                    </div>            
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Evaluation will prioritize:</h6>
-                            </div>  
-                            <div class="card-body">             
-                                <ul><li>Relevance and clarity of the research question
-                                    </li><li>Grounding in prior literature and theory
-                                    </li><li>Appropriateness and coherence of the research design
-                                    </li><li>Potential contribution to educational research or practice
-                                    </li><li>Academic rigor and level of maturity appropriate for doctoral research
-                                    </li></ul>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="row bg-light py-3">
-                    <h5 class="fw-bold">Important: </h5>
-                    <p class="lh-sm">Submissions must represent genuine doctoral research efforts in progress. They should go beyond conceptual proposals by including a structured design and connection to literature, even if data collection and analysis are still underway.</p> 
-                </div>                        -->
-
-                <!-- Category 5 -->        
-                <!-- <div class="row bg-info-subtle py-3">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/paperCat5.jpg" alt="Category 4 Paper Contents"> 
-                            <h5 class="fs-3 fw-bold">Category 5: Workshop Proposal Papers</h5>
-                            <p class="lh-sm">This category invites submissions from individuals or teams interested in leading interactive workshops designed for educators, researchers, and professionals. Workshops provide an opportunity to share expertise through engaging, hands-on sessions that emphasize active learning, reflection, and dialogue. These sessions are intended to deepen participants’ understanding of a specific topic and provide practical tools, resources, or strategies applicable to their teaching, research, or academic development.</p>
-                            <p class="lh-sm">Workshops will be conducted <b>online on the  Sunday preceding the conference</b>, in accordance with university policies for EDUNINE2026. They may span <b>1 to 4 time slots</b>, with each slot lasting <b>1 hour and 30 minutes</b>. Proposals must represent original work not previously published or under review elsewhere.</p>
-                            <p class="lh-sm fs-5 fw-bold"><i>A Category 5 Paper undergoes a <b>single-blind peer review process</b>.</i></p>
-                        </div>    
-                    </div>
-                </div>
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Proposals should include:</h6>
-                            </div>  
-                            <div class="card-body">
-                                <ul><li><b>Workshop Overview</b>: Clearly describe the purpose, objectives, and scope of the workshop. Outline the central themes, topics to be addressed, and the relevance to the community of engineering, computing, or technology education. Mention any tools, technologies, or participant experiences to be featured during the session.
-                                    </li><li><b>Learning Activities</b>: Provide a detailed outline of the structure and sequence of workshop activities. Describe how interaction will be facilitated (e.g., breakout rooms, collaborative tools, simulations), and how hands-on engagement will be integrated. Specify the total duration and distribution of time across activities.
-                                    </li><li><b>Target Audience</b>: Identify the intended participants and their expected background knowledge. Indicate the level of the workshop (e.g., beginner, intermediate, advanced) and any prerequisites, if applicable.
-                                    </li><li><b>References</b>: Include citations to relevant literature, models, or resources referenced in the proposal. This section should demonstrate theoretical or practical grounding for the workshop's content and structure.
-                                    </li><li><b>Presenter Bios</b>: Provide brief biographies (up to 200 words each) for all presenters, including relevant experience, institutional affiliations, and areas of expertise. Presenter photos are optional but encouraged.</li></ul>
-
-                            </div>
-                        </div>
-                    </div>            
-                    <div class=" col d-flex flex-fill justify-content-center">
-                        <div class="card"> 
-                            <div class="card-header">
-                                <h6 class="fw-bold">Evaluation will prioritize:</h6>
-                            </div>  
-                            <div class="card-body">             
-                                <ul><li>Relevance and clarity of the workshop objectives
-                                    </li><li>Level of engagement and interactivity planned
-                                    </li><li>Appropriateness for the intended audience
-                                    </li><li>Connection to educational practice or research
-                                    </li><li>Organization, feasibility, and clarity of the proposal
-                                    </li><li>Qualifications and experience of the presenters.</li></ul>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-                <div class="row bg-info-subtle py-3">
-                    <h5 class="fw-bold">Important: </h5>
-                    <p class="lh-sm">Workshop proposals should demonstrate clear pedagogical goals, structured activities, and relevance to the educational community. Proposals lacking interactive elements or based solely on lectures will not be prioritized.</p> 
-                </div>                               
-            </div>   -->
-            <!-- Formatting guidelines -->          
+                        <div class="row py-3 text-center">
+                            <h5 class="fw-bold">Important: </h5>
+                            <p class="lh-sm">Workshop proposals should demonstrate clear pedagogical goals, structured activities, and relevance to the educational community. Proposals lacking interactive elements or based solely on lectures will not be prioritized.</p> 
+                        </div>     
+                    </div>                               
+                </div> 
+        </section>
+             
+        <!-- <section> -->
+            <!-- Formatting guidelines         -->
             <!-- <div class="container-fluid py-3 bg-body-white">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
                         <h6 class="display-6 fw-bold">EDUNINE Paper Types and Formatting Guidelines</h6> 
-
                         <p class="lh-sm">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
-                            <p class="lh-sm">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
+                        <p class="lh-sm">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
                     </div>
                 </div> -->
-
                 <!-- FULL Paper -->
                 <!-- <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
@@ -604,18 +642,15 @@
                             </div>
                         </div>
                     </div>
-                </div>  -->
-
-                <!-- DS Paper -->
-                
+                </div> -->
+                <!-- DS Paper -->              
                 <!-- <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/dsPaper.jpg" alt="Doctoral Symposium Paper Requirements"> 
                             <h5 class="fs-3 fw-bold">Doctoral Symposium (DS) Paper Formatting Guidelines</h5>
                             <p class="lh-sm"><p class="lh-sm">These papers provide a venue for doctoral students to share work in progress and receive feedback from the academic community. This format is required for:</p><ul><li>
-                                    <b>Category 4: Research-in-Development (RID) for Doctoral Students</b></li></ul>
-
+                                <b>Category 4: Research-in-Development (RID) for Doctoral Students</b></li></ul>
                             <div class=" col d-flex flex-fill justify-content-center">
                                 <div class="card"> 
                                     <div class="card-header">
@@ -633,9 +668,8 @@
                             </div>
                         </div> 
                     </div>
-                </div> -->
+                </div>  -->
                 <!-- Workshop Proposal Paper -->
-
                 <!-- <div class="row bg-light py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
@@ -661,7 +695,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section> -->
 
@@ -930,7 +963,7 @@
                         <div class="clearfix">
                             <div class="text-center"> -->
 
-          <?php include "../includesHtml/commingSoon.html" ?>
+          <?php /*include "../includesHtml/commingSoon.html" */?>
                                 
                               <!--- reemplazar link al sistema de submission e instrucciones de uso 
                               
@@ -938,7 +971,7 @@
                               
                               -->
                               
-                            </div>
+                            <!-- </div> -->
                             
                             <!--
                             <h2 class="display-6 fw-bold">How to Submit and Manage Your Paper with the EDUNINE2026 OpenConf system</h2>
@@ -1132,15 +1165,17 @@
             </div>
         </section> 
 -->
-        </section>
+        <!-- </section> -->
 
         <!-- Footer section -->
-        <div class ="container-fluid">
+        <!-- <div class ="container-fluid">
             <!-- footer  -->
-            <?php include "../includesHtml/final.html" ?> 
-        </div>
+            <?php /*include "../includesHtml/final.html"*/ ?> 
+        <!-- </div>  -->
+    </main>    
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>
+        <script src ="../js/categorySection.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     </body>

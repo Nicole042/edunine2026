@@ -225,8 +225,7 @@
                                     </div>
                                 </div>
                             </div>
-                    </div>
-                    
+                    </div>                  
                 </div>
                 <div class="d-none mt-3 peerReview">
                     <div class="container-fluid p-4">
@@ -883,8 +882,6 @@
 
     <!-- Organization section -->
        
-   
-    </main>
 
 <!-- Footer section -->
 <section id="organizers">
@@ -892,6 +889,7 @@
         <?php include '../includesHtml/final.html' ?>
     </div> 
 </section>
+</main>
         <script src ="../js/datesFill.js?1"></script>
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>      
