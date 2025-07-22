@@ -14,9 +14,15 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        
+        <!-- Bootstrap cards -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
+        <link href="../css/styleManuscriptPreSubmission.css" rel="stylesheet">
+
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
@@ -67,6 +73,7 @@
                 </div>
             </div>
         </section>
+
         <!-- checklist  -->
         <section id="suitable">
             <div class="container-fluid align-content-start pt-5 pb-0">
@@ -82,153 +89,235 @@
                 <div class="container-fluid px-4 py-5">
                     <h2 class="pb-2 border-bottom display-6 fw-bold">Manuscript Pre-Submission Checklist</h2>
                 </div>
-                 <div class= "container-fluid tope  pb-5">
-                    <div class="row g-5">
-                        <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                <div class="text-center">
-                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/presubmission.jpg"  alt="Suitable Analysis Image"> 
-                                </div>
-                                <h4 class="display-6 fw-bold">Conference Suitability Analysis</h4>
-                                <p class="fs-5 mb-4">Review the conference's call for papers, scope, and topics list to determine if your manuscript aligns with the specified categories, themes and research areas. Ensure that your paper addresses the key topics highlighted by the conference and meets the relevance criteria. This analysis will help you decide if the conference is the appropriate venue for your submission. Explore the details below! 
+                <div class= "px-4 pb-1">
+                    <h4 class="display-6 fw-bold">Conference Suitability Analysis</h4>
+                    <p class="fs-5 mb-4">
+                        Review the conference's call for papers, scope, and topics list to determine if your manuscript aligns with the specified categories, themes and research areas. Ensure that your paper addresses the key topics highlighted by the conference and meets the relevance criteria. This analysis will help you decide if the conference is the appropriate venue for your submission. Explore the details below!
+                    </p>
+                </div>
+
+                <div class="manuscript-section">
+                    <div class="manuscript-buttons">
+                        <button class="manuscript-button" data-content="callForPapers">Call for Papers</button>
+                        <button class="manuscript-button" data-content="scopeTopics">Scope and Areas of Interest</button>
+                        <button class="manuscript-button" data-content="relevanceCriteria">Topics</button>
+                    </div>
+                </div>
+                
+                <!-- Call for Papers Content -->
+                <div id="callForPapers" class="content-container px-4">
+                    <!-- Conference Info Card -->
+                    <div class="conference-info-card">
+                        <h5 class="conference-highlight mb-3">Call for Papers: Summary</h5>
+                        <p class="mb-3">
+                            <strong class="conference-highlight">EDUNINE2026</strong> will be a hybrid conference on 
+                            <strong class="conference-highlight">Education in Engineering, Computing, and Technology</strong>, 
+                            featuring both online and in-person presentations at 
+                            <strong class="location-highlight">Tecnológico Monterrey</strong> in 
+                            <strong class="location-highlight">Mexico City, Mexico</strong>. Authors can present either in person or online, with both formats valued equally. All participants will have access to all sessions.
+                        </p>
+                        <p class="mb-0">
+                            Authors are invited to submit original contributions in English, which will undergo a rigorous peer-review process, in the following categories aligned with the field of interest of the IEEE Education Society and within the scope of IEEE.
+                        </p>
+                    </div>
+
+                    <!-- Submission Categories: call for papers -->
+                    <h5 class="mb-4"> Submission Categories</h5>
+                    
+                    <div class="row">
+                        <div class="col-md mb-4">
+                            <div class="category-card">
+                                <h6 class="category-title">Category 1: Teaching Techniques</h6>
+                                <p class="category-description">
+                                    Implemented teaching techniques, classroom experience reports, or pedagogical tools (as full papers or work-in-progress papers)
                                 </p>
                             </div>
-                        </div>    
-                    </div>
-                </div>
-                <div class="container-fluid py-3 bg-body-secondary">
-                    <div class="row">
-                        <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/callForPapers.jpg" alt="Call for Papers"> <h5 class="display-6 fw-bold">EDUNINE2026 Call for Papers: Summary</h5>
-                                <p class="lh-sm"><b>EDUNINE2026</b>  will be a hybrid conference on <b><u>Education in Engineering, Computing, and Technology</u></b>, featuring both online and in-person presentations at <b>Tecnológico Monterrey</b> in <b>Mexico City, Mexico</b>. Authors can present either in person or online, with both formats valued equally. All participants will have access to all sessions.</p>
-
-                                <p class="lh-sm">Authors are invited to submit original contributions in English, which will undergo a rigorous peer-review process, in the following categories aligned with the field of interest of the IEEE Education Society and within the scope of IEEE:</p><ul>
-                                    <li><b>Category 1:</b> Implemented teaching techniques, classroom experience reports, or pedagogical tools (as full papers or work-in-progress papers)
-                                    </li><li><b>Category 2:</b> New curricula and educational program proposals, including regional or national adaptations (as full papers)
-                                    </li><li><b>Category 3:</b> Educational research papers (as full papers)
-                                    </li><li><b>Category 4:</b> Research-in-Development (RID) papers for doctoral students (as doctoral symposium papers).
-                                    </li><li><b>Category 5:</b> Workshop Proposals.
-                                    </li></ul>
-                                <p class="lh-sm">Accepted papers will be included in the IEEE digital library, <b>IEEEXplore®</b>, which partners with Google, Elsevier, Web of Science, and others. <b>Oral presentations</b> will be in <i>English</i>, <i>Portuguese</i>, and <i>Spanish</i>. The conference will also feature pre-workshops, plenaries, panels, hybrid social events and a pre-conference cultural immersive tour. <b>Submit your papers on the conference streams topics and conference scope listed in the next sub-sections</b>.</p>
-                                <p class="text-end"><a href="doc/cfp.pdf" class="border-white btn btn-primary btn-sm" role="button">Read the full call for papers</a> </p>
-                            </div>  
                         </div>
-                    </div>
-                </div>
-                <div class="container-fluid py-3 bg-white">
-                    <div class="row">
-                        <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/scope.jpg" alt="Scope and Areas of Interest"> <h5 class="display-6 fw-bold">EDUNINE Scope and Areas of Interest</h5> 
-                                <p class="lh-sm">This conference serves as a central hub for researchers and educators to share cutting-edge research and best practices in <b>Engineering, Technology, and Computing (ETC) Education</b>. We encourage diverse submissions that explore the field through interdisciplinary and theoretical lenses.</p>
-                                <h6 class="fw-bold">Thematic Relevance:</h6>
-                                <p class="lh-sm">Papers should address the conference topics, including innovations, trends, challenges, and solutions in relevant fields that encompasses the IEEE Education Society’s field of interest which are the theory and practice of education and educational technology related to the effective delivery of knowledge in disciplines that fall within IEEE’s scope, such as engineering, computing, and technology-related fields. <i>Source</i>: <span class="text-end"><a href="https://ieee-edusociety.org/about/society-overview#mission" class="border-white btn btn-primary btn-sm" role="button">IEEE Education Society's Field of Interest</a> </span></p>
-
-                                <p>While interdisciplinary and closely related topics may be a wonderful addition to a conference for publication in IEEE Xplore®, the papers themselves should be in an IEEE field of interest. Challenges arise when non-IEEE fields of interest are included.                      
-                                <h6 class="fw-bold">Responding to a Dynamic Landscape: </h6> 
-                                <span id="dots">...</span><div id="more">
-                                    <p class="lh-sm">This conference acknowledges the rapid evolution of ETC education, particularly at the undergraduate level. We welcome discussions on emerging responsibilities in the field, such as: </p><p class="lh-sm"><ul><li>
-                                            Expanding ETC education to K-12 and continuing education programs.</li><li>
-                                            Promoting student body diversification to reflect population demographics.</li><li>
-                                            Integrating the history and societal impact of technology into curriculum.</li><li>
-                                            Cultivating technological literacy for non-engineering audiences.</li>   
-                                    </ul>  
-                                    <h6 class="fw-bold"> Interdisciplinary Focus:</h6>                           
-                                    <p class="lh-sm">While the core focus is on ETC education, submissions from related fields are welcome. This includes education in other engineering branches, physical sciences, life sciences, or applied mathematics, as long as they demonstrate significant relevance to ETC education. </p> 
-
-                                    <h6 class="fw-bold"> Emphasis on Pedagogy:</h6>                          
-                                    <p class="lh-sm">Submissions involving digital technology should primarily focus on its pedagogical application and broader educational implications. Papers on software/hardware implementation should prioritize the educational context and learning outcomes, not just technical details. Detailed implementation architecture is best suited for online resources (URLs) and not the paper itself. </p>
-
-                                    <h6 class="fw-bold"> Scope Considerations:</h6>                         
-                                    <p class="lh-sm">Papers on non-technical subjects like tourism, philosophy, art, etc., typically fall outside the conference scope.</p></div>
-                                <button class="border-white btn btn-primary btn-sm" onclick="changeReadMore()" id="myBtn">Read more</button>
+                        
+                        <div class="col-md mb-4">
+                            <div class="category-card">
+                                <h6 class="category-title">Category 2: Curricula & Programs</h6>
+                                <p class="category-description">
+                                    New curricula and educational program proposals, including regional or national adaptations (as full papers)
+                                </p>
                             </div>
                         </div>
-                        <!--  </div> -->
-                    </div>
-                </div>
-                <div class="container-fluid py-3 bg-body-secondary">
-                    <div class="row">
-                        <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                <img class="col-3 p-2 rounded float-sm-start" src="../images/decoration/topics.jpg" alt="Topics"> <h5 class="display-6 fw-bold">EDUNINE Topics</h5>
-                                <p class="lh-sm">This conference brings together educators and researchers to explore innovative approaches to teaching and learning in <b><u>Engineering, Technology, and Computing (ETC) Education</u></b>. The following thematic streams highlight key areas of discussion, fostering collaboration and knowledge exchange to equip educators with the tools and strategies to create engaging, inclusive, and future-proof learning environments for all students.</p> 
-                                <p>Topics are organized into the following thematic streams, including but not limited to:</p> 
-                            </div>  
-                        </div> 
-                    </div>  
-                    <div class="row row-cols-1 row-cols-md-3">
-                        <div class=" col d-flex flex-fill justify-content-center fs-2 mb-3">
-                            <div class="card"> 
-                                <div class="card-header">
-                                    <h6 class="fw-bold">I. Fostering Innovation and Inclusion in ETC (Engineering, Technology and Computing) Education:</h6>
-                                </div>  
-                                <div class="card-body"><ul>
-                                        <li>Engaging Pedagogies & Learning Activities.</li><li>
-                                            21st Century Skills & Competencies.</li><li>
-                                            Inclusive Learning Environments.</li><li>
-                                            Lifelong Learning & Professional Development.</li><li>
-                                            Strategies for Increased Women Participation.</li><li>
-                                            Interdisciplinary & Experiential Learning.</li><li>
-                                            Multicultural & Indigenous Perspectives.</li><li>
-                                            Language Learning in Technological Contexts.</li><li>
-                                            Research & Innovation in the ETC Classroom.</li><li>
-                                            Sustainability & Ethical Considerations.</li><li>
-                                            Adapting to Emerging Technologies.</li><li>
-                                            Learning Continuity in Challenging Environments.</li></ul>
-                                </div> 
-                            </div> 
+                        
+                        <div class="col-md mb-4">
+                            <div class="category-card">
+                                <h6 class="category-title">Category 3: Educational Research</h6>
+                                <p class="category-description">
+                                    Educational research papers (as full papers)
+                                </p>
+                            </div>
                         </div>
-
-                        <div class=" col d-flex flex-fill justify-content-center fs-2 mb-3">
-                            <div class="card"> 
-                                <div class="card-header">
-                                    <h6 class="fw-bold">II. Designing Effective Learning Spaces in ETC (Engineering, Technology and Computing) Education:</h6>
-                                </div>  
-                                <div class="card-body"><ul>
-                                        <li>
-                                            Blended & Technology-Enhanced Learning Environments.</li><li>
-                                            Accessible & Inclusive Learning Environments.</li><li>
-                                            Flexible & Open Learning Spaces.</li><li>
-                                            Minimizing Educational Disruption.</li><li>
-                                            Engaging Hybrid Learning Design & Activities.</li><li>
-                                            Educational Technologies for Equity & Inclusion.</li><li>
-                                            Online, E-learning, & Mobile Learning Platforms.</li><li>
-                                            MOOCs & Their Impact on ETC Education.</li><li>
-                                            Smart Classrooms & Immersive Learning Technologies.</li><li>
-                                            Game-Based Learning & Gamification Strategies.</li><li>
-                                            X-Reality & the Future of Learning Environments.</li><li>
-                                            STEM Learning Spaces for All Ages.</li><li>
-                                            Assistive Technologies for Diverse Learners.</li></ul>
-                                </div> 
-                            </div> 
+                        
+                        <div class="col-md mb-4">
+                            <div class="category-card">
+                                <h6 class="category-title">Category 4: Research-in-Development</h6>
+                                <p class="category-description">
+                                    RID papers for doctoral students (as doctoral symposium papers)
+                                </p>
+                            </div>
                         </div>
-
-                        <div class=" col d-flex flex-fill justify-content-center fs-2 mb-3">
-                            <div class="card"> 
-                                <div class="card-header">
-                                    <h6 class="fw-bold">
-                                        III. Strengthening Educational Organization & Practices in ETC (Engineering, Technology and Computing) Education:</h6>
-                                </div>  
-                                <div class="card-body"><ul>
-                                        <li>
-                                            Curriculum Design & Development Strategies.</li><li>
-                                            Accreditation & Quality Assurance Processes.</li><li>
-                                            Assessment & Evaluation for Learning.</li><li>
-                                            Ethical Dilemmas in ETC Education.</li><li>
-                                            Responsible AI Integration in ETC Education.</li><li>
-                                            Promoting STEM Education in K-12 & Higher Education.</li><li>
-                                            Effective Teacher Education & Professional Development.</li><li>
-                                            Faculty Support Systems & Mentorship Programs.</li><li>
-                                            Bridging the Research-Practice Gap in ETC.</li><li>
-                                            Learner Support Strategies & Retention Initiatives.</li></ul>
-                                </div> 
+                        
+                        <div class="col-md mb-4">
+                            <div class="category-card">
+                                <h6 class="category-title">Category 5: Workshops</h6>
+                                <p class="category-description">
+                                    Workshop proposals
+                                </p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="conference-info-card">
+                        <p class="mb-3">
+                            Accepted papers will be included in the IEEE digital library, <strong>IEEEXplore®</strong>, which partners with Google, Elsevier, Web of Science, and others. <strong>Oral presentations</strong> will be in <em>English</em>, <em>Portuguese</em>, and <em>Spanish</em>.
+                        </p>
+                        <p class="mb-3">
+                            The conference will also feature pre-workshops, plenaries, panels, hybrid social events and a pre-conference cultural immersive tour.
+                        </p>
+                        <div class="text-center">
+                            <a href="doc/cfp.pdf" class="btn btn-primary btn-sm" role="button">
+                                 Read the full call for papers
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Scope and areas-->
+                <div id="scopeTopics" class="content-container px-4">
+                    <div class="conference-info-card">
+                        <div class="card-header-scope">
+                            <h2 class="scope-title">Scope and Areas of Interest</h2>
+                        </div>
+                        
+                        <p class="scope-description">This conference serves as a central hub for researchers and educators to share cutting-edge research and best practices in <strong>Engineering, Technology, and Computing (ETC) Education</strong>. We encourage diverse submissions that explore the field through interdisciplinary and theoretical lenses.</p>
+
+                        <h3 class="scope-section-title">Thematic Relevance</h3>
+                        <div class="highlight-box-scope">
+                            <p>Papers should address the conference topics, including innovations, trends, challenges, and solutions in relevant fields that encompasses the <strong>IEEE Education Society's field of interest</strong> which are the theory and practice of education and educational technology related to the effective delivery of knowledge in disciplines that fall within IEEE's scope, such as engineering, computing, and technology-related fields.</p>
+
+                            <div class="text-center mt-3">
+                                <a href="https://ieee-edusociety.org/about/society-overview#mission" class="border-white btn btn-primary btn-sm" role="button">IEEE Education Society's Field of Interest</a>
+                            </div>
+                        </div>
+
+                        <div class="warning-box-scope">
+                            <h4 class="warning-title">Important Note</h4>
+                            <p>While interdisciplinary and closely related topics may be a wonderful addition to a conference for publication in IEEE Xplore®, the papers themselves should be in an IEEE field of interest. Challenges arise when non-IEEE fields of interest are included.</p>
+                        </div>
+
+                        <h3 class="scope-section-title">Responding to a Dynamic Landscape</h3>
+                        <p class="scope-description">This conference acknowledges the rapid evolution of ETC education, particularly at the undergraduate level. We welcome discussions on emerging responsibilities in the field, such as:</p>
+                        
+                        <div class="scope-categories-grid">
+                            <div class="scope-category-card">
+                                <h4 class="category-title">K-12 & Continuing Education</h4>
+                                <p>Expanding ETC education to K-12 and continuing education programs</p>
+                            </div>
+                            <div class="scope-category-card">
+                                <h4 class="category-title">Student Diversification</h4>
+                                <p>Promoting student body diversification to reflect population demographics</p>
+                            </div>
+                            <div class="scope-category-card">
+                                <h4 class="category-title">Historical & Social Context</h4>
+                                <p>Integrating the history and societal impact of technology into curriculum</p>
+                            </div>
+                            <div class="scope-category-card">
+                                <h4 class="category-title">Technological Literacy</h4>
+                                <p>Cultivating technological literacy for non-engineering audiences</p>
+                            </div>
+                        </div>
+
+                        <h3 class="scope-section-title">Interdisciplinary Focus</h3>
+                        <div class="success-box-scope">
+                            <p>While the core focus is on ETC education, submissions from related fields are welcome. This includes education in other engineering branches, physical sciences, life sciences, or applied mathematics, as long as they demonstrate <strong>significant relevance to ETC education</strong>.</p>
+                        </div>
+
+                        <h3 class="scope-section-title">Emphasis on Pedagogy</h3>
+                        <div class="info-box-scope">
+                            <p>Submissions involving digital technology should primarily focus on its <strong>pedagogical application and broader educational implications</strong>. Papers on software/hardware implementation should prioritize the educational context and learning outcomes, not just technical details. Detailed implementation architecture is best suited for online resources (URLs) and not the paper itself.</p>
+                        </div>
+
+                        <h3 class="scope-section-title">Scope Considerations</h3>
+                        <div class="danger-box-scope">
+                            <h4 class="danger-title">Outside Conference Scope</h4>
+                            <p>Papers on non-technical subjects like tourism, philosophy, art, etc., typically fall outside the conference scope.</p>
+                        </div>
+                    </div>             
+                </div>
+
+                <!-- Topics -->
+                <div id="relevanceCriteria" class="content-container px-4">
+                    <div class="conference-info-card">
+                        <div class="card-header-scope">
+                            <h2 class="scope-title">EDUNINE Topics</h2>
+                        </div>
+                        
+                        <p class="scope-description">This conference brings together educators and researchers to explore innovative approaches to teaching and learning in <strong>Engineering, Technology, and Computing (ETC) Education</strong>. The following thematic streams highlight key areas of discussion, fostering collaboration and knowledge exchange to equip educators with the tools and strategies to create engaging, inclusive, and future-proof learning environments for all students.</p>
+
+                        <div class="scope-categories-grid">
+                            <div class="scope-category-card">
+                                <h4 class="category-title">I. Fostering Innovation and Inclusion in ETC Education</h4>
+                                <ul class="topic-list">
+                                    <li class="topic-list-item">Engaging Pedagogies & Learning Activities</li>
+                                    <li class="topic-list-item">21st Century Skills & Competencies</li>
+                                    <li class="topic-list-item">Inclusive Learning Environments</li>
+                                    <li class="topic-list-item">Lifelong Learning & Professional Development</li>
+                                    <li class="topic-list-item">Strategies for Increased Women Participation</li>
+                                    <li class="topic-list-item">Interdisciplinary & Experiential Learning</li>
+                                    <li class="topic-list-item">Multicultural & Indigenous Perspectives</li>
+                                    <li class="topic-list-item">Language Learning in Technological Contexts</li>
+                                    <li class="topic-list-item">Research & Innovation in the ETC Classroom</li>
+                                    <li class="topic-list-item">Sustainability & Ethical Considerations</li>
+                                    <li class="topic-list-item">Adapting to Emerging Technologies</li>
+                                    <li class="topic-list-item">Learning Continuity in Challenging Environments</li>
+                                </ul>
+                            </div>
+
+                            <div class="scope-category-card">
+                                <h4 class="category-title">II. Designing Effective Learning Spaces in ETC Education</h4>
+                                <ul class="topic-list">
+                                    <li class="topic-list-item">Blended & Technology-Enhanced Learning Environments</li>
+                                    <li class="topic-list-item">Accessible & Inclusive Learning Environments</li>
+                                    <li class="topic-list-item">Flexible & Open Learning Spaces</li>
+                                    <li class="topic-list-item">Minimizing Educational Disruption</li>
+                                    <li class="topic-list-item">Engaging Hybrid Learning Design & Activities</li>
+                                    <li class="topic-list-item">Educational Technologies for Equity & Inclusion</li>
+                                    <li class="topic-list-item">Online, E-learning, & Mobile Learning Platforms</li>
+                                    <li class="topic-list-item">MOOCs & Their Impact on ETC Education</li>
+                                    <li class="topic-list-item">Smart Classrooms & Immersive Learning Technologies</li>
+                                    <li class="topic-list-item">Game-Based Learning & Gamification Strategies</li>
+                                    <li class="topic-list-item">X-Reality & the Future of Learning Environments</li>
+                                    <li class="topic-list-item">STEM Learning Spaces for All Ages</li>
+                                    <li class="topic-list-item">Assistive Technologies for Diverse Learners</li>
+                                </ul>
+                            </div>
+
+                            <div class="scope-category-card">
+                                <h4 class="category-title">III. Strengthening Educational Organization & Practices</h4>
+                                <ul class="topic-list">
+                                    <li class="topic-list-item">Curriculum Design & Development Strategies</li>
+                                    <li class="topic-list-item">Accreditation & Quality Assurance Processes</li>
+                                    <li class="topic-list-item">Assessment & Evaluation for Learning</li>
+                                    <li class="topic-list-item">Ethical Dilemmas in ETC Education</li>
+                                    <li class="topic-list-item">Responsible AI Integration in ETC Education</li>
+                                    <li class="topic-list-item">Promoting STEM Education in K-12 & Higher Education</li>
+                                    <li class="topic-list-item">Effective Teacher Education & Professional Development</li>
+                                    <li class="topic-list-item">Faculty Support Systems & Mentorship Programs</li>
+                                    <li class="topic-list-item">Bridging the Research-Practice Gap in ETC</li>
+                                    <li class="topic-list-item">Learner Support Strategies & Retention Initiatives</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <!-- END checklist -->
 
         <!-- Determine your manuscript type -->
 
@@ -1141,6 +1230,8 @@
         </div>
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>
+        <script src="../js/manuscriptPreSubmissionbuttons.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     </body>
