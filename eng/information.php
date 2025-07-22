@@ -248,9 +248,10 @@
     </div>
         
 
-    <button class="btn btn-outline-primary d-lg-none mb-3" onclick="toggleSidebar()">
-      ☰ Menu
+    <button id="sidebarToggleBtn" class="btn btn-outline-primary d-lg-none mb-3">
+        ☰ Menu
     </button>
+
 
     <!-- SIDEBAR SCROLLABLE -->
     <aside class="sidebar-scrollable">

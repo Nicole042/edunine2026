@@ -19,10 +19,15 @@ window.showContent = function(idToShow) {
 };
 
 // Toggle del sidebar con botón hamburguesa
-document.getElementById('sidebarToggleBtn').addEventListener('click', function () {
-  const sidebar = document.querySelector('.sidebar-scrollable');
-  sidebar.classList.toggle('show');
-});
+
+const toggleBtn = document.getElementById('sidebarToggleBtn');
+if (toggleBtn) {
+  toggleBtn.addEventListener('click', function () {
+    const sidebar = document.querySelector('.sidebar-scrollable');
+    sidebar.classList.toggle('show');
+  });
+}
+
 
 // Cierra el sidebar si haces clic fuera en móviles
 document.addEventListener('click', function (e) {
@@ -42,3 +47,5 @@ document.querySelectorAll('.toggle-parent').forEach(parent => {
     this.classList.toggle('open');
   });
 });
+
+
