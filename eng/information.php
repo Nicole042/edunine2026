@@ -294,7 +294,7 @@
             </ul> 
         </div>
 
-        <div id = "InThisSection" class= "container-fluid tope  pb-5">
+        <div id = "InThisSection" class= "container-fluid tope  pb-5  section-content ">
             <div class="row g-5">
                 <div class= "col text-sm-left">
                     <div class="clearfix">
@@ -308,7 +308,7 @@
             </div>
         </div>
 
-        <div id = "GeneralInformation" class="container-fluid py-3 bg-body-secondary d-none">
+        <div id = "GeneralInformation" class="container-fluid py-3 bg-body-secondary section-content d-none">
             <div class ="row">
                 <div class= "col text-sm-left">
                     <h6 class="display-6 fw-bold">General Information on Paper Categories and Submission Types</h6>
