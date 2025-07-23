@@ -18,11 +18,22 @@
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
         <link href="../css/stylevenue.css" rel="stylesheet">
+        <link href="../css/coordinator.css" rel="stylesheet">
 
 
 
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
+
+        
+        <!--SLICK CAROUSEL-->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <!--END  SLICK CAROUSEL -->
 
     </head>
     <body onload = "obtenerFechas(), jump()">
@@ -40,7 +51,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <div> 
             <!-- Navigation bar  -->
             <?php include "edu9header.html" ?> 
@@ -63,16 +74,31 @@
                     <img class="img-fluid w-100" src="../images/city/homeImage.jpeg" alt="EDUNINE Banner">
                 </div>
             </section>
+
+             <!-- PARTE SUSAN INICIO -->
+            <!-- New proposed breadcrumb -->
+                <nav class="section-nav" aria-label="Section navigation">
+                    <ul class="d-flex justify-content-end list-unstyled mb-0">
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="#primera">About </a>
+                        </li>
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="#dates">Schedule</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="#coordinators">Coordinators</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="#organizers">Organizers</a>
+                        </li>
+                        <!-- add/remove as needed
+                        There was no link for venue?? It tended to disappear -->
+                    </ul>
+                </nav>
+            <!-- PARTE SUSAN FIN -->
                 <!-- About section -->
-                 <!-- PARTE SUSAN INICIO -->
             <section class="primera">
-                <div class="container-fluid align-content-start py-0">
-                    <ul class="breadcrumb custom-breadcumb">
-                        <li><a href="index.php">Home</a></li>
-                        <li>About</li>
-                    </ul> 
-                </div>
-                <!-- PARTE SUSAN FIN -->
+             
                 <!-- ABOUT CONFERENCE SECTION -->
                  <div class="container-fluid px-0">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -117,16 +143,10 @@
             </section>
             <!-- NAVAR SCHEDULE SECTION -->
             <section id="dates">
-                <div class="container-fluid align-content-start py-0">
-                    <ul class="breadcrumb">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php?id=dates">Author</a></li>
-                        <li>Conference_Schedule_and_Important_Dates</li>
-                    </ul> 
-                </div>
+      
             <!-- SCHEDULE SECTION -->
             <section class="schedule">
-                <div class="container-fluid text-center"
+                <div class="container-fluid text-center">
                     <div class="row">
                         <div class="col-sm-12 ">
                             <h2 class="display-5 fw-bold px-3">Conference Schedule and Important Dates </h2><p class="fs-5 text-center mx-auto pb-3">Stay informed about key milestones and deadlines throughout the conference with our comprehensive timeline, ensuring you don't miss any important stages.</p>
@@ -483,242 +503,253 @@
                     </div>
                 </div>
             </section> 
-    <!-- Coordinators section -->
-    <!-- <section id="coordinators">
-        <div class="container-fluid align-content-start py-0">
-            <ul class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="index.php">About</a></li>
-                <li>Coordinators</li>
-            </ul> 
-        </div>
-        <div class="container-fluid py-5"> 
-            <div class="row">
-                <div class="col-sm-12 text-sm-left">
-                    <h2 class="display-5 fw-bold">Coordinators</h2> 
-                    <p>Meet the coordinators of our conference: dedicated professionals committed to ensuring a seamless and enriching experience for all participants.</p>
-                    <div class="album py-5 rounded-5 text-center"> 
-                        <div class="container-fluid">
-                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2">
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_molina.jpg" alt="José Martín Molina Espinosa" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div>
-                                    <h6 class="card-text">José Martín Molina Espinosa<br>Conference Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_molina">
-                                                <input type ="hidden" name="position" value="Conference Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
+    <!-- Coordinators section This was the previous location, should we mantain it?-->
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_brito.jpg" alt="Claudio R. Brito" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Claudio R. Brito<br>General Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">    
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_brito">
-                                                <input type ="hidden" name="position" value="General Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
+    <section id="coordinators">
+        <div class="container-fluid px-5">
+            <h2 class="display-5 fw-bold text-center mb-4">Coordinators</h2>
+            <div class="coordinators-slider">
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_ciampi.jpg" alt="Melany Ciampi" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Melany M. Ciampi<br>Co-Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_ciampi">
-                                                <input type ="hidden" name="position" value="Co-Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="#" alt=" " class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">To be assigned<br>Awards Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="">
-                                                <input type ="hidden" name="position" value="Awards Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="#" alt=" " class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">To be assigned<br>Technical Program Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="">
-                                                <input type ="hidden" name="position" value="Technical Program Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_luna.jpg" alt="Ana Luna" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Ana Luna<br>Technical Program Co-Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_luna">
-                                                <input type ="hidden" name="position" value="Technical Program Co-Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_da_silva.jpg" alt="Agatha da Silva Ovando" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Agatha da Silva Ovando<br>Technical Program Co-Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <!--    <form action ="resume.php" method="POST">
-                                                    <input type ="hidden" name="name" value="dr_da_silva">
-                                                    <input type ="hidden" name="position" value="Technical Program Co-Chair">
-                                                    <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form> -->
-                                            <!-- <p class="mb-0"> <a href="../../cv_congresses_en/dr_da_silva.pdf" class="border-white btn btn-primary btn-sm" role="button">View CV</a></p>           
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100">
-                                        <img src="../../cv_congresses_en/img/dr_adorjan.jpg" alt="Alejandro Adorjan" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Alejandro Adorjan Olivera<br>Technical PProgram Co-Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_adorjan">
-                                                <input type ="hidden" name="position" value="Technical Program Co-Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_chong.jpg" alt="Mario Chong" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Mario Chong<br>Publication Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_chong">
-                                                <input type ="hidden" name="position" value="Publication Chair<br>Public Relations Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_pozzo.jpg" alt="Maria Isabel Pozzo" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Maria Isabel Pozzo<br>Doctoral Symposium Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_pozzo">
-                                                <input type ="hidden" name="position" value="Doctoral Symposium Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div> 
-                                </div>
-                            <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_renteria.jpg" alt="Rafael Renteria" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Rafael R. Rentería Ramos<br>Workshops Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column"> -->
-                                            <!-- <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_renteria">
-                                                <input type ="hidden" name="position" value="Workshops Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form> -->
-                                            <!-- <p class="mb-0"> <a href="../../cv_congresses_en/dr_renteria.pdf" class="border-white btn btn-primary btn-sm" role="button">View CV</a></p>    
-                                        </div>
-                                    </div> 
-
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_portillo.jpg" alt="Roberto Portillo" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Roberto Portillo<br>Conference Support Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_portillo">
-                                                <input type ="hidden" name="position" value="Conference Support Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div>  
-                                </div>                                   
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_chong.jpg" alt="Mario Chong" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Mario Chong<br>Public Relations Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_chong">
-                                                <input type ="hidden" name="position" value="Publication Chair<br>Public Relations Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div class="col align-items-center">
-                                    <div class="card  person w-100 h-100">
-                                        <img src="../../cv_congresses_en/img/dr_fittipaldi.jpg" alt="Orlando Fittipaldi" class="img-fluid rounded-circle mx-auto d-block" style="height:125px; width:95px" >
-                                        <div class="card-body text-center d-flex flex-column">
-                                            <h6 class="card-text">Orlando Fittipaldi<br>Finance/Treasurer Chair</h6>
-                                        </div>
-                                        <div class="card-footer mt-auto d-flex flex-column">
-                                            <form action ="resume.php" method="POST">
-                                                <input type ="hidden" name="name" value="dr_fittipaldi">
-                                                <input type ="hidden" name="position" value="Finance/Tresurer Chair">
-                                                <button class="border-white btn btn-primary btn-sm" type="submit">View CV</button> </form>
-                                        </div>
-                                    </div> 
-                                </div> 
-                            </div>
-                        </div>
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif" 
+                        class="img-fluid rounded-circle mb-2" 
+                        alt="Conference Chair">
+                    <div class="overlay-content">
+                        <h2>José Martín Molina Espinosa</h2>
+                        <h2>Conference Chair</<h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
                     </div>
                 </div>
-            </div> 
-        </div>
-    </section>  -->
 
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif" 
+                        class="img-fluid rounded-circle mb-2" 
+                        alt="General Chair">
+                    <div class="overlay-content">
+                        <h2>Claudio R. Brito</h2>
+                        <h2>General Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif" 
+                        class="img-fluid rounded-circle mb-2" 
+                        alt="General Chair">
+                    <div class="overlay-content">
+                        <h2>Melany M. Ciampi</h2>
+                        <h2>Co-Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif" 
+                        class="img-fluid rounded-circle mb-2" 
+                        alt="General Chair">
+                    <div class="overlay-content">
+                        <h2>To be assigned</h2>
+                        <h2>Awards Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>To be assigned</h2>
+                        <h2>Technical Program Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Ana Luna</h2>
+                        <h2>Technical Program Co-Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Agatha da Silva Ovando</h2>
+                        <h2>Technical Program Co-Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Alejandro Adorjan Olivera</h2>
+                        <h2>Technical Program Co-Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Mario Chong</h2>
+                        <h2>Publication Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Maria Isabel Pozzo</h2>
+                        <h2>Doctoral Symposium Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Rafael R. Rentería Ramos</h2>
+                        <h2>Workshops Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Roberto Portillo</h2>
+                        <h2>Conference Support Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Mario Chong</h2>
+                        <h2>Public Relations Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h2>Orlando Fittipaldi</h2>
+                        <h2>Finance / Treasurer Chair</h2>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
+                    </div>
+                </div>
+
+                <!-- …repeat one <div class="slide"> per person…-->
+            </div>
+        </div>
+    </section>
     <!-- VENUE section -->
     <section id="venue">
-        <div class="container-fluid align-content-start py-0">
-            <ul class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="index.php">About</a></li>
-                <li>Venue_and_Host_Institution</li>
-            </ul> 
-        </div>
 
         <!-- v title section -->
         <div class="venue-hero">
@@ -851,85 +882,29 @@
     <!-- END VENUE Section -->
 
     <!-- Organization section -->
-    <!-- <section id="org">
-        <div class="container-fluid align-content-start py-0">
-            <ul class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
-                <li>Organizational_Institutions</li>
-            </ul> 
-        </div>
-        <div class="container-fluid py-5">
-            <div class="row">
-                <div class="col-lg-12 text-sm-left">
-                    <h2 class="display-5 fw-bold">Organizational Institutions</h2>
-                    <p>We are honored to introduce the esteemed institutions that form the backbone of our organization.</p>
-                </div>
-            </div>
-            <div class="py-2 border rounded-5 bg-light">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 justify-content-center">
-                        <div class="col-sm-4 card person bg-transparent small text-center text-muted">
-                            <div class="card-body d-flex flex-column">                                    
-                                <img class="img-fluid card-img-center" src="../images/logos_special/IEEE_EdSocT.png" alt="IEEE EdSoc">             
-                                <div class="card-title"><h6><strong>SPONSOR</strong></h6></div>
-                                <div class="card-link"><a href="http://ieee-edusociety.org/">IEEE Education Society</a></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 card person bg-transparent small text-center text-muted">
-                            <div class="card-body d-flex flex-column"> 
-                                <img class="img-fluid card-img-center" src="../images/logos_special/logo_copecT.png" alt="COPEC">
-                                <div class="card-title"><h6><strong>SPONSOR & ORGANIZER</strong></h6></div> 
-                                <div class="card-link"><a href="http://www.copec.eu/">Science and Research Organization</a></div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 card person bg-transparent small text-center text-muted">
-                            <div class="card-body d-flex flex-column"> 
-                                <img class="img-fluid card-img-center" src="../images/logos_special/logo_Tec2T.png" alt="Tecnológico de Monterrey" >
-                                <div class="card-title"><h6><strong>HOST</strong></h6></div> 
-                                <div class="card-link"><a href="https://tec.mx/en/">Tecnológico de Monterrey</a></div>
-                            </div>
-                        </div>
-                    </div>
-                <br />  
-                    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-2 justify-content-center">
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://iieducation.eu/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_iieT.png" alt="logo IIEducation" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://confedi.org.ar/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_confediT.png" alt="logo CONFEDI" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="http://www.asibei.net/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_asibeiT.png"  alt="logo ASIBEI" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://www.up.edu.pe/la-universidad">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_UPT.png"  alt="logo UP" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://www.galileo.edu/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_UGalileoT.png"  alt="logo U. Galileo" /></a>
-                    </div>
-                    <div class="col-sm-2 card person bg-white">
-                        <a href="https://www.ufasta.edu.ar/ingenieria/">
-                            <img class="img-fluid card-img-center" src="../images/logos_special/logo_FI_UFASTAT.png"  alt="logo FI_UFASTA" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-        </main>
+       
+   
+    </main>
 
 <!-- Footer section -->
-<!-- <div class ="container-fluid">
-    <?php /* include "../includesHtml/final.html" */?>
-</div> -->
-<script src ="../js/datesFill.js?1"></script>
-<script src ="../js/readmorereadless.js"></script>
-<script src ="../js/backTop.js"></script>      
-<script src="../js/scheduleSection.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
+<section id="organizers">
+    <div class ="container-fluid">
+        <?php include '../includesHtml/final.html' ?>
+    </div> 
+</section>
+        <script src ="../js/datesFill.js?1"></script>
+        <script src ="../js/readmorereadless.js"></script>
+        <script src ="../js/backTop.js"></script>      
+        <script src="../js/scheduleSection.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+        <!-- START SLICK CAROUSEL-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <script src="../js/slick-carousel-config.js"></script>
+        <!-- END  SLICK CAROUSEL--> 
+    </body>
 </html>                      
