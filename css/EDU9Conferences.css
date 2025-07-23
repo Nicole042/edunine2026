@@ -789,7 +789,7 @@ button:focus {
     padding-top: 8px;
 }
 
-/* Prevent horizontal scroll Susan did to prevent horisontal scrolling */
+/* Prevent horizontal scroll Susan did to prevent horizontal scrolling */
 html, body {
     overflow-x: hidden;
     max-width: 100%;
@@ -979,6 +979,8 @@ html, body {
     .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
     font-size: 0px;
+    pointer-events: none;   /* disable all mouse interactions */
+    cursor: default;        /* show normal arrow instead of hand */
     }
 }
 @media (max-width: 350px) {
@@ -996,6 +998,8 @@ html, body {
     .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
     font-size: 0%;
+    pointer-events: none;   /* disable all mouse interactions */
+    cursor: default;        /* show normal arrow instead of hand */
     }
 
    

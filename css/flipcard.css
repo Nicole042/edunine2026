@@ -7,7 +7,7 @@
 .container-card{
     /*width: 100%;*/
     max-width: 100%;     /* will shrink below 400px */
-    height: 450px;
+    height: 730px;
     /*perspective: 10px;*/
     border-radius: 2rem;
     overflow: visible;
@@ -69,11 +69,25 @@
     z-index: 1;
 }
 
+.front1 .row {
+    /* stack the two “cols” vertically instead of side-by-side */
+    flex-direction: column ;
+    }
+    .front1 .row > .col-12,
+    .front1 .row > .col {
+        /* ensure each takes the full width when stacked */
+        width: 100% ;
+        max-width: 100% ;
+    }
+    /* optional: add some breathing room between them */
+    .front1 .row > .col {
+        margin-bottom: 1rem;
+    }
 
 @media (max-width: 1420px) {
      .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 550px;
+    height: 830px;
     perspective: 700px;
     border-radius: 2rem;
     }
@@ -81,10 +95,11 @@
 @media (max-width: 1200px) {
      .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 650px;
+    height: 800px;
     perspective: 700px;
     border-radius: 2rem;
     }
+    /*Jus ont col always*/
     .front1 .row {
     /* stack the two “cols” vertically instead of side-by-side */
     flex-direction: column ;
@@ -104,7 +119,7 @@
 @media only screen and (max-width: 1050px) {
     .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 750px;
+    height: 890px;
     perspective: 800px;
     border-radius: 2rem;
     }
@@ -113,7 +128,7 @@
 @media only screen and (max-width: 950px) {
      .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 880px;
+    height: 1200px;
     perspective: 700px;
     border-radius: 2rem;
     }
@@ -121,7 +136,7 @@
 @media only screen and (max-width: 800px) {
      .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 700px;
+    height: 1100px;
     perspective: 700px;
     border-radius: 2rem;
     }
@@ -129,7 +144,7 @@
 @media only screen  and (max-width: 766px) {
      .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 610px;
+    height: 650px;
     /*perspective: 700px;
     border-radius: 2rem;*/
     }
@@ -139,7 +154,7 @@
 @media (max-width: 570px) {
     .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 730px;
+    height: 1100px;
     perspective: 700px;
     border-radius: 2rem;
     }
@@ -150,7 +165,7 @@
     .container-card{
         /*width: 100%;*/
         max-width: 100%;     /* will shrink below 400px */
-        height: 1000px;
+        height: 1300px;
         perspective: 700px;
         border-radius: 2rem;
         /*max-width: 800px;

@@ -61,7 +61,7 @@
         <div class="#main"></div>
 
         <section id="navigation" class="inicial">
-                  <!-- PARTE SUSAN INICIO -->
+                  <!- PARTE SUSAN INICIO -->
             <!-- New proposed breadcrumb -->
             <nav class="section-nav" aria-label="Section navigation">
                 <ul class="d-flex justify-content-end list-unstyled mb-0">
@@ -103,7 +103,7 @@
                 </ul> 
             </div>
             -->
-
+            <!--
             <div class= "container-fluid tope  py-5">
 
                 <div class="row g-5">
@@ -131,6 +131,7 @@
                 </ul> 
             </div>
             -->
+            <!--
             <div class="container-fluid">
                 sequence section
                 <div class="container-fluid px-4 py-5">
@@ -296,6 +297,7 @@
                 </ul> 
             </div>
             -->
+            <!--
             <div class= "container-fluid tope  pb-5">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
@@ -594,7 +596,7 @@
                 </div>                               
             </div>   -->
             <!-- Formatting guidelines -->          
-            <!-- <div class="container-fluid py-3 bg-body-white">
+            <div class="container py-3 bg-body-white">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
                         <h6 class="display-6 fw-bold text-center">EDUNINE Paper Types and Formatting Guidelines</h6> 
@@ -602,7 +604,10 @@
                         <p class="lh-sm">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
                         <p class="lh-sm">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
                     </div>
-                </div> -->
+                </div> 
+
+                <?php include "../eng/cards.html" ?>
+            </div> 
 
                 <!-- FULL Paper -->
                 <!-- <div class="row bg-info-subtle py-3">
@@ -732,6 +737,7 @@
                 </ul> 
             </div>
             -->
+            <!--
             <div class= "container-fluid tope  pb-5">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
