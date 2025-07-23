@@ -979,6 +979,9 @@ html, body {
     .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
     font-size: 0px;
+    /* Non clickable */
+    pointer-events: none;   /* disable all mouse interactions */
+    cursor: default;        /* show normal arrow instead of hand */
     }
 }
 @media (max-width: 350px) {
@@ -996,6 +999,8 @@ html, body {
     .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
     font-size: 0%;
+    pointer-events: none;   /* disable all mouse interactions */
+    cursor: default;        /* show normal arrow instead of hand */
     }
 
    

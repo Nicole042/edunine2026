@@ -65,23 +65,25 @@
             <nav class="section-nav" aria-label="Section navigation">
                 <ul class="d-flex justify-content-end list-unstyled mb-0">
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-3 py-2 btn" href="#top">Compose </a>
+                    <a class="nav-link px-1 py-3 btn" href="#top">Compose </a>
                     </li>
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-3 py-2 btn" href="#suitable">Manuscript</a>
+                    <a class="nav-link px-1 py-3 btn" href="#suitable">Manuscript</a>
                     </li>
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-3 py-2 btn" href="#typeChoose">Determine your Manuscript</a>
+                    <a class="nav-link px-1 py-3 btn" href="#typeChoose">Determine your Manuscript</a>
                     </li>
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-3 py-2 btn" href="#templateChoose">Conference Paper</a>
+                    <a class="nav-link px-1 py-3 btn" href="#templateChoose">Conference Paper</a>
                     </li>
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-3 py-2 btn" href="#submission">Manuscript Submission</a>
+                    <a class="nav-link px-1 py-3 btn" href="#submission">Manuscript Submission</a>
                     </li>
+                    <!--
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-3 py-2 btn" href="#organizers">Organizers</a>
+                    <a class="nav-link px-1 py-3 btn" href="#organizers">Organizers</a>
                     </li>
+                    -->
                     <!-- add/remove as needed
                     There was no link for venue?? It tended to disappear -->
                 </ul>
