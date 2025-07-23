@@ -129,7 +129,7 @@
 @media only screen  and (max-width: 766px) {
      .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 580px;
+    height: 610px;
     /*perspective: 700px;
     border-radius: 2rem;*/
     }

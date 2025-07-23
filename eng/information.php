@@ -52,14 +52,46 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <div> 
             <!-- Navigation bar  -->
             <?php include "edu9header.html" ?> 
         </div>
         <div class="#main"></div>
 
+        <section id="navigation" class="inicial">
+                  <!-- PARTE SUSAN INICIO -->
+            <!-- New proposed breadcrumb -->
+            <nav class="section-nav" aria-label="Section navigation">
+                <ul class="d-flex justify-content-end list-unstyled mb-0">
+                    <li class="nav-item mx-1">
+                    <a class="nav-link px-3 py-2 btn" href="#top">Compose </a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link px-3 py-2 btn" href="#suitable">Manuscript</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link px-3 py-2 btn" href="#typeChoose">Determine your Manuscript</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link px-3 py-2 btn" href="#templateChoose">Conference Paper</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link px-3 py-2 btn" href="#submission">Manuscript Submission</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                    <a class="nav-link px-3 py-2 btn" href="#organizers">Organizers</a>
+                    </li>
+                    <!-- add/remove as needed
+                    There was no link for venue?? It tended to disappear -->
+                </ul>
+            </nav>
+        <!-- PARTE SUSAN FIN -->
+
+        </section>
+
         <section id="top" class="inicial">
+            <!--
             <div class="container-fluid align-content-start py-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -67,6 +99,8 @@
                     <li>Composing_Conference_Paper_and_Submission</li>
                 </ul> 
             </div>
+            -->
+
             <div class= "container-fluid tope  py-5">
 
                 <div class="row g-5">
@@ -85,6 +119,7 @@
         </section>
         <!-- checklist  -->
         <section id="suitable">
+            <!-- 
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -93,6 +128,7 @@
                     <li>Manuscript Pre-submission Checklist</li>
                 </ul> 
             </div>
+            -->
             <div class="container-fluid">
                 <!-- sequence section -->
                 <div class="container-fluid px-4 py-5">
@@ -249,6 +285,7 @@
         <!-- Determine your manuscript type -->
 
         <section id="typeChoose">
+            <!--
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -257,6 +294,7 @@
                     <li>Determine_Manuscript_Category</li>
                 </ul> 
             </div>
+            -->
             <div class= "container-fluid tope  pb-5">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
@@ -559,7 +597,7 @@
             <div class="container py-3">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
-                        <h6 class="display-6 fw-bold">EDUNINE Paper Types and Formatting Guidelines</h6> 
+                        <h6 class="display-6 fw-bold text-center">EDUNINE Paper Types and Formatting Guidelines</h6> 
 
                         <p class="lh-sm">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
                         <p class="lh-sm">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
@@ -580,6 +618,7 @@
         <!-- Manuscript Template -->
 
         <section id="templateChoose">
+            <!--
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -588,6 +627,7 @@
                     <li>Mandatory_Conference_Paper_Template</li>
                 </ul> 
             </div>
+            -->
             <div class= "container-fluid tope  pb-5">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
@@ -788,269 +828,274 @@
 
         </section>
         
- <section id="submission">
-     
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
-                    <li>Manuscript_Submission</li>
-                </ul> 
-            </div>
-            <div class= "container-fluid tope  py-5">
+        <section id="submission">
+                    <!--
+                    <div class="container-fluid align-content-start py-0">
+                        <ul class="breadcrumb">
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="index.php?id=dates">Author</a></li>
+                            <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
+                            <li>Manuscript_Submission</li>
+                        </ul> 
+                    </div>
+                    -->
+                    <div class= "container-fluid tope  py-5">
 
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/submissionPapers.jpg"  alt="Manuscript Submission">
-                            </div>
-                            <h2 class="display-6 fw-bold">Manuscript Submission</h2>
+                        <div class="row g-5">
+                            <div class= "col text-sm-left">
+                                <div class="clearfix">
+                                    <div class="text-center">
+                                        <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/submissionPapers.jpg"  alt="Manuscript Submission">
+                                    </div>
+                                    <h2 class="display-6 fw-bold">Manuscript Submission</h2>
 
-                            <p class="fs-5 mb-4">Welcome to the <b>EDUNINE2026 Paper Submission Section!</b> We invite you to submit your original research to the EDUNINE2026 conference. This is an excellent forum to share your work with a global audience of researchers, practitioners, and industry leaders in the field of Engineering, Technology and Computing Education.</p>
-                            <p class="fs-5 my-4">Ready to Submit?</p> 
+                                    <p class="fs-5 mb-4">Welcome to the <b>EDUNINE2026 Paper Submission Section!</b> We invite you to submit your original research to the EDUNINE2026 conference. This is an excellent forum to share your work with a global audience of researchers, practitioners, and industry leaders in the field of Engineering, Technology and Computing Education.</p>
+                                    <p class="fs-5 my-4">Ready to Submit?</p> 
+                                </div>
+                            </div>    
                         </div>
-                    </div>    
                 </div>
-         </div>
-            <div class="container-fluid py-5">
-                <!-- sequence section -->
-                <div class="container-fluid px-4 py-5">
-                    <h2 class="pb-2 border-bottom display-6 fw-bold">Important Submission Guidelines:</h2>
-                    <p>To ensure a successful submission for the conference, please follow these important guidelines closely. They will help you present your work in a clear and consistent format, and ensure a smooth review process. For a step-by-step guide on composing your paper, visit the <a href="information.php" class="border-white btn btn-primary btn-sm align-self-end" role="button">Composing your Conference Paper</a> page on this website.</p>
-                    <ul>
-                        <li><b>Scope and Topics</b>: Double-check that your paper aligns with the conference's focus areas.</li> 
-                        <li><b>Paper Type: </b> Choose the appropriate category: full paper, WIP, workshop proposal, or Doctoral Symposium submission. </li>
-                        <li><b>Language:</b> All submissions must be written in clear and standard <b>English</b>.</li>
-                        <li><b>Page Limits:</b> Adhere to the designated page limit for your chosen paper type (details available on the submission platform).</li>
-                        <li><b>Template:</b> All written content submissions must strictly follow the formatting guidelines outlined in the conference templates.</li> </ul>
-                    <p class="fs-5 mx-4"><b>Before submitting your paper</b>, we encourage you to visit the <b>peer-review</b> webpage:  <a href="reviewNotif.php" class="border-white btn btn-primary btn-sm align-self-end" role="button">Peer Review Process and Notification</a> on this website. This resource provides valuable information about the evaluation process and helps ensure a clear understanding of how your paper will be reviewed.</p>
-                    <h4 class="fs-3 mx-auto fw-bold"> Please note </h4>
-                    <p class="fs-5 mb-4">Please note that EDUNINE2026 only accepts electronic submissions via <b>EDUNINE2026 SUBMISSION SYSTEM</b> system; <u>email submissions will not be accepted</u>.</p>                                       
-                </div>
-            </div>                    
+                    <div class="container-fluid py-5">
+                        <!-- sequence section -->
+                        <div class="container-fluid px-4 py-5">
+                            <h2 class="pb-2 border-bottom display-6 fw-bold">Important Submission Guidelines:</h2>
+                            <p>To ensure a successful submission for the conference, please follow these important guidelines closely. They will help you present your work in a clear and consistent format, and ensure a smooth review process. For a step-by-step guide on composing your paper, visit the <a href="information.php" class="border-white btn btn-primary btn-sm align-self-end" role="button">Composing your Conference Paper</a> page on this website.</p>
+                            <ul>
+                                <li><b>Scope and Topics</b>: Double-check that your paper aligns with the conference's focus areas.</li> 
+                                <li><b>Paper Type: </b> Choose the appropriate category: full paper, WIP, workshop proposal, or Doctoral Symposium submission. </li>
+                                <li><b>Language:</b> All submissions must be written in clear and standard <b>English</b>.</li>
+                                <li><b>Page Limits:</b> Adhere to the designated page limit for your chosen paper type (details available on the submission platform).</li>
+                                <li><b>Template:</b> All written content submissions must strictly follow the formatting guidelines outlined in the conference templates.</li> </ul>
+                            <p class="fs-5 mx-4"><b>Before submitting your paper</b>, we encourage you to visit the <b>peer-review</b> webpage:  <a href="reviewNotif.php" class="border-white btn btn-primary btn-sm align-self-end" role="button">Peer Review Process and Notification</a> on this website. This resource provides valuable information about the evaluation process and helps ensure a clear understanding of how your paper will be reviewed.</p>
+                            <h4 class="fs-3 mx-auto fw-bold"> Please note </h4>
+                            <p class="fs-5 mb-4">Please note that EDUNINE2026 only accepts electronic submissions via <b>EDUNINE2026 SUBMISSION SYSTEM</b> system; <u>email submissions will not be accepted</u>.</p>                                       
+                        </div>
+                    </div>                    
+                </section>
+                <!-- falta agregar el link al nuevo sistema en la siguiente sección -->
+                <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->
+                            
+        <!--  Instrucciones para OpenConf -->
+        <section>
+                    <div class= "container-fluid tope py-5">
+                        <div class="row g-5">
+                            <div class= "col text-sm-left">
+                                <div class="clearfix">
+                                    <div class="text-center">
+
+                <?php include "../includesHtml/commingSoon.html" ?>
+                                        
+                                    <!--- reemplazar link al sistema de submission e instrucciones de uso 
+                                    
+                                        <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/openconf/edu9OpenC.png"  alt="OpenConf system portal Image"> 
+                                    
+                                    -->
+                                    
+                                    </div>
+                                    
+                                    <!--
+                                    <h2 class="display-6 fw-bold">How to Submit and Manage Your Paper with the EDUNINE2026 OpenConf system</h2>
+                                    <p class="fs-5 mb-4">This section provides a comprehensive guide on utilizing our online paper administration system for submitting your paper. Here, you'll find a link to the system and step-by-step instructions to ensure a smooth submission process.This guide will walk you through submitting your paper to EDUNINE2026 and managing it after submission.</p>
+                                        -->
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+            <!--
+                    <div class="container-fluid py-5 bg-white">
+                        <div class="border bg-light">
+                            <h4 class= "display-6 fw-bold mb-4 "> Access the Manuscript Submission System:</h4> 
+                            <h5 class="mb-4">Click the link to access the EDUNINE2026 OpenConf System. <a href="https://submission.copec.eu/edunine2025/" class="border-white btn btn-primary btn-sm" role="button">EDUNINE2026 OpenConf system</a> </h5>
+                        </div>
+                        <div class="border bg-info-subtle gy-4 mt-4 text-left">
+                            <h3 class=" fw-bold mx-2 mt-4">You'll see the <b>EDUNINE2026 OpenConf</b> login screen:</h3> 
+                            <h5 class="mx-2">In the <b>Authors</b> section: </h5> 
+                            <p class="mx-4"> You'll find options to submit a new paper or manage an existing one.</p>
+
+                            <img class="shadow p-3 mb-5 bg-body-tertiary rounded img-fluid mx-auto d-block " src= "../images/openconf/portalEng.png" alt="EDUNINE2026 OpenConf Portal">
+
+                            <h5 class="fw-bold mt-4 mx-4"><b>Language Selector:</b> (See #1 in the image)</h5>
+                            <p class="mt-2 px-4">Select your preferred language (<i>English</i>, <i>Spanish</i>, or <i>Portuguese</i>) from the language selector.</p> 
+                            <p class="lh-sm fw-thin mx-4 "><b>Note:</b> While the interface can be displayed in different languages, the paper content and requested information must be submitted in <b>English</b>, the conference's official language.</p> 
+                            <h5 class="fw-bold mt-4 mx-4">OpenConf Options: (See #2 in the image) </h5>
+                            <ul>
+
+                                
+
+                                <li class="lh-sm mt-4 mx-4 mb-0"><span class="h6 fw-bold">Make Submission:</span> This option allows you to register a new paper. The system will assign a unique submission ID that grants you access to manage your paper. You'll also complete a submission form with details about your paper and choose a password. Use this option only for new paper submissions. </li>
+                                <div><p class="text-end mx-4 mb-2"><b>New to OpenConf?</b> Click on 
+                                        
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#makesubModal">How to Submit</button></p>
+                                    
+                                    <div class="modal fade" id="makesubModal" tabindex="-1" aria-labelledby="makesubModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-fullscreen-sm-down">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="makesubModalLabel">How to Submit a New Paper</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <h6>Click "Make Submission" in the "Author" section to begin your paper registration.</h6> 
+                                                        <p><b>Enter Paper Information:</b> This form will appear:</p>
+                                                        <img class="rounded  img-fluid" src= "../images/openconf/submissionFormEng.png" alt="OpenConf Submission Form">
+                                                        <p>Fill out the details, including:</p>
+                                                        <ul>
+                                                            <li><b>Consent:</b> Please, check the consent box.</li>
+                                                            <li><b>Title:</b> Enter the title of your paper.</li>
+                                                            <li><b>Authors:</b> Include the full names, affiliations, country, and email addresses of all authors. If you have more than five authors, click "Add Author" to include them.</li>
+                                                            <li><b>Keywords:</b> Provide relevant keywords that describe your paper's content.</li>
+                                                            <li><b>Topics:</b> Select all the topics that best align with your paper's subject matter to help reviewers categorize it.</li>
+                                                            <li><b>Abstract:</b> Copy the paper abstract (maximum 150 words in a single paragraph) which summarize your paper's key points. Avoid copying text directly from the PDF paper file, as carriage returns may not translate correctly.</li>
+                                                            <li><b> Contact author:</b> This refers to the author designated to receive email notifications regarding any changes, updates, or status information about your paper. The contact author you selected during the "Make Submission" process will be the recipient of these emails.</li>
+                                                            <li><b>Create a password</b> to manage your submission using the other OpenConf options.</li>
+                                                        </ul>
+                                                        <p class="mt-2"><b>Double-check all information</b> before submitting the form using the <b>"Make Submission" button </b> at the end of this form.</p>
+
+                                                        <p class="mt-2"><b>Confirmation:</b> Upon successful submission, you'll receive a confirmation message and an email containing your <b>submission ID</b> and form details. The contact author you selected during the "Make Submission" process will be the recipient of these emails. Keep this <b><u>ID and password</u></b> handy, as you'll need them to manage your submission throughout the process, including <b>uploading files</b> (original and revised versions) with the <b>File Upload</b> option, modifying information, and checking the information with the <b>Edit Submission</b> and <b>View File</b> options.</p>
+                                                        <h5 class="fw-bold mt-4"> Important Notes:</h5>
+                                                        <ul> 
+                                                            <li class="lh-sm mx-2">Use <b>"Make Submission"</b> <u>only</u> for registering new papers.</li>
+                                                            <li class="lh-sm mx-2"><b>Author Email Addresses:</b>  Ensure all authors add the following email addresses to their contact lists to receive updates and confirmations: edunine@copec.eu (OpenConf emails) and edunine@edunine.eu. Whitelisting these addresses prevents EDUNINE emails from being marked as spam.</li></ul>
+                                                    </div>
+                                                </div>           
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6 class="fw-bold my-3">Once you've registered your new paper using the "Make Submission" option you'll have access to several options in the "Author" section to manage your paper file and information. These options require your submission ID and password for identification.</h6>
+
+                                
+                                <li class="lh-sm mx-4 mt-2"><span class="h6 fw-bold">Upload File:</span> Upload one or more files for your paper. Uploading a new file will overwrite the previous one. Use this feature for submitting new versions of your paper.</li>
+                                <div><p class="text-end mx-4 mb-2"><b>Unsure how?</b> Click on 
+                                        
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#upsubModal">How to Upload</button></p>
+                                    
+                                    <div class="modal fade" id="upsubModal" tabindex="-1" aria-labelledby="upsubModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-fullscreen-sm-down">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="upsubModalLabel">Uploading your Paper/Manuscript File (PDF or docx)</h1>                                          
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <p>During the submission period, you can upload your paper file as many times as needed using the "Upload File" option.</p>
+                                                        <p>Click <b>"Upload File"</b> in the <b>"Authors"</b> section to upload your paper or manuscript to our database. This form will appear:</p>
+                                                        <img class="rounded  img-fluid" src= "../images/openconf/uploadEng.png" alt="OpenConf Upload Form">                                           
+                                                        <ul>
+                                                            <li><b>Submission ID</b> Enter the unique ID assigned to your paper after Make Submission for this paper (see Login Help below)</li>
+                                                            <li><b>Password:</b> Enter the password you registered in the "Make Submission" form  (see Login Help below)</li>
+                                                            <li><b>File: </b> Click "Browse" and select the paper file from your computer.</li>
+                                                            <li><b>File Format:</b> Select the file format (PDF or docx) from the dropdown menu.</li>
+                                                            <li><b>Upload: </b>Click <b>"Upload File" button</b>.</li></ul>
+                                                        <p class="lh-sm mx-2 mb-2"><b>Confirmation:</b> The OpenConf system will confirm if the upload was successful.</p>
+                                                        <p class="lh-sm mx-2 mb-2 fw-bold">Important Note:</p>
+                                                        <p class="lh-sm mx-2 mb-2">If your paper file exceeds the size limit specified in the form, reduce the size of any inserted images. You can use free online tools to compress images without sacrificing quality. Re-insert the compressed images and upload your file again. This limitation is inherent to the <b>OpenConf</b> system.</p>
+                                                    </div>
+                                                </div>           
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                <li class="lh-sm mx-4 mt-2"><span class="h6 fw-bold">Edit Submission:</span> Modify the information you previously submitted or view the current contents of your submission form.</li>
+                                <div><p class="text-end mx-4 mb-2"><b>Need more information?</b> Click on 
+                                        
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editsubModal">How to Edit</button></p>
+                                    
+                                    <div class="modal fade" id="editsubModal" tabindex="-1" aria-labelledby="editsubModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-fullscreen-sm-down">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="editsubModalLabel">How to (Edit) Modify or Update your Paper Information</h1>                                          
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <p>Use the <b>"Edit Submission"</b> option to update any information associated with your paper, such as the title, abstract, topics, or authors (for single-blind review). This ensures consistency between your paper content and the submission details.</p>
+                                                        <p>Additionally, you can change your <b>password</b> using this option.</p>
+                                                        <p>Click <b>"Edit Submission"</b> in the <b>"Author"</b> section. This form will appear:</p>
+                                                        <img class="rounded  img-fluid" src= "../images/openconf/editSubEng.png" alt="OpenConf Edit Submission">                                           
+                                                        <ul>
+                                                            <li><b>Submission ID</b> Enter the unique ID assigned to your paper after Make Submission for this paper (see Login Help below)</li>
+                                                            <li><b>Password:</b> Enter the password you registered in the "Make Submission" form  (see Login Help below)</li>
+                                                            <li><b>Begin: </b>Click <b>"Edit Submission" button</b>.</li></ul>
+                                                        <p class="lh-sm mx-2 mb-2">The <b>OpenConf</b> system will display the submission form with your paper's current information. This form includes the same fields as the "Make Submission" form:</p>
+                                                        <img class="rounded  img-fluid" src= "../images/openconf/editFormEng.png" alt="OpenConf Edit Form">                                           
+                                                        <ul>
+                                                            <li>Edit the relevant fields with your updated information.</li> 
+                                                            <li>Click the <b>"Submit Changes" button</b> at the bottom of the form.</li></ul>   
+                                                        <p class="lh-sm mx-2 mb-2"><b>Confirmation:</b> Upon successful update, you'll receive a confirmation message and an email containing your <b>submission ID</b> and updated form information. The contact author you selected during the "Make Submission" process will be the recipient of these emails.</p>
+                                                    </div>
+                                                </div>           
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <li class="lh-sm mx-4 my-2"><span class="h6 fw-bold">View File:</span> Access and view the files you have uploaded for your paper.</li>
+                                <li class="lh-sm mx-4 my-2"><span class="h6 fw-bold">Check Status:</span> After the peer-review process, you can check the acceptance status of your paper.</li></ul>
+                            <h5 class="fw-bold mt-4 mx-4"> Important Notes:</h5> <ul> 
+                                <li class="lh-sm mx-4">Use <b>"Make Submission"</b> <u>only</u> for registering new papers.</li>
+                                <li class="lh-sm mx-4"><b>Author Email Addresses:</b>  Ensure all authors add the following email addresses to their contact lists to receive updates and confirmations: edunine@copec.eu (OpenConf emails) and edunine@edunine.eu. Whitelisting these addresses prevents EDUNINE emails from being marked as spam.</li>
+                                <li>Don't worry if you can't remember your submission ID or password. Click <b>"forgot ID?"</b> or <b>"forgot password?"</b> to receive instructions on how to recover them. Our conference staff does not have access to this information for security reasons. See <b>Login Help</b>.</li></ul>                 
+                        </div>
+                        <div class="my-5"> </div>
+                        <div class="container-fluid bg-body-secondary py-5">
+                            <h5 class=" display-6 fw-bold mx-2 mt-4"> Login Help </h5>
+                            <ul class="mt-4">
+                                <div class="row gy-1 align-items-stretch justify-content-between features-item mb-4">
+                                    <div class="col d-flex align-items-center features-img-bg" data-aos="zoom-out">
+                                        <img class="rounded  img-fluid shadow p-3 mb-5 bg-body-tertiary" src= "../images/openconf/idPassEng.png" alt="Common fields Id, Password">
+                                    </div>
+                                    <div class="col d-flex justify-content-center flex-column mb-4" data-aos="fade-up">
+                                        <h4 class="fw-bold my-3">Login:</h4>
+                                        <ul>
+                                            <li><b>Submission ID:</b> Enter the unique ID assigned to your paper after Make Submission for this paper.</li>
+                                            <li><b>Password:</b> Enter the password you registered in the "Make Submission" form.</li>
+                                        </ul>  
+                                    </div>
+                                </div>
+
+                                <div class="row gy-1 align-items-stretch justify-content-between features-item mb-4">
+                                    <div class="col d-flex align-items-center features-img-bg" data-aos="zoom-out">
+                                        <img class="shadow p-3 mb-5 bg-body-tertiary rounded img-fluid" src= "../images/openconf/recovEng.png" alt="Recover Id, Password">
+                                    </div>
+                                    <div class="col d-flex justify-content-center flex-column" data-aos="fade-up">
+                                        <h4 class="fw-bold my-3">Recovering Submission ID and Password:</h4>
+                                        <p> This image shows the forms available when you click "forgot ID?" or "forgot password?" during login.</p>
+                                        <ul>
+                                            <li><b>forgot ID?:</b> If you can't recall your submission ID, click "forgot ID" and complete the form. The OpenConf system will send a retrieval email to the contact author's email address provided during "Make Submission."</li>
+                                            <li><b>forgot password?:</b> Similarly, if you forget your password, click "forgot password" and complete the form. The <b>OpenConf</b> system will send a new password to the contact author's email address. We suggest change this temporary password to a more convenient one using the "Edit Submission" option.</li></ul>
+                                        <p class="fw-bold mt-4">Important:</p>
+                                        <p class= "lh-sm mx-2">For security reasons, EDUNINE staff cannot provide your Submission ID or password. Use the forgot ID/password options if needed.</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </section> 
+        -->
         </section>
-        <!-- falta agregar el link al nuevo sistema en la siguiente sección -->
-        <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->
-                    
-<!--  Instrucciones para OpenConf -->
-<section>
-            <div class= "container-fluid tope py-5">
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center">
 
-          <?php include "../includesHtml/commingSoon.html" ?>
-                                
-                              <!--- reemplazar link al sistema de submission e instrucciones de uso 
-                              
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/openconf/edu9OpenC.png"  alt="OpenConf system portal Image"> 
-                              
-                              -->
-                              
-                            </div>
-                            
-                            <!--
-                            <h2 class="display-6 fw-bold">How to Submit and Manage Your Paper with the EDUNINE2026 OpenConf system</h2>
-                            <p class="fs-5 mb-4">This section provides a comprehensive guide on utilizing our online paper administration system for submitting your paper. Here, you'll find a link to the system and step-by-step instructions to ensure a smooth submission process.This guide will walk you through submitting your paper to EDUNINE2026 and managing it after submission.</p>
-                                -->
-                        </div>
-                    </div>    
-                </div>
+        <section id="organizers">
+            <!-- Footer section -->
+            <div class ="container-fluid">
+                <!-- footer  -->
+                <?php include "../includesHtml/final.html" ?> 
             </div>
-    <!--
-            <div class="container-fluid py-5 bg-white">
-                <div class="border bg-light">
-                    <h4 class= "display-6 fw-bold mb-4 "> Access the Manuscript Submission System:</h4> 
-                    <h5 class="mb-4">Click the link to access the EDUNINE2026 OpenConf System. <a href="https://submission.copec.eu/edunine2025/" class="border-white btn btn-primary btn-sm" role="button">EDUNINE2026 OpenConf system</a> </h5>
-                </div>
-                <div class="border bg-info-subtle gy-4 mt-4 text-left">
-                    <h3 class=" fw-bold mx-2 mt-4">You'll see the <b>EDUNINE2026 OpenConf</b> login screen:</h3> 
-                    <h5 class="mx-2">In the <b>Authors</b> section: </h5> 
-                    <p class="mx-4"> You'll find options to submit a new paper or manage an existing one.</p>
-
-                    <img class="shadow p-3 mb-5 bg-body-tertiary rounded img-fluid mx-auto d-block " src= "../images/openconf/portalEng.png" alt="EDUNINE2026 OpenConf Portal">
-
-                    <h5 class="fw-bold mt-4 mx-4"><b>Language Selector:</b> (See #1 in the image)</h5>
-                    <p class="mt-2 px-4">Select your preferred language (<i>English</i>, <i>Spanish</i>, or <i>Portuguese</i>) from the language selector.</p> 
-                    <p class="lh-sm fw-thin mx-4 "><b>Note:</b> While the interface can be displayed in different languages, the paper content and requested information must be submitted in <b>English</b>, the conference's official language.</p> 
-                    <h5 class="fw-bold mt-4 mx-4">OpenConf Options: (See #2 in the image) </h5>
-                    <ul>
-
-                        
-
-                        <li class="lh-sm mt-4 mx-4 mb-0"><span class="h6 fw-bold">Make Submission:</span> This option allows you to register a new paper. The system will assign a unique submission ID that grants you access to manage your paper. You'll also complete a submission form with details about your paper and choose a password. Use this option only for new paper submissions. </li>
-                        <div><p class="text-end mx-4 mb-2"><b>New to OpenConf?</b> Click on 
-                                
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#makesubModal">How to Submit</button></p>
-                            
-                            <div class="modal fade" id="makesubModal" tabindex="-1" aria-labelledby="makesubModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-fullscreen-sm-down">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="makesubModalLabel">How to Submit a New Paper</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="container-fluid">
-                                                <h6>Click "Make Submission" in the "Author" section to begin your paper registration.</h6> 
-                                                <p><b>Enter Paper Information:</b> This form will appear:</p>
-                                                <img class="rounded  img-fluid" src= "../images/openconf/submissionFormEng.png" alt="OpenConf Submission Form">
-                                                <p>Fill out the details, including:</p>
-                                                <ul>
-                                                    <li><b>Consent:</b> Please, check the consent box.</li>
-                                                    <li><b>Title:</b> Enter the title of your paper.</li>
-                                                    <li><b>Authors:</b> Include the full names, affiliations, country, and email addresses of all authors. If you have more than five authors, click "Add Author" to include them.</li>
-                                                    <li><b>Keywords:</b> Provide relevant keywords that describe your paper's content.</li>
-                                                    <li><b>Topics:</b> Select all the topics that best align with your paper's subject matter to help reviewers categorize it.</li>
-                                                    <li><b>Abstract:</b> Copy the paper abstract (maximum 150 words in a single paragraph) which summarize your paper's key points. Avoid copying text directly from the PDF paper file, as carriage returns may not translate correctly.</li>
-                                                    <li><b> Contact author:</b> This refers to the author designated to receive email notifications regarding any changes, updates, or status information about your paper. The contact author you selected during the "Make Submission" process will be the recipient of these emails.</li>
-                                                    <li><b>Create a password</b> to manage your submission using the other OpenConf options.</li>
-                                                </ul>
-                                                <p class="mt-2"><b>Double-check all information</b> before submitting the form using the <b>"Make Submission" button </b> at the end of this form.</p>
-
-                                                <p class="mt-2"><b>Confirmation:</b> Upon successful submission, you'll receive a confirmation message and an email containing your <b>submission ID</b> and form details. The contact author you selected during the "Make Submission" process will be the recipient of these emails. Keep this <b><u>ID and password</u></b> handy, as you'll need them to manage your submission throughout the process, including <b>uploading files</b> (original and revised versions) with the <b>File Upload</b> option, modifying information, and checking the information with the <b>Edit Submission</b> and <b>View File</b> options.</p>
-                                                <h5 class="fw-bold mt-4"> Important Notes:</h5>
-                                                <ul> 
-                                                    <li class="lh-sm mx-2">Use <b>"Make Submission"</b> <u>only</u> for registering new papers.</li>
-                                                    <li class="lh-sm mx-2"><b>Author Email Addresses:</b>  Ensure all authors add the following email addresses to their contact lists to receive updates and confirmations: edunine@copec.eu (OpenConf emails) and edunine@edunine.eu. Whitelisting these addresses prevents EDUNINE emails from being marked as spam.</li></ul>
-                                            </div>
-                                        </div>           
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <h6 class="fw-bold my-3">Once you've registered your new paper using the "Make Submission" option you'll have access to several options in the "Author" section to manage your paper file and information. These options require your submission ID and password for identification.</h6>
-
-                        
-                        <li class="lh-sm mx-4 mt-2"><span class="h6 fw-bold">Upload File:</span> Upload one or more files for your paper. Uploading a new file will overwrite the previous one. Use this feature for submitting new versions of your paper.</li>
-                        <div><p class="text-end mx-4 mb-2"><b>Unsure how?</b> Click on 
-                                
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#upsubModal">How to Upload</button></p>
-                            
-                            <div class="modal fade" id="upsubModal" tabindex="-1" aria-labelledby="upsubModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-fullscreen-sm-down">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="upsubModalLabel">Uploading your Paper/Manuscript File (PDF or docx)</h1>                                          
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="container-fluid">
-                                                <p>During the submission period, you can upload your paper file as many times as needed using the "Upload File" option.</p>
-                                                <p>Click <b>"Upload File"</b> in the <b>"Authors"</b> section to upload your paper or manuscript to our database. This form will appear:</p>
-                                                <img class="rounded  img-fluid" src= "../images/openconf/uploadEng.png" alt="OpenConf Upload Form">                                           
-                                                <ul>
-                                                    <li><b>Submission ID</b> Enter the unique ID assigned to your paper after Make Submission for this paper (see Login Help below)</li>
-                                                    <li><b>Password:</b> Enter the password you registered in the "Make Submission" form  (see Login Help below)</li>
-                                                    <li><b>File: </b> Click "Browse" and select the paper file from your computer.</li>
-                                                    <li><b>File Format:</b> Select the file format (PDF or docx) from the dropdown menu.</li>
-                                                    <li><b>Upload: </b>Click <b>"Upload File" button</b>.</li></ul>
-                                                <p class="lh-sm mx-2 mb-2"><b>Confirmation:</b> The OpenConf system will confirm if the upload was successful.</p>
-                                                <p class="lh-sm mx-2 mb-2 fw-bold">Important Note:</p>
-                                                <p class="lh-sm mx-2 mb-2">If your paper file exceeds the size limit specified in the form, reduce the size of any inserted images. You can use free online tools to compress images without sacrificing quality. Re-insert the compressed images and upload your file again. This limitation is inherent to the <b>OpenConf</b> system.</p>
-                                            </div>
-                                        </div>           
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                        <li class="lh-sm mx-4 mt-2"><span class="h6 fw-bold">Edit Submission:</span> Modify the information you previously submitted or view the current contents of your submission form.</li>
-                        <div><p class="text-end mx-4 mb-2"><b>Need more information?</b> Click on 
-                                
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editsubModal">How to Edit</button></p>
-                            
-                            <div class="modal fade" id="editsubModal" tabindex="-1" aria-labelledby="editsubModalLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-fullscreen-sm-down">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="editsubModalLabel">How to (Edit) Modify or Update your Paper Information</h1>                                          
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="container-fluid">
-                                                <p>Use the <b>"Edit Submission"</b> option to update any information associated with your paper, such as the title, abstract, topics, or authors (for single-blind review). This ensures consistency between your paper content and the submission details.</p>
-                                                <p>Additionally, you can change your <b>password</b> using this option.</p>
-                                                <p>Click <b>"Edit Submission"</b> in the <b>"Author"</b> section. This form will appear:</p>
-                                                <img class="rounded  img-fluid" src= "../images/openconf/editSubEng.png" alt="OpenConf Edit Submission">                                           
-                                                <ul>
-                                                    <li><b>Submission ID</b> Enter the unique ID assigned to your paper after Make Submission for this paper (see Login Help below)</li>
-                                                    <li><b>Password:</b> Enter the password you registered in the "Make Submission" form  (see Login Help below)</li>
-                                                    <li><b>Begin: </b>Click <b>"Edit Submission" button</b>.</li></ul>
-                                                <p class="lh-sm mx-2 mb-2">The <b>OpenConf</b> system will display the submission form with your paper's current information. This form includes the same fields as the "Make Submission" form:</p>
-                                                <img class="rounded  img-fluid" src= "../images/openconf/editFormEng.png" alt="OpenConf Edit Form">                                           
-                                                <ul>
-                                                    <li>Edit the relevant fields with your updated information.</li> 
-                                                    <li>Click the <b>"Submit Changes" button</b> at the bottom of the form.</li></ul>   
-                                                <p class="lh-sm mx-2 mb-2"><b>Confirmation:</b> Upon successful update, you'll receive a confirmation message and an email containing your <b>submission ID</b> and updated form information. The contact author you selected during the "Make Submission" process will be the recipient of these emails.</p>
-                                            </div>
-                                        </div>           
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <li class="lh-sm mx-4 my-2"><span class="h6 fw-bold">View File:</span> Access and view the files you have uploaded for your paper.</li>
-                        <li class="lh-sm mx-4 my-2"><span class="h6 fw-bold">Check Status:</span> After the peer-review process, you can check the acceptance status of your paper.</li></ul>
-                    <h5 class="fw-bold mt-4 mx-4"> Important Notes:</h5> <ul> 
-                        <li class="lh-sm mx-4">Use <b>"Make Submission"</b> <u>only</u> for registering new papers.</li>
-                        <li class="lh-sm mx-4"><b>Author Email Addresses:</b>  Ensure all authors add the following email addresses to their contact lists to receive updates and confirmations: edunine@copec.eu (OpenConf emails) and edunine@edunine.eu. Whitelisting these addresses prevents EDUNINE emails from being marked as spam.</li>
-                        <li>Don't worry if you can't remember your submission ID or password. Click <b>"forgot ID?"</b> or <b>"forgot password?"</b> to receive instructions on how to recover them. Our conference staff does not have access to this information for security reasons. See <b>Login Help</b>.</li></ul>                 
-                </div>
-                <div class="my-5"> </div>
-                <div class="container-fluid bg-body-secondary py-5">
-                    <h5 class=" display-6 fw-bold mx-2 mt-4"> Login Help </h5>
-                    <ul class="mt-4">
-                        <div class="row gy-1 align-items-stretch justify-content-between features-item mb-4">
-                            <div class="col d-flex align-items-center features-img-bg" data-aos="zoom-out">
-                                <img class="rounded  img-fluid shadow p-3 mb-5 bg-body-tertiary" src= "../images/openconf/idPassEng.png" alt="Common fields Id, Password">
-                            </div>
-                            <div class="col d-flex justify-content-center flex-column mb-4" data-aos="fade-up">
-                                <h4 class="fw-bold my-3">Login:</h4>
-                                <ul>
-                                    <li><b>Submission ID:</b> Enter the unique ID assigned to your paper after Make Submission for this paper.</li>
-                                    <li><b>Password:</b> Enter the password you registered in the "Make Submission" form.</li>
-                                </ul>  
-                            </div>
-                        </div>
-
-                        <div class="row gy-1 align-items-stretch justify-content-between features-item mb-4">
-                            <div class="col d-flex align-items-center features-img-bg" data-aos="zoom-out">
-                                <img class="shadow p-3 mb-5 bg-body-tertiary rounded img-fluid" src= "../images/openconf/recovEng.png" alt="Recover Id, Password">
-                            </div>
-                            <div class="col d-flex justify-content-center flex-column" data-aos="fade-up">
-                                <h4 class="fw-bold my-3">Recovering Submission ID and Password:</h4>
-                                <p> This image shows the forms available when you click "forgot ID?" or "forgot password?" during login.</p>
-                                <ul>
-                                    <li><b>forgot ID?:</b> If you can't recall your submission ID, click "forgot ID" and complete the form. The OpenConf system will send a retrieval email to the contact author's email address provided during "Make Submission."</li>
-                                    <li><b>forgot password?:</b> Similarly, if you forget your password, click "forgot password" and complete the form. The <b>OpenConf</b> system will send a new password to the contact author's email address. We suggest change this temporary password to a more convenient one using the "Edit Submission" option.</li></ul>
-                                <p class="fw-bold mt-4">Important:</p>
-                                <p class= "lh-sm mx-2">For security reasons, EDUNINE staff cannot provide your Submission ID or password. Use the forgot ID/password options if needed.</p>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </section> 
--->
         </section>
 
-        <!-- Footer section -->
-        <div class ="container-fluid">
-            <!-- footer  -->
-            <?php include "../includesHtml/final.html" ?> 
-        </div>
+
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
