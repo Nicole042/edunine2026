@@ -139,7 +139,7 @@
 @media (max-width: 570px) {
     .container-card{
     max-width: 100%;     /* will shrink below 400px */
-    height: 700px;
+    height: 730px;
     perspective: 700px;
     border-radius: 2rem;
     }
