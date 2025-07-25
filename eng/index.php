@@ -17,6 +17,7 @@
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
+
         <link href="../css/stylevenue.css" rel="stylesheet">
         <link href="../css/coordinator.css" rel="stylesheet">
 
@@ -503,7 +504,6 @@
                 </div>
             </section> 
     <!-- Coordinators section This was the previous location, should we mantain it?-->
-
     <section id="coordinators">
         <div class="container-fluid px-5">
             <h2 class="display-5 fw-bold text-center mb-4">Coordinators</h2>
@@ -594,7 +594,7 @@
                     <img src="../images/logos_cooperation/logo_sbc.gif"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
-                
+            
                     <div class="overlay-content">
                         <h2>Ana Luna</h2>
                         <h2>Technical Program Co-Chair</h2>
@@ -611,7 +611,7 @@
                     <img src="../images/logos_cooperation/logo_sbc.gif"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
-                
+                 
                     <div class="overlay-content">
                         <h2>Agatha da Silva Ovando</h2>
                         <h2>Technical Program Co-Chair</h2>
