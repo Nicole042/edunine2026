@@ -418,18 +418,18 @@
                 <div class="container-fluid px-5 pb-3">
                     <div class="row g-5"> 
                         <div class="col d-flex justify-content-center flex-wrap gap-3 btn-schdule-style"> 
-                            <button type="button" class="btn btn-primary category-btn btn-active" id="category1">
+                            <button type="button" class="category-btn category-btn-active" id="category1">
                                 Category 1 </button>                           
-                            <button type="button" class="btn btn-primary category-btn" id="category2">
+                            <button type="button" class="category-btn" id="category2">
                                 Category 2
                             </button>
-                            <button type="button" class="btn btn-primary category-btn" id="category3">
+                            <button type="button" class="category-btn" id="category3">
                                 Category 3
                             </button>
-                            <button type="button" class="btn btn-primary category-btn" id="category4">
+                            <button type="button" class="category-btn" id="category4">
                                 Category 4
                             </button>
-                            <button type="button" class="btn btn-primary category-btn" id="category5">
+                            <button type="button" class="category-btn" id="category5">
                                 Category 5
                             </button>
                         </div>

@@ -436,11 +436,30 @@ ul.breadcrumb li a:hover {
     border-color: white;
     color: white;
 }
+.category-btn {
+        background-color: #e0f2fe; 
+    border: none;
+    color: #0369a1;
+    padding: 12px 24px;
+    margin: 0; /* Quita el margin ya que usamos gap en el contenedor */
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.category-btn-active {
+    background-color: #466e96;
+    color: white;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+.category-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(56, 182, 255, 0.3);
+}
 /* CLASES PERSONALIZADAS PARA background INFOTMATION.PHP CATEGORY SECTION */
 .bg-category {
     background-color:#e8f2ff;
 }
-
 
 #myTopBtn:hover {
     background-color: grey;
