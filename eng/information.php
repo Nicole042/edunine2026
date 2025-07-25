@@ -67,7 +67,7 @@
         <div class="#main"></div>
 
         <section id="navigation" class="inicial">
-                  <!- PARTE SUSAN INICIO -->
+                  <!-- <!- PARTE SUSAN INICIO  -->
             <!-- New proposed breadcrumb -->
             <nav class="section-nav" aria-label="Section navigation">
                 <ul class="d-flex justify-content-end list-unstyled mb-0">
@@ -100,15 +100,6 @@
         </section>
 
         <section id="top" class="inicial">
-            <!-- Cambiar por la parte de Susan breadcrumbs -->
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li>Composing_Conference_Paper_and_Submission</li>
-                </ul> 
-            </div>
-            <!-- fin de breadcrumbs -->
             <!-- Trajeta de introduccion -->
             <div class= "container-fluid tope py-5 rounded-3">
                 <div class="row g-5">
@@ -127,15 +118,6 @@
 
         <!-- checklist  -->
         <section id="suitable">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
-                    <li>Manuscript Pre-submission Checklist</li>
-                </ul> 
-            </div>
-            -->
             <!--
             <div class="container-fluid">
                 <!-- sequence section -->
@@ -719,23 +701,23 @@
                 </div> 
         </section>
              
-        <!-- <section> -->
-            <!-- Formatting guidelines         -->
-            <!-- <div class="container-fluid py-3 bg-body-white">
+        <section>
+            <!-- Formatting guidelines -->
+            <div class="container-fluid py-3 bg-body-white">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
                         <h6 class="display-6 fw-bold text-center">EDUNINE Paper Types and Formatting Guidelines</h6> 
 
-                        <p class="lh-sm">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
-                        <p class="lh-sm">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
+                        <p class="lh-sm text-center">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
+                        <p class="lh-sm text-center">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
                     </div>
                 </div> 
 
                 <?php include "../eng/cards.html" ?>
             </div> 
             </div>
-        <!--
-        </section> -->
+        
+        </section>
 
         <!-- Manuscript Template -->
 

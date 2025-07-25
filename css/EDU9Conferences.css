@@ -263,7 +263,7 @@ section.inicial {
     margin-right: 15%;
     margin-left: 15%;
     background-color: inherit;
-    padding-top: 135px;
+    padding-top: 80px;
 }
 section.schedule {
     padding-top: 0px;
@@ -829,7 +829,7 @@ html, body {
         margin-right: 15%;
         margin-left: 15%;
         background-color: inherit;
-        padding-top: 135px;
+        padding-top: 30px;
     }
      /*Styling new navigation*/
     .section-nav .nav-link {
