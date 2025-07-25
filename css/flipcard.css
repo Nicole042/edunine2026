@@ -1,0 +1,176 @@
+.card-body{
+    max-width: auto;
+    height: auto;
+    /*overflow: visible;*/
+}
+/* FLIP CARDS FORMAT */
+.container-card{
+    /*width: 100%;*/
+    max-width: 100%;     /* will shrink below 400px */
+    height: 730px;
+    /*perspective: 10px;*/
+    border-radius: 2rem;
+    overflow: visible;
+    /*max-width: 800px;
+    font-family: "Quicksand", sans-serif;
+    /*background-color: rgb(110, 241, 23)*/
+}
+
+/*To avoid jitterniess using '.card:hover{}'*/
+.container-card:hover .card1 {
+    cursor: pointer;
+    transform: rotateY(180deg);   
+    /*overflow: visible;*/
+}
+.card1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /*To give animation to the flip*/
+    /*transition: transform 1500ms;*/
+    transform-style: preserve-3d;
+    font-family: "Quicksand", sans-serif;
+    transition: transform 0.7s ease-in-out; /* animate the flip */
+    /*border-radius: 2rem;*/
+    overflow: visible;
+    
+}
+
+
+.front1, .back1{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    justify-content: center;
+    /*display: flex;*/
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; 
+    overflow: visible;
+}
+
+/* front face styling */
+.front1 {
+  z-index: 2;     /* sit above the back face initially */
+  font-family: "Quicksand", sans-serif;
+  text-align: justify;
+  background-color: #87d2f0;
+  /*margin-bottom: 20px;*/
+  
+}
+
+/*Targeting the back*/
+.back1{
+    background-color:#2e5897;; 
+    transform: rotateY(180deg);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.front1 .row {
+    /* stack the two “cols” vertically instead of side-by-side */
+    flex-direction: column ;
+    }
+    .front1 .row > .col-12,
+    .front1 .row > .col {
+        /* ensure each takes the full width when stacked */
+        width: 100% ;
+        max-width: 100% ;
+    }
+    /* optional: add some breathing room between them */
+    .front1 .row > .col {
+        margin-bottom: 1rem;
+    }
+
+@media (max-width: 1420px) {
+     .container-card{
+    max-width: 100%;     /* will shrink below 400px */
+    height: 830px;
+    perspective: 700px;
+    border-radius: 2rem;
+    }
+}
+@media (max-width: 1200px) {
+     .container-card{
+    max-width: 100%;     /* will shrink below 400px */
+    height: 800px;
+    perspective: 700px;
+    border-radius: 2rem;
+    }
+    /*Jus ont col always*/
+    .front1 .row {
+    /* stack the two “cols” vertically instead of side-by-side */
+    flex-direction: column ;
+    }
+    .front1 .row > .col-12,
+    .front1 .row > .col {
+        /* ensure each takes the full width when stacked */
+        width: 100% ;
+        max-width: 100% ;
+    }
+    /* optional: add some breathing room between them */
+    .front1 .row > .col {
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .container-card{
+    max-width: 100%;     /* will shrink below 400px */
+    height: 890px;
+    perspective: 800px;
+    border-radius: 2rem;
+    }
+
+}
+@media only screen and (max-width: 950px) {
+     .container-card{
+    max-width: 100%;     /* will shrink below 400px */
+    height: 1200px;
+    perspective: 700px;
+    border-radius: 2rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+     .container-card{
+    max-width: 100%;     /* will shrink below 400px */
+    height: 1100px;
+    perspective: 700px;
+    border-radius: 2rem;
+    }
+}
+@media only screen  and (max-width: 766px) {
+     .container-card{
+    max-width: 100%;     /* will shrink below 400px */
+    height: 650px;
+    /*perspective: 700px;
+    border-radius: 2rem;*/
+    }
+
+ }
+/* END FLIP CARDS FORMAT  */
+@media (max-width: 570px) {
+    .container-card{
+    max-width: 100%;     /* will shrink below 400px */
+    height: 1100px;
+    perspective: 700px;
+    border-radius: 2rem;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .container-card{
+        /*width: 100%;*/
+        max-width: 100%;     /* will shrink below 400px */
+        height: 1300px;
+        perspective: 700px;
+        border-radius: 2rem;
+        /*max-width: 800px;
+        font-family: "Quicksand", sans-serif;
+        /*background-color: rgb(110, 241, 23)*/
+    }
+   
+}
