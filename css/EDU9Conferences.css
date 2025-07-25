@@ -437,11 +437,8 @@ ul.breadcrumb li a:hover {
     color: white;
 }
 /* CLASES PERSONALIZADAS PARA background INFOTMATION.PHP CATEGORY SECTION */
-.bg-category3 {
-    background-color:#ffe0cc;
-}
-.bg-category4 {
-    background-color: #E6E6FA;
+.bg-category {
+    background-color:#e8f2ff;
 }
 
 

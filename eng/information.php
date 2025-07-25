@@ -77,7 +77,7 @@
         </section>
 
         <!-- checklist  -->
-        <!-- <section id="suitable">
+        <section id="suitable">
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -87,19 +87,19 @@
                 </ul> 
             </div>
             <div class="container-fluid">
-                sequence section
+                <!-- sequence section -->
                 <div class="container-fluid px-4 py-5">
-                    <h2 class="pb-2 border-bottom display-6 fw-bold">Manuscript Pre-Submission Checklist</h2>
+                    <h2 class="pb-2 border-bottom display-6 fw-bold text-center">Manuscript Pre-Submission Checklist</h2>
                 </div>
                 <div class= "px-4 pb-1">
-                    <h4 class="display-6 fw-bold">Conference Suitability Analysis</h4>
-                    <p class="fs-5 mb-4">
+                    <h4 class="display-6 fw-bold text-center">Conference Suitability Analysis</h4>
+                    <p class="fs-5 mb-4 text-center">
                         Review the conference's call for papers, scope, and topics list to determine if your manuscript aligns with the specified categories, themes and research areas. Ensure that your paper addresses the key topics highlighted by the conference and meets the relevance criteria. This analysis will help you decide if the conference is the appropriate venue for your submission. Explore the details below!
                     </p>
                 </div>
 
                 <div class="manuscript-section">
-                    <div class="manuscript-buttons">
+                    <div class="manuscript-buttons d-flex justify-content-center flex-wrap gap-3">
                         <button class="manuscript-button" data-content="callForPapers">Call for Papers</button>
                         <button class="manuscript-button" data-content="scopeTopics">Scope and Areas of Interest</button>
                         <button class="manuscript-button" data-content="relevanceCriteria">Topics</button>
@@ -403,7 +403,7 @@
                 <!-- TABLAS DE CONTENIDOS -->
                 <!-- category 1 -->
                 <div class="category1 container-fluid px-5 py-3">
-                    <div class="row bg-info-subtle rounded-3 justify-content-center">
+                    <div class="row bg-category rounded-3 justify-content-center">
                         <div class= "col">
                             <div class="clearfix text-center px-5 pt-5">
                                 <img class="col-4 rounded float-sm-start p-3" src="../images/decoration/paperCat1.jpg" alt="Category 1 Paper Content">
@@ -457,7 +457,7 @@
                 </div>    
                 <!-- Category 2 -->
                 <div class="category2 container-fluid px-5 py-3 d-none">
-                    <div class="row bg-warning-subtle rounded-3 justify-content-center">
+                    <div class="row bg-category rounded-3 justify-content-center">
                         <div class= "col text-sm-left">
                             <div class="clearfix text-center px-5 pt-5">
                                 <img class="col-4 p-3 rounded float-sm-start" src="../images/decoration/paperCat2.jpg" alt="Category 2 Paper Contents"> 
@@ -511,7 +511,7 @@
 
                 <!-- Category 3 -->   
                 <div class="category3 container-fluid px-5 py-3 d-none">
-                    <div class="row bg-category3 rounded-3 justify-content-center">     
+                    <div class="row bg-category rounded-3 justify-content-center">     
                         <div class= "col text-sm-left">
                             <div class="clearfix text-center px-5 pt-5">
                                 <img class="col-4 p-3 rounded float-sm-start" src="../images/decoration/paperCat3.jpg" alt="Category 2 Paper Contents"> 
@@ -562,7 +562,7 @@
                 </div>
                 <!-- Category 4 -->        
                 <div class="category4 container-fluid px-5 py-3 d-none">
-                    <div class="row bg-category4 rounded-3 justify-content-center">  
+                    <div class="row bg-category rounded-3 justify-content-center">  
                         <div class= "col text-sm-left">
                             <div class="clearfix text-center px-5 pt-5">
                                 <img class="col-4 p-3 rounded float-sm-start" src="../images/decoration/paperCat4.jpg" alt="Category 4 Paper Contents"> 
@@ -615,7 +615,7 @@
                 </div>  
                 <!-- Category 5 -->
                 <div class="category5 container-fluid px-5 py-3 d-none">
-                    <div class="row bg-success-subtle rounded-3 justify-content-center">          
+                    <div class="row bg-category rounded-3 justify-content-center">          
                         <div class= "col text-sm-left">
                             <div class="clearfix text-center px-5 pt-5">
                                 <img class="col-4 p-3 rounded float-sm-start" src="../images/decoration/paperCat5.jpg" alt="Category 4 Paper Contents"> 
