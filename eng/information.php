@@ -241,44 +241,100 @@
                     <li>Determine_Manuscript_Category</li>
                 </ul> 
             </div>
-            <div class= "container-fluid tope  pb-5">
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperType.jpg" alt="Choose Manuscript Type"> 
-                            </div>
-                            <h4 class="display-6 fw-bold">Determine your Manuscript Category and Type</h4>
-                            <p class="fs-5 mb-4">This section will guide you through the different categories and their types of submissions  accepted for the EDUNINE2026 conference. We encourage authors to submit original, unpublished work that aligns with the conference themes outlined in the "Scope and Areas of Interest"and "Topics" sections.</p>
+
+            //SECCION MODIFICADA POR SEBAS BORRA ESTO SOLO LO PUSE PARA QUE SEA MAS FACIL
+            <div id="infoCarousel" class="carousel slide container-fluid py-4" data-bs-ride="carousel" data-bs-interval="1000">
+                <div class="carousel-inner px-4">
+
+                    <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="shadow-sm rounded-4 border-0 p-4 bg-light">
+                        <h4 class="display-6 fw-bold">Determine your Manuscript Category and Type</h4>
+                        <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperType.jpg" alt="Choose Manuscript Type">
+                        <p class="fs-5 lh-sm mb-0">This section will guide you through the different categories and their types of submissions accepted for the EDUNINE2026 conference. We encourage authors to submit original, unpublished work that aligns with the conference themes outlined in the "Scope and Areas of Interest" and "Topics" sections.</p>
                         </div>
-                    </div>    
+                    </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="shadow-sm rounded-4 border-0 p-4 bg-light">
+                                <div class="card shadow-sm rounded-4 border-0 p-4 bg-light text-justified"
+                                style="max-width: 800px; max-height: 400px; overflow-y: auto;">
+                                <h4 class="display-6 fw-bold">General Information on Paper Categories and Submission Types</h4>
+
+                                <p class="fw-bold mt-4 mb-1">Author Ethics and Responsibilities:</p>
+                                <p>We emphasize upholding ethical research and writing practices:</p>
+                                <ul>
+                                    <li>Submit original, unpublished work solely authored by the listed individuals.</li>
+                                    <li>Ensure your paper is not currently under review elsewhere.</li>
+                                    <li>
+                                    Familiarize yourself with the IEEE ethical guidelines on authorship, citation, plagiarism, data integrity, and originality.
+                                    <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/" target="_blank">IEEE Author Center for Conferences: Ethics</a>
+                                    </li>
+                                    <li>
+                                    Review your manuscript to ensure that it aligns with the conference's scope and the recommended topics provided on this webpage.
+                                    <a href="#checklist">Manuscript Pre-Submission Checklist</a>
+                                    </li>
+                                </ul>
+
+                                <p class="fw-bold mt-4 mb-1">IEEE Paper Writing Requirements:</p>
+                                <ul>
+                                    <li>
+                                    All papers must be written in English and adhere to IEEE's publication requirements for the 
+                                    <a href="http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank">IEEE Xplore® digital library</a>. These requirements include using proper English language style and formatting according to guidelines outlined in the 
+                                    <a href="http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf" target="_blank">IEEE Editorial Style Manual</a>.
+                                    </li>
+                                    <li>Papers not meeting the standard of English required for publication will be returned for revision.</li>
+                                </ul>
+
+                                <p class="fw-bold mt-4 mb-1">Citation Practices:</p>
+                                <ul>
+                                    <li>
+                                    Proper citation of sources is crucial for ethical and academic writing. The conference mandates the IEEE style for citing references.
+                                    <a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" target="_blank">IEEE Reference Guide</a>
+                                    </li>
+                                    <li>Ensure all sources are properly cited to avoid plagiarism and self-plagiarism.</li>
+                                </ul>
+
+                                <p class="fw-bold mt-4 mb-1">Paper Formatting:</p>
+                                <ul>
+                                    <li>
+                                    All submissions must adhere to the conference paper formatting guidelines, as described in the "Mandatory Conference Paper Templates" section on this webpage.
+                                    <a href="#templateChoose">Manuscript Templates</a>
+                                    </li>
+                                    <li>Papers not meeting the formatting guidelines required for publication will be rejected.</li>
+                                </ul>
+
+                                <p class="fw-bold mt-4 mb-1">AI-Generated Text Disclosure:</p>
+                                <ul>
+                                    <li>
+                                    Authors using AI-generated text must disclose this in the paper's acknowledgement section and cite the specific AI system employed
+                                    (Interim Instructions by IEEE Publications, February 2023).
+                                    </li>
+                                </ul>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#infoCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#infoCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="container-fluid py-3 bg-body-secondary">
-                <div class ="row">
-                    <div class= "col text-sm-left">
-                        <h6 class="display-6 fw-bold">General Information on Paper Categories and Submission Types</h6>
-                        <p class="lh-sm"><span class="fw-bold">Author Ethics and Responsibilities: </span> We emphasize upholding ethical research and writing practices:</p> 
-                        <ul class="lh-sm"><li>
-                                Submit original, unpublished work solely authored by the listed individuals.</li><li>
-                                Ensure your paper is not currently under review elsewhere.</li><li>
-                                Familiarize yourself with the IEEE ethical guidelines on authorship, citation, plagiarism, data integrity, and originality. <span class="text-end"><a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/Author" class="border-white btn btn-primary btn-sm" role="button">IEEE Author Center for Conferences: Ethics</a> </span></li><li>
-                                Review your manuscript to ensure that it aligns with the conference's scope and the recommended topics provided on this webpage. <span class="text-end"><a href="#checklist" class="border-white btn btn-primary btn-sm" role="button">Manuscript Pre-Submission Checklist</a> </span></li>
-                        </ul>  
-                        <p class="lh-sm fw-bold">IEEE Paper Writing Requirements:</p>
-                        <ul class="lh-sm"><li>All papers must be written in <b>English</b> and adhere to IEEE's publication requirements for the <a  href="http://ieeexplore.ieee.org/Xplore/home.jsp">IEEE  Xplore&reg;  digital  library</a>. These requirements include using proper English language style and formatting according to guidelines outlined in the IEEE Editorial Style Manual.<span class="text-end"><a href="http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf" class="border-white btn btn-primary btn-sm" role="button"> IEEE Editorial Style Manual </a></li><li> 
-                                Papers not meeting the standard of English required for publication will be returned for revision.</li></ul>       
-                        <p class="lh-sm fw-bold">Citation Practices:</p><ul>
-                            <li> Proper citation of sources is crucial for ethical and academic writing. The conference mandates the IEEE style for citing references. Refer to the paper template and IEEE Reference Guide for examples.<span class="text-end"><a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf"class="border-white btn btn-primary btn-sm" role="button">IEEE Reference Guide</a></span></li><li>   
-                                Ensure all sources are properly cited to avoid plagiarism and self-plagiarism.</li></ul>
-                        <p class="lh-sm fw-bold">Paper Formatting:</p><ul><li> 
-                                All submissions must adhere to the conference paper formatting guidelines, as described in the "Mandatory Conference Paper Templates" section on this webpage.<span class="text-end"><a href="#templateChoose" class="border-white btn btn-primary btn-sm" role="button">Manuscript Templates</a> </span></li><li>
-                                Papers not meeting the formatting guidelines required for publication will be rejected.</li></ul>  
-                        <p class="lh-sm fw-bold">AI-Generated Text Disclosure:</p><ul><li> 
-                                Authors using AI-generated text must disclose this in the paper's acknowledgement section and cite the specific AI system employed (Interim Instructions by IEEE Publications (February 2023)).</li></ul>
-                    </div>   
-                </div> 
-            </div>
+
+
+
+
             <div class="container-fluid py-3 bg-body-white">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
