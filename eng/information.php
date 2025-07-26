@@ -688,23 +688,38 @@
                     <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-light btn-lg">Download Templates</a>
                 </div>
             </section>
-            <!-- MAIN CONTENT -->
-            <div class="container my-5">
+        <!-- MAIN CONTENT EN CARRUSEL -->
+            <div id="contentCarousel" class="carousel slide container my-5" data-bs-ride="carousel">
 
-                <!-- CARD 1: Selecting Template -->
+            <!-- INDICADORES -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <!-- SLIDES -->
+            <div class="carousel-inner">
+
+                <!-- SLIDE 1: Selecting Template -->
+                <div class="carousel-item active">
                 <div class="card shadow-sm mb-4">
                     <div class="card-body">
                     <h4 class="card-title fw-bold">Selecting the Appropriate Template</h4>
                     <p>For seamless manuscript preparation, authors are required to utilize one of the following IEEE conference templates:</p>
                     <ul>
-                        <li><b>Microsoft Word (.docx)</b>A4 paper size</li>
+                        <li><b>Microsoft Word (.docx)</b> – A4 paper size</li>
                         <li><b>LaTeX format</b></li>
                     </ul>
-                    <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-primary"> IEEE Conference Templates</a>
+                    <p>Download the templates:</p>
+                    <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-primary">IEEE Conference Templates</a>
                     </div>
                 </div>
+                </div>
 
-                <!-- CARD 2: Overleaf -->
+                <!-- SLIDE 2: Overleaf -->
+                <div class="carousel-item">
                 <div class="card shadow-sm mb-4">
                     <div class="card-body">
                     <h4 class="card-title fw-bold">Collaborative Writing with Overleaf</h4>
@@ -714,165 +729,177 @@
                         <li>Comprehensive documentation for all user levels</li>
                         <li>Perfect for collaborative academic work</li>
                     </ul>
+                    <p>Overleaf offers a wealth of resources – quick guides, tutorials, webinars, and comprehensive documentation – catering to all user levels. You can explore these resources to find materials that best suit your needs and expertise.</p>
                     <a href="https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/authoring-tools-and-templates/" class="btn btn-outline-primary btn-sm">Visit IEEE Author Center</a>
                     </div>
                 </div>
+                </div>
 
-                <!-- CARD 3: Word Template -->
+                <!-- SLIDE 3: Word Template -->
+                <div class="carousel-item">
                 <div class="card shadow-sm mb-4">
                     <div class="card-body">
-                        <h4 class="card-title fw-bold">Mastering Microsoft Word Templates: Essential Tips and Tricks</h4>
-                        <p>This guide discusses the benefits of using the template document in Microsoft Word to ensure consistent formatting and facilitate collaborative writing, specifically for IEEE Conference papers.</p>
+                    <h4 class="card-title fw-bold">Mastering Microsoft Word Templates: Essential Tips and Tricks</h4>
+                    <p>This guide discusses the benefits of using the template document in Microsoft Word to ensure consistent formatting and facilitate collaborative writing, specifically for IEEE Conference papers.</p>
 
-                        <h5 class="fw-bold mt-3">The template provides:</h5>
-                        <ul>
+                    <h5 class="fw-bold mt-3">The template provides:</h5>
+                    <ul>
                         <li><b>Detailed Instruction Set:</b> The document acts as a guide, offering clear instructions and predefined styles for titles, sections, figures, tables, equations, references, etc. It also demonstrates these styles and formats within the document itself, serving as a practical example.</li>
                         <li><b>Reusable Base:</b> This template can be shared and used as the foundation for creating new IEEE conference paper documents. By utilizing the template, authors can simplify the formatting process and easily follow established IEEE style guidelines while working together.</li>
-                        </ul>
+                    </ul>
 
-                        <p>This guide offers options for both individual paper creation and collaborative writing using the template.</p>
+                    <p>This guide offers options for both individual paper creation and collaborative writing using the template.</p>
 
-                        <h5 class="fw-bold mt-3">Two Effective Methods for Utilizing the Template:</h5>
+                    <h5 class="fw-bold mt-3">Two Effective Methods for Utilizing the Template:</h5>
 
-                        <h6 class="fw-bold mt-2">A) Developing an Individual IEEE Conference Paper:</h6>
-                        <p>For individual paper creation, users can save a copy of the template as a new .docx file. This enables them to replace the template text with their own content while preserving the styles using “Paste and Match Formatting.” Additionally, the Styles Panel in Microsoft Word displays the predefined template styles necessary for incorporating subtitles, lists, figures, tables, equations, and other elements required for writing the paper's content in various sections. Please ensure that all guidance text is removed from your conference paper prior to submission to the conference. Failure to remove template text from your paper may result in your paper not being published.</p>
+                    <h6 class="fw-bold mt-2">A) Developing an Individual IEEE Conference Paper:</h6>
+                    <p>For individual paper creation, users can save a copy of the template as a new .docx file. This enables them to replace the template text with their own content while preserving the styles using “Paste and Match Formatting.” Additionally, the Styles Panel in Microsoft Word displays the predefined template styles necessary for incorporating subtitles, lists, figures, tables, equations, and other elements required for writing the paper's content in various sections. <b><u>Please ensure that all guidance text is removed from your conference paper prior to submission to the conference. Failure to remove template text from your paper may result in your paper not being published.</u></b></p>
 
-                        <h6 class="fw-bold mt-2">B) Creating a Microsoft Template (.dotx):</h6>
-                        <p>The recommended approach for collaborative writing is to create a template file (.dotx). This ensures that all collaborators have access to the predefined styles and formats, promoting consistency and compliance with IEEE Xplore requirements.</p>
+                    <h6 class="fw-bold mt-2">B) Creating a Microsoft Template (.dotx):</h6>
+                    <p>The recommended approach for collaborative writing is to create a template file (.dotx). This ensures that all collaborators have access to the predefined styles and formats, promoting consistency and compliance with IEEE Xplore requirements.</p>
 
-                        <h5 class="fw-bold mt-3">How to create a Microsoft Template (.dotx):</h5>
-                        <ul>
+                    <h5 class="fw-bold mt-3">How to create a Microsoft Template (.dotx):</h5>
+                    <ul>
                         <li><b>Open the Document:</b> Launch Microsoft Word and open the conference-template-a4.docx file to create a template with the formats and styles for formatting your paper.</li>
                         <li><b>Operating System Differences:</b> Depending on your Operating System and Microsoft Word version, the instructions can differ. Please refer to the Microsoft support or help section in your application.</li>
-                        </ul>
+                    </ul>
 
-                        <!-- BOTONES PARA LOS MODALES -->
-                        <div class="row row-cols-2 my-3">
+                    <!-- BOTONES PARA MODALES -->
+                    <div class="row row-cols-2 my-3">
                         <div class="col d-flex justify-content-center">
-                            <!-- Botón Windows -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#windowsModal">
-                            For Windows
-                            </button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#windowsModal">For Windows</button>
                         </div>
                         <div class="col d-flex justify-content-center">
-                            <!-- Botón macOS -->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#macOSModal">
-                            For macOS
-                            </button>
-                        </div>
-                        </div>
-
-                        <ul>
-                        <li><b>Writing Your Paper:</b> Now you have a new document with the text of the template. Write replacing the text with your own text including new text using the styles displayed by the Style Panel. Use the styles of the Style Panel for all the different text styles you need. It is a lot of work but is worthwhile as it generates a well-formatted text as asked for a conference. Please ensure that all guidance text is removed from your conference paper prior to submission to the conference. Failure to remove template text from your paper may result in your paper not being published.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- MODAL WINDOWS -->
-                <div class="modal fade" id="windowsModal" tabindex="-1" aria-labelledby="windowsModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-fullscreen-sm-down">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="windowsModalLabel">Creating a Microsoft Template (.dotx) for Windows</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <h6 class="fw-bold">a. Create the template file:</h6>
-                            <ul>
-                            <li>Click on the "File" tab in the top left corner.</li>
-                            <li>Select "Save As" from the menu.</li>
-                            <li>Choose a location on your computer where you want to save the template.</li>
-                            <li>In the "Save as type" dropdown menu, select "Word Template (*.dotx)".</li>
-                            <li>Enter a name for your template in the "File name" field.</li>
-                            <li>Click "Save".</li>
-                            </ul>
-                            <h6 class="fw-bold mt-3">b. Accessing the Template:</h6>
-                            <ul>
-                            <li>To use your new template, launch Microsoft Word and go to "File" > "New".</li>
-                            <li>In the "New" document menu, click "Personal" or "Custom" (depending on your version of Word) to find your template.</li>
-                            <li>Select the template to create a new document based on it.</li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#macOSModal">For macOS</button>
                         </div>
                     </div>
-                </div>
 
-                <!-- MODAL MACOS -->
-                <div class="modal fade" id="macOSModal" tabindex="-1" aria-labelledby="macOSModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-fullscreen-sm-down">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="macOSModalLabel">Creating a Microsoft Template (.dotx) for macOS</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <h6 class="fw-bold">a. Create the template file:</h6>
-                            <ul>
-                            <li>Click "Save as Template" on the File menu.</li>
-                            <li>In the "Save As" box, type the name that you want to use for the new template.</li>
-                            <li>Next to "File Format", click "Microsoft Word template (.dotx)".</li>
-                            <li>Click "Save".</li>
-                            </ul>
-                            <h6 class="fw-bold mt-3">b. Accessing the Template:</h6>
-                            <ul>
-                            <li>To start a new document based on your template, on the File menu, click "New from Template".</li>
-                            <li>Select the template you want to use and click "Create".</li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                        </div>
+                    <ul>
+                        <li><b>Writing Your Paper:</b> Now you have a new document with the text of the template. Write replacing the text with your own text including new text using the styles displayed by the Style Panel. Use the styles of the Style Panel for all the different text styles you need. It is a lot of work but is worthwhile as it generates a well-formatted text as asked for a conference. <b><u>Please ensure that all guidance text is removed from your conference paper prior to submission to the conference. Failure to remove template text from your paper may result in your paper not being published.</u></b></li>
+                    </ul>
                     </div>
                 </div>
+                </div>
 
-
-                <!-- CARD 4: LaTeX Template -->
+                <!-- SLIDE 4: LaTeX Template -->
+                <div class="carousel-item">
                 <div class="card shadow-sm mb-4">
-                <div class="card-body">
+                    <div class="card-body">
                     <h4 class="card-title fw-bold">Create Professional Research Papers: LaTeX Template for Scientific Writing</h4>
                     <p>This guide provides instructions for formatting your paper using the official IEEE LaTeX template:</p>
 
                     <h5 class="fw-bold mt-3">Before You Begin:</h5>
                     <ul>
-                    <li><b>Download the Template:</b> Download the Template zip files and read the LaTeX Template instructions and be sure to use the template's conference mode.</li>
-                    <li><b>Install Required Packages:</b> Ensure you have the necessary LaTeX packages installed on your system. Refer to the documentation included with the template for specific package requirements.</li>
-                    <li><b>Software:</b> Choose a LaTeX editor or typesetting software that suits your needs. Popular options include Overleaf (online), TeXstudio (free, offline), and TeXworks (free, offline).</li>
+                        <li><b>Download the Template:</b> Download the Template zip files and read the LaTeX Template instructions and be sure to use the template's conference mode.</li>
+                        <li><b>Install Required Packages:</b> Ensure you have the necessary LaTeX packages installed on your system. Refer to the documentation included with the template for specific package requirements.</li>
+                        <li><b>Software:</b> Choose a LaTeX editor or typesetting software that suits your needs. Popular options include Overleaf (online), TeXstudio (free, offline), and TeXworks (free, offline).</li>
                     </ul>
 
                     <h5 class="fw-bold mt-3">Formatting Your Paper:</h5>
                     <ul>
-                    <li><b>Document Structure:</b> The template defines sections like abstract, introduction, main body sections, conclusion, references, etc. Use the provided commands to structure your document accordingly.</li>
-                    <li><b>Fonts and Styles:</b> The template pre-defines font sizes, line spacing, and margins to comply with IEEE formatting guidelines. Avoid modifying these unless absolutely necessary.</li>
-                    <li><b>Formatting Elements:</b> Utilize the provided commands for formatting figures, tables, equations, citations, and references. Refer to the template documentation for specific syntax and examples.</li>
-                    <li><b>Single vs. Double-Column:</b> The template offers options for single or double-column formatting based on conference requirements. Choose the double-column layout while compiling your document as in the sample file.</li>
+                        <li><b>Document Structure:</b> The template defines sections like abstract, introduction, main body sections, conclusion, references, etc. Use the provided commands to structure your document accordingly.</li>
+                        <li><b>Fonts and Styles:</b> The template pre-defines font sizes, line spacing, and margins to comply with IEEE formatting guidelines. Avoid modifying these unless absolutely necessary.</li>
+                        <li><b>Formatting Elements:</b> Utilize the provided commands for formatting figures, tables, equations, citations, and references. Refer to the template documentation for specific syntax and examples.</li>
+                        <li><b>Single vs. Double-Column:</b> The template offers options for single or double-column formatting based on conference requirements. Choose the double-column layout while compiling your document as in the sample file.</li>
                     </ul>
 
                     <h5 class="fw-bold mt-3">Additional Tips:</h5>
                     <ul>
-                    <li><b>Compile and Preview:</b> Regularly compile your LaTeX document (using pdflatex) to ensure proper formatting and catch any errors.</li>
-                    <li><b>Template Documentation:</b> Utilize the documentation included with the template for detailed instructions and examples.</li>
-                    <li><b>Online Resources:</b> Explore online resources and tutorials dedicated to LaTeX and IEEE paper formatting for further guidance.</li>
+                        <li><b>Compile and Preview:</b> Regularly compile your LaTeX document (using pdflatex) to ensure proper formatting and catch any errors.</li>
+                        <li><b>Template Documentation:</b> Utilize the documentation included with the template for detailed instructions and examples.</li>
+                        <li><b>Online Resources:</b> Explore online resources and tutorials dedicated to LaTeX and IEEE paper formatting for further guidance.</li>
                     </ul>
 
                     <h5 class="fw-bold mt-3">Beyond these general instructions, customizing your paper with the template might involve:</h5>
                     <ul>
-                    <li>Including author information and affiliations only for Workshop Proposal or DS Manuscripts for the initial submission.</li>
-                    <li>Adding section headings and subheadings.</li>
-                    <li>Inserting figures, tables, and equations with captions.</li>
-                    <li>Defining custom commands for frequently used elements.</li>
-                    <li>Formatting citations and references according to the IEEE referencing style.</li>
+                        <li>Including author information and affiliations only for Workshop Proposal or DS Manuscripts for the initial submission.</li>
+                        <li>Adding section headings and subheadings.</li>
+                        <li>Inserting figures, tables, and equations with captions.</li>
+                        <li>Defining custom commands for frequently used elements.</li>
+                        <li>Formatting citations and references according to the IEEE referencing style.</li>
                     </ul>
 
                     <p>For specific details on these customizations, refer to the template documentation and online resources catering to IEEE LaTeX formatting.</p>
 
                     <p class="fw-bold mt-3">By following these guidelines and leveraging the template's functionalities, you can efficiently format your paper according to IEEE standards.</p>
+                    </div>
                 </div>
                 </div>
-            </div> FIN TR
+
+            </div>
+
+            <!-- CONTROLES -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#contentCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#contentCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+            <!-- MODAL WINDOWS -->
+            <div class="modal fade" id="windowsModal" tabindex="-1" aria-labelledby="windowsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-sm-down">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="windowsModalLabel">Creating a Microsoft Template (.dotx) for Windows</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">a. Create the template file:</h6>
+                    <ul>
+                    <li>Click on the "File" tab in the top left corner.</li>
+                    <li>Select "Save As" from the menu.</li>
+                    <li>Choose a location on your computer where you want to save the template.</li>
+                    <li>In the "Save as type" dropdown menu, select "Word Template (*.dotx)".</li>
+                    <li>Enter a name for your template in the "File name" field.</li>
+                    <li>Click "Save".</li>
+                    </ul>
+                    <h6 class="fw-bold mt-3">b. Accessing the Template:</h6>
+                    <ul>
+                    <li>To use your new template, launch Microsoft Word and go to "File" > "New".</li>
+                    <li>In the "New" document menu, click "Personal" or "Custom" (depending on your version of Word) to find your template.</li>
+                    <li>Select the template to create a new document based on it.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- MODAL MACOS -->
+            <div class="modal fade" id="macOSModal" tabindex="-1" aria-labelledby="macOSModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-sm-down">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="macOSModalLabel">Creating a Microsoft Template (.dotx) for macOS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">a. Create the template file:</h6>
+                    <ul>
+                    <li>Click "Save as Template" on the File menu.</li>
+                    <li>In the "Save As" box, type the name that you want to use for the new template.</li>
+                    <li>Next to "File Format", click "Microsoft Word template (.dotx)".</li>
+                    <li>Click "Save".</li>
+                    </ul>
+                    <h6 class="fw-bold mt-3">b. Accessing the Template:</h6>
+                    <ul>
+                    <li>To start a new document based on your template, on the File menu, click "New from Template".</li>
+                    <li>Select the template you want to use and click "Create".</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
+            </div>
+
 
 
         
@@ -925,7 +952,7 @@
                     
 <!--  Instrucciones para OpenConf -->
 <!-- <section>
-    
+
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
