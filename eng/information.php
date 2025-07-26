@@ -240,9 +240,9 @@
                     <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
                     <li>Determine_Manuscript_Category</li>
                 </ul> 
-            </div>
+            </div> -->
 
-            //SECCION MODIFICADA POR SEBAS BORRA ESTO SOLO LO PUSE PARA QUE SEA MAS FACIL
+            <!-- //SECCION MODIFICADA POR SEBAS BORRA ESTO SOLO LO PUSE PARA QUE SEA MAS FACIL -->
             <div id="infoCarousel" class="carousel slide container-fluid py-4" data-bs-ride="carousel" data-bs-interval="1000">
                 <div class="carousel-inner px-4">
 
@@ -262,7 +262,6 @@
                                 <div class="card shadow-sm rounded-4 border-0 p-4 bg-light text-justified"
                                 style="max-width: 800px; max-height: 400px; overflow-y: auto;">
                                 <h4 class="display-6 fw-bold">General Information on Paper Categories and Submission Types</h4>
-
                                 <p class="fw-bold mt-4 mb-1">Author Ethics and Responsibilities:</p>
                                 <p>We emphasize upholding ethical research and writing practices:</p>
                                 <ul>
@@ -335,14 +334,14 @@
 
 
 
-            <div class="container-fluid py-3 bg-body-white">
+        <!-- <div class="container-fluid py-3 bg-body-white">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
                         <h6 class="display-6 fw-bold">EDUNINE Categories and Content of Manuscripts</h6> 
 
                         <p class="lh-sm">The conference accepts various categories of manuscripts, each with specific requirements aligned with the conference scope (see <a href="#suitable">Conference Suitability Analysis</a> for details). Proper adherence to these guidelines ensures consistency and facilitates the peer review and publication processes. Here is an overview of the accepted categories and their type, with links to the expected paper content. In the next section, formatting guidelines for each type are provided.</p>
                     </div>
-                </div> -->
+                </div>  -->
                 <!-- Category 1 -->
                 <!-- <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
