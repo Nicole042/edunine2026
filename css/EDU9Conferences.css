@@ -1061,3 +1061,9 @@ html, body {
     color: #1259aa; 
 }
 
+
+
+.carousel-item {
+  max-height: 600px;    
+  overflow-y: auto;     
+}
