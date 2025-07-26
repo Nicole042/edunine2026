@@ -23,6 +23,7 @@
         <link href="../css/edu9parts.css" rel="stylesheet"> 
         <link href="../css/flipcard.css" rel="stylesheet"> 
         <link href="../css/styleManuscriptPreSubmission.css" rel="stylesheet">
+        <link href="../css/style_manuscript_Submission.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
@@ -931,8 +932,9 @@
             </div>
 
         </section> -->
-        
- <!-- <section id="submission">
+    
+    <!-- Manuscript Submission Section -->
+    <section id="submission">
      
             <div class="container-fluid align-content-start py-0">
                 <ul class="breadcrumb">
@@ -942,39 +944,44 @@
                     <li>Manuscript_Submission</li>
                 </ul> 
             </div>
-            <div class= "container-fluid tope  py-5">
 
-                        <div class="row g-5">
-                            <div class= "col text-sm-left">
-                                <div class="clearfix">
-                                    <div class="text-center">
-                                        <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/submissionPapers.jpg"  alt="Manuscript Submission">
-                                    </div>
-                                    <h2 class="display-6 fw-bold">Manuscript Submission</h2>
-
+            <div class="container-fluid tope py-3 bg-transparent">
+                <div class="row g-5 px-3">
+                    <div class="col text-sm-center">
+                        <div class="clearfix">
+                            <h2 class="display-6 fw-bold">Manuscript Submission</h2>
                             <p class="fs-5 mb-4">Welcome to the <b>EDUNINE2026 Paper Submission Section!</b> We invite you to submit your original research to the EDUNINE2026 conference. This is an excellent forum to share your work with a global audience of researchers, practitioners, and industry leaders in the field of Engineering, Technology and Computing Education.</p>
                             <p class="fs-5 my-4">Ready to Submit?</p> 
                         </div>
                     </div>    
                 </div>
-         </div>
-            <div class="container-fluid py-5"> -->
-                <!-- sequence section -->
-                <!-- <div class="container-fluid px-4 py-5">
+            </div>
+
+            <div class="container-fluid px-5 py-3 "> 
+                <!-- sequence section: Important Submission Guidelines -->
+            <div class="card-submission-guidelines">
+                <div class="container-fluid px-4 py-2">
                     <h2 class="pb-2 border-bottom display-6 fw-bold">Important Submission Guidelines:</h2>
-                    <p>To ensure a successful submission for the conference, please follow these important guidelines closely. They will help you present your work in a clear and consistent format, and ensure a smooth review process. For a step-by-step guide on composing your paper, visit the <a href="information.php" class="border-white btn btn-primary btn-sm align-self-end" role="button">Composing your Conference Paper</a> page on this website.</p>
+                    <p>To ensure a successful submission for the conference, please follow these important guidelines closely. They will help you present your work in a clear and consistent format, and ensure a smooth review process. Please read through this page carefully for a step-by-step guide on composing your conference paper.</p>
                     <ul>
                         <li><b>Scope and Topics</b>: Double-check that your paper aligns with the conference's focus areas.</li> 
                         <li><b>Paper Type: </b> Choose the appropriate category: full paper, WIP, workshop proposal, or Doctoral Symposium submission. </li>
                         <li><b>Language:</b> All submissions must be written in clear and standard <b>English</b>.</li>
                         <li><b>Page Limits:</b> Adhere to the designated page limit for your chosen paper type (details available on the submission platform).</li>
-                        <li><b>Template:</b> All written content submissions must strictly follow the formatting guidelines outlined in the conference templates.</li> </ul>
-                    <p class="fs-5 mx-4"><b>Before submitting your paper</b>, we encourage you to visit the <b>peer-review</b> webpage:  <a href="reviewNotif.php" class="border-white btn btn-primary btn-sm align-self-end" role="button">Peer Review Process and Notification</a> on this website. This resource provides valuable information about the evaluation process and helps ensure a clear understanding of how your paper will be reviewed.</p>
-                    <h4 class="fs-3 mx-auto fw-bold"> Please note </h4>
-                    <p class="fs-5 mb-4">Please note that EDUNINE2026 only accepts electronic submissions via <b>EDUNINE2026 SUBMISSION SYSTEM</b> system; <u>email submissions will not be accepted</u>.</p>                                       
+                        <li><b>Template:</b> All written content submissions must strictly follow the formatting guidelines outlined in the conference templates.</li> 
+                    </ul>
+                    <p class="fs-5 mx-4"><b>Before submitting your paper</b>, we encourage you to visit the <b>peer-review</b> webpage:  <a href="reviewNotif.php" class="border-white btn btn-primary btn-sm align-self-end" role="button">Peer Review Process and Notification</a> on this website. This resource provides valuable information about the evaluation process and helps ensure a clear understanding of how your paper will be reviewed.</p>                               
                 </div>
-            </div>                    
-        </section> -->
+            </div>  
+            
+            <div class="card-please-note">
+                <div class="container-fluid px-4 py-1">
+                    <h4 class="fs-3 mx-auto fw-bold">Please note</h4>
+                    <p class="fs-5 mb-4">Please note that EDUNINE2026 only accepts electronic submissions via <b>EDUNINE2026 SUBMISSION SYSTEM</b> system; <u>email submissions will not be accepted</u>.</p>
+                </div>
+            </div>
+        </section> 
+
         <!-- falta agregar el link al nuevo sistema en la siguiente sección -->
         <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->
                     
@@ -1187,7 +1194,7 @@
                         </div>
                     </div>
                 </section> 
-        -->
+       
         </section>
 
         <section id="organizers">
