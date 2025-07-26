@@ -69,22 +69,22 @@
         <section id="navigation" class="inicial">
                   <!-- <!- PARTE SUSAN INICIO  -->
             <!-- New proposed breadcrumb -->
-            <nav class="section-nav" aria-label="Section navigation">
+            <nav class="section-nav-breadcrumb" aria-label="Section navigation">
                 <ul class="d-flex justify-content-end list-unstyled mb-0">
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-1 py-3 btn" href="#top">Compose </a>
+                    <a class="nav-link px-1 py-2 btn" href="#top">Compose </a>
                     </li>
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-1 py-3 btn" href="#suitable">Manuscript</a>
+                    <a class="nav-link px-1 py-2 btn" href="#suitable">Manuscript</a>
                     </li>
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-1 py-3 btn" href="#typeChoose">Determine your Manuscript</a>
+                    <a class="nav-link px-1 py-2 btn" href="#typeChoose">Determine your Manuscript</a>
                     </li>
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-1 py-3 btn" href="#templateChoose">Conference Paper</a>
+                    <a class="nav-link px-1 py-2 btn" href="#templateChoose">Conference Paper</a>
                     </li>
                     <li class="nav-item mx-1">
-                    <a class="nav-link px-1 py-3 btn" href="#submission">Manuscript Submission</a>
+                    <a class="nav-link px-1 py-2 btn" href="#submission">Manuscript Submission</a>
                     </li>
                     <!--
                     <li class="nav-item mx-1">

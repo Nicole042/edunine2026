@@ -354,7 +354,7 @@ ul {
     height: 100%;
 }
 
-/* Style the list of breadcrumb */
+/* Style the list of breadcrumb - New navigation */
 .breadcrumb-container {
     max-width: 2000px;
     margin: 10px;
@@ -819,6 +819,23 @@ html, body {
 } 
 
 
+/*Breadcrumb Navigation for information.php*/
+.section-nav-breadcrumb {
+    font-family: 'Quicksand', 'sans-serif';
+    padding-top: 5%;
+}
+
+.section-nav-breadcrumb .nav-link {
+    font-weight: 500;
+    font-family: 'Quicksand', 'sans-serif';
+}
+
+/*BREADCRUMB FOR HOME*/
+.section-nav .nav-link {
+font-weight: 500;
+font-family: 'Quicksand', 'sans-serif';
+}
+
 @media only screen and (max-width: 1420px) 
 {
     section {
@@ -850,12 +867,36 @@ html, body {
         background-color: inherit;
         padding-top: 30px;
     }
-     /*Styling new navigation*/
+     /*Styling new navigation for HOME*/
     .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
     border-radius: 1px;
     padding: 2px 2px;
+    }
+    .section-nav .nav-link.active,
+    .section-nav .nav-link:hover {
+    font-weight: bold;
+    color: #2e5897; /* blue text instead of background */
+    }
+
+     /*Breadcrumb Navigation*/
+    .section-nav-breadcrumb {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 1200px) {
+    /*Breadcrumb*/
+    .section-nav-breadcrumb {
+        padding-top: 16%;
+    }
+    /*Styling new navigation*/
+    .section-nav .nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    border-radius: 1px;
+
     }
     .section-nav .nav-link.active,
     .section-nav .nav-link:hover {
@@ -883,7 +924,7 @@ html, body {
         margin-right: 10%;
         margin-left: 10%;
         background-color: inherit;
-        padding-top: 115px;
+        padding-top: 60px;
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         font-family: 'Roboto Condensed', sans-serif;
@@ -909,6 +950,10 @@ html, body {
         height: 865px;
     }
      /*Styling new navigation*/
+    .section-nav-breadcrumb {
+        padding-top: 8%;
+    }
+
     .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
     font-size: 13px;
@@ -940,7 +985,7 @@ html, body {
         margin-right: 2%;
         margin-left: 2%;
         background-color: inherit;
-        padding-top: 115px;
+        padding-top: 50px;
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         font-family: 'Roboto Condensed', sans-serif;
@@ -974,6 +1019,15 @@ html, body {
     font-weight: bold;
     color: #2e5897; /* blue text instead of background */
     }
+
+    /*Styling new navigation*/
+    .section-nav-breadcrumb {
+        padding-top: 7%;
+        /*font-size: 10px;*/
+    }
+    .section-nav-breadcrumb .nav-link {
+        font-size: 15px;
+    }
 }
 @media (max-width: 570px) {
     .header-top ul li {
@@ -1002,6 +1056,12 @@ html, body {
     .section-nav .nav-link {
     font-family: "Quicksand", sans-serif;
     font-size: 0px;
+    pointer-events: none;   /* disable all mouse interactions */
+    cursor: default;        /* show normal arrow instead of hand */
+    }
+
+    .section-nav-breadcrumb .nav-link {
+    font-size: 0%;
     pointer-events: none;   /* disable all mouse interactions */
     cursor: default;        /* show normal arrow instead of hand */
     }
@@ -1045,7 +1105,7 @@ html, body {
     font-family: "Quicksand", sans-serif;
     font-size: 15px;
     border-radius: 1px;
-    padding: 2px 2px;
+    padding-top: 30%;
     }
     .section-nav .nav-link.active,
     .section-nav .nav-link:hover {
@@ -1053,6 +1113,7 @@ html, body {
     color: #2e5897; /* blue text instead of background */
     }
 }
+
 /*============= End sequence line css =============*/
 
 /*/////////////////////////////////////////////////////////*/
