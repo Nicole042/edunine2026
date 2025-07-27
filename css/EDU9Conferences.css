@@ -836,6 +836,56 @@ font-weight: 500;
 font-family: 'Quicksand', 'sans-serif';
 }
 
+/*CONTAINER FOR THE ACCORDION IN PEER REVIEW GUIDELINES*/
+.container-peerReview {
+    /*display: flex;*/
+    max-width: 2400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: inherit;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+/*END OF COANINER FOR THE ACCORDION IN PEER REVIEW GUIDELINES*/
+
+/*CONTAINER FOR Manuscript Categories and Types for Review*/
+.container-typeReview {
+    /*display: flex;*/
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: inherit;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*width: 100%;*/
+}
+/*END OF COANINER FOR Manuscript Categories and Types for Review*/
+
+/*STYLING CARDS FOR REVIEW PROCESS*/
+.card-peer {
+  border: 2px solid #cfe2ff; /* light blue border */
+  border-radius: 0.5rem;
+  border-width: 2px;
+  transition: 
+    transform 0.3s ease, 
+    box-shadow 0.3s ease, 
+    background-color 0.3s ease, 
+    border-color 0.3s ease;
+  /*background-color: #f8f9fa; /* light gray background */
+  cursor: pointer;
+}
+
+.card-peer:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px);
+  /*background-color: #e7f1ff; /* light blue on hover */
+  /*border-color: #9ec5fe; /* darker blue border on hover */
+  /*border: 4px;*/
+  border: 5px solid #cfe2ff;
+}
+/*END OF STYLING CARDS FOR REVIEW PROCESS*/
+
+
 @media only screen and (max-width: 1420px) 
 {
     section {
