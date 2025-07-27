@@ -158,13 +158,16 @@
                         <div class="clearfix">
                             <div class="text-center">
                                 <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerRevGuide.jpg"  alt="Manuscript Types and Reviewer Guidelines Image"> 
-                            </div>                     
+                            </div>   
+                            <!---->                  
                             <h2 class="display-6 fw-bold">The EDUNINE Conference Review Process</h2>
                             <p class="fs-5 mb-4"> The conference review process involves two rounds of evaluation. In the first round, known as peer review, submissions are assessed by multiple reviewers. Based on their recommendations, papers may be accepted, rejected, or conditionally accepted pending revisions. Conditionally accepted papers undergo a second round of review by members of the Technical Program Committee. This rigorous process ensures that accepted papers meet the conference's standards for originality, technical rigor, and relevance. The types of manuscripts for review are detailed at the end of this section.</p>
                         </div>
                     </div>    
                 </div>
             </div>
+
+
             <div class="container-fluid py-3 bg-body-secondary">
                 <div class="row">
                     <div class= "col text-sm-left">
@@ -187,6 +190,196 @@
                     </div>
                 </div>
             </div>
+
+        <!--New Implementation, breadcrumb-->
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <h4 class="mb-4 mt-4 fw-bold"> Peer Review Guidelines</h4>
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>Reviewer Responsibilities</strong>
+                    </button>
+                    </h2>
+
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        
+                        <h5 class="mb-2 fw-bold"> </h5><ul> <!--Reviewer Responsibilities-->
+                            <li>Reviewers must complete the review in the <b>EDUNINE SUBMISSION SYSTEM</b> in <b><u>English</u></b>. Reviewers must provide detailed feedback, even for excellent papers. This feedback informs authors about strengths and areas for improvement, enhancing the overall quality of the conference. Reviewer recommendations should clearly justify their rating choice. A complete review helps the decision-making process for both authors and the Technical Program Committee.
+                            </li><li>Reviewers must maintain confidentiality of all manuscript information.
+                            </li><li>Reviewers must comply with the following requirement: <u>&quot;Information or content contained in or about a manuscript under review shall not be processed through a public platform (directly or indirectly) for AI generation of text for a review. Doing so is considered a breach of confidentiality because AI systems generally learn from any input.&quot;</u> (verbatim copy from the IEEE Publication Services and Products Board Operations Manual 2024 (1 March 2024) Subsection 8.2.1 C.6.)
+                            </li><li>Reviewers who suspect a conflict of interest must decline the review and inform the EDUNINE Technical Program Chair promptly.
+                            </li><li>Reviewers receive email notifications for new review assignments. Upon receiving an assignment, reviewers should promptly read the short abstracts of each assigned paper to ensure they have the expertise to provide a quality review and meet deadlines. <b>If unable to review, notify the EDUNINE Technical Program Chair immediately</b> to allow sufficient time for reassignment without shortening the review period.</li>
+                        </ul>
+                    
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong>Manuscript Content</strong>                      
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                         <li>Submitted manuscripts (<b>Full</b> or <b>WIP Papers</b>) must not have been accepted for publication or simultaneously submitted elsewhere.
+                        </li><li>All manuscripts are evaluated based on submission  category and type, originality, technical content/research depth, rigor, relevance to the conference scope and topics, and readability in <b>English</b>                                
+                        </li><li>Papers must be written in <b>English</b>, following IEEE guidelines for publishing in IEEE Xplore®. 
+                            Visit <a href="https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/write-in-technical-english/" class="border-white btn btn-primary btn-sm align-self-end" role="button">IEEE Author Center - Conference Author - Write Your Paper </a>  and <a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" class="border-white btn btn-primary btn-sm align-self-end" role="button">IEEE Reference Guide</a>.
+                        </li><li>The paper must describe an investigation or reproducible experience, documented sufficiently for replication by an independent professional.
+                        </li><li>Reviewers should report suspected <b>plagiarism</b> in the <b>&quot;Comments for the Program Committee&quot;</b> field in the review form, detailing the extent and original source if known. Additionally, plagiarism concerns can be included in the <b>&quot;Comments for the Authors&quot;</b> section. The EDUNINE Technical Program Committee will investigate according to IEEE's plagiarism policies.</li></ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>Guidance on Recommending Work-in-Progress (WiP) Reclassification or Rejection</strong>
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="lh-sm">If a full paper submission does not fully meet the requirements of a complete research work—such as lacking in-depth analysis, comprehensive results, or robust validation—but it presents preliminary results and addresses a topic of clear interest and relevance to the conference audience, you may recommend that the paper be reclassified as a Work-in-Progress (WiP) paper.</p>
+                        <p class="lh-sm">Please use this recommendation only if the paper shows potential and contributes meaningfully to ongoing discussions in the field, even if it is not yet fully developed.</p>
+                        <p class="lh-sm">However, papers that only present a proposal or idea without any preliminary results, or that lack engagement with related work (e.g., no comparison with existing literature or insufficient references), do not meet the criteria for either full or WiP categories and should be recommended for rejection.</p>                       
+                        
+                    </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <strong>Manuscript English Quality</strong>
+                    </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <li>Submitted manuscripts (<b>Full</b> or <b>WIP Papers</b>) must not have been accepted for publication or simultaneously submitted elsewhere.
+                        </li><li>All manuscripts are evaluated based on submission  category and type, originality, technical content/research depth, rigor, relevance to the conference scope and topics, and readability in <b>English</b>                                
+                        </li><li>Papers must be written in <b>English</b>, following IEEE guidelines for publishing in IEEE Xplore®. 
+                            Visit <a href="https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/write-in-technical-english/" class="border-white btn btn-primary btn-sm align-self-end" role="button">IEEE Author Center - Conference Author - Write Your Paper </a>  and <a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" class="border-white btn btn-primary btn-sm align-self-end" role="button">IEEE Reference Guide</a>.
+                        </li><li>The paper must describe an investigation or reproducible experience, documented sufficiently for replication by an independent professional.
+                        </li><li>Reviewers should report suspected <b>plagiarism</b> in the <b>&quot;Comments for the Program Committee&quot;</b> field in the review form, detailing the extent and original source if known. Additionally, plagiarism concerns can be included in the <b>&quot;Comments for the Authors&quot;</b> section. The EDUNINE Technical Program Committee will investigate according to IEEE's plagiarism policies.</li></ul>
+                    
+                    </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <strong>Manuscript Format</strong>
+                    </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <li>Reviewers are not required to check papers for template format compliance. The Technical Program Committee member will review paper formats and styles according to the chosen template's requirements.</li></ul>
+                    
+                    </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <strong>Enhancing Reviewer Feedback</strong>
+                    </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                         <h6 class="mb-2 fw-bold"> 1. Guidelines for Comprehensive Peer Review</h6><ul> 
+                            <li> To read more click on   
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">Peer Review Guide</button></li></ul>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen-sm-down">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="feedbackModalLabel">Guidelines for Comprehensive Peer Review</h1>              
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <p class="lh-sm mx-2">When reviewing papers for feedback and recommending improvements, consider the following questions:</p><ul>
+                                            <li>Is the study well designed and well executed?
+                                            </li><li>Does the paper acknowledge the existing body of relevant work?
+                                            </li><li>Are the results interpreted and reported correctly, considering all possible interpretations?
+                                            </li><li>Are the results overly preliminary or speculative?
+                                            </li><li>Does the research contribute significantly to the scientific knowledge in the field?
+                                            </li><li>Is the paper suitable for presentation at this conference?
+                                            </li><li>Is the paper written in clear, concise language?</li></ul>
+
+                                        <p class="lh-sm mx-2">Throughout the peer review process, assess the following:</p><ul>
+
+                                            <li><b>Scope:</b> Is the paper appropriate for the conference's scope?
+                                            </li><li><b>Novelty:</b> Does the paper present original material distinct from previous publications?
+                                            </li><li><b>Validity:</b> Is the study well designed and executed?
+                                            </li><li><b>Data:</b> Are the data reported, analyzed, and interpreted correctly?
+                                            </li><li><b>Clarity:</b> Are the ideas expressed clearly, concisely, and logically?
+                                            </li><li><b>Compliance:</b> Are all ethical and publication requirements met?
+                                            </li><li><b>Advancement:</b> Does the paper make a significant contribution to the field?
+                                            </li><li><b>English:</b> Is the standard of English sufficient for publication?
+                                            </li><li><b>Format:</b> Does the paper conform to conference manuscript style guidelines?</li></ul>
+                                        <p class="lh-sm mx-2">Follow the publication’s instructions for submitting feedback, suggestions, and recommended decisions. Remember to provide thorough and professional commentary.</p>
+                                        <p class="lh-sm mx-2">Additional guidelines from the literature:</p><ul>
+                                            <li>Your role as a reviewer is to provide detailed feedback, including positives and areas for improvement.
+                                            </li><li>Even for papers you find poorly written or thought-out, offer constructive criticism to assist the authors and enhance future submissions.
+                                            </li><li>Justify your ratings clearly in your reviews. A low score without explanations offers little value to the authors.
+                                            </li><li>Focus your review on content.
+                                            </li><li>Ensure fairness and objectivity in your assessment based solely on the paper's content.
+                                            </li><li>While the conference requires polished submissions, do not reject papers based solely on English writing quality or formatting issues. Report such issues as requested in the Manuscript English Quality section; formatting issues should be noted to the chair.
+                                            </li><li>Accepted papers may require minor or major improvements. Your detailed feedback can significantly contribute to paper improvement and conference enhancement.</li></ul>         
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="mb-2 mt-2 fw-bold">2. Some Examples</h6><ul>
+                            <li> To read more click on   
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#examplesModal">Examples of Comments to Authors</button></li></ul>
+                        <!-- Modal -->
+                        <div class="modal fade" id="examplesModal" tabindex="-1" aria-labelledby="examplesModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen-sm-down">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="examplesModalLabel">Some Examples of Comments to Authors</h1>                                          
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li> The organization of the units on Robotics was well done. However, the discussion of how it fits into the curriculum is overly broad and not too realistic. Many factors were overlooked on the curriculum side.
+                                            </li><li>Good level of detail on your approach. The first Table is very handy. But after the Table, the log analysis and auditing example image is quite difficult to read. How will you ensure additional auditing strategies are implemented?
+                                            </li><li>The paper was easy to read, although it could benefit from a review of the English sentence structure. The paper was organized in an easy-to-follow manner. The authors explained their motivations and methods for their study.
+                                            </li><li>The paper could use additional proofing and polishing. I suggest finding a non-robotics person to read for both language and communication. Some sentences are poorly formed (e.g., sentence 4 of first paragraph in 1. Introduction. Some content seems misplaced (e.g., discussion of security in section 4.
+                                            </li><li>The organization is faultless. It is very clear what the paper is going to say and how. The paper follows through with crystal clear subject headings and a logical flow of information. There are some grammatical problems; these are not serious, but a thorough proof-reading would be helpful.
+                                            </li><li>I would have liked to see some discussion and references setting this work in the context of other studies of student learning and knowledge retention. While I don't know of other studies that have examined exactly the phenomenon this paper does, a short search in the technical digital library turned up these examples that are relevant...
+                                            </li><li>This paper makes a very good argument in the introduction for why this course is needed. It is timely and addresses a topic outside of the norm often seen at an Education in Engineering Conference.
+                                            </li><li>The hypotheses are too obvious and the validation of them is not enough. Therefore, the contribution of this paper is quite limited.
+                                            </li><li>This paper should generate a lot of discussion and have a good audience. It is a topic that many universities are trying to address.
+                                            </li><li>Hard to judge given the writing organization problems, but I do not see a lot of significance here. The verification that the hands-on experiences helped more than the simulations on-line alone is a nice result, if it is supported by the data. Having taught this course already and collected feedback on your approach makes the paper stronger.
+                                            </li><li>It is important for those who might be considering this approach to know that it can be successful.
+                                            </li><li>This is a good, interesting topic, accessible to the conference audience, and widely useful.
+                                            </li><li>A good practical beginning guide to implementing lab exercises in a control course.
+                                            </li><li>Given the potential interest in this topic the authors could do better to capture the imagination of the reader; perhaps with a paragraph or two on famous cases.</li> </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="container-fluid py-3 bg-body-tertiary">
                 <div class="row">
                     <div class= "col text-sm-left">
@@ -196,18 +389,23 @@
                             </li><li>Reviewers must maintain confidentiality of all manuscript information.
                             </li><li>Reviewers must comply with the following requirement: <u>&quot;Information or content contained in or about a manuscript under review shall not be processed through a public platform (directly or indirectly) for AI generation of text for a review. Doing so is considered a breach of confidentiality because AI systems generally learn from any input.&quot;</u> (verbatim copy from the IEEE Publication Services and Products Board Operations Manual 2024 (1 March 2024) Subsection 8.2.1 C.6.)
                             </li><li>Reviewers who suspect a conflict of interest must decline the review and inform the EDUNINE Technical Program Chair promptly.
-                            </li><li>Reviewers receive email notifications for new review assignments. Upon receiving an assignment, reviewers should promptly read the short abstracts of each assigned paper to ensure they have the expertise to provide a quality review and meet deadlines. <b>If unable to review, notify the EDUNINE Technical Program Chair immediately</b> to allow sufficient time for reassignment without shortening the review period.</li></ul>
-                        <h5 class="mb-2 mt-2 fw-bold">Manuscript Content</h5><ul>
+                            </li><li>Reviewers receive email notifications for new review assignments. Upon receiving an assignment, reviewers should promptly read the short abstracts of each assigned paper to ensure they have the expertise to provide a quality review and meet deadlines. <b>If unable to review, notify the EDUNINE Technical Program Chair immediately</b> to allow sufficient time for reassignment without shortening the review period.</li>
+                        </ul>
+                        
+                        
+                            <h5 class="mb-2 mt-2 fw-bold">Manuscript Content</h5><ul>
                             <li>Submitted manuscripts (<b>Full</b> or <b>WIP Papers</b>) must not have been accepted for publication or simultaneously submitted elsewhere.
                             </li><li>All manuscripts are evaluated based on submission  category and type, originality, technical content/research depth, rigor, relevance to the conference scope and topics, and readability in <b>English</b>                                
                             </li><li>Papers must be written in <b>English</b>, following IEEE guidelines for publishing in IEEE Xplore®. 
                                 Visit <a href="https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/write-in-technical-english/" class="border-white btn btn-primary btn-sm align-self-end" role="button">IEEE Author Center - Conference Author - Write Your Paper </a>  and <a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" class="border-white btn btn-primary btn-sm align-self-end" role="button">IEEE Reference Guide</a>.
                             </li><li>The paper must describe an investigation or reproducible experience, documented sufficiently for replication by an independent professional.
                             </li><li>Reviewers should report suspected <b>plagiarism</b> in the <b>&quot;Comments for the Program Committee&quot;</b> field in the review form, detailing the extent and original source if known. Additionally, plagiarism concerns can be included in the <b>&quot;Comments for the Authors&quot;</b> section. The EDUNINE Technical Program Committee will investigate according to IEEE's plagiarism policies.</li></ul>
+                        
                         <h5>Guidance on Recommending Work-in-Progress (WiP) Reclassification or Rejection</h5>
                         <p class="lh-sm">If a full paper submission does not fully meet the requirements of a complete research work—such as lacking in-depth analysis, comprehensive results, or robust validation—but it presents preliminary results and addresses a topic of clear interest and relevance to the conference audience, you may recommend that the paper be reclassified as a Work-in-Progress (WiP) paper.</p>
                         <p class="lh-sm">Please use this recommendation only if the paper shows potential and contributes meaningfully to ongoing discussions in the field, even if it is not yet fully developed.</p>
                         <p class="lh-sm">However, papers that only present a proposal or idea without any preliminary results, or that lack engagement with related work (e.g., no comparison with existing literature or insufficient references), do not meet the criteria for either full or WiP categories and should be recommended for rejection.</p>                       
+                        
                         <h5 class="mb-2 mt-2 fw-bold">Manuscript English Quality</h5><ul>
                             <li>As part of the review process, evaluate the readability and clarity of the English writing in the submitted paper. Feedback on language quality helps ensure the paper meets standards for clear and effective communication.</li></ul>
                         <p class="lh-sm">Correction of the English writing is unnecessary. Instead, provide feedback using the following scale:</p><ol class="list-group list-group-numbered">
@@ -228,6 +426,7 @@
                             <li> To read more click on   
                                 <!-- Button trigger modal -->
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">Peer Review Guide</button></li></ul>
+                        
                         <!-- Modal -->
                         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-fullscreen-sm-down">
@@ -323,6 +522,7 @@
                             <li>Mandatory conference templates, visit <a href="information.php?id=templateChoose" class="border-white btn btn-primary btn-sm align-self-end" role="button">Mandatory Conference Paper Templates</a>.</li></ul>
                     </div>
                 </div>
+                <!--
                 <div class ="row">
                     <div class= "col text-sm-left"> 
                         <h6 class="display-6 fw-bold">EDUNINE Categories and Content of Manuscripts</h6> 
@@ -330,7 +530,8 @@
                         <p class="lh-sm">The conference accepts various categories of manuscripts, each with specific requirements aligned with the conference scope (see <a href="information.php?id=suitable">Conference Suitability Analysis</a> for details). Proper adherence to these guidelines ensures consistency and facilitates the peer review and publication processes. Here is an overview of the accepted categories and their type, with links to the expected paper content. In the next section, formatting guidelines for each type are provided.</p>
                     </div>
                 </div>
-                <!-- Category 1 -->
+
+                <!- Category 1 ->
                 <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
@@ -381,7 +582,7 @@
                     <p class="lh-sm">Submissions that focus primarily on the design, development, or technical aspects of educational tools or platforms—rather than their effective pedagogical application—will <b>not be considered</b>.</p>
                     <p class="lh-sm">Manuscripts lacking real-world implementation or results analysis will be rejected.</p> 
                 </div>
-                <!-- Category 2 -->
+                <!- Category 2 ->
                 <div class="row bg-light py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
@@ -431,7 +632,7 @@
                     <p class="lh-sm">This category is not intended for position papers or conceptual proposals that are primarily opinion-based or speculative. Instead, it is designed for concrete proposals with a clear path to implementation or those already in the process of being developed, piloted, or adapted across different regions or countries.</p> 
                 </div>
 
-                <!-- Category 3 -->        
+                <!- Category 3 ->        
                 <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
@@ -489,7 +690,7 @@
                     </div>
                 </div>
 
-                <!-- FULL Paper -->
+                <!- FULL Paper ->
                 <div class="row bg-info-subtle py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
@@ -517,7 +718,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- WIP -->
+
+                <!- WIP ->
                 <div class="row bg-light py-3">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
@@ -545,8 +747,9 @@
                         </div>
                     </div>
                 </div> 
-            </div>
+            </div> -->
         </section>
+
         <section id="revSignup">
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
@@ -646,6 +849,7 @@
                     <li>Reviewer_Portal</li>
                 </ul> 
             </div>
+
           
 
             <div class= "container-fluid tope py-5">
