@@ -560,9 +560,9 @@ footer {
 /* Language dropdown button responsive styling */
 #languageDropdown {
     font-size: 14px;
-    padding: 8px 12px;
+    /*padding: auto;*/
     white-space: nowrap;
-    margin-top: 20px; /* Add space above the language dropdown */
+    /*margin-top: 20px; /* Add space above the language dropdown */
 }
 
 #languageDropdown img {

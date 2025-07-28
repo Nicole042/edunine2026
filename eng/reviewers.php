@@ -47,11 +47,18 @@
             }
         </script> 
         <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+        <!--<div> 
+            <!- Navigation bar  ->
+            
+        </div> -->
+
         <div> 
-            <!-- Navigation bar  -->
-            <?php include "edu9header.html" ?> 
+            <!-- NEW HEADER - Navigation bar  -->
+            <?php include "newHeader.html" ?> 
         </div>
         <div class="#main"></div>
+
+ 
 
         <section id="navigation" class="inicial">
                   <!-- <!- PARTE SUSAN INICIO  -->

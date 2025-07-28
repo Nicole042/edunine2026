@@ -57,6 +57,44 @@
   font-weight: bolder;
 }
 
+/* Responsive dropdown styling */
+.navbar .dropdown-menu {
+  max-width: 90vw;                 /* Maximum width is 90% of viewport */
+  min-width: 370px;                /* Minimum width for readability */
+  white-space: normal;             /* Allow text wrapping */
+  word-wrap: break-word;           /* Break long words */
+  overflow-wrap: break-word;       /* Modern browsers */
+}
+
+.navbar .dropdown-item {
+  white-space: normal;             /* Allow text wrapping in dropdown items */
+  word-wrap: break-word;           /* Break long words */
+  overflow-wrap: break-word;       /* Modern browsers */
+  padding: 8px 16px;              /* Adequate padding for readability */
+  line-height: 1.4;               /* Better line spacing for wrapped text */
+}
+
+/* For very small screens, make dropdown full width */
+/*@media (max-width: 992px) {
+  .navbar .dropdown-menu {
+    width: auto;
+
+    /*max-width: calc(100vw - 30px); /* Leave some margin on small screens */
+   /* left: 0 !important;
+    transform: none !important;
+  }
+}*/
+
+@media (max-width: 576px) {
+  .navbar .dropdown-menu {
+    width: 100%;
+
+    max-width: calc(100vw - 30px); /* Leave some margin on small screens */
+    /*left: 0 !important;
+    transform: none !important;*/
+  }
+}
+
 /*End Navigation for cellphones*/
 
 
@@ -1046,6 +1084,15 @@ font-family: 'Quicksand', 'sans-serif';
     .section-nav .nav-link:hover {
     font-weight: bold;
     color: #2e5897; /* blue text instead of background */
+    }
+
+    /*NEW HEADER*/
+    .navbar .dropdown-menu {
+    max-width: 90vw;                 /* Maximum width is 90% of viewport */
+    min-width: 250px;                /* Minimum width for readability */
+    white-space: normal;             /* Allow text wrapping */
+    word-wrap: break-word;           /* Break long words */
+    overflow-wrap: break-word;       /* Modern browsers */
     }
 }
 /* Media queries - Responsive timeline on screens less than 600px wide */
