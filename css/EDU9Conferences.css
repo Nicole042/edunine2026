@@ -29,6 +29,38 @@
     height: calc(100vh - var(--totalHeight) );
 }
 */
+
+/*Navigation for cellphones*/
+/*Remove the default arrow*/
+.d-navs .dropdown-toggle::after {
+  display: none;
+}
+
+.d-navs .dropdown-toggle {
+  border: 2px solid #0d6efd;       /* Bootstrap's primary blue */
+  color: black;                  /* Text color blue */
+  background-color: transparent;   /* Optional, keeps it clean */
+  transition: all 0.2s ease-in-out;
+  font-family: 'Quicksand', 'sans-serif';
+}
+
+.d-navs .dropdown-toggle:hover {
+  color: #0a58ca;                  /* Darker blue on hover */
+  background-color: rgba(13, 110, 253, 0.1); /* Slight blue tint */
+  border-color: #0a58ca;           /* Match text color */
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  background-color: #e7f1ff;  /* Light blue highlight */
+  color: #0d6efd;             /* Bootstrap primary */
+  font-weight: bolder;
+}
+
+/*End Navigation for cellphones*/
+
+
+
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -1079,7 +1111,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 15px;
     }
 }
-@media (max-width: 570px) {
+@media (max-width: 575px) {
     .header-top ul li {
         margin-right: 0px;
     }

@@ -99,6 +99,38 @@
 
         </section>
 
+         <!--Navigation for cellphones Susan's Idea-->
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="chevron-up-down" viewBox="0 0 16 18">
+                <!-- Up chevron -->
+                <path d="M2.146 6.854a.5.5 0 0 1 .708 0L8 2.707l5.146 4.147a.5.5 0 0 1-.708.708L8 4.207 2.854 7.562a.5.5 0 0 1-.708-.708z"/>
+
+                <!-- Down chevron -->
+                <path d="M2.146 11.146a.5.5 0 0 1 .708 0L8 15.293l5.146-4.147a.5.5 0 0 1 .708.708l-5.5 5.5a.5.5 0 0 1-.708 0l-5.5-5.5a.5.5 0 0 1 0-.708z"/>
+            </symbol>
+            </svg>
+
+
+            <div class="container d-flex justify-content-center">
+                <div class="dropdown d-navs d-sm-none"> <!--d-sm-none makes it not appear for screen higher than 575px width-->
+                <button class="btn dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    On this page
+                    <svg class="bi ms-2" width="16" height="16" fill="currentColor" aria-hidden="true">
+                    <use xlink:href="#chevron-up-down"></use>
+                    </svg>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#top">Compose</a></li>
+                    <li><a class="dropdown-item" href="#suitable">Manuscript</a></li>
+                    <li><a class="dropdown-item" href="#typeChoose"> Determine your Manuscript</a></li>
+                    <li><a class="dropdown-item" href="#templateChoose"> Conference Paper </a></li>
+                    <li><a class="dropdown-item" href="#submission"> Manuscript Submission </a></li>
+                </ul>
+                </div>
+            </div>
+
+        <!--End of Navigation for cellphones Susan's Idea-->
+
         <section id="top" class="inicial">
             <!-- Trajeta de introduccion -->
             <div class= "container-fluid tope py-5 rounded-3">
@@ -120,7 +152,7 @@
         <section id="suitable">
             <!--
             <div class="container-fluid">
-                <!-- sequence section -->
+                <!- sequence section -->
                 <div class="container-fluid px-4 py-5">
                     <h2 class="pb-2 border-bottom display-6 fw-bold text-center">Manuscript Pre-Submission Checklist</h2>
                 </div>
@@ -356,7 +388,8 @@
 
         <!-- Determine your manuscript type -->
 
-        <!-- <!-- <section id="typeChoose">
+        <section id="typeChoose">
+            <!-- 
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -404,8 +437,9 @@
                                 Authors using AI-generated text must disclose this in the paper's acknowledgement section and cite the specific AI system employed (Interim Instructions by IEEE Publications (February 2023)).</li></ul>
                     </div>   
                 </div> 
-            </div>
-        </section> -->
+            </div> -->
+        </section> 
+
         <section>
             <div class="container-fluid">
                 <div class ="row">
@@ -721,7 +755,8 @@
 
         <!-- Manuscript Template -->
 
-        <!-- <section id="templateChoose">
+        <section id="templateChoose">
+            <!--
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -929,10 +964,12 @@
                     </div>  
                 </div>   
             </div>
-
-        </section> -->
+                        -->
+        </section> 
         
- <!-- <section id="submission">
+        <section id="submission">
+
+            <!--
      
             <div class="container-fluid align-content-start py-0">
                 <ul class="breadcrumb">
