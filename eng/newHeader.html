@@ -1,4 +1,25 @@
 <!-- Navigation Bar -->
+
+<style>
+/* Smooth transitions for dropdown hover */
+.dropdown-menu {
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Ensure dropdowns stay open when hovering over the menu itself */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+</style>
+
+
 <nav id="#header" class="navbar fixed-top">
     <div class="container-fluid bg-white" style="transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 15px rgba(0, 0, 0, 0.2)'" onmouseout="this.style.boxShadow='none'">
         <div class="container d-flex justify-content-center bg-white">
@@ -81,7 +102,7 @@
                                         <li><a class="dropdown-item nav-link" href="postConf.php">Post-Conference Outcomes</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="mailto:edunine@edunine.eu">Contact us</a></li>
+                                <li class="nav-item mx-2"><a class="nav-link" href="mailto:edunine@edunine.eu">Contact us</a></li>
                             
                             </ul>
                             </div>
@@ -129,6 +150,49 @@ const suffix = baseParts[1];
 
 document.getElementById("lang-port").href = prefix + "port" + suffix;
 document.getElementById("lang-sp").href = prefix + "sp" + suffix;
+
+////////////////////////////////////////////////////////////////////////////////////////
+// Add hover functionality to dropdowns
+document.addEventListener('DOMContentLoaded', function() {
+    // Handle navigation dropdowns
+    const navDropdowns = document.querySelectorAll('.nav-item.dropdown');
+    
+    navDropdowns.forEach(function(dropdown) {
+        const dropdownToggle = dropdown.querySelector('.nav-link.dropdown-toggle');
+        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+        
+        // Show dropdown on hover
+        dropdown.addEventListener('mouseenter', function() {
+            dropdownToggle.setAttribute('aria-expanded', 'true');
+            dropdownMenu.classList.add('show');
+        });
+        
+        // Hide dropdown when mouse leaves
+        dropdown.addEventListener('mouseleave', function() {
+            dropdownToggle.setAttribute('aria-expanded', 'false');
+            dropdownMenu.classList.remove('show');
+        });
+    });
+
+    // Handle language dropdown
+    const languageDropdown = document.querySelector('#languageDropdown').closest('.dropdown');
+    const languageToggle = languageDropdown.querySelector('#languageDropdown');
+    const languageMenu = languageDropdown.querySelector('.dropdown-menu');
+    
+    // Show language dropdown on hover
+    languageDropdown.addEventListener('mouseenter', function() {
+        languageToggle.setAttribute('aria-expanded', 'true');
+        languageMenu.classList.add('show');
+    });
+    
+    // Hide language dropdown when mouse leaves
+    languageDropdown.addEventListener('mouseleave', function() {
+        languageToggle.setAttribute('aria-expanded', 'false');
+        languageMenu.classList.remove('show');
+    });
+});
+////////////////////////////////////////////////////////////////////////////////////////
+
 </script>
 
 <script src ="../js/actualPage.js"></script>

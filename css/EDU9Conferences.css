@@ -60,7 +60,7 @@
 /* Responsive dropdown styling */
 .navbar .dropdown-menu {
   max-width: 90vw;                 /* Maximum width is 90% of viewport */
-  min-width: 370px;                /* Minimum width for readability */
+  min-width: 360px;                /* Minimum width for readability */
   white-space: normal;             /* Allow text wrapping */
   word-wrap: break-word;           /* Break long words */
   overflow-wrap: break-word;       /* Modern browsers */
