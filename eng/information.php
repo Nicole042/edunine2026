@@ -735,13 +735,13 @@
 
             <!-- HERO SECTION -->
             <div class="container my-5">
-            <section class="py-5 text-center" style="background: linear-gradient(90deg, #004aad, #1e90ff); color: white; border-radius: 15px;">
+            <section class="py-5 text-center" style="background: #e8f2ff; color: black; border-radius: 15px;">
                 <img src="../images/decoration/templates.jpg" class="img-fluid mb-3" style="max-width: 250px;" alt="Choose Template Image">
                 <h2 class="fw-bold">Mandatory Conference Paper Templates</h2>
                 <p class="lead">
                     The IEEE EDUNINE Conference employs standardized templates to ensure uniformity and coherence in the published proceedings. These templates are mandatory and provided by IEEE, offering detailed guidance on composing and formatting your research paper according to IEEE Xplore publication requirements.
                 </p>
-                <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-light btn-lg">Download Templates</a>
+                <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-primary">Download Templates</a>
             </section>
             </div>
 
