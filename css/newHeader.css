@@ -32,7 +32,8 @@
 
 /* Improve hover effect */
 .dropdown-menu .dropdown-item:hover {
-    background-color: #f8f9fa;
+    /*background-color: lightblue;*/
+    color: black;/*aqua;
     transform: translateX(2px); /* Subtle slide effect on hover */
 }
 
