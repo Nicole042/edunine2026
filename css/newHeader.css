@@ -31,12 +31,12 @@
     margin-bottom: 0;
 }
 
-/* Improve hover effect */
-.dropdown-menu .dropdown-item:hover {
+/* Improve hover effect -NO NEED*/
+/*.dropdown-menu .dropdown-item:hover {
     /*background-color: lightblue;*/
-    color: black;/*aqua;
+   /* color: inherit;/*aqua;
     transform: translateX(2px); /* Subtle slide effect on hover */
-}
+/*}*/
 
 /*DROPDOWN SUBMENU*/
 .dropdown-submenu > .dropdown-menu {
@@ -46,27 +46,6 @@
   /*width: max-content;*/
   white-space: nowrap;
 }
-
-/*
-.dropdown-submenu {
-  position: relative;
-}
-
-.dropdown-submenu > .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-left: 0;
-  display: none;
-  position: absolute;
-  white-space: nowrap;
-  min-width: auto;
-  width: max-content;
-  z-index: 1050;
-}
-
-.dropdown-submenu.show > .dropdown-menu {
-  display: block;
-}*/
 
 /*END DROPDOWN SUBMENU*/
 
