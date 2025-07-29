@@ -51,8 +51,8 @@
                                 
                                         <div class="btn-group dropend "> 
                                             <!-- LINK WORKS FOR THE PARENT AS WELL-->
-                                            <a class="nav-link" href="information.php">Conference Paper and Submission YEAHHH</a>
-                                            <a class="nav-link dropdown-toggle ps-1" href="#" id="dropdown06" aria-expanded="false"></a>
+                                            <a class="dropdown-item nav-link" href="information.php">Conference Paper and Submission</a>
+                                            <a class="nav-link dropdown-toggle ps-1" href="#" id="dropdown06" data-bs-toggle="dropdown"  aria-expanded="false"></a>
 
                                             <!-- SUB-MENU DROPDOWN -->
                                             <ul class="dropdown-submenu" >
@@ -73,17 +73,81 @@
                                         <li><a class="dropdown-item nav-link" href="information.php?id=typeChoose">Manuscript Categories (1 to 5) and Types (Full, WIP, Workshop, DS Paper)</a></li>
                                         <li><a class="dropdown-item nav-link" href="information.php?id=templateChoose">Mandatory Conference Paper Templates</a></li>
                                         <li><a class="dropdown-item nav-link" href="information.php?id=submission">Manuscript Submission</a> </li>-->
-                                        <li><a class="dropdown-item nav-link" href="reviewNotif.php">Peer Review Process Notification</a> </li>
-                                        <!--<li><a class="dropdown-item nav-link" href="reviewNotif.php?id=peerReview">Peer Review Outcomes</a> </li>-->
-                                        <li><a class="dropdown-item nav-link" href="finalInformation.php">Final Paper Preparation</a></li>
-                                        <!--<li><a class="dropdown-item nav-link" href="finalInformation.php?id=fpsubm">Final Paper Submission</a> </li>-->
+
+                                        <!-- DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+                                        <li class="nav-item dropdown half-width-1200">                             
+                                
+                                        <div class="btn-group dropend "> 
+                                            <!-- LINK WORKS FOR THE PARENT AS WELL-->
+                                            <a class="dropdown-item nav-link" href="reviewNotif.php">Peer Review Process Notification</a> 
+                                            <a class="nav-link dropdown-toggle ps-1" href="#" id="dropdown02-1" data-bs-toggle="dropdown"  aria-expanded="false"></a>
+
+                                            <!-- SUB-MENU DROPDOWN -->
+                                            <ul class="dropdown-submenu" >
+                                                <!-- Dropdown menu links -->
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown02-1">
+                                                    <li><a class="dropdown-item nav-link" href="reviewNotif.php?id=peerReview">Peer Review Outcomes</a> </li>
+                                                </ul> 
+                                            </ul>
+                                            <!-- END SUB-MENU DROPDOWN -->
+                                        </div>
+                                        </li>  
+                                        <!-- END DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+
+                                        
+                                         <!-- DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+                                        <li class="nav-item dropdown half-width-1200">                             
+                                
+                                        <div class="btn-group dropend "> 
+                                            <!-- LINK WORKS FOR THE PARENT AS WELL-->
+                                            <a class="dropdown-item nav-link" href="finalInformation.php">Final Paper Preparation</a>
+                                            <a class="nav-link dropdown-toggle ps-1" href="#" id="dropdown02-1" data-bs-toggle="dropdown"  aria-expanded="false"></a>
+
+                                            <!-- SUB-MENU DROPDOWN -->
+                                            <ul class="dropdown-submenu" >
+                                                <!-- Dropdown menu links -->
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown02-1">
+                                                    <li><a class="dropdown-item nav-link" href="finalInformation.php?id=fpsubm">Final Paper Submission</a> </li>
+                                                </ul> 
+                                            </ul>
+                                            <!-- END SUB-MENU DROPDOWN -->
+                                        </div>
+                                        </li>  
+                                        <!-- END DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+
+                                        
+                                        
                                     </ul>
                                 </li>
 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Reviewer</a>   
                                     <ul class="dropdown-menu" aria-labelledby="dropdown03">
-                                        <li><a class="dropdown-item nav-link" href="reviewers.php">Information for Reviewers</a></li>
+                                        
+
+                                        <!-- DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+                                        <li class="nav-item dropdown half-width-1200">                             
+                                
+                                        <div class="btn-group dropend "> 
+                                            <!-- LINK WORKS FOR THE PARENT AS WELL-->
+                                            <a class="dropdown-item nav-link" href="reviewers.php">Information for Reviewers</a>
+                                            <a class="nav-link dropdown-toggle ps-0" href="#" id="dropdown02-1" data-bs-toggle="dropdown"  aria-expanded="false"></a>
+
+                                            <!-- SUB-MENU DROPDOWN -->
+                                            <ul class="dropdown-submenu" >
+                                                <!-- Dropdown menu links -->
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown02-1">
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=dates">Timeline for Reviewers</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revGuide">EDUNINE Conference Review Process</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revSignup">Reviewer Registration</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="reviewers.php?id=revSignin">Reviewer Portal</a></li>
+                                                </ul> 
+                                            </ul>
+                                            <!-- END SUB-MENU DROPDOWN -->
+                                        </div>
+                                        </li>  
+                                        <!-- END DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+
                                         <!--<li><a class="dropdown-item nav-link" href="reviewers.php?id=dates">Timeline for Reviewers</a></li>
                                         <li><a class="dropdown-item nav-link" href="reviewers.php?id=revGuide">EDUNINE Conference Review Process</a></li>
                                         <li><a class="dropdown-item nav-link" href="reviewers.php?id=revSignup">Reviewer Registration</a></li>
@@ -95,8 +159,27 @@
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Get Ready</a>   
                                     <ul class="dropdown-menu" aria-labelledby="dropdown04">
                                         <li><a class="dropdown-item nav-link" href="fees.php">Registration and Payment</a></li>
-                                        <li><a class="dropdown-item nav-link" href="techSession.php">Paper Presentation Guidelines</a> </li> 
-                                        <!--<li><a class="dropdown-item nav-link" href="techSession.php?id=chair">Session Chair Guidelines</a> </li>-->
+
+                                        <!-- DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+                                        <li class="nav-item dropdown half-width-1200">                             
+                                
+                                        <div class="btn-group dropend "> 
+                                            <!-- LINK WORKS FOR THE PARENT AS WELL-->
+                                            <a class="dropdown-item nav-link" href="techSession.php">Paper Presentation Guidelines</a> 
+                                            <a class="nav-link dropdown-toggle ps-0" href="#" id="dropdown02-1" data-bs-toggle="dropdown"  aria-expanded="false"></a>
+
+                                            <!-- SUB-MENU DROPDOWN -->
+                                            <ul class="dropdown-submenu" >
+                                                <!-- Dropdown menu links -->
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown02-1">
+                                                    <li><a class="dropdown-item nav-link" href="techSession.php?id=chair">Session Chair Guidelines</a> </li>
+                                                </ul> 
+                                            </ul>
+                                            <!-- END SUB-MENU DROPDOWN -->
+                                        </div>
+                                        </li>  
+                                        <!-- END DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+
                                         <li><a class="dropdown-item nav-link" href="place.php">Hotels and Transportation</a> </li>
                                     </ul>
                                 </li>
@@ -114,15 +197,16 @@
                                     
 
                                         <!-- DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
-                                        <li class="nav-item dropdown">                             
+                                        <li class="nav-item dropdown half-width-1200">                             
                                 
                                         <div class="btn-group dropend ">
-                                            <a class="nav-link dropdown-toggle" href="#" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Conference Programs</a> 
+                                            <a class="dropdown-item nav-link" href="program.php">Conference Programs</a>
+                                            <a class="nav-link dropdown-toggle ps-1" href="#" id="dropdown05-1" data-bs-toggle="dropdown"  aria-expanded="false"></a>
                                         
                                             <!-- SUB-MENU DROPDOWN -->
                                             <ul class="dropdown-submenu" >
                                                 <!-- Dropdown menu links -->
-                                                <ul class="dropdown-menu" aria-labelledby="dropdown06">
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown05-1">
                                                     <li><a class="dropdown-item nav-link" href="program.php?id=tour">Pre-Conference Tour</a></li>
                                                     <li><a class="dropdown-item nav-link" href="program.php?id=pcworkshops">Pre-Conference Workshops</a></li>
                                                     <li><a class="dropdown-item nav-link" href="program.php?id=program">Conference Program</a></li>

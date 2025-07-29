@@ -85,8 +85,8 @@
 
 @media (max-width: 1200px) {
   li.half-width-1200 {
-    width: 50%;
-    padding-left: 1rem;
+    width: 60%;
+    /*padding-left: 1rem;*/
     
   }
 
