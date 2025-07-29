@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Smooth transitions for dropdown hover */
+.dropdown-menu {
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Ensure dropdowns stay open when hovering over the menu itself */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Add spacing between dropdown items */
+.dropdown-menu .dropdown-item {
+    padding: 8px 16px; /* Increase vertical padding (top/bottom) */
+    margin-bottom: 2px; /* Add small space between items */
+    border-radius: 4px; /* Optional: rounded corners for better look */
+    transition: background-color 0.2s ease;
+}
+
+/* Remove margin from the last item */
+.dropdown-menu .dropdown-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Improve hover effect */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+    transform: translateX(2px); /* Subtle slide effect on hover */
+}
+
+/* Make language dropdown smaller */
+#languageDropdown + .dropdown-menu {
+    min-width: 150px; /* Reduce minimum width */
+    /*width: 100px;*/
+    padding: 4px 0; /* Reduce top/bottom padding */
+}
+
+/* Adjust language dropdown items */
+#languageDropdown + .dropdown-menu .dropdown-item {
+    padding: 6px 12px; /* Smaller padding than navigation dropdowns */
+    font-size: 0.9rem; /* Slightly smaller font */
+}
+
+@media (max-width: 855px) {
+ /* Language dropdown stays small in this breakpoint too */
+    #languageDropdown + .dropdown-menu {
+        
+        min-width: 140px ;
+        max-width: 160px ;
+        right: auto;             /* Align dropdown to the right edge of button */
+        left: auto;           /* Override default left positioning */
+        /*transform: none ;      /* Remove any transform positioning */
+    }
+}
+
+@media (max-width: 576px) {
+  .navbar .dropdown-menu {
+    width: 100%;
+
+    max-width: calc(100vw - 30px); /* Leave some margin on small screens */
+    /*left: 0 ;
+    transform: none ;*/
+  }
+
+  /* Language dropdown stays small in this breakpoint too */
+    #languageDropdown + .dropdown-menu {
+        min-width: 20px ;
+        max-width: 60px ;
+        /*width: 200px;*/
+        right: auto;             /* Align dropdown to the right edge of button */
+        left: auto;           /* Override default left positioning */
+        /*transform: none ;      /* Remove any transform positioning */
+    }
+}
+
+

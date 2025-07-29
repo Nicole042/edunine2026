@@ -17,13 +17,14 @@ body {
 
 /*Sets the text color to dark blue. Applied to the main navigation container*/
 .textColor {
-    color: #030F27;
+    color: black;/*It colors the options of the previous dropdown menu*/
 }
 
 /*Applied to the main navigation menu wrapper*/
 .navbarBgDark {
     background: whitesmoke; /* #0056b3;  #030F27; */
-    border-bottom: 3px solid black; 
+    border-bottom: 3px solid #336699;
+    /*black; */
     margin-top: 25px; /* Add space above the menu */
 }
 
@@ -38,7 +39,7 @@ body {
 .active: a class that marks the currently active/selected link.
 */
 .navbar-nav .nav-link.active {
-    background: #336699;
+    background:  #336699; 
     color: white;
    /* color: #EDA72F; */
    /*
@@ -575,6 +576,8 @@ footer {
     right: 0 !important;
     left: auto !important;
 }
+
+
 
 /* Media query for tablets and smaller devices */
 @media only screen and (max-width: 768px) {

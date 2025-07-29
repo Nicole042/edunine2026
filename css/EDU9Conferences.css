@@ -66,6 +66,8 @@
   overflow-wrap: break-word;       /* Modern browsers */
 }
 
+
+
 .navbar .dropdown-item {
   white-space: normal;             /* Allow text wrapping in dropdown items */
   word-wrap: break-word;           /* Break long words */
@@ -80,8 +82,8 @@
     width: auto;
 
     /*max-width: calc(100vw - 30px); /* Leave some margin on small screens */
-   /* left: 0 !important;
-    transform: none !important;
+   /* left: 0 ;
+    transform: none ;
   }
 }*/
 
@@ -90,14 +92,23 @@
     width: 100%;
 
     max-width: calc(100vw - 30px); /* Leave some margin on small screens */
-    /*left: 0 !important;
-    transform: none !important;*/
+    /*left: 0 ;
+    transform: none ;*/
   }
+
 }
 
 /*End Navigation for cellphones*/
 
-
+/*Style of new header: flex-grow: 0 means menu dropdown centered, 1 means attached to the logo*/
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 0;
+  /* For always expanded or extra full navbars, ensure content aligns itself
+  // properly vertically. Can be easily overridden with flex utilities.*/
+  align-items: center;
+}
+/*End style new header*/
 
 .roboto-thin {
     font-family: "Roboto", sans-serif;
@@ -1089,7 +1100,7 @@ font-family: 'Quicksand', 'sans-serif';
     /*NEW HEADER*/
     .navbar .dropdown-menu {
     max-width: 90vw;                 /* Maximum width is 90% of viewport */
-    min-width: 250px;                /* Minimum width for readability */
+    min-width: 100px;                /* Minimum width for readability */
     white-space: normal;             /* Allow text wrapping */
     word-wrap: break-word;           /* Break long words */
     overflow-wrap: break-word;       /* Modern browsers */
@@ -1126,7 +1137,7 @@ font-family: 'Quicksand', 'sans-serif';
         /*font-family: 'Lato', sans-serif;*/
         font-family: 'Roboto Condensed', sans-serif;
         font-weight: 300;
-        /*   font-size: 0.50rem !important; */
+        /*   font-size: 0.50rem ; */
     }   
     /* CLASES AGREGADAS SOBREESCRITAS PARA EL MODELO RESPONSIVO */
     .display-4,

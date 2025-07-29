@@ -1,39 +1,26 @@
 <!-- Navigation Bar -->
 
-<style>
-/* Smooth transitions for dropdown hover */
-.dropdown-menu {
-    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.dropdown-menu.show {
-    opacity: 1;
-    visibility: visible;
-}
-
-/* Ensure dropdowns stay open when hovering over the menu itself */
-.nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-}
-</style>
+<head>
+    <link href="../css/newHeader.css" rel="stylesheet"> 
+</head>
 
 
 <nav id="#header" class="navbar fixed-top">
     <div class="container-fluid bg-white" style="transition: box-shadow 0.3s ease;" onmouseover="this.style.boxShadow='0 4px 15px rgba(0, 0, 0, 0.2)'" onmouseout="this.style.boxShadow='none'">
-        <div class="container d-flex justify-content-center bg-white">
+        <div class="container d-flex justify-content-center bg-white" style="padding: 0px 0px 0px 0px;">
+            <!--padding top, right bottom, left-->
             <!--container sm restrict the max width-->
             <!--<div class="container">-->
 
                     <!-- Single row with all elements aligned horizontally -->
-                    <div class="row justify-content-center align-items-center py-2 w-100">
+                    <div class="row  py-2 w-100">
                         
                         <!-- NEW HEADER -->
-                        <nav class="navbar navbar-expand-lg"> <!--bg-body-tertiary-->
-                        <div class="container-fluid">
+                        <nav class="navbar navbar-expand-xl"> <!--bg-body-tertiary-->
+                        <div class="container-fluid" style="padding: 0px 0px 0px 0px;">
                             <!--<a class="navbar-brand" href="#">Navbar</a>-->
                             <img class="iconHeight" src="../images/logo_edunineBrand.png" alt="logo"> 
+
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#newNavbarDropdown" aria-controls="newNavbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                             </button>
@@ -120,12 +107,12 @@
                                 <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                                     <li>
                                         <a class="dropdown-item d-flex align-items-center" id="lang-port" href="#">
-                                            <img src="../images/languages/selector/port.png" alt="Portuguese" style="height: 20px;" class="me-2"> Portuguese
+                                            <img src="../images/languages/selector/port.png" alt="Portuguese" style="height: 20px;" class="me-2"> <span class="d-none d-sm-inline">Portuguese</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item d-flex align-items-center" id="lang-sp" href="#">
-                                            <img src="../images/languages/selector/sp.png" alt="Spanish" style="height: 20px;" class="me-2"> Spanish
+                                            <img src="../images/languages/selector/sp.png" alt="Spanish" style="height: 20px;" class="me-2"> <span class="d-none d-sm-inline">Spanish</span>
                                         </a>
                                     </li>
                                 </ul>
