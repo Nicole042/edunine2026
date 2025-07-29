@@ -12,10 +12,11 @@
     visibility: visible;
 }
 
-/* Ensure dropdowns stay open when hovering over the menu itself */
-.nav-item.dropdown:hover .dropdown-menu {
+/* Ensure dropdowns stay open when hovering over the menu itself - AUTOMATIZATION*/
+/*.nav-item.dropdown:hover .dropdown-menu {
     display: block;
-}
+}*/
+/*END AUTOMATIZATION. IT CAN WORK WITHOUT THIS THOUGH*/
 
 /* Add spacing between dropdown items */
 .dropdown-menu .dropdown-item {
@@ -37,6 +38,38 @@
     transform: translateX(2px); /* Subtle slide effect on hover */
 }
 
+/*DROPDOWN SUBMENU*/
+.dropdown-submenu > .dropdown-menu {
+  min-width: 220px;
+  /*width: 200px;*/
+  max-width: 350px;
+  /*width: max-content;*/
+  white-space: nowrap;
+}
+
+/*
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0;
+  display: none;
+  position: absolute;
+  white-space: nowrap;
+  min-width: auto;
+  width: max-content;
+  z-index: 1050;
+}
+
+.dropdown-submenu.show > .dropdown-menu {
+  display: block;
+}*/
+
+/*END DROPDOWN SUBMENU*/
+
 /* Make language dropdown smaller */
 #languageDropdown + .dropdown-menu {
     min-width: 150px; /* Reduce minimum width */
@@ -49,6 +82,7 @@
     padding: 6px 12px; /* Smaller padding than navigation dropdowns */
     font-size: 0.9rem; /* Slightly smaller font */
 }
+
 
 @media (max-width: 855px) {
  /* Language dropdown stays small in this breakpoint too */

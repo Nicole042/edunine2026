@@ -391,11 +391,13 @@ h5.barra{
 h5.ital {
     font-weight: 400;
 }
+/*CHANGEND FONT FOR LISTS*/
 p, li, ul, ol {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
     font-weight: 400;
-    color: inherit;
-    font-size: 1rem !important;
+    /*color: inherit;*/
+    font-size: 1rem;
 }
 .small {
     font-family: 'Lato', sans-serif; 

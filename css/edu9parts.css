@@ -39,9 +39,11 @@ body {
 .active: a class that marks the currently active/selected link.
 */
 .navbar-nav .nav-link.active {
-    background:  #336699; 
-    color: white;
-   /* color: #EDA72F; */
+    /*background: #336699;
+    /* #336699; Good blue color*/
+    /*color: white;*/
+    background-color: white;
+    color: black;
    /*
    font-family: 'Quicksand', sans-serif;
    font-weight: 600;*/

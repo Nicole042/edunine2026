@@ -26,7 +26,7 @@
                             </button>
                             <div class="collapse navbar-collapse" id="newNavbarDropdown">
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php"><span class="mx-3">Home</span></a></li>
+                                <li class="nav-item"><a class="nav-link active"  style="background-color: #336699; color: white;" aria-current="page" href="index.php"><span class="mx-3">Home</span></a></li>
                                 
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">About</a>   
@@ -81,16 +81,43 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Conference</a>   
                                     <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                                        <li><a class="dropdown-item nav-link" href="program.php">Conference Programs</a></li>
+
+                                        <!--<li><a class="dropdown-item nav-link" href="program.php">Conference Programs</a></li>-->
+
                                         <!--<li><a class="dropdown-item nav-link" href="program.php?id=tour">Pre-Conference Tour</a></li>
                                         <li><a class="dropdown-item nav-link" href="program.php?id=pcworkshops">Pre-Conference Workshops</a></li>
                                         <li><a class="dropdown-item nav-link" href="program.php?id=program">Conference Program</a></li>
                                         <li><a class="dropdown-item nav-link" href="program.php?id=awards">Awards</a></li>-->
+                                    
+
+                                        <!-- DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
+                                        <li class="nav-item dropdown">                             
+                                
+                                        <div class="btn-group dropend ">
+                                            <a class="nav-link dropdown-toggle" href="#" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Conference Programs</a> 
+                                        
+                                            <!-- SUB-MENU DROPDOWN -->
+                                            <ul class="dropdown-submenu" >
+                                                <!-- Dropdown menu links -->
+                                                <ul class="dropdown-menu" aria-labelledby="dropdown06">
+                                                    <li><a class="dropdown-item nav-link" href="program.php?id=tour">Pre-Conference Tour</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="program.php?id=pcworkshops">Pre-Conference Workshops</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="program.php?id=program">Conference Program</a></li>
+                                                    <li><a class="dropdown-item nav-link" href="program.php?id=awards">Awards</a></li>
+                                                </ul> 
+                                            </ul>
+                                        </div>
+                                        </li>  
+
+                                        
+
                                         <li><a class="dropdown-item nav-link" href="postConf.php">Post-Conference Outcomes</a></li>
+                                        
                                     </ul>
                                 </li>
+
                                 <li class="nav-item mx-2"><a class="nav-link" href="mailto:edunine@edunine.eu">Contact us</a></li>
-                            
+
                             </ul>
                             </div>
 
@@ -180,7 +207,36 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ////////////////////////////////////////////////////////////////////////////////////////
 
+/* FOR SOME REASON, WHEN DEACTIVATED THE AUTOMATIZATION, I CANNOT CLICK THE SUBMENU, MUST BE SOMETHING AUTOMATIC BY BOOTSTRAP BUT THIS JAVASRIPT CLASS IS NOT WORKING PROPERLY*/
+/*
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.dropdown-submenu > a').forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      e.preventDefault();         // Stop default link behavior
+      e.stopPropagation();        // ❗ Stop Bootstrap from closing the parent dropdown
+
+      // Close other open submenus
+      document.querySelectorAll('.dropdown-submenu').forEach(function (submenu) {
+        if (submenu !== el.parentElement) {
+          submenu.classList.remove('show');
+        }
+      });
+
+      // Toggle current submenu
+      el.parentElement.classList.toggle('show');
+    });
+  });
+
+  // Optional: click anywhere outside to close
+  document.addEventListener('click', function () {
+    document.querySelectorAll('.dropdown-submenu').forEach(function (submenu) {
+      submenu.classList.remove('show');
+    });
+  });
+});*/
+</script>
+
+
 </script>
 
 <script src ="../js/actualPage.js"></script>
-<!-- end header -->
