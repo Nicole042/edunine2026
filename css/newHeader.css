@@ -45,6 +45,7 @@
   max-width: 220px;
   /*width: max-content;*/
   white-space: nowrap;
+  padding-left: 0;
 }
 
 .dropdown-submenu {
@@ -82,6 +83,21 @@
     font-size: 0.9rem; /* Slightly smaller font */
 }
 
+@media (max-width: 1200px) {
+  li.half-width-1200 {
+    width: 50%;
+    padding-left: 1rem;
+    
+  }
+
+  li.half-width-1200 .dropdown-item {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    
+    /*text-align: center; /* Optional */
+  }
+}
 
 @media (max-width: 855px) {
  /* Language dropdown stays small in this breakpoint too */
@@ -106,13 +122,31 @@
 
   /* Language dropdown stays small in this breakpoint too */
     #languageDropdown + .dropdown-menu {
-        min-width: 20px ;
+        min-width: 60px ;
         max-width: 60px ;
         /*width: 200px;*/
         right: auto;             /* Align dropdown to the right edge of button */
         left: auto;           /* Override default left positioning */
         /*transform: none ;      /* Remove any transform positioning */
     }
+
+     /* 🔻 HIDE right arrow for dropdown toggles */
+  .navbar .dropdown-toggle::after {
+    display: none ;
+  }
+
+  /*  DISABLE submenu items (if you had nested dropdowns) */
+  .navbar .dropdown-menu .dropdown-menu {
+    display: none ;
+    pointer-events: none;
+  }
+
+  /*  Optionally disable submenu toggles completely */
+  .navbar .dropdown-submenu > .dropdown-toggle {
+    pointer-events: none;
+    cursor: default;
+  }
 }
+
 
 
