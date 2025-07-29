@@ -114,6 +114,7 @@
                                         
 
                                         <li><a class="dropdown-item nav-link" href="postConf.php">Post-Conference Outcomes</a></li>
+
                                         
                                     </ul>
                                 </li>
@@ -207,6 +208,51 @@ document.addEventListener('DOMContentLoaded', function() {
         languageToggle.setAttribute('aria-expanded', 'false');
         languageMenu.classList.remove('show');
     });
+
+    ////////////////////////////////// HEAD ACHE ///////////////////////////////////////////////
+    // Handle Conference Programs submenu independently
+    const submenuContainer = document.querySelector('.btn-group.dropend');
+    const submenuToggle = document.querySelector('#dropdown06');
+    const submenuDropdown = submenuContainer ? submenuContainer.querySelector('.dropdown-menu') : null;
+    
+    let submenuTimeout;
+    
+    if (submenuContainer && submenuToggle && submenuDropdown) {
+        // Show submenu on hover
+        submenuContainer.addEventListener('mouseenter', function(e) {
+            e.stopPropagation();
+            clearTimeout(submenuTimeout);
+            
+            submenuToggle.setAttribute('aria-expanded', 'true');
+            submenuDropdown.classList.add('show');
+        });
+        
+        // Hide submenu when mouse leaves
+        submenuContainer.addEventListener('mouseleave', function(e) {
+            e.stopPropagation();
+            
+            submenuTimeout = setTimeout(function() {
+                submenuToggle.setAttribute('aria-expanded', 'false');
+                submenuDropdown.classList.remove('show');
+            }, 150);
+        });
+        
+        // Prevent submenu toggle link from navigating
+        submenuToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            // Toggle submenu on click as alternative
+            const isShown = submenuDropdown.classList.contains('show');
+            if (isShown) {
+                submenuToggle.setAttribute('aria-expanded', 'false');
+                submenuDropdown.classList.remove('show');
+            } else {
+                submenuToggle.setAttribute('aria-expanded', 'true');
+                submenuDropdown.classList.add('show');
+            }
+        });
+    }
     
 });
 ////////////////////////////////////////////////////////////////////////////////////////

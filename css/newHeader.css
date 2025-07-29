@@ -47,6 +47,26 @@
   white-space: nowrap;
 }
 
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0;
+  display: block; /*This prevented the submenu to appear before*/
+  position: absolute;
+  white-space: nowrap;
+  min-width: auto;
+  width: max-content;
+  z-index: 1050;
+}
+
+.dropdown-submenu.show > .dropdown-menu {
+  display: block;
+}
+
 /*END DROPDOWN SUBMENU*/
 
 /* Make language dropdown smaller */
