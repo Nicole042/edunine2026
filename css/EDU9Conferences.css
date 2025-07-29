@@ -569,6 +569,12 @@ p.reduced {
     margin-left: auto;
     margin-right: auto;
 }
+.text-overlay {
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 1rem;
+  border-radius: 15px;
+}
+
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -997,7 +1003,9 @@ html, body {
     font-family: "Quicksand", sans-serif;
     font-size: 0%;
     }
-
+    .text-overlay {
+        padding-top: 5rem;
+    }
    
 }
 
