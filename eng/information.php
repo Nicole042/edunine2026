@@ -106,7 +106,7 @@
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <div class="text-center">
-                                <img class="col-5 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperComposition.jpg"  alt="Paper Composition Image">
+                                <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperComposition.jpg"  alt="Paper Composition Image">
                             </div>
                             <h2 class="display-6 fw-bold text-center">Composing your Conference Paper and Paper Submission</h2>
                             <p class="fs-5 mb-2 text-center">Find key submission details below! Review categories, guidelines, themes, quality standards, and templates. Submit your original, unpublished manuscript as a Full Paper (categories 1–3), Work-in-Progress, Doctoral Symposium Paper (category 4), or Workshop (category 5). All submissions must be in English.</p>
