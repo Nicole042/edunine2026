@@ -758,22 +758,21 @@
 
             <!-- SLIDES -->
             <div class="carousel-inner">
-
                 <!-- SLIDE 1: Selecting Template -->
                 <div class="carousel-item active">
-                <div class="card shadow-sm mb-4">
-                    <div class="card-body">
-                    <h4 class="card-title fw-bold">Selecting the Appropriate Template</h4>
-                    <p>For seamless manuscript preparation, authors are required to utilize one of the following IEEE conference templates:</p>
-                    <ul>
-                        <li><b>Microsoft Word (.docx)</b> – A4 paper size</li>
-                        <li><b>LaTeX format</b></li>
-                    </ul>
-                    <p>Download the templates:</p>
-                    <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-primary">IEEE Conference Templates</a>
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold">Selecting the Appropriate Template</h4>
+                            <p>For seamless manuscript preparation, authors are required to utilize one of the following IEEE conference templates:</p>
+                            <ul>
+                                <li><b>Microsoft Word (.docx)</b> – A4 paper size</li>
+                                <li><b>LaTeX format</b></li>
+                            </ul>
+                            <p>Download the templates:</p>
+                            <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-primary">IEEE Conference Templates</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                </div>
 
                 <!-- SLIDE 2: Overleaf -->
                 <div class="carousel-item">
