@@ -63,7 +63,7 @@
 
 /*Targeting the back*/
 .back1{
-    background-color:#2e5897;; 
+    background-color:#2e5897;
     transform: rotateY(180deg);
     flex-direction: column;
     justify-content: center;
