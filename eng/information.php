@@ -440,7 +440,7 @@
             </div> -->
         </section> 
 
-        <section>
+        <section id="categories">
             <div class="container-fluid">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
@@ -735,7 +735,7 @@
                 </div> 
         </section>
              
-        <section>
+        <section id="paperTypes">
             <!-- Formatting guidelines -->
             <div class="container-fluid py-3 bg-body-white">
                 <div class ="row">
@@ -746,7 +746,7 @@
                         <p class="lh-sm text-center">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
                     </div>
                 </div> 
-
+                            
                 <?php include "../eng/cards.html" ?>
             </div> 
             </div>

@@ -257,7 +257,7 @@ html {
 
 }
 body {   /* fixed to the top */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     /* line-height: 1.1; */
     /*   min-height: 75rem; */
@@ -968,6 +968,17 @@ font-family: 'Quicksand', 'sans-serif';
 }
 /*END OF STYLING CARDS FOR REVIEW PROCESS*/
 
+/*BUTTONS THAN LINKS reviewers.php with information.php*/
+.btn-outline-primary{
+    font-family: 'Quicksand', 'sans-serif';
+}
+
+.btn-outline-primary:hover{
+    background-color: #336699;
+    font-weight: 500;
+}
+/*END BUTTONS THAN LINKS reviewers.php with information.php*/
+
 
 @media only screen and (max-width: 1420px) 
 {
@@ -1060,14 +1071,14 @@ font-family: 'Quicksand', 'sans-serif';
         padding-top: 60px;
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Quicksand', sans-serif;
         font-weight: 700;
         /*    font-size: 1rem !important */
         /*         line-height: 1; */
         color: inherit;
     }
     p, li, ul, ol {
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Quicksand', sans-serif;
         font-weight: 300;
         /*    font-size: 1rem !important; */
     }   

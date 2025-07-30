@@ -244,7 +244,7 @@
                     <div class="card card-peer mb-4 mt-4" style="width: 100%;">
                         <img src="../images/decoration/peerRevGuide.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h2 class="display-6 fw-bold">The EDUNINE Conference Review Process</h2>
+                            <h2 class="display-6 fw-bold text-center">The EDUNINE Conference Review Process</h2>
                             <p class="fs-5 mb-4"> The conference review process involves two rounds of evaluation. In the first round, known as peer review, submissions are assessed by multiple reviewers. Based on their recommendations, papers may be accepted, rejected, or conditionally accepted pending revisions. Conditionally accepted papers undergo a second round of review by members of the Technical Program Committee. This rigorous process ensures that accepted papers meet the conference's standards for originality, technical rigor, and relevance. The types of manuscripts for review are detailed at the end of this section.</p>
                             
                         </div>
@@ -256,7 +256,7 @@
                         
                         <div class="card-body">
                             <div class= "col text-sm-left">
-                                <h4 class="pb-2 border-bottom display-6 fw-bold">Review Process</h4>
+                                <h4 class="pb-2 border-bottom display-6 fw-bold text-center">Review Process</h4>
                                 <p class="lh-sm">When you volunteer to be a reviewer for <b>EDUNINE</b>, you select <b>topic areas</b>. Submissions from these topics will be assigned to you approximately one week after the submission deadline, based on authors' selections. Each submission is reviewed by at least <b>three different reviewers</b>, with each reviewer assigned approximately <b>three submissions</b>.</p>
                                 <p class="lh-sm">You have about one month to complete your reviews. Please submit all reviews through the EDUNINE2026 SUBMISSION REVIEW SYSTEM before the deadline (see instructions for Reviewer Registration and Submission).</p>
                                 <p class="lh-sm">Papers submitted for the <b>EDUNINE</b> conference corresponds to three (3) different categories within the field of interest of the <b> IEEE Education Society</b>:</p><ul>
@@ -273,7 +273,7 @@
                    
                     <div class="card card-peer mb-4 mt-4" style="width: 100%;">
                         <div class="card-body">
-                            <h4 class="pb-2 border-bottom display-6 fw-bold"> The EDUNINE review model consists of two rounds: </h4>
+                            <h4 class="pb-2 border-bottom display-6 fw-bold text-center"> The EDUNINE review model consists of two rounds: </h4>
                                 <ol class="list-group list-group-numbered">
                                 <li class="list-group-item ml-2"> <b> Peer Review:</b> Authors submit a paper for peer review, where it is evaluated and decisions include: acceptance, rejection, conditional acceptance pending revisions (minor or major), or conversion to a Work in Progress paper. Reviewer evaluations and recommendations are submitted to the authors, with additional comments for the chair only.</li>
 
@@ -291,7 +291,7 @@
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                        <h1 class="mb-4 mt-4 mx-3 fw-bold"> Peer Review Guidelines</h1>
+                        <h1 class="mb-4 mt-4 mx-3 fw-bold text-center"> Peer Review Guidelines</h1>
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <span class="fs-4 fs-md-2 fs-sm-4 fw-normal">Reviewer Responsibilities</span>
                         </button>
@@ -486,38 +486,69 @@
             <div class="container-peerReview py-3 mt-4" style="background-color: #e8f2ff;">
                 <div class="row">
                     <div class= "col text-sm-left">
-                        <h4 class="pb-2 border-bottom display-6 fw-bold mx-3">Manuscript Categories and Types for Review</h4>
+                        <h4 class="pb-2 border-bottom display-6 fw-bold mx-3 text-center">Manuscript Categories and Types for Review</h4>
                         <p class="fs-5 mb-4 mx-3">This section outlines the various categories of manuscripts that are submitted for peer review, providing definitions and criteria for each category and type to help reviewers understand the specific expectations and standards associated with them.</p>
-                        <p class="fs-5 mb-2 mx-3">For more information about:</p><ul class="mb-4">
+                        <p class="fs-5 mb-2 mx-3">For more information about:</p>
+                        
                     </div>
                 </div>
 
-                <div class = "container-typeReview">
-                    <div class = "row d-flex justify-content-center">
-                        <div class = "col">
-                            <div class="card card-peer" style="width: 18rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title">Topics</h5>  
-                                    <p class="card-text"> The list of EDUNINE topics, scope, and areas of interest, visit: </p>
-                                    <a href="information.php?id=suitable" 
-                                        class="border-white btn btn-primary btn-sm align-self-end" 
-                                        role="button">Conference Suitability Analysis (EDUNINE Scope and Topics)</a>
-                              
-                                </div>
-                            </div>
-                        </div>
-                        <div class = "col d-flex flex-column justify-content-center">
-                            <div class="card card-peer" style="width: 18rem;">
-                                <div class="card-body">
-                                    <h5 class="card-title">Templates</h5>
-                                    <p class="card-text"> Mandatory conference templates, visit: </p>
-                                    <a href="information.php?id=templateChoose" 
-                                        class="border-white btn btn-primary btn-sm align-self-end" 
-                                        role="button">Mandatory Conference Paper Templates</a>
-                                </div>
-                            </div>
+                <div class="container-typeReview align-items-center">
+                <div class="row justify-content-center">
+                    
+                    <!-- Card 1 -->
+                    <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
+                    <div class="card card-peer" style="width: 18rem;">
+                        <div class="card-body align-items-center">
+                        <h5 class="card-title text-center">Topics</h5>  
+                        <p class="card-text">The list of EDUNINE topics, scope, and areas of interest, visit:</p>
+                        <a href="information.php?id=suitable" 
+                            class="border-white btn btn-primary btn-sm align-self-end" 
+                            role="button">
+                            Conference Suitability Analysis (EDUNINE Scope and Topics)
+                        </a>
                         </div>
                     </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-12 col-sm-8 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
+                    <div class="card card-peer" style="width: 18rem;">
+                        <div class="card-body align-items-center">
+                        <h5 class="card-title text-center">Templates</h5>
+                        <p class="card-text">Mandatory conference templates, visit:</p>
+                        <a href="information.php?id=templateChoose" 
+                            class="border-white btn btn-primary btn-sm align-self-end" 
+                            role="button">
+                            Mandatory Conference Paper Templates
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+
+
+                <div class ="row">
+                    <div class= "col text-sm-left"> 
+                        <h6 class="display-6 fw-bold py-2 text-center pt-5">EDUNINE Categories and Content of Manuscripts</h6> 
+
+                    </div>
+                </div>
+
+                <div class="container-peerReview text-center" >
+                    <p class="fs-5 mb-2 mx-3">Visit this section to know about:</p>
+                    <br>
+                    <a href="information.php?id=categories" class="btn btn-outline-primary">
+                    Categories
+                    </a>
+                    
+                    <a href="information.php?id=paperTypes" class="btn btn-outline-primary">
+                    Paper Types and Formatting
+                    </a>
+
+                
                 </div>
 
                 <!--
