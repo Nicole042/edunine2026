@@ -151,6 +151,18 @@
         /*transform: none ;      /* Remove any transform positioning */
     }
 
+  li.half-width-1200 {
+    width: 100%;
+    /*padding-left: 1rem;*/
+    
+  }
+
+  /* ME TRYING TO IMPLEMENT THE WHOLE HIGHTLIGHT FOR THESE SCREENS, 
+  INSTEAD OF ONLY COVERING THE WORDS, BUT THE WHOLE HORIZONTAL SPACE. FAILED!*/
+  /*.dropdown-menu .dropdown-item:hover {
+    width: 100%;
+  }*/
+
      /* 🔻 HIDE right arrow for dropdown toggles */
   .navbar .dropdown-toggle::after {
     display: none ;
