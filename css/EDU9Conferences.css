@@ -103,7 +103,7 @@
 /*Style of new header: flex-grow: 0 means menu dropdown centered, 1 means attached to the logo*/
 .navbar-collapse {
   flex-basis: 100%;
-  flex-grow: 0;
+  flex-grow: 1;
   /* For always expanded or extra full navbars, ensure content aligns itself
   // properly vertically. Can be easily overridden with flex utilities.*/
   align-items: center;
