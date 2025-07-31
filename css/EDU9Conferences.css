@@ -1299,27 +1299,29 @@ font-family: 'Quicksand', 'sans-serif';
 
 /*Modificaciones nuevas*/
 #contentCarousel .carousel-item {
-  display: none;          /* por defecto oculto */
-  position: relative;
-  transition: transform 0.6s ease-in-out;
+  max-height: 500px;       /* ajusta la altura del carrusel */
+  overflow-y: auto;        /* habilita scroll interno si el contenido se pasa */
 }
+
+#contentCarousel .card {
+  max-height: 100%;
+  overflow-y: auto;        /* asegura que la card también scrollee si es necesario */
+  padding: 20px;
+}
+
 
 #contentCarousel .carousel-item.active {
   display: block;         /* solo el slide activo se muestra */
 }
 
-#contentCarousel .card {
-  margin: 0 auto;
-  max-width: 900px;
-  text-align: left;
-  padding: 20px;
-}
 #contentCarousel .carousel-control-prev,
 #contentCarousel .carousel-control-next {
-  width: 5%;
+  width: 40px;
+  background: rgba(255,255,255,0.3); /* fondo translúcido opcional */
+  border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
-  opacity: 0.8;
+  z-index: 10;
 }
 
 #contentCarousel .carousel-control-prev-icon,
