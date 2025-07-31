@@ -805,7 +805,7 @@
                             <h4 class="card-title fw-bold">Selecting the Appropriate Template</h4>
                             <p>For seamless manuscript preparation, authors are required to utilize one of the following IEEE conference templates:</p>
                             <ul>
-                                <li><b>Microsoft Word (.docx)</b> – A4 paper size</li>
+                                <li><b>Microsoft Word (.docx)</b> A4 paper size</li>
                                 <li><b>LaTeX format</b></li>
                             </ul>
                             <p>Download the templates:</p>
@@ -1037,7 +1037,7 @@
                     </div>  
                 </div>   
             </div>
-                        -->
+
         </section> 
         
         <section id="submission">
