@@ -1298,29 +1298,31 @@ font-family: 'Quicksand', 'sans-serif';
 }
 
 /*Modificaciones nuevas*/
-/* Centrar la card dentro de cada slide */
 #contentCarousel .carousel-item {
-    display: flex;
-    justify-content: center;
+  display: none;          /* por defecto oculto */
+  position: relative;
+  transition: transform 0.6s ease-in-out;
 }
 
-/* Limitar ancho de las cards para que no se vean desproporcionadas */
+#contentCarousel .carousel-item.active {
+  display: block;         /* solo el slide activo se muestra */
+}
+
 #contentCarousel .card {
-    margin: 0 auto;
-    max-width: 900px;   /* puedes ajustar a 800-1000px según lo que necesites */
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: left;
+  padding: 20px;
 }
-
-/* Ajustar los botones de navegación */
 #contentCarousel .carousel-control-prev,
 #contentCarousel .carousel-control-next {
-    width: 5%;           /* los hace más delgados, para que no invadan el texto */
-    background: none;    /* evita fondos grises/transparentes extraños */
-    top: 50%;            /* mantiene centrados verticalmente */
-    transform: translateY(-50%);
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.8;
 }
 
-/* Ajustar los íconos para que sean un poco más pequeños y discretos */
 #contentCarousel .carousel-control-prev-icon,
 #contentCarousel .carousel-control-next-icon {
-    background-size: 25px 25px; /* tamaño del icono */
+  background-size: 25px 25px;
 }
