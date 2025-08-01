@@ -1374,9 +1374,9 @@ font-family: 'Quicksand', 'sans-serif';
 }
 
 #secondCarousel {
-  overflow-x: hidden !important;    /* Bloquea el scroll horizontal */
-  overflow-y: auto !important;      /* Activa scroll vertical */
-  max-height: 600px;                /* Limita la altura para que aparezca scroll si hay contenido extra */
+  overflow-x: hidden !important;  
+  overflow-y: auto !important;   
+  max-height: 600px;              
 }
 
 #contentCarousel .carousel-item {
@@ -1399,58 +1399,6 @@ font-family: 'Quicksand', 'sans-serif';
   max-width: 900px; 
 }
 
-
-/*Responsividad general information*/
-
-/* Centrar los botones a los lados en todas las pantallas */
-#typeCarousel .carousel-control-prev,
-#typeCarousel .carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1000;
-  width: 40px;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-}
-
-/* Iconos dentro de los botones */
-#typeCarousel .carousel-control-prev-icon,
-#typeCarousel .carousel-control-next-icon {
-  background-size: 25px 25px;
-  background-color: cornflowerblue;
-  border-radius: 50%;
-}
-
-/* Imágenes y tarjetas responsive */
-#typeCarousel .carousel-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-#typeCarousel .card {
-  width: 100%;
-  max-width: 95%;
-}
-
-/* === Ajustes en pantallas pequeñas === */
-@media (max-width: 576px) {
-  #typeCarousel .carousel-control-prev,
-  #typeCarousel .carousel-control-next {
-    width: 32px;   /* botones un poco más pequeños */
-    height: 32px;
-  }
-  #typeCarousel .carousel-inner {
-    margin-left: 4%;
-    margin-right: 4%;
-  }
-  #typeCarousel .card {
-    padding: 1rem;
-  }
-}
-
-
 /* Fondo celeste para toda la sección */
 .type-section {
   background-color: #e6f2ff; /* celeste suave */
@@ -1467,4 +1415,41 @@ font-family: 'Quicksand', 'sans-serif';
 .type-section .carousel-inner {
   margin: 0 auto;
   max-width: 95%;
+}
+
+/* --- Mantener botones centrados en cualquier pantalla --- */
+#typeCarousel {
+  position: relative; /* Importante para que los botones se ubiquen respecto al carrusel */
+}
+
+/* Botones: siempre centrados verticalmente */
+#typeCarousel .carousel-control-prev,
+#typeCarousel .carousel-control-next {
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Iconos dentro de los botones */
+#typeCarousel .carousel-control-prev-icon,
+#typeCarousel .carousel-control-next-icon {
+  background-size: 20px 20px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+}
+
+/* --- Ajuste para pantallas chicas --- */
+@media (max-width: 576px) {
+  #typeCarousel .carousel-control-prev,
+  #typeCarousel .carousel-control-next {
+    width: 32px;
+    height: 32px;
+  }
 }
