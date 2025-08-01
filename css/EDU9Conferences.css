@@ -1422,10 +1422,10 @@ font-family: 'Quicksand', 'sans-serif';
 /*  Botones centrados verticalmente y a los lados */
 #typeCarousel .carousel-control-prev,
 #typeCarousel .carousel-control-next {
-  position: absolute;
+  position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 1000;
   width: 40px;
   height: 40px;
   background: rgba(255, 255, 255, 0.4);
@@ -1443,11 +1443,51 @@ font-family: 'Quicksand', 'sans-serif';
   border-radius: 50%;
 }
 
-/* 📱 Ajuste en móviles */
+
+#typeCarousel .carousel-item {
+  position: relative;   /*  Importante: el card será el “contexto” de los botones */
+  display: flex;
+  justify-content: center;
+}
+
+#typeCarousel .card {
+  position: relative;
+  max-width: 900px;     /* ancho máximo del card */
+  margin: 0 auto;
+}
+
+#typeCarousel .carousel-control-prev,
+#typeCarousel .carousel-control-next {
+  position: absolute;
+  top: 50%;                       /*  se centran respecto al card */
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.4);
+  border-radius: 50%;
+  z-index: 10;
+}
+
+/*  Los movemos a los lados del card */
+#typeCarousel .carousel-control-prev {
+  left: -50px;   /* ajusta la distancia a la izquierda */
+}
+
+#typeCarousel .carousel-control-next {
+  right: -50px;  /* ajusta la distancia a la derecha */
+}
+
+/*  Ajuste en móviles */
 @media (max-width: 576px) {
   #typeCarousel .carousel-control-prev,
   #typeCarousel .carousel-control-next {
     width: 32px;
     height: 32px;
+  }
+  #typeCarousel .carousel-control-prev {
+    left: -35px;
+  }
+  #typeCarousel .carousel-control-next {
+    right: -35px;
   }
 }
