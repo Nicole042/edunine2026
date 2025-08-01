@@ -593,8 +593,10 @@ button {
     margin-left: 8%;
     margin-right: 8%;
     width: auto;
-    height: 550px;
+    min-height: 300px; /* altura mínima */
+    height: auto; /* dejar que se ajuste al contenido */
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: cornflowerblue; 
@@ -1303,16 +1305,6 @@ font-family: 'Quicksand', 'sans-serif';
   display: block;         /* solo el slide activo se muestra */
 }
 
-#contentCarousel .carousel-control-prev,
-#contentCarousel .carousel-control-next {
-  width: 40px;
-  background: rgba(255,255,255,0.3); /* fondo translúcido opcional */
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-}
-
 #contentCarousel .carousel-control-prev-icon,
 #contentCarousel .carousel-control-next-icon {
   background-size: 25px 25px;
@@ -1326,7 +1318,9 @@ font-family: 'Quicksand', 'sans-serif';
     margin: 0 auto;      /* centra la card */
     max-width: 900px;    /* evita que se estire demasiado */
 }
+
 /*Prueba para que los botones no se vayan abajo*/
+
 /* Asegurar que las flechas SIEMPRE estén centradas en el carrusel */
 #contentCarousel .carousel-control-prev,
 #contentCarousel .carousel-control-next {
@@ -1340,26 +1334,29 @@ font-family: 'Quicksand', 'sans-serif';
   border-radius: 50%;
 }
 
-/* Ajuste especial SOLO para celulares (menos de 576px) */
+
+/* 🔧 Corrección: Mantener flechas centradas verticalmente en todos los dispositivos */
+#contentCarousel {
+  position: relative; /* asegura que las flechas usen este contenedor como referencia */
+}
+
+#contentCarousel .carousel-control-prev,
+#contentCarousel .carousel-control-next {
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%);
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 50%;
+}
+
+/* 🔧 Ajuste extra para celulares */
 @media (max-width: 576px) {
   #contentCarousel .carousel-control-prev,
   #contentCarousel .carousel-control-next {
     width: 30px;
     height: 30px;
-    background: rgba(255,255,255,0.4);
-  }
-
-  /* flechas más pegadas al borde en pantallas pequeñas */
-  #contentCarousel .carousel-control-prev {
-    left: 5px;
-  }
-  #contentCarousel .carousel-control-next {
-    right: 5px;
-  }
-
-  /* íconos más pequeños */
-  #contentCarousel .carousel-control-prev-icon,
-  #contentCarousel .carousel-control-next-icon {
-    background-size: 16px 16px;
   }
 }
