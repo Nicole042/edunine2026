@@ -394,7 +394,7 @@
         <!-- Determine your manuscript type -->
 
         <section id="typeChoose">
-            <!-- 
+           
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
@@ -403,8 +403,8 @@
                     <li>Determine_Manuscript_Category</li>
                 </ul> 
             </div>
-            -->
-            <!--
+            
+           
             <div class= "container-fluid tope  pb-5">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
@@ -442,7 +442,7 @@
                                 Authors using AI-generated text must disclose this in the paper's acknowledgement section and cite the specific AI system employed (Interim Instructions by IEEE Publications (February 2023)).</li></ul>
                     </div>   
                 </div> 
-            </div> -->
+            </div> 
         </section> 
 
         <section id="categories">
@@ -825,7 +825,7 @@
                         <li>Comprehensive documentation for all user levels</li>
                         <li>Perfect for collaborative academic work</li>
                     </ul>
-                    <p>Overleaf offers a wealth of resources – quick guides, tutorials, webinars, and comprehensive documentation – catering to all user levels. You can explore these resources to find materials that best suit your needs and expertise.</p>
+                    <p>Overleaf offers a wealth of resources quick guides, tutorials, webinars, and comprehensive documentation – catering to all user levels. You can explore these resources to find materials that best suit your needs and expertise.</p>
                     <a href="https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/authoring-tools-and-templates/" class="btn btn-outline-primary btn-sm">Visit IEEE Author Center</a>
                     </div>
                 </div>

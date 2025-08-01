@@ -1379,16 +1379,16 @@ font-family: 'Quicksand', 'sans-serif';
   max-height: 600px;                /* Limita la altura para que aparezca scroll si hay contenido extra */
 }
 
-#secondCarousel .carousel-item {
-  overflow-x: hidden !important;
-  overflow-y: auto !important;
+#contentCarousel .carousel-item {
+  max-height: 600px;
+  overflow-y: auto;  /* solo hace scroll interno si una card es muy larga */
 }
 
 
 /* 🚫 Quitar cualquier scrollbar del PRIMER carrusel */
 #contentCarousel .carousel-inner {
-  overflow: hidden !important;   /* oculta scroll */
-  max-height: none !important;   /* evita que limite altura y fuerce scroll */
+  max-height: 600px;  /* ajusta a lo que necesites */
+  overflow: hidden;
 }
 
 /* ✅ Opcional: aseguramos que las cards dentro no rompan el diseño */
