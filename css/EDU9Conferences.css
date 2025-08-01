@@ -1409,33 +1409,38 @@ font-family: 'Quicksand', 'sans-serif';
   z-index: 1000;
 }
 
-/* ✅ ARREGLO FINAL: centra los botones sobre el contenido y evita espacio vacío */
+/* ✅ FIX DEFINITIVO PARA BOTONES DEL CARRUSEL EN MÓVIL */
 @media (max-width: 576px) {
-  /* --- BOTONES SIEMPRE CENTRADOS --- */
+
+  /* 🔹 Botones centrados verticalmente SIEMPRE */
   #contentCarousel .carousel-control-prev,
   #contentCarousel .carousel-control-next,
   #secondCarousel .carousel-control-prev,
   #secondCarousel .carousel-control-next {
     position: absolute !important;
     top: 50% !important;
-    transform: translateY(-50%) !important;
     bottom: auto !important;
+    transform: translateY(-50%) !important;
     margin: 0 !important;
-    width: 35px;
-    height: 35px;
+    width: 36px;
+    height: 36px;
     z-index: 9999 !important;
   }
 
-  /* --- CARRUSEL AJUSTADO --- */
+  /* 🔹 Ajusta el contenedor interno del carrusel */
   #contentCarousel .carousel-inner,
   #secondCarousel .carousel-inner {
-    min-height: auto !important;
+    min-height: unset !important;
     height: auto !important;
   }
 
+  /* 🔹 Ajusta cada item del carrusel */
   #contentCarousel .carousel-item,
   #secondCarousel .carousel-item {
-    min-height: auto !important;
+    min-height: unset !important;
     height: auto !important;
+    display: flex !important;        /* 🔥 Hace que el contenido “empuje” la altura */
+    align-items: center !important;  /* 🔥 Centra el contenido verticalmente */
+    justify-content: center !important;
   }
 }
