@@ -1449,3 +1449,22 @@ font-family: 'Quicksand', 'sans-serif';
     padding: 1rem;
   }
 }
+
+
+/* Fondo celeste para toda la sección */
+.type-section {
+  background-color: #e6f2ff; /* celeste suave */
+  padding: 40px 0; /* un poco de espacio arriba y abajo */
+}
+
+/* Contenedor más angosto */
+.container-narrow {
+  max-width: 1100px; /* ajusta este valor si quieres aún más angosto */
+  margin: 0 auto; /* centra el contenedor */
+}
+
+/* Ajustes para que el carrusel sea fluido */
+.type-section .carousel-inner {
+  margin: 0 auto;
+  max-width: 95%;
+}
