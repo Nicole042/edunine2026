@@ -1409,16 +1409,21 @@ font-family: 'Quicksand', 'sans-serif';
   z-index: 1000;
 }
 
-/* ✅ Ajuste para pantallas pequeñas */
 @media (max-width: 576px) {
   #contentCarousel .carousel-control-prev,
   #contentCarousel .carousel-control-next,
   #secondCarousel .carousel-control-prev,
   #secondCarousel .carousel-control-next {
+    position: absolute !important;
+    top: 50% !important;
+    left: auto;
+    right: auto;
+    transform: translateY(-50%) !important;
+    margin: 0 !important;
     width: 35px;
     height: 35px;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0; /* Quita cualquier empuje hacia abajo */
+    z-index: 9999 !important;   /* 🔥 Pasa por encima de todo */
+    bottom: unset !important;   /* 🔥 elimina cualquier anclaje abajo */
   }
 }
+
