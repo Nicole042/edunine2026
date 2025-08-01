@@ -584,7 +584,11 @@ button {
   /*color: #fff;*/
 }
 
-
+/* CLASES PERSONALIZADAS DEL CARRUSEL */
+.carousel-control-next, 
+.carousel-control-prev {
+    width: 4%;
+}
 .carousel-inner {
     margin-left: 8%;
     margin-right: 8%;
@@ -1288,6 +1292,11 @@ font-family: 'Quicksand', 'sans-serif';
 
 
 
+.carousel-item {
+  max-height: 600px;    
+  overflow-y: auto;     
+}
+
 #contentCarousel .carousel-item.active {
   display: block;
 }
@@ -1356,17 +1365,24 @@ font-family: 'Quicksand', 'sans-serif';
 }
 
 #contentCarousel {
-  overflow: visible !important;
+  overflow: hidden !important;
   text-align: center;
 }
 
-
-#secondCarousel {
-  overflow-x: hidden !important;  
-  overflow-y: auto !important;   
-  max-height: 600px;              
+#contentCarousel .carousel-item {
+  overflow: hidden !important;      
 }
 
+#secondCarousel {
+  overflow-x: hidden !important;    /* Bloquea el scroll horizontal */
+  overflow-y: auto !important;      /* Activa scroll vertical */
+  max-height: 600px;                /* Limita la altura para que aparezca scroll si hay contenido extra */
+}
+
+#contentCarousel .carousel-item {
+  max-height: 600px;
+  overflow-y: auto;  /* solo hace scroll interno si una card es muy larga */
+}
 
 
 /*  Quitar cualquier scrollbar del PRIMER carrusel */
@@ -1383,83 +1399,5 @@ font-family: 'Quicksand', 'sans-serif';
   max-width: 900px; 
 }
 
-/* Fondo celeste para toda la sección */
-.type-section {
-  background-color: #e6f2ff; /* celeste suave */
-  padding: 40px 0; /* un poco de espacio arriba y abajo */
-}
 
-/* Contenedor más angosto */
-.container-narrow {
-  max-width: 1100px; /* ajusta este valor si quieres aún más angosto */
-  margin: 0 auto; /* centra el contenedor */
-}
-
-/* Ajustes para que el carrusel sea fluido */
-.type-section .carousel-inner {
-  margin: 0 auto;
-  max-width: 95%;
-}
-
-/*  Asegurar que el carrusel sea la referencia para los botones */
-#typeCarousel {
-  position: relative;
-  min-height: 400px; /* Ajusta según el contenido mínimo que tengas */
-}
-
-
-/*  Iconos dentro de los botones */
-#typeCarousel .carousel-control-prev-icon,
-#typeCarousel .carousel-control-next-icon {
-  background-size: 20px 20px;
-  background-color: cornflowerblue;
-  border-radius: 50%;
-}
-
-
-#typeCarousel .carousel-item {
-  position: relative;   /*  Importante: el card será el “contexto” de los botones */
-  display: flex;
-  justify-content: center;
-}
-
-#typeCarousel .card {
-  position: relative;
-  max-width: 900px;     /* ancho máximo del card */
-  margin: 0 auto;
-}
-
-#typeCarousel .carousel-control-prev,
-#typeCarousel .carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
-  z-index: 10;
-}
-
-/*  Los movemos a los lados del card */
-#typeCarousel .carousel-control-prev {
-  left: -50px;
-}
-#typeCarousel .carousel-control-next {
-  right: -50px;
-}
-
-/*  Ajuste en móviles */
-@media (max-width: 576px) {
-  #typeCarousel .carousel-control-prev,
-  #typeCarousel .carousel-control-next {
-    width: 32px;
-    height: 32px;
-  }
-  #typeCarousel .carousel-control-prev {
-    left: -35px;
-  }
-  #typeCarousel .carousel-control-next {
-    right: -35px;
-  }
-}
+/*Responsividad general information*/
