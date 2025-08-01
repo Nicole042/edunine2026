@@ -1302,7 +1302,7 @@ font-family: 'Quicksand', 'sans-serif';
 
 
 #contentCarousel .carousel-item.active {
-  display: block;         /* solo el slide activo se muestra */
+  display: block;
 }
 
 #contentCarousel .carousel-control-prev-icon,
@@ -1311,17 +1311,16 @@ font-family: 'Quicksand', 'sans-serif';
 }
 
 #contentCarousel .carousel-item {
-    text-align: center; /* centra el contenido del slide */
+    text-align: center; 
 }
 
 #contentCarousel .card {
-    margin: 0 auto;      /* centra la card */
-    max-width: 900px;    /* evita que se estire demasiado */
+    margin: 0 auto;      
+    max-width: 900px;    
 }
 
 /*Prueba para que los botones no se vayan abajo*/
 
-/* Asegurar que las flechas SIEMPRE estén centradas en el carrusel */
 #contentCarousel .carousel-control-prev,
 #contentCarousel .carousel-control-next {
   position: absolute;
@@ -1335,15 +1334,31 @@ font-family: 'Quicksand', 'sans-serif';
 }
 
 
-/* 🔧 Corrección: Mantener flechas centradas verticalmente en todos los dispositivos */
-#contentCarousel {
-  position: relative; /* asegura que las flechas usen este contenedor como referencia */
+
+
+
+#secondCarousel .carousel-item.active {
+  display: block;
 }
 
-#contentCarousel .carousel-control-prev,
-#contentCarousel .carousel-control-next {
+#secondCarousel .carousel-control-prev-icon,
+#secondCarousel .carousel-control-next-icon {
+  background-size: 25px 25px;
+}
+
+#secondCarousel .carousel-item {
+  text-align: center;
+}
+
+#secondCarousel .card {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+#secondCarousel .carousel-control-prev,
+#secondCarousel .carousel-control-next {
   position: absolute;
-  top: 50% !important;
+  top: 50%;
   transform: translateY(-50%);
   z-index: 1000;
   width: 40px;
@@ -1352,11 +1367,22 @@ font-family: 'Quicksand', 'sans-serif';
   border-radius: 50%;
 }
 
-/* 🔧 Ajuste extra para celulares */
+#secondCarousel {
+  position: relative;
+}
+
 @media (max-width: 576px) {
-  #contentCarousel .carousel-control-prev,
-  #contentCarousel .carousel-control-next {
+  #secondCarousel .carousel-control-prev,
+  #secondCarousel .carousel-control-next {
     width: 30px;
     height: 30px;
   }
+}
+
+#contentCarousel {
+  overflow: hidden;   
+}
+
+#secondCarousel {    
+  overflow-y: auto;    
 }

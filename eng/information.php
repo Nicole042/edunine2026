@@ -786,14 +786,14 @@
             </div>
 
         <!-- MAIN CONTENT EN CARRUSEL -->
-        <div id="contentCarousel" class="carousel slide container my-5" data-bs-ride="carousel">
+        <div id="secondCarousel" class="carousel slide container my-5" data-bs-ride="carousel">
 
             <!-- INDICADORES -->
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#secondCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#secondCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#secondCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#secondCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
 
             <!-- SLIDES -->
