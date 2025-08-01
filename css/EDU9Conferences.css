@@ -1409,27 +1409,33 @@ font-family: 'Quicksand', 'sans-serif';
   z-index: 1000;
 }
 
-/* 🔥 FIX DEFINITIVO PARA QUE LOS BOTONES NO SE VAYAN ABAJO EN MÓVIL */
+/* ✅ ARREGLO FINAL: centra los botones sobre el contenido y evita espacio vacío */
 @media (max-width: 576px) {
+  /* --- BOTONES SIEMPRE CENTRADOS --- */
   #contentCarousel .carousel-control-prev,
   #contentCarousel .carousel-control-next,
   #secondCarousel .carousel-control-prev,
   #secondCarousel .carousel-control-next {
     position: absolute !important;
-    top: 50% !important;                 /* centra verticalmente */
-    bottom: auto !important;             /* elimina anclaje al fondo */
+    top: 50% !important;
     transform: translateY(-50%) !important;
-    left: 10px;                          /* ajusta separación desde borde izquierdo */
-    right: 10px;                         /* ajusta separación desde borde derecho */
+    bottom: auto !important;
     margin: 0 !important;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     z-index: 9999 !important;
   }
 
-  /* Para que no haya reglas de Bootstrap empujando los botones */
+  /* --- CARRUSEL AJUSTADO --- */
   #contentCarousel .carousel-inner,
   #secondCarousel .carousel-inner {
-    position: relative !important;
+    min-height: auto !important;
+    height: auto !important;
+  }
+
+  #contentCarousel .carousel-item,
+  #secondCarousel .carousel-item {
+    min-height: auto !important;
+    height: auto !important;
   }
 }
