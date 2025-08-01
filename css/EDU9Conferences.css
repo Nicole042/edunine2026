@@ -972,11 +972,7 @@ font-family: 'Quicksand', 'sans-serif';
 
 @media only screen and (max-width: 1420px) 
 {
-    section {
-        /* margin-right: 15%;
-        margin-left: 15%;
-        padding-top: 110px; */
-    }
+
     /* CLASES AGREGADAS SOBREESCRITAS PARA EL MODELO RESPONSIVO */
     .display-4,
     .display-5{
@@ -1360,9 +1356,6 @@ font-family: 'Quicksand', 'sans-serif';
   }
 }
 
-#secondCarousel {    
-  overflow-y: auto;    
-}
 
 #contentCarousel {
   overflow: hidden !important;
@@ -1401,3 +1394,31 @@ font-family: 'Quicksand', 'sans-serif';
 
 
 /*Responsividad general information*/
+/* ✅ Asegura que los botones SIEMPRE estén centrados al lado del carrusel */
+#contentCarousel .carousel-control-prev,
+#contentCarousel .carousel-control-next,
+#secondCarousel .carousel-control-prev,
+#secondCarousel .carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+/* ✅ Ajuste para pantallas pequeñas */
+@media (max-width: 576px) {
+  #contentCarousel .carousel-control-prev,
+  #contentCarousel .carousel-control-next,
+  #secondCarousel .carousel-control-prev,
+  #secondCarousel .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0; /* Quita cualquier empuje hacia abajo */
+  }
+}
