@@ -786,7 +786,7 @@
             </div>
 
         <!-- MAIN CONTENT EN CARRUSEL -->
-            <div id="contentCarousel" class="carousel slide container my-5" data-bs-ride="carousel">
+        <div id="contentCarousel" class="carousel slide container my-5" data-bs-ride="carousel">
 
             <!-- INDICADORES -->
             <div class="carousel-indicators">
@@ -800,7 +800,7 @@
             <div class="carousel-inner">
                 <!-- SLIDE 1: Selecting Template -->
                 <div class="carousel-item active">
-                    <div class="card shadow-sm mb-4">
+                    <div class="card shadow-sm mb-4" style="max-width: 900px; margin: 0 auto;">
                         <div class="card-body">
                             <h4 class="card-title fw-bold">Selecting the Appropriate Template</h4>
                             <p>For seamless manuscript preparation, authors are required to utilize one of the following IEEE conference templates:</p>
@@ -816,7 +816,7 @@
 
                 <!-- SLIDE 2: Overleaf -->
                 <div class="carousel-item">
-                <div class="card shadow-sm mb-4">
+                <div class="card shadow-sm mb-4" style="max-width: 900px; margin: 0 auto;">
                     <div class="card-body">
                     <h4 class="card-title fw-bold">Collaborative Writing with Overleaf</h4>
                     <p>For authors seeking a collaborative writing environment, Overleaf is a valuable tool. This online platform supports both LaTeX and rich-text document creation and comes pre-loaded with IEEE templates for your convenience.</p>
@@ -833,7 +833,7 @@
 
                 <!-- SLIDE 3: Word Template -->
                 <div class="carousel-item">
-                <div class="card shadow-sm mb-4">
+                <div class="card shadow-sm mb-4" style="max-width: 900px; margin: 0 auto;">
                     <div class="card-body">
                     <h4 class="card-title fw-bold">Mastering Microsoft Word Templates: Essential Tips and Tricks</h4>
                     <p>This guide discusses the benefits of using the template document in Microsoft Word to ensure consistent formatting and facilitate collaborative writing, specifically for IEEE Conference papers.</p>
@@ -879,7 +879,7 @@
 
                 <!-- SLIDE 4: LaTeX Template -->
                 <div class="carousel-item">
-                <div class="card shadow-sm mb-4">
+                <div class="card shadow-sm mb-4" style="max-width: 900px; margin: 0 auto;">
                     <div class="card-body">
                     <h4 class="card-title fw-bold">Create Professional Research Papers: LaTeX Template for Scientific Writing</h4>
                     <p>This guide provides instructions for formatting your paper using the official IEEE LaTeX template:</p>

@@ -1326,3 +1326,14 @@ font-family: 'Quicksand', 'sans-serif';
     margin: 0 auto;      /* centra la card */
     max-width: 900px;    /* evita que se estire demasiado */
 }
+/*Prueba para que los botones no se vayan abajo*/
+#contentCarousel .carousel-control-prev,
+#contentCarousel .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 10;
+}
