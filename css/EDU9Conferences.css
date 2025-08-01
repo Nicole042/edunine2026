@@ -1306,12 +1306,6 @@ font-family: 'Quicksand', 'sans-serif';
   background-size: 25px 25px;
 }
 
-
-#contentCarousel .card {
-    margin: 0 auto;      
-    max-width: 900px;    
-}
-
 #contentCarousel .carousel-control-prev,
 #contentCarousel .carousel-control-next {
   position: absolute;
@@ -1370,7 +1364,6 @@ font-family: 'Quicksand', 'sans-serif';
   overflow-y: auto;    
 }
 
-/* ✅ Quitar cualquier scrollbar del primer carrusel */
 #contentCarousel {
   overflow: hidden !important;
   text-align: center;       /* Sin scroll de ningún tipo */
@@ -1380,7 +1373,6 @@ font-family: 'Quicksand', 'sans-serif';
   overflow: hidden !important;      /* Garantiza que no aparezca scroll en los items */
 }
 
-/* ✅ Scroll SOLO VERTICAL en el segundo carrusel */
 #secondCarousel {
   overflow-x: hidden !important;    /* Bloquea el scroll horizontal */
   overflow-y: auto !important;      /* Activa scroll vertical */
@@ -1390,4 +1382,19 @@ font-family: 'Quicksand', 'sans-serif';
 #secondCarousel .carousel-item {
   overflow-x: hidden !important;
   overflow-y: auto !important;
+}
+
+
+/* 🚫 Quitar cualquier scrollbar del PRIMER carrusel */
+#contentCarousel .carousel-inner {
+  overflow: hidden !important;   /* oculta scroll */
+  max-height: none !important;   /* evita que limite altura y fuerce scroll */
+}
+
+/* ✅ Opcional: aseguramos que las cards dentro no rompan el diseño */
+#contentCarousel .card {
+  max-height: 100%;
+  overflow: hidden;
+  margin: 0 auto;      
+  max-width: 900px; 
 }
