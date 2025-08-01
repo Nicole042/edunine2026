@@ -1231,7 +1231,6 @@ font-family: 'Quicksand', 'sans-serif';
    
 }
 
-
 @media (min-width: 1140px) {
     .horizontal-timeline .items .items-list {
         display: inline-block;
@@ -1259,7 +1258,6 @@ font-family: 'Quicksand', 'sans-serif';
 
 /*============= End sequence line css =============*/
 
-/*/////////////////////////////////////////////////////////*/
 /*For the bar of navigation*/
 /*Style for the "primera" section */
 /*MODIFICATIONSSSSSSSSS*/
@@ -1299,8 +1297,6 @@ font-family: 'Quicksand', 'sans-serif';
   overflow-y: auto;     
 }
 
-
-
 #contentCarousel .carousel-item.active {
   display: block;
 }
@@ -1310,16 +1306,11 @@ font-family: 'Quicksand', 'sans-serif';
   background-size: 25px 25px;
 }
 
-#contentCarousel .carousel-item {
-    text-align: center; 
-}
 
 #contentCarousel .card {
     margin: 0 auto;      
     max-width: 900px;    
 }
-
-/*Prueba para que los botones no se vayan abajo*/
 
 #contentCarousel .carousel-control-prev,
 #contentCarousel .carousel-control-next {
@@ -1332,10 +1323,6 @@ font-family: 'Quicksand', 'sans-serif';
   background: rgba(255,255,255,0.3);
   border-radius: 50%;
 }
-
-
-
-
 
 #secondCarousel .carousel-item.active {
   display: block;
@@ -1379,10 +1366,28 @@ font-family: 'Quicksand', 'sans-serif';
   }
 }
 
-#contentCarousel {
-  overflow: hidden;   
-}
-
 #secondCarousel {    
   overflow-y: auto;    
+}
+
+/* ✅ Quitar cualquier scrollbar del primer carrusel */
+#contentCarousel {
+  overflow: hidden !important;
+  text-align: center;       /* Sin scroll de ningún tipo */
+}
+
+#contentCarousel .carousel-item {
+  overflow: hidden !important;      /* Garantiza que no aparezca scroll en los items */
+}
+
+/* ✅ Scroll SOLO VERTICAL en el segundo carrusel */
+#secondCarousel {
+  overflow-x: hidden !important;    /* Bloquea el scroll horizontal */
+  overflow-y: auto !important;      /* Activa scroll vertical */
+  max-height: 600px;                /* Limita la altura para que aparezca scroll si hay contenido extra */
+}
+
+#secondCarousel .carousel-item {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
 }
