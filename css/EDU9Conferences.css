@@ -584,11 +584,7 @@ button {
   /*color: #fff;*/
 }
 
-/* CLASES PERSONALIZADAS DEL CARRUSEL */
-.carousel-control-next, 
-.carousel-control-prev {
-    width: 4%;
-}
+
 .carousel-inner {
     margin-left: 8%;
     margin-right: 8%;
@@ -1417,17 +1413,19 @@ font-family: 'Quicksand', 'sans-serif';
   max-width: 95%;
 }
 
-/* --- Mantener botones centrados en cualquier pantalla --- */
+/*  Asegurar que el carrusel sea la referencia para los botones */
 #typeCarousel {
-  position: relative; /* Importante para que los botones se ubiquen respecto al carrusel */
+  position: relative;
+  min-height: 400px; /* Ajusta según el contenido mínimo que tengas */
 }
 
-/* Botones: siempre centrados verticalmente */
+/*  Botones centrados verticalmente y a los lados */
 #typeCarousel .carousel-control-prev,
 #typeCarousel .carousel-control-next {
-  top: 50% !important;
-  transform: translateY(-50%) !important;
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
   width: 40px;
   height: 40px;
   background: rgba(255, 255, 255, 0.4);
@@ -1437,7 +1435,7 @@ font-family: 'Quicksand', 'sans-serif';
   justify-content: center;
 }
 
-/* Iconos dentro de los botones */
+/*  Iconos dentro de los botones */
 #typeCarousel .carousel-control-prev-icon,
 #typeCarousel .carousel-control-next-icon {
   background-size: 20px 20px;
@@ -1445,7 +1443,7 @@ font-family: 'Quicksand', 'sans-serif';
   border-radius: 50%;
 }
 
-/* --- Ajuste para pantallas chicas --- */
+/* 📱 Ajuste en móviles */
 @media (max-width: 576px) {
   #typeCarousel .carousel-control-prev,
   #typeCarousel .carousel-control-next {
