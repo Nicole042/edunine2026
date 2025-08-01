@@ -589,13 +589,7 @@ button {
 .carousel-control-prev {
     width: 4%;
 }
-.carousel-inner {
-    margin-left: 8%;
-    margin-right: 8%;
-    width: auto;
-    min-height: 300px; /* altura mínima */
-    height: auto; /* dejar que se ajuste al contenido */
-}
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -981,10 +975,7 @@ font-family: 'Quicksand', 'sans-serif';
     h3, h4 {
         font-size: 1.5rem; 
     }
-    .carousel-inner {
-        height: 780px;
-    }
-    
+
     section.primera {
         margin-right: 15%;
         margin-left: 15%;
@@ -1076,9 +1067,7 @@ font-family: 'Quicksand', 'sans-serif';
     h3, h4 {
         font-size: 1.1rem; 
     }
-    .carousel-inner {
-        height: 865px;
-    }
+
      /*Styling new navigation*/
     .section-nav-breadcrumb {
         padding-top: 8%;
@@ -1181,9 +1170,7 @@ font-family: 'Quicksand', 'sans-serif';
     h3, h4 {
         font-size: 0.7rem; 
     }
-    .carousel-inner {
-        height: 1300px;
-    }
+
 
      /*For centering the carousel*/
     .coordinators-slider {
