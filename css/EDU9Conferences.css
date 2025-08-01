@@ -1396,10 +1396,9 @@ font-family: 'Quicksand', 'sans-serif';
   z-index: 1000;
 }
 
-/* ✅ FIX DEFINITIVO PARA BOTONES DEL CARRUSEL EN MÓVIL */
+/* FIXOTONES DEL CARRUSEL EN MÓVIL */
 @media (max-width: 576px) {
 
-  /* 🔹 Botones centrados verticalmente SIEMPRE */
   #contentCarousel .carousel-control-prev,
   #contentCarousel .carousel-control-next,
   #secondCarousel .carousel-control-prev,
@@ -1414,20 +1413,27 @@ font-family: 'Quicksand', 'sans-serif';
     z-index: 9999 !important;
   }
 
-  /* 🔹 Ajusta el contenedor interno del carrusel */
   #contentCarousel .carousel-inner,
   #secondCarousel .carousel-inner {
     min-height: unset !important;
     height: auto !important;
   }
 
-  /* 🔹 Ajusta cada item del carrusel */
   #contentCarousel .carousel-item,
   #secondCarousel .carousel-item {
     min-height: unset !important;
     height: auto !important;
-    display: flex !important;        /* 🔥 Hace que el contenido “empuje” la altura */
-    align-items: center !important;  /* 🔥 Centra el contenido verticalmente */
+    display: flex !important;   /
+    align-items: center !important; 
     justify-content: center !important;
   }
+}
+
+
+#typeCarousel .carousel-item > .d-flex > div {
+  max-width: 700px;  
+  width: 90%;         
+  margin: 0 auto;
+  
+  background-color: #e6f0fa !important;
 }
