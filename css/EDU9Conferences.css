@@ -1366,11 +1366,11 @@ font-family: 'Quicksand', 'sans-serif';
 
 #contentCarousel {
   overflow: hidden !important;
-  text-align: center;       /* Sin scroll de ningún tipo */
+  text-align: center;
 }
 
 #contentCarousel .carousel-item {
-  overflow: hidden !important;      /* Garantiza que no aparezca scroll en los items */
+  overflow: hidden !important;      
 }
 
 #secondCarousel {
@@ -1385,16 +1385,67 @@ font-family: 'Quicksand', 'sans-serif';
 }
 
 
-/* 🚫 Quitar cualquier scrollbar del PRIMER carrusel */
+/*  Quitar cualquier scrollbar del PRIMER carrusel */
 #contentCarousel .carousel-inner {
-  max-height: 600px;  /* ajusta a lo que necesites */
+  max-height: 600px; 
   overflow: hidden;
 }
 
-/* ✅ Opcional: aseguramos que las cards dentro no rompan el diseño */
+/* Opcional: aseguramos que las cards dentro no rompan el diseño */
 #contentCarousel .card {
   max-height: 100%;
   overflow: hidden;
   margin: 0 auto;      
   max-width: 900px; 
+}
+
+
+/*Responsividad general information*/
+
+/* Centrar los botones a los lados en todas las pantallas */
+#typeCarousel .carousel-control-prev,
+#typeCarousel .carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+/* Iconos dentro de los botones */
+#typeCarousel .carousel-control-prev-icon,
+#typeCarousel .carousel-control-next-icon {
+  background-size: 25px 25px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+}
+
+/* Imágenes y tarjetas responsive */
+#typeCarousel .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+#typeCarousel .card {
+  width: 100%;
+  max-width: 95%;
+}
+
+/* === Ajustes en pantallas pequeñas === */
+@media (max-width: 576px) {
+  #typeCarousel .carousel-control-prev,
+  #typeCarousel .carousel-control-next {
+    width: 32px;   /* botones un poco más pequeños */
+    height: 32px;
+  }
+  #typeCarousel .carousel-inner {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  #typeCarousel .card {
+    padding: 1rem;
+  }
 }
