@@ -71,11 +71,9 @@
                             <h3 class="fw-bold">"Theme of the conference: To be assigned"</h3>
                         </div>
                     </div>
-                    <img class="img-fluid w-100" src="../images/city/homeImageee.jpg" alt="EDUNINE Banner">
+                    <img class="img-fluid w-100" src="../images/city/homeImage.jpg" alt="EDUNINE Banner">
                 </div>
             </section>
-
-             <!-- PARTE SUSAN INICIO -->
             <!-- New proposed breadcrumb -->
                 <nav class="section-nav" aria-label="Section navigation">
                     <ul class="d-flex justify-content-end list-unstyled mb-0">
@@ -95,10 +93,8 @@
                         There was no link for venue?? It tended to disappear -->
                     </ul>
                 </nav>
-            <!-- PARTE SUSAN FIN -->
                 <!-- About section -->
-            <section class="primera">
-             
+            <section class="primera">             
                 <!-- ABOUT CONFERENCE SECTION -->
                  <div class="container-fluid px-0">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -142,8 +138,7 @@
                 </div>
             </section>
             <!-- NAVAR SCHEDULE SECTION -->
-            <section id="dates">
-      
+            <section id="dates">    
             <!-- SCHEDULE SECTION -->
             <section class="schedule">
                 <div class="container-fluid text-center">
@@ -750,7 +745,6 @@
     </section>
     <!-- VENUE section -->
     <section id="venue">
-
         <!-- v title section -->
         <div class="venue-hero">
             <div class="container-fluid py-3">
@@ -880,8 +874,6 @@
     </section>
         
     <!-- END VENUE Section -->
-
-    <!-- Organization section -->
        
    
     </main>
