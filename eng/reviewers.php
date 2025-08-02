@@ -135,97 +135,132 @@
                     <li>Information_Reviewers</li>
                 </ul> 
             </div>
-            <div class= "container-fluid tope  py-5">
 
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerReviewer.jpg"  alt="Information for Reviewers">
-                            </div>
-                            <h2 class="display-6 fw-bold">Information for Reviewers</h2>
-
-                            <p class="fs-5 mb-1">We are delighted to invite you to join the <b>EDUNINE2026 International Program Committee</b> as a <b>peer reviewer</b>. Your expertise is invaluable for ensuring high-quality submissions. This year's conference features three category submissions within the field of interest of the <b>IEEE Education Society</b>:</p>
-                            <p class="lh-sm"><b>* Category 1:</b> Implemented teaching techniques, classroom experience reports, or pedagogical tools</p>
-                           <p class="lh-sm"><b>* Category 2:</b> New curricula and educational program proposals, including regional or national adaptations </p>
-                            <p class="fs-5 mb-1"><p class="lh-sm"><b>* Category 3:</b> Educational research papers </p>
-                        <p class="fs-5 mb-1">The paper can be submitted as: </p><ul>
-                            <li><b>Full Papers</b> (up to 6 pages) are intended for submissions that present mature, well-developed research results.</li>
-                            <li><b>Work in Progress (WIP) Papers</b> (up to 4 pages) are suitable for ongoing projects with preliminary results or findings or an early stage of a research project.</li></ul>
-                        <p class="fs-5 mb-1">Guidelines for reviewers, along with an instructive guide for using <b>EDUNINE2026 SUBMISSION SYSTEM</b> to register as a reviewer and complete the reviewer comments and evaluation form, are provided.</p> <p class="fs-5 mb-1">After the conference, certificates of appreciation will be issued to all reviewers.</p>
-                            <p class="fs-5 mb-4 fw-bold">Thank you for your valuable contribution to EDUNINE2026!</p> 
+            empezar 
+            <div class="container-fluid py-5" style="background: #f9fafc;">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                    <div class="card shadow-lg border-0 rounded-4 p-4">
+                        <div class="row g-4 align-items-center">
+                        
+                        <!-- Imagen -->
+                        <div class="col-md-4 text-center">
+                            <img src="../images/decoration/peerReviewer.jpg" 
+                                alt="Information for Reviewers" 
+                                class="img-fluid rounded-3 shadow-sm">
                         </div>
-                    </div>    
-                </div> 
-            </div> 
+
+                        <!-- Texto -->
+                        <div class="col-md-8">
+                            <h2 class="display-6 fw-bold text-primary mb-3">Information for Reviewers</h2>
+                            <p class="fs-5">
+                            We are delighted to invite you to join the 
+                            <b>EDUNINE2026 International Program Committee</b> as a 
+                            <b>peer reviewer</b>. Your expertise is invaluable for ensuring 
+                            high-quality submissions. This year's conference features three 
+                            category submissions within the field of interest of the 
+                            <b>IEEE Education Society</b>:
+                            </p>
+
+                            <!-- Lista de categorías -->
+                            <ul class="list-unstyled">
+                            <li class="mb-2"> <b>Category 1:</b> Implemented teaching techniques, classroom experience reports, or pedagogical tools</li>
+                            <li class="mb-2"> <b>Category 2:</b> New curricula and educational program proposals, including regional or national adaptations</li>
+                            <li class="mb-2"> <b>Category 3:</b> Educational research papers</li>
+                            </ul>
+
+                            <p class="fs-5 mb-1">The paper can be submitted as:</p>
+                            <ul>
+                            <li><b>Full Papers</b> (up to 6 pages) mature, well-developed research results.</li>
+                            <li><b>Work in Progress (WIP) Papers</b> (up to 4 pages)ongoing projects with preliminary findings.</li>
+                            </ul>
+
+                            <p class="fs-5 mb-1">
+                            Guidelines for reviewers and instructions for the <b>EDUNINE2026 SUBMISSION SYSTEM</b> are provided to assist in registering, reviewing, and completing evaluations.
+                            </p>
+                            <p class="fs-5 mb-1">
+                            After the conference, certificates of appreciation will be issued to all reviewers.
+                            </p>
+
+                            <p class="fs-5 fw-bold text-success mt-3">
+                            Thank you for your valuable contribution to EDUNINE2026!
+                            </p>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
-         <!-- Timeline section -->
+        <!-- Timeline section -->
         <section id="dates">
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
+            <!--  Migas de pan -->
+            <div class="container-fluid py-2 bg-light">
+                <ul class="breadcrumb mb-0">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="index.php?id=dates">Reviewer</a></li>
-                    <li>Timeline_for_Reviewers</li>
+                    <li class="active">Timeline for Reviewers</li>
                 </ul> 
             </div>
-            <div class="container-fluid py-5 bg-body-secondary">
-                <div class="row">
-                    <div class="col-sm-12 text-sm-left">
-                        <h2 class="display-5 fw-bold">Reviewer Schedule and Important Dates: </h2>               
-                        <p>Stay informed about key milestones and deadlines throughout the peer-review process with our comprehensive timeline, ensuring you don't miss any important stages.</p>
-                    </div>
-                </div>
+
+            <!-- Encabezado principal -->
+            <div class="container py-5 text-center">
+                <h2 class="display-5 fw-bold text-primary"> Reviewer Schedule and Important Dates</h2>               
+                <p class="lead text-muted">Stay informed about key milestones and deadlines throughout the peer-review process with our comprehensive timeline.</p>
             </div>
-         <div class="container-fluid">
-                <div class= "container-fluid tope  pb-5">
-                    <!---Timeline -->                  
-                    <div class="row g-5">
-                        <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                    <img class="col-3 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerRevGuide.jpg"  alt="Manuscript Types and Reviewer Guidelines Image"> 
-                           
-                                <h4 class="fw-bold">Peer-Review Timeline</h4>
-                                <p class="fs-6 mb-4"> The peer-review process for submitted papers will be conducted according to the timeline below. Reviewers will receive formal invitations and are kindly asked to complete their evaluations within the designated review period to ensure a smooth and timely selection process.</p> 
-                             </div>
-                            <div class="container_fluid mt-2">
-                                <div class="row">
-                                    <div class="col-9 bg-light border text-secondary">
-                                        <h4 class="text-center">Event</h4>
-                                    </div>
-                                    <div class="col-3 bg-light border text-secondary">
-                                        <h4 class="text-center">Deadline</h4>
-                                    </div>
-                                        <div class="col-9 bg-light border text-secondary">
-                                        <p class="lh-sm text-center">We will begin inviting reviewers to join the EDUNINE 2026 International Program Committee on</p> 
-                                    </div>
-                                    <div class="col-3 bg-light border text-secondary">  
-                                        <p class="lh-sm text-center" id="invitation"></p>
-                                    </div>
-                                    <div class="col-9 bg-light border text-secondary">
-                                        <p class="lh-sm text-center">We kindly ask invited reviewers to confirm their participation in the EDUNINE 2026 International Program Committee by</p>
-                                    </div>
-                                    <div class="col-3 bg-light border text-secondary">
-                                        <p class="lh-sm text-center" id ="guide"></p>
-                                    </div>
-                                       <div class="col-9 bg-light border text-secondary">
-                                        <p class="lh-sm text-center">The peer-review process for EDUNINE 2026 will begin, and reviewers will have access to their assigned papers in the submission system, starting on </p> 
-                                    </div>
-                                    <div class="col-3 bg-light border text-secondary">  
-                                        <p class="lh-sm text-center" id="signup"></p>
-                                    </div>
-                                    <div class="col-9 bg-light border text-secondary">
-                                        <p class="lh-sm text-center">Reviewers are kindly requested to complete their evaluations and upload their recommendations in the EDUNINE submission system by</p>
-                                    </div>
-                                    <div class="col-3 bg-light border text-secondary">
-                                        <p class="lh-sm text-center" id ="signin"></p>
-                                    </div>
-                                </div>
-                            </div>
+
+            <!--  Contenido principal -->
+            <div class="container mb-5">
+                <div class="row g-4">
+                    <!-- Imagen lateral -->
+                    <div class="col-md-4 text-center">
+                        <img class="img-fluid rounded shadow" src="../images/decoration/peerRevGuide.jpg" alt="Peer Review Guide">
+                    </div>
+
+                    <!-- Texto + tabla -->
+                    <div class="col-md-8">
+                        <h4 class="fw-bold text-primary">Peer-Review Timeline</h4>
+                        <p class="text-muted mb-4">The peer-review process for submitted papers will be conducted according to the timeline below. Reviewers will receive formal invitations and are kindly asked to complete their evaluations within the designated review period.</p>
+                        
+                        <!--  Tabla mejorada -->
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover align-middle shadow-sm">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th class="text-center">Event</th>
+                                        <th class="text-center">Deadline</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>We will begin inviting reviewers to join the EDUNINE 2026 International Program Committee on</td>
+                                        <td class="text-center fw-bold text-primary" id="invitation">Jun 1, 2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>We kindly ask invited reviewers to confirm their participation in the EDUNINE 2026 International Program Committee by</td>
+                                        <td class="text-center fw-bold text-primary" id="guide">Aug 4, 2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>The peer-review process for EDUNINE 2026 will begin, and reviewers will have access to their assigned papers in the submission system, starting on</td>
+                                        <td class="text-center fw-bold text-primary" id="signup">Aug 4, 2025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Reviewers are kindly requested to complete their evaluations and upload their recommendations in the EDUNINE submission system by</td>
+                                        <td class="text-center fw-bold text-primary" id="signin">Sep 8, 2025</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
-         </div>
+            </div>
         </section>
+
+
+
+        final
         <!-- Review Process and Manuscript types -->
 
         <section id="revGuide">
