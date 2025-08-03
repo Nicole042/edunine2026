@@ -462,10 +462,8 @@ ul.breadcrumb li a:hover {
     position: fixed; 
     bottom: 20px; 
     right: calc((100vw - 2560px) / 2 + 20px); 
-    /*right: 20px; */
     z-index: 99; 
     display: none;
-    /*max-width: relative;*/
 }
 
 /* CLASES DE BTN PERSONALIZADAS DE BOOTSTRAP PARA BOTONES */
