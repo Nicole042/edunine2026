@@ -315,6 +315,12 @@ section.inicial {
     background-color: inherit;
     padding-top: 130px;
 }
+section.inicial-committees {
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: inherit;
+    padding-top: 10px;
+}
 section.schedule {
     padding-top: 0px;
 }

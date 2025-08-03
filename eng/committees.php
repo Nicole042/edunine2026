@@ -104,7 +104,7 @@
 
         <!--End of Navigation for cellphones Susan's Idea-->
 
-        <section id="top" class="inicial">
+        <section id="top" class="inicial-committees">
 
             <div class="container-peerReview py-3">
                 <div class="row align-items-center g-3">
