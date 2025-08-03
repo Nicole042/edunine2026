@@ -46,6 +46,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
+        <main>
         <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <!--<div> 
             <!- Navigation bar  ->
@@ -129,17 +130,10 @@
 
         
         <section id="top" class="inicial">
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li>Information_Reviewers</li>
-                </ul> 
-            </div>
 
-            empezar 
-            <div class="container-fluid py-5" style="background: #f9fafc;">
+            <div class="container-fluid py-1">
                 <div class="row justify-content-center">
-                    <div class="col-lg-10">
+                    
                     <div class="card shadow-lg border-0 rounded-4 p-4">
                         <div class="row g-4 align-items-center">
                         
@@ -152,7 +146,7 @@
 
                         <!-- Texto -->
                         <div class="col-md-8">
-                            <h2 class="display-6 fw-bold text-primary mb-3">Information for Reviewers</h2>
+                            <h2 class="display-6 fw-bold mb-3 text-center">Information for Reviewers</h2>
                             <p class="fs-5">
                             We are delighted to invite you to join the 
                             <b>EDUNINE2026 International Program Committee</b> as a 
@@ -188,7 +182,7 @@
                         </div>
 
                         </div>
-                    </div>
+                    
                     </div>
                 </div>
             </div>
@@ -196,23 +190,15 @@
         </section>
         <!-- Timeline section -->
         <section id="dates">
-            <!--  Migas de pan -->
-            <div class="container-fluid py-2 bg-light">
-                <ul class="breadcrumb mb-0">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Reviewer</a></li>
-                    <li class="active">Timeline for Reviewers</li>
-                </ul> 
-            </div>
 
             <!-- Encabezado principal -->
-            <div class="container py-5 text-center">
-                <h2 class="display-5 fw-bold text-primary"> Reviewer Schedule and Important Dates</h2>               
+            <div class="container-peerReview py-5 text-center">
+                <h2 class="display-5 fw-bold text-center"> Reviewer Schedule and Important Dates</h2>               
                 <p class="lead text-muted">Stay informed about key milestones and deadlines throughout the peer-review process with our comprehensive timeline.</p>
             </div>
 
             <!--  Contenido principal -->
-            <div class="container mb-5">
+            <div class="container-fluid mb-5">
                 <div class="row g-4">
                     <!-- Imagen lateral -->
                     <div class="col-md-4 text-center">
@@ -221,7 +207,7 @@
 
                     <!-- Texto + tabla -->
                     <div class="col-md-8">
-                        <h4 class="fw-bold text-primary">Peer-Review Timeline</h4>
+                        <h4 class="fw-bold text-center">Peer-Review Timeline</h4>
                         <p class="text-muted mb-4">The peer-review process for submitted papers will be conducted according to the timeline below. Reviewers will receive formal invitations and are kindly asked to complete their evaluations within the designated review period.</p>
                         
                         <!--  Tabla mejorada -->
@@ -236,19 +222,19 @@
                                 <tbody>
                                     <tr>
                                         <td>We will begin inviting reviewers to join the EDUNINE 2026 International Program Committee on</td>
-                                        <td class="text-center fw-bold text-primary" id="invitation">Jun 1, 2025</td>
+                                        <td class="text-center fw-bold text-center" id="invitation">Jun 1, 2025</td>
                                     </tr>
                                     <tr>
                                         <td>We kindly ask invited reviewers to confirm their participation in the EDUNINE 2026 International Program Committee by</td>
-                                        <td class="text-center fw-bold text-primary" id="guide">Aug 4, 2025</td>
+                                        <td class="text-center fw-bold text-center" id="guide">Aug 4, 2025</td>
                                     </tr>
                                     <tr>
                                         <td>The peer-review process for EDUNINE 2026 will begin, and reviewers will have access to their assigned papers in the submission system, starting on</td>
-                                        <td class="text-center fw-bold text-primary" id="signup">Aug 4, 2025</td>
+                                        <td class="text-center fw-bold text-center" id="signup">Aug 4, 2025</td>
                                     </tr>
                                     <tr>
                                         <td>Reviewers are kindly requested to complete their evaluations and upload their recommendations in the EDUNINE submission system by</td>
-                                        <td class="text-center fw-bold text-primary" id="signin">Sep 8, 2025</td>
+                                        <td class="text-center fw-bold text-center" id="signin">Sep 8, 2025</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -257,20 +243,9 @@
                 </div>
             </div>
         </section>
-
-
-
-        final
         <!-- Review Process and Manuscript types -->
 
         <section id="revGuide">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Conference_Review_Process</li>
-                </ul> 
-            </div> 
 
             <div class= "container-peerReview">
 
@@ -815,27 +790,37 @@
         </section>
 
         <section id="revSignup">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Reviewer_Registration</li>
-                </ul> 
-            </div>
             
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerRevSignUp.jpg"  alt="Submission  Revieweer System Registration Image">
+                            <div class="d-flex flex-wrap flex-md-nowrap align-items-center justify-content-center text-center">
+                                <img class="col-4 p-2 rounded float-sm-start img-fluid" 
+                                    src="../images/decoration/peerRevSignUp.jpg"  
+                                    alt="Submission  Revieweer System Registration Image">
+                                
+                                <div class="card mx-auto" style="max-width: 800px; background: transparent; border: 0px;">
+                                    <div class="card-body justify-content-center text-center px-4 py-5">
+                                        <h2 class="display-6 fw-bold mb-4">Reviewer Registration (Sign up)</h2>
+                                        <p class="fs-5 mb-0">
+                                            This section provides instructions for registering as a peer reviewer using 
+                                            <b>EDUNINE2026 SUBMISSION SYSTEM</b>. It explains how to complete the registration form 
+                                            with your personal information, email, and the conference topics that match your areas 
+                                            of expertise. Additionally, it guides you in setting your username and password for your 
+                                            EDUNINE SUBMISSION account.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            
                             </div>
-                            <h2 class="display-6 fw-bold"> Reviewer Registration (Sign up)</h2>
-                            <p class="fs-5 mb-4">This section provides instructions for registering as a peer reviewer using <b>EDUNINE2026 SUBMISSION SYSTEM</b>. It explains how to complete the registration form with your personal information, email, and the conference topics that match your areas of expertise. Additionally, it guides you in setting your username and password for your EDUNINE SUBMISSION account.</p>
                         </div>
                     </div>    
                 </div>
             </div>
+
+
              <!-- REEMPLAZAR CON LAS INSTRUCCIONES CORRESPONDIENTES AL SISTEMA DE ADMINISTRACIÓN A USAR PARA LOS REVISORES
             ELIMINANDO LAS INTRUCCIONES DE OPENCONF -->
             
@@ -906,15 +891,6 @@
         <!-- Reviewer Portal   -->
 
         <section id="revSignin">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Reviewer_Portal</li>
-                </ul> 
-            </div>
-
-          
 
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
@@ -923,7 +899,7 @@
                             <div class="text-center">
                                 <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerRevPortal.jpg"  alt="OpenConf Peer Reviewer Portal Image"> 
                             </div>
-                            <h2 class="display-6 fw-bold">Reviewer Portal</h2>
+                            <h2 class="display-6 fw-bold text-center">Reviewer Portal</h2>
                             <p class="lh-sm">This section provides detailed instructions on how to use your <b>EDUNINE OpenConf reviewer account</b> once you are registered as a reviewer. First, it explains how to view your list of review assignments and how to select and access the abstract and full text of each assigned paper. Then, after you have finished reviewing a paper, the guide provides an example to help you fill out the review form for each required field and submit your review.</p>
                         </div>
                     </div>    
@@ -1067,6 +1043,8 @@
             <!-- footer  -->
             <?php include "../includesHtml/final.html" ?> 
         </div>
+        </main>
+
         <script src ="../js/datesFill.js?1"></script>
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>

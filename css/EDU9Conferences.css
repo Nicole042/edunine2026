@@ -10,25 +10,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-/*
-:root {
-    --headerHeight: 120px;
-    --footerHeight: 400px;
-    --totalHeight: calc( var(--headerHeight) + var(--footerHeight) )
-}
-
-#header {
-    height: var(--headerHeight);
-}
-
-#footer {
-    height: var(--footerHeight);
-}
-
-#main {
-    height: calc(100vh - var(--totalHeight) );
-}
-*/
 
 /*Navigation for cellphones*/
 /*Remove the default arrow*/
@@ -329,8 +310,8 @@ section.primera {
 }
 
 section.inicial {
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 1%;
+    margin-left: 1%;
     background-color: inherit;
     padding-top: 80px;
 }
@@ -910,7 +891,7 @@ font-family: 'Quicksand', 'sans-serif';
 /*CONTAINER FOR THE ACCORDION IN PEER REVIEW GUIDELINES*/
 .container-peerReview {
     /*display: flex;*/
-    max-width: 2400px;
+    max-width: 2560px;
     margin-right: auto;
     margin-left: auto;
     background-color: inherit;
