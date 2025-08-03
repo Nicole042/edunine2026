@@ -310,11 +310,19 @@ section.primera {
 }
 
 section.inicial {
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: inherit;
+    padding-top: 80px;
+}
+/*Information for Reviewers section. First section in reviewers.php*/
+section.inicial-reviewers {
     margin-right: 1%;
     margin-left: 1%;
     background-color: inherit;
     padding-top: 80px;
 }
+/*End Information for reviewers*/
 section.schedule {
     padding-top: 0px;
 }

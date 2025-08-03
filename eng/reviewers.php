@@ -125,7 +125,7 @@
 
 
         
-        <section id="top" class="inicial">
+        <section id="top" class="inicial-reviewers">
 
             <div class="container-fluid py-1">
                 <div class="row justify-content-center">
