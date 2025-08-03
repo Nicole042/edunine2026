@@ -449,7 +449,6 @@ ul.breadcrumb li a:hover {
 /* Scroll to top made it round*/
 #myTopBtn {
     outline: none;  
-    font-family: 'Quicksand';
     padding: 3px;
 
     border-radius: 50%;
@@ -462,9 +461,11 @@ ul.breadcrumb li a:hover {
     cursor: pointer; 
     position: fixed; 
     bottom: 20px; 
-    right: 20px; 
+    right: calc((100vw - 2560px) / 2 + 20px); 
+    /*right: 20px; */
     z-index: 99; 
     display: none;
+    /*max-width: relative;*/
 }
 
 /* CLASES DE BTN PERSONALIZADAS DE BOOTSTRAP PARA BOTONES */
@@ -948,9 +949,21 @@ font-family: 'Quicksand', 'sans-serif';
 }
 /*END BUTTONS THAN LINKS reviewers.php with information.php*/
 
+/* For smaller screens, use normal right positioning */
+/*Without this query, it would have not been possible to pu inside a containr the backto Top arrow*/
+@media (max-width: 2560px) {
+    #myTopBtn {
+        right: 20px;
+    }
+}
+/*End Back to To Arrow Button*/
 
 @media only screen and (max-width: 1420px) 
 {
+    #myTopBtn {
+        right: 20px;
+    }
+
     section {
         /* margin-right: 15%;
         margin-left: 15%;
@@ -1212,6 +1225,7 @@ font-family: 'Quicksand', 'sans-serif';
 
 
 @media (min-width: 1140px) {
+   
     .horizontal-timeline .items .items-list {
         display: inline-block;
         width: 24%;

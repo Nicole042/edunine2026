@@ -48,10 +48,6 @@
         </script> 
         <main>
         <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
-        <!--<div> 
-            <!- Navigation bar  ->
-            
-        </div> -->
 
         <div> 
             <!-- NEW HEADER - Navigation bar  -->
@@ -812,8 +808,6 @@
                                         </p>
                                     </div>
                                 </div>
-
-                            
                             </div>
                         </div>
                     </div>    
@@ -896,15 +890,29 @@
                 <div class="row g-5">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerRevPortal.jpg"  alt="OpenConf Peer Reviewer Portal Image"> 
+                            <div class="d-flex flex-wrap flex-md-nowrap align-items-center justify-content-center text-center">
+                                <img class="col-4 p-2 rounded float-sm-start img-fluid" 
+                                    src="../images/decoration/peerRevPortal.jpg"  
+                                    alt="OpenConf Peer Reviewer Portal Image"> 
+
+                                <div class="card mx-auto" style="max-width: 800px; background: transparent; border: 0px;">
+                                    <div class="card-body justify-content-center text-center px-4 py-5">
+                                        <h2 class="display-6 fw-bold text-center">Reviewer Portal</h2>
+                                        <p class="lh-sm">This section provides detailed instructions on how to use your 
+                                        <b>EDUNINE OpenConf reviewer account</b> once you are registered as a reviewer. 
+                                        First, it explains how to view your list of review assignments and how to select 
+                                        and access the abstract and full text of each assigned paper. Then, after you have 
+                                        finished reviewing a paper, the guide provides an example to help you fill out the 
+                                        review form for each required field and submit your review.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <h2 class="display-6 fw-bold text-center">Reviewer Portal</h2>
-                            <p class="lh-sm">This section provides detailed instructions on how to use your <b>EDUNINE OpenConf reviewer account</b> once you are registered as a reviewer. First, it explains how to view your list of review assignments and how to select and access the abstract and full text of each assigned paper. Then, after you have finished reviewing a paper, the guide provides an example to help you fill out the review form for each required field and submit your review.</p>
+                           
                         </div>
                     </div>    
                 </div>
             </div>
+
                <!-- REEMPLAZAR CON LAS INSTRUCCIONES CORRESPONDIENTES AL SISTEMA DE ADMINISTRACIÓN A USAR PARA LOS REVISORES
             ELIMINANDO LAS INTRUCCIONES DE OPENCONF -->
             
