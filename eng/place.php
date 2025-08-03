@@ -45,29 +45,26 @@
             </div>
             <div class="#main"></div>
 
-            <!-- place section -->
 
-            <!-- <section id="top" class="inicial">
-                <div class="container align-content-start py-4 pb-5">
-                    <ul class="breadcrumb">
-                        <li><a href="index.php">About</a></li>
-                        <li>Hotels_and_Tranportation</li>
-                    </ul> 
-                </div> -->
+            <ul class="d-flex justify-content-end list-unstyled mb-0 flex-wrap">
+                <li class="nav-item mx-1">
+                    <a class="nav-link px-2 py-1 btn btn-sm" href="index.php">About</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link px-2 py-1 btn btn-sm" href="#hotels-transportation">Hotels</a>
+                </li>
+            </ul>
 
-                <div class= "container pb-2 bg-white">
-
-                    <div class="row g-5">
-                        <div class= "col text-sm-left">
-                            <div class="clearfix">
-
-                                <h2 class="display-6 fw-bold">Hotels and Transportation</h2>
-
-                                <p class="fs-5 mb-4">Welcome to the <b>EDUNINE2026 Hotels, Transportation, and Tourism Guide</b>! This page is your one-stop resource for planning your trip to the <b> 2026 IEEE X World Engineering Education Conference (EDUNINE2026)</b> in beautiful <b>Mexico City, Mexico</b>. Whether you're arriving by plane, or another means, we have you covered. This page will be updated after the notification of peer-review results, providing detailed information on accommodations, airport, must-see attractions, and exciting day trips beyond the city. </p>
-                            </div>
-                        </div>    
-                    </div>
+            <div class="container pb-2 bg-white">
+                <div class="row g-5">
+                    <div class="col text-sm-left">
+                        <div class="clearfix">
+                            <h2 class="display-6 fw-bold">Hotels and Transportation</h2>
+                            <p class="fs-5 mb-4">Welcome to the <b>EDUNINE2026 Hotels, Transportation, and Tourism Guide</b>! This page is your one-stop resource for planning your trip to the <b> 2026 IEEE X World Engineering Education Conference (EDUNINE2026)</b> in beautiful <b>Mexico City, Mexico</b>. Whether you're arriving by plane, or another means, we have you covered. This page will be updated after the notification of peer-review results, providing detailed information on accommodations, airport, must-see attractions, and exciting day trips beyond the city.</p>
+                        </div>
+                    </div>    
                 </div>
+            </div>
 
                 <div class="container py-1">
                     <div class="text-center">
@@ -242,11 +239,16 @@
 
             <script src="../js/placeSection.js"></script>
 
-            <!-- Footer section -->
-            <div class ="container-fluid">
-                <!-- footer  -->
-                <?php include "../includesHtml/final.html" ?> 
-            </div>
+            <section id="organizers">
+                <!-- Footer section -->
+                <div class ="container-fluid">
+                    <!-- footer  -->
+                    <?php include "../includesHtml/final.html" ?> 
+                </div>
+            </section>
+
+            <!-- Scripts -->
+            
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
             <script src ="../js/readmorereadless.js"></script> 
