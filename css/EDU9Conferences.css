@@ -1275,22 +1275,25 @@ font-family: 'Quicksand', 'sans-serif';
 
 
 
+/* --- CONFIGURACIÓN BASE --- */
 .carousel-item {
-  max-height: 600px;    
-  overflow-y: auto;     
+  max-height: 600px;
+  overflow-y: auto;
 }
 
-#contentCarousel .carousel-item.active {
-  display: block;
-}
-
+/* --- ICONOS DE NAVEGACIÓN (ambos carruseles) --- */
 #contentCarousel .carousel-control-prev-icon,
-#contentCarousel .carousel-control-next-icon {
+#contentCarousel .carousel-control-next-icon,
+#secondCarousel .carousel-control-prev-icon,
+#secondCarousel .carousel-control-next-icon {
   background-size: 25px 25px;
 }
 
+/* --- BOTONES DE NAVEGACIÓN (ambos carruseles) --- */
 #contentCarousel .carousel-control-prev,
-#contentCarousel .carousel-control-next {
+#contentCarousel .carousel-control-next,
+#secondCarousel .carousel-control-prev,
+#secondCarousel .carousel-control-next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1301,13 +1304,21 @@ font-family: 'Quicksand', 'sans-serif';
   border-radius: 50%;
 }
 
-#secondCarousel .carousel-item.active {
-  display: block;
+/* --- CONFIGURACIÓN DE CARRUSELES --- */
+#contentCarousel {
+  overflow: hidden;
+  text-align: center;
 }
 
-#secondCarousel .carousel-control-prev-icon,
-#secondCarousel .carousel-control-next-icon {
-  background-size: 25px 25px;
+#contentCarousel .carousel-item {
+  overflow: hidden;
+}
+
+#secondCarousel {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 600px;
 }
 
 #secondCarousel .carousel-item {
@@ -1319,116 +1330,18 @@ font-family: 'Quicksand', 'sans-serif';
   max-width: 900px;
 }
 
-#secondCarousel .carousel-control-prev,
-#secondCarousel .carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1000;
-  width: 40px;
-  height: 40px;
-  background: rgba(255,255,255,0.3);
-  border-radius: 50%;
-}
-
-#secondCarousel {
-  position: relative;
-}
-
-@media (max-width: 576px) {
-  #secondCarousel .carousel-control-prev,
-  #secondCarousel .carousel-control-next {
-    width: 30px;
-    height: 30px;
-  }
-}
-
-
-#contentCarousel {
-  overflow: hidden !important;
-  text-align: center;
-}
-
-#contentCarousel .carousel-item {
-  overflow: hidden !important;      
-}
-
-#secondCarousel {
-  overflow-x: hidden !important;    /* Bloquea el scroll horizontal */
-  overflow-y: auto !important;      /* Activa scroll vertical */
-  max-height: 600px;                /* Limita la altura para que aparezca scroll si hay contenido extra */
-}
-
-#contentCarousel .carousel-item {
-  max-height: 600px;
-  overflow-y: auto;  /* solo hace scroll interno si una card es muy larga */
-}
-
-
-/*  Quitar cualquier scrollbar del PRIMER carrusel */
+/* --- AJUSTES INTERNOS DEL PRIMER CARRUSEL --- */
 #contentCarousel .carousel-inner {
-  max-height: 600px; 
+  max-height: 600px;
   overflow: hidden;
 }
 
-/* Opcional: aseguramos que las cards dentro no rompan el diseño */
 #contentCarousel .card {
   max-height: 100%;
   overflow: hidden;
-  margin: 0 auto;      
-  max-width: 900px; 
+  margin: 0 auto;
+  max-width: 900px;
 }
-
-
-/*Responsividad general information*/
-/* ✅ Asegura que los botones SIEMPRE estén centrados al lado del carrusel */
-#contentCarousel .carousel-control-prev,
-#contentCarousel .carousel-control-next,
-#secondCarousel .carousel-control-prev,
-#secondCarousel .carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  background: rgba(255,255,255,0.3);
-  border-radius: 50%;
-  z-index: 1000;
-}
-
-/* FIXOTONES DEL CARRUSEL EN MÓVIL */
-@media (max-width: 576px) {
-
-  #contentCarousel .carousel-control-prev,
-  #contentCarousel .carousel-control-next,
-  #secondCarousel .carousel-control-prev,
-  #secondCarousel .carousel-control-next {
-    position: absolute !important;
-    top: 50% !important;
-    bottom: auto !important;
-    transform: translateY(-50%) !important;
-    margin: 0 !important;
-    width: 36px;
-    height: 36px;
-    z-index: 9999 !important;
-  }
-
-  #contentCarousel .carousel-inner,
-  #secondCarousel .carousel-inner {
-    min-height: unset !important;
-    height: auto !important;
-  }
-
-  #contentCarousel .carousel-item,
-  #secondCarousel .carousel-item {
-    min-height: unset !important;
-    height: auto !important;
-    display: flex !important;   /
-    align-items: center !important; 
-    justify-content: center !important;
-  }
-}
-
 
 #typeCarousel .carousel-item > .d-flex > div {
   max-width: 700px;  
