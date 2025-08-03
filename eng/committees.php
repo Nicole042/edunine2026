@@ -46,7 +46,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <div> 
             <!-- Navigation bar  -->
             <?php include "newHeader.html" ?> 
@@ -136,40 +136,40 @@
 
                     <!-- chairs -->
                     <div class ="col-md-4">
-                        <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><strong>Chairs</strong></h5>
+                        <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><span>Chairs</span></h5>
                         <h5 class="text-justify pt-3">Conference    Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_molina.html"> <strong> José  Martín  Molina  Espinosa</strong></a>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_molina.html"> <span> José  Martín  Molina  Espinosa</span></a>
                         </p><h5 class="text-justify pt-3">General Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_brito.html"> <strong> Claudio R. Brito</strong></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_brito.html"> <span> Claudio R. Brito</span></a></p>
                         <h5 class="text-justify pt-3">Co-Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_ciampi.html"><strong> Melany M. Ciampi</strong></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_ciampi.html"><span> Melany M. Ciampi</span></a></p>
                         <h5 class="text-justify pt-3">Awards    Chair:</h5>
-                        <p class="text-justify pl-3"><a href="#"><strong> To be assigned</strong></a></p>
+                        <p class="text-justify pl-3"><a href="#"><span> To be assigned</span></a></p>
                         <h5 class="text-justify pt-3">Technical    Program  Chair:</h5>
-                        <p class="text-justify pl-3"><a href="#"><strong> To be assigned</strong></a></p>
+                        <p class="text-justify pl-3"><a href="#"><span> To be assigned</span></a></p>
                         <h5 class="text-justify pt-3">Technical  Program  Co-Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_luna.html"><strong> Ana Luna</strong></a></p>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_da_silva.pdf"><strong> Agatha  C.  da  Silva  Obando</strong></a></p>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_adorjan.html"><strong> Alejandro  Adorjan  Olivera</strong></a></p>  
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_luna.html"><span> Ana Luna</span></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_da_silva.pdf"><span> Agatha  C.  da  Silva  Obando</span></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_adorjan.html"><span> Alejandro  Adorjan  Olivera</span></a></p>  
                         <h5 class="text-justify pt-3">Publication Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_chong.html"><strong> Mario Chong</strong></a>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_chong.html"><span> Mario Chong</span></a>
                         </p><h5 class="text-justify pt-3">Workshops Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_renteria.pdf"><strong> Rafael  R. Rentería  Ramos</strong></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_renteria.pdf"><span> Rafael  R. Rentería  Ramos</span></a></p>
                         <h5 class="text-justify pt-3">Conference Supporting Committee:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_portillo.html"><strong> Roberto Portillo</strong></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_portillo.html"><span> Roberto Portillo</span></a></p>
                         <h5 class="text-justify pt-3">Doctoral  Symposium  Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_pozzo.html"><strong> Maria  Isabel  Pozzo</strong></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_pozzo.html"><span> Maria  Isabel  Pozzo</span></a></p>
                         <h5 class="text-justify pt-3">Publicity  and  Public  Relations  Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_chong.html"><strong> Mario Chong</strong></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_chong.html"><span> Mario Chong</span></a></p>
                         <h5 class="text-justify pt-3">Finance  Chair/Treasurer:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_fittipaldi.html"><strong> Orlando  Fittipaldi</strong></a></p>
+                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_fittipaldi.html"><span> Orlando  Fittipaldi</span></a></p>
                         <h5 class="text-justify pt-3">Steering    Committee  Chair:</h5>
-                        <p class="text-justify pl-3"><a href="#"><strong> To be assigned</strong></a></p> 
+                        <p class="text-justify pl-3"><a href="#"><span> To be assigned</span></a></p> 
                     </div>
 
                     <div class ="col-md-4">
                         <!-- Steering Committee -->
-                        <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><strong> Steering  Committee:</strong></h5>
+                        <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><span> Steering  Committee:</span></h5>
                         <p class="text-justify pl-3">To be assigned <b><i>Chair of Committee</i></b></p>
                         <p class="text-justify pl-3">Agatha  C.  da  Silva  Ovando </p>
                         <p class="text-justify pl-3">Alejandro  Adorjan  Olivera </p>
@@ -183,7 +183,7 @@
                         <p class="text-justify pl-3">Roberto    Portillo </p>
                             
                         <!-- Supporting  -->  
-                        <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><strong> Conference  Supporting  Committee:</strong></h5>
+                        <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><span> Conference  Supporting  Committee:</span></h5>
                         <p class="text-justify pl-3">Roberto Portillo, Universidad Galileo<b><i>Chair of Committee</i></b></p>
                         <p class="text-justify pl-3">Ana Luna, Universidad del Pacífico  </p>
                         <p class="text-justify pl-3">Mario Chong, Universidad del Pacífico  </p>
@@ -194,7 +194,7 @@
 
                     <div class ="col-md-4">
                         <!-- Program -->  
-                        <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><strong> Technical  Program  Committee:</strong></h5>
+                        <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><span> Technical  Program  Committee:</span></h5>
                         <p class="text-justify pl-3">To be assigned <b><i>Chair of Committee</i></b></p>
                         <p class="text-justify pl-3">Agatha  C.  da  Silva  Ovando, Bolivia  <b><i>Co-Chair of Committee</i></b></p>
                         <p class="text-justify pl-3">Ana    Luna, Peru  <b><i>Co-Chair of Committee</i></b></p>
