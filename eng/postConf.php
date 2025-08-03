@@ -52,28 +52,15 @@
                 <?php include "edu9header.html" ?> 
             </div>
                 <section id="top" class="inicial">
-                    <div class="card container-fluid tope p-4 card-border-color shadow-sm" style="">
+                    <div class="card container-fluid tope p-4 card-border-color shadow-sm w-75 mx-auto" style="">
                         <div class="text-center">
-                            <img src="../images/decoration/postConference.jpg" class="w-50 img-fluid rounded img-postConf shadow" alt="Post Conference Image">
+                            <img src="../images/decoration/postConference.jpg" class="w-25 img-fluid rounded img-postConf shadow" alt="Post Conference Image">
                         </div>      
                         <div class="card-body text-center pt-4">
                             <h2 class="display-6 fw-bold">Post Conference Outcomes</h2>
                             <p class="fs-5 mb-4">Estimated Date of Post-Conference Outcomes: Includes the publication of conference proceedings and issuance of author and participant certificates of participation.</p>
                         </div>
                     </div>
-                    <!-- <div class= "container-fluid tope  py-5">
-                    <div class="row g-5">
-                        <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                <div class="text-center">
-                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/postConference.jpg"  alt="Post Conference Image">
-                                </div>
-                                <h2 class="display-6 fw-bold">Post Conference Outcomes</h2>
-                                <p class="fs-5 mb-4">Estimated Date of Post-Conference Outcomes: Includes the publication of conference proceedings and issuance of author and participant certificates of participation.</p>
-                            </div>
-                        </div>    
-                    </div>
-                    </div> -->
                     <?php include "../includesHtml/commingSoon.html" ?>
                 </section>         
        
