@@ -129,12 +129,7 @@
 
         
         <section id="top" class="inicial">
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li>Information_Reviewers</li>
-                </ul> 
-            </div>
+            
             <div class= "container-fluid tope  py-5">
 
                 <div class="row g-5">
@@ -161,13 +156,7 @@
         </section>
          <!-- Timeline section -->
         <section id="dates">
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Reviewer</a></li>
-                    <li>Timeline_for_Reviewers</li>
-                </ul> 
-            </div>
+            
             <div class="container-fluid py-5 bg-body-secondary">
                 <div class="row">
                     <div class="col-sm-12 text-sm-left">
@@ -229,13 +218,6 @@
         <!-- Review Process and Manuscript types -->
 
         <section id="revGuide">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Conference_Review_Process</li>
-                </ul> 
-            </div> 
 
             <div class= "container-peerReview">
 
@@ -780,13 +762,6 @@
         </section>
 
         <section id="revSignup">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Reviewer_Registration</li>
-                </ul> 
-            </div>
             
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
@@ -871,15 +846,6 @@
         <!-- Reviewer Portal   -->
 
         <section id="revSignin">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Reviewer_Portal</li>
-                </ul> 
-            </div>
-
-          
 
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
