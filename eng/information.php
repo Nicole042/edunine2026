@@ -996,55 +996,10 @@
                 </div>
             </div>
             </div>
-
-                            <li>Now you have a new document with the text of the template. Write replacing the text with your own text including new text using the styles displayed by the Style Panel. Use the styles of the Style Panel for all the different text styles you need. It is a lot of work but is worthwhile as it generates a well-formatted text as asked for a conference. <b><u>Please ensure that all guidance text is removed from your conference paper prior to submission to the conference. Failure to remove template text from your paper may result in your paper not being published.</u></b> </li></ol>
-                    </div>
-                </div>
-            </div> 
-
-            <div class="container-fluid py-3 bg-light">
-                <div class ="row">
-                    <div class= "col text-sm-left">
-                        <h5 class="fs-3 fw-bold">Create Professional Research Papers: LaTeX Template for Scientific Writing</h5>
-
-                        <p class="lh-sm">This guide provides instructions for formatting your paper using the official IEEE LaTeX template:</p> 
-                        <p class="lh-sm fw-bold">Before You Begin:</p><ul><li>  
-                                Download the Template zip files and read the LaTeX Template instructions and be sure to use the <b>template's conference mode</b>.</li><li>
-                                Install Required Packages: Ensure you have the necessary LaTeX packages installed on your system. Refer to the documentation included with the template for specific package requirements.</li><li>
-                                Software: Choose a LaTeX editor or typesetting software that suits your needs. Popular options include Overleaf (online), TeXstudio (free, offline), and TeXworks (free, offline).</li></ul>
-
-                        <p class="lh-sm fw-bold">Formatting Your Paper:</p><ul><li> 
-                                <b>Document Structure:</b> The template defines sections like abstract, introduction, main body sections, conclusion, references, etc. Use the provided commands to structure your document accordingly. </li><li>
-                                <b>Fonts and Styles:</b> The template pre-defines font sizes, line spacing, and margins to comply with IEEE formatting guidelines. Avoid modifying these unless absolutely necessary.</li><li>
-                                <b>Formatting Elements:</b> Utilize the provided commands for formatting figures, tables, equations, citations, and references. Refer to the template documentation for specific syntax and examples.</li><li>
-                                <b>Single vs. Double-Column:</b> The template offers options for single or double-column formatting based on conference requirements. Choose the <b><u>double-column layout</u></b> while compiling your document as in the sample file.
-                            </li></ul>
-                        <p class="lh-sm fw-bold">Additional Tips:</p><ul><li> 
-                                <b>Compile and Preview:</b> Regularly compile your LaTeX document (using pdflatex) to ensure proper formatting and catch any errors.</li><li>
-                                <b>Template Documentation:</b> Utilize the documentation included with the template for detailed instructions and examples.</li><li>
-                                <b>Online Resources:</b> Explore online resources and tutorials dedicated to LaTeX and IEEE paper formatting for further guidance.</li></ul>
-
-                        <p class="lh-sm fw-bold">Beyond these general instructions, customizing your paper with the template might involve:
-                        </p><ul><li> 
-                                Including author information and affiliations only for <b>Workshop Proposal or DS Manuscripts</b> for the initial submission.</li><li> 
-                                Adding section headings and subheadings.</li><li> 
-                                Inserting figures, tables, and equations with captions.</li><li> 
-                                Defining custom commands for frequently used elements.</li><li> 
-                                Formatting citations and references according to the IEEE referencing style.
-                            </li></ul>
-                        <p class="lh-sm">For specific details on these customizations, refer to the template documentation and online resources catering to IEEE LaTeX formatting.</p>
-
-                        <p class="lh-sm">By following these guidelines and leveraging the template's functionalities, you can efficiently format your paper according to IEEE standards.</p>
-                    </div>  
-                </div>   
-            </div>
-                        -->
         </section> 
         
         <section id="submission">
-
-            <!--
-     
+            <!--    
             <div class="container-fluid align-content-start py-0">
                 <ul class="breadcrumb">
                     <li><a href="index.php">Home</a></li>
