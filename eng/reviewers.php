@@ -21,14 +21,14 @@
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
-         <!--SLICK CAROUSEL-->
+         <!--SLICK FOOTER CAROUSEL-->
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-        <!--END  SLICK CAROUSEL -->
+        <!--END FOOTER SLICK CAROUSEL -->
 
     </head>
     <body onload = "obtenerFechasRev(), jump()">
@@ -61,7 +61,7 @@
  
 
         <section id="navigation" class="inicial">
-                  <!-- <!- PARTE SUSAN INICIO  -->
+        <!-- <!- PARTE SUSAN INICIO  -->
             <!-- New proposed breadcrumb -->
             <nav class="section-nav-breadcrumb" aria-label="Section navigation">
                 <ul class="d-flex justify-content-end list-unstyled mb-0">
@@ -264,13 +264,6 @@
         <!-- Review Process and Manuscript types -->
 
         <section id="revGuide">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Conference_Review_Process</li>
-                </ul> 
-            </div> 
 
             <div class= "container-peerReview">
 
@@ -815,13 +808,6 @@
         </section>
 
         <section id="revSignup">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Reviewer_Registration</li>
-                </ul> 
-            </div>
             
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
@@ -906,15 +892,6 @@
         <!-- Reviewer Portal   -->
 
         <section id="revSignin">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Reviewer</a></li>
-                    <li><a href="reviewers.php">Information_for_Reviewers</a></li>
-                    <li>Reviewer_Portal</li>
-                </ul> 
-            </div>
-
-          
 
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
@@ -1074,12 +1051,12 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     
-        <!-- START SLICK CAROUSEL-->
+        <!-- START FOOTER SLICK CAROUSEL-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script
         src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
         <script src="../js/slick-carousel-config.js"></script>
-        <!-- END  SLICK CAROUSEL-->   
+        <!-- END FOOTER  SLICK CAROUSEL-->   
     </body>
 </html>                      
