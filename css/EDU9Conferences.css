@@ -1350,3 +1350,8 @@ font-family: 'Quicksand', 'sans-serif';
   
   background-color: #e6f0fa !important;
 }
+
+#paperCarousel .carousel-item {
+  max-height: none;
+  overflow-y: visible;
+}

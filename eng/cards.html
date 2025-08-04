@@ -11,12 +11,7 @@
   />
   <style>
     /* let the carousel expand vertically to fit its content */
-    #paperCarousel .carousel-inner,
-    #paperCarousel .carousel-item {
-      height: auto;
-      /*max-width: 200px;*/
-      /*width: auto;*/
-    }
+
     /* show overflow if a card grows taller */
     #paperCarousel .carousel-inner {
       overflow: hidden;
@@ -28,18 +23,8 @@
     
     }
     /* remove any width:auto or max-width you put on .carousel-inner or .carousel-item */
-    #paperCarousel .carousel-inner,
-    #paperCarousel .carousel-item {
-    width: 91.6%;      /* full width of #paperCarousel */
-    max-width: none;  /* override any earlier max-width */
-    }
 
-   /* .carousel-inner {
-    position: relative;
-    /*max-width: 200px;*/
-   /* width: auto;
-    overflow: hidden;
-    }*/
+
   </style>
 </head>
 <body>
@@ -52,12 +37,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="container-fluid py-3">
-          <!--
-            row-cols-1: 1 card per row on xs
-            row-cols-md-2: 2 per row ≥md
-            g-4: uniform gutter
-            align-items-stretch: force cols to equal height
-          -->
+
             <div class="row row-cols-1 row-cols-md-2 g-1 align-items-stretch">
             
                 <!-- Card 1 -->

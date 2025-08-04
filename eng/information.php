@@ -59,9 +59,7 @@
             }
         </script> 
     <main>    
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
-        
-       
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>       
 
         <div> 
             <!-- Navigation bar  -->
@@ -91,13 +89,6 @@
                     <li class="nav-item mx-1">
                     <a class="nav-link px-1 py-2 btn" href="#submission">Manuscript Submission</a>
                     </li>
-                    <!--
-                    <li class="nav-item mx-1">
-                    <a class="nav-link px-1 py-3 btn" href="#organizers">Organizers</a>
-                    </li>
-                    -->
-                    <!-- add/remove as needed
-                    There was no link for venue?? It tended to disappear -->
                 </ul>
             </nav>
         <!-- PARTE SUSAN FIN -->
@@ -504,8 +495,6 @@
         </section>
 
 
-
-
         <section id="categories">
             <div class="container-fluid">
                 <div class ="row">
@@ -832,8 +821,6 @@
                 </ul> 
             </div>
             START
-
-
             <!-- HERO SECTION -->
             <div class="container my-5">
             <section class="py-5 text-center" style="background: #e8f2ff; color: black; border-radius: 15px;">
