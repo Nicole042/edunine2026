@@ -32,3 +32,66 @@ function changeReadMore() {
   }
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+  const boxes = document.querySelectorAll('.event-date-box');
+  const infoBox = document.getElementById('event-info-box');
+  const title = document.getElementById('event-title');
+  const desc = document.getElementById('event-desc');
+
+  let isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  let activeHover = false;
+  let hoverTimeout;
+
+  function showInfo(box) {
+    title.textContent = box.getAttribute('data-title');
+    desc.textContent = box.getAttribute('data-desc');
+    infoBox.style.display = 'block';
+  }
+
+  function hideInfo() {
+    infoBox.style.display = 'none';
+  }
+
+  if (isTouchDevice) {
+    // 👆 Modo móvil – toggle por clic
+    boxes.forEach(box => {
+      box.addEventListener('click', () => {
+        const isAlreadyVisible = infoBox.style.display === 'block' &&
+          title.textContent === box.getAttribute('data-title');
+        if (isAlreadyVisible) {
+          hideInfo();
+        } else {
+          showInfo(box);
+        }
+      });
+    });
+  } else {
+    // 🖱 Modo desktop – hover
+    boxes.forEach(box => {
+      box.addEventListener('mouseenter', () => {
+        activeHover = true;
+        clearTimeout(hoverTimeout);
+        showInfo(box);
+      });
+
+      box.addEventListener('mouseleave', () => {
+        activeHover = false;
+        hoverTimeout = setTimeout(() => {
+          if (!activeHover) hideInfo();
+        }, 150);
+      });
+    });
+
+    infoBox.addEventListener('mouseenter', () => {
+      activeHover = true;
+      clearTimeout(hoverTimeout);
+    });
+
+    infoBox.addEventListener('mouseleave', () => {
+      activeHover = false;
+      hoverTimeout = setTimeout(() => {
+        if (!activeHover) hideInfo();
+      }, 150);
+    });
+  }
+});

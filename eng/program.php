@@ -50,28 +50,50 @@
                     <li><a href="index.php?id=dates">Author</a></li>
                     <li>Conference</li>
                 </ul> 
-            </div>
-            <div class= "container-fluid tope  py-5">
+            </div>inicio
 
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/conference.jpg"  alt="Conference Image">
-                            </div>
-                            <h2 class="display-6 fw-bold">EDUNINE 2026 Conference event!</h2>
-                            <p class="fs-5 mb-2">EDUNINE2026 offers more than just exceptional conference sessions. We've curated a program rich with pre-conference activities designed to enhance your participation experience and foster deeper engagement with the conference theme and topics.</p> 
-                            <ul class="list-group">
+            <!-- CONTENEDOR PRINCIPAL -->
+            <div class="container-fluid py-5 bg-light">
+            <div class="row align-items-center g-5">
 
-                                <li class="fs-5 list-group-item"><b>Saturday, March 7: Cultural Immersion Pre-Conference Tour</b>. 
-                                </li><li class="fs-5 list-group-item"><b>Sunday, March 8: Pre-Conference Workshop</b>.
-                                </li><li class="fs-5 list-group-item"><b>Monday, March 9 to Wednesday, March 11: Comprehensive Conference Program and Awards Ceremony</b>.</li></ul>  
-                           <p class="fs-5 mb-2">Navigate and plan your conference experience using the index below to explore the pre-conference opportunities and the comprehensive conference program.</p>
-                        </div>
-                    </div>    
+                <!-- IMAGEN -->
+                <div class="col-lg-5 text-center">
+                <img src="../images/decoration/conference.jpg" class="img-fluid rounded-4 shadow" alt="Conference Image">
+                </div>
+
+                <!-- CONTENIDO CON FECHAS INTERACTIVAS -->
+                <div class="col-lg-7">
+                <h2 class="display-5 fw-bold mb-4 text-primary">Conference Event!</h2>
+                <p class="fs-5 text-muted">
+                    EDUNINE2026 offers more than just exceptional sessions. We've designed a vibrant program with pre-conference activities that enhance your experience and deepen engagement with the theme.
+                </p>
+
+                <!-- FECHAS EN LÍNEA -->
+                <div class="d-flex flex-wrap gap-5 my-4 justify-content-start">
+                    <div class="event-date-box" data-title="Cultural Immersion Tour" data-desc="Explore local culture with fellow participants." data-color="primary">
+                    <span>Sat, Mar 7</span>
+                    </div>
+                    <div class="event-date-box" data-title="Pre-Conference Workshop" data-desc="Hands-on sessions with leading educators." data-color="success">
+                    <span>Sun, Mar 8</span>
+                    </div>
+                    <div class="event-date-box" data-title="Main Conference & Awards" data-desc="Keynotes, presentations, networking & awards." data-color="warning">
+                    <span>Mar 9–11</span>
+                    </div>
+                </div>
+
+                <!-- ÁREA DE DETALLES AL HACER HOVER -->
+                <div id="event-info-box" class="p-4 rounded-3 shadow-sm bg-white border border-2 border-opacity-10" style="display: none;">
+                    <h5 class="fw-bold" id="event-title"></h5>
+                    <p class="mb-0 text-muted" id="event-desc"></p>
+                </div>
+
+                <p class="fs-5 mt-4"> Use the index below to explore each opportunity and plan your perfect EDUNINE experience!</p>
                 </div>
             </div>
-        </section>
+            </div>
+
+
+        </section>final
 
         <!-- Pre-Conference tour -->
 
