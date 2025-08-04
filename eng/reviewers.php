@@ -193,9 +193,9 @@
                 </div>
             </div>
 
-        </section>
-        <!-- Timeline section -->
-        <section id="dates">
+            </section>
+            <!-- Timeline section -->
+            <section id="dates">
             <!--  Migas de pan -->
             <div class="container-fluid py-2 bg-light">
                 <ul class="breadcrumb mb-0">

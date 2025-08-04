@@ -15,7 +15,8 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
 
-        <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
+        <link href="../css/EDU9Conferences.css" rel="stylesheet">
+        <link href= "../css/program-php.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
@@ -50,7 +51,7 @@
                     <li><a href="index.php?id=dates">Author</a></li>
                     <li>Conference</li>
                 </ul> 
-            </div>inicio
+            </div>
 
             <!-- CONTENEDOR PRINCIPAL -->
             <div class="container-fluid py-5 bg-light">
@@ -69,17 +70,18 @@
                 </p>
 
                 <!-- FECHAS EN LÍNEA -->
-                <div class="d-flex flex-wrap gap-5 my-4 justify-content-start">
-                    <div class="event-date-box" data-title="Cultural Immersion Tour" data-desc="Explore local culture with fellow participants." data-color="primary">
-                    <span>Sat, Mar 7</span>
+                
+                    <div class="d-flex flex-wrap gap-5 my-4 justify-content-start">
+                        <div class="event-date-box" data-title="Cultural Immersion Tour" data-desc="Explore local culture with fellow participants." data-color="primary">
+                        <span>Sat, Mar 7</span>
+                        </div>
+                        <div class="event-date-box" data-title="Pre-Conference Workshop" data-desc="Hands-on sessions with leading educators." data-color="success">
+                        <span>Sun, Mar 8</span>
+                        </div>
+                        <div class="event-date-box" data-title="Main Conference & Awards" data-desc="Keynotes, presentations, networking & awards." data-color="warning">
+                        <span>Mar 9–11</span>
+                        </div>
                     </div>
-                    <div class="event-date-box" data-title="Pre-Conference Workshop" data-desc="Hands-on sessions with leading educators." data-color="success">
-                    <span>Sun, Mar 8</span>
-                    </div>
-                    <div class="event-date-box" data-title="Main Conference & Awards" data-desc="Keynotes, presentations, networking & awards." data-color="warning">
-                    <span>Mar 9–11</span>
-                    </div>
-                </div>
 
                 <!-- ÁREA DE DETALLES AL HACER HOVER -->
                 <div id="event-info-box" class="p-4 rounded-3 shadow-sm bg-white border border-2 border-opacity-10" style="display: none;">
@@ -93,10 +95,10 @@
             </div>
 
 
-        </section>final
+        </section>
 
         <!-- Pre-Conference tour -->
-
+inicio
         <section id="tour">
             <div class="container-fluid align-content-start pt-5 pb-0">
                 <ul class="breadcrumb">
@@ -115,8 +117,8 @@
                             </div>
                             <h4 class="display-6 fw-bold">Saturday, March 7:  Pre-Conference Tour</h4>
                             <h6 class="fw-bold lh-sm">Join Us for a Special Pre-Conference Tour in Mexico City!</h6>
-<p class="lh-sm">Before the conference officially begins, take part in an unforgettable cultural experience offered by Tecnológico de Monterrey. Explore iconic sites, connect with fellow attendees, and enjoy a delicious local lunch (at your own expense).
-<p class="lh-sm">Spots are limited—check the timeline for the registration deadline!</p>
+                            <p class="lh-sm">Before the conference officially begins, take part in an unforgettable cultural experience offered by Tecnológico de Monterrey. Explore iconic sites, connect with fellow attendees, and enjoy a delicious local lunch (at your own expense).
+                            <p class="lh-sm">Spots are limited—check the timeline for the registration deadline!</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +141,7 @@
                     </div>
                 </div>    
             </div>
-    </section>
+    </section> final
 
     <!-- Pre-conference Workshops -->
 
