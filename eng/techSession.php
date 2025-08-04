@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -14,6 +14,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <link href="../css/styletechSession.css" rel="stylesheet">
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
@@ -31,7 +33,7 @@
         <!--END  SLICK CAROUSEL -->
 
     </head>
-    <body onload = "jump()">
+    <body onload = "jump()" style="padding-top: 100px;">
         <?php
         if (empty($_GET["id"])) {
             $id = "top";
@@ -55,47 +57,56 @@
                 <?php include "edu9header.html" ?> 
             </div>
             <div class="#main"></div>
-
-            <section id="top" class="inicial">
-                <div class="container-fluid align-content-start py-0">
-                    <ul class="breadcrumb">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php?id=dates">Author</a></li>
-                        <li>Session_Guidelines</li>
-                    </ul> 
+            
+            <section id="top" class="inicial" style="padding-top: 20px;">
+                <div class="container">
+                    <ul class="d-flex justify-content-end list-unstyled mb-0 flex-wrap">
+                        <li class="nav-item mx-1">
+                            <a class="nav-link px-2 py-1 btn btn-sm" href="index.php">Home</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link px-2 py-1 btn btn-sm" href="#guidelines">Session Guidelines</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link px-2 py-1 btn btn-sm" href="#presentation">Author Paper</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link px-2 py-1 btn btn-sm" href="#chair">Session Chair</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class= "container-fluid tope  py-5 bg-white">
 
+            </section>
+
+            <!-- Guidelines section -->
+
+            <section id="guidelines">
+                <div class= "container tope  py-3 bg-white">
                     <div class="row g-5">
                         <div class= "col text-sm-left">
                             <div class="clearfix">
                                 <h2 class="display-6 fw-bold">Author Presentation and Session Chair Guidelines</h2>
 
-                                <p class="fs-5 mb-4"><b>1) Author Presentation:</b> EDUNINE2026 empowers you to share your research with a global audience! Our guide equips you for impactful online or in-person presentations in Technical Sessions. Learn pre-session prep, platform specifics, interaction with the session chair, and adhering to presentation and Q&A timings. We aim for smooth, engaging sessions for all.<br>Remember, the optimal presentation format can vary! Authors have the flexibility to choose the approach that best suits their paper, ensuring clear communication within the allotted time slot.<br><b>2) Technical Session Chairs:</b> dedicated instructions are available to ensure a smooth and productive online or in-person session, fostering active participation, and adhering to the schedule.<br>Whether you're presenting your groundbreaking research or leading a stimulating session, EDUNINE2026 is here to support you!<br>These comprehensive guides equip you with the knowledge and tools you need to excel in your role.  Review the resources tailored for Technical Paper Presenters to deliver impactful presentations and explore the dedicated instructions for Technical Session Chairs to ensure a smooth and engaging experience for all participants.</p>
+                                <div class="card-author-presentation-guidelines">
+
+                                    <p class="fs-5 mb-4"><b>1) Author Presentation:</b> EDUNINE2026 empowers you to share your research with a global audience! Our guide equips you for impactful online or in-person presentations in Technical Sessions. Learn pre-session prep, platform specifics, interaction with the session chair, and adhering to presentation and Q&A timings. We aim for smooth, engaging sessions for all.<br>Remember, the optimal presentation format can vary! Authors have the flexibility to choose the approach that best suits their paper, ensuring clear communication within the allotted time slot.<br><b>2) Technical Session Chairs:</b> dedicated instructions are available to ensure a smooth and productive online or in-person session, fostering active participation, and adhering to the schedule.<br>Whether you're presenting your groundbreaking research or leading a stimulating session, EDUNINE2026 is here to support you!<br>These comprehensive guides equip you with the knowledge and tools you need to excel in your role.  Review the resources tailored for Technical Paper Presenters to deliver impactful presentations and explore the dedicated instructions for Technical Session Chairs to ensure a smooth and engaging experience for all participants.</p>
+                                </div>
                             </div>
                         </div>    
                     </div>
                 </div>
+
             </section>
 
             <!-- Primer enlace -->
 
             <section id="presentation">
-                <div class="container-fluid align-content-start pt-5 pb-0">
-                    <ul class="breadcrumb">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php?id=dates">Author</a></li>
-                        <li><a href="%breadURL2">Session_Guidelines</a></li>
-                        <li>Author_Presentation_Guidelines</li>
-                    </ul> 
-                </div>
-                <div class= "container-fluid tope  pb-5">
+
+                <!-- <div class= "container tope py-5 bg-white">
                     <div class="row g-5">
                         <div class= "col text-sm-left">
                             <div class="clearfix">
-                                <!-- <div class="text-center">
-                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/sessionAuthor.jpg"  alt="Author Paper Presentation Guidelines Image"> 
-                                </div> -->
+                                
                                 <h4 class="display-6 fw-bold">Author Paper Presentation Guidelines</h4>
                                 <p class="fs-5 mb-4">EDUNINE2026 empowers you to share your research with a global audience! Our guide equips you for impactful online or in-person presentations in Technical Sessions. Learn pre-session prep, platform specifics, interaction with the session chair, and adhering to presentation and Q&A timings. We aim for smooth, engaging sessions for all.<br>Remember, the optimal presentation format can vary! Authors have the flexibility to choose the approach that best suits their paper, ensuring clear communication within the allotted time slot.
                                 </p>
@@ -106,30 +117,72 @@
                             </div>
                         </div>    
                     </div>
-                </div>
-            </section>
-            <section id="chair">
-                <div class="container-fluid align-content-start pt-5 pb-0 bg-body-secondary">
-                    <ul class="breadcrumb">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php?id=dates">Author</a></li>
-                        <li><a href="techSession.php">Session_Guidelines</a></li>
-                        <li>Session_Chair_Guidelines</li>
-                    </ul> 
-                </div>
-                <div class= "container-fluid tope  pb-5">
+                </div> -->
+
+                <div class="container tope py-2 bg-white">
                     <div class="row g-5">
-                        <div class= "col text-sm-left">
+                        <div class="col text-sm-left">
                             <div class="clearfix">
-                                <!-- <div class="text-center">
-                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/sessionChair.jpg"  alt="Session Chair Guidelines Image"> 
-                                </div> -->
-                                <h4 class="display-6 fw-bold">Session Chair Guidelines</h4>
-                                <p class="fs-5 mb-4">Dedicated instructions are available to ensure a smooth and productive online or in-person session, fostering active participation, and adhering to the schedule. </p>      <p class="mt-auto"><a href="../program/EDUNINE_In-PersonSessionChairInstructions.pdf"class="border-white btn btn-primary btn-sm align-self-end" role="button">In-Person Session Chair Instructions</a></p>
-                    <p class="mt-auto"><a href="../program/EDUNINE_OnlineSessionChairInstructions.pdf"class="border-white btn btn-primary btn-sm align-self-end" role="button">Online Session Chair Instructions</a></p>                                       
+                                <h4 class="display-6 fw-bold">Author Paper Presentation Guidelines</h4>
                                 
-                    <p class="mt-auto"><a href="../program/EDUNINE_GuiaPresidenteSesionEnPersona.pdf"class="border-white btn btn-primary btn-sm align-self-end" role="button">Instrucciones para presidentes de sesiones híbridas (en persona)</a ></p>
-                    <p class="mt-auto"><a href="../program/EDUNINE_GuiaPresidenteSesionOnline.pdf"class="border-white btn btn-primary btn-sm align-self-end" role="button">Instrucciones para presidentes de sesiones online</a></p></div>
+                                <!-- Card wrapper para el contenido -->
+                                <div class="card-author-presentation">
+                                    <p class="fs-5 mb-4">EDUNINE2026 empowers you to share your research with a global audience! Our guide equips you for impactful online or in-person presentations in Technical Sessions. Learn pre-session prep, platform specifics, interaction with the session chair, and adhering to presentation and Q&A timings. We aim for smooth, engaging sessions for all.<br>Remember, the optimal presentation format can vary! Authors have the flexibility to choose the approach that best suits their paper, ensuring clear communication within the allotted time slot.</p>
+                                    
+                                    <div class="d-flex flex-wrap gap-2 justify-content-center">
+                                        <a href="../program/EDUNINE_InPersonPresenterInstructions.pdf" class="btn btn-primary btn-sm" role="button">In-Person Presentation Instructions</a>
+                                        <a href="../program/EDUNINE_OnlinePresenterInstructions.pdf" class="btn btn-primary btn-sm" role="button">Online Presentation Instructions</a>
+                                        <a href="../program/EDUNINE_GuiaPresentadorEnPersona.pdf" class="btn btn-primary btn-sm" role="button">Instrucciones para presentación en persona</a>
+                                        <a href="../program/EDUNINE_GuiaPresentadorOnline.pdf" class="btn btn-primary btn-sm" role="button">Instrucciones para presentación online</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!-- <section id="chair">
+                
+                <div class= "container tope py-2 bg-white">
+                    <div class="container">
+                        <div class="row g-5">
+                            <div class= "col text-sm-left">
+                                <div class="clearfix">
+                                    <h4 class="display-6 fw-bold">Session Chair Guidelines</h4>
+                                    <p class="fs-5 mb-4">Dedicated instructions are available to ensure a smooth and productive online or in-person session, fostering active participation, and adhering to the schedule. </p>      <p class="mt-auto"><a href="../program/EDUNINE_In-PersonSessionChairInstructions.pdf"class="border-white btn btn-primary btn-sm align-self-end" role="button">In-Person Session Chair Instructions</a></p>
+                        <p class="mt-auto"><a href="../program/EDUNINE_OnlineSessionChairInstructions.pdf"class="border-white btn btn-primary btn-sm align-self-end" role="button">Online Session Chair Instructions</a></p>                                       
+                                    
+                        <p class="mt-auto"><a href="../program/EDUNINE_GuiaPresidenteSesionEnPersona.pdf"class="border-white btn btn-primary btn-sm align-self-end" role="button">Instrucciones para presidentes de sesiones híbridas (en persona)</a ></p>
+                        <p class="mt-auto"><a href="../program/EDUNINE_GuiaPresidenteSesionOnline.pdf"class="border-white btn btn-primary btn-sm align-self-end" role="button">Instrucciones para presidentes de sesiones online</a></p></div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+
+            <section id="chair">
+                <div class="container tope py-2 bg-white">
+                    <div class="row g-5">
+                        <div class="col text-sm-left">
+                            <div class="clearfix">
+                                <h4 class="display-6 fw-bold">Session Chair Guidelines</h4>
+                                <div class="card-session-chair">
+                                    <p class="fs-5 mb-4">Dedicated instructions are available to ensure a smooth and productive online or in-person session, fostering active participation, and adhering to the schedule.</p>
+                                    
+                                    <div class="d-flex flex-wrap gap-2 justify-content-center">
+                                        <a href="../program/EDUNINE_In-PersonSessionChairInstructions.pdf" class="btn btn-primary btn-sm" role="button">In-Person Session Chair Instructions</a>
+                                        <a href="../program/EDUNINE_OnlineSessionChairInstructions.pdf" class="btn btn-primary btn-sm" role="button">Online Session Chair Instructions</a>
+                                        <a href="../program/EDUNINE_GuiaPresidenteSesionEnPersona.pdf" class="btn btn-primary btn-sm" role="button">Instrucciones para presidentes de sesiones híbridas (en persona)</a>
+                                        <a href="../program/EDUNINE_GuiaPresidenteSesionOnline.pdf" class="btn btn-primary btn-sm" role="button">Instrucciones para presidentes de sesiones online</a>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>    
                     </div>
@@ -159,4 +212,4 @@
             <script src="../js/slick-carousel-config.js"></script>
             <!-- END  SLICK CAROUSEL-->
     </body>
-</html>                      
+</html>
