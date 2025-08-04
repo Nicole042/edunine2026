@@ -17,8 +17,17 @@
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
+        <link href="../css/postConf.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
+        <!--SLICK CAROUSEL-->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <!--END  SLICK CAROUSEL -->
 
     </head>
     <body onload = "jump()">
@@ -36,51 +45,43 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
-        <div> 
-            <!-- Navigation bar  -->
-            <?php include "edu9header.html" ?> 
-        </div>
-        <div class="#main"></div>
-
-        <section id="top" class="inicial">
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li>Post_Conference</li>
-                </ul> 
+        <main>
+            <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
+            <div> 
+                <!-- Navigation bar  -->
+                <?php include "edu9header.html" ?> 
             </div>
-            <div class= "container-fluid tope  py-5">
-
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/postConference.jpg"  alt="Post Conference Image">
-                            </div>
+                <section id="top" class="inicial">
+                    <div class="card container-fluid tope p-4 card-border-color shadow-sm w-75 mx-auto" style="">
+                        <div class="text-center">
+                            <img src="../images/decoration/postConference.jpg" class="w-25 img-fluid rounded img-postConf shadow" alt="Post Conference Image">
+                        </div>      
+                        <div class="card-body text-center pt-4">
                             <h2 class="display-6 fw-bold">Post Conference Outcomes</h2>
-
                             <p class="fs-5 mb-4">Estimated Date of Post-Conference Outcomes: Includes the publication of conference proceedings and issuance of author and participant certificates of participation.</p>
                         </div>
-                    </div>    
-                </div>
-            </div>
-
-            <?php include "../includesHtml/commingSoon.html" ?>
-
-
-        </section>
+                    </div>
+                    <?php include "../includesHtml/commingSoon.html" ?>
+                </section>         
        
-        <!-- Footer section -->
-        <div class ="container-fluid">
-            <!-- footer  -->
-            <?php include "../includesHtml/final.html" ?> 
-        </div>
+            <!-- Footer section -->
+            <!-- Footer section -->
+            <section id="organizers">
+                <div class ="container-fluid">
+                    <?php include '../includesHtml/final.html' ?>
+                </div> 
+            </section>
+        </main>      
         <script src ="../js/readmorereadless.js"></script> 
         <script src ="../js/backTop.js"></script>
         
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        <!-- START SLICK CAROUSEL-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <script src="../js/slick-carousel-config.js"></script>
     </body>
 </html>                      

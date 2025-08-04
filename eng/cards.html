@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Two-Card Carousel</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    /* let the carousel expand vertically to fit its content */
+    #paperCarousel .carousel-inner,
+    #paperCarousel .carousel-item {
+      height: auto;
+      /*max-width: 200px;*/
+      /*width: auto;*/
+    }
+    /* show overflow if a card grows taller */
+    #paperCarousel .carousel-inner {
+      overflow: hidden;
+    }
+    #paperCarousel {
+    max-width: 2500px;
+    margin: 0 auto;    /* center it in the viewport */
+    width: 100%;       /* so it shrinks below 2400px on small screens */
+    
+    }
+    /* remove any width:auto or max-width you put on .carousel-inner or .carousel-item */
+    #paperCarousel .carousel-inner,
+    #paperCarousel .carousel-item {
+    width: 91.6%;      /* full width of #paperCarousel */
+    max-width: none;  /* override any earlier max-width */
+    }
+
+   /* .carousel-inner {
+    position: relative;
+    /*max-width: 200px;*/
+   /* width: auto;
+    overflow: hidden;
+    }*/
+  </style>
+</head>
+<body>
+
+  <div id="paperCarousel" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#paperCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#paperCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container-fluid py-3">
+          <!--
+            row-cols-1: 1 card per row on xs
+            row-cols-md-2: 2 per row ≥md
+            g-4: uniform gutter
+            align-items-stretch: force cols to equal height
+          -->
+            <div class="row row-cols-1 row-cols-md-2 g-1 align-items-stretch">
+            
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <div class="container-card">
+                                <div class="card1">
+
+                                    <!-- FRONT -->
+                                    <!-- Improved Front of Full Paper Card -->
+                                    <div class="front1 d-flex align-items-center text-start p-3">
+
+                                        <div class="row gx-4 align-items-center w-100">
+
+                                            <!-- Image column -->
+                                            <div class="col-12 col-md-5 text-center mb-3 mb-md-0 pb-1">
+                                            <img
+                                                src="../images/decoration/fullPaper.jpg"
+                                                alt="Full Paper Requirements"
+                                                class="img-fluid rounded"
+                                            />
+                                            </div>
+
+                                            <!-- Text column -->
+                                            <!--<div class="col">-->
+
+                                            <h5 class="fs-3 fw-bold mb-3">
+                                                Full Paper Formatting Guidelines
+                                            </h5>
+
+                                            <p class="mb-3">
+                                                The <span class="fw-bold">Full Paper Format</span> is intended for
+                                                submissions that present mature, well-developed research results.
+                                                This format applies to:
+                                            </p>
+
+                                            <ul class="mb-0 ps-3 list-unstyled">
+                                                <li class="mb-2">
+                                                <span class="fw-bold">Category 1:</span>
+                                                Implemented Teaching Techniques, Classroom Experience Reports and Pedagogical Tools
+                                                </li>
+                                                <li class="mb-2">
+                                                <span class="fw-bold">Category 2:</span>
+                                                New Curricula and Educational Program Proposals
+                                                </li>
+                                                <li>
+                                                <span class="fw-bold">Category 3:</span>
+                                                Educational Research
+                                                </li>
+                                            </ul>
+
+                                            <!--</div>-->
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <!-- BACK -->
+                                    <div class="back1 d-flex flex-column justify-content-center text-start p-5 bg-dark text-white">
+                                    
+                                        <h6 class="fs-5 fw-bold mb-4 text-center">
+                                            Required Format
+                                        </h6>
+                                        
+                                        <ul class="list-unstyled mb-0 ps-3">
+                                            <li class="mb-2">
+                                            <span class="fw-bold text-white">Abstract:</span>
+                                            <span class="text-white">Include a concise, one-paragraph abstract (max 150 words).</span>
+                                            
+                                            </li>
+                                            <li class="mb-2">
+                                            <span class="fw-bold text-white">Length:</span>
+                                            <span class="text-white">4–6 pages, including references and abstract.</span>
+                                            </li>
+                                            <li>
+                                            <span class="fw-bold text-white">Template:</span>
+                                            <span class="text-white">Use the IEEE Manuscript Templates as specified.</span>
+                                            </li>
+                                            <li>
+                                            <span class="fw-bold text-white">English:</span>
+                                            <span class="text-white">Use formal academic language and IEEE citation style.</span>
+                                            </li>
+                                        </ul>
+                                    
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100 border-0">
+                        <div class="card-body">
+                            <div class="container-card">
+                                <div class="card1">
+
+                                <!-- FRONT -->
+                                <div class="front1 d-flex align-items-center text-start p-3">
+                                
+                                    <div class="row gx-4 align-items-center w-100">
+                                        
+                                        <!-- Image column -->
+                                        <div class="col-12 col-md-5 text-center mb-3 mb-md-0 pb-1">
+                                        <img
+                                            src="../images/decoration/wipPaper.jpg"
+                                            alt="WiP Paper Requirements"
+                                            class="img-fluid rounded"
+                                        />
+                                        </div>
+                                        
+                                        <!-- Text column -->
+                                        <div class="col">                                       
+                                        <h5 class="fs-3 fw-bold mb-3">
+                                            Work in Progress (WiP) Formatting Guidelines
+                                        </h5>
+                                        
+                                        <p class="mb-3">
+                                            The <span class="fw-bold">Work in Progress Papers</span> are suitable for
+                                            ongoing projects with preliminary results or findings, or for early-stage
+                                            research. This format applies to the following categories:
+                                        </p>
+
+                                        <ul class="mb-0 ps-3 list-unstyled">
+                                            <li class="mb-2">
+                                            <span class="fw-bold">Category 1:</span>
+                                            Implemented Teaching Techniques, Classroom Experience Reports,
+                                            and Pedagogical Tools
+                                            </li>
+                                            <li class="mb-2">
+                                            <span class="fw-bold">Category 2:</span>
+                                            New Curricula and Educational Program Proposals
+                                            </li>
+                                            <li>
+                                            <span class="fw-bold">Category 3:</span>
+                                            Educational Research
+                                            </li>
+                                        </ul>
+                                        
+                                        </div>
+                                        
+                                    </div>
+                                
+                                </div>
+
+
+                                <!-- BACK -->
+                                    <!-- Improved Back of WiP Card -->
+                                    <div class="back1 d-flex flex-column justify-content-center text-start p-5 bg-dark text-white h-100">
+
+                                    <h6 class="fs-5 fw-bold mb-4">
+                                        Required Format
+                                    </h6>
+
+                                    <ul class="list-unstyled mb-0 ps-3">
+                                        <li class="mb-2">
+                                        <span class="fw-bold text-white">Title:</span>
+                                        <span class="text-white">Begin your title with “Work in Progress:” followed by the specific paper title.</span>
+                                        
+                                        </li>
+                                        <li class="mb-2">
+                                        <span class="fw-bold text-white">Abstract:</span>
+                                        <span class="text-white">Include a concise, one-paragraph abstract (maximum 150 words).</span>
+                                        </li>
+                                        <li class="mb-2">
+                                        <span class="fw-bold text-white">Length:</span>
+                                        <span class="text-white">2–4 pages, including references and abstract.</span>
+                                        </li>
+                                        <li class="mb-2">
+                                        <span class="fw-bold text-white">Template:</span>
+                                        <span class="text-white">Use the provided IEEE Manuscript Templates as specified in the “Mandatory Conference Paper Templates” section.</span>
+                                        </li>
+                                        <li>
+                                        <span class="fw-bold text-white">English:</span>
+                                        <span class="text-white">Use formal academic language and IEEE citation style.</span>
+                                        
+                                        </li>
+                                    </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+      <!--2nd track-->
+        <div class="carousel-item">
+            <div class="container-fluid py-3">
+            <!--
+                row-cols-1: 1 card per row on xs
+                row-cols-md-2: 2 per row ≥md
+                g-4: uniform gutter
+                align-items-stretch: force cols to equal height
+            -->
+                <div class="row row-cols-1 row-cols-md-2 g-1 align-items-stretch">
+                
+                    <!-- Card 3 -->
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <div class="container-card">
+                                    <div class="card1">
+
+                                        <!-- FRONT -->
+                                        <!-- Doctoral Symposium Card -->
+                                        <div class="front1 d-flex align-items-center text-start p-3">
+                                            <div class="row gx-4 align-items-center">
+                                                <!-- Image Column -->
+                                                <div class="col-12 col-md-5 text-center text-center pb-1">
+                                                    <img
+                                                    src="../images/decoration/dsPaper.jpg"
+                                                    alt="Doctoral Symposium Paper Requirements"
+                                                    class="img-fluid rounded"
+                                                    />
+                                                </div>
+
+                                                <!-- Text Column -->
+                                                <div class="col">
+                                                    <h5 class="fs-3 fw-bold mb-3">
+                                                    Doctoral Symposium (DS) Paper Formatting Guidelines
+                                                    </h5>
+                                                    <p class="mb-3">
+                                                    These papers provide a venue for doctoral students to share work in
+                                                    progress and receive feedback from the academic community. This format
+                                                    is required for:
+                                                    </p>
+                                                    <ul class="mb-0 ps-3 list-unstyled">
+                                                    <li class="mb-2">
+                                                        <span class="fw-bold">Category 4:</span>
+                                                        Research-in-Development (RID) for Doctoral Students
+                                                    </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- BACK -->
+                                        <div class="back1 d-flex flex-column justify-content-center text-start p-5 bg-dark text-white">
+                                        
+                                            <h6 class="fs-5 fw-bold mb-4 text-center">
+                                                Required Format
+                                            </h6>
+
+                                            <ul class="list-unstyled mb-0 ps-4">
+                                                <li class="mb-2">
+                                                <span class="fw-bold text-white">Title:</span>
+                                                <span class="text-white">Begin your Paper Title with “DS:”</span>
+                                                </li>
+                                                <li class="mb-2">
+                                                <span class="fw-bold text-white">Abstract:</span>
+                                                <span class="text-white">Include a concise, one-paragraph abstract (max 150 words).</span>
+                                                </li>
+                                                <li class="mb-2">
+                                                <span class="fw-bold text-white">Length:</span>
+                                                <span class="text-white">Up to 4 pages, including references and abstract.</span>
+                                                </li>
+                                                <li class="mb-2">
+                                                <span class="fw-bold text-white">Template:</span>
+                                                <span class="text-white">Use the IEEE Manuscript Templates from the “Mandatory Conference Paper Templates” section.</span>
+                                                </li>
+                                                <li>
+                                                <span class="fw-bold text-white">English:</span>
+                                                <span class="text-white">Use formal academic language and IEEE citation style.</span>
+                                                </li>
+                                            </ul>
+                                        
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <div class="card-body">
+                                <div class="container-card">
+                                    <div class="card1">
+
+                                    <!-- FRONT -->
+                                    <div class="front1 d-flex align-items-center text-start p-3">
+                                       
+                                            <div class="row gx-4 align-items-center">
+                                                <!-- Image column -->
+                                                <div class="col-12 col-md-5 text-center pb-1">
+                                                    <img
+                                                    src="../images/decoration/workshopPaper.jpg"
+                                                    alt="Workshop Proposal Paper Format"
+                                                    class="img-fluid rounded"
+                                                    />
+                                                </div>
+
+                                                <!-- Text Column -->
+                                                <div class="col">
+                                                    <h5 class="fs-3 fw-bold mb-3">
+                                                    Workshop Proposal Paper Formatting Guidelines
+                                                    </h5>
+                                                    <p class="mb-3 lh-sm">
+                                                    <strong>Workshop Papers</strong> describe interactive, hands-on sessions intended for skill-building, discussion, and participant engagement. This format is used for:
+                                                    </p>
+                                                    <ul class="mb-0 ps-3 list-unstyled">
+                                                    <li>
+                                                        <span class="fw-bold">Category 5:</span>
+                                                        Workshop Proposals
+                                                    </li>
+                                                    </ul>
+                                                </div>
+                                            </div>          
+                                    </div>
+                                    <!-- BACK -->
+                                        <!-- Improved Back of Workshop Card -->
+                                        <div class="back1 d-flex flex-column justify-content-center text-start p-5 bg-dark text-white h-100">
+
+                                        <h6 class="fs-5 fw-bold mb-4 text-center">
+                                            Formatting
+                                        </h6>
+
+                                        <ul class="list-unstyled mb-0 ps-3">
+                                            <li class="mb-2">
+                                            <span class="fw-bold text-white">Title:</span>
+                                            <span class="text-white">Begin your title with “Workshop:” followed by the specific workshop title.</span>
+                                            </li>
+                                            <li class="mb-2">
+                                            <span class="fw-bold text-white">Abstract:</span>
+                                            <span class="text-white">Include a concise, one-paragraph abstract (maximum 150 words).</span>
+                                            </li>
+                                            <li class="mb-2">
+                                            <span class="fw-bold text-white">Length:</span>
+                                            <span class="text-white">Choose either <span class="fw-bold">Full Paper </span> (up to 6 pages)or <span class="fw-bold">Short Paper</span> (up to 2 pages), both including references and abstract.</span>
+                                            </li>
+                                            <li class="mb-2">
+                                            <span class="fw-bold text-white">Template:</span>
+                                            <span class="text-white">Use the provided IEEE Manuscript Templates from the “Mandatory Conference Paper Templates” section.</span>
+                                            
+                                            </li>
+                                            <li>
+                                            <span class="fw-bold text-white">English:</span>
+                                            <span class="text-white">Use formal academic language and IEEE citation style.</span>
+                                            </li>
+                                        </ul>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel controls -->
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#paperCarousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#paperCarousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

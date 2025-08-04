@@ -17,6 +17,7 @@
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
+
         <link href="../css/stylevenue.css" rel="stylesheet">
         <link href="../css/coordinator.css" rel="stylesheet">
 
@@ -54,7 +55,7 @@
         <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <div> 
             <!-- Navigation bar  -->
-            <?php include "edu9header.html" ?> 
+            <?php include "newHeader.html" ?> 
         </div>
         <div class="#main"></div>
 
@@ -78,13 +79,16 @@
                 <nav class="section-nav" aria-label="Section navigation">
                     <ul class="d-flex justify-content-end list-unstyled mb-0">
                         <li class="nav-item mx-1">
-                        <a class="nav-link px-3 py-2 btn" href="#primera">About </a>
+                        <a class="nav-link px-3 py-2 btn" href="#about">About </a>
                         </li>
                         <li class="nav-item mx-1">
                         <a class="nav-link px-3 py-2 btn" href="#dates">Schedule</a>
                         </li>
                         <li class="nav-item mx-1">
                         <a class="nav-link px-3 py-2 btn" href="#coordinators">Coordinators</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                        <a class="nav-link px-3 py-2 btn" href="#venue">Venue</a>
                         </li>
                         <li class="nav-item mx-1">
                         <a class="nav-link px-3 py-2 btn" href="#organizers">Organizers</a>
@@ -220,8 +224,7 @@
                                     </div>
                                 </div>
                             </div>
-                    </div>
-                    
+                    </div>                  
                 </div>
                 <div class="d-none mt-3 peerReview">
                     <div class="container-fluid p-4">
@@ -499,7 +502,6 @@
                 </div>
             </section> 
     <!-- Coordinators section This was the previous location, should we mantain it?-->
-
     <section id="coordinators">
         <div class="container-fluid px-5">
             <h2 class="display-5 fw-bold text-center mb-4">Coordinators</h2>
@@ -590,7 +592,7 @@
                     <img src="../images/logos_cooperation/logo_sbc.gif"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
-                
+            
                     <div class="overlay-content">
                         <h2>Ana Luna</h2>
                         <h2>Technical Program Co-Chair</h2>
@@ -607,7 +609,7 @@
                     <img src="../images/logos_cooperation/logo_sbc.gif"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
-                
+                 
                     <div class="overlay-content">
                         <h2>Agatha da Silva Ovando</h2>
                         <h2>Technical Program Co-Chair</h2>
@@ -884,6 +886,7 @@
         <?php include '../includesHtml/final.html' ?>
     </div> 
 </section>
+</main>
         <script src ="../js/datesFill.js?1"></script>
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>      
