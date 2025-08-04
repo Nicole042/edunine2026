@@ -45,14 +45,15 @@
         <div class="#main"></div>
 
         <section id="top" class="inicial">
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li>Conference</li>
-                </ul> 
+            <div class="container pb-0">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent px-0">
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.php?id=dates">Author</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Conference</li>
+                </ol>
+            </nav>
             </div>
-
             <!-- CONTENEDOR PRINCIPAL -->
             <div class="container-fluid py-5 bg-light">
             <div class="row align-items-center g-5">
@@ -98,125 +99,151 @@
         </section>
 
         <!-- Pre-Conference tour -->
-    inicio<section id="tour" class="bg-light pt-5">
-    <div class="container pb-0">
-        <nav aria-label="breadcrumb">
+    <section id="tour" class="bg-light pt-5">
+        <div class="container pb-0">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent px-0">
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php?id=dates">Author</a></li>
+                    <li class="breadcrumb-item"><a href="program.php">Conference</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Pre-Conference Tour</li>
+                </ol>
+            </nav>
+        </div>
+
+        <div class="container pb-5">
+            <div class="row g-4 align-items-center">
+            <div class="col-md-5">
+                <div class="card shadow-sm border-0 rounded-4 overflow-hidden">
+                <img src="../images/decoration/preConfTour.jpg" class="img-fluid" alt="Pre-conference Tour Image">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="card bg-white shadow-sm rounded-4 p-4 border-0 h-100">
+                <h4 class="fw-bold text-primary mb-2">Saturday, March 7: Pre-Conference Tour</h4>
+                <h6 class="fw-semibold text-secondary">Join Us for a Special Pre-Conference Tour in Mexico City!</h6>
+                <p class="mt-3">Before the conference officially begins, take part in an unforgettable cultural experience offered by Tecnológico de Monterrey. Explore iconic sites, connect with fellow attendees, and enjoy a delicious local lunch (at your own expense).</p>
+                <p class="text-danger fw-semibold">⚠ Spots are limited — check the timeline for the registration deadline!</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container pb-5">
+            <div class="card bg-white shadow-sm rounded-4 p-4 border-0">
+            <h4 class="fw-bold text-primary"> Discover Mexico City!</h4>
+            <p>Kick off your conference experience with a <strong>Pre-Conference Tour</strong> exploring the rich culture and history of <strong>Mexico City</strong>! This guided excursion, offered by the host institution, <strong>Tecnológico de Monterrey</strong>, includes a stop for a traditional Mexican lunch at a renowned local restaurant. <em>Lunch is at your own expense.</em></p>
+
+            <p>It’s a perfect opportunity to connect with fellow participants in a relaxed and informal setting before the official conference sessions begin.</p>
+
+            <div class="info-highlight">
+            <h6> Tour Highlights</h6>
+            <p>A detailed itinerary with featured stops and activities will be announced soon. Stay tuned!</p>
+            </div>
+
+            <div class="info-highlight">
+            <h6 id="registration-title">Registration Deadline</h6>
+            <p>The registration due date for the tour is listed in the <strong>Conference Timeline</strong> section of the website.</p>
+            <p>Registration will be open after the Final Paper Notification date.</p>
+            </div>
+
+            <p class="fst-italic text-muted"> Spaces are limited – early registration is recommended!</p>
+            </div>
+        </div>
+    </section>
+
+inicio
+    <!-- Pre-conference Workshops -->
+
+<section id="pcworkshops" style="background-color: #e6f0fc;">
+  <div class="container pb-0">
+    <nav aria-label="breadcrumb">
         <ol class="breadcrumb bg-transparent px-0">
             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
             <li class="breadcrumb-item"><a href="index.php?id=dates">Author</a></li>
             <li class="breadcrumb-item"><a href="program.php">Conference</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Pre-Conference Tour</li>
+            <li class="breadcrumb-item active" aria-current="page">Pre-Conference Workshops</li>
         </ol>
-        </nav>
+    </nav>
+
+  </div>
+
+  <div class="container pb-5">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-5">
+        <div class="rounded-4 shadow bg-white p-3">
+          <img src="../images/decoration/preConfWorkshops.jpg" class="img-fluid rounded-4" alt="Pre-conference Workshops">
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="bg-white rounded-4 shadow p-4">
+          <h2 class="fw-bold text-success">Sunday, March 8</h2>
+          <h4 class="fw-semibold">Pre-Conference Online Workshops: A Catalyst for Deep Learning</h4>
+          <p class="fs-5 mt-3"><strong>Embrace a dynamic learning experience</strong> at EDUNINE2026's pre-conference workshops on Sunday, March 8th. Designed for a hands-on approach, these sessions provide immersive exploration of critical topics in higher education.</p>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="container pb-5">
-        <div class="row g-4 align-items-center">
-        <div class="col-md-5">
-            <div class="card shadow-sm border-0 rounded-4 overflow-hidden">
-            <img src="../images/decoration/preConfTour.jpg" class="img-fluid" alt="Pre-conference Tour Image">
-            </div>
-        </div>
-        <div class="col-md-7">
-            <div class="card bg-white shadow-sm rounded-4 p-4 border-0 h-100">
-            <h4 class="fw-bold text-primary mb-2">Saturday, March 7: Pre-Conference Tour</h4>
-            <h6 class="fw-semibold text-secondary">Join Us for a Special Pre-Conference Tour in Mexico City!</h6>
-            <p class="mt-3">Before the conference officially begins, take part in an unforgettable cultural experience offered by Tecnológico de Monterrey. Explore iconic sites, connect with fellow attendees, and enjoy a delicious local lunch (at your own expense).</p>
-            <p class="text-danger fw-semibold">⚠ Spots are limited — check the timeline for the registration deadline!</p>
-            </div>
-        </div>
-        </div>
-    </div>
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-12">
+        <div class="bg-white shadow rounded-4 p-4">
+          <h2 class=" text-dark fw-bold mb-3">Enhance Your Teaching Practice at EDUNINE2026!</h2>
 
-    <div class="container pb-5">
-        <div class="card bg-white shadow-sm rounded-4 p-4 border-0">
-        <h4 class="fw-bold text-primary"> Discover Mexico City!</h4>
-        <p>Kick off your conference experience with a <strong>Pre-Conference Tour</strong> exploring the rich culture and history of <strong>Mexico City</strong>! This guided excursion, offered by the host institution, <strong>Tecnológico de Monterrey</strong>, includes a stop for a traditional Mexican lunch at a renowned local restaurant. <em>Lunch is at your own expense.</em></p>
-
-        <p>It’s a perfect opportunity to connect with fellow participants in a relaxed and informal setting before the official conference sessions begin.</p>
-
-        <div class="info-highlight">
-        <h6> Tour Highlights</h6>
-        <p>A detailed itinerary with featured stops and activities will be announced soon. Stay tuned!</p>
-        </div>
-
-        <div class="info-highlight">
-        <h6 id="registration-title">Registration Deadline</h6>
-        <p>The registration due date for the tour is listed in the <strong>Conference Timeline</strong> section of the website.</p>
-        <p>Registration will be open after the Final Paper Notification date.</p>
-        </div>
-
-        <p class="fst-italic text-muted"> Spaces are limited – early registration is recommended!</p>
-        </div>
-    </div>
-    </section>
-final
-
-    <!-- Pre-conference Workshops -->
-
-    <section id="pcworkshops">
-        <div class="container-fluid align-content-start pt-5 pb-0">
-            <ul class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="index.php?id=dates">Author</a></li>
-                <li><a href="program.php">Conference</a></li>
-                <li>Pre_Conference_Workshops</li>
-            </ul> 
-        </div>
-        <div class= "container-fluid tope  pb-5">
-            <div class="row g-5">
-                <div class= "col text-sm-left">
-                    <div class="clearfix">
-                        <div class="text-center">
-                            <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/preConfWorkshops.jpg" alt="Pre-conference Workshops"> 
-                        </div>
-                        <h4 class="display-6 fw-bold">Sunday, March 8: Pre-Conference Online Workshops: A Catalyst for Deep Learning</h4>
-
-                        <p class="fs-5 mb-4"><b>Embrace a dynamic learning experience</b> at EDUNINE2026's pre-conference workshops on Sunday, March 8th. Designed for a hands-on approach, these sessions provide an opportunity for immersive exploration of critical topics in higher education. Led by distinguished educators and researchers, each workshop incorporates interactive activities, reflective exercises, and collaborative discussions.
-                        </p>
-                    </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm hover-card">
+                <div class="card-body">
+                  <h5 class="card-title text-success fw-bold">Deepen Your Knowledge</h5>
+                  <p class="card-text">Engage in key pedagogical discussions and curriculum development strategies.</p>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="container-fluid py-5 bg-body-secondary">   
-            <div class="row">
-                <div class="col-sm-12 text-sm-left">
-                    <h6 class="display-6 fw-bold">Enhance Your Teaching Practice at EDUNINE2026!</h6>
-                    <h5 class="fs-3 fw-bold">Why Should You Attend?</h5>
-
-                    <ul><li class="lh-sm"><b>Deepen Your Knowledge:</b> Engage with focused discussions on key areas of pedagogy, research, or curriculum development.
-                        </li><li class="lh-sm"><b>Refine Your Skills:</b> Acquire practical tools and strategies readily applicable to your teaching practice or scholarship of learning and teaching (SoTL).
-                        </li><li class="lh-sm"><b>Foster Collaboration:</b> Network with fellow educators, share experiences, and build a vibrant professional community.</li></ul>
-
-                    <h5 class="fs-3 fw-bold">Flexible Learning Format:</h5>
-
-                    <p class="lh-sm">Workshops range from 1 to 4 sessions, each lasting a comprehensive 1 hour and 30 minutes. This flexible structure enables in-depth exploration while ensuring efficient time management.</p>
-
-                    <h5 class="fs-3 fw-bold">Complimentary Access for Eligible Participants:</h5>
-
-                    <p class="lh-sm">Attendance is <b>free of charge</b> for all registered conference participants, co-authors (unregistered), and members of the Tecnológico de Monterrey community. <b>EDUNINE will provide Certificates of Attendance</b> to all workshop participants.</p>
-
-                    <h5 class="fs-3 fw-bold">Virtual Participation with Global Interaction:</h5>
-
-                    <p class="lh-sm">Please note, due to university policy and building closures on Sundays, EDUNINE2026's pre-conference workshops will be held entirely online. All workshops will be live-streamed, and access links will be distributed via email a week prior to the event. Each session will dedicate time for interactive participation, fostering questions and global discussion among all attendees.</p>
-
-                    <p class="lh-sm"><b>The detailed workshop program, including all sessions and activities, will be published on this section after the final paper due date.</b>
-                        Don’t miss this opportunity to gain valuable insights and enhance your conference experience with our engaging pre-conference workshops!</p>
-                    <h5 class="fs-3 fw-bold">Invest in Your Teaching Journey:</h5>
-
-                    <p class="lh-sm">By participating in these workshops, you will gain valuable insights and resources to:</p><ul>
-
-                        <li class="lh-sm">Elevate your teaching practice with innovative strategies.
-                        </li><li class="lh-sm">Enrich your SoTL with contemporary knowledge and best practices.
-                        </li><li class="lh-sm">Implement practical materials immediately impactful in your classroom.</li></ul>
-
-                    <p class="lh-sm"><b>Embark on a transformative learning experience at EDUNINE2026!</b> </p>
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm hover-card">
+                <div class="card-body">
+                  <h5 class="card-title  text-success fw-bold">Refine Your Skills</h5>
+                  <p class="card-text">Gain actionable tools for your teaching and SoTL.</p>
                 </div>
-            </div>    
-        </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm hover-card">
+                <div class="card-body">
+                  <h5 class="card-title  text-success fw-bold">Foster Collaboration</h5>
+                  <p class="card-text">Connect and share with global educators and researchers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <hr class="my-4">
+
+          <h5 class="fw-bold text-secondary">Flexible Learning Format</h5>
+          <p class="text-muted">1–4 sessions, each 90 minutes. In-depth yet efficient.</p>
+
+          <h5 class="fw-bold text-secondary">Complimentary Access</h5>
+          <p class="text-muted">Free for registered participants, co-authors, and Tec de Monterrey community. Includes certificates.</p>
+
+          <h5 class="fw-bold text-secondary">Virtual Participation</h5>
+          <p class="text-muted">Online only. Live-streamed globally. Interactive Q&A and discussion guaranteed.</p>
+
+          <h5 class="fw-bold text-secondary">Your Takeaway</h5>
+          <ul>
+            <li>Innovative teaching strategies</li>
+            <li>Contemporary SoTL insights</li>
+            <li>Ready-to-use class materials</li>
+          </ul>
+
+          <p class="fw-bold text-primary">Don’t miss this opportunity to elevate your teaching!</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+fin
 <!-- Conference Program -->
 
 <section id="program">
