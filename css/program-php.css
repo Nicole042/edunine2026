@@ -1,0 +1,31 @@
+/*Modificacion program.php*/
+.event-date-box {
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.2s ease;
+  position: relative;
+}
+
+.event-date-box[data-color="primary"] {
+  background-color: #5a9cff;
+}
+.event-date-box[data-color="success"] {
+  background-color: #2fb677;
+}
+.event-date-box[data-color="warning"] {
+  background-color: #ffd557;
+  color: black;
+}
+
+.event-date-box:hover {
+  transform: scale(1.05);
+}
+
+/* Opcional: animación suave al mostrar el info-box */
+#event-info-box {
+  transition: all 0.3s ease;
+  border-color: #ccc;
+}
