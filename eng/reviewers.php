@@ -52,7 +52,6 @@
                 </ul> 
             </div>
 
-            empezar 
             <div class="container-fluid py-5" style="background: #f9fafc;">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
@@ -61,10 +60,11 @@
                         
                         <!-- Imagen -->
                         <div class="col-md-4 text-center">
-                            <img src="../images/decoration/peerReviewer.jpg" 
+                            <img src="../images/decoration/newpeerRevGuide.png" 
                                 alt="Information for Reviewers" 
                                 class="img-fluid rounded-3 shadow-sm">
                         </div>
+
 
                         <!-- Texto -->
                         <div class="col-md-8">
@@ -175,8 +175,6 @@
         </section>
 
 
-
-        final
         <!-- Review Process and Manuscript types -->
 
         <section id="revGuide">
