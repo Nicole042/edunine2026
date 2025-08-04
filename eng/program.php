@@ -152,185 +152,211 @@
         </div>
     </section>
 
-inicio
+
     <!-- Pre-conference Workshops -->
 
-<section id="pcworkshops" style="background-color: #e6f0fc;">
-  <div class="container pb-0">
-    <nav aria-label="breadcrumb">
+    <section id="pcworkshops" style="background-color: #e6f0fc;">
+    <div class="container pb-0">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent px-0">
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.php?id=dates">Author</a></li>
+                <li class="breadcrumb-item"><a href="program.php">Conference</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Pre-Conference Workshops</li>
+            </ol>
+        </nav>
+
+    </div>
+
+    <div class="container pb-5">
+        <div class="row align-items-center g-4">
+        <div class="col-lg-5">
+            <div class="rounded-4 shadow bg-white p-3">
+            <img src="../images/decoration/preConfWorkshops.jpg" class="img-fluid rounded-4" alt="Pre-conference Workshops">
+            </div>
+        </div>
+        <div class="col-lg-7">
+            <div class="bg-white rounded-4 shadow p-4">
+            <h2 class="fw-bold text-success">Sunday, March 8</h2>
+            <h4 class="fw-semibold">Pre-Conference Online Workshops: A Catalyst for Deep Learning</h4>
+            <p class="fs-5 mt-3"><strong>Embrace a dynamic learning experience</strong> at EDUNINE2026's pre-conference workshops on Sunday, March 8th. Designed for a hands-on approach, these sessions provide immersive exploration of critical topics in higher education.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row g-4">
+        <div class="col-12">
+            <div class="bg-white shadow rounded-4 p-4">
+            <h2 class=" text-dark fw-bold mb-3">Enhance Your Teaching Practice at EDUNINE2026!</h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                <div class="card h-100 border-0 shadow-sm hover-card">
+                    <div class="card-body">
+                    <h5 class="card-title text-success fw-bold">Deepen Your Knowledge</h5>
+                    <p class="card-text">Engage in key pedagogical discussions and curriculum development strategies.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100 border-0 shadow-sm hover-card">
+                    <div class="card-body">
+                    <h5 class="card-title  text-success fw-bold">Refine Your Skills</h5>
+                    <p class="card-text">Gain actionable tools for your teaching and SoTL.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                <div class="card h-100 border-0 shadow-sm hover-card">
+                    <div class="card-body">
+                    <h5 class="card-title  text-success fw-bold">Foster Collaboration</h5>
+                    <p class="card-text">Connect and share with global educators and researchers.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <h5 class="fw-bold text-secondary">Flexible Learning Format</h5>
+            <p class="text-muted">1–4 sessions, each 90 minutes. In-depth yet efficient.</p>
+
+            <h5 class="fw-bold text-secondary">Complimentary Access</h5>
+            <p class="text-muted">Free for registered participants, co-authors, and Tec de Monterrey community. Includes certificates.</p>
+
+            <h5 class="fw-bold text-secondary">Virtual Participation</h5>
+            <p class="text-muted">Online only. Live-streamed globally. Interactive Q&A and discussion guaranteed.</p>
+
+            <h5 class="fw-bold text-secondary">Your Takeaway</h5>
+            <ul>
+                <li>Innovative teaching strategies</li>
+                <li>Contemporary SoTL insights</li>
+                <li>Ready-to-use class materials</li>
+            </ul>
+
+            <p class="fw-bold text-primary">Don’t miss this opportunity to elevate your teaching!</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+<!-- Conference Program -->
+
+    <section id="program" class="bg-light">
+    <div class="container-fluid pt-5 pb-3">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
         <ol class="breadcrumb bg-transparent px-0">
             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
             <li class="breadcrumb-item"><a href="index.php?id=dates">Author</a></li>
             <li class="breadcrumb-item"><a href="program.php">Conference</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Pre-Conference Workshops</li>
+            <li class="breadcrumb-item active" aria-current="page">Conference Program</li>
         </ol>
-    </nav>
-
-  </div>
-
-  <div class="container pb-5">
-    <div class="row align-items-center g-4">
-      <div class="col-lg-5">
-        <div class="rounded-4 shadow bg-white p-3">
-          <img src="../images/decoration/preConfWorkshops.jpg" class="img-fluid rounded-4" alt="Pre-conference Workshops">
-        </div>
-      </div>
-      <div class="col-lg-7">
-        <div class="bg-white rounded-4 shadow p-4">
-          <h2 class="fw-bold text-success">Sunday, March 8</h2>
-          <h4 class="fw-semibold">Pre-Conference Online Workshops: A Catalyst for Deep Learning</h4>
-          <p class="fs-5 mt-3"><strong>Embrace a dynamic learning experience</strong> at EDUNINE2026's pre-conference workshops on Sunday, March 8th. Designed for a hands-on approach, these sessions provide immersive exploration of critical topics in higher education.</p>
-        </div>
-      </div>
+        </nav>
     </div>
-  </div>
 
-  <div class="container py-5">
-    <div class="row g-4">
-      <div class="col-12">
-        <div class="bg-white shadow rounded-4 p-4">
-          <h2 class=" text-dark fw-bold mb-3">Enhance Your Teaching Practice at EDUNINE2026!</h2>
-
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100 border-0 shadow-sm hover-card">
-                <div class="card-body">
-                  <h5 class="card-title text-success fw-bold">Deepen Your Knowledge</h5>
-                  <p class="card-text">Engage in key pedagogical discussions and curriculum development strategies.</p>
-                </div>
-              </div>
+    <!-- Intro Section -->
+    <div class="container py-4">
+        <div class="row align-items-center g-4">
+        <div class="col-md-5 text-center">
+            <img src="../images/decoration/confProgram.jpg" alt="Conference Program Image" class="img-fluid rounded-4 shadow">
+        </div>
+        <div class="col-md-7">
+            <div class="bg-white rounded-4 p-4 shadow-sm">
+            <h4 class="text-warning fw-bold mb-3">Monday, March 9 to Wednesday, March 11: Conference Program</h4>
+            <p class="fs-5 mb-0">
+                <strong>Welcome to EDUNINE2026!</strong> We are thrilled to invite you to participate in our dynamic three-day conference program designed to foster intellectual exchange and collaboration. This comprehensive guide outlines everything you need to know about presenting your research, navigating the conference structure, and maximizing your learning and networking opportunities. Whether you are joining us in person or online, EDUNINE2026 offers a wealth of engaging sessions, insightful presentations, and valuable interactions with colleagues from across the globe. We look forward to welcoming you and embarking on this enriching learning journey together.
+            </p>
             </div>
-            <div class="col">
-              <div class="card h-100 border-0 shadow-sm hover-card">
-                <div class="card-body">
-                  <h5 class="card-title  text-success fw-bold">Refine Your Skills</h5>
-                  <p class="card-text">Gain actionable tools for your teaching and SoTL.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 border-0 shadow-sm hover-card">
-                <div class="card-body">
-                  <h5 class="card-title  text-success fw-bold">Foster Collaboration</h5>
-                  <p class="card-text">Connect and share with global educators and researchers.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <hr class="my-4">
-
-          <h5 class="fw-bold text-secondary">Flexible Learning Format</h5>
-          <p class="text-muted">1–4 sessions, each 90 minutes. In-depth yet efficient.</p>
-
-          <h5 class="fw-bold text-secondary">Complimentary Access</h5>
-          <p class="text-muted">Free for registered participants, co-authors, and Tec de Monterrey community. Includes certificates.</p>
-
-          <h5 class="fw-bold text-secondary">Virtual Participation</h5>
-          <p class="text-muted">Online only. Live-streamed globally. Interactive Q&A and discussion guaranteed.</p>
-
-          <h5 class="fw-bold text-secondary">Your Takeaway</h5>
-          <ul>
-            <li>Innovative teaching strategies</li>
-            <li>Contemporary SoTL insights</li>
-            <li>Ready-to-use class materials</li>
-          </ul>
-
-          <p class="fw-bold text-primary">Don’t miss this opportunity to elevate your teaching!</p>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-fin
-<!-- Conference Program -->
-
-<section id="program">
-    <div class="container-fluid align-content-start pt-5 pb-0">
-        <ul class="breadcrumb">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="index.php?id=dates">Author</a></li>
-            <li><a href="program.php">Conference</a></li>
-            <li>Conference_Program</li>
-        </ul> 
-    </div>
-    <div class= "container-fluid tope  pb-5">
-        <div class="row g-5">
-            <div class= "col text-sm-left">
-                <div class="clearfix">
-                    <div class="text-center">
-                        <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/confProgram.jpg"  alt="Conference Program Image"> 
-                    </div>
-                    <h4 class="display-6 fw-bold">Monday, March 9 to Wednesday, March 11: Conference Program</h4>
-                    <p class="fs-5 mb-4"><b>Welcome to EDUNINE2026!</b> We are thrilled to invite you to participate in our dynamic three-day conference program designed to foster intellectual exchange and collaboration.  This comprehensive guide outlines everything you need to know about presenting your research, navigating the conference structure, and maximizing your learning and networking opportunities.  Whether you are joining us in person or online, EDUNINE2026 offers a wealth of engaging sessions, insightful presentations, and valuable interactions with colleagues from across the globe.  We look forward to welcoming you and embarking on this enriching learning journey together.</p>     
-                </div>
-            </div>    
         </div>
     </div>
-    <div class="container-fluid py-3">
-        <div class ="row">
-            <div class= "col text-sm-left">
-                <h6 class="display-6 fw-bold">EDUNINE2026 Conference Participation Information</h6>
 
-                    <h5 class="fs-3 fw-bold">Oral Presentation Requirements</h5><ul>
+    <!-- Information Cards Section -->
+    <div class="container py-5">
+        <h2 class="display-6 fw-bold text-warning mb-4">Conference Participation Highlights</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
 
-                        <li><b>Mandatory Presentation:</b>  Acceptance of a paper for the conference proceedings necessitates an oral presentation (online or in-person) at the conference.
-                        </li><li><b>Author Registration:</b> At least one author of each accepted paper must register for the conference by the designated registration deadline to ensure inclusion in the oral presentations schedule.  Please refer to <a href="fees.php" class="border-white btn btn-primary btn-md" role="button">Registration and Payment</a> for details.
-                        </li><li><b>Presentation Options:</b>  Authors may choose to present their work in person or virtually.  Both in-person and online presenters will receive equal consideration and opportunities for engagement.  Further details are available at <a href="techSession.php" class="border-white btn btn-primary btn-md" role="button">Paper Presentation Guidelines</a>.
-                        </li><li><b>Global Audience:</b> Each presentation will be accessible to a diverse audience of registered participants, both attending in-person and online. 
-                        </li><li><b>Presentation Recordings:</b>  All oral presentations will be recorded for archival purposes.</li></ul>
+        <!-- Card 1 -->
+        <div class="col">
+            <div class="card h-100 border-warning border-3 rounded-4">
+            <div class="card-body">
+                <h5 class="card-title text-warning fw-bold">Oral Presentation Requirements</h5>
+                <ul class="lh-sm">
+                <li><strong>Mandatory Presentation:</strong> All accepted papers must be presented.</li>
+                <li><strong>Author Registration:</strong> At least one author must register by the deadline. <a href="fees.php" class="btn btn-sm btn-outline-warning mt-1">Registration and Payment</a></li>
+                <li><strong>Presentation Options:</strong> Online or in-person presentations accepted. <a href="techSession.php" class="btn btn-sm btn-outline-warning mt-1">Presentation Guidelines</a></li>
+                <li><strong>Global Audience:</strong> All sessions are accessible to global participants.</li>
+                <li><strong>Recordings:</strong> Presentations will be recorded.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
 
-                    <h5 class="fs-3 fw-bold">Language Requirements</h5><ul>
+        <!-- Card 2 -->
+        <div class="col">
+            <div class="card h-100 border-warning border-3 rounded-4">
+            <div class="card-body">
+                <h5 class="card-title text-warning fw-bold">Language Requirements</h5>
+                <ul class="lh-sm">
+                <li><strong>Publication Language:</strong> English only for IEEE Xplore®.</li>
+                <li><strong>Presentation Languages:</strong> English, Portuguese, or Spanish.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
 
-                        <li><b>Publication Language:</b>  To facilitate international dissemination, all papers submitted for publication in the IEEE Xplore® digital library must be written in <b>English</b>.
-                        </li><li><b>Presentation Languages:</b>  To reflect the conference's regional focus, oral presentations may be delivered in <b>English, Portuguese, or Spanish</b>, the most widely spoken languages in Latin America.  Authors have the flexibility to choose their preferred presentation language.</li></ul>
+        <!-- Card 3 -->
+        <div class="col">
+            <div class="card h-100 border-warning border-3 rounded-4">
+            <div class="card-body">
+                <h5 class="card-title text-warning fw-bold">Conference Structure</h5>
+                <ul class="lh-sm">
+                <li><strong>Plenary Sessions</strong></li>
+                <li><strong>Panel Discussions</strong></li>
+                <li><strong>Technical Sessions</strong></li>
+                <li><strong>Doctoral Symposium</strong></li>
+                <li><strong>Special Sessions</strong></li>
+                </ul>
+                <p class="mb-0">Live-streamed and hosted at Universidad ORT Uruguay.</p>
+            </div>
+            </div>
+        </div>
 
-                    <h5 class="fs-3 fw-bold">Technical Session Organization</h5>
+        <!-- Card 4 -->
+        <div class="col">
+            <div class="card h-100 border-warning border-3 rounded-4">
+            <div class="card-body">
+                <h5 class="card-title text-warning fw-bold">Awards & Collaboration</h5>
+                <ul class="lh-sm">
+                <li><strong>Best Paper Awards</strong> by committees.</li>
+                <li><strong>Recognition & Service Awards</strong></li>
+                <li><strong>Platform for Exchange:</strong> Share, connect, collaborate.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
 
-                    <p class="lh-sm">Following author registration by one of the three deadlines, papers will be grouped into technical sessions based on thematic coherence, language of presentation, and delivery format (online or in-person).</p>
-
-                    <h5 class="fs-3 fw-bold">Online Author Considerations</h5>
-
-                    <p class="lh-sm">To ensure accessibility for online authors, presentations will be scheduled with consideration for both their local time zone and optimal alignment with the conference schedule (9 AM to 6 PM Montevideo time, UTC-3). This approach aims to balance providing authors with reasonable presentation times while maintaining the overall conference program for in-person attendees.</p>
-
-                    <p class="lh-sm">After registering as a presenter, authors with specific time preferences or limitations are encouraged to submit them through a dedicated form  available on this website following the first registration deadline.  We will strive to accommodate these needs while prioritizing a smooth and unified conference experience for all participants.</p>
-
-                    <h5 class="fs-3 fw-bold">Conference Structure</h5>
-
-                    <p class="lh-sm">EDUNINE2026 offers a dynamic three-day program featuring a blend of virtual and in-person sessions.  These include:</p><ul>
-
-                        <li><b>Plenary Sessions:</b>  Hear from leading experts in the field during prestigious keynote addresses.
-                        </li><li><b>Panel Discussions:</b> Engage in stimulating discussions on key topics with diverse perspectives from distinguished panelists.
-                        </li><li><b>Technical Sessions:</b>  Delve deeper into specific areas of expertise through focused oral presentations delivered by authors.
-                        </li><li><b>Doctoral Symposium:</b>  Doctoral students showcase their research through dedicated presentations.
-                        </li><li><b>Special Sessions:</b>  Participate in engaging social activities designed to foster connections among attendees.</li></ul>
-
-                    <p class="lh-sm">Coffee breaks, lunch, and a welcome reception are graciously hosted by <b>Universidad ORT Uruguay</b> at the conference venue, open to all participants.  Online participants are particularly encouraged to join these virtual events, creating opportunities for interaction with their in-person colleagues.  All conference activities will be live-streamed for both online and in-person audiences.</p>
-
-                    <h5 class="fs-3 fw-bold">A Forum for Collaboration</h5>
-
-                    <p class="lh-sm">EDUNINE2026 serves as a platform for exploring critical themes within the ever-evolving educational landscape.  The conference fosters collaboration and knowledge exchange, providing an ideal space to share ideas, learn about recent developments, and build valuable professional connections with colleagues from around the world.</p>
-
-                    <h5 class="fs-3 fw-bold">Awards</h5><ul>
-
-                        <li><b>EDUNINE2026 Best Paper Awards:</b>  Recognize outstanding research contributions, nominated by reviewers, the Technical Program Committee, and the Awards Committee.
-                        </li><li><b>EDUNINE2026 Recognition Awards and Meritorious Services Awards:</b>  Acknowledge exceptional service and contributions of individuals serving on EDUNINE's organizing committees.</li></ul>
-                    <h5 class="fs-3 fw-bold">Building the Conference Program Together: Preliminary Program Release and Review</h5>
-
-                    <p class="lh-sm">Following the close of registration (late Registration due date), a preliminary conference program will be distributed to all presenters. This program outlines the initial schedule and includes details of your presentation.</p>
-
-                    <p class="lh-sm">To ensure a seamless and efficient conference experience, a collaborative review process will be implemented.  All presenters are encouraged to meticulously review the preliminary program and submit any necessary feedback or updates.  Your valuable input is essential in refining the schedule and ensuring optimal presentation placement.  Instructions for submitting feedback, including the opportunity to refine presentation details and indicate scheduling preferences, will be provided shortly.</p>
-
-                    <p class="lh-sm">Following this collaborative review period, the final and definitive conference program will be established and published in this section.  This advanced program will provide you with ample time to plan your conference experience and optimize your participation opportunities.</p>
-
-            </div>  
-        </div>   
+        </div>
     </div>
 
-</section>
+    <!-- Program Review -->
+    <div class="container pb-5">
+        <div class="bg-white rounded-4 shadow-sm p-4">
+        <h4 class="text-warning fw-bold mb-3">Program Review Process</h4>
+        <p>After the late registration deadline, presenters will receive a preliminary schedule. Please review and provide feedback for final adjustments.</p>
+        <p>Detailed instructions and forms will be available soon to refine presentations and indicate preferences.</p>
+        <p>The final program will be published here for planning your attendance effectively.</p>
+        </div>
+    </div>
+    </section>
+
  <!-- Conference Awards -->
-
+inicio
     <section id="awards">
         <div class="container-fluid align-content-start pt-5 pb-0">
             <ul class="breadcrumb">
@@ -372,7 +398,7 @@ fin
             </div>    
         </div>
 
-</section>
+</section> final
 
 
 <!-- Footer section -->

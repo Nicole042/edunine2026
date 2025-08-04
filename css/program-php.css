@@ -123,3 +123,20 @@
   font-weight: bold;
   color: #000;
 }
+/*Seccion 4*/
+#program ul {
+  padding-left: 1rem;
+}
+
+#program .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#program .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+#program a.btn-outline-success {
+  border-radius: 20px;
+}
