@@ -30,3 +30,72 @@
   transition: all 0.3s ease;
   border-color: #ccc;
 }
+/*SEgunda parte*/
+
+#tour {
+  background: #f4f8fc;
+}
+
+#tour .breadcrumb a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#tour .breadcrumb a:hover {
+  color: #0056b3;
+}
+
+#tour .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#tour .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.1);
+}
+
+
+.info-highlight {
+  background-color: rgba(238, 209, 121, 0.25); /* amarillo suave */
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  position: relative;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+/* Franja lateral amarilla oculta por defecto */
+.info-highlight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 6px;
+  background-color: #e0a800; /* amarillo más oscuro */
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+/* Hover: aparece la franja y se intensifica el fondo */
+.info-highlight:hover {
+  background-color: rgba(255, 193, 7, 0.35); /* un poco más fuerte */
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.06);
+  font-size: 1.5rem; 
+}
+
+.info-highlight:hover::before {
+  transform: scaleY(1); /* ahora sí se ve */
+}
+
+#registration-title {
+  font-weight: 700;       /* Negrita */
+  font-size: 1.2rem;      /* Tamaño un poco mayor */
+  color: #e0a800;         /* Amarillo oscuro */
+  margin-bottom: 0.5rem;
+}

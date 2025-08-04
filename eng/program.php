@@ -98,50 +98,59 @@
         </section>
 
         <!-- Pre-Conference tour -->
-inicio
-        <section id="tour">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li><a href="program.php">Conference</a></li>
-                    <li>Pre_Conference_Tour</li>
-                </ul> 
+    inicio<section id="tour" class="bg-light pt-5">
+    <div class="container pb-0">
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-transparent px-0">
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+            <li class="breadcrumb-item"><a href="index.php?id=dates">Author</a></li>
+            <li class="breadcrumb-item"><a href="program.php">Conference</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Pre-Conference Tour</li>
+        </ol>
+        </nav>
+    </div>
+
+    <div class="container pb-5">
+        <div class="row g-4 align-items-center">
+        <div class="col-md-5">
+            <div class="card shadow-sm border-0 rounded-4 overflow-hidden">
+            <img src="../images/decoration/preConfTour.jpg" class="img-fluid" alt="Pre-conference Tour Image">
             </div>
-            <div class= "container-fluid tope  pb-5">
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/preConfTour.jpg"  alt="Pre-conference Tour Image"> 
-                            </div>
-                            <h4 class="display-6 fw-bold">Saturday, March 7:  Pre-Conference Tour</h4>
-                            <h6 class="fw-bold lh-sm">Join Us for a Special Pre-Conference Tour in Mexico City!</h6>
-                            <p class="lh-sm">Before the conference officially begins, take part in an unforgettable cultural experience offered by Tecnológico de Monterrey. Explore iconic sites, connect with fellow attendees, and enjoy a delicious local lunch (at your own expense).
-                            <p class="lh-sm">Spots are limited—check the timeline for the registration deadline!</p>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="col-md-7">
+            <div class="card bg-white shadow-sm rounded-4 p-4 border-0 h-100">
+            <h4 class="fw-bold text-primary mb-2">Saturday, March 7: Pre-Conference Tour</h4>
+            <h6 class="fw-semibold text-secondary">Join Us for a Special Pre-Conference Tour in Mexico City!</h6>
+            <p class="mt-3">Before the conference officially begins, take part in an unforgettable cultural experience offered by Tecnológico de Monterrey. Explore iconic sites, connect with fellow attendees, and enjoy a delicious local lunch (at your own expense).</p>
+            <p class="text-danger fw-semibold">⚠ Spots are limited — check the timeline for the registration deadline!</p>
             </div>
-            <div class="container-fluid py-5">   
-                <div class="row">
-                    <div class="col-sm-12 text-sm-left">
-                        <h6 class="display-6 fw-bold">Discover Mexico City!</h6>
-                                    <p class="lh-sm">Kick off your conference experience with a <b>Pre-Conference Tour</b> exploring the rich culture and history of <b>Mexico City</b>! This guided excursion, offered by the host institution, <b>Tecnológico de Monterrey</b>, includes a stop for a traditional Mexican lunch at a renowned local restaurant. Please note: lunch will be at the participant’s expense.</p>
+        </div>
+        </div>
+    </div>
 
-                                    <p class="lh-sm">It’s a perfect opportunity to connect with fellow participants in a relaxed and informal setting before the official conference sessions begin.</p>
+    <div class="container pb-5">
+        <div class="card bg-white shadow-sm rounded-4 p-4 border-0">
+        <h4 class="fw-bold text-primary"> Discover Mexico City!</h4>
+        <p>Kick off your conference experience with a <strong>Pre-Conference Tour</strong> exploring the rich culture and history of <strong>Mexico City</strong>! This guided excursion, offered by the host institution, <strong>Tecnológico de Monterrey</strong>, includes a stop for a traditional Mexican lunch at a renowned local restaurant. <em>Lunch is at your own expense.</em></p>
 
-                                    <p class="lh-sm"><b>Tour Highlights</b>:</p>
-                                    <p class="lh-sm">A detailed itinerary with featured stops and activities will be announced soon. Stay tuned!</p>
+        <p>It’s a perfect opportunity to connect with fellow participants in a relaxed and informal setting before the official conference sessions begin.</p>
 
-                                    <p class="lh-sm"><b>Registration Deadline:</b>
-                                    <p class="lh-sm">Please note that the registration due date for the tour is listed in the Conference Timeline section of the website. Registration will be open after the Final Paper Notification date.</p>
+        <div class="info-highlight">
+        <h6> Tour Highlights</h6>
+        <p>A detailed itinerary with featured stops and activities will be announced soon. Stay tuned!</p>
+        </div>
 
-                                    <p class="lh-sm"><i>Spaces are limited – early registration is recommended!.</i></p>
-                    </div>
-                </div>    
-            </div>
-    </section> final
+        <div class="info-highlight">
+        <h6 id="registration-title">Registration Deadline</h6>
+        <p>The registration due date for the tour is listed in the <strong>Conference Timeline</strong> section of the website.</p>
+        <p>Registration will be open after the Final Paper Notification date.</p>
+        </div>
+
+        <p class="fst-italic text-muted"> Spaces are limited – early registration is recommended!</p>
+        </div>
+    </div>
+    </section>
+final
 
     <!-- Pre-conference Workshops -->
 
