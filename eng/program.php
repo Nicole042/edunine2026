@@ -244,7 +244,7 @@
     </section>
 
 
-<!-- Conference Program -->
+    <!-- Conference Program -->
 
     <section id="program" class="bg-light">
     <div class="container-fluid pt-5 pb-3">
@@ -355,50 +355,73 @@
     </div>
     </section>
 
- <!-- Conference Awards -->
-inicio
-    <section id="awards">
-        <div class="container-fluid align-content-start pt-5 pb-0">
-            <ul class="breadcrumb">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="index.php?id=dates">Author</a></li>
-                <li><a href="program.php">Conference</a></li>
-                <li>Conference_Awards</li>
-            </ul> 
-        </div>
-        <div class= "container-fluid tope  pb-5">
-            <div class="row g-5">
-                <div class= "col text-sm-left">
-                    <div class="clearfix">
-                        <div class="text-center">
-                            <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/awards.jpg" alt="Pre-conference Workshops"> 
-                        </div>
-                        <h4 class="display-6 fw-bold">Wednesday, March 11th: EDUNINE2026 Conference Awards</h4>
+    <!-- Conference Awards -->
+   
+    <section id="awards" class="pt-5">
+    <!-- MIGAS DE PAN -->
+    <div class="container-fluid">
+        <ul class="breadcrumb small">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="index.php?id=dates">Author</a></li>
+        <li><a href="program.php">Conference</a></li>
+        <li class="active text-muted">Conference Awards</li>
+        </ul>
+    </div>
 
-                        <p class="fs-5 mb-4">The <b>EDUNINE2026 Committees</b> are proud to announce the recipients of the <b>2026 IEEE X World Engineering Education Conference (EDUNINE2026) Awards</b>.  These esteemed awards will be presented during a special ceremony at the <b>IEEE Education Society's flagship conference in Montevideo, Uruguay</b>. Award winners will be recognized in the official conference proceedings, published on IEEE Xplore and the conference website following the event. The ceremony will be held on the conference's final day (Wednesday).
-                        </p>
-                    </div>
-                </div>
+    <!-- ENCABEZADO CON IMAGEN -->
+    <div class="container py-5">
+        <div class="row align-items-center g-4">
+        <div class="col-lg-5 text-center">
+            <img src="../images/decoration/awards.jpg" class="img-fluid rounded-4 shadow" alt="EDUNINE Awards">
+        </div>
+        <div class="col-lg-7">
+            <h2 class="display-6 fw-bold text-gold mb-3">Wednesday, March 11th: EDUNINE2026 Conference Awards</h2>
+            <p class="fs-5 text-muted">
+            The <b>EDUNINE2026 Committees</b> are proud to announce the recipients of the 
+            <b>2026 IEEE X World Engineering Education Conference (EDUNINE2026) Awards</b>. These esteemed awards will be presented during a special ceremony in Montevideo, Uruguay. 
+            Award winners will be recognized in the official conference proceedings (IEEE Xplore) and on the conference website.
+            </p>
+        </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN DE PREMIOS -->
+    <div class="container py-5 bg-light rounded-4 shadow-sm">
+        <h3 class="fw-bold text-gold mb-4 text-center">About the EDUNINE2026 Awards</h3>
+        <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card h-100 border-gold shadow-sm award-card">
+            <div class="card-body">
+                <h5 class="card-title fw-bold"> Best Paper Awards</h5>
+                <p class="card-text text-muted small">
+                Recognize originality, technical merit, and contributions to engineering education. 
+                Based on research depth, relevance, clarity, and presentation quality. 
+                Selected by Reviewers, Technical Program, and Awards Committees.
+                </p>
+            </div>
             </div>
         </div>
-        <div class="container-fluid py-5 bg-body-secondary">   
-            <div class="row">
-                <div class="col-sm-12 text-sm-left">
-                    <h6 class="display-6 fw-bold">About the EDUNINE2026 Awards</h6>
-                    
-                    <ul><li class="lh-sm mb-2"><b>Best Paper Awards:</b> Acknowledge outstanding papers presented at <b>EDUNINE</b>, recognizing originality, technical merit, and contributions to the field of engineering education. Award nominations consider factors like research depth, relevance to the conference theme, clarity, and quality of oral presentations. Reviewers, the Technical Program Committee, and the Awards Committee nominate papers for these awards.
-                        </li><li class="lh-sm"><b>Recognition Awards:</b> Honor the exceptional contributions of organizing committee members towards the success of the EDUNINE2026 conference with several awards. 
-                       </li></ul>
-
-                    <h5 class="fs-3 fw-bold">Stay Updated on Award Recipients</h5>
-
-                    <p class="lh-sm">The complete list of award winners will be announced and published on this website following the awards ceremony.
-</p>
-                </div>
-            </div>    
+        <div class="col-md-6">
+            <div class="card h-100 border-gold shadow-sm award-card">
+            <div class="card-body">
+                <h5 class="card-title fw-bold"> Recognition Awards</h5>
+                <p class="card-text text-muted small">
+                Celebrate the outstanding contributions of organizing committee members who made EDUNINE2026 a success. 
+                Multiple recognitions will be awarded.
+                </p>
+            </div>
+            </div>
+        </div>
         </div>
 
-</section> final
+        <!-- ACTUALIZACIÓN -->
+        <div class="mt-5 text-center">
+        <h5 class="fs-3 fw-bold text-gold">Stay Updated on Award Recipients</h5>
+        <p class="text-muted small">The complete list of award winners will be announced and published on this website following the awards ceremony.</p>
+        </div>
+    </div>
+    </section>
+    
 
 
 <!-- Footer section -->

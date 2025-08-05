@@ -30,7 +30,7 @@
   transition: all 0.3s ease;
   border-color: #ccc;
 }
-/*SEgunda parte*/
+/*Segunda parte*/
 
 #tour {
   background: #f4f8fc;
@@ -57,7 +57,7 @@
 
 
 .info-highlight {
-  background-color: rgba(238, 209, 121, 0.25); /* amarillo suave */
+  background-color: rgba(238, 209, 121, 0.25); 
   border-radius: 0.75rem;
   padding: 1rem 1.25rem;
   margin-bottom: 1rem;
@@ -74,7 +74,7 @@
   bottom: 0;
   left: 0;
   width: 6px;
-  background-color: #e0a800; /* amarillo más oscuro */
+  background-color: #e0a800; 
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.3s ease-in-out;
@@ -84,19 +84,19 @@
 
 /* Hover: aparece la franja y se intensifica el fondo */
 .info-highlight:hover {
-  background-color: rgba(255, 193, 7, 0.35); /* un poco más fuerte */
+  background-color: rgba(255, 193, 7, 0.35); 
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.06);
   font-size: 1.5rem; 
 }
 
 .info-highlight:hover::before {
-  transform: scaleY(1); /* ahora sí se ve */
+  transform: scaleY(1); 
 }
 
 #registration-title {
-  font-weight: 700;       /* Negrita */
-  font-size: 1.2rem;      /* Tamaño un poco mayor */
-  color: #e0a800;         /* Amarillo oscuro */
+  font-weight: 700; 
+  font-size: 1.2rem;    
+  color: #e0a800;         
   margin-bottom: 0.5rem;
 }
 
@@ -139,4 +139,41 @@
 
 #program a.btn-outline-success {
   border-radius: 20px;
+}
+/*Seccion 5*/
+
+#awards {
+  background-color: #fefcf6;
+}
+
+/* Color dorado */
+.text-gold {
+  color: #c49b0c;
+}
+
+.border-gold {
+  border-left: 4px solid #c49b0c;
+  border-radius: 1rem;
+}
+
+/* Tarjetas con efecto */
+.award-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+
+.award-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+/* Breadcrumbs */
+.breadcrumb a {
+  text-decoration: none;
+  color: #c49b0c;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb a:hover {
+  color: #9b7a0b;
 }

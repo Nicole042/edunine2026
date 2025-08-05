@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (isTouchDevice) {
-    // 👆 Modo móvil – toggle por clic
+    //  Modo móvil – toggle por clic
     boxes.forEach(box => {
       box.addEventListener('click', () => {
         const isAlreadyVisible = infoBox.style.display === 'block' &&
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   } else {
-    // 🖱 Modo desktop – hover
+    // Modo desktop – hover
     boxes.forEach(box => {
       box.addEventListener('mouseenter', () => {
         activeHover = true;
