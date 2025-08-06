@@ -58,7 +58,7 @@
  
 
         <section id="navigation" class="inicial">
-                  <!-- <!- PARTE SUSAN INICIO  -->
+            <!-- <!- PARTE SUSAN INICIO  -->
             <!-- New proposed breadcrumb -->
             <nav class="section-nav-breadcrumb" aria-label="Section navigation">
                 <ul class="d-flex justify-content-end list-unstyled mb-0">
@@ -198,7 +198,7 @@
                 <div class="row g-4">
                     <!-- Imagen lateral -->
                     <div class="col-md-4 text-center">
-                        <img class="img-fluid rounded shadow" src="../images/decoration/peerRevGuide.jpg" alt="Peer Review Guide">
+                        <img class="img-fluid rounded shadow" src="../images/decoration/reviewProcess1.jpg" alt="Peer Review Guide">
                     </div>
 
                     <!-- Texto + tabla -->
@@ -248,7 +248,7 @@
                 <div class= "row">
                     <div class= "col" style="width: 100%;">
                     <div class="card card-peer mb-4 mt-4" style="width: 100%;">
-                        <img src="../images/decoration/peerRevGuide.jpg" class="card-img-top" alt="...">
+                        <img src="../images/decoration/reviewProcess.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="display-6 fw-bold text-center">The EDUNINE Conference Review Process</h2>
                             <p class="fs-5 mb-4"> The conference review process involves two rounds of evaluation. In the first round, known as peer review, submissions are assessed by multiple reviewers. Based on their recommendations, papers may be accepted, rejected, or conditionally accepted pending revisions. Conditionally accepted papers undergo a second round of review by members of the Technical Program Committee. This rigorous process ensures that accepted papers meet the conference's standards for originality, technical rigor, and relevance. The types of manuscripts for review are detailed at the end of this section.</p>
