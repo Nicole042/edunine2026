@@ -135,7 +135,7 @@
                         
                         <!-- Imagen -->
                         <div class="col-md-4 text-center">
-                            <img src="../images/decoration/peerReviewer.jpg" 
+                            <img src="../images/decoration/peerReview.jpg" 
                                 alt="Information for Reviewers" 
                                 class="img-fluid rounded-3 shadow-sm">
                         </div>
