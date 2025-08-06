@@ -456,6 +456,7 @@ ul.breadcrumb li a:hover {
 }
 /* Scroll to top made it round*/
 #myTopBtn {
+    /*100vw: means the full width of the viewport (the visible screen).*/
     outline: none;  
     padding: 3px;
 
