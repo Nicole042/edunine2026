@@ -194,17 +194,18 @@
             </div>
 
             <!--  Contenido principal -->
-            <div class="container-fluid mb-5">
-                <div class="row g-4">
+            <div class="container-peerReview mb-5">
+                <div class="row g-4 align-items-center justify-content-center">
                     <!-- Imagen lateral -->
                     <div class="col-md-4 text-center">
-                        <img class="img-fluid rounded shadow" src="../images/decoration/reviewProcess1.jpg" alt="Peer Review Guide">
+                        <img class="img-fluid rounded shadow" style="height:70%" src="../images/decoration/reviewProcess1.jpg" alt="Peer Review Guide">
                     </div>
 
                     <!-- Texto + tabla -->
-                    <div class="col-md-8">
+                    <div class="col-md-8 d-flex flex-column justify-content-center align-items-center text-center">
                         <h4 class="fw-bold text-center">Peer-Review Timeline</h4>
-                        <p class="text-muted mb-4">The peer-review process for submitted papers will be conducted according to the timeline below. Reviewers will receive formal invitations and are kindly asked to complete their evaluations within the designated review period.</p>
+                        <p class="text-muted mb-4">The peer-review process for submitted papers will be conducted according to the timeline below. <br>
+                            Reviewers will receive formal invitations and are kindly asked to complete their evaluations within the designated review period.</p>
                         
                         <!--  Tabla mejorada -->
                         <div class="table-responsive">
@@ -247,8 +248,8 @@
 
                 <div class= "row">
                     <div class= "col" style="width: 100%;">
-                    <div class="card card-peer mb-4 mt-4" style="width: 100%;">
-                        <img src="../images/decoration/reviewProcess.png" class="card-img-top" alt="...">
+                    <div class="card card-peer mb-4" style="width: 100%;">
+                        <img src="../images/decoration/Review Process.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h2 class="display-6 fw-bold text-center">The EDUNINE Conference Review Process</h2>
                             <p class="fs-5 mb-4"> The conference review process involves two rounds of evaluation. In the first round, known as peer review, submissions are assessed by multiple reviewers. Based on their recommendations, papers may be accepted, rejected, or conditionally accepted pending revisions. Conditionally accepted papers undergo a second round of review by members of the Technical Program Committee. This rigorous process ensures that accepted papers meet the conference's standards for originality, technical rigor, and relevance. The types of manuscripts for review are detailed at the end of this section.</p>
