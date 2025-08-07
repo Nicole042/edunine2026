@@ -18,6 +18,8 @@
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
+
+        <link href="../css/stylereviewNotif.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
@@ -38,15 +40,15 @@
                     element.scrollIntoView({block: "start"});
                 }
             </script> 
-            <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+            <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
             <div> 
                 <!-- Navigation bar  -->
                 <?php include "edu9header.html" ?> 
             </div>
             <div class="#main"></div>
 
-            <section id="top" class="inicial">
-                <div class="container-fluid align-content-start py-0">
+            <section id="top" class="inicial pt-5">
+                <div class="container align-content-start py-0">
                     <ul class="breadcrumb">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="index.php?id=dates">Author</a></li>
@@ -54,15 +56,12 @@
                     </ul> 
                 </div>
 
-                <div class= "container-fluid tope  py-5 bg-white">
+                <div class= "container tope  py-2 bg-white">
 
                     <div class="row g-5">
                         <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                <h2 class="display-6 fw-bold">Peer Review Process and Notification</h2>
-
-                                <p class="fs-5 mb-4">Ensuring the originality and quality of published research is paramount for academic conferences. This is achieved through a rigorous three-step vetting process. First, submissions undergo prescreening, where editors ensure they meet basic formatting requirements, page limits, and align with the conference scope and topics. Qualified papers then progress to a double-blind or single-blind (depending on paper type) peer review stage. Here, anonymous experts in the field assess the research methodology, the novelty of findings, and the paper's contribution to the discipline. Finally, editors consider reviewer feedback and how authors incorporate revisions into the final version (camera-ready) before making a final acceptance decision. This meticulous process guarantees the publication and oral presentation of high-quality and impactful research.</p>
-                            </div>
+                                <h2 class="display-6 fw-bold text-center">Peer Review Process and Notification</h2>
+                                <p class="fs-5">Ensuring the originality and quality of research in academic conferences requires a rigorous three-step selection process. First, editors conduct a preliminary review to check formatting, page limits, and topic relevance. Next, the papers undergo peer review (single- or double-blind), where experts evaluate the methodology, originality, and contribution of the study. Finally, editors consider the reviewers’ feedback and the authors’ revisions before making the final acceptance decision. This process ensures the publication and presentation of high-impact research.</p>
                         </div>    
                     </div>
                 </div>
@@ -71,107 +70,167 @@
             <!-- Prescreening -->
 
             <section id="prescreen">
-                <div class="container-fluid align-content-start pt-5 pb-0">
-                    <!-- <ul class="breadcrumb">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php?id=dates">Author</a></li>
-                        <li><a href="reviewNotif.php">Peer_Review_Process_Notification</a></li>
-                        <li>Prescreening</li>
-                    </ul>  -->
-                </div>
-                <div class= "container-fluid tope  pb-5">
-                    <div class="row g-5">
+
+                <div class= "container tope pt-1 pb-2  bg-white">
+                    <div class="row g-3">
                         <div class= "col text-sm-left">
-                            <div class="clearfix">
-                                <div class="text-center">
-                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/prescreening.jpg"  alt="Prescreening Image"> 
-                                </div>
-                                <h4 class="display-6 fw-bold">Prescreening</h4>
-                                <p class="fs-5 mb-4"><b>Prescreening</b> serves as the first stage of quality control, guaranteeing manuscripts meet essential criteria before progressing to the rigorous peer review stage.</p>                             
-                            </div>
+                            <h4 class="display-6 fw-bold text-center">Prescreening</h4>
+                            <div class="card-prescreen-description">
+                                <p class="fs-5 mb-4">The first stage of quality control, ensuring manuscripts meet essential criteria before peer review. Prescreening serves as a streamlined quality control process, guaranteeing reviewers receive well-formatted, thematically relevant manuscripts prepared for in-depth scientific evaluation.</p>
+                            </div>                                
                         </div>    
                     </div>
                 </div>
-                <div class="container-fluid py-3 bg-body-secondary">
-                    <div class="row">
-                        <div class= "col text-sm-left">
-                            <p class="lh-sm">During this initial assessment, editors meticulously evaluate the following:</p>
-                            <ul><li>
-                                    <b>Scope:</b> Does the paper's topic directly address the conference's categories and thematic focus and resonate with the target audience?</li> 
-                                <li><b>Originality:</b> Is the work demonstrably original, free from plagiarism, and adheres to ethical research standards? Plagiarism detection software may be employed to assist this evaluation. </li>
-                                <li><b>Clarity and Grammar:</b> Is the writing presented in clear, concise, and standard English, adhering to proper grammar and style? While a comprehensive language edit may not occur at this stage, basic checks for clarity and grammatical errors are conducted.</li> 
-                                <li><b>Completeness:</b> Does the manuscript encompass all necessary sections (abstract, introduction, methodology, results, discussion, conclusion, references) as outlined in the conference guidelines and appropriate for the chosen paper type (full paper, work-in-progress, workshop proposal, doctoral symposium paper)?</li>
-                                <li><b>Formatting:</b>  Does the manuscript strictly adhere to the conference's formatting guidelines, including font size, margins, reference style, and page limitations?</li></ul>
 
-                            <p>Manuscripts that fall short of these criteria will be returned to the authors for revisions before further consideration. This applies to submissions received before the deadline. Papers received at the deadline that fail the prescreening may be rejected.</p>
-                            <p><b>Prescreening</b> ensures a streamlined peer review process by guaranteeing reviewers receive well-formatted, thematically relevant manuscripts prepared for in-depth scientific evaluation. </p>
+                <div class="container mt-2">
+                    <div class="prescreening-card">
+                        <h5 class="prescreening-card-title">Prescreening Evaluation Process</h5>
+
+                        <div class="prescreening-card-body">
+                            <p class="mb-3">During this initial assessment, editors meticulously evaluate the following:</p>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="evaluation-criteria mb-3">
+                                        <h6 class="prescreening-section-title mb-1">Scope</h6>
+                                        <p class="mb-0">Topic alignment with conference categories and target audience resonance</p>
+                                    </div>
+                                    
+                                    <div class="evaluation-criteria mb-3">
+                                        <h6 class="prescreening-section-title mb-1">Clarity & Grammar</h6>
+                                        <p class="mb-0">Clear, concise writing in standard English with proper grammar</p>
+                                    </div>
+                                    
+                                    <div class="evaluation-criteria mb-3">
+                                        <h6 class="prescreening-section-title mb-1">Formatting</h6>
+                                        <p class="mb-0">Strict adherence to conference formatting guidelines (font, margins, references, page limits)</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
+                                    <div class="evaluation-criteria mb-3">
+                                        <h6 class="prescreening-section-title mb-1">Originality</h6>
+                                        <p class="mb-0">Demonstrable originality, plagiarism-free, ethical research standards</p>
+                                    </div>
+                                    
+                                    <div class="evaluation-criteria mb-3">
+                                        <h6 class="prescreening-section-title mb-1">Completeness</h6>
+                                        <p class="mb-0">All required sections per guidelines and paper type (abstract, introduction, methodology, results, discussion, conclusion, references)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
+
+                <div class="container py-3">
+                    <div class="row mt-4">
+                        <div class="review-alerts-container">
+                            <div class="alert review-alert review-alert-warning">
+                                <div class="alert-content">
+                                    <strong>Revision Required:</strong> Manuscripts not meeting criteria will be returned for revisions before further consideration (pre-deadline submissions).
+                                </div>
+                            </div>
+                            <div class="alert review-alert review-alert-danger">
+                                <div class="alert-content">
+                                    <strong>Deadline Risk:</strong> Papers received at deadline that fail prescreening may be rejected.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
+
             <!-- Peer Review -->
 
             <section id="peerReview">
-                <div class="container-fluid align-content-start pt-5 pb-0">
-                    <ul class="breadcrumb">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="index.php?id=dates">Author</a></li>
-                        <li><a href="reviewNotif.php">Peer_Review_Process_Notification</a></li>
-                        <li>Peer_Review_Outcomes</li>
-                    </ul> 
-                </div>
-                <div class= "container-fluid tope  pb-5">
+                <div class= "container tope  pb-5 bg-white">
                     <div class="row g-5">
                         <div class= "col text-sm-left">
                             <div class="clearfix">
-                                <div class="text-center">
-                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/peerReviewer.jpg"  alt="Peer Review Process Image"> 
-                                </div>
-                                <h4 class="display-6 fw-bold">About Peer Review</h4>
+                                <h4 class="display-6 fw-bold text-center">About Peer Review</h4>
                                 <p class="fs-5 mb-4">Peer review is vital to the quality of published research. IEEE requires all conference papers to undergo peer review before oral presentation at the conference and consideration for publication in <b>IEEE Xplore®</b>. Peer review is a process in which a scientific paper is evaluated by a group of experts in the same field to ensure it meets the necessary standards for acceptance and publication. Explore peer-review models, requirements, criteria, and decisions!</p>
                             </div>
                         </div>    
                     </div>
                 </div>
-                <div class="container-fluid py-3 bg-body-white">
+
+                <!-- Peer-Review Models -->
+
+                <div class="container py-3 bg-body-white">
                     <div class="row">
                         <div class= "col text-sm-left">
-                            <h5 class="display-6 fw-bold">Peer-Review Models</h5>
+                            <h5 class="display-6 fw-bold text-center">Peer-Review Models</h5>
+
                             <p class="lh-sm"><b>To increase the quality of submissions and maintain independent merit, the evaluation process will be:</b></p>
-                            <ol class="list-group list-group-numbered">
-                                <li class="list-group-item ml-2"><b> Double-blind</b><ul>
-                                        <li><b>Anonymity:</b> Double-blind review offers the highest level of anonymity, where both reviewers and authors are unidentified. Papers submitted for review MUST NOT contain the authors’ names, affiliations, or any information that may disclose the authors’ identities. Please leave the author information lines as in the template; do not complete them.</li>
-                                        <li><b>Self-citation:</b> You should cite your relevant previous work to avoid self-plagiarism and ensure a reviewer can access it and see the new contributions. However, the text should not explicitly state that the cited work belongs to the authors.</li>
-                                        <li><b>Plagiarism:</b> Plagiarism, using someone else's ideas or words without proper credit, is easily detected by reviewers and can result in serious consequences. This includes rejection of your work or even damage to your reputation.  Be sure to cite your sources! Use a plagiarism checker available through educational institutions to ensure the originality of your submission. </li></ul></li>
+                    
+                            <div class="peer-review-card">
+                                <div class="review-content">
+                                    <ol class="review-list review-list-numbered">
+                                        <li class="review-item review-item-indent"><b> Double-blind</b>
+                                            <ul>
+                                                <li><b>Anonymity:</b> Double-blind review offers the highest level of anonymity, where both reviewers and authors are unidentified. Papers submitted for review MUST NOT contain the authors’ names, affiliations, or any information that may disclose the authors’ identities. Please leave the author information lines as in the template; do not complete them.</li>
+                                                <li><b>Self-citation:</b> You should cite your relevant previous work to avoid self-plagiarism and ensure a reviewer can access it and see the new contributions. However, the text should not explicitly state that the cited work belongs to the authors.</li>
+                                                <li><b>Plagiarism:</b> Plagiarism, using someone else's ideas or words without proper credit, is easily detected by reviewers and can result in serious consequences. This includes rejection of your work or even damage to your reputation. Be sure to cite your sources! Use a plagiarism checker available through educational institutions to ensure the originality of your submission.</li>
+                                            </ul>
+                                        </li>
+                                        <li class="review-item review-item-indent"><b>Single-blind</b>
+                                            <ul>
+                                                <li><b>Identification:</b> In a single-blind review, reviewers remain anonymous while the authors' identities are known. Papers must include the authors’ names, affiliations, and any other information that may disclose the authors' identities, especially when including CVs and authors' backgrounds that are also evaluated.</li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                    <p>Both models ensure that the reviewer can provide an honest and impartial evaluation of the paper.</p>
+                                </div>
+                            </div>
 
-                                <li class="list-group-item ml-2"><b>Single-blind</b><ul>
-                                        <li><b>Identification:</b> In a single-blind review, reviewers remain anonymous while the authors' identities are known. Papers must include the authors’ names, affiliations, and any other information that may disclose the authors' identities, especially when including CVs and authors' backgrounds that are also evaluated.</li></ul></li></ol>
-
-                            <p>Both models ensure that the reviewer can provide an honest and impartial evaluation of the paper.</p> 
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid py-3 bg-body-white">
+
+
+                <div class="container py-3 bg-body-white">
                     <div class="row">
-                        <div class= "col text-sm-left">
-                            <h5 class="display-6 fw-bold">IEEE Education Society Peer-Review Requirements</h5> 
-                            <p>All papers at this conference will be peer-reviewed according to the requirements set forth in the <a href="https://ieee-edusociety.org/sites/ieeeedusoc/files/2020-06/education-society-sponsorship.pdf">IEEE Education Society Technical Co-sponsorship Details (3. Technical Program)</a>:</p>
-                            <ol class="list-group list-group-numbered">
-                                <li class="list-group-item ml-2">
-                                    <b>Independent Reviews:</b> Each paper will be reviewed by at least three independent reviewers.</li>
-                                <li class="list-group-item ml-2"><b>Review Process:</b><ul>
-                                        <li><b>Categories 1-3 Full and Work-in-Progress (WiP) papers</b> will undergo a <b><u>double-blind peer-review process</u></b> by default. Authors have the option to choose a <b>single-blind peer-review process</b>; however, the Program Committee and reviewers strongly recommend preparing full and WiP papers for <b>double-blind peer review</b>. This recommendation aims to minimize potential delays in the final notification due to reviewer reassignments. Reviewers have the option to decline reviewing papers that are not anonymized for double-blind review.</li>
-                                <li><b>Category 4 Doctoral Symposium (DS) papers</b> will be reviewed in a <b><u>single-blind process</u></b>. Papers must contain the authors’ names, affiliations, and any other information that may disclose the authors' identities, as the included CVs and authors' backgrounds are also evaluated.</li>
-    by a TPC (Technical Program Committee) member. Papers must contain the authors’ names, affiliations, and any other information that may disclose the authors' identities, as the included CVs and authors' backgrounds are also evaluated.</li>   
-                                    </ul></li>                            
-                                <li class="list-group-item ml-2"><b>Plagiarism detection:</b> If a reviewer notifies a plagiarism claim with evidence the Program Committee must investigate the claim. If plagiarism is confirmed, the paper will be rejected and IEEE will decide the appropriate actions after contacting the author for explanation. IEEE considers all plagiarism, including self-plagiarism, a serious offense. Learn more here <a href="https://www.ieee.org/publications/rights/plagiarism/plagiarism.html" class="border-white btn btn-primary btn-sm align-self-end" role="button">IEEE Plagiarism</a>.</li></ol>
-                        </div>
-                    </div>
+                        <div class="ieee-requirements-card">
+                            <h5 class="ieee-requirements-main-title">IEEE Education Society Peer-Review Requirements</h5>
+
+                            <div class="ieee-requirements-card-body">
+                                    <p>All papers at this conference will be peer-reviewed according to the requirements set forth in the <a href="https://ieee-edusociety.org/sites/ieeeedusoc/files/2020-06/education-society-sponsorship.pdf" class="ieee-requirements-text-link">IEEE Education Society Technical Co-sponsorship Details (3. Technical Program)</a>:</p>
+                                    <ol class="ieee-requirements-numbered-list">
+                                        <li class="ieee-requirements-list-item">
+                                            <span class="ieee-requirements-bold-text">Independent Reviews:</span> Each paper will be reviewed by at least three independent reviewers.
+                                        </li>
+                                        <li class="ieee-requirements-list-item">
+                                            <span class="ieee-requirements-bold-text">Review Process:</span>
+                                            <ul class="ieee-requirements-sublist">
+                                                <li>
+                                                    <span class="ieee-requirements-bold-text">Categories 1-3 Full and Work-in-Progress (WiP) papers</span> will undergo a 
+                                                    <span class="ieee-requirements-bold-text ieee-requirements-underlined">double-blind peer-review process</span> by default. Authors have the option to choose a 
+                                                    <span class="ieee-requirements-bold-text">single-blind peer-review process</span>; however, the Program Committee and reviewers strongly recommend preparing full and WiP papers for 
+                                                    <span class="ieee-requirements-bold-text">double-blind peer review</span>. This recommendation aims to minimize potential delays in the final notification due to reviewer reassignments. Reviewers have the option to decline reviewing papers that are not anonymized for double-blind review.
+                                                </li>
+                                                <li>
+                                                    <span class="ieee-requirements-bold-text">Category 4 Doctoral Symposium (DS) papers</span> will be reviewed in a 
+                                                    <span class="ieee-requirements-bold-text ieee-requirements-underlined">single-blind process</span>. Papers must contain the authors' names, affiliations, and any other information that may disclose the authors' identities, as the included CVs and authors' backgrounds are also evaluated.
+                                                </li>
+                                            </ul>
+                                        </li>                            
+                                        <li class="ieee-requirements-list-item">
+                                            <span class="ieee-requirements-bold-text">Plagiarism detection:</span> If a reviewer notifies a plagiarism claim with evidence the Program Committee must investigate the claim. If plagiarism is confirmed, the paper will be rejected and IEEE will decide the appropriate actions after contacting the author for explanation. IEEE considers all plagiarism, including self-plagiarism, a serious offense. Learn more here <a href="https://www.ieee.org/publications/rights/plagiarism/plagiarism.html" class="border-white btn btn-primary btn-sm align-self-end" role="button">IEEE Plagiarism</a>.
+                                        </li>
+                                    </ol>
+                            </div>
+                        </div>  
+                    </div>      
                 </div>
-                <div class="container-fluid py-3 bg-body-white">
+
+                <!-- Peer-Review Criteria -->
+                <div class="container py-3 bg-body-white">
                     <div class="row">
                         <div class= "col text-sm-left">
-                            <h5 class="display-6 fw-bold">Peer-Review Criteria:</h5>
+                            <h5 class="display-6 fw-bold text-center">Peer-Review Criteria:</h5>
                             <p class="lh-sm">During the peer review process, reviewers look for:</p><ul>
                                 <li><b>Scope:</b>  Is the paper appropriate for the scope and topics of this conference</li> 
                                 <li><b>Novelty:</b>  Is this original material distinct from previous publications</li> 
@@ -187,7 +246,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid py-3 bg-info-subtle">
+
+
+                <!-- PART 2 -->
+            
+
+                <div class="container py-3 bg-info-subtle">
                     <div class="row">
                         <div class= "col text-sm-left">
                             <div class="clearfix">
