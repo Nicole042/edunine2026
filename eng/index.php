@@ -101,7 +101,7 @@
             <section class="primera">             
                 <!-- ABOUT CONFERENCE SECTION -->
                  <div class="container-fluid px-0">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="false">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <h2 class="display-5 fw-bold">About the Conference</h2>
