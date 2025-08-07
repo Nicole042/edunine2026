@@ -110,19 +110,6 @@
   box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
 }
 
-.breadcrumb a {
-  text-decoration: none;
-  color: #007bff;
-  transition: color 0.3s;
-}
-.breadcrumb a:hover {
-  color: #0056b3;
-}
-
-.breadcrumb li.active {
-  font-weight: bold;
-  color: #000;
-}
 /*Seccion 4*/
 #program ul {
   padding-left: 1rem;
@@ -167,13 +154,3 @@
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
-/* Breadcrumbs */
-.breadcrumb a {
-  text-decoration: none;
-  color: #c49b0c;
-  transition: color 0.2s ease;
-}
-
-.breadcrumb a:hover {
-  color: #9b7a0b;
-}
