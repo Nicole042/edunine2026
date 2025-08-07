@@ -581,7 +581,7 @@ button {
     margin-left: 8%;
     margin-right: 8%;
     width: auto;
-    height: 550px;
+    /* height: 550px; */
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -978,7 +978,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 1.5rem; 
     }
     .carousel-inner {
-        height: 780px;
+        /* height: 780px; */
     }
     
     section.primera {
@@ -1073,7 +1073,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 1.1rem; 
     }
     .carousel-inner {
-        height: 865px;
+        /* height: 865px; */
     }
      /*Styling new navigation*/
     .section-nav-breadcrumb {
@@ -1178,7 +1178,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 0.7rem; 
     }
     .carousel-inner {
-        height: 1300px;
+        /* height: 1300px; */
     }
 
      /*For centering the carousel*/
