@@ -856,7 +856,7 @@
                         <hr class="my-4">
                         <!-- LaTeX Template -->
                         <div class="card shadow-sm mb-4 card-hover-blue rounded-4">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                             <h4 class="card-title fw-bold text-center">Create Professional Research Papers: LaTeX Template for Scientific Writing</h4>
                             <p class="text-center">This guide provides instructions for formatting your paper using the official IEEE LaTeX template:</p>
 
