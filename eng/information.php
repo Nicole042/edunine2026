@@ -59,7 +59,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-    <main>    
+     <main>    
         <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         
        
@@ -1092,11 +1092,11 @@
             </div>
         </section> 
 
-        <!-- falta agregar el link al nuevo sistema en la siguiente sección -->
-        <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->
+            <!-- falta agregar el link al nuevo sistema en la siguiente sección -->
+            <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->
                     
-<!--  Instrucciones para OpenConf -->
-<!-- <section>
+            <!--  Instrucciones para OpenConf -->
+                <!-- <section>
 
             <div class= "container-fluid tope py-5">
                 <div class="row g-5">
@@ -1122,7 +1122,7 @@
                     </div>    
                 </div>
             </div> -->
-    <!--
+            <!--
             <div class="container-fluid py-5 bg-white">
                 <div class="border bg-light">
                     <h4 class= "display-6 fw-bold mb-4 "> Access the Manuscript Submission System:</h4> 
