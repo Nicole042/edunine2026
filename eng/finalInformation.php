@@ -554,6 +554,7 @@
 
         </section>
 
+        <!-- Step 9: Final Review and Submission Confirmation -->
         <section id="step9" class="py-5 px-5">
             <h2>Step 9: Final Review and Submission Confirmation</h2>
             <img src="../images/decoration/registration.jpg" alt="Conference Registration"
@@ -569,6 +570,25 @@
                 the conference may be removed from <b>IEEE Xplore®</b> and excluded from distribution (publication)
                 following the event.</p>
         </section>
+        <div class="clearfix"></div>
+
+        <!-- Final Paper Review Notifications -->
+        <section id="notifications" class="py-5 px-5 border">
+            <h2 class="text-center">Final Paper Review Notifications</h2>
+            <img src="../images/decoration/notiFinalReview.jpg" alt="Final Paper Review Notification Image"
+                class="img-fluid float-start me-4 mb-3" style="max-width:100%; height:auto;">
+            <p> Following each submission of your final paper, you'll receive a summary via email detailing the review
+                process conducted in line with the Final Paper Guidelines. This review will ensure compliance with
+                quality standards for content, English, and format, as well as alignment of the SUBMISSION SYSTEM
+                information with the final paper, proper PDF generation through PDFeXpress, and successful completion of
+                the copyright transfer. Prioritize the originality and plagiarism-free nature of your paper by utilizing
+                a plagiarism checker. Once the copyright transfer is finalized and the paper clears all checks, it
+                undergoes evaluation by IEEE CrossCheck. Utilize the opportunity for multiple revisions, addressing any
+                requested corrections before resubmitting your final paper by the deadline to prevent rejection. Ensure
+                to review the requirements before each submission on this link.</p>
+                <div class="clearfix"></div>
+        </section>
+
     </main>
 
     <!-- Footer section -->
@@ -586,7 +606,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="../js/slick-carousel-config.js"></script>
-    
+
 </body>
 
 </html>
