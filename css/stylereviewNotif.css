@@ -51,6 +51,9 @@
     background: #005f9d;
     border-radius: 50%;
 }
+.padding-top-inicial {
+    padding-top: 150px;
+}
 
 .evaluation-criteria {
     background: rgba(255, 255, 255, 0.6);
