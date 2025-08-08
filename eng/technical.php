@@ -23,6 +23,7 @@
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet">
         <link href="../css/newHeader-compensate.css" rel="stylesheet"> 
+        <link href="../css/technical.css" rel="stylesheet"> 
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
@@ -123,101 +124,111 @@
             </div>
         </section>
         <section id="technical">
-<!-- GRID IMAGES -->
+
+        <!-- ROW 1-->
         <div class="container text-center mt-5 mb-3">
             <div class="row align-items-center row-cols-1 row-cols-md-3 row-cols-lg-6">
                 <div class="col-md-4">
-                    <tr><td style="width: 150px; height: 60px; text-align: center">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.ifees.net/" target="_blank">
                             <img src="../images/logos_cooperation/logo_ifees.gif" 
-                                width="44" 
-                                height="57" 
-                                alt="logo" >
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 90px; height: auto;" 
+                                alt="IFEES logo">
+                        </a>
+                        <div class="card-body">
                             <a href="http://www.ifees.net/" 
-                                target="_blank"> International Federation of Engineering Education Societies (IFEES)
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                International Federation of Engineering Education Societies 
                             </a>
-                        </td>
-                    </tr>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4">
-                    <tr><td style="width: 150px; height: 60px; text-align: center">
-                            <a href="http://www.igip.org/">
-                                <img src="../images/logos_cooperation/logo_igip.gif" 
-                                width="100" height="54" alt="logo" >
-                            </a>
-                        </td>
-                        <td>
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.igip.org/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_igip.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="IGIP logo">
+                        </a>
+                        <div class="card-body">
                             <a href="http://www.igip.org/" 
-                                target="_blank"> Internationale Gesellschaft für Ingenieurpädagogik (IGIP) 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Internationale Gesellschaft für Ingenieurpädagogik (IGIP)
                             </a>
-                        </td>
-                    </tr>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4">
-                    <tr><td style="width: 150px; height: 60px; text-align: center">
-                        <a href="http://www.sefi.be"> 
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.sefi.be" target="_blank">
                             <img src="../images/logos_cooperation/logo_sefi.gif" 
-                            width="88" height="57" alt="logo" >
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="SEFI logo">
                         </a>
-                        </td>
-                    <td>
-                        <a href="http://www.sefi.be"> Société Européenne pour la Formation des Ingénieurs (SEFI) </a>
-                    </td>
-                    </tr>
-
+                        <div class="card-body">
+                            <a href="http://www.sefi.be" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Société Européenne pour la Formation des Ingénieurs (SEFI)
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4">
-                    <tr><td class="text-center" style="width: 150px; height: 60px; text-align: center">
-                            <a href="http://carthagene.enim.fr/" target="_blank">
-                                <img src="../images/logos_cooperation/logo_rci.gif" 
-                                width="65" height="57" alt="logo" >
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://carthagene.enim.fr/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_rci.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="RCI logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://carthagene.enim.fr/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Réseau Carthagène d’Ingénierie (RCI)
                             </a>
-                        </td>
-                        <td>
-                            <a href="http://carthagene.enim.fr/"><br> Réseau Carthagène d’Ingénierie (RCI) </a>
-                        </td>
-                    </tr> 
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4">
-                    <tr>
-                        <td style="width: 150px; height: 60px; text-align: center">
-                            <a href="http://www.copec.eu/wcseit/">
-                                <img src="../images/logos_cooperation/logo_wcseit.gif" 
-                                width="96" height="54" alt="logo" >
-                            </a>
-                        </td>
-                        <td>
-                            <a href="http://www.copec.eu/wcseit/" target="_blank"> World Congress on Systems Engineering and Information Technology (WCSEIT) 
-
-                            </a>
-                        </td>
-                    </tr>
-                </div>
-
-                <!--
-                <div class="col-md-4">
-                    <tr><td style="width: 150px; height: 60px; text-align: center">
-                        <a href="http://www.copec.eu/intertech/" target="_blank">
-                            <img src="../images/logos_cooperation/logo_intertech.gif" 
-                            width="66" height="57" alt= "logo" >
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.copec.eu/wcseit/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_wcseit.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="WCSEIT logo">
                         </a>
-                    </td><td>
-                        <a href="http://www.copec.eu/intertech/" target="_blank"> International Council for Engineering and Technology Education (INTERTECH) 
-
-                        </a>
-                    </td></tr> 
+                        <div class="card-body">
+                            <a href="http://www.copec.eu/wcseit/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                World Congress on Systems Engineering and Information Technology (WCSEIT)
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                -->
 
                 <div class="col-md-4">
                     <div class="card text-center shadow-sm border-0 h-100 effect-card">
                         <a href="http://www.copec.eu/intertech/" target="_blank">
                             <img src="../images/logos_cooperation/logo_intertech.gif" 
                                 class="card-img-top p-3 mx-auto logo-hover" 
-                                style="width: 120px; height: auto;" 
+                                style="width: 100px; height: auto;" 
                                 alt="INTERTECH logo">
                         </a>
                         <div class="card-body">
@@ -225,283 +236,536 @@
                             target="_blank" 
                             class="stretched-link text-decoration-none"
                             style="font-size: 0.9rem; font-weight: normal;">
-                                International Council for Engineering and Technology Education (INTERTECH)
+                                International Council for Engineering and Technology Education 
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <style>
-                .effect-card {
-                    transition: transform 0.3s ease, box-shadow 0.3s ease;
-                }
-                .effect-card:hover {
-                    transform: translateY(-5px) scale(1.02);
-                    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-                }
-                .logo-hover {
-                    transition: transform 0.3s ease;
-                }
-                .effect-card:hover .logo-hover {
-                    transform: scale(1.1);
-                }
-                </style>
+            </div>
+        </div>
+        <!-- ROW 2-->
+        <div class="container text-center mb-3">
+            <div class="row align-items-center row-cols-1 row-cols-md-3 row-cols-lg-6">
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.copec.eu/shero/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_shero.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="SHERO logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.copec.eu/shero/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Safety, Health and Environment Research Organization (SHERO)
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.copec.eu/wcca/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_wcca.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="WCCA logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.copec.eu/wcca/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                World Council on Communication and Arts (WCCA)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.istec.org/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_istec.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 80px; height: auto;" 
+                                alt="ISTEC logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.istec.org/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Ibero-American Science & Technology Education Consortium (ISTEC)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.asee.org/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_asee.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 90px; height: auto;" 
+                                alt="ASEE logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.asee.org/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                American Society for Engineering Education (ASEE)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.worldspeed.org/portal/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_speed.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="SPEED logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.worldspeed.org/portal/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Student Platform for Engineering Education Development (SPEED)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.rbe.eng.br/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_rbe.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="RBE logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.rbe.eng.br/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Brazilian Network of Engineering (RBE)
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
 
+        <!-- ROW 3-->
         <div class="container text-center mb-3">
             <div class="row align-items-center row-cols-1 row-cols-md-3 row-cols-lg-6">
+            <!--<div class="equal-cards">-->
                 <div class="col-md-4">
-                    <img src="../images/logos_special/IEEE_EdSocT.png" 
-                        class="img-fluid mb-2"
-                        alt="IEEE_Education_Society">
-                    <div>
-                        <div class="card-link"><a href="http://ieee-edusociety.org/">IEEE Education Society</a></div>
-                    </div>    
-                </div>
-                <div class="col-md-4">
-                    <img src="../images/logos_special/logo_copecT.png"
-                        class="img-fluid mb-2"
-                        alt="COPEC">
-                    <div>
-                        
-                        <div class="card-link"><a href="http://www.copec.eu/">Science and Education Research Organization</a></div>
-                    </div> 
-                </div>
-                <div class="col-md-4">
-                    <img src="../images/logos_host/LogoTec1.png" 
-                        class="img-fluid mb-2"
-                        alt="Tecnológico_de_Monterrey">
-                    <div>
-                        
-                        <div class="card-link"><a href="https://tec.mx/en/">Tecnológico de Monterrey</a></div>
-                    </div>  
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.abenge.org.br/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_abenge.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="ABENGE logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.abenge.org.br/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Brazilian Society for Engineering Education (ABENGE)
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4">
-                    <img src="../images/logos_host/LogoTec1.png" 
-                        class="img-fluid mb-2"
-                        alt="Tecnológico_de_Monterrey">
-                    <div>
-                        
-                        <div class="card-link"><a href="https://tec.mx/en/">Tecnológico de Monterrey</a></div>
-                    </div>  
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://spee.org.pt/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_spee.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="SPEE logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://spee.org.pt/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Portuguese Society for Engineering Education (SPEE)
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4">
-                    <img src="../images/logos_host/LogoTec1.png" 
-                        class="img-fluid mb-2"
-                        alt="Tecnológico_de_Monterrey">
-                    <div>
-                        
-                        <div class="card-link"><a href="https://tec.mx/en/">Tecnológico de Monterrey</a></div>
-                    </div>  
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.copec.eu/gcmm/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_gcmm.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 100px; height: auto;" 
+                                alt="GCMM logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.copec.eu/gcmm/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Global Congress on Manufacturing and Management (GCMM)
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-4">
-                    <img src="../images/logos_host/LogoTec1.png" 
-                        class="img-fluid mb-2"
-                        alt="Tecnológico_de_Monterrey">
-                    <div>
-                        
-                        <div class="card-link"><a href="https://tec.mx/en/">Tecnológico de Monterrey</a></div>
-                    </div>  
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://abenc.org.br/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_abenc.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="ABENC logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://abenc.org.br/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Brazilian Association of Civil Engineers (ABENC)
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.sba.org.br/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_sba.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="SBA logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.sba.org.br/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Brazilian Automation Society (SBA)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.sbc.org.br/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_sbc.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 80px; height: auto;" 
+                                alt="SBC logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.sbc.org.br/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Brazilian Computer Society (SBC)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ROW 4-->
+        <div class="container text-center mb-3">
+            <div class="row align-items-center row-cols-1 row-cols-md-3 row-cols-lg-4">
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.aenui.net/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_aenui.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 80px; height: auto;" 
+                                alt="AENUI logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.aenui.net/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Asociación de Enseñantes Universitarios de la Informática (AENUI)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.oern.pt/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_oern.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="OERN logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.oern.pt/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Portugal Engineers Council – North Region (OERN)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 effect-card" style="height: 150px; display: flex; justify-content: center;">
+                        <a href="http://www.portogente.com.br/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_portogente.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 120px; height: auto;" 
+                                alt="PortFolk logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.portogente.com.br/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                PortFolk
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                        <a href="http://www.copec.eu/aamp/" target="_blank">
+                            <img src="../images/logos_cooperation/logo_aamp.gif" 
+                                class="card-img-top p-3 mx-auto logo-hover" 
+                                style="width: 80px; height: auto;" 
+                                alt="AAMP logo">
+                        </a>
+                        <div class="card-body">
+                            <a href="http://www.copec.eu/aamp/" 
+                            target="_blank" 
+                            class="stretched-link text-decoration-none"
+                            style="font-size: 0.9rem; font-weight: normal;">
+                                Fishing Museum Friends Society (AAMP)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
             <div class="container-fluid">
                 <!-- sequence section -->
                 <div class="container-fluid px-4 py-1">
-                    <table class="technical">
-                        <tbody>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.ifees.net/" target="_blank">
-                                <img src="../images/logos_cooperation/logo_ifees.gif" 
-                                    width="44" 
-                                    height="57" 
-                                    alt="logo" >
-                                </a>
-                            </td>
-                            <td>
-                                <a href="http://www.ifees.net/"> International Federation of Engineering Education Societies (IFEES) </a> 
-                            </td>
-                        </tr>
-                        <tr><td style="width: 150px; height: 60px; text-align: center">
-                            <a href="http://www.igip.org/">
-                                <img src="../images/logos_cooperation/logo_igip.gif" 
-                                width="100" height="54" alt="logo" >
+
+                    <p>&nbsp;</p>
+                    <div class="d-flex justify-content-center">  
+                        <h5>Support by</h5>
+                    </div>
+                    <!-- ROW 5-->
+                    <div class="container text-center mb-3">
+                        <div class="row align-items-center justify-content-center">
+                        
+                            <div class="col-md-4">
+                                <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                                    <a href="http://www.cnpq.br/" target="_blank">
+                                        <img src="../images/logos_cooperation/logo_cnpq.gif" 
+                                            class="card-img-top p-3 mx-auto logo-hover" 
+                                            style="width: 120px; height: auto;" 
+                                            alt="CNPq logo">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="http://www.cnpq.br/" 
+                                        target="_blank" 
+                                        class="stretched-link text-decoration-none"
+                                        style="font-size: 0.9rem; font-weight: normal;">
+                                            National Council for Scientific and Technological Development (CNPq)
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                                    <a href="http://www.capes.gov.br/" target="_blank">
+                                        <img src="../images/logos_cooperation/logo_capes.gif" 
+                                            class="card-img-top p-3 mx-auto logo-hover" 
+                                            style="width: 120px; height: auto;" 
+                                            alt="CAPES logo">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="http://www.capes.gov.br/" 
+                                        target="_blank" 
+                                        class="stretched-link text-decoration-none"
+                                        style="font-size: 0.9rem; font-weight: normal;">
+                                            Coordination for Improvement of Personal of Superior Level (CAPES)
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>&nbsp;</p>
+                    <div class="d-flex justify-content-center">   
+                        <h5>Conference Support by</h5>
+                    </div>
+                    <!-- ROW 6-->
+                    <div class="container text-center mb-3">
+                        <div class="row align-items-center row-cols-1 row-cols-md-3 row-cols-lg-6">
+
+                            <div class="col-md-4">
+                                <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                                    <a href="https://iieducation.eu/" target="_blank">
+                                        <img src="../images/logos_cooperation/logo_iie.png" 
+                                            class="card-img-top p-3 mx-auto logo-hover" 
+                                            style="width: 120px; height: auto;" 
+                                            alt="IIE logo">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="https://iieducation.eu/" 
+                                        target="_blank" 
+                                        class="stretched-link text-decoration-none"
+                                        style="font-size: 0.9rem; font-weight: normal;">
+                                            International Institute of Education (IIE)
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                                    <a href="https://confedi.org.ar/" target="_blank">
+                                        <img src="../images/logos_cooperation/logo_confedi.png" 
+                                            class="card-img-top p-3 mx-auto logo-hover" 
+                                            style="width: 120px; height: auto;" 
+                                            alt="CONFEDI logo">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="https://confedi.org.ar/" 
+                                        target="_blank" 
+                                        class="stretched-link text-decoration-none"
+                                        style="font-size: 0.9rem; font-weight: normal;">
+                                            Federal Council of Engineering Deans of Argentina (CONFEDI)
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                                    <a href="http://www.asibei.net/" target="_blank">
+                                        <img src="../images/logos_cooperation/logo-asibei.jpg" 
+                                            class="card-img-top p-3 mx-auto logo-hover" 
+                                            style="width: 120px; height: auto;" 
+                                            alt="ASIBEI logo">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="http://www.asibei.net/" 
+                                        target="_blank" 
+                                        class="stretched-link text-decoration-none"
+                                        style="font-size: 0.6rem; font-weight: normal;">
+                                            Ibero-American Association of Engineering Education Institutions (ASIBEI)
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                                    <a href="https://www.up.edu.pe/la-universidad" target="_blank">
+                                        <img src="../images/logos_cooperation/logo_UP.png" 
+                                            class="card-img-top p-3 mx-auto logo-hover" 
+                                            style="width: 120px; height: auto;" 
+                                            alt="Universidad del Pacífico logo">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="https://www.up.edu.pe/la-universidad" 
+                                        target="_blank" 
+                                        class="stretched-link text-decoration-none"
+                                        style="font-size: 0.9rem; font-weight: normal;">
+                                            Universidad del Pacífico
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                                    <a href="https://www.galileo.edu/" target="_blank">
+                                        <img src="../images/logos_cooperation/logo_UGalileo.png" 
+                                            class="card-img-top p-3 mx-auto logo-hover" 
+                                            style="width: 120px; height: auto;" 
+                                            alt="Galileo University logo">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="https://www.galileo.edu/" 
+                                        target="_blank" 
+                                        class="stretched-link text-decoration-none"
+                                        style="font-size: 0.9rem; font-weight: normal;">
+                                            Galileo University
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card text-center shadow-sm border-0 h-100 effect-card">
+                                    <a href="https://www.ufasta.edu.ar/ingenieria/" target="_blank">
+                                        <img src="../images/logos_cooperation/logo_FI_UFASTA.png" 
+                                            class="card-img-top p-3 mx-auto logo-hover" 
+                                            style="width: 120px; height: auto;" 
+                                            alt="UFASTA logo">
+                                    </a>
+                                    <div class="card-body">
+                                        <a href="https://www.ufasta.edu.ar/ingenieria/" 
+                                        target="_blank" 
+                                        class="stretched-link text-decoration-none"
+                                        style="font-size: 0.9rem; font-weight: normal;">
+                                            UFASTA - Facultad de Ingeniería (UFASTA - School of Engineering)
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <p>&nbsp;</p>   
+                    <div class="d-flex justify-content-center">                                                     
+                        <h5>Host</h5>
+                    </div>
+                    <div class="d-flex justify-content-center"> 
+                        <div class="card text-center shadow-sm border-0 effect-card" style="width:550px; display: flex; justify-content: center;">
+                            <a href="https://tec.mx/en/" target="_blank">
+                                <img src="../images/logos_host/LogoTec1.png" 
+                                    class="card-img-top p-3 mx-auto logo-hover" 
+                                    style="width: 120px; height: auto;" 
+                                    alt="Tecnológico de Monterrey logo">
                             </a>
-                            </td><td>
-                                <a href="http://www.igip.org/" 
-                                    target="_blank"> Internationale Gesellschaft für Ingenieurpädagogik (IGIP) 
+                            <div class="card-body">
+                                <a href="https://tec.mx/en/" 
+                                target="_blank" 
+                                class="stretched-link text-decoration-none"
+                                style="font-size: 0.9rem; font-weight: normal;">
+                                    Tecnológico de Monterrey
                                 </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.sefi.be"> 
-                                    <img src="../images/logos_cooperation/logo_sefi.gif" 
-                                    width="88" height="57" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.sefi.be"> Société Européenne pour la Formation des Ingénieurs (SEFI) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://carthagene.enim.fr/" target="_blank">
-                                    <img src="../images/logos_cooperation/logo_rci.gif" 
-                                    width="65" height="57" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://carthagene.enim.fr/"> Réseau Carthagène d’Ingénierie (RCI) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.copec.eu/wcseit/">
-                                    <img src="../images/logos_cooperation/logo_wcseit.gif" 
-                                    width="96" height="54" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.copec.eu/wcseit/" target="_blank"> World Congress on Systems Engineering and Information Technology (WCSEIT) 
+                            </div>
+                        </div>
+                    </div>
 
-                                </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.copec.eu/intertech/" target="_blank">
-                                    <img src="../images/logos_cooperation/logo_intertech.gif" 
-                                    width="66" height="57" alt= "logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.copec.eu/intertech/" target="_blank"> International Council for Engineering and Technology Education (INTERTECH) 
-
-                                </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.copec.eu/shero/">
-                                    <img src="../images/logos_cooperation/logo_shero.gif" 
-                                    width="140" height="65" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.copec.eu/shero/"> Safety, Health and Environment Research Organization (SHERO) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.copec.eu/wcca/">
-                                    <img src="../images/logos_cooperation/logo_wcca.gif" 
-                                        width="140" height="65" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.copec.eu/wcca/"> World Council on Communication and Arts (WCCA) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.istec.org/" target="_blank">
-                                    <img src="../images/logos_cooperation/logo_istec.gif"  alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.istec.org/" target="_blank"> Ibero-American Science & Technology Education Consortium (ISTEC) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.asee.org/" target="_blank">
-                                    <img src="../images/logos_cooperation/logo_asee.gif" 
-                                        width="56" height="57" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.asee.org/"> American Society for Engineering Education (ASEE) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.worldspeed.org/portal/">
-                                    <img src="../images/logos_cooperation/logo_speed.gif" 
-                                        width="103" height="56" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.worldspeed.org/portal/"> Student Platform for Engineering Education Development (SPEED) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.rbe.eng.br/">
-                                <img src="../images/logos_cooperation/logo_rbe.gif" 
-                                    width="97" height="56" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.rbe.eng.br/"> Brazilian Network of Engineering (RBE) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.abenge.org.br/">
-                                    <img src="../images/logos_cooperation/logo_abenge.gif" 
-                                        width="144" height="40" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.abenge.org.br/"> Brazilian Society for Engineering Education (ABENGE) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://spee.org.pt/">
-                                    <img src="../images/logos_cooperation/logo_spee.gif" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://spee.org.pt/" target="_blank"> Portuguese Society for Engineering Education (SPEE) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.copec.eu/gcmm/">
-                                    <img src="../images/logos_cooperation/logo_gcmm.gif" width="60" height="57" alt="logo" >
-                                </a>
-                            </td><td>
-                                <a href="http://www.copec.eu/gcmm/"> Global Congress on Manufacturing and Management (GCMM) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://abenc.org.br/">
-                                    <img src="../images/logos_cooperation/logo_abenc.gif" alt="logo" >
-                                </a>
-                            </td><td><a href="http://abenc.org.br/" target="_blank"> Brazilian Association of Civil Engineers (ABENC) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.sba.org.br/"><img src="../images/logos_cooperation/logo_sba.gif" width="73" height="56" alt="logo" ></a>
-                            </td><td>
-                                <a href="http://www.sba.org.br/"> Brazilian Automation Society (SBA) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.sbc.org.br/"><img src="../images/logos_cooperation/logo_sbc.gif" width="64" height="56" alt="logo" ></a>
-                            </td><td>
-                                <a href="http://www.sbc.org.br/"> Brazilian Computer Society (SBC) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.aenui.net/"><img src="../images/logos_cooperation/logo_aenui.gif" width="64" height="56" alt="logo" ></a>
-                            </td><td>
-                                <a href="http://www.aenui.net/"> Asociación de Enseñantes Universitarios de la Informática (AENUI) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.oern.pt/"><img src="../images/logos_cooperation/logo_oern.gif" alt="logo" ></a>
-                            </td><td><a href="http://www.oern.pt/" target="_blank"> Portugal Engineers Council – North Region (OERN) </a>
-                            </td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                <a href="http://www.portogente.com.br/"><img src="../images/logos_cooperation/logo_portogente.gif" alt="logo" ></a>
-                            </td><td><a href="http://www.portogente.com.br/" target="_blank"> PortFolk </a>
-                            </td></tr><tr><td style="width: 150px; height: 60px; text-align: center"><a href="http://www.copec.eu/aamp/" target="_blank">
-                                <img src="../images/logos_cooperation/logo_aamp.gif" width="46" height="56" alt="logo" >
-                                </a></td><td><a href="http://www.copec.eu/aamp/"> Fishing Museum Friends Society (AAMP) </a></td></tr>
-                        </tbody>
-                    </table>
-                    <p>&nbsp;</p>
-                    <h5>Support by</h5>
-                    <table   class="technical">
-                        <tbody>
-                            <tr><td style="width: 150px; height: 60px; text-align: center"><a href="http://www.cnpq.br/"> <img src="../images/logos_cooperation/logo_cnpq.gif" width="140" height="42" alt="logo" ></a></td><td> <a href="http://www.cnpq.br/" target="_blank"> National Council for Scientific and Technological Development (CNPq) </a></td></tr><tr><td style="width: 150px; height: 60px; text-align: center"><a href="http://www.capes.gov.br/"> <img src="../images/logos_cooperation/logo_capes.gif" width="68" height="56" alt="logo" ></a></td><td><a href="http://www.capes.gov.br/" target="_blank"> Coordination for Improvement of Personal of Superior Level (CAPES) </a></td></tr>
-                        </tbody>
-                    </table>
-                    <p>&nbsp;</p>
-                    <h5>Conference Support by</h5>
-                    <table   class="technical">
-                        <tbody>
-                            <tr><td style="width: 150px; height: 60px; text-align: center"><a href="https://iieducation.eu/"><img src="../images/logos_cooperation/logo_iie.png" height ="43" alt="logo" ></a></td><td><a href="https://iieducation.eu/" target="_blank"> International Institute of Education (IIE) </a></td></tr><tr><td style="width: 150px; height: 60px; text-align: center"><a href="https://confedi.org.ar/"><img src="../images/logos_cooperation/logo_confedi.png" height ="56" alt="logo" ></a></td><td><a href="https://confedi.org.ar/" target="_blank"> Federal Council of Engineering Deans of Argentina (CONFEDI) </a></td></tr><tr><td style="width: 150px; height: 60px; text-align: center"><a href="http://www.asibei.net/"><img src="../images/logos_cooperation/logo-asibei.jpg" width="130" alt="logo" ></a></td><td><a href="http://www.asibei.net/"> Ibero-American Association of Engineering Education Institutions (ASIBEI) </a></td></tr>
-                            <tr><td style="width: 150px; height: 60px; text-align: center"><a href="https://www.up.edu.pe/la-universidad"> <img src="../images/logos_cooperation/logo_UP.png" width="130" height="43" alt="logo" ></a></td><td><a href="http://www.up.edu.pe/la-universidad" target="_blank"> Universidad del Pac&iacute;fico </a></td></tr><tr><td style="width: 150px; height: 60px; text-align: center"><a href="https://www.galileo.edu/"> <img src="../images/logos_cooperation/logo_UGalileo.png" width="130" height="43" alt="logo" ></a></td><td><a href="https://www.galileo.edu/" target="_blank"> Galileo University</a></td></tr><tr><td style="width: 150px; height: 60px; text-align: center"><a href="https://www.ufasta.edu.ar/ingenieria/"> <img src="../images/logos_cooperation/logo_FI_UFASTA.png" width="145" alt="logo" ></a></td><td><a href="https://www.ufasta.edu.ar/ingenieria/" target="_blank"> UFASTA - Facultad de Ingeniería (UFASTA - School of Engineering) </a></td></tr>
-                        </tbody>
-                    </table>
-                    <p>&nbsp;</p>                                                        
-                    <h5>Host</h5>
-                    <table   class="technical">
-                        <tbody>                                       
-                            <tr><td style="width: 150px; height: 60px; text-align: center">
-                                    <a href="https://tec.mx/en/">
-                                        <img src="../images/logos_special/logo_Tec2T.png" alt="Tecnologico de Monterrey" style="height: 56px"></a></td><td><a href="https://tec.mx/en/" target="_blank"> Tecnológico de Monterrey</a></td></tr>
-
-                        </tbody>
-                    </table>
                 </div>
             </div>
         </section>
