@@ -586,7 +586,7 @@
             
             <?php include "../includesHtml/commingSoon.html" ?>
              
-            
+            <!--
             <div class="container-fluid py-5 bg-white">
                 <div class="border bg-light">
                     <h4 class= "display-6 fw-bold mb-4 "> Access the EDUNINE2026 OpenConf System:</h4> 
@@ -644,7 +644,7 @@
                     <p class="mt-2 px-4"><b>Once registered, you will receive email notifications for new review assignments in your EDUNINE OpenConf reviewer account</b>. These assignments will be for manuscripts where the authors have indicated that the topics discussed match those you selected as your areas of expertise or are more general and encompass them. <b>Manuscript assignments will begin approximately one week after the submission deadline</b>.</p>
                 </div>
             </div>
-            
+        -->  
             
         </section>
 
@@ -684,7 +684,7 @@
             
             <?php include "../includesHtml/commingSoon.html" ?>
             
-            
+        <!--
             <div class="container-fluid py-5 bg-white">
                 <div class="border bg-light mb-4">
                     <div class="row g-5">
@@ -807,7 +807,7 @@
                     </div>
                 </div>
             </div> 
-            
+        -->
             
         </section>
 
