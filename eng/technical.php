@@ -52,7 +52,7 @@
             }
         </script> 
         <main>
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <div> 
             <!-- Navigation bar  -->
             <?php include "newHeader.html" ?> 
