@@ -110,6 +110,8 @@
                                 an IEEE Xplore®-Compliant PDF to the EDUNINE2026 Submission System</a></li>
                         <li class="nav-item"><a class="nav-link px-1 pt-2" href="#step9">Step 9: Register at least one
                                 Author of the paper at the Conference</a></li>
+                        <li class="nav-item"><a class="nav-link px-1 pt-2" href="#notifications">Final Paper Review
+                                Notifications</a></li>
                     </ul>
                 </div>
             </div>
