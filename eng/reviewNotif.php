@@ -32,7 +32,7 @@
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
         <!--END  SLICK CAROUSEL -->
     </head>
-    <body onload = "jump()">
+    <body onload = "jump()" >
         <main>
             <?php
             if (empty($_GET["id"])) {
@@ -54,12 +54,38 @@
                 <?php include "edu9header.html" ?> 
             </div>
             <div class="#main"></div>
-
+           
             <section id="top" class=" padding-top-inicial">
                 <div class= "container tope  py-2 bg-white">
 
                     <div class="row g-5">
                         <div class= "col text-sm-left">
+                                 <!-- New proposed breadcrumb -->
+                                <nav class="section-nav pb-5" aria-label="Section navigation">
+                                    <ul class="d-flex justify-content-end list-unstyled mb-0">
+                                        <li class="nav-item mx-1">
+                                        <a class="nav-link px-3 py-2 btn" href="#prescreen">Prescreening</a>
+                                        </li>
+                                        <li class="nav-item mx-1">
+                                        <a class="nav-link px-3 py-2 btn" href="#peerReview">About Peer Review</a>
+                                        </li>
+                                        <li class="nav-item mx-1">
+                                        <a class="nav-link px-3 py-2 btn" href="#peerReviewCriteria">Peer-Review Criteria</a>
+                                        </li>
+                                        <li class="nav-item mx-1">
+                                        <a class="nav-link px-3 py-2 btn" href="#peerReviewDecision">Peer-review Decision</a>
+                                        </li>
+                                        <li class="nav-item mx-1">
+                                        <a class="nav-link px-3 py-2 btn" href="#nextFinalPaperRev">Quick Overview</a>
+                                        </li>
+                                        <li class="nav-item mx-1">
+                                        <a class="nav-link px-3 py-2 btn" href="#FinalReview"">Final Review</a>
+                                        </li>
+                                        <!-- add/remove as needed
+                                        There was no link for venue?? It tended to disappear -->
+                                    </ul>
+                                </nav>
+                            <!-- PARTE SUSAN FIN -->
                                 <h2 class="display-6 fw-bold text-center">Peer Review Process and Notification</h2>
                                 <p class="fs-5">Ensuring the originality and quality of research in academic conferences requires a rigorous three-step selection process. First, editors conduct a preliminary review to check formatting, page limits, and topic relevance. Next, the papers undergo peer review (single- or double-blind), where experts evaluate the methodology, originality, and contribution of the study. Finally, editors consider the reviewers’ feedback and the authors’ revisions before making the final acceptance decision. This process ensures the publication and presentation of high-impact research.</p>
                         </div>    
@@ -225,8 +251,9 @@
                         </div>  
                     </div>      
                 </div>
-
+            </section>
                 <!-- Peer-Review Criteria -->
+            <section id ="peerReviewCriteria">  
                 <div class="container py-3 bg-body-white">
                     <div class="row">
                         <div class= "col text-sm-left">
@@ -245,11 +272,11 @@
                             
                         </div>
                     </div>
-                </div>
-
+                </div>           
+            </section>                                    
 
                 <!-- Peer-review Decision -->
-            <section>
+            <section id ="peerReviewDecision">
                 <div class= "container tope pt-1 pb-2  bg-white">
                     <div class="row g-3">
                         <div class= "col text-sm-left">
@@ -358,7 +385,7 @@
                 </div>
             </section>    
         <!-- Final Review by TPC Members -->
-         <section>
+         <section id="FinalReview">
             <div class= "container tope  py-2 bg-white">
                     <div class="row g-5">
                         <div class= "col text-sm-left">
