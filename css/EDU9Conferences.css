@@ -883,7 +883,6 @@ html, body {
     max-width: 100%;
 } 
 
-
 /*Breadcrumb Navigation for information.php*/
 .section-nav-breadcrumb {
     font-family: 'Quicksand', 'sans-serif';
@@ -1028,6 +1027,13 @@ font-family: 'Quicksand', 'sans-serif';
     .section-nav .nav-link:hover {
     font-weight: bold;
     color: #2e5897; /* blue text instead of background */
+    }
+}
+
+/* HOME CAROUSEL FIX HIGHT */
+@media (min-width: 1200px) {
+    .home-carousel {
+        height: 550px;
     }
 }
 
