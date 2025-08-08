@@ -65,18 +65,16 @@
                 <!-- Full-width image -->
                 <div class="home-image-container">
                     <div class="home-text row">
-                        <div class="col-sm-12">
+                        <div class="col-sm-12 text-center text-overlay">
                             <h1 class="display-4 fw-bold">X IEEE World Engineering</h1>
                             <h1 class="display-4 fw-bold">Education Conference</h1>
                             <h4 class="fw-bold">March 8-11, 2026 - Mexico City, Mexico</h4>
                             <h3 class="fw-bold">"Theme of the conference: To be assigned"</h3>
                         </div>
                     </div>
-                    <img class="img-fluid w-100" src="../images/city/homeImage.jpeg" alt="EDUNINE Banner">
+                    <img class="img-fluid w-100" src="../images/city/homeImage.jpg" alt="EDUNINE Banner">
                 </div>
             </section>
-
-             <!-- PARTE SUSAN INICIO -->
             <!-- New proposed breadcrumb -->
                 <nav class="section-nav" aria-label="Section navigation">
                     <ul class="d-flex justify-content-end list-unstyled mb-0">
@@ -99,90 +97,52 @@
                         There was no link for venue?? It tended to disappear -->
                     </ul>
                 </nav>
-            <!-- PARTE SUSAN FIN -->
-
-            <!--Navigation for cellphones Susan's Idea-->
-            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-            <symbol id="chevron-up-down" viewBox="0 0 16 18">
-                <!-- Up chevron -->
-                <path d="M2.146 6.854a.5.5 0 0 1 .708 0L8 2.707l5.146 4.147a.5.5 0 0 1-.708.708L8 4.207 2.854 7.562a.5.5 0 0 1-.708-.708z"/>
-
-                <!-- Down chevron -->
-                <path d="M2.146 11.146a.5.5 0 0 1 .708 0L8 15.293l5.146-4.147a.5.5 0 0 1 .708.708l-5.5 5.5a.5.5 0 0 1-.708 0l-5.5-5.5a.5.5 0 0 1 0-.708z"/>
-            </symbol>
-            </svg>
-
-
-            <div class="container d-flex justify-content-center">
-                <div class="dropdown d-navs d-sm-none"> <!--d-sm-none makes it not appear for screen higher than 575px width-->
-                <button class="btn dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    On this page
-                    <svg class="bi ms-2" width="16" height="16" fill="currentColor" aria-hidden="true">
-                    <use xlink:href="#chevron-up-down"></use>
-                    </svg>
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#about">About</a></li>
-                    <li><a class="dropdown-item" href="#dates">Schedule</a></li>
-                    <li><a class="dropdown-item" href="#coordinators">Coordinators</a></li>
-                    <li><a class="dropdown-item" href="#venue">Venue</a></li>
-                    <li><a class="dropdown-item" href="#organizers">Organizers</a></li>
-                </ul>
-                </div>
-            </div>
-
-            <!--End of Navigation for cellphones Susan's Idea-->
-
                 <!-- About section -->
-            <section id="about">
-                <section class="primera">
-                
-                    <!-- ABOUT CONFERENCE SECTION -->
-                    <div class="container-fluid px-0">
-                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <h2 class="display-5 fw-bold">About the Conference</h2>
-                                    <h4>A Premier Hybrid Experience</h4>
-                                    <p>We are pleased to invite you to contribute to the <b>X IEEE World Engineering Education Conference (EDUNINE2026)</b>, a leading international event that will take place in a hybrid format—both online and in person—at <b>Tecnológico de Monterrey</b> in <b>Mexico City, Mexico</b>, from <b>March 8 to 11, 2026</b>.</p>
-                                    <h4>Call for Papers</h4>
-                                    <p>We welcome original submissions in <b>English</b>, which will undergo a rigorous peer-review process, under the following categories within the field of interest of the <b>IEEE Education Society</b>:</p><ul>
-                                        <li><b>Category 1:</b> Implemented teaching techniques, classroom experience reports, or pedagogical tools (as full papers or work in progress papers)
-                                        </li><li><b>Category 2:</b> New curricula and educational program proposals, including regional or national adaptations (as full papers or work in progress papers)
-                                        </li><li><b>Category 3:</b> Educational research papers (as full papers or work in progress papers)
-                                        </li><li><b>Category 4:</b> Research-in-Development (RID) papers for doctoral students (as doctoral symposium papers).
-                                        </li><li><b>Category 5:</b> Workshop Proposal Papers for Online Pre-Conference Workshops, Plenary and Panel Proposal Papers.</li></ul>
-                                    <p>The <b>IEEE Education Society’s</b> field of interest encompasses the theory and practice of education and educational technology related to the effective delivery of knowledge in disciplines that fall within <b>IEEE’s</b> scope, such as engineering, computing, and technology-related fields.</p>
-                                    <p>Accepted papers that meet IEEE quality standards will be published in IEEE Xplore®. Each accepted paper must be presented orally at the conference by at least one registered author. Presentations may be delivered in <i>English</i>, <i>Spanish</i>, or <i>Portuguese</i>.
-                                </div>
-                                <div class="carousel-item">
-                                    <h4>A Dynamic and Inclusive Program</h4>
-                                    <p><b>EDUNINE2026</b> addresses emerging trends and challenges in engineering, computing, and technology education. This year’s conference will explore its central theme in all its facets—how it transforms teaching and learning practices, reshapes the skills required by future professionals, and responds to the evolving demands of industries and societies.
-                                    The program features plenary talks, panel discussions, and special sessions designed to foster critical reflection and exchange on these topics. Discussions will engage with questions around the future of work, the alignment between education and societal needs, and how to better serve diverse and underserved populations through inclusive educational strategies.</p>
-                                    <p>In addition to parallel paper presentations and workshops, the conference will also host the EDUNINE Doctoral Symposium, providing a platform for doctoral students to share ongoing research and receive feedback from experts in the field.</p>
-                                    <h4>Accessibility and Inclusivity</h4>
-                                    <p>The hybrid format ensures that all participants—regardless of location—can fully engage in the conference. Whether attending virtually or onsite, everyone has the opportunity to participate, learn, and contribute.</p>
-                                    <h4>A Conference with Impact</h4>
-                                    <p><b>EDUNINE</b> is an integral part of the <b>IEEE Education Society's</b> family of regional conferences, alongside <b>FIE</b>, <b>EDUCON</b>, and <b>TALE</b>. These events are recognized as premier venues for advancing global dialogue, research, and innovation in education.</p>
-                                    <p><b>Join Us</b></p>
-                                    <p>Be part of <b>EDUNINE2026</b>—a forum where ideas converge, knowledge grows, and meaningful connections are made. Through an engaging program of papers, plenaries, panels, and special sessions, the conference will examine the challenges and opportunities that define the future of engineering and technology education. We look forward to your participation in this timely and impactful event.</p>
-                                </div>
+            <section class="primera">             
+                <!-- ABOUT CONFERENCE SECTION -->
+                 <div class="container-fluid px-0">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner home-carousel">
+                            <div class="carousel-item active">
+                                <h2 class="display-5 fw-bold">About the Conference</h2>
+                                <h4>A Premier Hybrid Experience</h4>
+                                <p>We are pleased to invite you to contribute to the <b>X IEEE World Engineering Education Conference (EDUNINE2026)</b>, a leading international event that will take place in a hybrid format—both online and in person—at <b>Tecnológico de Monterrey</b> in <b>Mexico City, Mexico</b>, from <b>March 8 to 11, 2026</b>.</p>
+                                <h4>Call for Papers</h4>
+                                <p>We welcome original submissions in <b>English</b>, which will undergo a rigorous peer-review process, under the following categories within the field of interest of the <b>IEEE Education Society</b>:</p><ul>
+                                    <li><b>Category 1:</b> Implemented teaching techniques, classroom experience reports, or pedagogical tools (as full papers or work in progress papers)
+                                    </li><li><b>Category 2:</b> New curricula and educational program proposals, including regional or national adaptations (as full papers or work in progress papers)
+                                    </li><li><b>Category 3:</b> Educational research papers (as full papers or work in progress papers)
+                                    </li><li><b>Category 4:</b> Research-in-Development (RID) papers for doctoral students (as doctoral symposium papers).
+                                    </li><li><b>Category 5:</b> Workshop Proposal Papers for Online Pre-Conference Workshops, Plenary and Panel Proposal Papers.</li></ul>
+                                <p>The <b>IEEE Education Society’s</b> field of interest encompasses the theory and practice of education and educational technology related to the effective delivery of knowledge in disciplines that fall within <b>IEEE’s</b> scope, such as engineering, computing, and technology-related fields.</p>
+                                <p>Accepted papers that meet IEEE quality standards will be published in IEEE Xplore®. Each accepted paper must be presented orally at the conference by at least one registered author. Presentations may be delivered in <i>English</i>, <i>Spanish</i>, or <i>Portuguese</i>.
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                            <div class="carousel-item">
+                                <h4>A Dynamic and Inclusive Program</h4>
+                                <p><b>EDUNINE2026</b> addresses emerging trends and challenges in engineering, computing, and technology education. This year’s conference will explore its central theme in all its facets—how it transforms teaching and learning practices, reshapes the skills required by future professionals, and responds to the evolving demands of industries and societies.
+                                The program features plenary talks, panel discussions, and special sessions designed to foster critical reflection and exchange on these topics. Discussions will engage with questions around the future of work, the alignment between education and societal needs, and how to better serve diverse and underserved populations through inclusive educational strategies.</p>
+                                <p>In addition to parallel paper presentations and workshops, the conference will also host the EDUNINE Doctoral Symposium, providing a platform for doctoral students to share ongoing research and receive feedback from experts in the field.</p>
+                                <h4>Accessibility and Inclusivity</h4>
+                                <p>The hybrid format ensures that all participants—regardless of location—can fully engage in the conference. Whether attending virtually or onsite, everyone has the opportunity to participate, learn, and contribute.</p>
+                                <h4>A Conference with Impact</h4>
+                                <p><b>EDUNINE</b> is an integral part of the <b>IEEE Education Society's</b> family of regional conferences, alongside <b>FIE</b>, <b>EDUCON</b>, and <b>TALE</b>. These events are recognized as premier venues for advancing global dialogue, research, and innovation in education.</p>
+                                <p><b>Join Us</b></p>
+                                <p>Be part of <b>EDUNINE2026</b>—a forum where ideas converge, knowledge grows, and meaningful connections are made. Through an engaging program of papers, plenaries, panels, and special sessions, the conference will examine the challenges and opportunities that define the future of engineering and technology education. We look forward to your participation in this timely and impactful event.</p>
+                            </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                </section>
+                </div>
             </section>
             <!-- NAVAR SCHEDULE SECTION -->
-            <section id="dates">
-      
+            <section id="dates">    
             <!-- SCHEDULE SECTION -->
             <section class="schedule">
                 <div class="container-fluid text-center">
@@ -241,7 +201,7 @@
                                         <a href="information.php?id=submission" class="btn btn-primary btn-sm" role="button">Paper Submission</a>
                                     </div> 
                                 </div>
-                                <div class="container-fluid mt-2">
+                                <div class=" mt-2">
                                     <div class="row">
                                         <div class="col-9 bg-light border text-secondary">
                                             <h5 class="text-center">Event</h5>
@@ -277,7 +237,7 @@
                                     <a href="reviewNotif.php" class="btn btn-primary btn-sm" role="button">Peer Review Process Notification</a>
                                 </div>   
                             </div>
-                            <div class="container-fluid mt-2">
+                            <div class=" mt-2">
                                 <div class="row">
                                     <div class="col-9 bg-light border text-secondary">
                                         <h4 class="text-center">Event</h4>
@@ -316,7 +276,7 @@
                                         <a href="finalInformation.php" class="btn btn-primary btn-sm" role="button">Final Paper Preparation and Submission</a>
                                     </div>                     
                                 </div>
-                                <div class="container-fluid mt-2">
+                                <div class=" mt-2">
                                     <div class="row">
                                         <div class="col-9 bg-light border text-secondary">
                                             <h4 class="text-center">Event</h4>
@@ -356,7 +316,7 @@
                                 <h4 class="fw-bold pb-4">Notification of Second Review</h4>
                                 <p class="fs-6 mb-4"> You'll receive a summary via email detailing the second review process conducted in line with the Final Paper Preparation Guidelines. This review will ensure compliance with quality standards for content, English, and format, as well as alignment of Paper uploaded information with the final paper, proper PDF generation through PDFeXpress, and successful completion of the copyright transfer.  Once the copyright transfer is finalized and the paper clears all checks, it undergoes evaluation by IEEECrossCheck. Final Papers Papers that do not meet these requirements will be rejected and cannot be published in IEEE Xplore. </p>                                   
                             </div>
-                            <div class="container-fluid mt-2">
+                            <div class=" mt-2">
                                 <div class="row">
                                     <div class="col-9 bg-light border text-secondary">
                                         <h4 class="text-center">Event</h4>
@@ -393,7 +353,7 @@
                                     <a href="fees.php" class="btn btn-primary btn-sm" role="button">Registration and Payment (Authors and Participants)</a> 
                                 </div>
                             </div>
-                            <div class="container-fluid mt-2">
+                            <div class=" mt-2">
                                 <div class="row">
                                     <div class="col-9 bg-light border text-secondary">
                                         <h4 class="text-center">Event</h4>
@@ -437,7 +397,7 @@
                                         <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
                                     </div>                                                          
                                 </div>
-                                    <div class="container-fluid mt-2">
+                                    <div class=" mt-2">
                                         <div class="row">
                                             <div class="col-9 bg-light border text-secondary">
                                                 <h4 class="text-center">Event</h4>
@@ -473,7 +433,7 @@
                                         <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
                                     </div>                                                          
                                 </div>
-                                <div class="container-fluid mt-2">
+                                <div class=" mt-2">
                                     <div class="row">
                                         <div class="col-9 bg-light border text-secondary">
                                             <h4 class="text-center">Event</h4>
@@ -521,7 +481,7 @@
                                         <a href="postConf.php" class="btn btn-primary btn-sm" role="button">Post Conference Products</a>
                                     </div>
                             </div>
-                            <div class="container-fluid mt-2">
+                            <div class=" mt-2">
                                 <div class="row">
                                     <div class="col-9 bg-light border text-secondary">
                                         <h4 class="text-center">Event</h4>
@@ -787,7 +747,6 @@
     </section>
     <!-- VENUE section -->
     <section id="venue">
-
         <!-- v title section -->
         <div class="venue-hero">
             <div class="container-fluid py-3">
@@ -917,9 +876,9 @@
     </section>
         
     <!-- END VENUE Section -->
-
-    <!-- Organization section -->
        
+   
+    </main>
 
 <!-- Footer section -->
 <section id="organizers">

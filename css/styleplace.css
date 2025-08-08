@@ -1,0 +1,146 @@
+.tourism-card {
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+.tourism-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.tourism-card h6 {
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    line-height: 1.2;
+}
+
+.rating {
+    color: #ffc107;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+}
+
+
+.category {
+    color: #6c757d;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.carousel-container {
+    
+    background: #466e96;
+    border: 1px solid #e3f2fd;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#mexicoTourismCarousel {
+    height: auto !important;
+}
+
+.carousel-inner {
+    padding: 0 50px;
+    height: auto !important;
+}
+
+.carousel-item {
+    height: auto !important; 
+    padding: 20px 0; 
+}
+
+.cards-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.btn-primary {
+    
+    background-color: #0d5bba;
+    border-color: #0d5bba;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 8px !important;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0098da;
+    border-color: #0098da;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        display: block; 
+        overflow: hidden;
+    }
+    
+    .tourism-card {
+        width: 100%;
+        margin: 10px 0;
+        display: none; 
+    }
+    
+    .carousel-item.active .tourism-card:first-child,
+    .carousel-item .tourism-card:first-child {
+        display: flex;
+    }
+    
+    .carousel-inner {
+        padding: 0;
+    }
+}
+
+/* Ajustes específicos para 770px - 991px (3 cards) */
+@media (min-width: 770px) and (max-width: 991px) {
+    .cards-container {
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    
+    .tourism-card {
+        min-width: calc(33.33% - 10px) !important;
+        margin: 0 5px;
+        flex: 0 0 auto;
+    }
+    
+    .carousel-inner {
+        padding: 0 20px;
+    }
+}
+
+/* Ajustes para 576px - 769px (2 cards) */
+@media (min-width: 576px) and (max-width: 769px) {
+    .tourism-card {
+        min-width: calc(50% - 10px) !important;
+    }
+}
+

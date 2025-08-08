@@ -315,13 +315,19 @@ section.inicial {
     margin-left: 15%;
     background-color: inherit;
     padding-top: 130px;
-}
+} 
 /*Information for Reviewers section. First section in reviewers.php*/
 section.inicial-reviewers {
     margin-right: 1%;
     margin-left: 1%;
     background-color: inherit;
-    padding-top: 80px;
+    padding-top: 130px;
+}
+section.inicial-committees {
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: inherit;
+    padding-top: 10px;
 }
 /*End Information for reviewers*/
 section.schedule {
@@ -348,6 +354,7 @@ section.schedule {
     max-width: 2400px;
 }
 
+/*CHANGING THE FONT FAMILY HERE*/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -583,7 +590,7 @@ button {
     margin-left: 8%;
     margin-right: 8%;
     width: auto;
-    height: 550px;
+    /* height: 550px; */
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -653,6 +660,12 @@ p.reduced {
     margin-left: auto;
     margin-right: auto;
 }
+.text-overlay {
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 1rem;
+  border-radius: 15px;
+}
+
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -879,7 +892,6 @@ html, body {
     max-width: 100%;
 } 
 
-
 /*Breadcrumb Navigation for information.php*/
 .section-nav-breadcrumb {
     font-family: 'Quicksand', 'sans-serif';
@@ -986,7 +998,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 1.5rem; 
     }
     .carousel-inner {
-        height: 780px;
+        /* height: 780px; */
     }
     
     section.primera {
@@ -1039,6 +1051,13 @@ font-family: 'Quicksand', 'sans-serif';
     }
 }
 
+/* HOME CAROUSEL FIX HIGHT */
+@media (min-width: 1200px) {
+    .home-carousel {
+        height: 550px;
+    }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media only screen and (max-width: 855px) 
 /* and (max-width: 1199.98px) */
@@ -1061,7 +1080,7 @@ font-family: 'Quicksand', 'sans-serif';
         padding-top: 60px;
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 700;
         /*    font-size: 1rem !important */
         /*         line-height: 1; */
@@ -1081,7 +1100,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 1.1rem; 
     }
     .carousel-inner {
-        height: 865px;
+        /* height: 865px; */
     }
      /*Styling new navigation*/
     .section-nav-breadcrumb {
@@ -1138,7 +1157,7 @@ font-family: 'Quicksand', 'sans-serif';
     }
     p, li, ul, ol {
         /*font-family: 'Lato', sans-serif;*/
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Quicksand', sans-serif;
         font-weight: 300;
         /*   font-size: 0.50rem ; */
     }   
@@ -1186,7 +1205,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 0.7rem; 
     }
     .carousel-inner {
-        height: 1300px;
+        /* height: 1300px; */
     }
 
      /*For centering the carousel*/
@@ -1227,7 +1246,9 @@ font-family: 'Quicksand', 'sans-serif';
     pointer-events: none;   /* disable all mouse interactions */
     cursor: default;        /* show normal arrow instead of hand */
     }
-
+    .text-overlay {
+        padding-top: 5rem;
+    }
    
 }
 
