@@ -79,6 +79,7 @@
 
 }
 
+
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -314,6 +315,13 @@ section.inicial {
     margin-left: 15%;
     background-color: inherit;
     padding-top: 130px;
+} 
+/*Information for Reviewers section. First section in reviewers.php*/
+section.inicial-reviewers {
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: inherit;
+    padding-top: 130px;
 }
 section.inicial-committees {
     margin-right: 15%;
@@ -321,6 +329,7 @@ section.inicial-committees {
     background-color: inherit;
     padding-top: 10px;
 }
+/*End Information for reviewers*/
 section.schedule {
     padding-top: 0px;
 }
@@ -455,8 +464,8 @@ ul.breadcrumb li a:hover {
 }
 /* Scroll to top made it round*/
 #myTopBtn {
+    /*100vw: means the full width of the viewport (the visible screen).*/
     outline: none;  
-    font-family: 'Quicksand';
     padding: 3px;
 
     border-radius: 50%;
@@ -469,7 +478,7 @@ ul.breadcrumb li a:hover {
     cursor: pointer; 
     position: fixed; 
     bottom: 20px; 
-    right: 20px; 
+    right: calc((100vw - 2560px) / 2 + 20px); 
     z-index: 99; 
     display: none;
 }
@@ -903,7 +912,7 @@ font-family: 'Quicksand', 'sans-serif';
 /*CONTAINER FOR THE ACCORDION IN PEER REVIEW GUIDELINES*/
 .container-peerReview {
     /*display: flex;*/
-    max-width: 2400px;
+    max-width: 2560px;
     margin-right: auto;
     margin-left: auto;
     background-color: inherit;
@@ -960,9 +969,21 @@ font-family: 'Quicksand', 'sans-serif';
 }
 /*END BUTTONS THAN LINKS reviewers.php with information.php*/
 
+/* For smaller screens, use normal right positioning */
+/*Without this query, it would have not been possible to pu inside a containr the backto Top arrow*/
+@media (max-width: 2560px) {
+    #myTopBtn {
+        right: 20px;
+    }
+}
+/*End Back to To Arrow Button*/
 
 @media only screen and (max-width: 1420px) 
 {
+    #myTopBtn {
+        right: 20px;
+    }
+
     section {
         /* margin-right: 15%;
         margin-left: 15%;
@@ -1233,6 +1254,7 @@ font-family: 'Quicksand', 'sans-serif';
 
 
 @media (min-width: 1140px) {
+   
     .horizontal-timeline .items .items-list {
         display: inline-block;
         width: 24%;
