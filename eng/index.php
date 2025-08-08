@@ -661,7 +661,7 @@
                     </div>
 
                     <div class="slide image-hover text-center">
-                        <img src="../images/logos_cooperation/logo_sbc.gif"
+                        <img src="../images/coordinators_profiles/Alejandro Adorjan.jpg"
                                         class="img-fluid rounded-circle mb-2"
                                         alt="Logo SBC">
                     
