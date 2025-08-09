@@ -19,3 +19,34 @@
     position: relative;
     z-index: 1;
 }
+
+body.modal-open {
+    overflow: hidden;
+}
+
+/**/
+.coordinators-modal {
+    z-index: 1050;
+    overflow: hidden;
+}
+
+.coordinators-modal .modal-content {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.coordinators-modal .modal-title {
+    font-weight: bold;
+    color: #004080;
+}
+
+.coordinators-modal .modal-body {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/*Avoid background scrolling*/
+/* Ensure background doesn’t scroll while modal is open (also fixes some mobile cases) */
+html.modal-open, body.modal-open { 
+    overflow: hidden; 
+}

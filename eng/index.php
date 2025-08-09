@@ -549,11 +549,10 @@
                         <h2>José Martín Molina Espinosa</h2>
                         <h2>Conference Chair</<h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                         <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalJoséMartín">
+                        View CV
+                        </button>
                     </div>
                 </div>
 
@@ -666,7 +665,7 @@
                         <h2>Technical Program Co-Chair</h2>
                         
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">View CV</button></li></ul>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAle">View CV</button></li></ul>
 
                     </div>
 
@@ -753,6 +752,7 @@
                             class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
+
                     </div>
                 </div>
 
@@ -770,6 +770,10 @@
                             class="border-white btn btn-primary btn-lg" 
                             role="button">View CV</a>
                         </p> 
+                          <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                        </button>
                     </div>
                 </div>
 
@@ -778,12 +782,55 @@
         </div>
     </section>
 
+    <!-- Modal José Martín Molina Espinosa-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalJoséMartín" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                Dr. José Martín Molina Espinosa is a Research Professor in the School of Engineering and Sciences 
+                at Tecnologico de Monterrey, based at Mexico City campus, where he also contributes as an adjunct 
+                researcher to the institution’s Artificial Intelligence Strategic. He earned his Ph.D. in 
+                Computer Science and Telecommunications from the Institut National Polytechnique de Toulouse (INP LAAS), 
+                France. Since joining the Tec in 2003, he has held key roles including Director of Graduate Programs 
+                in Computer Science, Head of Computer Science Department, and Director of The Decision Making Lab.<br>
+                <br>Dr. Molina’s prolific research career includes authoring over 30 peer-reviewed journal articles, 
+                book chapters, and conference papers in areas such as distributed systems, cloud and mobile application 
+                development, system architectures for decision making, educational technology, computational thinking, 
+                and complex thinking. He is a recognized researcher (Mexican Researcher Certification Level 
+                1) with a growing body of published work in higher education and learning sciences. 
+                His recent research in generative artificial intelligence focuses on transforming higher education 
+                through the integration of AI tools into active learning strategies, competency development, 
+                and inclusive teaching practices. His international recognition—including the QS Reimagine Education 
+                Gold Award and the Open Education Global “Open with Artificial Intelligence Award”—reflects the 
+                innovation, scalability, and societal impact of his initiatives, which leverage AI to foster 
+                equitable access, cultivate complex thinking, and empower lifelong learning. Additionally, 
+                his research has addressed adaptive learning systems enriched with generative AI to support diversity 
+                and inclusion, earning accolades such as the Best Paper Award at the IEEE EDUNINE 2025 conference. 
+                Through this body of work, Dr. Molina is shaping the academic discourse on how generative AI can be 
+                responsibly and effectively embedded into higher education to prepare students for the challenges of 
+                an AI-driven world.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
      <!-- Modal Ale-->
-    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+    <div class="modal coordinators-modal fade" id="coordinatorsModalAle" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="feedbackModalLabel">Short Bio</h1>              
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -801,28 +848,6 @@
         </div>
     </div>
 
-    <!-- Modal Mario Chong-->
-    <div class="modal fade" id="feedbackModalChong" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="feedbackModalLabel">Short Bio</h1>              
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-
-                    <p class="lh-sm mx-2">
-                        Associate Dean of Innovation & Design Engineering, Faculty of Engineering Professor, Study Center of China & Asia Pacific Member (CECHAP), Research Center Member (CIUP); Universidad del Pacífico. IEEE Senior Member. Horizon Europe National Contact Point. Stanford WIDS Ambassador. PANAMSTR Board Member. IEEE Edunine Board Member. POMS HOCM Member.
-                        PhD in Business Management (UNMSM). Master in industrial engineering, Master in Systems Engineering, and Industrial Engineer (UL). Advanced Supply Chain Management (MIT) certification. VREF Advanced Studies on Sustainable Urban Freight Systems (RPI).
-                        Former business engineering associate dean, special projects coordinator, development director, master's degrees in business administration (MBA), global business, food and agribusiness, and supply chain management academic director; Universidad del Pacífico.
-
-                    <a href="https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong">https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- VENUE section -->
     <section id="venue">
