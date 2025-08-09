@@ -3,6 +3,8 @@ function initializeCoordinatorsSlider() {
     jQuery(function($){
         $('.coordinators-slider').slick({
             infinite: true,
+            variableWidth: false,  // keep equal widths
+            adaptiveHeight: false, // keep equal heights
             slidesToShow: 4,
             slidesToScroll: 1,
             dots: true,

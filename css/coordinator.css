@@ -4,13 +4,15 @@
 
 
 /*Styling Profile Slick Carousel*/
-/* Target the dots’ pseudo-elements */
+
+/* Each slide centers its card */
+.coordinators-slider .slide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;      /* NEW: make all slides same height */
+}
 
 .slick-dots li button:before {
-  /*width: 12px;           /* make ’em 12×12px squares /
-  height: 12px;
-  border-radius: 0;      /* remove the circle /
-  background-color: #ccc;/* your “inactive” color /
   content: '';           /* ensure it still shows up */
   padding-top: 20px;
 }
@@ -19,12 +21,33 @@
 .image-hover {
   position: relative;
   overflow: hidden;
+  /*Not sure it it affects quitting this*/
+  width: 280px;   /* fixed card width */
+  height: 420px;  /* fixed card height */
 }
 
+/*MAKE THE SIZE OF THE CARD FIXED?*/
+.image-hover > img {
+  width: 100%;
+  aspect-ratio: 4 / 5; /*Mantain the same aspect ration for all devices*/
+  /*height: 800px;        /* fixed image area height THIS IS KEY*/
+  object-fit: cover;    /* fill the area, crop if needed */
+  object-position: center;
+  flex-shrink: 0;       /* prevent shrinking */
+}
+
+/* If it’s a logo, avoid cropping */
+.image-hover > img.fit-contain {
+  object-fit: contain;
+  background: #fff;     /* for transparent logos */
+}
+/*END FIZED SIZE*/
+  
 /* the dark overlay */
 .image-hover::before {
   content: "";
   position: absolute;
+  inset: 0;
   top: 0; left: 0;
   width: 100%; height: 100%;
   background: rgba(0,0,0,0.5);
@@ -105,3 +128,5 @@
     padding: 0;
     margin: 0;
 }
+
+

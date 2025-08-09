@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   // Collect the modals you want to control
   const modals = [
-    document.getElementById('feedbackModal'),
-    document.getElementById('coordinatorsModal'),
     document.getElementById('coordinatorsModalAle'),
     document.getElementById('coordinatorsModalJoséMartín')
   ].filter(Boolean);

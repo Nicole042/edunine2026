@@ -50,3 +50,9 @@ body.modal-open {
 html.modal-open, body.modal-open { 
     overflow: hidden; 
 }
+
+/*STYLE FOR SHORT BIO*/
+.lh-sm.mx-2 {
+  font-size: 1.1rem;  /* slightly bigger than default */
+  font-weight: 500;   /* a bit bolder */
+}

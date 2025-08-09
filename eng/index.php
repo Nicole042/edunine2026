@@ -542,12 +542,12 @@
             <div class="coordinators-slider">
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif" 
+                    <img src="..\images\coordinators\José Martín.png" 
                         class="img-fluid rounded-circle mb-2" 
                         alt="Conference Chair">
                     <div class="overlay-content">
                         <h2>José Martín Molina Espinosa</h2>
-                        <h2>Conference Chair</<h2>
+                        <h2>Conference Chair</h2><br>
                         
                          <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalJoséMartín">
@@ -557,7 +557,7 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif" 
+                    <img src="..\images\coordinators\Claudio Britto.jpg" 
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
@@ -573,7 +573,7 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif" 
+                    <img src="..\images\coordinators\Melany M.Ciampi.jpg" 
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
@@ -656,7 +656,7 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                    <img src="..\images\coordinators\Alejandro Adorjan .jpg"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
                 
@@ -673,7 +673,7 @@
                
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                    <img src="..\images\coordinators\Mario Chong.jpg"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
                 
@@ -739,7 +739,7 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                    <img src="..\images\coordinators\Mario Chong.jpg"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
                 
@@ -757,7 +757,7 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                    <img src="..\images\coordinators\Orlando Fittipaldi.jpg"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
                 
@@ -795,6 +795,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
                 Dr. José Martín Molina Espinosa is a Research Professor in the School of Engineering and Sciences 
                 at Tecnologico de Monterrey, based at Mexico City campus, where he also contributes as an adjunct 
                 researcher to the institution’s Artificial Intelligence Strategic. He earned his Ph.D. in 
@@ -817,6 +818,7 @@
                 Through this body of work, Dr. Molina is shaping the academic discourse on how generative AI can be 
                 responsibly and effectively embedded into higher education to prepare students for the challenges of 
                 an AI-driven world.
+                </p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -833,14 +835,15 @@
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
 
                     <p class="lh-sm mx-2">
-                        Alejandro Adorjan is a Professor of Software Engineering and Adjunct Academic Coordinator at the School of Engineering, Universidad ORT Uruguay. He is currently a Ph.D. candidate in Informatics at PEDECIBA. He holds both a Master’s degree in Computer Science and an Engineering degree in Software Engineering from Universidad ORT Uruguay.
-                        With over 15 years of experience in higher and technical education, Adorjan has designed and delivered undergraduate courses in Software Engineering, Programming, and Mathematics. He has been teaching at Universidad ORT Uruguay since 2007 and previously taught at Universidad del Trabajo del Uruguay.
-                        Adorjan has authored and co-authored several peer-reviewed publications presented at leading international conferences, including EDUCON, FIE, TALE, EDUNINE. His academic work focuses on topics such as competency-based education, educational innovation, human-in-the-loop data processes, and collaborative learning in virtual environments.
+                        Alejandro Adorjan is a Professor of Software Engineering and Adjunct Academic Coordinator at the School of Engineering, Universidad ORT Uruguay. He is currently a Ph.D. candidate in Informatics at PEDECIBA. He holds both a Master’s degree in Computer Science and an Engineering degree in Software Engineering from Universidad ORT Uruguay. <br>
+                        With over 15 years of experience in higher and technical education, Adorjan has designed and delivered undergraduate courses in Software Engineering, Programming, and Mathematics. He has been teaching at Universidad ORT Uruguay since 2007 and previously taught at Universidad del Trabajo del Uruguay.<br>
+                        <br>Adorjan has authored and co-authored several peer-reviewed publications presented at leading international conferences, including EDUCON, FIE, TALE, EDUNINE. His academic work focuses on topics such as competency-based education, educational innovation, human-in-the-loop data processes, and collaborative learning in virtual environments.<br>
                         He is a recognised leader in the academic community, serving as a member of the Academic Advisory Council (Consejo Académico Consultivo) of the School of Engineering at Universidad ORT Uruguay. His work has been recognised with multiple awards, including for his commitment to pedagogical innovation and teaching at ORT University Uruguay.
-
+                    </p>
+                </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
