@@ -19,9 +19,13 @@
 }
 
 /*To avoid jitterniess using '.card:hover{}'*/
-.container-card:hover .card1 {
-    /*cursor: pointer;*/
+/*.container-card:hover .card1 {
     transform: rotateY(180deg);   
+}*/
+/*CLICKABLE*/
+.card1.flipped,
+.card1.flipped:hover {
+    transform: rotateY(180deg) !important;
 }
 
 

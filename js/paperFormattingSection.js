@@ -21,4 +21,25 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.add('active');
     });
   });
+
+   // Add click-to-flip functionality to all cards
+    const flipCards = document.querySelectorAll('.card1');
+    
+    flipCards.forEach(card => {
+        card.addEventListener('click', function(e) {
+            e.stopPropagation(); // Prevent event bubbling
+            this.classList.toggle('flipped');
+            
+            console.log('Card clicked, flipped:', this.classList.contains('flipped'));
+        });
+    });
+
+    // Optional: Click outside to unflip
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.container-card')) {
+            flipCards.forEach(card => {
+                card.classList.remove('flipped');
+            });
+        }
+    });
 });
