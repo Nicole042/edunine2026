@@ -9,21 +9,22 @@
 .container-card{
     /*width: 100%;*/
     max-width: 100%;     /* will shrink below 400px */
-    height: 570px; /*730*/
-    /*perspective: 10px;*/
+    height: 520px; /*730*/
+    perspective: 1000px; /*3D perspective*/
     border-radius: 2rem;
     overflow: visible;
-    /*max-width: 800px;
+    align-items: center;
     font-family: "Quicksand", sans-serif;
     /*background-color: rgb(110, 241, 23)*/
 }
 
 /*To avoid jitterniess using '.card:hover{}'*/
 .container-card:hover .card1 {
-    cursor: pointer;
+    /*cursor: pointer;*/
     transform: rotateY(180deg);   
-    /*overflow: visible;*/
 }
+
+
 .card1{
     height: 100%;
     width: 100%;
@@ -74,17 +75,44 @@
 .front1 .row {
     /* stack the two “cols” vertically instead of side-by-side */
     flex-direction: column ;
-    }
-    .front1 .row > .col-12,
-    .front1 .row > .col {
-        /* ensure each takes the full width when stacked */
-        width: 100% ;
-        max-width: 100% ;
-    }
-    /* optional: add some breathing room between them */
-    .front1 .row > .col {
-        margin-bottom: 1rem;
-    }
+}
+.front1 .row > .col-12,
+.front1 .row > .col {
+    /* ensure each takes the full width when stacked */
+    width: 100% ;
+    max-width: 100% ;
+}
+/* optional: add some breathing room between them */
+.front1 .row > .col {
+    margin-bottom: 1rem;
+}
+
+
+
+/*STYLE FOR PAPER FORMATTING BUTTONS*/
+.paperFormatting-btn {
+    background-color: #e0f2fe; 
+    border: none;
+    color: #0369a1;
+    padding: 12px 24px;
+    margin: 0; 
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.paperFormatting-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(56, 182, 255, 0.3);
+}
+
+.paperFormatting-btn.active {
+    background-color: #466e96;
+    color: white;
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+}
+/*END STYLE FOR PAPER FORMATTING BUTTONS*/
 
 @media (max-width: 1420px) {
      .container-card{
@@ -167,7 +195,7 @@
     .container-card{
         /*width: 100%;*/
         max-width: 100%;     /* will shrink below 400px */
-        height: 1300px;
+        height: 1000px;
         perspective: 700px;
         border-radius: 2rem;
         /*max-width: 800px;

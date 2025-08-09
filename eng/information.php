@@ -756,10 +756,11 @@
             <div class="container-fluid py-3 bg-body-white">
                 <div class ="row">
                     <div class= "col text-sm-left"> 
-                        <h6 class="display-6 fw-bold text-center">EDUNINE Paper Types and Formatting Guidelines</h6> 
+                        <h6 class="display-6 fw-bold text-center">Paper Types and Formatting Guidelines (Flipcards)</h6> 
 
                         <p class="lh-sm text-center">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
-                        <p class="lh-sm text-center">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category.</p>
+                        <p class="lh-sm text-center">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category. 
+                            Too see in detail the required format for each paper format, hover over the card to flip it.</p>
                     </div>
                 </div> 
                             
