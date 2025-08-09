@@ -546,8 +546,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="Conference Chair">
                     <div class="overlay-content">
-                        <h2>José Martín Molina Espinosa</h2>
-                        <h2>Conference Chair</<h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">José Martín Molina Espinosa</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Conference Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -562,8 +562,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>Claudio R. Brito</h2>
-                        <h2>General Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Claudio R. Brito</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">General Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -578,8 +578,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>Melany M. Ciampi</h2>
-                        <h2>Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Melany M. Ciampi</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Co-Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -594,8 +594,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>To be assigned</h2>
-                        <h2>Awards Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">To be assigned</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Awards Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -611,8 +611,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>To be assigned</h2>
-                        <h2>Technical Program Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">To be assigned</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -628,8 +628,8 @@
                                     alt="Logo SBC">
             
                     <div class="overlay-content">
-                        <h2>Ana Luna</h2>
-                        <h2>Technical Program Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Ana Luna</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Co-Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -645,8 +645,8 @@
                                     alt="Logo SBC">
                  
                     <div class="overlay-content">
-                        <h2>Agatha da Silva Ovando</h2>
-                        <h2>Technical Program Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Agatha da Silva Ovando</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Co-Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -662,8 +662,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Alejandro Adorjan Olivera</h2>
-                        <h2>Technical Program Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Alejandro Adorjan Olivera</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Co-Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">View CV</button></li></ul>
@@ -679,8 +679,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Mario Chong</h2>
-                        <h2>Publication Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Publication Chair</h3><br><br>
                             
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModalChong">View CV</button></li></ul>
@@ -694,8 +694,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Maria Isabel Pozzo</h2>
-                        <h2>Doctoral Symposium Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Maria Isabel Pozzo</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Doctoral Symposium Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -711,8 +711,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Rafael R. Rentería Ramos</h2>
-                        <h2>Workshops Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Rafael R. Rentería Ramos</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Workshops Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -728,8 +728,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Roberto Portillo</h2>
-                        <h2>Conference Support Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Roberto Portillo</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Conference Support Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -745,8 +745,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Mario Chong</h2>
-                        <h2>Public Relations Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Public Relations Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -762,8 +762,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Orlando Fittipaldi</h2>
-                        <h2>Finance / Treasurer Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Orlando Fittipaldi</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Finance / Treasurer Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -778,51 +778,6 @@
         </div>
     </section>
 
-     <!-- Modal Ale-->
-    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="feedbackModalLabel">Short Bio</h1>              
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-
-                    <p class="lh-sm mx-2">
-                        Alejandro Adorjan is a Professor of Software Engineering and Adjunct Academic Coordinator at the School of Engineering, Universidad ORT Uruguay. He is currently a Ph.D. candidate in Informatics at PEDECIBA. He holds both a Master’s degree in Computer Science and an Engineering degree in Software Engineering from Universidad ORT Uruguay.
-                        With over 15 years of experience in higher and technical education, Adorjan has designed and delivered undergraduate courses in Software Engineering, Programming, and Mathematics. He has been teaching at Universidad ORT Uruguay since 2007 and previously taught at Universidad del Trabajo del Uruguay.
-                        Adorjan has authored and co-authored several peer-reviewed publications presented at leading international conferences, including EDUCON, FIE, TALE, EDUNINE. His academic work focuses on topics such as competency-based education, educational innovation, human-in-the-loop data processes, and collaborative learning in virtual environments.
-                        He is a recognised leader in the academic community, serving as a member of the Academic Advisory Council (Consejo Académico Consultivo) of the School of Engineering at Universidad ORT Uruguay. His work has been recognised with multiple awards, including for his commitment to pedagogical innovation and teaching at ORT University Uruguay.
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Mario Chong-->
-    <div class="modal fade" id="feedbackModalChong" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="feedbackModalLabel">Short Bio</h1>              
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-
-                    <p class="lh-sm mx-2">
-                        Associate Dean of Innovation & Design Engineering, Faculty of Engineering Professor, Study Center of China & Asia Pacific Member (CECHAP), Research Center Member (CIUP); Universidad del Pacífico. IEEE Senior Member. Horizon Europe National Contact Point. Stanford WIDS Ambassador. PANAMSTR Board Member. IEEE Edunine Board Member. POMS HOCM Member.
-                        PhD in Business Management (UNMSM). Master in industrial engineering, Master in Systems Engineering, and Industrial Engineer (UL). Advanced Supply Chain Management (MIT) certification. VREF Advanced Studies on Sustainable Urban Freight Systems (RPI).
-                        Former business engineering associate dean, special projects coordinator, development director, master's degrees in business administration (MBA), global business, food and agribusiness, and supply chain management academic director; Universidad del Pacífico.
-
-                    <a href="https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong">https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- VENUE section -->
     <section id="venue">
