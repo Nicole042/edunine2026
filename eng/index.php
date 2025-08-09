@@ -21,6 +21,7 @@
         <link href="../css/stylevenue.css" rel="stylesheet">
         <link href="../css/coordinator.css" rel="stylesheet">
 
+        <link href="../css/modal.css" rel="stylesheet">
 
 
         <!-- Custom styles for this template -->
@@ -664,13 +665,13 @@
                         <h2>Alejandro Adorjan Olivera</h2>
                         <h2>Technical Program Co-Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">View CV</button></li></ul>
+
                     </div>
+
                 </div>
+               
 
                 <div class="slide image-hover text-center">
                     <img src="../images/logos_cooperation/logo_sbc.gif"
@@ -680,12 +681,10 @@
                     <div class="overlay-content">
                         <h2>Mario Chong</h2>
                         <h2>Publication Chair</h2>
-                        
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                            
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModalChong">View CV</button></li></ul>
+
                     </div>
                 </div>
 
@@ -778,6 +777,53 @@
             </div>
         </div>
     </section>
+
+     <!-- Modal Ale-->
+    <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="feedbackModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p class="lh-sm mx-2">
+                        Alejandro Adorjan is a Professor of Software Engineering and Adjunct Academic Coordinator at the School of Engineering, Universidad ORT Uruguay. He is currently a Ph.D. candidate in Informatics at PEDECIBA. He holds both a Master’s degree in Computer Science and an Engineering degree in Software Engineering from Universidad ORT Uruguay.
+                        With over 15 years of experience in higher and technical education, Adorjan has designed and delivered undergraduate courses in Software Engineering, Programming, and Mathematics. He has been teaching at Universidad ORT Uruguay since 2007 and previously taught at Universidad del Trabajo del Uruguay.
+                        Adorjan has authored and co-authored several peer-reviewed publications presented at leading international conferences, including EDUCON, FIE, TALE, EDUNINE. His academic work focuses on topics such as competency-based education, educational innovation, human-in-the-loop data processes, and collaborative learning in virtual environments.
+                        He is a recognised leader in the academic community, serving as a member of the Academic Advisory Council (Consejo Académico Consultivo) of the School of Engineering at Universidad ORT Uruguay. His work has been recognised with multiple awards, including for his commitment to pedagogical innovation and teaching at ORT University Uruguay.
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Mario Chong-->
+    <div class="modal fade" id="feedbackModalChong" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="feedbackModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p class="lh-sm mx-2">
+                        Associate Dean of Innovation & Design Engineering, Faculty of Engineering Professor, Study Center of China & Asia Pacific Member (CECHAP), Research Center Member (CIUP); Universidad del Pacífico. IEEE Senior Member. Horizon Europe National Contact Point. Stanford WIDS Ambassador. PANAMSTR Board Member. IEEE Edunine Board Member. POMS HOCM Member.
+                        PhD in Business Management (UNMSM). Master in industrial engineering, Master in Systems Engineering, and Industrial Engineer (UL). Advanced Supply Chain Management (MIT) certification. VREF Advanced Studies on Sustainable Urban Freight Systems (RPI).
+                        Former business engineering associate dean, special projects coordinator, development director, master's degrees in business administration (MBA), global business, food and agribusiness, and supply chain management academic director; Universidad del Pacífico.
+
+                    <a href="https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong">https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- VENUE section -->
     <section id="venue">
         <!-- v title section -->
@@ -934,5 +980,10 @@
 
         <script src="../js/slick-carousel-config.js"></script>
         <!-- END  SLICK CAROUSEL--> 
+
+        <!-- Bootstrap 5 JS (bundle) for CVs -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../js/pauseCoordinatorsSlider.js"></script>
+
     </body>
 </html>                      
