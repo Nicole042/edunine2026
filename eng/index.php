@@ -97,7 +97,40 @@
                         There was no link for venue?? It tended to disappear -->
                     </ul>
                 </nav>
-                <!-- About section -->
+
+              <!--Navigation for cellphones Susan's Idea-->
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="chevron-up-down" viewBox="0 0 16 18">
+                <!-- Up chevron -->
+                <path d="M2.146 6.854a.5.5 0 0 1 .708 0L8 2.707l5.146 4.147a.5.5 0 0 1-.708.708L8 4.207 2.854 7.562a.5.5 0 0 1-.708-.708z"/>
+
+                <!-- Down chevron -->
+                <path d="M2.146 11.146a.5.5 0 0 1 .708 0L8 15.293l5.146-4.147a.5.5 0 0 1 .708.708l-5.5 5.5a.5.5 0 0 1-.708 0l-5.5-5.5a.5.5 0 0 1 0-.708z"/>
+            </symbol>
+            </svg>
+
+
+            <div class="container d-flex justify-content-center">
+                <div class="dropdown d-navs d-sm-none"> <!--d-sm-none makes it not appear for screen higher than 575px width-->
+                <button class="btn dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    On this page
+                    <svg class="bi ms-2" width="16" height="16" fill="currentColor" aria-hidden="true">
+                    <use xlink:href="#chevron-up-down"></use>
+                    </svg>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#top">About</a></li>
+                    <li><a class="dropdown-item" href="#dates">Schedule</a></li>
+                    <li><a class="dropdown-item" href="#coordinators"> Coordinators</a></li>
+                    <li><a class="dropdown-item" href="#venue"> Venue</a></li>
+                    <li><a class="dropdown-item" href="#organizers"> Organizers</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <!--End of Navigation for cellphones Susan's Idea-->
+
+            <!-- About section -->
             <section class="primera">             
                 <!-- ABOUT CONFERENCE SECTION -->
                  <div class="container-fluid px-0">
