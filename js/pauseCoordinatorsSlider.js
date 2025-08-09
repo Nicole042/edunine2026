@@ -2,7 +2,11 @@ document.addEventListener('DOMContentLoaded', function () {
   // Collect the modals you want to control
   const modals = [
     document.getElementById('coordinatorsModalAle'),
-    document.getElementById('coordinatorsModalJoséMartín')
+    document.getElementById('coordinatorsModalJoséMartín'),
+    document.getElementById('coordinatorsModalOrlando'),
+    document.getElementById('coordinatorsModalChong'),
+    document.getElementById('coordinatorsModalBritto'),
+    document.getElementById('coordinatorsModalMelany')
   ].filter(Boolean);
 
   if (modals.length === 0) {

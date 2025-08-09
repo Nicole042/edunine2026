@@ -564,11 +564,10 @@
                         <h2>Claudio R. Brito</h2>
                         <h2>General Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalBritto">View CV
+                        </button>
                     </div>
                 </div>
 
@@ -580,11 +579,10 @@
                         <h2>Melany M. Ciampi</h2>
                         <h2>Co-Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalMelany">View CV
+                        </button>
                     </div>
                 </div>
 
@@ -665,7 +663,7 @@
                         <h2>Technical Program Co-Chair</h2>
                         
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAle">View CV</button></li></ul>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAle">View CV</button>
 
                     </div>
 
@@ -682,8 +680,9 @@
                         <h2>Publication Chair</h2>
                             
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModalChong">View CV</button></li></ul>
-
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalChong">View CV
+                        </button>
                     </div>
                 </div>
 
@@ -747,12 +746,10 @@
                         <h2>Mario Chong</h2>
                         <h2>Public Relations Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
-
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalChong">View CV
+                        </button>
                     </div>
                 </div>
 
@@ -764,15 +761,12 @@
                     <div class="overlay-content">
                         <h2>Orlando Fittipaldi</h2>
                         <h2>Finance / Treasurer Chair</h2>
-                        
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
-                          <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Launch demo modal
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalOrlando">View CV
+                        </button>
+
                         </button>
                     </div>
                 </div>
@@ -827,7 +821,72 @@
         </div>
     </div>
 
-     <!-- Modal Ale-->
+    <!-- Modal Claudio Britto-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalBritto" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Dr. Claudio da Rocha Brito (PhD, Dr. rer nat. habil., Eta-Kappa-Nu) is a distinguished Professor of Electrical and Computer Engineering and President Emeritus of the IEEE Education Society. He currently serves as Chancellor of the International Institute of Education (IIE) and President of the Science and Education Research Organization (COPEC). He is also President of the Fishing Museum Friends Society (AAMP) and President of the (Brazilian) National Monitoring Committee of IGIP (Internationale Gesellschaft für Ingenieurpädagogik). Dr. Brito holds multiple leadership positions, including Vice President of INTERTECH (International Council for Engineering and Technology Education), WCSEIT (World Organization on System Engineering and Information Technology), SHERO (Safety Health and Environment Research Organization), and WCCA (World Organization on Communication and Arts). Academically, Dr. Brito holds a Ph.D., M.Sc., and B.Sc. in Electrical Engineering from the Polytechnic School of the University of São Paulo, as well as B.Sc. degree in Physics from the Institute of Physics, B. Sc. in Mathematics from the Institute of Mathematics and Statistics, B. Sc. in Mathematics Education and B. Sc. in Physics Education, both from the Faculty of Education all in the University of São Paulo. He is an active member of several international engineering education societies including IGIP, SEFI (European Society for Engineering Education), ASEE (American Society for Engineering Education), INTERTECH, and RCI (Cartagena Network of Engineering). Throughout his career, Dr. Brito has received numerous awards, including the IEEE Edwin C. Jones Jr. Meritorious Service Award (2011), IEEE Meritorious Service Award (2018), IEEE Outstanding Recognition Award (2022), IEEE Unmatched Dedication Award (2023), IEEE Leadership in Conference Organization Award (2024) and IEEE Excellence in Inspiration Award (2025). His biography is featured in several international directories such as Who's Who in the World, Who's Who in America, Who's Who in Science and Engineering, and Dictionary of International Biography.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Melany-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalMelany" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Dr. Melany M. Ciampi Ciampi (PhD, Dr. rer nat. habil., Eta-Kappa-Nu) is a renowned Professor of Electrical and Computer 
+                Engineering and a global leader in engineering education. She currently serves as Rector of the International Institute of Education 
+                (IIE) and holds several top international leadership positions, including President of the World Organization on System Engineering 
+                and Information Technology (WCSEIT), President of the Safety Health and Environment Research Organization (SHERO) and President of 
+                the World Organization on Communication and Arts (WCCA). She is also Vice-President of the Science and Education Research Organization 
+                (COPEC), the Fishing Museum Friends Society (AAMP), and Brazil’s National Monitoring Committee of IGIP (International Society for 
+                Engineering Education). Dr. Ciampi has been a long-standing board member of major international organizations, such as the Global 
+                Council on Manufacturing and Management (GCMM) and the Board of Governors for INTERTECH, WCSEIT, SHERO and WCCA. Her leadership has 
+                significantly shaped global collaboration in engineering and technology education. She has served in key roles within the IEEE 
+                Education Society, including Vice President for Conferences and Workshops (2022–2023), Secretary across three terms 
+                (2016–2017, 2018–2019, 2020–2021) and Member of Board of Governors (2003-2023). She was also Vice-President of IGIP (2010–2014), 
+                Co-Chair of Working Group Engineering Education in International Context (2002–2018), and President of the Brazilian Chapter of the IEEE
+                Education Society (2002–2004). Dr. Ciampi is a member of IGIP, SEFI, ASEE, INTERTECH, and RCI (Cartagena Network of Engineering). 
+                Her many accolades include the the IEEE Edwin C. Jones Jr. Meritorious Service Award 2011 and Ronald J. Schmitz Outstanding Service 
+                Award 2016, IEEE Meritorious Service Award 2018, IEEE Outstanding Recognition Award 2022, IEEE Unmatched Dedication Award 2023, 
+                IEEE Leadership in Conference Organization Award 2024, IEEE Education Society Distinguished Member Award 2024 and IEEE Excellence 
+                in Inspiration Award 2025.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Ale-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalAle" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
             <div class="modal-content">
@@ -838,10 +897,73 @@
                 <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
 
                     <p class="lh-sm mx-2">
-                        Alejandro Adorjan is a Professor of Software Engineering and Adjunct Academic Coordinator at the School of Engineering, Universidad ORT Uruguay. He is currently a Ph.D. candidate in Informatics at PEDECIBA. He holds both a Master’s degree in Computer Science and an Engineering degree in Software Engineering from Universidad ORT Uruguay. <br>
+                        Alejandro Adorjan is a Professor of Software Engineering and Adjunct Academic Coordinator at the School of Engineering, Universidad ORT Uruguay. He is currently a Ph.D. candidate in Informatics at PEDECIBA. He holds both a Master’s degree in Computer Science and an Engineering degree in Software Engineering from Universidad ORT Uruguay. 
                         With over 15 years of experience in higher and technical education, Adorjan has designed and delivered undergraduate courses in Software Engineering, Programming, and Mathematics. He has been teaching at Universidad ORT Uruguay since 2007 and previously taught at Universidad del Trabajo del Uruguay.<br>
-                        <br>Adorjan has authored and co-authored several peer-reviewed publications presented at leading international conferences, including EDUCON, FIE, TALE, EDUNINE. His academic work focuses on topics such as competency-based education, educational innovation, human-in-the-loop data processes, and collaborative learning in virtual environments.<br>
+                        <br>Adorjan has authored and co-authored several peer-reviewed publications presented at leading international conferences, including EDUCON, FIE, TALE, EDUNINE. His academic work focuses on topics such as competency-based education, educational innovation, human-in-the-loop data processes, and collaborative learning in virtual environments.
                         He is a recognised leader in the academic community, serving as a member of the Academic Advisory Council (Consejo Académico Consultivo) of the School of Engineering at Universidad ORT Uruguay. His work has been recognised with multiple awards, including for his commitment to pedagogical innovation and teaching at ORT University Uruguay.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Mario Chong-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalChong" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Associate Dean of Innovation & Design Engineering, Faculty of Engineering Professor, Study Center of China & Asia Pacific Member (CECHAP), Research Center Member (CIUP); Universidad del Pacífico. IEEE Senior Member. Horizon Europe National Contact Point. Stanford WIDS Ambassador. PANAMSTR Board Member. IEEE Edunine Board Member. POMS HOCM Member.
+                        <br>PhD in Business Management (UNMSM). Master in industrial engineering, Master in Systems Engineering, and Industrial Engineer (UL). Advanced Supply Chain Management (MIT) certification. VREF Advanced Studies on Sustainable Urban Freight Systems (RPI).
+                        <br>Former business engineering associate dean, special projects coordinator, development director, master's degrees in business administration (MBA), global business, food and agribusiness, and supply chain management academic director; Universidad del Pacífico.
+                        <br><a href="https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong">
+                        https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong
+                        </a>
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Orlando-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalOrlando" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Dr. Orlando Fittipaldi is Professor of Classical History with habilitation in the Greco-Roman period. 
+                        He holds degrees in both History and Business Administration, combining academic expertise with extensive 
+                        experience in management and research. With over 35 years of experience as CEO of Fittipaldi Enterprise, 
+                        Prof. Fittipaldi led several research initiatives, including developments in the automotive sector. 
+                        His leadership bridged the gap between technical innovation and strategic business planning. 
+                        In recent years, he transitioned into academia and research administration, becoming the Technical Administrative 
+                        Director of COPEC – Science and Education Research Organization. In this role, he has played a crucial part in 
+                        managing the financial and operational coordination between COPEC and various international research institutions. 
+                        These include the World Organization for Systems Engineering and Information Technology (WCSEIT), Safety Health 
+                        and Environment Research Organization (SHERO), World Communication and Arts Organization (WCCA), and the International 
+                        Council for Engineering and Technology Education (INTERTECH). Prof. Fittipaldi has also served as the financial 
+                        administrator for several major projects led by COPEC over the past three years, ensuring transparency, efficiency, 
+                        and strategic alignment of resources.His unique background in both classical scholarship and enterprise management 
+                        makes him a valuable contributor to interdisciplinary research and international collaboration across educational, 
+                        scientific, and technological fields. "Recently appointed as Financial Administrator at the International Institute 
+                        of Education (IIE), with a mandate to enhance the organization's financial sustainability."
                     </p>
                 </div>
                 <div class="modal-footer">
