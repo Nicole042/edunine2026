@@ -760,7 +760,7 @@
 
                         <p class="lh-sm text-center">EDUNINE accepts several types of papers, each aligned with specific submission categories. The formatting requirements depend on the type of paper, which reflects the maturity and purpose of the work presented.</p>
                         <p class="lh-sm text-center">The following sections provide detailed formatting guidelines and submission requirements for each paper type. Authors should ensure they use the correct format based on their chosen category. 
-                            Too see in detail the required format for each paper format, hover over the card to flip it.</p>
+                            Too see in detail the required format for each paper format, click over the card to flip it.</p>
                     </div>
                 </div> 
                             
