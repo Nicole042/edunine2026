@@ -6,3 +6,11 @@
 .card-border-color {
     border: 3px solid rgb(141, 168, 218);
 }
+
+section.postConf-container {
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: inherit;
+    margin-top: 130px;
+    padding-top: 0;
+}

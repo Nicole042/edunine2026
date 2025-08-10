@@ -79,6 +79,7 @@
 
 }
 
+
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -314,6 +315,13 @@ section.inicial {
     margin-left: 15%;
     background-color: inherit;
     padding-top: 130px;
+} 
+/*Information for Reviewers section. First section in reviewers.php*/
+section.inicial-reviewers {
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: inherit;
+    padding-top: 130px;
 }
 section.inicial-committees {
     margin-right: 15%;
@@ -321,6 +329,7 @@ section.inicial-committees {
     background-color: inherit;
     padding-top: 10px;
 }
+/*End Information for reviewers*/
 section.schedule {
     padding-top: 0px;
 }
@@ -455,8 +464,8 @@ ul.breadcrumb li a:hover {
 }
 /* Scroll to top made it round*/
 #myTopBtn {
+    /*100vw: means the full width of the viewport (the visible screen).*/
     outline: none;  
-    font-family: 'Quicksand';
     padding: 3px;
 
     border-radius: 50%;
@@ -469,7 +478,7 @@ ul.breadcrumb li a:hover {
     cursor: pointer; 
     position: fixed; 
     bottom: 20px; 
-    right: 20px; 
+    right: calc((100vw - 2560px) / 2 + 20px); 
     z-index: 99; 
     display: none;
 }
@@ -581,7 +590,7 @@ button {
     margin-left: 8%;
     margin-right: 8%;
     width: auto;
-    height: 550px;
+    /* height: 550px; */
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -883,7 +892,6 @@ html, body {
     max-width: 100%;
 } 
 
-
 /*Breadcrumb Navigation for information.php*/
 .section-nav-breadcrumb {
     font-family: 'Quicksand', 'sans-serif';
@@ -904,7 +912,7 @@ font-family: 'Quicksand', 'sans-serif';
 /*CONTAINER FOR THE ACCORDION IN PEER REVIEW GUIDELINES*/
 .container-peerReview {
     /*display: flex;*/
-    max-width: 2400px;
+    max-width: 2560px;
     margin-right: auto;
     margin-left: auto;
     background-color: inherit;
@@ -961,9 +969,21 @@ font-family: 'Quicksand', 'sans-serif';
 }
 /*END BUTTONS THAN LINKS reviewers.php with information.php*/
 
+/* For smaller screens, use normal right positioning */
+/*Without this query, it would have not been possible to pu inside a containr the backto Top arrow*/
+@media (max-width: 2560px) {
+    #myTopBtn {
+        right: 20px;
+    }
+}
+/*End Back to To Arrow Button*/
 
 @media only screen and (max-width: 1420px) 
 {
+    #myTopBtn {
+        right: 20px;
+    }
+
     section {
         /* margin-right: 15%;
         margin-left: 15%;
@@ -978,7 +998,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 1.5rem; 
     }
     .carousel-inner {
-        height: 780px;
+        /* height: 780px; */
     }
     
     section.primera {
@@ -1031,6 +1051,13 @@ font-family: 'Quicksand', 'sans-serif';
     }
 }
 
+/* HOME CAROUSEL FIX HIGHT */
+@media (min-width: 1200px) {
+    .home-carousel {
+        height: 550px;
+    }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media only screen and (max-width: 855px) 
 /* and (max-width: 1199.98px) */
@@ -1073,7 +1100,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 1.1rem; 
     }
     .carousel-inner {
-        height: 865px;
+        /* height: 865px; */
     }
      /*Styling new navigation*/
     .section-nav-breadcrumb {
@@ -1178,7 +1205,7 @@ font-family: 'Quicksand', 'sans-serif';
         font-size: 0.7rem; 
     }
     .carousel-inner {
-        height: 1300px;
+        /* height: 1300px; */
     }
 
      /*For centering the carousel*/
@@ -1227,6 +1254,7 @@ font-family: 'Quicksand', 'sans-serif';
 
 
 @media (min-width: 1140px) {
+   
     .horizontal-timeline .items .items-list {
         display: inline-block;
         width: 24%;

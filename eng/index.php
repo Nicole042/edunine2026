@@ -102,7 +102,7 @@
                 <!-- ABOUT CONFERENCE SECTION -->
                  <div class="container-fluid px-0">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner home-carousel">
                             <div class="carousel-item active">
                                 <h2 class="display-5 fw-bold">About the Conference</h2>
                                 <h4>A Premier Hybrid Experience</h4>
@@ -201,7 +201,7 @@
                                         <a href="information.php?id=submission" class="btn btn-primary btn-sm" role="button">Paper Submission</a>
                                     </div> 
                                 </div>
-                                <div class="container-fluid mt-2">
+                                <div class=" mt-2">
                                     <div class="row">
                                         <div class="col-9 bg-light border text-secondary">
                                             <h5 class="text-center">Event</h5>
@@ -237,7 +237,7 @@
                                     <a href="reviewNotif.php" class="btn btn-primary btn-sm" role="button">Peer Review Process Notification</a>
                                 </div>   
                             </div>
-                            <div class="container-fluid mt-2">
+                            <div class=" mt-2">
                                 <div class="row">
                                     <div class="col-9 bg-light border text-secondary">
                                         <h4 class="text-center">Event</h4>
@@ -276,7 +276,7 @@
                                         <a href="finalInformation.php" class="btn btn-primary btn-sm" role="button">Final Paper Preparation and Submission</a>
                                     </div>                     
                                 </div>
-                                <div class="container-fluid mt-2">
+                                <div class=" mt-2">
                                     <div class="row">
                                         <div class="col-9 bg-light border text-secondary">
                                             <h4 class="text-center">Event</h4>
@@ -316,7 +316,7 @@
                                 <h4 class="fw-bold pb-4">Notification of Second Review</h4>
                                 <p class="fs-6 mb-4"> You'll receive a summary via email detailing the second review process conducted in line with the Final Paper Preparation Guidelines. This review will ensure compliance with quality standards for content, English, and format, as well as alignment of Paper uploaded information with the final paper, proper PDF generation through PDFeXpress, and successful completion of the copyright transfer.  Once the copyright transfer is finalized and the paper clears all checks, it undergoes evaluation by IEEECrossCheck. Final Papers Papers that do not meet these requirements will be rejected and cannot be published in IEEE Xplore. </p>                                   
                             </div>
-                            <div class="container-fluid mt-2">
+                            <div class=" mt-2">
                                 <div class="row">
                                     <div class="col-9 bg-light border text-secondary">
                                         <h4 class="text-center">Event</h4>
@@ -353,7 +353,7 @@
                                     <a href="fees.php" class="btn btn-primary btn-sm" role="button">Registration and Payment (Authors and Participants)</a> 
                                 </div>
                             </div>
-                            <div class="container-fluid mt-2">
+                            <div class=" mt-2">
                                 <div class="row">
                                     <div class="col-9 bg-light border text-secondary">
                                         <h4 class="text-center">Event</h4>
@@ -397,7 +397,7 @@
                                         <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
                                     </div>                                                          
                                 </div>
-                                    <div class="container-fluid mt-2">
+                                    <div class=" mt-2">
                                         <div class="row">
                                             <div class="col-9 bg-light border text-secondary">
                                                 <h4 class="text-center">Event</h4>
@@ -433,7 +433,7 @@
                                         <a href="techSession.php?id=chair" class="btn btn-primary btn-sm" role="button">Session Chair Guidelines</a> 
                                     </div>                                                          
                                 </div>
-                                <div class="container-fluid mt-2">
+                                <div class=" mt-2">
                                     <div class="row">
                                         <div class="col-9 bg-light border text-secondary">
                                             <h4 class="text-center">Event</h4>
@@ -481,7 +481,7 @@
                                         <a href="postConf.php" class="btn btn-primary btn-sm" role="button">Post Conference Products</a>
                                     </div>
                             </div>
-                            <div class="container-fluid mt-2">
+                            <div class=" mt-2">
                                 <div class="row">
                                     <div class="col-9 bg-light border text-secondary">
                                         <h4 class="text-center">Event</h4>

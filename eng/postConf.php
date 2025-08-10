@@ -51,7 +51,7 @@
                 <!-- Navigation bar  -->
                 <?php include "edu9header.html" ?> 
             </div>
-                <section id="top" class="inicial">
+                <section id="top" class="postConf-container">
                     <div class="card container-fluid tope p-4 card-border-color shadow-sm w-75 mx-auto" style="">
                         <div class="text-center">
                             <img src="../images/decoration/postConference.jpg" class="w-25 img-fluid rounded img-postConf shadow" alt="Post Conference Image">
