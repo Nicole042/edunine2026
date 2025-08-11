@@ -39,7 +39,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <div> 
             <!-- Navigation bar  -->
             <?php include "edu9header.html" ?> 
@@ -49,12 +49,6 @@
         <main>
 
             <section id="top" class="inicial">
-                <div class="container align-content-start py-0">
-                    <ul class="breadcrumb">
-                        <li><a href="index.php">About</a></li>
-                        <li>IEEE_Policies</li>
-                    </ul> 
-                </div>
 
                 <!-- Primera parte: IEEE Policies -->
                 
@@ -201,7 +195,7 @@
                             <div class="text-center">
                                 <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/ieeePolicies.png"  alt="IEEE Policies Image"> 
                             </div>
-                            <h4 class="display-6 fw-bold">Code of Conduct</h4>
+                            <h4 class="display-6 fw-bold text-center">Code of Conduct</h4>
                             <p class="fs-5 mb-4">The IEEE Code of Conduct outlines rules such as respecting others and their privacy, treating people fairly without harassment or discrimination, avoiding harm to others' property, reputation, or employment, refraining from retaliation against those who report misconduct, and complying with all applicable laws and IEEE policies. Key principles include rejecting bribery, avoiding conflicts of interest, protecting confidential information, and respecting intellectual property rights.
                             </p>
                         </div>
@@ -317,105 +311,183 @@
         
         <!-- Code of Ethics -->
 
-        <section id="codeE">
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">About</a></li>
-                    <li><a href="ieeePolicies.php">IEEE Policies</a></li>
-                    <li>Code_of_Ethics</li>
-                </ul> 
-            </div>
-            <div class= "container-fluid tope  pb-5">
+        <section id="codeE"">
+            <div class= "container tope  pb-5 bg-white">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <div class="text-center">
                                 <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/ieeePolicies.png"  alt="IEEE Policies Image"> 
                             </div>
-                            <h4 class="display-6 fw-bold">Code of Ethics</h4>
+                            <h4 class="display-6 fw-bold text-center">Code of Ethics</h4>
                             <p class="fs-5 mb-4">The IEEE members commit to the highest ethical and professional conduct, recognizing the impact of technology on global quality of life. They pledge to uphold integrity, prioritize public safety and sustainability, improve technological understanding, avoid conflicts of interest and unlawful conduct, seek honest feedback, maintain technical competence, treat all individuals with fairness and respect, avoid harassment and harm, and support adherence to the code among colleagues and co-workers.
                             </p>
                         </div>
                     </div>    
                 </div>
             </div>
-            <div class="container-fluid py-3">
+
+            <div class="container py-3">
                 <div class="row">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
-                            <h5 class="display-6 fw-bold">IEEE Code of Ethics</h5>
-                            <p class="lh-sm">Adopted by the IEEE Board of Directors June 2020</p>
+                            <h5 class="display-6 fw-bold text-center">IEEE Code of Ethics</h5>
+                            <div class="approval-info">
+                                <p class="mb-0"><strong>Adopted by the IEEE Board of Directors June 2020</strong></p>
+                            </div>
+
                             <p class="lh-sm">We, the members of the IEEE, in recognition of the importance of our technologies in affecting the quality of life throughout the world, and in accepting a personal obligation to our profession, its members and the communities we serve, do hereby commit ourselves to the highest ethical and professional conduct and agree:</p><ol class="list-group list-group-numbered">
+                                
+                            <!-- Ethics Rules -->
+                            <div class="policies-card">
+                                <ol class="conduct-rules">
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">1</span>
+                                            <span class="rule-title"> To uphold the highest standards of integrity, responsible behavior, and ethical conduct in professional activities.</span>
+                                        </div>
+                                    </li>
 
-                                <p class="lh-sm">I. To uphold the highest standards of integrity, responsible behavior, and ethical conduct in professional activities.</p>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">2</span>
+                                            <span class="rule-title">To hold paramount the safety, health, and welfare of the public, to strive to comply with ethical design and sustainable development practices, to protect the privacy of others, and to disclose promptly factors that might endanger the public or the environment.</span>
+                                        </div>
+                                    </li>
 
-                                <li class="list-group-item ml-2"> to hold paramount the safety, health, and welfare of the public, to strive to comply with ethical design and sustainable development practices, to protect the privacy of others, and to disclose promptly factors that might endanger the public or the environment;</li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">3</span>
+                                            <span class="rule-title">To improve the understanding by individuals and society of the capabilities and societal implications of conventional and emerging technologies, including intelligent systems.</span>
+                                        </div>
+                                    </li>
 
-                                <li class="list-group-item ml-2">to improve the understanding by individuals and society of the capabilities and societal implications of conventional and emerging technologies, including intelligent systems;</li>
-
-                                <li class="list-group-item ml-2"> to avoid real or perceived conflicts of interest whenever possible, and to disclose them to affected parties when they do exist;</li>
-
-                                <li class="list-group-item ml-2"> to avoid unlawful conduct in professional activities, and to reject bribery in all its forms;</li>
-
-                                <li class="list-group-item ml-2"> to seek, accept, and offer honest criticism of technical work, to acknowledge and correct errors, to be honest and realistic in stating claims or estimates based on available data, and to credit properly the contributions of others;</li>
-
-                                <li class="list-group-item ml-2"> to maintain and improve our technical competence and to undertake technological tasks for others only if qualified by training or experience, or after full disclosure of pertinent limitations;</li>
-
-                                <p class="lh-sm">II. To treat all persons fairly and with respect, to not engage in harassment or discrimination, and to avoid injuring others.</p>
-
-                                <li class="list-group-item ml-2"> to treat all persons fairly and with respect, and to not engage in discrimination based on characteristics such as race, religion, gender, disability, age, national origin, sexual orientation, gender identity, or gender expression;</li>
-
-                                <li class="list-group-item ml-2"> to not engage in harassment of any kind, including sexual harassment or bullying behavior;</li>
-
-                                <li class="list-group-item ml-2"> to avoid injuring others, their property, reputation, or employment by false or malicious actions, rumors or any other verbal or physical abuses;</li>
-
-                                <p class="lh-sm">III. To strive to ensure this code is upheld by colleagues and co-workers.</p>
-
-                                <li class="list-group-item ml-2"> to support colleagues and co-workers in following this code of ethics, to strive to ensure the code is upheld, and to not retaliate against individuals reporting a violation.</li></ol>
-
-                            <p class="lh-sm">Download <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/corporate/ieee-code-of-ethics.pdf" class="border-white btn btn-primary btn-sm" role="button">IEEE Code of Ethics (PDF)</a> </p>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">4</span>
+                                            <span class="rule-title">To avoid real or perceived conflicts of interest whenever possible, and to disclose them to affected parties when they do exist.</span>
+                                        </div>
+                                    </li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">5</span>
+                                            <span class="rule-title">To avoid unlawful conduct in professional activities, and to reject bribery in all its forms.</span>
+                                        </div>
+                                    </li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">6</span>
+                                            <span class="rule-title">Seek and offer honest technical criticism, correct errors, state claims realistically, and credit others contributions.</span>
+                                        </div>
+                                    </li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">7</span>
+                                            <span class="rule-title">Maintain and improve technical skills, and accept tasks only when qualified or after disclosing limitations.</span>
+                                        </div>
+                                    </li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">8</span>
+                                            <span class="rule-title">Treat all people fairly and respectfully, without discrimination based on personal characteristics.</span>
+                                        </div>
+                                    </li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">9</span>
+                                            <span class="rule-title">To not engage in harassment of any kind, including sexual harassment or bullying behavior.</span>
+                                        </div>
+                                    </li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">10</span>
+                                            <span class="rule-title">Avoid harming others, their property, reputation, or employment through false or malicious actions.</span>
+                                        </div>
+                                    </li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">11</span>
+                                            <span class="rule-title">Support others in following the code of ethics, ensure it is upheld, and avoid retaliation against those who report violations.</span>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                            
+                            <div class="ieee-download-container d-flex flex-column align-items-center text-center">
+                                <h4 class="mb-3">Download Official Document</h4>
+                                <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/corporate/ieee-code-of-ethics.pdf" class="download-btn">IEEE Code of Ethics (PDF)</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
         <!-- Non discrimination -->
-
         <section id="nonD">
-            <div class="container-fluid align-content-start pt-5 pb-0 bg-body-secondary">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">About</a></li>
-                    <li><a href="ieeePolicies.php">IEEE Policies</a></li>
-                    <li>Nondiscrimination</li>
-                </ul>  
-            </div>
-            <div class= "container-fluid tope  pb-5">
+            <div class= "container tope  pb-5 bg-white">
                 <div class="row g-5">
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <div class="text-center">
-                                <div class="text-center">
-                                    <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/ieeePolicies.png"  alt="IEEE Policies Image"> 
-                                </div>
+                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/ieeePolicies.png"  alt="IEEE Policies Image"> 
                             </div>
-                            <h4 class="display-6 fw-bold">Nondiscrimination</h4>
-                            <p class="fs-5 mb-4">IEEE is dedicated to providing equal opportunities and eliminating discrimination in all its forms. Our Nondiscrimination Policy ensures that all individuals are treated fairly and without bias, regardless of race, gender, sexual orientation, disability, or other protected characteristics.</p>
+                            <h4 class="display-6 fw-bold text-center">Nondiscrimination</h4>
+                            <p class="fs-5 mb-4">IEEE is dedicated to providing equal opportunities and eliminating discrimination in all its forms. Our Nondiscrimination Policy ensures that all individuals are treated fairly and without bias, regardless of race, gender, sexual orientation, disability, or other protected characteristics.
+                            </p>
                         </div>
                     </div>    
                 </div>
             </div>
-            <div class="container-fluid py-3 bg-body-secondary">
-                <div class ="row">
+            <div class="container py-3">
+                <div class="row">
                     <div class= "col text-sm-left">
-                        <h6 class="display-6 fw-bold">IEEE Policy Against Discrimination and Harassment</h6>
-                        <p class="lh-sm">(IEEE Policies, Section 9.27)</p>
-                        <p class="lh-sm">IEEE, consistent with the purposes articulated in Article I of the IEEE Constitution, is committed to the realization and maintenance of an environment in which members may have full and productive careers free from Discrimination or Harassment. IEEE is committed to the principle that all persons shall have equal access to programs, facilities, services, and employment without regard to personal characteristics not related to ability, performance, or qualifications as determined by IEEE policy and/or applicable laws.</p>
-                        <p class="lh-sm">IEEE prohibits Discrimination, Harassment and Bullying against any person for any reason, for example, because of age, ancestry, color, disability or handicap, national origin, race, religion, gender, sexual or affectional orientation, gender identity, appearance, matriculation, political affiliation, marital status, veteran status or any other characteristic protected by law. IEEE employees, volunteers, members, and other constituents of the IEEE, when and where ever those individuals are conducting IEEE business or participating in IEEE events or activities, shall maintain an environment free of Discrimination, including Harassment, Bullying, and Retaliation.</p>
-                        <p class="lh-sm">For the complete Policy: download <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/whatis/nondiscrimination.pdf" class="border-white btn btn-primary btn-sm" role="button">IEEE Policies, Section 9.26 - IEEE Policy Against Discrimination and Harassment (PDF, 45 KB)</a> </p> 
+                        <div class="clearfix">
+                            <h5 class="display-6 fw-bold text-center">IEEE Policy Against Discrimination and Harassment</h5>
+                            <div class="approval-info">
+                                <p class="mb-0"><strong>(IEEE Policies, Section 9.27)</strong></p>
+                            </div>
+                            <!-- Nondiscrimination Rules -->
+                            <div class="policies-card">
+                                <ol class="conduct-rules">
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">1</span>
+                                            <span class="rule-title">Commitment to Equality and Inclusion</span>
+                                        </div>
+                                        <div class="rule-content">
+                                            <div class="rule-item">
+                                                IEEE is committed to maintaining an environment free from discrimination or harassment, enabling members to have full and productive careers.
+                                            </div>
+                                            <div class="rule-item">
+                                                Ensures equal access to programs, facilities, services, and employment, regardless of personal characteristics unrelated to ability, performance, or qualifications, in accordance with IEEE policy and applicable laws.
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="conduct-rule">
+                                        <div class="d-flex align-items-center">
+                                            <span class="rule-number">2</span>
+                                            <span class="rule-title">Prohibition of Discrimination, Harassment, and Bullying</span>
+                                        </div>
+                                        <div class="rule-content">
+                                            <div class="rule-item">
+                                                IEEE prohibits discrimination, harassment, and bullying for any reason, including age, ancestry, color, disability, national origin, race, religion, gender, sexual orientation, gender identity, appearance, education status, political affiliation, marital status, veteran status, or any other characteristic protected by law.
+                                            </div>
+                                                <div class="rule-item">
+                                                All IEEE employees, volunteers, members, and constituents must maintain an environment free from discrimination, harassment, bullying, and retaliation during IEEE business, events, or activities.
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                            
+                            <div class="ieee-download-container d-flex flex-column align-items-center text-center">
+                                <h4 class="mb-3">For the complete Policy: download</h4>
+                                <a href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/whatis/nondiscrimination.pdf" class="download-btn">IEEE Policies, Section 9.26 - IEEE Policy Against Discrimination and Harassment (PDF, 45 KB)</a>
+                            </div>
+                        </div>
                     </div>
-                </div>    
+                </div>
             </div>
         </section>
 
@@ -545,10 +617,10 @@
             </div>
 
         </section>
-        <section id="dates">
-            <?php include "../includesHtml/timeline.html" ?>    
+        <!-- <section id="dates">
+            <*/?php include "../includesHtml/timeline.html" ?>    
 
-        </section>
+        </section> -->
 
         <!-- Footer section -->
         <div class ="container-fluid">
