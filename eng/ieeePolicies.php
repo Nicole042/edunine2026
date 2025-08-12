@@ -26,6 +26,11 @@
     <!-- Custom styles for this template -->
     <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
+    <!--SLICK CAROUSEL-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!--END  SLICK CAROUSEL -->
+
 </head>
 
 <body onload="obtenerFechas(), jump()">
@@ -976,30 +981,29 @@
             </div>
         </section>
 
-        
+
         <!-- <section id="dates">
             <*/?php include "../includesHtml/timeline.html" ?>    
 
         </section> -->
 
         <!-- Footer section -->
-        <div class="container-fluid">
-            <!-- footer  -->
-            <?php include "../includesHtml/final.html" ?>
-        </div>
+        <section id="organizers">
+            <div class="container-fluid">
+                <!-- Footer  -->
+                <?php include "../includesHtml/final.html" ?>
+            </div>
+        </section>
 
-    </main>
+        <script src="../js/datesFillNewTimeline2.js?1"></script>
+        <script src="../js/readmorereadless.js"></script>
+        <script src="../js/backTop.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
-    <script src="../js/datesFillNewTimeline2.js?1"></script>
-    <script src="../js/readmorereadless.js"></script>
-    <script src="../js/backTop.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+        <!--SLICK CAROUSEL-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="../js/slick-carousel-config.js"></script>
 </body>
 
 </html>
