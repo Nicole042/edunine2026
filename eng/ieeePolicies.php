@@ -112,7 +112,7 @@
             <div class="container-fluid">
                 <!-- sequence section -->
                 <div class="container px-4 py-5">
-                    <h2 class="pb-2 border-bottom display-6 fw-bold">INDEX</h2>
+                    <h2 class="pb-2 border-bottom display-6 fw-bold text-center">INDEX</h2>
 
                     <div class="row g-4 py-5 row-cols-1 row-cols-md-3">
                         <div class=" col d-flex flex-fill justify-content-center fs-2 mb-3">
@@ -127,7 +127,7 @@
                                 <center><img src="../images/decoration/ieeePolicies.png"
                                         class="card-img-top mt-2 mx-auto w-50" alt="IEEE Policies Image"></center>
                                 <div class="card-body d-flex flex-column p-1">
-                                    <h5 class="fw-bold mb-1">Code of Conduct Policy</h5>
+                                    <h5 class="fw-bold mb-1 text-center">Code of Conduct Policy</h5>
                                     <p class="mb-1 lh-sm">Our <b>Code of Conduct</b> outlines the ethical standards and
                                         expectations for behavior among authors, participants, and staff. It serves as a
                                         foundation for maintaining integrity, professionalism, and respect within our
@@ -152,7 +152,7 @@
                                 <center><img src="../images/decoration/ieeePolicies.png"
                                         class="card-img-top mt-2 mx-auto w-50" alt="IEEE Policies Image"></center>
                                 <div class="card-body d-flex flex-column p-1">
-                                    <h5 class="fw-bold mb-1">Code of Ethics</h5>
+                                    <h5 class="fw-bold mb-1 text-center">Code of Ethics</h5>
                                     <p class="mb-1 lh-sm">IEEE members commit to the highest ethical conduct, ensuring
                                         integrity, public safety, and sustainability. They pledge to avoid conflicts of
                                         interest and unlawful conduct, respect all individuals, avoid harassment and
@@ -176,7 +176,7 @@
                                 <center><img src="../images/decoration/ieeePolicies.png"
                                         class="card-img-top mt-2 mx-auto w-50" alt="IEEE Policies Image"></center>
                                 <div class="card-body d-flex flex-column p-1">
-                                    <h5 class="fw-bold mb-1">Nondiscrimination Policy</h5>
+                                    <h5 class="fw-bold mb-1 text-center">Nondiscrimination Policy</h5>
                                     <p class="mb-1 lh-sm">IEEE is dedicated to providing equal opportunities and
                                         eliminating discrimination in all its forms. Our Nondiscrimination Policy
                                         ensures that all individuals are treated fairly and without bias, regardless of
@@ -201,7 +201,7 @@
                                 <center><img src="../images/decoration/ieeePolicies.png"
                                         class="card-img-top mt-2 mx-auto w-50" alt="IEEE Policies Image"></center>
                                 <div class="card-body d-flex flex-column p-1">
-                                    <h5 class="fw-bold mb-1">Event Conduct Policy</h5>
+                                    <h5 class="fw-bold mb-1 text-center">Event Conduct Policy</h5>
                                     <p class="mb-1 lh-sm">To create a positive and productive atmosphere at our events,
                                         the Event Conduct Policy sets clear expectations for participant behavior. This
                                         policy is designed to ensure that all IEEE events are welcoming, safe, and
@@ -226,7 +226,7 @@
                                 <center><img src="../images/decoration/ieeePolicies.png"
                                         class="card-img-top mt-2 mx-auto w-50" alt="IEEE Policies Image"></center>
                                 <div class="card-body d-flex flex-column p-1">
-                                    <h5 class="fw-bold mb-1">Privacy Policy</h5>
+                                    <h5 class="fw-bold mb-1 text-center">Privacy Policy</h5>
                                     <p class="mb-1 lh-sm">Protecting the personal information of our members and
                                         participants is of utmost importance to IEEE. Our Privacy Policy outlines how we
                                         collect, use, and safeguard your data, ensuring transparency and trust in our
@@ -251,7 +251,7 @@
                                 <center><img src="../images/decoration/ieeePolicies.png"
                                         class="card-img-top mt-2 mx-auto w-50" alt="IEEE Policies Image"></center>
                                 <div class="card-body d-flex flex-column p-1">
-                                    <h5 class="fw-bold mb-1">Publication Ethics</h5>
+                                    <h5 class="fw-bold mb-1 text-center">Publication Ethics</h5>
                                     <p class="mb-1 lh-sm">The <b>Publication Ethics and Malpractice Statement</b>
                                         ensures all papers are reviewed by experts for relevance, originality, and
                                         accuracy. It enforces ethical standards, including avoiding plagiarism, ensuring
