@@ -62,10 +62,7 @@
                         <div class= "col text-sm-left">
                                  <!-- New proposed breadcrumb -->
                                 <nav class="section-nav pb-5" aria-label="Section navigation">
-                                    <ul class="d-flex justify-content-end list-unstyled mb-0">
-                                        <li class="nav-item mx-1">
-                                        <a class="nav-link px-3 py-2 btn" href="#prescreen">Prescreening</a>
-                                        </li>
+                                    <ul class="d-flex justify-content-end list-unstyled mb-0">                
                                         <li class="nav-item mx-1">
                                         <a class="nav-link px-3 py-2 btn" href="#peerReview">About Peer Review</a>
                                         </li>
