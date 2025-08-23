@@ -572,6 +572,30 @@
                                             of expertise. Additionally, it guides you in setting your username and password for your 
                                             EDUNINE SUBMISSION account.
                                         </p>
+                                        <iframe width="560" height="315" 
+                                            src="https://www.youtube.com/embed/RIz6QWmw1ow" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen>
+                                        </iframe>
+
+                                        <iframe width="560" height="315" 
+                                            src="https://www.youtube.com/embed/etpSOzqjExE" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen>
+                                        </iframe>
+
+                                        <iframe width="560" height="315" 
+                                            src="https://www.youtube.com/embed/XeVUJM07rgk" 
+                                            title="YouTube video player" 
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                            allowfullscreen>
+                                        </iframe>
+
                                     </div>
                                 </div>
                             </div>
