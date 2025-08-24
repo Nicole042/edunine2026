@@ -1,0 +1,227 @@
+.card-prescreen-description {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #0098da;
+}
+
+.prescreening-card {
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%);
+    border: 1px solid #e3f2fd;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.prescreening-card-title {
+    color: #2b8bca;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding: 20px 24px;
+
+}
+
+.prescreening-card-body {
+    padding: 24px;
+    background: transparent;
+}
+
+.prescreening-card-body p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.prescreening-section-title {
+    color: #005f9d;
+    font-weight: 600;
+    font-size: 1.1rem;
+    position: relative;
+    padding-left: 16px;
+}
+
+.prescreening-section-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: #005f9d;
+    border-radius: 50%;
+}
+.padding-top-inicial {
+    padding-top: 120px;
+}
+
+.evaluation-criteria {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    padding: 16px;
+    border-left: 3px solid #e3f2fd;
+    transition: all 0.3s ease;
+}
+
+.evaluation-criteria:hover {
+    border-left-color: #005f9d;
+    background: rgba(255, 255, 255, 0.8);
+    transform: translateX(3px);
+    box-shadow: 0 2px 8px rgba(0, 152, 218, 0.1);
+}
+
+.review-alerts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* alert styles */
+.review-alert {
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 1.25rem;
+    margin-bottom: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.review-alert-warning {
+    background: #ffeaa7;
+    border-left: 4px solid #f39c12;
+}
+
+.review-alert-danger {
+    background: #fab1a0;
+    border-left: 4px solid #e74c3c;
+}
+
+.peer-review-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 4px solid #0098da;
+}
+
+
+/* Peer-Review Requirements IEEE */
+
+.ieee-requirements-card {
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%);
+    border: 1px solid #e3f2fd;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    /* margin: 1rem 0; */
+}
+
+.ieee-requirements-main-title {
+    color: #2b8bca;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    padding: 20px 24px;
+}
+
+.ieee-requirements-card-body {
+    padding: 24px;
+}
+
+.ieee-requirements-text-link {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.ieee-requirements-text-link:hover {
+    color: #004499;
+    text-decoration: none;
+}
+
+.ieee-requirements-numbered-list {
+    list-style-type: decimal;
+    padding-left: 2rem;
+    margin-bottom: 0;
+}
+
+.ieee-requirements-list-item {
+    padding: 16px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border-left: 3px solid #e3f2fd;
+    transition: all 0.3s ease;
+    line-height: 1.6;
+}
+
+.ieee-requirements-list-item:hover {
+    border-left-color: #005f9d;
+    background: rgba(255, 255, 255, 0.8);
+    transform: translateX(3px);
+    box-shadow: 0 2px 8px rgba(0, 152, 218, 0.1);
+}
+
+.ieee-requirements-bold-text {
+    font-weight: 700;
+    color: #005f9d;
+}
+
+.ieee-requirements-sublist {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
+
+.ieee-requirements-sublist li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.ieee-requirements-underlined {
+    text-decoration: underline;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .ieee-requirements-card {
+        border-radius: 8px;
+    }
+    
+    .ieee-requirements-main-title {
+        font-size: 1.2rem;
+    }
+    
+    .ieee-requirements-card-body {
+        padding: 20px;
+    }
+    
+    .ieee-requirements-list-item {
+        padding: 14px;
+    }
+    
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .prescreening-card {
+        border-radius: 8px;
+    }
+  
+    .prescreening-card-title {
+        font-size: 1.2rem;
+    }
+    
+    .prescreening-card-body {
+        padding: 20px;
+    }
+    
+    .evaluation-criteria {
+        padding: 14px;
+    }
+}
