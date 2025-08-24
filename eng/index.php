@@ -21,12 +21,8 @@
         <link href="../css/stylevenue.css" rel="stylesheet">
         <link href="../css/coordinator.css" rel="stylesheet">
 
+        <link href="../css/modal.css" rel="stylesheet">
 
-
-        <!-- Custom styles for this template -->
-        <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
-
-        
         <!--SLICK CAROUSEL-->
         <link
         rel="stylesheet"
@@ -97,7 +93,40 @@
                         There was no link for venue?? It tended to disappear -->
                     </ul>
                 </nav>
-                <!-- About section -->
+
+              <!--Navigation for cellphones Susan's Idea-->
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="chevron-up-down" viewBox="0 0 16 18">
+                <!-- Up chevron -->
+                <path d="M2.146 6.854a.5.5 0 0 1 .708 0L8 2.707l5.146 4.147a.5.5 0 0 1-.708.708L8 4.207 2.854 7.562a.5.5 0 0 1-.708-.708z"/>
+
+                <!-- Down chevron -->
+                <path d="M2.146 11.146a.5.5 0 0 1 .708 0L8 15.293l5.146-4.147a.5.5 0 0 1 .708.708l-5.5 5.5a.5.5 0 0 1-.708 0l-5.5-5.5a.5.5 0 0 1 0-.708z"/>
+            </symbol>
+            </svg>
+
+
+            <div class="container d-flex justify-content-center">
+                <div class="dropdown d-navs d-sm-none"> <!--d-sm-none makes it not appear for screen higher than 575px width-->
+                <button class="btn dropdown-toggle d-flex align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    On this page
+                    <svg class="bi ms-2" width="16" height="16" fill="currentColor" aria-hidden="true">
+                    <use xlink:href="#chevron-up-down"></use>
+                    </svg>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#top">About</a></li>
+                    <li><a class="dropdown-item" href="#dates">Schedule</a></li>
+                    <li><a class="dropdown-item" href="#coordinators"> Coordinators</a></li>
+                    <li><a class="dropdown-item" href="#venue"> Venue</a></li>
+                    <li><a class="dropdown-item" href="#organizers"> Organizers</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <!--End of Navigation for cellphones Susan's Idea-->
+
+            <!-- About section -->
             <section class="primera">             
                 <!-- ABOUT CONFERENCE SECTION -->
                  <div class="container-fluid px-0">
@@ -512,8 +541,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="Conference Chair">
                     <div class="overlay-content">
-                        <h2>José Martín Molina Espinosa</h2>
-                        <h2>Conference Chair</<h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">José Martín Molina Espinosa</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Conference Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -528,8 +557,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>Claudio R. Brito</h2>
-                        <h2>General Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Claudio R. Brito</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">General Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -544,8 +573,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>Melany M. Ciampi</h2>
-                        <h2>Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Melany M. Ciampi</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Co-Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -560,8 +589,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>To be assigned</h2>
-                        <h2>Awards Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">To be assigned</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Awards Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -577,8 +606,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>To be assigned</h2>
-                        <h2>Technical Program Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">To be assigned</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -594,8 +623,8 @@
                                     alt="Logo SBC">
             
                     <div class="overlay-content">
-                        <h2>Ana Luna</h2>
-                        <h2>Technical Program Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Ana Luna</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Co-Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -611,8 +640,8 @@
                                     alt="Logo SBC">
                  
                     <div class="overlay-content">
-                        <h2>Agatha da Silva Ovando</h2>
-                        <h2>Technical Program Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Agatha da Silva Ovando</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Co-Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -628,8 +657,40 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Alejandro Adorjan Olivera</h2>
-                        <h2>Technical Program Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Alejandro Adorjan Olivera</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Co-Chair</h3><br>
+                        
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModal">View CV</button></li></ul>
+
+                    </div>
+
+                </div>
+               
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Publication Chair</h3><br><br>
+                            
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#feedbackModalChong">View CV</button></li></ul>
+
+                    </div>
+                </div>
+
+                <div class="slide image-hover text-center">
+                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                                    class="img-fluid rounded-circle mb-2"
+                                    alt="Logo SBC">
+                
+                    <div class="overlay-content">
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Maria Isabel Pozzo</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Doctoral Symposium Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -645,8 +706,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Mario Chong</h2>
-                        <h2>Publication Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Rafael R. Rentería Ramos</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Workshops Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -662,8 +723,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Maria Isabel Pozzo</h2>
-                        <h2>Doctoral Symposium Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Roberto Portillo</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Conference Support Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -679,8 +740,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Rafael R. Rentería Ramos</h2>
-                        <h2>Workshops Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Public Relations Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -696,42 +757,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Roberto Portillo</h2>
-                        <h2>Conference Support Chair</h2>
-                        
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
-                    </div>
-                </div>
-
-                <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
-                                    class="img-fluid rounded-circle mb-2"
-                                    alt="Logo SBC">
-                
-                    <div class="overlay-content">
-                        <h2>Mario Chong</h2>
-                        <h2>Public Relations Chair</h2>
-                        
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
-                    </div>
-                </div>
-
-                <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
-                                    class="img-fluid rounded-circle mb-2"
-                                    alt="Logo SBC">
-                
-                    <div class="overlay-content">
-                        <h2>Orlando Fittipaldi</h2>
-                        <h2>Finance / Treasurer Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Orlando Fittipaldi</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Finance / Treasurer Chair</h3><br>
                         
                         <p class="mb-0"> 
                             <a href="../../cv_congresses_en/dr_da_silva.pdf" 
@@ -745,6 +772,8 @@
             </div>
         </div>
     </section>
+
+
     <!-- VENUE section -->
     <section id="venue">
         <!-- v title section -->
@@ -891,9 +920,7 @@
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>      
         <script src="../js/scheduleSection.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
+        
         <!-- START SLICK CAROUSEL-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script
@@ -901,5 +928,10 @@
 
         <script src="../js/slick-carousel-config.js"></script>
         <!-- END  SLICK CAROUSEL--> 
+
+        <!-- Bootstrap 5 JS (bundle) for CVs -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../js/pauseCoordinatorsSlider.js"></script>
+
     </body>
 </html>                      
