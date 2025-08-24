@@ -620,19 +620,17 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
-                                    class="img-fluid rounded-circle mb-2"
-                                    alt="Logo SBC">
-            
+                    <img src="..\images\coordinators\Ana_Luna.jpg" 
+                        class="img-fluid rounded-circle mb-2" 
+                        alt="Conference Chair">
                     <div class="overlay-content">
                         <h2>Ana Luna</h2>
-                        <h2>Technical Program Co-Chair</h2>
+                        <h2>Technical Program Co-Chair</h2><br>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                         <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAnaLuna">
+                        View CV
+                        </button>
                     </div>
                 </div>
 
@@ -885,6 +883,38 @@
         </div>
     </div>
 
+    <!-- Modal Ana Luna-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalAnaLuna" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Associate Professor in the Department of Engineering at Universidad del Pacífico 
+                (Lima, Peru) and Researcher at CIUP. Holds a Ph.D. and Licentiate in Physical Sciences 
+                from the University of Buenos Aires, specializing in optics, photonics, and sustainability. 
+                Academic career includes leadership as Vice Dean of Business Engineering, coordination of 
+                courses in Sustainable Development Technology, and extensive teaching experience in higher 
+                education. Research spans engineering education, sustainability, laser physics, and photonic 
+                structures, with over 20 peer-reviewed articles, multiple book chapters, and presentations 
+                at international conferences. Senior Member of IEEE and Vice President for Outreach Activities, 
+                recipient of awards such as Best Paper at EDUNINE 2019 and ICECB 2018, and contributor to public 
+                policy initiatives on gender equality and environmental issues.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Modal Ale-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalAle" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
