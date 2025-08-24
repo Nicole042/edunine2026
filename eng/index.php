@@ -126,6 +126,10 @@
 
             <!--End of Navigation for cellphones Susan's Idea-->
 
+            <!--GOOGLE API TRANSLATION-->
+            <div id = "google_translate_element"></div>
+            <!--END GOOGLE API TRANSLATION-->
+            
             <!-- About section -->
             <section class="primera">             
                 <!-- ABOUT CONFERENCE SECTION -->
@@ -915,7 +919,6 @@
         <?php include '../includesHtml/final.html' ?>
     </div> 
 </section>
-</main>
         <script src ="../js/datesFill.js?1"></script>
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>      
@@ -933,5 +936,16 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="../js/pauseCoordinatorsSlider.js"></script>
 
+        <!-- to your js part -->
+        <script src="script.js"></script>
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement(
+                        {pageLanguage: 'en'},
+                        'google_translate_element'
+                    );
+                } 
+        </script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </body>
 </html>                      
