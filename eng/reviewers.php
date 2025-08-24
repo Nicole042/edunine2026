@@ -558,50 +558,47 @@
                     <div class= "col text-sm-left">
                         <div class="clearfix">
                             <div class="d-flex flex-wrap flex-md-nowrap align-items-center justify-content-center text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" 
-                                    src="../images/decoration/peerRevSignUp.jpg"  
-                                    alt="Submission  Revieweer System Registration Image">
-                                
+                                                               
                                 <div class="card mx-auto" style="max-width: 800px; background: transparent; border: 0px;">
                                     <div class="card-body justify-content-center text-center px-4 py-5">
-                                        <h2 class="display-6 fw-bold mb-4">Reviewer Registration (Sign up)</h2>
+                                        <h2 class="display-6 fw-bold mb-4">Reviewer Registration (Easy Chair)</h2>
                                         <p class="fs-5 mb-0">
-                                            This section provides instructions for registering as a peer reviewer using 
-                                            <b>EDUNINE2026 SUBMISSION SYSTEM</b>. It explains how to complete the registration form 
-                                            with your personal information, email, and the conference topics that match your areas 
-                                            of expertise. Additionally, it guides you in setting your username and password for your 
-                                            EDUNINE SUBMISSION account.
+
+                                            We will be using EasyChair, a web-based system widely used by the scientific 
+                                            community to handle paper submissions and reviews. Please remember that before submitting 
+                                            your paper to EasyChair, you must first upload your document to PDFexpress.
                                         </p>
-                                        <iframe width="560" height="315" 
-                                            src="https://www.youtube.com/embed/RIz6QWmw1ow" 
-                                            title="YouTube video player" 
-                                            frameborder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                            allowfullscreen>
-                                        </iframe>
 
-                                        <iframe width="560" height="315" 
-                                            src="https://www.youtube.com/embed/etpSOzqjExE" 
-                                            title="YouTube video player" 
-                                            frameborder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                            allowfullscreen>
-                                        </iframe>
-
-                                        <iframe width="560" height="315" 
-                                            src="https://www.youtube.com/embed/XeVUJM07rgk" 
-                                            title="YouTube video player" 
-                                            frameborder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                            allowfullscreen>
-                                        </iframe>
-
-                                    </div>
+                                    </div>                             
                                 </div>
+
                             </div>
                         </div>
                     </div>    
                 </div>
+
+                <div class="container">
+                    <div class="row justify-content-center g-3"> <!--g-3 creates a gap between elements-->
+                        <div class="col-12 col-xl-4 d-flex justify-content-center">
+                        <div class="ratio ratio-16x9 w-100" style="max-width:560px;">
+                            <iframe src="https://www.youtube.com/embed/RIz6QWmw1ow" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                        </div>
+
+                        <div class="col-12 col-xl-4 d-flex justify-content-center">
+                        <div class="ratio ratio-16x9 w-100" style="max-width:560px;">
+                            <iframe src="https://www.youtube.com/embed/etpSOzqjExE" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                        </div>
+
+                        <div class="col-12 col-xl-4 d-flex justify-content-center">
+                        <div class="ratio ratio-16x9 w-100" style="max-width:560px;">
+                            <iframe src="https://www.youtube.com/embed/XeVUJM07rgk" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
 
