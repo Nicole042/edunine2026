@@ -1033,6 +1033,9 @@ font-family: 'Quicksand', 'sans-serif';
     .text_size {
         font-size: 1.7rem;
     }
+    .tittle-top-padding{
+        padding-top: 90px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -1054,6 +1057,9 @@ font-family: 'Quicksand', 'sans-serif';
     }
     .text_size {
         font-size: 1.6rem;
+    }
+    .tittle-top-padding{
+        padding-top: 80px;
     }
 }
 
@@ -1137,6 +1143,9 @@ font-family: 'Quicksand', 'sans-serif';
     .text_size {
         font-size: 1.4rem;
     }
+    .tittle-top-padding{
+        padding-top: 50px;
+    }
 }
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media only screen  and (max-width: 670px) 
@@ -1203,6 +1212,9 @@ font-family: 'Quicksand', 'sans-serif';
     /* Topico del evento en home */
     .text_size {
         font-size: 1rem;
+    }
+    .tittle-top-padding{
+        padding-top: 20px;
     }
 }
 @media (max-width: 575px) {

@@ -51,7 +51,7 @@
     <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
     <div>
         <!-- Navigation bar  -->
-        <?php include "edu9header.html" ?>
+        <?php include "newHeader.html" ?>
     </div>
     <div class="#main"></div>
 
@@ -65,8 +65,7 @@
                 <div class="col text-sm-left">
                     <div class="clearfix">
                         <div class="container tope  py-5 bg-white">
-
-                            <h2 class="display-6 fw-bold text-center">IEEE Policies</h2>
+                            <h2 class="display-6 fw-bold text-center tittle-top-padding">IEEE Policies</h2>
 
                             <p class="fs-5 mb-4">Welcome to the IEEE Policies page. IEEE is committed to fostering an
                                 inclusive, respectful, and safe environment for all members and participants in our
