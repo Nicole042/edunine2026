@@ -57,17 +57,23 @@
 
         <main>
         <!-- Home section -->
+            <!-- Home section -->
             <section id="top">
                 <!-- Full-width image -->
-                <div class="home-image-container">
-                    <div class="home-text row">
-                        <div class="col-sm-12 text-center text-overlay">
+                <div class="home-image-container position-relative">
+                    <!-- Overlay centrado -->
+                    <div class="d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100">
+                        <div class="text-overlay text-center p-4">
                             <h1 class="display-4 fw-bold">X IEEE World Engineering</h1>
                             <h1 class="display-4 fw-bold">Education Conference</h1>
                             <h4 class="fw-bold">March 8-11, 2026 - Mexico City, Mexico</h4>
-                            <h3 class="fw-bold">"Theme of the conference: To be assigned"</h3>
+                            <h3 class="fw-bold text_size p-1">
+                                The Role of Engineering and Computer Technology as Artificial Intelligence turns into Reality: 
+                                a Challenge for Professional Education
+                            </h3>
                         </div>
                     </div>
+                    <!-- Imagen de fondo -->
                     <img class="img-fluid w-100" src="../images/city/homeImage.jpg" alt="EDUNINE Banner">
                 </div>
             </section>
