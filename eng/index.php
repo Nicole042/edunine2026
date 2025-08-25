@@ -682,7 +682,7 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                    <img src="../images\coordinators\Rafael Rentería.png"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
                 
@@ -1008,6 +1008,32 @@
                         <a href="https://orcid.org/0000-0003-0186-0910">
                         https://orcid.org/0000-0003-0186-0910
                         </a>
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Rafael Rentería-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalRafael" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Rafael Ricardo Rentería Ramos is a researcher and innovation manager with extensive experience in linking science, technology, and digital transformation to foster social, territorial, and organizational development. His work has focused on strengthening the relationship between applied research, high-quality academic training, and sustainability, generating measurable impact on both regional and national competitiveness.
+                        He has led strategic research projects in data analytics, artificial intelligence, and open innovation, with emphasis on agri-food supply chains, energy management, and digital ecosystems. Among his most significant contributions are the consolidation of a Human Rights Analytics Center, the design of technological and postgraduate academic programs recognized for their relevance and quality, and the creation of dual training models and international certification frameworks.
+                        His scientific contributions are reflected in articles, strategic plans, and innovation models recognized through competitive research calls and by leading higher education institutions. He has received academic awards and institutional distinctions for his ability to lead interdisciplinary projects, drive the adoption of exponential technologies in higher education, and promote sustainability through innovation.
+                        His achievements include directing research groups to obtain official recognition from Minciencias, advising public and private organizations on digitalization and knowledge management, and training human talent in innovation, business intelligence, and foresight.
+                        His career positions him as a benchmark in applied research and innovation, with strategic vision, ethical commitment, and the ability to integrate the quadruple helix to generate transformative and sustainable solutions.
 
                     </p>
                 </div>
