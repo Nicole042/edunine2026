@@ -587,35 +587,33 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif" 
+                    <img src="..\images\coordinators\Melany M.Ciampi.jpg" 
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>To be assigned</h2>
+                        <h2>Melany M. Ciampi</h2>
                         <h2>Awards Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalMelany">View CV
+                        </button>
                     </div>
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                    <img src="..\images\coordinators\Agatha da Silva.jpeg"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>To be assigned</h2>
+                        <h2>Agatha da Silva Ovando</h2>
                         <h2>Technical Program Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAgatha">
+                        View CV
+                        </button>
                     </div>
                 </div>
 
@@ -631,23 +629,6 @@
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAnaLuna">
                         View CV
                         </button>
-                    </div>
-                </div>
-
-                <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
-                                    class="img-fluid rounded-circle mb-2"
-                                    alt="Logo SBC">
-                 
-                    <div class="overlay-content">
-                        <h2>Agatha da Silva Ovando</h2>
-                        <h2>Technical Program Co-Chair</h2>
-                        
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
                     </div>
                 </div>
 
@@ -685,7 +666,7 @@
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                    <img src="..\images\coordinators\María Isabel Pozzo.jpg"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
                 
@@ -693,11 +674,10 @@
                         <h2>Maria Isabel Pozzo</h2>
                         <h2>Doctoral Symposium Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalMariaIsabel">View CV
+                        </button>
                     </div>
                 </div>
 
@@ -710,16 +690,15 @@
                         <h2>Rafael R. Rentería Ramos</h2>
                         <h2>Workshops Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalRafael">View CV
+                        </button>
                     </div>
                 </div>
 
                 <div class="slide image-hover text-center">
-                    <img src="../images/logos_cooperation/logo_sbc.gif"
+                    <img src="../images\coordinators\Roberto Portillo.JPG"
                                     class="img-fluid rounded-circle mb-2"
                                     alt="Logo SBC">
                 
@@ -727,11 +706,10 @@
                         <h2>Roberto Portillo</h2>
                         <h2>Conference Support Chair</h2>
                         
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" 
+                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalRoberto">View CV
+                        </button>
                     </div>
                 </div>
 
@@ -883,6 +861,33 @@
         </div>
     </div>
 
+    <!-- Modal Agatha de Silva-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalAgatha" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Agatha da Silva is an Associate Professor and Director of the Logistics Operations Center at Universidad Privada Boliviana (Bolivia). She is currently a Doctoral Candidate in Logistics and Supply Chain Management at Universidad de La Sabana, Colombia. She holds a Postgraduate Certificate in Logistics and Supply Chain Management from the Massachusetts Institute of Technology (MIT), a Master’s degree in Product Design Management from Bournemouth University (United Kingdom), and an MBA from UPB.
+                Her work focuses on operations management, conducting research on food supply chains, last-mile logistics, and educational innovation. She has collaborated with companies and organizations on projects related to last-mile solutions and sustainable logistics.
+                She serves as Track Leader for Educational Innovation in Logistics and Supply Chain Management in the MIT SCALE Network. She is Vice President of the MIT GCLOG Alumni Association for the 2024–2026 term, and was elected Vice President of Meetings for the POMS LAC Chapter for the 2023–2026 term.
+                In 2024, she received the Nada Sanders Emerging Economies Doctoral Dissertation Award for Latin America and the Caribbean.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Modal Ana Luna-->
     <div class="modal coordinators-modal fade" 
         id="coordinatorsModalAnaLuna" 
@@ -958,6 +963,73 @@
                         https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong
                         </a>
 
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Maria Isabel Pozzo-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalMariaIsabel" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        María Isabel Pozzo is a Teacher, Professor, Licentiate and Doctor in Educational
+                        Sciences graduated at National University of Rosario, Argentina and Master from Barcelona
+                        University, Spain. She is currently a Full Professor at the National University of Rosario;
+                        Principal Investigator of the National Scientific and Technical Research Council of Argentina,
+                        and Director of Specialization and Master Programs in University Teaching at the National
+                        Technological University, Rosario Faculty, Argentina. She delivers numerous postgraduate
+                        courses related to research methodology and thesis writing at different Higher Education
+                        Institutions and Programs in Engineering, Medicine, Psychology, and Veterinarian. She has
+                        been granted with international scholarships for research and/or teaching stages in
+                        Universities of Spain, Belgium, Canada, Italy, Brazil, and Denmark. Dr. Pozzo has coordinated
+                        several research projects, is intensely active as supervisor and evaluator of theses, researchers,
+                        and research projects. Author of numerous Conference papers and keynote presentations,
+                        journal articles and books, and member of the Scientific Committee of international
+                        conferences and academic journals. Keynote (ICBL Cuba 2019, EDUCON 2021 Austria), panelist
+                        (SITED Brazil 20219, WEEF-GEDC Spain 2021) and workshop presenter (EDUNINE Argentina
+                        2018, Peru 2019 &amp; 2022) in Engineering Education Conferences. Researcher at Erasmus+
+                        VISIR+ Project cofounded by the European Commission. Member of the Executive Committee
+                        of International Association of Online Engineering (IAOE).
+                        Her areas of interest are Engineering Education, university didactics (graduate and
+                        postgraduate level), scientific skills development &amp; research training, academic literacy in
+                        native and foreign languages, ICT &amp; education, and intercultural education.
+                        <br><strong>ORCID:</strong>
+                        <a href="https://orcid.org/0000-0003-0186-0910">
+                        https://orcid.org/0000-0003-0186-0910
+                        </a>
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Roberto Portillo-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalRoberto" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Roberto Portillo began his involvement in engineering education as an undergraduate student. Due to his academic performance and interpersonal skills, one of his mathematics professors requested him to be a teaching assistant. Since then, he has discovered his vocation as an educator and has become increasingly involved in education. In addition to being a professor, he serves as the head of the Academic Support Department at Galileo University. He has a Bachelor of Science in Electronics and Computer Science from Galileo University, Guatemala, and a Master of Science in Operations Research from the same university. His involvement with the Education Society began with presenting research papers at EDUCON 2017 and EDUNINE 2019, where he received the best paper award. He continued with a more significant commitment to technically support EDUNINE as a conference chair in the 2021 virtual conference, where he received the prestigious Meritorious Service Award. Award for outstanding and continued service to engineering education. In 2022 and 2023, he served as a conference support chair, and in 2024, he successfully organized the conference venue at Galileo University. Besides, in his commitment to research advances in science and technology, he acts as a National Contact Point (NCP) in the CELAC (Community of Latin American Countries) group for the SENACYT (National Secretariat of Science and Technology), promoting research infrastructure collaborations between countries in Latin America and the European Union (EU).
                     </p>
                 </div>
                 <div class="modal-footer">
