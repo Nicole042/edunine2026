@@ -1,0 +1,61 @@
+/* Add this to EDU9Conferences.css */
+
+/* Header compensation classes - to avoid content hiding behind fixed header */
+.header-compensate {
+    padding-top: 120px ; /* Standard compensation for fixed header */
+}
+
+.header-compensate-breadcrumb {
+    padding-top: 140px ; /* Extra compensation for breadcrumb navigation */
+}
+
+.header-compensate-section {
+    padding-top: 130px ; /* Specific compensation for main sections */
+}
+
+/* Responsive adjustments for header compensation */
+@media (max-width: 1200px) {
+    .header-compensate {
+        padding-top: 140px ;
+    }
+    
+    .header-compensate-breadcrumb {
+        padding-top: 160px ;
+    }
+    
+    .header-compensate-section {
+        padding-top: 150px ;
+    }
+}
+
+@media (max-width: 855px) {
+    .header-compensate {
+        padding-top: 120px ;
+    }
+    
+    .header-compensate-breadcrumb {
+        padding-top: 130px ;
+    }
+    
+    .header-compensate-section {
+        padding-top: 140px ;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-compensate {
+        padding-top: 100px ;
+    }
+    
+    .header-compensate-breadcrumb {
+        padding-top: 110px ;
+    }
+    
+    .header-compensate-mobile {
+        padding-top: 5px ;
+    }
+    
+    .header-compensate-section {
+        padding-top: 120px ;
+    }
+}
