@@ -21,8 +21,17 @@
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
+        <!--SLICK CAROUSEL-->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <!--END  SLICK CAROUSEL -->
+
     </head>
-    <body onload = "jump()">
+    <body onload = "jump() " style="padding-top: 120px;">
         <?php
         if (empty($_GET["id"])) {
             $id = "top";
@@ -45,13 +54,21 @@
         <div class="#main"></div>
 
         <section id="top" class="inicial">
-            <!-- <div class="container align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li>Registration_and_Payment</li>
-                </ul> 
-            </div> -->
+            
+            <div class="container">
+                <ul class="d-flex justify-content-end list-unstyled mb-0 flex-wrap">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link px-2 py-1 btn btn-sm" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link px-2 py-1 btn btn-sm" href="#registration-fees">Registration Fees</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link px-2 py-1 btn btn-sm" href="#registration-information">Payment & Info</a>
+                    </li>
+                </ul>
+            </div>
+
             <div class= "container tope py-5 bg-white">
 
                 <div class="row g-5">
@@ -65,7 +82,7 @@
                             <p class="fs-5 mb-4">Attention <b>Authors</b>: To ensure your accepted final paper is published in the <b>IEEE Xplore®</b> digital library (please note that IEEE reserves the right to reject papers not meeting standards), registration and oral presentation at the conference are mandatory. Each author registration permits the presentation and publication of one paper, with the option to include an additional paper for an extra publication fee. Unpresented accepted papers cannot be submitted for publication in <b>IEEE Xplore®</b>.<br>For <b>Authors</b> and <b>Participants</b>: Registration grants access to all conference sessions, workshops, tours, and other activities, both online and in-person. After the conference, certificates for participation and paper presentation will be issued. Registration fees vary based on Early, Normal, or Late deadlines. Payment options include credit card (PayPal) in Euros or bank transfer in Euros or U.S. Dollars.</p>
 
                             <!-- Registration Fee Tables -->
-                            <h3 class="text-center mb-4 mt-5">Registration Fees</h3>
+                            <h3 id="registration-fees" class="text-center mb-4 mt-5">Registration Fees</h3>
                             
                             <!-- Euros Table -->
                             <div class="edunine-table-wrapper mb-4">
@@ -203,7 +220,7 @@
                             </div>
 
                             <!-- Card informativa - Agregar después de las tablas de tarifas -->
-                            <div class="edunine-table-wrapper mt-5">
+                            <div id="registration-information" class="edunine-table-wrapper mt-5">
                                 <div class="edunine-currency-header">Registration Information</div>
                                 <div class="p-4 bg-white">
                                     <div class="row g-4">
@@ -248,21 +265,37 @@
                     </div>    
                 </div>
             </div>
-            
+        
             
 
         </section>
 
-        <!-- Footer section -->
-        <div class ="container-fluid">
-            <!-- footer  -->
-            <?php include "../includesHtml/final.html" ?> 
-        </div>
-      
+        <section id="organizers">
+                <!-- Footer section -->
+                <div class ="container-fluid">
+                    <!-- footer  -->
+                    <?php include "../includesHtml/final.html" ?> 
+                </div>
+            </section>
+
+
+
+        <!-- Scripts -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
         <script src ="../js/readmorereadless.js"></script> 
         <script src ="../js/backTop.js"></script>
-        
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+        <!-- START SLICK CAROUSEL-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <script src="../js/slick-carousel-config.js"></script>
+        <!-- END  SLICK CAROUSEL-->
+
     </body>
 </html>                      
