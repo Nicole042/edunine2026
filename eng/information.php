@@ -59,7 +59,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-    <main>    
+     <main>    
         <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         
        
@@ -101,9 +101,10 @@
                     There was no link for venue?? It tended to disappear -->
                 </ul>
             </nav>
-        <!-- PARTE SUSAN FIN -->
+            <!-- PARTE SUSAN FIN -->
 
         </section>
+        
 
          <!--Navigation for cellphones Susan's Idea-->
             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -389,63 +390,75 @@
                 </div>
             </div>
         </section>
-
         <!-- END checklist -->
-
         <!-- Determine your manuscript type -->
-
-        <section id="typeChoose">
-            <!-- 
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
-                    <li>Determine_Manuscript_Category</li>
-                </ul> 
-            </div>
-            -->
-            <!--
-            <div class= "container-fluid tope  pb-5">
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center">
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/decoration/paperType.jpg" alt="Choose Manuscript Type"> 
+        <section id="typeChoose" class="primera">  
+            <div class="container">  
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100 card-hover-blue p-3 card shadow-sm rounded-4 bg-light">
+                            <img class="img-fluid rounded mb-3 w-50 mx-auto d-block pt-3" src="../images/decoration/paperType.jpg" alt="Choose Manuscript Type">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-semibold text-center h5 fs-4">Determine your Manuscript Category and Type</h5>
+                                    <p class="card-text text-center"> This section outlines the submission categories for EDUNINE2026. Authors are encouraged to submit original, unpublished work aligned with the conference's scope and topics.
+                                    </p>
+                                    <h5 class="card-title fw-semibold text-center h5 fs-4">General Information on Paper Categories and Submission Types</h5>
+                                    <p class="fw-bold mt-4 mb-1 text-center">Author Ethics and Responsibilities:</p>
+                                    <p>We emphasize upholding ethical research and writing practices:</p>
+                                    <ul>
+                                        <li>Submit original, unpublished work by the listed authors only.</li>
+                                        <li>Ensure the paper is not under review elsewhere.</li>
+                                        <li>Review IEEE guidelines on authorship, citation, plagiarism, data integrity, and originality.
+                                            <a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/" target="_blank">IEEE Author Center for Conferences: Ethics</a>
+                                        </li>
+                                        <li>Review your manuscript to ensure that it aligns with the conference's scope and the recommended topics provided on this webpage.
+                                            <a href="#checklist">Manuscript Pre-Submission Checklist</a>
+                                        </li>
+                                    </ul>
+                                    
+                                </div>
                             </div>
-                            <h4 class="display-6 fw-bold">Determine your Manuscript Category and Type</h4>
-                            <p class="fs-5 mb-4">This section will guide you through the different categories and their types of submissions  accepted for the EDUNINE2026 conference. We encourage authors to submit original, unpublished work that aligns with the conference themes outlined in the "Scope and Areas of Interest"and "Topics" sections.</p>
                         </div>
-                    </div>    
-                </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100 card-hover-blue p-3 card shadow-sm rounded-4 bg-light">
+                                <div class="card-body">
+                                        <div class="card-body">
+                                            
+                                            <p class="fw-bold mt-4 mb-1 text-center">Citation Practices:</p>
+                                            <ul>
+                                                <li> Proper citation of sources is crucial for ethical and academic writing. The conference mandates the IEEE style for citing references.
+                                                    <a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf" target="_blank">IEEE Reference Guide</a>
+                                                </li>
+                                                <li>Ensure all sources are properly cited to avoid plagiarism and self-plagiarism.</li>
+                                            </ul>
+                                                <p class="fw-bold mt-4 mb-1 text-center">Paper Formatting:</p>
+                                            <ul>
+                                                <li>All submissions must adhere to the conference paper formatting guidelines, as described in the "Mandatory Conference Paper Templates" section on this webpage.
+                                                    <a href="#templateChoose">Manuscript Templates</a>
+                                                </li>
+                                                <li>Papers not meeting the formatting guidelines required for publication will be rejected.</li>
+                                            </ul>
+                                                <p class="fw-bold mt-4 mb-1 text-center">AI-Generated Text Disclosure:</p>
+                                            <ul>
+                                                <li>Authors using AI-generated text must disclose this in the paper's acknowledgement section and cite the specific AI system employed (Interim Instructions by IEEE Publications, February 2023).
+                                                </li>
+                                            </ul>
+                                            <p class="fw-bold mt-4 mb-1 text-center">IEEE Paper Writing Requirements:</p>
+                                            <ul>
+                                                <li>All papers must be written in English and adhere to IEEE's publication requirements for the 
+                                                    <a href="http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank">IEEE Xplore® digital library</a>. These requirements include using proper English language style and formatting according to guidelines outlined in the 
+                                                    <a href="http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf" target="_blank">IEEE Editorial Style Manual</a>.
+                                                </li>
+                                                <li>Papers not meeting the standard of English required for publication will be returned for revision.</li>
+                                            </ul>
+                                        </div>
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div>             
             </div>
-            <div class="container-fluid py-3 bg-body-secondary">
-                <div class ="row">
-                    <div class= "col text-sm-left">
-                        <h6 class="display-6 fw-bold">General Information on Paper Categories and Submission Types</h6>
-                        <p class="lh-sm"><span class="fw-bold">Author Ethics and Responsibilities: </span> We emphasize upholding ethical research and writing practices:</p> 
-                        <ul class="lh-sm"><li>
-                                Submit original, unpublished work solely authored by the listed individuals.</li><li>
-                                Ensure your paper is not currently under review elsewhere.</li><li>
-                                Familiarize yourself with the IEEE ethical guidelines on authorship, citation, plagiarism, data integrity, and originality. <span class="text-end"><a href="https://conferences.ieeeauthorcenter.ieee.org/author-ethics/Author" class="border-white btn btn-primary btn-sm" role="button">IEEE Author Center for Conferences: Ethics</a> </span></li><li>
-                                Review your manuscript to ensure that it aligns with the conference's scope and the recommended topics provided on this webpage. <span class="text-end"><a href="#checklist" class="border-white btn btn-primary btn-sm" role="button">Manuscript Pre-Submission Checklist</a> </span></li>
-                        </ul>  
-                        <p class="lh-sm fw-bold">IEEE Paper Writing Requirements:</p>
-                        <ul class="lh-sm"><li>All papers must be written in <b>English</b> and adhere to IEEE's publication requirements for the <a  href="http://ieeexplore.ieee.org/Xplore/home.jsp">IEEE  Xplore&reg;  digital  library</a>. These requirements include using proper English language style and formatting according to guidelines outlined in the IEEE Editorial Style Manual.<span class="text-end"><a href="http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf" class="border-white btn btn-primary btn-sm" role="button"> IEEE Editorial Style Manual </a></li><li> 
-                                Papers not meeting the standard of English required for publication will be returned for revision.</li></ul>       
-                        <p class="lh-sm fw-bold">Citation Practices:</p><ul>
-                            <li> Proper citation of sources is crucial for ethical and academic writing. The conference mandates the IEEE style for citing references. Refer to the paper template and IEEE Reference Guide for examples.<span class="text-end"><a href="https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf"class="border-white btn btn-primary btn-sm" role="button">IEEE Reference Guide</a></span></li><li>   
-                                Ensure all sources are properly cited to avoid plagiarism and self-plagiarism.</li></ul>
-                        <p class="lh-sm fw-bold">Paper Formatting:</p><ul><li> 
-                                All submissions must adhere to the conference paper formatting guidelines, as described in the "Mandatory Conference Paper Templates" section on this webpage.<span class="text-end"><a href="#templateChoose" class="border-white btn btn-primary btn-sm" role="button">Manuscript Templates</a> </span></li><li>
-                                Papers not meeting the formatting guidelines required for publication will be rejected.</li></ul>  
-                        <p class="lh-sm fw-bold">AI-Generated Text Disclosure:</p><ul><li> 
-                                Authors using AI-generated text must disclose this in the paper's acknowledgement section and cite the specific AI system employed (Interim Instructions by IEEE Publications (February 2023)).</li></ul>
-                    </div>   
-                </div> 
-            </div> -->
-        </section> 
-
+        </section>
+        <!-- CATEGORY SECTION -->
         <section id="categories">
             <div class="container-fluid">
                 <div class ="row">
@@ -583,7 +596,6 @@
                         </div>
                     </div>
                 </div>    
-
                 <!-- Category 3 -->   
                 <div class="category3 container-fluid px-5 py-3 d-none">
                     <div class="row bg-category rounded-3 justify-content-center">     
@@ -739,8 +751,7 @@
                         </div>     
                     </div>                               
                 </div> 
-        </section>
-             
+        </section>            
         <section id="paperTypes">
             <!-- Formatting guidelines -->
             <div class="container-fluid py-3 bg-body-white">
@@ -762,18 +773,6 @@
         <!-- Manuscript Template -->
 
         <section id="templateChoose">
-            <!--
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
-                    <li>Mandatory_Conference_Paper_Template</li>
-                </ul> 
-            </div>
-            START
-
-
             <!-- HERO SECTION -->
             <div class="container my-5">
             <section class="py-5 text-center" style="background: #e8f2ff; color: black; border-radius: 15px;">
@@ -785,289 +784,181 @@
                 <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-primary">Download Templates</a>
             </section>
             </div>
-
-        <!-- MAIN CONTENT EN CARRUSEL -->
-            <div id="contentCarousel" class="carousel slide container my-5" data-bs-ride="carousel">
-
-            <!-- INDICADORES -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#contentCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-
-            <!-- SLIDES -->
-            <div class="carousel-inner">
-                <!-- SLIDE 1: Selecting Template -->
-                <div class="carousel-item active">
-                    <div class="card shadow-sm mb-4">
-                        <div class="card-body">
-                            <h4 class="card-title fw-bold">Selecting the Appropriate Template</h4>
+        </section>    
+        <!-- Selecting the Appropriate Template SECTION -->
+        <section>     
+            <div class="card-please-note">
+                <div class="container-fluid px-4 py-5">
+                    <!-- Selecting Template  -->
+                    <div class="card shadow-sm mb-4 card-hover-blue rounded-4">
+                        <div class="card-body text-center">
+                            <h4 class="card-title fw-bold ">Selecting the Appropriate Template</h4>
                             <p>For seamless manuscript preparation, authors are required to utilize one of the following IEEE conference templates:</p>
-                            <ul>
+                            <ul class="d-inline-block text-start">
                                 <li><b>Microsoft Word (.docx)</b> – A4 paper size</li>
                                 <li><b>LaTeX format</b></li>
                             </ul>
                             <p>Download the templates:</p>
                             <a href="https://www.ieee.org/conferences/publishing/templates.html" class="btn btn-primary">IEEE Conference Templates</a>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                        <!-- Overleaf  -->
+                        <div class="card shadow-sm mb-4 card-hover-blue rounded-4"> 
+                                <div class="card-body text-center">
+                                <h4 class="card-title fw-bold">Collaborative Writing with Overleaf</h4>
+                                <p>Overleaf is an ideal platform for collaborative academic writing, supporting both LaTeX and rich-text formats. It includes IEEE templates and offers helpful resources like guides, tutorials, and webinars for all experience levels.</p>
+                                <a href="https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/authoring-tools-and-templates/" class="btn btn-outline-primary btn-sm">Visit IEEE Author Center</a>
+                                </div>
+                        </div>   
+                        <hr class="my-4"> 
+                        <!-- Word Template -->
+                        <div class="card shadow-sm mb-4 card-hover-blue rounded-4">
+                            <div class="card-body text-center">
+                            <h4 class="card-title fw-bold">Mastering Microsoft Word Templates: Essential Tips and Tricks</h4>
+                            <p>Using the IEEE Word template ensures consistent formatting and simplifies collaborative writing.</p>
+
+                            <h5 class="fw-bold mt-3">Benefits of the Template:</h5>
+                            <ul class="d-inline-block text-start">
+                                <li>Comes with predefined styles for sections, figures, tables, equations, and references.</li>
+                                <li>Serves as both a guide and example, showing correct formatting directly in the document.</li>
+                                <li>Can be reused to create new IEEE papers, streamlining the writing process..</li>
+                            </ul>
+
+                            <p>This guide offers options for both individual paper creation and collaborative writing using the template.</p>
+
+                            <h5 class="fw-bold mt-3">How to Use It:</h5>
+
+                            <h6 class="fw-bold mt-2">A) Developing an Individual IEEE Conference Paper:</h6>
+                            <p>Make a copy of the .docx template and replace the text with your own, using “Paste and Match Formatting.” Use the Styles Panel to format your content. Important: Delete all instructional text before submitting, or your paper may be rejected.</p>
+
+                            <h6 class="fw-bold mt-2">B) Creating a Microsoft Template (.dotx):</h6>
+                            <p>Create a .dotx template file so all authors can use the same styles and formatting. This improves consistency and ensures compliance with IEEE standards.</p>
+                            <h5 class="fw-bold mt-3">How to create a Microsoft Template (.dotx):</h5>
+                            <ul class="d-inline-block text-start">
+                                <li><b>Open the Document:</b> Launch Microsoft Word and open the conference-template-a4.docx file to create a template with the formats and styles for formatting your paper.</li>
+                                <li><b>Operating System Differences:</b>  Instructions may vary by operating system and Word version—refer to Microsoft support if needed.</li>
+                            </ul>
+
+                            <!-- BOTONES PARA MODALES -->
+                            <div class="row row-cols-2 my-3">
+                                <div class="col d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#windowsModal">For Windows</button>
+                                </div>
+                                <div class="col d-flex justify-content-center">
+                                <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#macOSModal">For macOS</button>
+                                </div>
+                            </div>
+                            <ul class="d-inline-block text-start">
+                                <li><b>Writing Your Paper:</b> Start by replacing the template text with your own content, using the predefined styles shown in the Styles Panel for headings, lists, tables, and other elements. Although it may take time, using these styles ensures your paper meets the required formatting for the conference. Make sure to remove all instructional text before submission, as failure to do so may result in rejection.</u></b></li>
+                            </ul>
+                            </div>
+                        </div>  
+                        <hr class="my-4">
+                        <!-- LaTeX Template -->
+                        <div class="card shadow-sm mb-4 card-hover-blue rounded-4">
+                            <div class="card-body text-center">
+                            <h4 class="card-title fw-bold text-center">Create Professional Research Papers: LaTeX Template for Scientific Writing</h4>
+                            <p class="text-center">This guide provides instructions for formatting your paper using the official IEEE LaTeX template:</p>
+
+                            <h5 class="fw-bold mt-3">Before You Begin:</h5>
+                            <ul class="d-inline-block text-start">
+                                <li>Download the Template and select conference mode.</li>
+                                <li>Install required packages as indicated in the template documentation.</li>
+                                <li>Choose a LaTeX editor, such as Overleaf (online) or TeXstudio/TeXworks (offline).</li>
+                            </ul>
+
+                            <h5 class="fw-bold mt-3">Formatting Your Paper:</h5>
+                            <ul class="d-inline-block text-start">
+                                <li>Follow the predefined structure (abstract, sections, conclusion, references).</li>
+                                <li>Use the template's fonts, spacing, and margins without modifying them.</li>
+                                <li>Format figures, tables, equations, and references using the provided commands.</li>
+                                <li>Use the double-column layout, as shown in the sample file.</li>
+                            </ul>
+
+                            <h5 class="fw-bold mt-3">Additional Tips:</h5>
+                            <ul class="d-inline-block text-start">
+                                <li>Compile regularly (e.g., with pdflatex) to check formatting and fix errors.</li>
+                                <li>Refer to the template documentation for examples and syntax.</li>
+                                <li>Explore online LaTeX guides for extra support.</li>
+                            </ul>
+
+                            <h5 class="fw-bold mt-3">Additional Customizations:</h5>
+                            <ul class="d-inline-block text-start">
+                                <li>Add author info only for Workshop Proposal or DS Manuscripts.</li>
+                                <li>Use section headings, captions, and IEEE citation styles.</li>
+                                <li>Define custom commands if needed.</li>
+                            </ul>
+
+                            <p>For specific details on these customizations, refer to the template documentation and online resources catering to IEEE LaTeX formatting.</p>
+
+                            <p class="fw-bold mt-3">By following these steps and using the template features, you'll ensure your paper meets IEEE formatting standards effectively.</p>
                             </div>
                         </div>
-                    </div>
-
-                <!-- SLIDE 2: Overleaf -->
-                <div class="carousel-item">
-                <div class="card shadow-sm mb-4">
-                    <div class="card-body">
-                    <h4 class="card-title fw-bold">Collaborative Writing with Overleaf</h4>
-                    <p>For authors seeking a collaborative writing environment, Overleaf is a valuable tool. This online platform supports both LaTeX and rich-text document creation and comes pre-loaded with IEEE templates for your convenience.</p>
-                    <ul>
-                        <li>Quick guides, tutorials, and webinars</li>
-                        <li>Comprehensive documentation for all user levels</li>
-                        <li>Perfect for collaborative academic work</li>
-                    </ul>
-                    <p>Overleaf offers a wealth of resources – quick guides, tutorials, webinars, and comprehensive documentation – catering to all user levels. You can explore these resources to find materials that best suit your needs and expertise.</p>
-                    <a href="https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/authoring-tools-and-templates/" class="btn btn-outline-primary btn-sm">Visit IEEE Author Center</a>
-                    </div>
-                </div>
-                </div>
-
-                <!-- SLIDE 3: Word Template -->
-                <div class="carousel-item">
-                <div class="card shadow-sm mb-4">
-                    <div class="card-body">
-                    <h4 class="card-title fw-bold">Mastering Microsoft Word Templates: Essential Tips and Tricks</h4>
-                    <p>This guide discusses the benefits of using the template document in Microsoft Word to ensure consistent formatting and facilitate collaborative writing, specifically for IEEE Conference papers.</p>
-
-                    <h5 class="fw-bold mt-3">The template provides:</h5>
-                    <ul>
-                        <li><b>Detailed Instruction Set:</b> The document acts as a guide, offering clear instructions and predefined styles for titles, sections, figures, tables, equations, references, etc. It also demonstrates these styles and formats within the document itself, serving as a practical example.</li>
-                        <li><b>Reusable Base:</b> This template can be shared and used as the foundation for creating new IEEE conference paper documents. By utilizing the template, authors can simplify the formatting process and easily follow established IEEE style guidelines while working together.</li>
-                    </ul>
-
-                    <p>This guide offers options for both individual paper creation and collaborative writing using the template.</p>
-
-                    <h5 class="fw-bold mt-3">Two Effective Methods for Utilizing the Template:</h5>
-
-                    <h6 class="fw-bold mt-2">A) Developing an Individual IEEE Conference Paper:</h6>
-                    <p>For individual paper creation, users can save a copy of the template as a new .docx file. This enables them to replace the template text with their own content while preserving the styles using “Paste and Match Formatting.” Additionally, the Styles Panel in Microsoft Word displays the predefined template styles necessary for incorporating subtitles, lists, figures, tables, equations, and other elements required for writing the paper's content in various sections. <b><u>Please ensure that all guidance text is removed from your conference paper prior to submission to the conference. Failure to remove template text from your paper may result in your paper not being published.</u></b></p>
-
-                    <h6 class="fw-bold mt-2">B) Creating a Microsoft Template (.dotx):</h6>
-                    <p>The recommended approach for collaborative writing is to create a template file (.dotx). This ensures that all collaborators have access to the predefined styles and formats, promoting consistency and compliance with IEEE Xplore requirements.</p>
-
-                    <h5 class="fw-bold mt-3">How to create a Microsoft Template (.dotx):</h5>
-                    <ul>
-                        <li><b>Open the Document:</b> Launch Microsoft Word and open the conference-template-a4.docx file to create a template with the formats and styles for formatting your paper.</li>
-                        <li><b>Operating System Differences:</b> Depending on your Operating System and Microsoft Word version, the instructions can differ. Please refer to the Microsoft support or help section in your application.</li>
-                    </ul>
-
-                    <!-- BOTONES PARA MODALES -->
-                    <div class="row row-cols-2 my-3">
-                        <div class="col d-flex justify-content-center">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#windowsModal">For Windows</button>
+                        <!-- MODAL WINDOWS -->
+                        <div class="modal fade" id="windowsModal" tabindex="-1" aria-labelledby="windowsModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen-sm-down">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="windowsModalLabel">Creating a Microsoft Template (.dotx) for Windows</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h6 class="fw-bold">a. Create the template file:</h6>
+                                <ul>
+                                <li>Click on the "File" tab in the top left corner.</li>
+                                <li>Select "Save As" from the menu.</li>
+                                <li>Choose a location on your computer where you want to save the template.</li>
+                                <li>In the "Save as type" dropdown menu, select "Word Template (*.dotx)".</li>
+                                <li>Enter a name for your template in the "File name" field.</li>
+                                <li>Click "Save".</li>
+                                </ul>
+                                <h6 class="fw-bold mt-3">b. Accessing the Template:</h6>
+                                <ul>
+                                <li>To use your new template, launch Microsoft Word and go to "File" > "New".</li>
+                                <li>In the "New" document menu, click "Personal" or "Custom" (depending on your version of Word) to find your template.</li>
+                                <li>Select the template to create a new document based on it.</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                            </div>
                         </div>
-                        <div class="col d-flex justify-content-center">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#macOSModal">For macOS</button>
                         </div>
-                    </div>
-
-                    <ul>
-                        <li><b>Writing Your Paper:</b> Now you have a new document with the text of the template. Write replacing the text with your own text including new text using the styles displayed by the Style Panel. Use the styles of the Style Panel for all the different text styles you need. It is a lot of work but is worthwhile as it generates a well-formatted text as asked for a conference. <b><u>Please ensure that all guidance text is removed from your conference paper prior to submission to the conference. Failure to remove template text from your paper may result in your paper not being published.</u></b></li>
-                    </ul>
-                    </div>
-                </div>
-                </div>
-
-                <!-- SLIDE 4: LaTeX Template -->
-                <div class="carousel-item">
-                <div class="card shadow-sm mb-4">
-                    <div class="card-body">
-                    <h4 class="card-title fw-bold">Create Professional Research Papers: LaTeX Template for Scientific Writing</h4>
-                    <p>This guide provides instructions for formatting your paper using the official IEEE LaTeX template:</p>
-
-                    <h5 class="fw-bold mt-3">Before You Begin:</h5>
-                    <ul>
-                        <li><b>Download the Template:</b> Download the Template zip files and read the LaTeX Template instructions and be sure to use the template's conference mode.</li>
-                        <li><b>Install Required Packages:</b> Ensure you have the necessary LaTeX packages installed on your system. Refer to the documentation included with the template for specific package requirements.</li>
-                        <li><b>Software:</b> Choose a LaTeX editor or typesetting software that suits your needs. Popular options include Overleaf (online), TeXstudio (free, offline), and TeXworks (free, offline).</li>
-                    </ul>
-
-                    <h5 class="fw-bold mt-3">Formatting Your Paper:</h5>
-                    <ul>
-                        <li><b>Document Structure:</b> The template defines sections like abstract, introduction, main body sections, conclusion, references, etc. Use the provided commands to structure your document accordingly.</li>
-                        <li><b>Fonts and Styles:</b> The template pre-defines font sizes, line spacing, and margins to comply with IEEE formatting guidelines. Avoid modifying these unless absolutely necessary.</li>
-                        <li><b>Formatting Elements:</b> Utilize the provided commands for formatting figures, tables, equations, citations, and references. Refer to the template documentation for specific syntax and examples.</li>
-                        <li><b>Single vs. Double-Column:</b> The template offers options for single or double-column formatting based on conference requirements. Choose the double-column layout while compiling your document as in the sample file.</li>
-                    </ul>
-
-                    <h5 class="fw-bold mt-3">Additional Tips:</h5>
-                    <ul>
-                        <li><b>Compile and Preview:</b> Regularly compile your LaTeX document (using pdflatex) to ensure proper formatting and catch any errors.</li>
-                        <li><b>Template Documentation:</b> Utilize the documentation included with the template for detailed instructions and examples.</li>
-                        <li><b>Online Resources:</b> Explore online resources and tutorials dedicated to LaTeX and IEEE paper formatting for further guidance.</li>
-                    </ul>
-
-                    <h5 class="fw-bold mt-3">Beyond these general instructions, customizing your paper with the template might involve:</h5>
-                    <ul>
-                        <li>Including author information and affiliations only for Workshop Proposal or DS Manuscripts for the initial submission.</li>
-                        <li>Adding section headings and subheadings.</li>
-                        <li>Inserting figures, tables, and equations with captions.</li>
-                        <li>Defining custom commands for frequently used elements.</li>
-                        <li>Formatting citations and references according to the IEEE referencing style.</li>
-                    </ul>
-
-                    <p>For specific details on these customizations, refer to the template documentation and online resources catering to IEEE LaTeX formatting.</p>
-
-                    <p class="fw-bold mt-3">By following these guidelines and leveraging the template's functionalities, you can efficiently format your paper according to IEEE standards.</p>
-                    </div>
-                </div>
-                </div>
-
-            </div>
-
-            <!-- CONTROLES -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#contentCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#contentCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            </div>
-
-            <!-- MODAL WINDOWS -->
-            <div class="modal fade" id="windowsModal" tabindex="-1" aria-labelledby="windowsModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen-sm-down">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="windowsModalLabel">Creating a Microsoft Template (.dotx) for Windows</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <h6 class="fw-bold">a. Create the template file:</h6>
-                    <ul>
-                    <li>Click on the "File" tab in the top left corner.</li>
-                    <li>Select "Save As" from the menu.</li>
-                    <li>Choose a location on your computer where you want to save the template.</li>
-                    <li>In the "Save as type" dropdown menu, select "Word Template (*.dotx)".</li>
-                    <li>Enter a name for your template in the "File name" field.</li>
-                    <li>Click "Save".</li>
-                    </ul>
-                    <h6 class="fw-bold mt-3">b. Accessing the Template:</h6>
-                    <ul>
-                    <li>To use your new template, launch Microsoft Word and go to "File" > "New".</li>
-                    <li>In the "New" document menu, click "Personal" or "Custom" (depending on your version of Word) to find your template.</li>
-                    <li>Select the template to create a new document based on it.</li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+                        <!-- MODAL MACOS -->
+                        <div class="modal fade" id="macOSModal" tabindex="-1" aria-labelledby="macOSModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen-sm-down">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="macOSModalLabel">Creating a Microsoft Template (.dotx) for macOS</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h6 class="fw-bold">a. Create the template file:</h6>
+                                <ul>
+                                <li>Click "Save as Template" on the File menu.</li>
+                                <li>In the "Save As" box, type the name that you want to use for the new template.</li>
+                                <li>Next to "File Format", click "Microsoft Word template (.dotx)".</li>
+                                <li>Click "Save".</li>
+                                </ul>
+                                <h6 class="fw-bold mt-3">b. Accessing the Template:</h6>
+                                <ul>
+                                <li>To start a new document based on your template, on the File menu, click "New from Template".</li>
+                                <li>Select the template you want to use and click "Create".</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                 </div>
             </div>
-            </div>
-
-            <!-- MODAL MACOS -->
-            <div class="modal fade" id="macOSModal" tabindex="-1" aria-labelledby="macOSModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen-sm-down">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="macOSModalLabel">Creating a Microsoft Template (.dotx) for macOS</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <h6 class="fw-bold">a. Create the template file:</h6>
-                    <ul>
-                    <li>Click "Save as Template" on the File menu.</li>
-                    <li>In the "Save As" box, type the name that you want to use for the new template.</li>
-                    <li>Next to "File Format", click "Microsoft Word template (.dotx)".</li>
-                    <li>Click "Save".</li>
-                    </ul>
-                    <h6 class="fw-bold mt-3">b. Accessing the Template:</h6>
-                    <ul>
-                    <li>To start a new document based on your template, on the File menu, click "New from Template".</li>
-                    <li>Select the template you want to use and click "Create".</li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-                </div>
-            </div>
-            </div>
-
-                            <li>Now you have a new document with the text of the template. Write replacing the text with your own text including new text using the styles displayed by the Style Panel. Use the styles of the Style Panel for all the different text styles you need. It is a lot of work but is worthwhile as it generates a well-formatted text as asked for a conference. <b><u>Please ensure that all guidance text is removed from your conference paper prior to submission to the conference. Failure to remove template text from your paper may result in your paper not being published.</u></b> </li></ol>
-                    </div>
-                </div>
-            </div> 
-
-            <div class="container-fluid py-3 bg-light">
-                <div class ="row">
-                    <div class= "col text-sm-left">
-                        <h5 class="fs-3 fw-bold">Create Professional Research Papers: LaTeX Template for Scientific Writing</h5>
-
-                        <p class="lh-sm">This guide provides instructions for formatting your paper using the official IEEE LaTeX template:</p> 
-                        <p class="lh-sm fw-bold">Before You Begin:</p><ul><li>  
-                                Download the Template zip files and read the LaTeX Template instructions and be sure to use the <b>template's conference mode</b>.</li><li>
-                                Install Required Packages: Ensure you have the necessary LaTeX packages installed on your system. Refer to the documentation included with the template for specific package requirements.</li><li>
-                                Software: Choose a LaTeX editor or typesetting software that suits your needs. Popular options include Overleaf (online), TeXstudio (free, offline), and TeXworks (free, offline).</li></ul>
-
-                        <p class="lh-sm fw-bold">Formatting Your Paper:</p><ul><li> 
-                                <b>Document Structure:</b> The template defines sections like abstract, introduction, main body sections, conclusion, references, etc. Use the provided commands to structure your document accordingly. </li><li>
-                                <b>Fonts and Styles:</b> The template pre-defines font sizes, line spacing, and margins to comply with IEEE formatting guidelines. Avoid modifying these unless absolutely necessary.</li><li>
-                                <b>Formatting Elements:</b> Utilize the provided commands for formatting figures, tables, equations, citations, and references. Refer to the template documentation for specific syntax and examples.</li><li>
-                                <b>Single vs. Double-Column:</b> The template offers options for single or double-column formatting based on conference requirements. Choose the <b><u>double-column layout</u></b> while compiling your document as in the sample file.
-                            </li></ul>
-                        <p class="lh-sm fw-bold">Additional Tips:</p><ul><li> 
-                                <b>Compile and Preview:</b> Regularly compile your LaTeX document (using pdflatex) to ensure proper formatting and catch any errors.</li><li>
-                                <b>Template Documentation:</b> Utilize the documentation included with the template for detailed instructions and examples.</li><li>
-                                <b>Online Resources:</b> Explore online resources and tutorials dedicated to LaTeX and IEEE paper formatting for further guidance.</li></ul>
-
-                        <p class="lh-sm fw-bold">Beyond these general instructions, customizing your paper with the template might involve:
-                        </p><ul><li> 
-                                Including author information and affiliations only for <b>Workshop Proposal or DS Manuscripts</b> for the initial submission.</li><li> 
-                                Adding section headings and subheadings.</li><li> 
-                                Inserting figures, tables, and equations with captions.</li><li> 
-                                Defining custom commands for frequently used elements.</li><li> 
-                                Formatting citations and references according to the IEEE referencing style.
-                            </li></ul>
-                        <p class="lh-sm">For specific details on these customizations, refer to the template documentation and online resources catering to IEEE LaTeX formatting.</p>
-
-                        <p class="lh-sm">By following these guidelines and leveraging the template's functionalities, you can efficiently format your paper according to IEEE standards.</p>
-                    </div>  
-                </div>   
-            </div>
-                        -->
-        </section> 
-        
+        </section>  
+        <!-- sequence section: Important Submission Guidelines -->
         <section id="submission">
-
-            <!--
-     
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
-                    <li>Manuscript_Submission</li>
-                </ul> 
-            </div>
-
-            <div class="container-fluid tope py-3 bg-transparent">
-                <div class="row g-5 px-3">
-                    <div class="col text-sm-center">
-                        <div class="clearfix">
-                            <h2 class="display-6 fw-bold">Manuscript Submission</h2>
-                            <p class="fs-5 mb-4">Welcome to the <b>EDUNINE2026 Paper Submission Section!</b> We invite you to submit your original research to the EDUNINE2026 conference. This is an excellent forum to share your work with a global audience of researchers, practitioners, and industry leaders in the field of Engineering, Technology and Computing Education.</p>
-                            <p class="fs-5 my-4">Ready to Submit?</p> 
-                        </div>
-                    </div>    
-                </div>
-            </div>
-
-            <div class="container-fluid px-5 py-3 "> 
-                <!-- sequence section: Important Submission Guidelines -->
             <div class="card-submission-guidelines">
                 <div class="container-fluid px-4 py-2">
                     <h2 class="pb-2 border-bottom display-6 fw-bold">Important Submission Guidelines:</h2>
@@ -1092,219 +983,7 @@
         </section> 
 
         <!-- falta agregar el link al nuevo sistema en la siguiente sección -->
-        <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->
-                    
-<!--  Instrucciones para OpenConf -->
-<!-- <section>
-
-            <div class= "container-fluid tope py-5">
-                <div class="row g-5">
-                    <div class= "col text-sm-left">
-                        <div class="clearfix">
-                            <div class="text-center"> -->
-
-          <?php /*include "../includesHtml/commingSoon.html" */?>
-                                
-                              <!--- reemplazar link al sistema de submission e instrucciones de uso 
-                              
-                                <img class="col-4 p-2 rounded float-sm-start img-fluid" src="../images/openconf/edu9OpenC.png"  alt="OpenConf system portal Image"> 
-                              
-                              -->
-                              
-                            <!-- </div> -->
-                            
-                            <!--
-                            <h2 class="display-6 fw-bold">How to Submit and Manage Your Paper with the EDUNINE2026 OpenConf system</h2>
-                            <p class="fs-5 mb-4">This section provides a comprehensive guide on utilizing our online paper administration system for submitting your paper. Here, you'll find a link to the system and step-by-step instructions to ensure a smooth submission process.This guide will walk you through submitting your paper to EDUNINE2026 and managing it after submission.</p>
-                                -->
-                        <!-- </div>
-                    </div>    
-                </div>
-            </div> -->
-    <!--
-            <div class="container-fluid py-5 bg-white">
-                <div class="border bg-light">
-                    <h4 class= "display-6 fw-bold mb-4 "> Access the Manuscript Submission System:</h4> 
-                    <h5 class="mb-4">Click the link to access the EDUNINE2026 OpenConf System. <a href="https://submission.copec.eu/edunine2025/" class="border-white btn btn-primary btn-sm" role="button">EDUNINE2026 OpenConf system</a> </h5>
-                </div>
-                <div class="border bg-info-subtle gy-4 mt-4 text-left">
-                    <h3 class=" fw-bold mx-2 mt-4">You'll see the <b>EDUNINE2026 OpenConf</b> login screen:</h3> 
-                    <h5 class="mx-2">In the <b>Authors</b> section: </h5> 
-                    <p class="mx-4"> You'll find options to submit a new paper or manage an existing one.</p>
-
-                            <img class="shadow p-3 mb-5 bg-body-tertiary rounded img-fluid mx-auto d-block " src= "../images/openconf/portalEng.png" alt="EDUNINE2026 OpenConf Portal">
-
-                            <h5 class="fw-bold mt-4 mx-4"><b>Language Selector:</b> (See #1 in the image)</h5>
-                            <p class="mt-2 px-4">Select your preferred language (<i>English</i>, <i>Spanish</i>, or <i>Portuguese</i>) from the language selector.</p> 
-                            <p class="lh-sm fw-thin mx-4 "><b>Note:</b> While the interface can be displayed in different languages, the paper content and requested information must be submitted in <b>English</b>, the conference's official language.</p> 
-                            <h5 class="fw-bold mt-4 mx-4">OpenConf Options: (See #2 in the image) </h5>
-                            <ul>
-
-                                
-
-                                <li class="lh-sm mt-4 mx-4 mb-0"><span class="h6 fw-bold">Make Submission:</span> This option allows you to register a new paper. The system will assign a unique submission ID that grants you access to manage your paper. You'll also complete a submission form with details about your paper and choose a password. Use this option only for new paper submissions. </li>
-                                <div><p class="text-end mx-4 mb-2"><b>New to OpenConf?</b> Click on 
-                                        
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#makesubModal">How to Submit</button></p>
-                                    
-                                    <div class="modal fade" id="makesubModal" tabindex="-1" aria-labelledby="makesubModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-fullscreen-sm-down">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="makesubModalLabel">How to Submit a New Paper</h1>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="container-fluid">
-                                                        <h6>Click "Make Submission" in the "Author" section to begin your paper registration.</h6> 
-                                                        <p><b>Enter Paper Information:</b> This form will appear:</p>
-                                                        <img class="rounded  img-fluid" src= "../images/openconf/submissionFormEng.png" alt="OpenConf Submission Form">
-                                                        <p>Fill out the details, including:</p>
-                                                        <ul>
-                                                            <li><b>Consent:</b> Please, check the consent box.</li>
-                                                            <li><b>Title:</b> Enter the title of your paper.</li>
-                                                            <li><b>Authors:</b> Include the full names, affiliations, country, and email addresses of all authors. If you have more than five authors, click "Add Author" to include them.</li>
-                                                            <li><b>Keywords:</b> Provide relevant keywords that describe your paper's content.</li>
-                                                            <li><b>Topics:</b> Select all the topics that best align with your paper's subject matter to help reviewers categorize it.</li>
-                                                            <li><b>Abstract:</b> Copy the paper abstract (maximum 150 words in a single paragraph) which summarize your paper's key points. Avoid copying text directly from the PDF paper file, as carriage returns may not translate correctly.</li>
-                                                            <li><b> Contact author:</b> This refers to the author designated to receive email notifications regarding any changes, updates, or status information about your paper. The contact author you selected during the "Make Submission" process will be the recipient of these emails.</li>
-                                                            <li><b>Create a password</b> to manage your submission using the other OpenConf options.</li>
-                                                        </ul>
-                                                        <p class="mt-2"><b>Double-check all information</b> before submitting the form using the <b>"Make Submission" button </b> at the end of this form.</p>
-
-                                                        <p class="mt-2"><b>Confirmation:</b> Upon successful submission, you'll receive a confirmation message and an email containing your <b>submission ID</b> and form details. The contact author you selected during the "Make Submission" process will be the recipient of these emails. Keep this <b><u>ID and password</u></b> handy, as you'll need them to manage your submission throughout the process, including <b>uploading files</b> (original and revised versions) with the <b>File Upload</b> option, modifying information, and checking the information with the <b>Edit Submission</b> and <b>View File</b> options.</p>
-                                                        <h5 class="fw-bold mt-4"> Important Notes:</h5>
-                                                        <ul> 
-                                                            <li class="lh-sm mx-2">Use <b>"Make Submission"</b> <u>only</u> for registering new papers.</li>
-                                                            <li class="lh-sm mx-2"><b>Author Email Addresses:</b>  Ensure all authors add the following email addresses to their contact lists to receive updates and confirmations: edunine@copec.eu (OpenConf emails) and edunine@edunine.eu. Whitelisting these addresses prevents EDUNINE emails from being marked as spam.</li></ul>
-                                                    </div>
-                                                </div>           
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h6 class="fw-bold my-3">Once you've registered your new paper using the "Make Submission" option you'll have access to several options in the "Author" section to manage your paper file and information. These options require your submission ID and password for identification.</h6>
-
-                                
-                                <li class="lh-sm mx-4 mt-2"><span class="h6 fw-bold">Upload File:</span> Upload one or more files for your paper. Uploading a new file will overwrite the previous one. Use this feature for submitting new versions of your paper.</li>
-                                <div><p class="text-end mx-4 mb-2"><b>Unsure how?</b> Click on 
-                                        
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#upsubModal">How to Upload</button></p>
-                                    
-                                    <div class="modal fade" id="upsubModal" tabindex="-1" aria-labelledby="upsubModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-fullscreen-sm-down">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="upsubModalLabel">Uploading your Paper/Manuscript File (PDF or docx)</h1>                                          
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="container-fluid">
-                                                        <p>During the submission period, you can upload your paper file as many times as needed using the "Upload File" option.</p>
-                                                        <p>Click <b>"Upload File"</b> in the <b>"Authors"</b> section to upload your paper or manuscript to our database. This form will appear:</p>
-                                                        <img class="rounded  img-fluid" src= "../images/openconf/uploadEng.png" alt="OpenConf Upload Form">                                           
-                                                        <ul>
-                                                            <li><b>Submission ID</b> Enter the unique ID assigned to your paper after Make Submission for this paper (see Login Help below)</li>
-                                                            <li><b>Password:</b> Enter the password you registered in the "Make Submission" form  (see Login Help below)</li>
-                                                            <li><b>File: </b> Click "Browse" and select the paper file from your computer.</li>
-                                                            <li><b>File Format:</b> Select the file format (PDF or docx) from the dropdown menu.</li>
-                                                            <li><b>Upload: </b>Click <b>"Upload File" button</b>.</li></ul>
-                                                        <p class="lh-sm mx-2 mb-2"><b>Confirmation:</b> The OpenConf system will confirm if the upload was successful.</p>
-                                                        <p class="lh-sm mx-2 mb-2 fw-bold">Important Note:</p>
-                                                        <p class="lh-sm mx-2 mb-2">If your paper file exceeds the size limit specified in the form, reduce the size of any inserted images. You can use free online tools to compress images without sacrificing quality. Re-insert the compressed images and upload your file again. This limitation is inherent to the <b>OpenConf</b> system.</p>
-                                                    </div>
-                                                </div>           
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-
-                                <li class="lh-sm mx-4 mt-2"><span class="h6 fw-bold">Edit Submission:</span> Modify the information you previously submitted or view the current contents of your submission form.</li>
-                                <div><p class="text-end mx-4 mb-2"><b>Need more information?</b> Click on 
-                                        
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editsubModal">How to Edit</button></p>
-                                    
-                                    <div class="modal fade" id="editsubModal" tabindex="-1" aria-labelledby="editsubModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-fullscreen-sm-down">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h1 class="modal-title fs-5" id="editsubModalLabel">How to (Edit) Modify or Update your Paper Information</h1>                                          
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="container-fluid">
-                                                        <p>Use the <b>"Edit Submission"</b> option to update any information associated with your paper, such as the title, abstract, topics, or authors (for single-blind review). This ensures consistency between your paper content and the submission details.</p>
-                                                        <p>Additionally, you can change your <b>password</b> using this option.</p>
-                                                        <p>Click <b>"Edit Submission"</b> in the <b>"Author"</b> section. This form will appear:</p>
-                                                        <img class="rounded  img-fluid" src= "../images/openconf/editSubEng.png" alt="OpenConf Edit Submission">                                           
-                                                        <ul>
-                                                            <li><b>Submission ID</b> Enter the unique ID assigned to your paper after Make Submission for this paper (see Login Help below)</li>
-                                                            <li><b>Password:</b> Enter the password you registered in the "Make Submission" form  (see Login Help below)</li>
-                                                            <li><b>Begin: </b>Click <b>"Edit Submission" button</b>.</li></ul>
-                                                        <p class="lh-sm mx-2 mb-2">The <b>OpenConf</b> system will display the submission form with your paper's current information. This form includes the same fields as the "Make Submission" form:</p>
-                                                        <img class="rounded  img-fluid" src= "../images/openconf/editFormEng.png" alt="OpenConf Edit Form">                                           
-                                                        <ul>
-                                                            <li>Edit the relevant fields with your updated information.</li> 
-                                                            <li>Click the <b>"Submit Changes" button</b> at the bottom of the form.</li></ul>   
-                                                        <p class="lh-sm mx-2 mb-2"><b>Confirmation:</b> Upon successful update, you'll receive a confirmation message and an email containing your <b>submission ID</b> and updated form information. The contact author you selected during the "Make Submission" process will be the recipient of these emails.</p>
-                                                    </div>
-                                                </div>           
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <li class="lh-sm mx-4 my-2"><span class="h6 fw-bold">View File:</span> Access and view the files you have uploaded for your paper.</li>
-                                <li class="lh-sm mx-4 my-2"><span class="h6 fw-bold">Check Status:</span> After the peer-review process, you can check the acceptance status of your paper.</li></ul>
-                            <h5 class="fw-bold mt-4 mx-4"> Important Notes:</h5> <ul> 
-                                <li class="lh-sm mx-4">Use <b>"Make Submission"</b> <u>only</u> for registering new papers.</li>
-                                <li class="lh-sm mx-4"><b>Author Email Addresses:</b>  Ensure all authors add the following email addresses to their contact lists to receive updates and confirmations: edunine@copec.eu (OpenConf emails) and edunine@edunine.eu. Whitelisting these addresses prevents EDUNINE emails from being marked as spam.</li>
-                                <li>Don't worry if you can't remember your submission ID or password. Click <b>"forgot ID?"</b> or <b>"forgot password?"</b> to receive instructions on how to recover them. Our conference staff does not have access to this information for security reasons. See <b>Login Help</b>.</li></ul>                 
-                        </div>
-                        <div class="my-5"> </div>
-                        <div class="container-fluid bg-body-secondary py-5">
-                            <h5 class=" display-6 fw-bold mx-2 mt-4"> Login Help </h5>
-                            <ul class="mt-4">
-                                <div class="row gy-1 align-items-stretch justify-content-between features-item mb-4">
-                                    <div class="col d-flex align-items-center features-img-bg" data-aos="zoom-out">
-                                        <img class="rounded  img-fluid shadow p-3 mb-5 bg-body-tertiary" src= "../images/openconf/idPassEng.png" alt="Common fields Id, Password">
-                                    </div>
-                                    <div class="col d-flex justify-content-center flex-column mb-4" data-aos="fade-up">
-                                        <h4 class="fw-bold my-3">Login:</h4>
-                                        <ul>
-                                            <li><b>Submission ID:</b> Enter the unique ID assigned to your paper after Make Submission for this paper.</li>
-                                            <li><b>Password:</b> Enter the password you registered in the "Make Submission" form.</li>
-                                        </ul>  
-                                    </div>
-                                </div>
-
-                        <div class="row gy-1 align-items-stretch justify-content-between features-item mb-4">
-                            <div class="col d-flex align-items-center features-img-bg" data-aos="zoom-out">
-                                <img class="shadow p-3 mb-5 bg-body-tertiary rounded img-fluid" src= "../images/openconf/recovEng.png" alt="Recover Id, Password">
-                            </div>
-                            <div class="col d-flex justify-content-center flex-column" data-aos="fade-up">
-                                <h4 class="fw-bold my-3">Recovering Submission ID and Password:</h4>
-                                <p> This image shows the forms available when you click "forgot ID?" or "forgot password?" during login.</p>
-                                <ul>
-                                    <li><b>forgot ID?:</b> If you can't recall your submission ID, click "forgot ID" and complete the form. The OpenConf system will send a retrieval email to the contact author's email address provided during "Make Submission."</li>
-                                    <li><b>forgot password?:</b> Similarly, if you forget your password, click "forgot password" and complete the form. The <b>OpenConf</b> system will send a new password to the contact author's email address. We suggest change this temporary password to a more convenient one using the "Edit Submission" option.</li></ul>
-                                <p class="fw-bold mt-4">Important:</p>
-                                <p class= "lh-sm mx-2">For security reasons, EDUNINE staff cannot provide your Submission ID or password. Use the forgot ID/password options if needed.</p>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </section> -->
-        </section>
+        <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->                    
 
         <section id="organizers">
             <!-- Footer section -->

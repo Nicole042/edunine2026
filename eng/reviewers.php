@@ -58,11 +58,9 @@
  
 
         <section id="navigation" class="inicial">
-<<<<<<< HEAD
         <!-- <!- PARTE SUSAN INICIO  -->
-=======
             <!-- <!- PARTE SUSAN INICIO  -->
->>>>>>> Reviewers.php-Correction
+            <!-- <!- PARTE SUSAN INICIO  -->
             <!-- New proposed breadcrumb -->
             <nav class="section-nav-breadcrumb" aria-label="Section navigation">
                 <ul class="d-flex justify-content-end list-unstyled mb-0">

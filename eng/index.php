@@ -23,11 +23,6 @@
 
         <link href="../css/modal.css" rel="stylesheet">
 
-
-        <!-- Custom styles for this template -->
-        <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
-
-        
         <!--SLICK CAROUSEL-->
         <link
         rel="stylesheet"
@@ -62,17 +57,23 @@
 
         <main>
         <!-- Home section -->
+            <!-- Home section -->
             <section id="top">
                 <!-- Full-width image -->
-                <div class="home-image-container">
-                    <div class="home-text row">
-                        <div class="col-sm-12 text-center text-overlay">
+                <div class="home-image-container position-relative">
+                    <!-- Overlay centrado -->
+                    <div class="d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100">
+                        <div class="text-overlay text-center p-4">
                             <h1 class="display-4 fw-bold">X IEEE World Engineering</h1>
                             <h1 class="display-4 fw-bold">Education Conference</h1>
                             <h4 class="fw-bold">March 8-11, 2026 - Mexico City, Mexico</h4>
-                            <h3 class="fw-bold">"Theme of the conference: To be assigned"</h3>
+                            <h3 class="fw-bold text_size p-1">
+                                The Role of Engineering and Computer Technology as Artificial Intelligence turns into Reality: 
+                                a Challenge for Professional Education
+                            </h3>
                         </div>
                     </div>
+                    <!-- Imagen de fondo -->
                     <img class="img-fluid w-100" src="../images/city/homeImage.jpg" alt="EDUNINE Banner">
                 </div>
             </section>
@@ -546,6 +547,14 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="Conference Chair">
                     <div class="overlay-content">
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">José Martín Molina Espinosa</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Conference Chair</h3><br>
+                        
+                        <p class="mb-0"> 
+                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
+                            class="border-white btn btn-primary btn-lg" 
+                            role="button">View CV</a>
+                        </p> 
                         <h2>José Martín Molina Espinosa</h2>
                         <h2>Conference Chair</h2><br>
                         
@@ -561,8 +570,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>Claudio R. Brito</h2>
-                        <h2>General Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Claudio R. Brito</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">General Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -576,8 +585,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="General Chair">
                     <div class="overlay-content">
-                        <h2>Melany M. Ciampi</h2>
-                        <h2>Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Melany M. Ciampi</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Co-Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -638,8 +647,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Alejandro Adorjan Olivera</h2>
-                        <h2>Technical Program Co-Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Alejandro Adorjan Olivera</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Co-Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAle">View CV</button>
@@ -655,8 +664,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Mario Chong</h2>
-                        <h2>Publication Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Publication Chair</h3><br><br>
                             
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -671,8 +680,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Maria Isabel Pozzo</h2>
-                        <h2>Doctoral Symposium Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Maria Isabel Pozzo</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Doctoral Symposium Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -687,8 +696,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Rafael R. Rentería Ramos</h2>
-                        <h2>Workshops Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Rafael R. Rentería Ramos</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Workshops Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -703,8 +712,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Roberto Portillo</h2>
-                        <h2>Conference Support Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Roberto Portillo</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Conference Support Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -719,8 +728,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Mario Chong</h2>
-                        <h2>Public Relations Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Public Relations Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -1124,7 +1133,7 @@
                     <div class="modern-card position-relative mb-4">
                         <div class="institution-header">
                             <div class="institution-logo-container">
-                                <img src="../images/logos_special/logo-tec-d.jpg" alt="Tecnológico de Monterrey Logo">
+                                <img src="../images/logos_special/LogoTec2.png" alt="Tecnológico de Monterrey Logo">
                             
                             </div>
                             <div>
@@ -1248,9 +1257,7 @@
         <script src ="../js/readmorereadless.js"></script>
         <script src ="../js/backTop.js"></script>      
         <script src="../js/scheduleSection.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-
+        
         <!-- START SLICK CAROUSEL-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script

@@ -294,6 +294,22 @@ container.cv{
   height: 100%;
 }
 
+/* INFORMATION PAGE CARD TRANSITION */
+.card-hover-blue {
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+}
+
+.card-hover-blue:hover {
+  transform: scale(1.03);
+  border: 1px solid #3f7de3; /* azul */
+  box-shadow: 0 0 10px rgba(63, 125, 227, 0.25); /* sombra azul suave */
+  background-color: #fff;
+  z-index: 1;
+}
+
+
 section {
     /* margin-right: 15%; */
     /* margin-left: 15%; */
@@ -1030,6 +1046,12 @@ font-family: 'Quicksand', 'sans-serif';
     .section-nav-breadcrumb {
         padding-top: 10%;
     }
+    .text_size {
+        font-size: 1.7rem;
+    }
+    .tittle-top-padding{
+        padding-top: 90px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -1048,6 +1070,12 @@ font-family: 'Quicksand', 'sans-serif';
     .section-nav .nav-link:hover {
     font-weight: bold;
     color: #2e5897; /* blue text instead of background */
+    }
+    .text_size {
+        font-size: 1.6rem;
+    }
+    .tittle-top-padding{
+        padding-top: 80px;
     }
 }
 
@@ -1127,6 +1155,13 @@ font-family: 'Quicksand', 'sans-serif';
     word-wrap: break-word;           /* Break long words */
     overflow-wrap: break-word;       /* Modern browsers */
     }
+    /* Topico del evento en home */
+    .text_size {
+        font-size: 1.4rem;
+    }
+    .tittle-top-padding{
+        padding-top: 50px;
+    }
 }
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media only screen  and (max-width: 670px) 
@@ -1190,6 +1225,13 @@ font-family: 'Quicksand', 'sans-serif';
     .section-nav-breadcrumb .nav-link {
         font-size: 15px;
     }
+    /* Topico del evento en home */
+    .text_size {
+        font-size: 1rem;
+    }
+    .tittle-top-padding{
+        padding-top: 20px;
+    }
 }
 @media (max-width: 575px) {
     .header-top ul li {
@@ -1227,6 +1269,10 @@ font-family: 'Quicksand', 'sans-serif';
     pointer-events: none;   /* disable all mouse interactions */
     cursor: default;        /* show normal arrow instead of hand */
     }
+    /* Topico del evento en home */
+    .text_size {
+        font-size: 0.7rem;
+    }
 }
 @media (max-width: 350px) {
 
@@ -1248,6 +1294,11 @@ font-family: 'Quicksand', 'sans-serif';
     }
     .text-overlay {
         padding-top: 5rem;
+    }
+    /* Topico del evento en home */
+    .text_size {
+        font-size: 0.5rem;
+        padding-bottom: 0;
     }
    
 }
@@ -1318,5 +1369,12 @@ font-family: 'Quicksand', 'sans-serif';
 
 .carousel-item {
   max-height: 600px;    
+<<<<<<< HEAD
+  overflow-y: auto;
+  overflow: hidden;    
+}
+=======
   overflow-y: auto;     
 }
+
+>>>>>>> program-design
