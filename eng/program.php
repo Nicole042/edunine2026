@@ -62,7 +62,7 @@
         <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
         <div>
             <!-- Navigation bar  -->
-            <?php include "edu9header.html" ?>
+            <?php include "newHeader.html" ?>
 
 
             <section id="navigation" class="inicial">
