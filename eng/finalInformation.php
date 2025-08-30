@@ -432,97 +432,118 @@
             <p><b>IMPORTANT: Any changes made to a PDF after an IEEE PDF eXpress conversion may invalidate IEEE Xplore®
                     compatibility. Please, convert the file again with IEEE PDF eXpress.</b> </p>
 
-            <!-- CORREGIR SEGÚN LAS INSTRUCCIONES RECIBIDAS DESPUES DE LA SOLICITUD DE APROBACIÓN DEL LOA
-            <div class="border bg-light">
+            <!-- CORREGIR SEGÚN LAS INSTRUCCIONES RECIBIDAS DESPUES DE LA SOLICITUD DE APROBACIÓN DEL LOA -->
+            <div class="border bg-light rounded-3 p-3 shadow-sm">
                 <h6 class="display-6 fw-bold "> Access the PDEeXpress site</h6>
-                <h6 class="mb-4">Click the link to access <a href="https://ieee-pdf-express.org/"
+                <h6 class="mb-4">Click the link to access: <a href="https://ieee-pdf-express.org/"
                         class="border-white btn btn-primary btn-sm" role="button"> IEEE PDF eXpress site</a>
-                    (https://ieee-pdf-express.org/).</h6>
-            </div>
-            <div class="border gy-4 mt-4 text-left">
-                <h6 class=" fw-bold mx-2 mt-4">You'll see the <b>PDFeXpress</b> login screen:</h6>
-                <figure class="figure">
-                    <img class="shadow p-3 bg-body-tertiary rounded img-fluid mx-auto d-block mb-0"
-                        src="../images/pdfexp/Login.png" alt="IEEE PDFeXpress Login Screen" />
-                    <figcaption class="figure-caption text-center"><small><i> IEEE PDFeXPress Login Screen </i></small>
-                    </figcaption>
-                </figure>
-                <p class="lh-sm"> Enter the following information: </p>
-                <ol class="list-group list-group-numbered">
-                    <li class="list-group-item ml-2"> <b>Conference Id: 62377X </b> </li>
-                    <li class="list-group-item ml-2"> <b>First-time users should do the following:</b>
-                        <ul>
-                            <li> Select the <b>Create account</b> link
-                                <ul>
-                                    <li> Enter information as prompted. </li>
-                                    <li> An Online confirmation will be displayed, and an email confirmation will be
-                                        sent verifying your account setup. </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    <li class="list-group-item ml-2"> <b>Previous users of PDF eXpress:</b>
-                        <ul>
-                            <li> <i>Email Address</i>: enter the email address of the previous <b>PDF eXpress</b> use.</li>
-                            <li> <i>Password</i>: enter the corresponding password. </li>
-                            <li> <b> LOGIN</b> </li>
-                            <li> The system prompts you to link this new conference ID to your account, reply YES. The
-                                system will show you your profile information and you can update it. Remember to click
-                                <b>SUBMIT</b> in each case.</li>
-                        </ul>
-                    </li>
-                </ol>
-                <figure class="figure">
-                    <img class="shadow p-3 bg-body-tertiary rounded img-fluid mx-auto d-block mb-0"
-                        src="../images/pdfexp/LoginSuccess.png" alt="IEEE PDFeXpress Login Success" />
-                    <figcaption class="figure-caption text-center"><small><i> After SUBMIT </i></small></figcaption>
-                </figure>
-                <figure class="figure">
-                    <img class="shadow p-3 mb-0 bg-body-tertiary rounded img-fluid mx-auto d-block"
-                        src="../images/pdfexp/CreateNewTitle.png" alt="IEEE PDFeXpress Create New Title" />
-                    <figcaption class="figure-caption text-center"><small><i>Create a new PDF file with
-                                PDFeXpress</i></small></figcaption>
-                </figure>
+                </h6>
 
-                <p class="lh-sm"> After you log in, you can <b>create a pdf file from a docx or LaTeX file or check a
-                        pdf file </b> final paper by selecting <b>Dashboard</b> from the left menu.</p>
-                <p class="lh-sm">Select CREATE NEW TITLE and follow the 4 steps shown in the figure</p>
-            </div>
-            <figure class="figure">
-                <img class="shadow p-3 mb-0 bg-body-tertiary rounded img-fluid mx-auto d-block"
-                    src="../images/pdfexp/Dashboard.png" alt="IEEE PDFeXpress Dashboard Screen" />
-                <figcaption class="figure-caption text-center"><small><i>IEEE PDFeXPress Dashboard Screen</i></small>
-                </figcaption>
-            </figure>
-            <p class="lh-sm">If the conversion of the file to a PDF complaint IEEE Xplore file is successfully created,
-                the message is <b>SUCCESS - File has been converted successfully</b> Click on OK</p>
-            <p class="lh-sm">If an <b>error</b> occurs (see Status), it will be reported:</p>
-            <ol class="list-group list-group-numbered">
-                <li class="list-group-item ml-2"> Manual Request: File Type Not Automated - conversion will be performed
-                    next business day </li>
-                <li class="list-group-item ml-2">Error = Please check your email for additional information</li>
-                <li class="list-group-item ml-2">Upload Incomplete = Click on the "Try Again" link to complete the
-                    upload of the file</li>
-            </ol>
-            <figure class="figure">
-                <img class="shadow p-3 mb-0 bg-body-tertiary rounded img-fluid mx-auto d-block"
-                    src="../images/pdfexp/CreateResult.png" alt="IEEE PDFeXpress Result Screen" />
-                <figcaption class="figure-caption text-center"><small><i>IEEE PDFeXPress Results</i></small>
-                </figcaption>
-            </figure>
-            <p class="lh-sm">If the PDF file was created successfully, it shows the ID of the created PDF file, the
-                title of the paper you entered and the Status = Pass.</p>
-            <p class="lh-sm">At the end of the line, you will find icons. The first icon allows you to download the file
-                that needs to be uploaded as your final paper on EDUNINE2026 submission system. Carefully review the
-                file to ensure it displays exactly as intended, then upload this file as the final PDF for your
-                submission.</p>
-            <figure class="figure">
-                <img class="shadow p-3 mb-0 bg-body-tertiary rounded img-fluid mx-auto d-block"
-                    src="../images/pdfexp/download.png" alt="IEEE PDFeXpress icons" />
-                <figcaption class="figure-caption text-center"><small><i>PDF eXpress download icon</i></small>
-                </figcaption>
-            </figure>
-            <p class="mb-5" &nbsp;</p>
-            -->
+                <div>
+                    <h6 class=" fw-bold mx-2 mt-4">You'll see the <b>PDFeXpress</b> login screen:</h6>
+                    <figure class="figure text-center d-flex flex-column align-items-center">
+                        <img class="shadow p-3 bg-body-tertiary rounded img-fluid mb-0" src="../images/pdfexp/Login.png"
+                            alt="IEEE PDFeXpress Login Screen" />
+                        <figcaption class="figure-caption text-center">
+                            <small><i>IEEE PDFeXPress Login Screen</i></small>
+                        </figcaption>
+                    </figure>
+
+                    <p class="lh-sm"> Enter the following information: </p>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item ml-2"> <b>Conference Id: 62390X </b> </li>
+                        <li class="list-group-item ml-2"> <b>First-time users should do the following:</b>
+                            <ul>
+                                <li> Select the <b>Create account</b> link
+                                    <ul>
+                                        <li> Enter information as prompted. </li>
+                                        <li> An online confirmation will be displayed, and an email confirmation will be
+                                            sent verifying your account setup. </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        <li class="list-group-item ml-2"> <b>Previous users of PDF eXpress:</b>
+                            <ul>
+                                <li> <i>Email Address</i>: Enter the email address of the previous <b>PDF eXpress</b>
+                                    use.
+                                </li>
+                                <li> <i>Password</i>: Enter the corresponding password. </li>
+                                <li> The system prompts you to link this new conference ID to your account, reply YES.
+                                    The
+                                    system will show you your profile information and you can update it. Remember to
+                                    click
+                                    <b>SUBMIT</b> in each case.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <div class="d-flex justify-content-center gap-4 flex-wrap">
+                        <figure class="figure d-flex flex-column align-items-center text-center">
+                            <img class="shadow p-3 bg-body-tertiary rounded img-fluid mb-0"
+                                src="../images/pdfexp/LoginSuccess.png" alt="IEEE PDFeXpress Login Success" />
+                            <figcaption class="figure-caption">
+                                <small><i>After SUBMIT</i></small>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="figure d-flex flex-column align-items-center text-center">
+                            <img class="shadow p-3 bg-body-tertiary rounded img-fluid mb-0"
+                                src="../images/pdfexp/CreateNewTitle.png" alt="IEEE PDFeXpress Create New Title" />
+                            <figcaption class="figure-caption">
+                                <small><i>Create a new PDF file with PDFeXpress</i></small>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <p class="lh-sm"> After you log in, you can <b>create a pdf file from a docx or LaTeX file or check
+                            a
+                            pdf file </b> final paper by selecting <b>Dashboard</b> from the left menu.</p>
+                    <p class="lh-sm">Select CREATE NEW TITLE and follow the 4 steps shown in the figure</p>
+                </div>
+                <div>
+                    <figure class="figure">
+                        <img class="shadow p-3 mb-0 bg-body-tertiary rounded img-fluid mx-auto d-block"
+                            src="../images/pdfexp/Dashboard.png" alt="IEEE PDFeXpress Dashboard Screen" />
+                        <figcaption class="figure-caption text-center"><small><i>IEEE PDFeXPress Dashboard
+                                    Screen</i></small>
+                        </figcaption>
+                    </figure>
+                    <p class="lh-sm">If the conversion of the file to a PDF complaint IEEE Xplore file is successfully
+                        created,
+                        the message is <b>SUCCESS - File has been converted successfully</b> Click on OK</p>
+                    <p class="lh-sm">If an <b>error</b> occurs (see Status), it will be reported:</p>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item ml-2"> Manual Request: File Type Not Automated - conversion will be
+                            performed
+                            next business day </li>
+                        <li class="list-group-item ml-2">Error = Please check your email for additional information</li>
+                        <li class="list-group-item ml-2">Upload Incomplete = Click on the "Try Again" link to complete
+                            the
+                            upload of the file</li>
+                    </ol>
+                    <figure class="figure">
+                        <img class="shadow p-3 mb-0 bg-body-tertiary rounded img-fluid mx-auto d-block"
+                            src="../images/pdfexp/CreateResult.png" alt="IEEE PDFeXpress Result Screen" />
+                        <figcaption class="figure-caption text-center"><small><i>IEEE PDFeXPress Results</i></small>
+                        </figcaption>
+                    </figure>
+                    <p class="lh-sm">If the PDF file was created successfully, it shows the ID of the created PDF file,
+                        the
+                        title of the paper you entered and the Status = Pass.</p>
+                    <p class="lh-sm">At the end of the line, you will find icons. The first icon allows you to download
+                        the
+                        file
+                        that needs to be uploaded as your final paper on EDUNINE2026 submission system. Carefully review
+                        the
+                        file to ensure it displays exactly as intended, then upload this file as the final PDF for your
+                        submission.</p>
+                    <figure class="figure d-flex flex-column align-items-center text-center">
+                        <img class="shadow p-3 mb-0 bg-body-tertiary rounded img-fluid mx-auto d-block"
+                            src="../images/pdfexp/download.png" alt="IEEE PDFeXpress icons" />
+                        <figcaption class="figure-caption text-center"><small><i>PDF eXpress download icon</i></small>
+                        </figcaption>
+                    </figure>
+                </div>
             </div>
         </section>
 
