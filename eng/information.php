@@ -1144,6 +1144,8 @@
                     <li>Option A: upload Word/LaTeX to generate a compliant PDF.</li>
                     <li>Option B: upload an existing PDF to validate it.</li>
                     <li>Download and use the approved PDF (with correct metadata).</li>
+                    <li>Review the decision. If accepted, prepare the camera-ready version.</li>
+                    <li>Validate the final PDF with IEEE PDF eXpress and download the approved file.</li>                
                     </ul>
                 </section>
 
@@ -1152,8 +1154,6 @@
                     <h2 class="display-6 fw-bold text-center mb-3">Paper Acceptance and Final Submission</h2>
 
                     <ul class="fs-5 mb-0 text-start ps-3">
-                    <li>Review the decision. If accepted, prepare the camera-ready version.</li>
-                    <li>Validate the final PDF with IEEE PDF eXpress and download the approved file.</li>
                     <li>Submit the camera-ready PDF in EasyChair and update authors/affiliations.</li>
                     <li>Complete the IEEE copyright form.</li>
                     </ul>
