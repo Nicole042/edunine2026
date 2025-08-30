@@ -561,12 +561,14 @@
                                                                
                                 <div class="card mx-auto" style="max-width: 800px; background: transparent; border: 0px;">
                                     <div class="card-body justify-content-center text-center px-4 py-5">
-                                        <h2 class="display-6 fw-bold mb-4">Reviewer Registration (Easy Chair)</h2>
+                                        <h2 class="display-6 fw-bold mb-4">Author Registration: Paper Submission</h2>
                                         <p class="fs-5 mb-0">
 
                                             We will be using EasyChair, a web-based system widely used by the scientific 
-                                            community to handle paper submissions and reviews. Please remember that before submitting 
-                                            your paper to EasyChair, you must first upload your document to PDFexpress.
+                                            community to handle paper submissions and reviews. <br>
+                                            1. Submit your paper in EasyChair naming all the authors, you can guide by this video.<br>
+                                            2. Submit your pdf in PDFeXpress. <br>
+                                            3. After being validated by PDFeXpress, upload once again to EasyChair.<br>
                                         </p>
 
                                     </div>                             
