@@ -802,7 +802,7 @@
                     <div class="modern-card position-relative mb-4">
                         <div class="institution-header">
                             <div class="institution-logo-container">
-                                <img src="../images/logos_special/logo-tec-d.jpg" alt="Tecnológico de Monterrey Logo">
+                                <img src="../images/logos_special/LogoTec2.png" alt="Tecnológico de Monterrey Logo">
                             
                             </div>
                             <div>
