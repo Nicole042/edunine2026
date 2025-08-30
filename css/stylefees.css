@@ -1,0 +1,152 @@
+.edunine-table-wrapper {
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.edunine-registration-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.edunine-table-header {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.edunine-table-cell {
+    padding: 10px 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.edunine-category-cell {
+    background-color: #3498db;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.edunine-nonmember-category {
+    background-color: #5dade2;
+    color: white;
+}
+
+.edunine-paper-fee-cell {
+    background-color: #5dade2;
+    color: white;
+    font-weight: bold;
+}
+
+.edunine-registration-table tr:nth-child(even) .edunine-table-cell:not(.edunine-category-cell):not(.edunine-paper-fee-cell) {
+    background-color: #f8f9fa;
+}
+
+.edunine-currency-header {
+    background-color: #1f4e79;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .edunine-registration-table {
+        font-size: 12px;
+    }
+    
+    .edunine-table-header, 
+    .edunine-table-cell {
+        padding: 8px 4px;
+    }
+    
+    .edunine-category-cell {
+        padding-left: 8px;
+    }
+}
+
+/* EDUNINE Registration Tables and Info Cards Styles */
+
+.edunine-table-wrapper {
+    margin-bottom: 40px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.edunine-registration-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.edunine-table-header {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.edunine-table-cell {
+    padding: 10px 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.edunine-category-cell {
+    background-color: #3498db;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+.edunine-nonmember-category {
+    background-color: #5dade2;
+    color: white;
+}
+
+.edunine-paper-fee-cell {
+    background-color: #5dade2;
+    color: white;
+    font-weight: bold;
+}
+
+.edunine-registration-table tr:nth-child(even) .edunine-table-cell:not(.edunine-category-cell):not(.edunine-paper-fee-cell) {
+    background-color: #f8f9fa;
+}
+
+.edunine-currency-header {
+    background-color: #1f4e79;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .edunine-registration-table {
+        font-size: 12px;
+    }
+    
+    .edunine-table-header, 
+    .edunine-table-cell {
+        padding: 8px 4px;
+    }
+    
+    .edunine-category-cell {
+        padding-left: 8px;
+    }
+}
+
