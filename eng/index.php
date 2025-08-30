@@ -547,14 +547,6 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="Conference Chair">
                     <div class="overlay-content">
-                        <h3 style="font-size: clamp(17px, 2vw, 25px);">José Martín Molina Espinosa</h3>
-                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Conference Chair</h3><br>
-                        
-                        <p class="mb-0"> 
-                            <a href="../../cv_congresses_en/dr_da_silva.pdf" 
-                            class="border-white btn btn-primary btn-lg" 
-                            role="button">View CV</a>
-                        </p> 
                         <h2>José Martín Molina Espinosa</h2>
                         <h2>Conference Chair</h2><br>
                         
