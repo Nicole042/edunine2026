@@ -294,6 +294,22 @@ container.cv{
   height: 100%;
 }
 
+/* INFORMATION PAGE CARD TRANSITION */
+.card-hover-blue {
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+}
+
+.card-hover-blue:hover {
+  transform: scale(1.03);
+  border: 1px solid #3f7de3; /* azul */
+  box-shadow: 0 0 10px rgba(63, 125, 227, 0.25); /* sombra azul suave */
+  background-color: #fff;
+  z-index: 1;
+}
+
+
 section {
     /* margin-right: 15%; */
     /* margin-left: 15%; */
@@ -1353,5 +1369,6 @@ font-family: 'Quicksand', 'sans-serif';
 
 .carousel-item {
   max-height: 600px;    
-  overflow-y: auto;     
+  overflow-y: auto;
+  overflow: hidden;    
 }

@@ -31,5 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
             toggleContent(contentId, this);
         });
     });
+     const defaultButton = document.querySelector('.manuscript-button[data-content="callForPapers"]');
+    if (defaultButton) {
+        toggleContent('callForPapers', defaultButton);
+    }
     
 });
