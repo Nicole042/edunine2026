@@ -1,0 +1,156 @@
+
+.event-date-box[data-color="primary"] {
+  background-color: #5a9cff;
+  color: black;
+  padding: 10px 12px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.event-date-box[data-color="success"] {
+  background-color: #82C09A;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.event-date-box[data-color="warning"] {
+  background-color: #ffd557;
+  color: black;
+  padding: 10px 12px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+
+#dates .event-date-box:hover {
+  transform: scale(1.05);
+}
+
+#dates #event-info-box {
+  transition: all 0.3s ease;
+  border-color: #ccc;
+}
+/*Segunda parte*/
+
+#tour {
+  background: #f4f8fc;
+}
+
+#tour .breadcrumb a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#tour .breadcrumb a:hover {
+  color: #0056b3;
+}
+
+#tour .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#tour .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.1);
+}
+
+
+.info-highlight {
+  background-color: rgba(238, 209, 121, 0.25); 
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  position: relative;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+/* Franja lateral amarilla oculta por defecto */
+.info-highlight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 6px;
+  background-color: #e0a800; 
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+/* Hover: aparece la franja y se intensifica el fondo */
+.info-highlight:hover {
+  background-color: rgba(255, 193, 7, 0.35); 
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.06);
+  font-size: 1.5rem; 
+}
+
+.info-highlight:hover::before {
+  transform: scaleY(1); 
+}
+
+#registration-title {
+  font-weight: 700; 
+  font-size: 1.2rem;    
+  color: #e0a800;         
+  margin-bottom: 0.5rem;
+}
+
+
+/*Tercera seccion*/
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+/*Seccion 4*/
+#program ul {
+  padding-left: 1rem;
+}
+
+#program .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#program .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+#program a.btn-outline-success {
+  border-radius: 20px;
+}
+/*Seccion 5*/
+
+#awards {
+  background-color: #fefcf6;
+}
+
+/* Color dorado */
+.text-gold {
+  color: #c49b0c;
+}
+
+.border-gold {
+  border-left: 4px solid #c49b0c;
+  border-radius: 1rem;
+}
+
+/* Tarjetas con efecto */
+.award-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+
+.award-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+

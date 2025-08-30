@@ -59,7 +59,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-    <main>    
+     <main>    
         <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         
        
@@ -101,9 +101,10 @@
                     There was no link for venue?? It tended to disappear -->
                 </ul>
             </nav>
-        <!-- PARTE SUSAN FIN -->
+            <!-- PARTE SUSAN FIN -->
 
         </section>
+        
 
          <!--Navigation for cellphones Susan's Idea-->
             <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
