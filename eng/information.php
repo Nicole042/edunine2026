@@ -1027,24 +1027,10 @@
                     </div>  
                 </div>   
             </div>
-                        -->
+                    
         </section> 
         
         <section id="submission">
-
-            <!--
-
-            <div class="container-fluid tope py-3 bg-transparent">
-                <div class="row g-5 px-3">
-                    <div class="col text-sm-center">
-                        <div class="clearfix">
-                            <h2 class="display-6 fw-bold">Manuscript Submission</h2>
-                            <p class="fs-5 mb-4">Welcome to the <b>EDUNINE2026 Paper Submission Section!</b> We invite you to submit your original research to the EDUNINE2026 conference. This is an excellent forum to share your work with a global audience of researchers, practitioners, and industry leaders in the field of Engineering, Technology and Computing Education.</p>
-                            <p class="fs-5 my-4">Ready to Submit?</p> 
-                        </div>
-                    </div>    
-                </div>
-            </div>
 
             <div class="container-fluid px-5 py-3 "> 
                 <!-- sequence section: Important Submission Guidelines -->
@@ -1084,8 +1070,12 @@
                                 <div class="card mx-auto" style="max-width: 800px; background: transparent; border: 0px;">
                                     <div class="card-body justify-content-center text-center px-4 py-2">
                                         <h1 class="display-6 fw-bold mb-4">EASY CHAIR</h1>
-                
+                                        
                                         <h2 class="display-6 fw-bold mb-4">Author Registration and Paper Submission</h2>
+                                        
+                                        <p class="fs-5 mb-0 display-6 text-center mb-3">
+                                            To register to Easy Chair: <a href="https://easychair.org/cfp/EDUNINE2026" target="_blank">visit the EasyChair registration page</a>.
+                                        </p>
                                         <ul class="fs-5 mb-0 text-start ps-3 py-3">
                                             <li>Create an EasyChair account and upload the manuscript in PDF using the IEEE templates.</li>
                                             <li>If the conference is double-blind, anonymize the paper.</li>
@@ -1100,6 +1090,9 @@
                 </div>
 
                 <div class="container">
+
+                   
+
                     <p class="fs-5 mb-0 display-6 text-center mb-3">
                         <strong>Video Tutorials:</strong> Watch the following videos for a step-by-step guide on using EasyChair.<br>
                         If you want to know more, <a href="http://www.youtube.com/@easychair966" target="_blank">visit the EasyChair Youtube channel</a>.
@@ -1124,40 +1117,18 @@
                         </div>
                         </div>
                     </div>
+
+                    <p class="fs-5 mb-0 display-6 text-center mb-3 py-3">
+                        Once it is validated you paper in this first stage, go to this section to continue with process for your paper submission:<br>
+                        <a href="finalInformation.php?id=suitable" >
+                            <button type="button" class="category-btn category-btn-active" id="PDFeXpress">
+                        PDFeXpress Tutorial and Final Paper Submission </button> 
+                        </a>
+                        
+                    </p>
                     
                 </div>
                 <div class="mx-auto bg-transparent" style="max-width: 800px;">
-                <!-- PDF eXpress -->
-                <section class="py-4 bg-transparent">
-                    <h2 class="display-6 fw-bold text-center mb-3">PDFeXpress Tutorial</h2>
-
-                    <p class="fs-5 mb-1"><strong>Conference ID:</strong> XXXXXXXXX</p>
-                    <p class="mb-3">
-                    Validate your paper with IEEE PDF eXpress.
-                    <a class="btn btn-outline-primary btn-sm ms-2"
-                        href="https://ieee-pdf-express.org/account/login?ReturnUrl=%2F"
-                        target="_blank" rel="noopener">Open PDF eXpress</a>
-                    </p>
-
-                    <ul class="fs-5 mb-0 text-start ps-3">
-                    <li>Check technical compliance for IEEE Xplore.</li>
-                    <li>Option A: upload Word/LaTeX to generate a compliant PDF.</li>
-                    <li>Option B: upload an existing PDF to validate it.</li>
-                    <li>Download and use the approved PDF (with correct metadata).</li>
-                    <li>Review the decision. If accepted, prepare the camera-ready version.</li>
-                    <li>Validate the final PDF with IEEE PDF eXpress and download the approved file.</li>                
-                    </ul>
-                </section>
-
-                <!-- Acceptance / Final Submission -->
-                <section class="py-4 bg-transparent">
-                    <h2 class="display-6 fw-bold text-center mb-3">Paper Acceptance and Final Submission</h2>
-
-                    <ul class="fs-5 mb-0 text-start ps-3">
-                    <li>Submit the camera-ready PDF in EasyChair and update authors/affiliations.</li>
-                    <li>Complete the IEEE copyright form.</li>
-                    </ul>
-                </section>
 
                 </div>
 
