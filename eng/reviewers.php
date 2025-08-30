@@ -576,11 +576,29 @@
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-xl-4 d-flex justify-content-center">
-                                <div class="ratio ratio-16x9 w-100" style="max-width:560px;">
-                                    <iframe src="https://www.youtube.com/embed/zRkFw-RKrxg" title="YouTube video" allowfullscreen></iframe>
+                                
+                                <div class="col-12 col-xl-4">
+                                <div class="mx-auto" style="max-width:560px;">
+                                    <p class="mb-2">
+                                    To know more, 
+                                    <a href="http://www.youtube.com/@easychair966" target="_blank" rel="noopener">
+                                        visit the EasyChair YouTube channel
+                                    </a>.
+                                    </p>
+
+                                    <div class="ratio ratio-16x9">
+                                    <iframe
+                                        src="https://www.youtube.com/embed/zRkFw-RKrxg"
+                                        title="EasyChair tutorial"
+                                        loading="lazy"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        referrerpolicy="strict-origin-when-cross-origin"
+                                        allowfullscreen>
+                                    </iframe>
+                                    </div>
                                 </div>
                                 </div>
+
                             </div>
                            
                         </div>

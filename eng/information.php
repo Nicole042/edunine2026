@@ -762,17 +762,6 @@
         <!-- Manuscript Template -->
 
         <section id="templateChoose">
-            <!--
-            <div class="container-fluid align-content-start pt-5 pb-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li><a href="information.php">Composing_Conference_Paper_and_Submission</a></li>
-                    <li>Mandatory_Conference_Paper_Template</li>
-                </ul> 
-            </div>
-            START
-
 
             <!-- HERO SECTION -->
             <div class="container my-5">
