@@ -17,11 +17,21 @@
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
+        <link href="../css/stylefees.css" rel="stylesheet">
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
+        <!--SLICK CAROUSEL-->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <!--END  SLICK CAROUSEL -->
+
     </head>
-    <body onload = "jump()">
+    <body onload = "jump() " style="padding-top: 120px;">
         <?php
         if (empty($_GET["id"])) {
             $id = "top";
@@ -36,7 +46,7 @@
                 element.scrollIntoView({block: "start"});
             }
         </script> 
-        <button onclick="topFunction()" id="myTopBtn" title="Back to top">Top</button>
+        <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
         <div> 
             <!-- Navigation bar  -->
             <?php include "edu9header.html" ?> 
@@ -44,14 +54,22 @@
         <div class="#main"></div>
 
         <section id="top" class="inicial">
-            <div class="container-fluid align-content-start py-0">
-                <ul class="breadcrumb">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?id=dates">Author</a></li>
-                    <li>Registration_and_Payment</li>
-                </ul> 
+            
+            <div class="container">
+                <ul class="d-flex justify-content-end list-unstyled mb-0 flex-wrap">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link px-2 py-1 btn btn-sm" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link px-2 py-1 btn btn-sm" href="#registration-fees">Registration Fees</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link px-2 py-1 btn btn-sm" href="#registration-information">Payment & Info</a>
+                    </li>
+                </ul>
             </div>
-            <div class= "container-fluid tope  py-5">
+
+            <div class= "container tope py-5 bg-white">
 
                 <div class="row g-5">
                     <div class= "col text-sm-left">
@@ -62,26 +80,222 @@
                             <h2 class="display-6 fw-bold">Authors and Participants Conference Registration</h2>
 
                             <p class="fs-5 mb-4">Attention <b>Authors</b>: To ensure your accepted final paper is published in the <b>IEEE Xplore®</b> digital library (please note that IEEE reserves the right to reject papers not meeting standards), registration and oral presentation at the conference are mandatory. Each author registration permits the presentation and publication of one paper, with the option to include an additional paper for an extra publication fee. Unpresented accepted papers cannot be submitted for publication in <b>IEEE Xplore®</b>.<br>For <b>Authors</b> and <b>Participants</b>: Registration grants access to all conference sessions, workshops, tours, and other activities, both online and in-person. After the conference, certificates for participation and paper presentation will be issued. Registration fees vary based on Early, Normal, or Late deadlines. Payment options include credit card (PayPal) in Euros or bank transfer in Euros or U.S. Dollars.</p>
+
+                            <!-- Registration Fee Tables -->
+                            <h3 id="registration-fees" class="text-center mb-4 mt-5">Registration Fees</h3>
+                            
+                            <!-- Euros Table -->
+                            <div class="edunine-table-wrapper mb-4">
+                                <div class="edunine-currency-header">FEES Euros</div>
+                                <table class="edunine-registration-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="edunine-table-header" style="width: 40%;">Category</th>
+                                            <th class="edunine-table-header" style="width: 15%;">Early</th>
+                                            <th class="edunine-table-header" style="width: 15%;">Normal</th>
+                                            <th class="edunine-table-header" style="width: 15%;">Late</th>
+                                            <th class="edunine-table-header" style="width: 15%;">Paper Fee</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="edunine-category-cell edunine-nonmember-category">Non-member</td>
+                                            <td class="edunine-table-cell">500</td>
+                                            <td class="edunine-table-cell">550</td>
+                                            <td class="edunine-table-cell">605</td>
+                                            <td class="edunine-table-cell edunine-paper-fee-cell">100</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">IEEE member</td>
+                                            <td class="edunine-table-cell">420</td>
+                                            <td class="edunine-table-cell">462</td>
+                                            <td class="edunine-table-cell">508</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">IEEE EdSoc member</td>
+                                            <td class="edunine-table-cell">356</td>
+                                            <td class="edunine-table-cell">392</td>
+                                            <td class="edunine-table-cell">431</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">Student IEEE member</td>
+                                            <td class="edunine-table-cell">260</td>
+                                            <td class="edunine-table-cell">286</td>
+                                            <td class="edunine-table-cell">315</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">Student Non-member</td>
+                                            <td class="edunine-table-cell">300</td>
+                                            <td class="edunine-table-cell">330</td>
+                                            <td class="edunine-table-cell">363</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">IEEE Life member</td>
+                                            <td class="edunine-table-cell">260</td>
+                                            <td class="edunine-table-cell">286</td>
+                                            <td class="edunine-table-cell">315</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">Guest</td>
+                                            <td class="edunine-table-cell">150</td>
+                                            <td class="edunine-table-cell">165</td>
+                                            <td class="edunine-table-cell">182</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <!-- Dollars Table -->
+                            <div class="edunine-table-wrapper">
+                                <div class="edunine-currency-header">FEES Dollars</div>
+                                <table class="edunine-registration-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="edunine-table-header" style="width: 40%;">Category</th>
+                                            <th class="edunine-table-header" style="width: 15%;">Early</th>
+                                            <th class="edunine-table-header" style="width: 15%;">Normal</th>
+                                            <th class="edunine-table-header" style="width: 15%;">Late</th>
+                                            <th class="edunine-table-header" style="width: 15%;">Paper Fee</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="edunine-category-cell edunine-nonmember-category">Non-member</td>
+                                            <td class="edunine-table-cell">600</td>
+                                            <td class="edunine-table-cell">660</td>
+                                            <td class="edunine-table-cell">726</td>
+                                            <td class="edunine-table-cell edunine-paper-fee-cell">120</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">IEEE member</td>
+                                            <td class="edunine-table-cell">504</td>
+                                            <td class="edunine-table-cell">555</td>
+                                            <td class="edunine-table-cell">610</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">IEEE EdSoc member</td>
+                                            <td class="edunine-table-cell">428</td>
+                                            <td class="edunine-table-cell">470</td>
+                                            <td class="edunine-table-cell">517</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">Student IEEE member</td>
+                                            <td class="edunine-table-cell">312</td>
+                                            <td class="edunine-table-cell">343</td>
+                                            <td class="edunine-table-cell">378</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">Student Non-member</td>
+                                            <td class="edunine-table-cell">360</td>
+                                            <td class="edunine-table-cell">396</td>
+                                            <td class="edunine-table-cell">436</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">IEEE Life member</td>
+                                            <td class="edunine-table-cell">312</td>
+                                            <td class="edunine-table-cell">343</td>
+                                            <td class="edunine-table-cell">378</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="edunine-category-cell">Guest</td>
+                                            <td class="edunine-table-cell">180</td>
+                                            <td class="edunine-table-cell">198</td>
+                                            <td class="edunine-table-cell">218</td>
+                                            <td class="edunine-table-cell"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                            <!-- Card informativa - Agregar después de las tablas de tarifas -->
+                            <div id="registration-information" class="edunine-table-wrapper mt-5">
+                                <div class="edunine-currency-header">Registration Information</div>
+                                <div class="p-4 bg-white">
+                                    <div class="row g-4">
+                                        <div class="col-md-6">
+                                            <h5 class="fw-bold mb-3" style="color: #2980b9;">For Authors (Paper Presenters)</h5>
+                                            <ul class="list-unstyled">
+                                                <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: #3498db;"></i><strong>Registration & Presentation:</strong> At least one author must register and present the paper during the conference.</li>
+                                                <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: #3498db;"></i><strong>Publication:</strong> Each registration covers presentation and publication of one paper in IEEE Xplore®.</li>
+                                                <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: #3498db;"></i><strong>Additional Papers:</strong> Extra publication fee applies for additional papers (see Paper Fee column).</li>
+                                                <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: #3498db;"></i><strong>Important:</strong> Non-presented papers will not be submitted to IEEE Xplore®.</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+                                            <h5 class="fw-bold mb-3" style="color: #2980b9;">Registration Benefits</h5>
+                                            <ul class="list-unstyled">
+                                                <li class="mb-2"><i class="fas fa-users me-2" style="color: #5dade2;"></i>Access to all conference sessions and workshops</li>
+                                                <li class="mb-2"><i class="fas fa-certificate me-2" style="color: #5dade2;"></i>Participation and presentation certificates</li>
+                                                <li class="mb-2"><i class="fas fa-map-marked-alt me-2" style="color: #5dade2;"></i>Cultural tours and special activities</li>
+                                                <li class="mb-2"><i class="fas fa-coffee me-2" style="color: #5dade2;"></i>Coffee breaks, lunches, and welcome cocktail</li>
+                                            </ul>
+                                            
+                                            <h6 class="fw-bold mt-4 mb-3" style="color: #2980b9;">Payment Options</h6>
+                                            <ul class="list-unstyled">
+                                                <li class="mb-1"><i class="fas fa-credit-card me-2" style="color: #5dade2;"></i>Credit card via PayPal (Euros)</li>
+                                                <li class="mb-1"><i class="fas fa-university me-2" style="color: #5dade2;"></i>Bank transfer (Euros or USD)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row mt-4">
+                                        <div class="col-12">
+                                            <div class="alert alert-info border-0" style="background-color: #e8f4f8; color: #1f4e79;">
+                                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                                <strong>Cancellation Policy:</strong> In case you cannot attend the event, registration must be cancelled at least 3 months before the conference date to be eligible for cancellation.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>    
                 </div>
             </div>
-
-            <?php include "../includesHtml/commingSoon.html" ?>
-
+        
+            
 
         </section>
 
-        <!-- Footer section -->
-        <div class ="container-fluid">
-            <!-- footer  -->
-            <?php include "../includesHtml/final.html" ?> 
-        </div>
-      
+        <section id="organizers">
+                <!-- Footer section -->
+                <div class ="container-fluid">
+                    <!-- footer  -->
+                    <?php include "../includesHtml/final.html" ?> 
+                </div>
+            </section>
+
+
+
+        <!-- Scripts -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
         <script src ="../js/readmorereadless.js"></script> 
         <script src ="../js/backTop.js"></script>
-        
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+        <!-- START SLICK CAROUSEL-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <script src="../js/slick-carousel-config.js"></script>
+        <!-- END  SLICK CAROUSEL-->
+
     </body>
 </html>                      
