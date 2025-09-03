@@ -985,6 +985,83 @@
         <!-- falta agregar el link al nuevo sistema en la siguiente sección -->
         <!-- SECTION WITH INSTRUCTIONS: HOW TO USE DE SUBMISSION SYSTEM   AGREGAR LAS INSTRUCCIONES ELIMINANDO EL TEXTO DEL OPENCONF Y EL INCLUDE DE COMMINGSOON.HTML-->                    
 
+        <section id="revSignup">
+            
+            <div class= "container-fluid tope py-5">
+                <div class="row g-5">
+                    <div class= "col text-sm-left">
+                        <div class="clearfix">
+                            <div class="d-flex flex-wrap flex-md-nowrap align-items-center justify-content-center text-center">
+                                                               
+                                <div class="card mx-auto" style="max-width: 800px; background: transparent; border: 0px;">
+                                    <div class="card-body justify-content-center text-center px-4 py-2">
+                                        <h1 class="display-6 fw-bold mb-4">EASY CHAIR</h1>
+                                        
+                                        <h2 class="display-6 fw-bold mb-4">Author Registration and Paper Submission</h2>
+                                        
+                                        <p class="fs-5 mb-0 display-6 text-center mb-3">
+                                            To register to Easy Chair: <a href="https://easychair.org/cfp/EDUNINE2026" target="_blank">visit the EasyChair registration page</a>.
+                                        </p>
+                                        <ul class="fs-5 mb-0 text-start ps-3 py-3">
+                                            <li>Create an EasyChair account and upload the manuscript in PDF using the IEEE templates.</li>
+                                            <li>If the conference is double-blind, anonymize the paper.</li>
+                                            <li>Fill in title, authors, abstract, and keywords in EasyChair</li>
+                                        </ul>
+                                    </div>                             
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="container">
+
+                   
+
+                    <p class="fs-5 mb-0 display-6 text-center mb-3">
+                        <strong>Video Tutorials:</strong> Watch the following videos for a step-by-step guide on using EasyChair.<br>
+                        If you want to know more, <a href="http://www.youtube.com/@easychair966" target="_blank">visit the EasyChair Youtube channel</a>.
+                    </p>
+
+                    <div class="row justify-content-center g-3"> <!--g-3 creates a gap between elements-->
+                        <div class="col-12 col-xl-4 d-flex justify-content-center">
+                        <div class="ratio ratio-16x9 w-100" style="max-width:560px;">
+                            <iframe src="https://www.youtube.com/embed/RIz6QWmw1ow" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                        </div>
+
+                        <div class="col-12 col-xl-4 d-flex justify-content-center">
+                        <div class="ratio ratio-16x9 w-100" style="max-width:560px;">
+                            <iframe src="https://www.youtube.com/embed/etpSOzqjExE" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                        </div>
+
+                        <div class="col-12 col-xl-4 d-flex justify-content-center">
+                        <div class="ratio ratio-16x9 w-100" style="max-width:560px;">
+                            <iframe src="https://www.youtube.com/embed/XeVUJM07rgk" title="YouTube video" allowfullscreen></iframe>
+                        </div>
+                        </div>
+                    </div>
+
+                    <p class="fs-5 mb-0 display-6 text-center mb-3 py-3">
+                        Once it is validated you paper in this first stage, go to this section to continue with process for your paper submission:<br>
+                        <a href="finalInformation.php?id=suitable" >
+                            <button type="button" class="category-btn category-btn-active" id="PDFeXpress">
+                        PDFeXpress Tutorial and Final Paper Submission </button> 
+                        </a>
+                        
+                    </p>
+                    
+                </div>
+                <div class="mx-auto bg-transparent" style="max-width: 800px;">
+
+                </div>
+
+            </div>
+            
+        </section>
+
         <section id="organizers">
             <!-- Footer section -->
             <div class ="container-fluid">
