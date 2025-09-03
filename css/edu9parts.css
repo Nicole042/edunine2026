@@ -215,8 +215,8 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
     /*margin were 20% before, so that is why it was moving right*/
     .container {
         width: 100%;
-        margin-right: 0 auto;
-        margin-left: 0 auto;
+        margin-right: auto;
+        margin-left: auto;
     }
     .iconHeight {
         height: 80px;
@@ -242,7 +242,7 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
         bottom: 0;
         left: 50%; 
         /*why -3px??*/
-        margin-left: 0 auto;
+        margin-left: auto;
     }
 
     /* Container around content */
@@ -375,8 +375,8 @@ NO CHANGES MADE FROM DEFAULT IN THE FOLLOWING SECTIONS YET */
 # Global Footer from Append
 --------------------------------------------------------------*/
 footer {
-    margin-right: 0 auto;
-    margin-left: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 50px;
     --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
     color: var(--default-color);
@@ -531,7 +531,7 @@ footer {
 /*Style for the "primera" section */
 .primera {
     background-color: #f8f9fa; /* light background */
-    padding: 20px 5;
+    padding: 20px;
     /*font-family: 'Quicksand', sans-serif;
     font-size: 14px;*/
 }
@@ -539,8 +539,8 @@ footer {
 /*Style for "breadcrumb" section */
 .breadcrumb {
     list-style: none;
-    padding: 3;
-    margin: 5;
+    padding: 3px;
+    margin: 5px;
     display: flex;
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
@@ -549,7 +549,7 @@ footer {
 /* Style the list of breadcrumb */
 .breadcrumb-container {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
