@@ -22,7 +22,6 @@
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
 
-
         <!--SLICK CAROUSEL-->
         <link
         rel="stylesheet"
@@ -31,7 +30,7 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
         <!--END  SLICK CAROUSEL -->
-
+        
     </head>
     <body onload = "jump()" style="padding-top: 100px;">
         <?php
@@ -110,13 +109,7 @@
                                 
                                 <div class="card-author-presentation">
                                     <p class="fs-5 mb-4">EDUNINE2026 empowers you to share your research with a global audience! Our guide equips you for impactful online or in-person presentations in Technical Sessions. Learn pre-session prep, platform specifics, interaction with the session chair, and adhering to presentation and Q&A timings. We aim for smooth, engaging sessions for all.<br>Remember, the optimal presentation format can vary! Authors have the flexibility to choose the approach that best suits their paper, ensuring clear communication within the allotted time slot.</p>
-                                    
-                                    <div class="d-flex flex-wrap gap-2 justify-content-center">
-                                        <a href="../program/EDUNINE_InPersonPresenterInstructions.pdf" class="btn btn-primary btn-sm" role="button">In-Person Presentation Instructions</a>
-                                        <a href="../program/EDUNINE_OnlinePresenterInstructions.pdf" class="btn btn-primary btn-sm" role="button">Online Presentation Instructions</a>
-                                        <a href="../program/EDUNINE_GuiaPresentadorEnPersona.pdf" class="btn btn-primary btn-sm" role="button">Instrucciones para presentación en persona</a>
-                                        <a href="../program/EDUNINE_GuiaPresentadorOnline.pdf" class="btn btn-primary btn-sm" role="button">Instrucciones para presentación online</a>
-                                    </div>
+                                   
                                 </div>
                                 
                             </div>
@@ -137,12 +130,6 @@
                                 <div class="card-session-chair">
                                     <p class="fs-5 mb-4">Dedicated instructions are available to ensure a smooth and productive online or in-person session, fostering active participation, and adhering to the schedule.</p>
                                     
-                                    <div class="d-flex flex-wrap gap-2 justify-content-center">
-                                        <a href="../program/EDUNINE_In-PersonSessionChairInstructions.pdf" class="btn btn-primary btn-sm" role="button">In-Person Session Chair Instructions</a>
-                                        <a href="../program/EDUNINE_OnlineSessionChairInstructions.pdf" class="btn btn-primary btn-sm" role="button">Online Session Chair Instructions</a>
-                                        <a href="../program/EDUNINE_GuiaPresidenteSesionEnPersona.pdf" class="btn btn-primary btn-sm" role="button">Instrucciones para presidentes de sesiones híbridas (en persona)</a>
-                                        <a href="../program/EDUNINE_GuiaPresidenteSesionOnline.pdf" class="btn btn-primary btn-sm" role="button">Instrucciones para presidentes de sesiones online</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>    
@@ -150,27 +137,31 @@
                 </div>
             </section>
 
-            <!-- Footer section -->
-            <div class ="container-fluid">
-                <!-- footer  -->
-                <?php include "../includesHtml/final.html" ?> 
-            </div>
+            <section id="organizers">
+                <!-- Footer section -->
+                <div class ="container-fluid">
+                    <!-- footer  -->
+                    <?php include "../includesHtml/final.html" ?> 
+                </div>
+            </section>
 
         </main>
 
         <!-- Scripts -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
         <script src ="../js/readmorereadless.js"></script> 
         <script src ="../js/backTop.js"></script>
-         
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
         <!-- START SLICK CAROUSEL-->
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script
-            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-            <script src="../js/slick-carousel-config.js"></script>
-            <!-- END  SLICK CAROUSEL-->
+        <script src="../js/slick-carousel-config.js"></script>
+        <!-- END  SLICK CAROUSEL-->
     </body>
 </html>
