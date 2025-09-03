@@ -53,7 +53,7 @@
 
             <div> 
                 <!-- Navigation bar  -->
-                <?php include "edu9header.html" ?> 
+                <?php include "newHeader.html" ?> 
             </div>
             <div class="#main"></div>
             
