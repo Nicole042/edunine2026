@@ -578,22 +578,7 @@
                         alt="General Chair">
                     <div class="overlay-content">
                         <h3 style="font-size: clamp(17px, 2vw, 25px);">Melany M. Ciampi</h3>
-                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Co-Chair</h3><br>
-                        
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" 
-                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalMelany">View CV
-                        </button>
-                    </div>
-                </div>
-
-                <div class="slide image-hover text-center">
-                    <img src="..\images\coordinators\Melany M.Ciampi.jpg" 
-                        class="img-fluid rounded-circle mb-2" 
-                        alt="General Chair">
-                    <div class="overlay-content">
-                        <h2>Melany M. Ciampi</h2>
-                        <h2>Awards Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Co-Chair / Awards Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -657,7 +642,7 @@
                 
                     <div class="overlay-content">
                         <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
-                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Publication Chair</h3><br><br>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Publication Chair / Public Relations Chair</h3><br><br>
                             
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -710,22 +695,6 @@
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
                             data-bs-toggle="modal" data-bs-target="#coordinatorsModalRoberto">View CV
-                        </button>
-                    </div>
-                </div>
-
-                <div class="slide image-hover text-center">
-                    <img src="..\images\coordinators\Mario Chong.jpg"
-                                    class="img-fluid rounded-circle mb-2"
-                                    alt="Logo SBC">
-                
-                    <div class="overlay-content">
-                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
-                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Public Relations Chair</h3><br>
-                        
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" 
-                            data-bs-toggle="modal" data-bs-target="#coordinatorsModalChong">View CV
                         </button>
                     </div>
                 </div>
