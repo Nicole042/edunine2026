@@ -9,30 +9,30 @@ function obtenerFechas() {
 
 /* fecha en inglés, textoI, portugués, textoP, español, textoE, fecha de cierre yyyy/mm/dd, uno o dos días despues para que los tache. (los textos no están usados*/
 /* submission deadline papers de autores que van al peer-review */
-var papersVector = [["September 30, 2025", "Paper Submission due date"], ["4 Ago 2025", ""], ["4 Ago 2025", ""], ["2025-08-06"]];
+var papersVector = [["September 30, 2025", "Paper Submission due date"], ["4 Ago 2025", ""], ["4 Ago 2025", ""], ["2025-10-01"]];
 /* submission deadline, propuestas de workshops, plenarias y panels que nunca tienen vencimiento real y son revisados por el TPC (Technical Program Committee */
-var proposalsVector = [["September 30, 2025", "Proposals submission due date"], ["3 Nov 2025", ""], ["3 Nov 2025", ""], ["2025-11-03"]];
+var proposalsVector = [["September 30, 2025", "Proposals submission due date"], ["3 Nov 2025", ""], ["3 Nov 2025", ""], ["2025-10-01"]];
 /* notification peer review solamente papers de autores */
-var pnotifVector = [["October 30, 2025", "Notification of Peer Review (Round #1)"], ["29 Set 2025", ""], ["29 Set 2025", ""], ["2025-10-02"]];
+var pnotifVector = [["October 30, 2025", "Notification of Peer Review (Round #1)"], ["29 Set 2025", ""], ["29 Set 2025", ""], ["2025-11-01"]];
 /* notification TPC review of proposals (workshop, plenary, panel). Esto es teorico*/
-var snotifVector = [["October 30, 2025", "Notification of Proposals"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2025-11-12"]];
+var snotifVector = [["October 30, 2025", "Notification of Proposals"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2025-10-31"]];
 /* conditional accepted final papers multiple TPC review due date */
-var pfCondVector = [["November 31, 2025", "Final Paper Conditional Acceptance Review due date (Round #2)"], ["17 Out 2025", ""], ["17 Oct 2025", ""], ["2025-10-17"]];
+var pfCondVector = [["November 31, 2025", "Final Paper Conditional Acceptance Review due date (Round #2)"], ["17 Out 2025", ""], ["17 Oct 2025", ""], ["2025-12-01"]];
 /* final papers todos incluidos los prerevisados condicionales, para la última revisión por TPC (Round #2) */ 
-var pfsubmVector = [["November 31, 2025", "Author Final Paper (all) Submission due date for TPC Review (Round #2"], ["24 Out 2025", ""], ["24 Oct 2025", ""], ["2025-10-25"]];
+var pfsubmVector = [["November 31, 2025", "Author Final Paper (all) Submission due date for TPC Review (Round #2"], ["24 Out 2025", ""], ["24 Oct 2025", ""], ["2025-12-01"]];
 /* final proposal for publication submission deadline */ 
-var sfsubmVector = [["November 31, 2025", "Special Proposals final submission due date"], ["17 Nov 2025", ""], ["17 Nov 2025", ""], ["2025-10-19"]];
+var sfsubmVector = [["November 31, 2025", "Special Proposals final submission due date"], ["17 Nov 2025", ""], ["17 Nov 2025", ""], ["2025-12-01"]];
 /* notification final papers última revisión por TPC (Round #2) */ 
-var pfnotifVector = [["December 15, 2025", "Author Final Paper (all) Submission due date for TPC Review (Round #2"], ["24 Out 2025", ""], ["24 Oct 2025", ""], ["2025-10-25"]];
-var sfnotifVector = [["December 15, 2025", "Special Proposals final submission due date"], ["1 Dez 2025", ""], ["1 Dic 2025", ""], ["2025-12-02"]];
+var pfnotifVector = [["December 15, 2025", "Author Final Paper (all) Submission due date for TPC Review (Round #2"], ["24 Out 2025", ""], ["24 Oct 2025", ""], ["2025-12-16"]];
+var sfnotifVector = [["December 15, 2025", "Special Proposals final submission due date"], ["1 Dez 2025", ""], ["1 Dic 2025", ""], ["2025-12-16"]];
 /* due date de los periodos de registración. EARLY */
-var reg1Vector = [["December 15, 2025", "Registration and Payment Options: Due Dates Early"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2026-11-15"]];
+var reg1Vector = [["December 15, 2025", "Registration and Payment Options: Due Dates Early"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2026-12-16"]];
 /* registration NORMAL */
-var reg2Vector = [["February 15, 2026", "Normal"], ["1 Dez 2025", ""], ["1 Dic 2025", ""], ["2025-12-4"]];
+var reg2Vector = [["February 15, 2026", "Normal"], ["1 Dez 2025", ""], ["1 Dic 2025", ""], ["2025-02-16"]];
 /* registration late */
-var reg3Vector = [["March 8, 2026", "Late"], ["22 Dez 2025", ""], ["22 Dic 2025", ""], ["2025-12-30"]];
+var reg3Vector = [["March 8, 2026", "Late"], ["22 Dez 2025", ""], ["22 Dic 2025", ""], ["2025-03-09"]];
 /* chair registration */
-var chairVector = [["September 30, 2026", "Late"], ["2 Fev 2026", ""], ["2 Feb 2025", ""], ["2026-02-10"]];
+var chairVector = [["September 30, 2026", "Late"], ["2 Fev 2026", ""], ["2 Feb 2025", ""], ["2026-10-01"]];
 /* tour inscription due date */
 var tourregVector = [["February 15, 2026", "Tour registration due date"], ["24 Fev 2026", ""], ["24 Feb 2026", ""], ["2026-02-26"]];
 /* tour date */
