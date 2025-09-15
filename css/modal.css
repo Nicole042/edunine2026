@@ -56,3 +56,16 @@ html.modal-open, body.modal-open {
   font-size: 1.1rem;  /* slightly bigger than default */
   font-weight: 500;   /* a bit bolder */
 }
+
+/*SROLL*/
+/* Smooth in-page anchor scroll + keep headings visible below fixed header */
+:root { scroll-behavior: smooth; }
+#top, #committees, #organizers { scroll-margin-top: 80px; } /* adjust if your header height differs */
+
+/* Prevent background scroll when a Bootstrap modal is open */
+body.modal-open { overflow: hidden; }
+
+/* iOS fix: lock the page position while modal is open */
+@supports (-webkit-touch-callout: none) {
+  body.modal-open { position: fixed; width: 100%; }
+}
