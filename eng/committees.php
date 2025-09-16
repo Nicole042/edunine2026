@@ -407,7 +407,7 @@
 
     <!-- Modal Ale-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalAle" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -431,7 +431,7 @@
 
     <!-- Modal Mario Chong-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalChong" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -458,7 +458,7 @@
 
     <!-- Modal Maria Isabel Pozzo-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalMariaIsabel" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -504,7 +504,7 @@
 
     <!-- Modal Rafael Rentería-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalRafael" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -530,7 +530,7 @@
 
     <!-- Modal Roberto Portillo-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalRoberto" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -551,7 +551,7 @@
 
     <!-- Modal Orlando-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalOrlando" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
