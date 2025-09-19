@@ -63,9 +63,7 @@
                     <li class="nav-item mx-1">
                     <a class="nav-link px-1 py-2 btn" href="#top"> Information </a>
                     </li>
-                    <li class="nav-item mx-1">
-                    <a class="nav-link px-1 py-2 btn" href="#dates">Timeline and Dates</a>
-                    </li>
+                    
                     <li class="nav-item mx-1">
                     <a class="nav-link px-1 py-2 btn" href="#revGuide">Review Process</a>
                     </li>
@@ -175,62 +173,10 @@
             </div>
 
         </section>
-        <!-- Timeline section -->
-        <section id="dates">
 
-            <!-- Encabezado principal -->
-            <div class="container-peerReview py-5 text-center">
-                <h2 class="display-5 fw-bold text-center"> Reviewer Schedule and Important Dates</h2>               
-                <p class="lead text-muted">Stay informed about key milestones and deadlines throughout the peer-review process with our comprehensive timeline.</p>
-            </div>
 
-            <!--  Contenido principal -->
-            <div class="container-peerReview mb-5">
-                <div class="row g-4 align-items-center justify-content-center">
-                    <!-- Imagen lateral -->
-                    <div class="col-md-4 text-center">
-                        <img class="img-fluid rounded shadow" style="height:70%" src="../images/decoration/reviewProcess1.jpg" alt="Peer Review Guide">
-                    </div>
-
-                    <!-- Texto + tabla -->
-                    <div class="col-md-8 d-flex flex-column justify-content-center align-items-center text-center">
-                        <h4 class="fw-bold text-center">Peer-Review Timeline</h4>
-                        <p class="text-muted mb-4">The peer-review process for submitted papers will be conducted according to the timeline below. <br>
-                            Reviewers will receive formal invitations and are kindly asked to complete their evaluations within the designated review period.</p>
-                        
-                        <!--  Tabla mejorada -->
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-hover align-middle shadow-sm">
-                                <thead class="table-primary">
-                                    <tr>
-                                        <th class="text-center">Event</th>
-                                        <th class="text-center">Deadline</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>We will begin inviting reviewers to join the EDUNINE 2026 International Program Committee on</td>
-                                        <td class="text-center fw-bold text-center" id="invitation">Jun 1, 2025</td>
-                                    </tr>
-                                    <tr>
-                                        <td>We kindly ask invited reviewers to confirm their participation in the EDUNINE 2026 International Program Committee by</td>
-                                        <td class="text-center fw-bold text-center" id="guide">Aug 4, 2025</td>
-                                    </tr>
-                                    <tr>
-                                        <td>The peer-review process for EDUNINE 2026 will begin, and reviewers will have access to their assigned papers in the submission system, starting on</td>
-                                        <td class="text-center fw-bold text-center" id="signup">Aug 4, 2025</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Reviewers are kindly requested to complete their evaluations and upload their recommendations in the EDUNINE submission system by</td>
-                                        <td class="text-center fw-bold text-center" id="signin">Sep 8, 2025</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
+        
         <!-- Review Process and Manuscript types -->
 
         <section id="revGuide">
