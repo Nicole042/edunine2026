@@ -17,6 +17,10 @@
 
         <link href="../css/EDU9Conferences.css" rel="stylesheet"> 
         <link href="../css/edu9parts.css" rel="stylesheet"> 
+
+        <link href="../css/coordinator.css" rel="stylesheet">
+        <link href="../css/modal.css" rel="stylesheet">
+
         <!-- Custom styles for this template -->
         <script src="https://kit.fontawesome.com/5dc88a8201.js" crossorigin="anonymous"></script>
         
@@ -138,87 +142,85 @@
                     <div class ="col-md-4">
                         <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><span>Chairs</span></h5>
                         <h5 class="text-justify pt-3">Conference    Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_molina.html"> <span> José  Martín  Molina  Espinosa</span></a>
-                        </p><h5 class="text-justify pt-3">General Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_brito.html"> <span> Claudio R. Brito</span></a></p>
-                        <h5 class="text-justify pt-3">Co-Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_ciampi.html"><span> Melany M. Ciampi</span></a></p>
-                        <h5 class="text-justify pt-3">Awards    Chair:</h5>
-                        <p class="text-justify pl-3"><a href="#"><span> To be assigned</span></a></p>
-                        <h5 class="text-justify pt-3">Technical    Program  Chair:</h5>
-                        <p class="text-justify pl-3"><a href="#"><span> To be assigned</span></a></p>
-                        <h5 class="text-justify pt-3">Technical  Program  Co-Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_luna.html"><span> Ana Luna</span></a></p>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_da_silva.pdf"><span> Agatha  C.  da  Silva  Obando</span></a></p>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_adorjan.html"><span> Alejandro  Adorjan  Olivera</span></a></p>  
-                        <h5 class="text-justify pt-3">Publication Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_chong.html"><span> Mario Chong</span></a>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalJoséMartin"> <span> José  Martín  Molina  Espinosa</span></a>
+                        </p>
+                        <h5 class="text-justify pt-3">General Chair:</h5>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalBritto"> <span> Claudio R. Brito </span></a>
+                        </p>
+                        <h5 class="text-justify pt-3">Co-Chair & Awards Chair:</h5>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalMelany"> <span> Melany M. Ciampi </span></a>
+                        </p>
+                        <h5 class="text-justify pt-3">Technical Program  Chair:</h5>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAgatha"> <span> Agatha C. da Silva Ovando </span></a>
+                        </p>
+                        <h5 class="text-justify pt-3">Technical  Program  Co-Chairs:</h5>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAnaLuna"> <span> Ana Luna </span></a>
+                        </p>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAle"> <span> Alejandro  Adorjan  Olivera </span></a>
+                        </p>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalRoberto"> <span> Roberto Portillo</span></a>
+                        </p>
+                        
+                        <h5 class="text-justify pt-3">Publication Chair & Publicity  and  Public  Relations  Chair:</h5>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalChong"> <span> Mario Chong </span></a>
+                        </p>
                         </p><h5 class="text-justify pt-3">Workshops Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_renteria.pdf"><span> Rafael  R. Rentería  Ramos</span></a></p>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalRafael"> <span> Rafael  R. Rentería  Ramos </span></a>
+                        </p>
+                       
                         <h5 class="text-justify pt-3">Conference Supporting Committee:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_portillo.html"><span> Roberto Portillo</span></a></p>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalRoberto"> <span> Roberto Portillo </span></a>
+                        </p>
+
                         <h5 class="text-justify pt-3">Doctoral  Symposium  Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_pozzo.html"><span> Maria  Isabel  Pozzo</span></a></p>
-                        <h5 class="text-justify pt-3">Publicity  and  Public  Relations  Chair:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_chong.html"><span> Mario Chong</span></a></p>
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalMariaIsabel"> <span> Maria  Isabel  Pozzo</span></a>
+                        </p>
+
                         <h5 class="text-justify pt-3">Finance  Chair/Treasurer:</h5>
-                        <p class="text-justify pl-3"><a href="https://www.copec.eu/cv_congresses_en/dr_fittipaldi.html"><span> Orlando  Fittipaldi</span></a></p>
-                        <h5 class="text-justify pt-3">Steering    Committee  Chair:</h5>
-                        <p class="text-justify pl-3"><a href="#"><span> To be assigned</span></a></p> 
+                        <p class="text-justify pl-3"><a href="#" data-bs-toggle="modal" data-bs-target="#coordinatorsModalOrlando"> <span> Orlando  Fittipaldi </span></a>
+                        </p>
                     </div>
 
                     <div class ="col-md-4">
                         <!-- Steering Committee -->
                         <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><span> Steering  Committee:</span></h5>
-                        <p class="text-justify pl-3">To be assigned <b><i>Chair of Committee</i></b></p>
-                        <p class="text-justify pl-3">Agatha  C.  da  Silva  Ovando </p>
-                        <p class="text-justify pl-3">Alejandro  Adorjan  Olivera </p>
-                        <p class="text-justify pl-3">Ana    Luna </p>
-                        <p class="text-justify pl-3">Claudio    R.    Brito </p>
-                        <p class="text-justify pl-3">José  Martín  Molina  Espinosa </p>
-                        <p class="text-justify pl-3">Mario    Chong </p>
-                        <p class="text-justify pl-3">Melany    M.    Ciampi </p>
-                        <p class="text-justify pl-3">Orlando  Fittipaldi </p>
-                        <p class="text-justify pl-3">Rafael  R.  Rentería  Ramos </p>
-                        <p class="text-justify pl-3">Roberto    Portillo </p>
+                        <p class="text-justify pl-3"> Melany M. Ciampi, <strong><i>Chair of Committee </i></strong></span></p> 
+                        <p class="text-justify pl-3"> Maria Feldgen, <strong><i>Past Chair Jr </i></strong></span></p> 
+                        <p class="text-justify pl-3"> Claudio R. Brito, <strong><i>Past Chair Sr </i></strong></span></p> 
+                        <p class="text-justify pl-3"> Agatha C. da Silva Ovando</span></p> 
+                        <p class="text-justify pl-3"> Alejandro Adorjan Olivera</span></p> 
+                        <p class="text-justify pl-3"> José Martín Molina Espinosa</span></p> 
                             
                         <!-- Supporting  -->  
                         <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><span> Conference  Supporting  Committee:</span></h5>
-                        <p class="text-justify pl-3">Roberto Portillo, Universidad Galileo<b><i>Chair of Committee</i></b></p>
+                        <p class="text-justify pl-3">Roberto Portillo, Universidad Galileo, <b><i>Chair of Committee</i></b></p>
                         <p class="text-justify pl-3">Ana Luna, Universidad del Pacífico  </p>
-                        <p class="text-justify pl-3">Mario Chong, Universidad del Pacífico  </p>
-                        <p class="text-justify pl-3">Melany M. Ciampi, International Institute of Education (IE)</p>
                         <p class="text-justify pl-3">Claudio R. Brito, COPEC</p>
-                        <p class="text-justify pl-3">Roberto Giordano Lerena, UFASTA, CONFEDI, ASIBEI</p>
+                        <p class="text-justify pl-3">Mario Chong, Universidad del Pacífico  </p>
+                        <p class="text-justify pl-3">Melany M. Ciampi, International Institute of Education (IIE)</p>
+
                     </div>
 
                     <div class ="col-md-4">
                         <!-- Program -->  
                         <h5 class="text-left text-white mx-auto py-2 pl-2 text-center" style="background-color: #336699;"><span> Technical  Program  Committee:</span></h5>
-                        <p class="text-justify pl-3">To be assigned <b><i>Chair of Committee</i></b></p>
-                        <p class="text-justify pl-3">Agatha  C.  da  Silva  Ovando, Bolivia  <b><i>Co-Chair of Committee</i></b></p>
+                        <p class="text-justify pl-3">Agatha  C.  da  Silva  Ovando, Bolivia  <b><i>Chair of Committee</i></b></p>
                         <p class="text-justify pl-3">Ana    Luna, Peru  <b><i>Co-Chair of Committee</i></b></p>
                         <p class="text-justify pl-3">Alejandro  Adorjan  Olivera, Uruguay    <b><i>Co-Chair of Committee</i></b></p>
+                        <p class="text-justify pl-3">Roberto Portillo, Guatemala <b><i>Co-Chair of Committee</i></b></p>
                         <p class="text-justify pl-3">André  Luiz  de  Lima  Reda, Brazil  </p>
                         <p class="text-justify pl-3">Claudio    R.    Brito, Brazil  </p>
-                        <p class="text-justify pl-3">Edmundo  Tovar, Spain  </p>
-                        <p class="text-justify pl-3">Gabriel  Gomes  de  Oliveira, Brazil  </p>
-                        <p class="text-justify pl-3">Gloria  Teresita  Huamani  Huamani, Peru  </p>
-                        <p class="text-justify pl-3">Guillermo    Kalocai, Argentina  </p>
-                        <p class="text-justify pl-3">Hamadou  Saliah-Hassane, Canada  </p>
-                        <p class="text-justify pl-3">José  Martín  Molina  Espinosa, Mexico</p>
                         <p class="text-justify pl-3">Luis    Amaral, Portugal  </p>
-                        <p class="text-justify pl-3">Marcelo  Doallo, Argentina  </p>
+                        <p class="text-justify pl-3">Maria  Feldgen, Argentina  </p>
                         <p class="text-justify pl-3">Maria  Isabel  Pozzo, Argentina  </p>
                         <p class="text-justify pl-3">Mario    Chong, Peru  </p>
+                        <p class="text-justify pl-3">Martin Llamas Nistal, Spain  </p>
                         <p class="text-justify pl-3">Melany    M.    Ciampi, Brazil  </p>
                         <p class="text-justify pl-3">Orlando  Fittipaldi, Brazil  </p>
-                        <p class="text-justify pl-3">Pedro  Huamani  Navarrete, Peru  </p>
-                        <p class="text-justify pl-3">Rafael  R.  Rentería  Ramos, Colombia  </p>
-                        <p class="text-justify pl-3">Ramiro  Jordan, USA  </p>
-                        <p class="text-justify pl-3">Roberto    Giordano    Lerena, Argentina  </p>
-                        <p class="text-justify pl-3">Roberto    Portillo, Guatemala  </p>
+                        <p class="text-justify pl-3">Osvaldo Clua, Argentina  </p>
+                        <p class="text-justify pl-3">Rafael R. Renteria Ramos, Colombia  </p>
                         <p class="text-justify pl-3">Rosa  M.  Vasconcelos, Portugal  </p>
+
                     </div>
                 </div>
                 </div>
@@ -234,12 +236,360 @@
             </div>
         </section>
 
+    <!-- Modal José Martín Molina Espinosa-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalJoséMartin" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Dr. José Martín Molina Espinosa is a Research Professor in the School of Engineering and Sciences 
+                at Tecnologico de Monterrey, based at Mexico City campus, where he also contributes as an adjunct 
+                researcher to the institution’s Artificial Intelligence Strategic. He earned his Ph.D. in 
+                Computer Science and Telecommunications from the Institut National Polytechnique de Toulouse (INP LAAS), 
+                France. Since joining the Tec in 2003, he has held key roles including Director of Graduate Programs 
+                in Computer Science, Head of Computer Science Department, and Director of The Decision Making Lab.<br>
+                <br>Dr. Molina’s prolific research career includes authoring over 30 peer-reviewed journal articles, 
+                book chapters, and conference papers in areas such as distributed systems, cloud and mobile application 
+                development, system architectures for decision making, educational technology, computational thinking, 
+                and complex thinking. He is a recognized researcher (Mexican Researcher Certification Level 
+                1) with a growing body of published work in higher education and learning sciences. 
+                His recent research in generative artificial intelligence focuses on transforming higher education 
+                through the integration of AI tools into active learning strategies, competency development, 
+                and inclusive teaching practices. His international recognition—including the QS Reimagine Education 
+                Gold Award and the Open Education Global “Open with Artificial Intelligence Award”—reflects the 
+                innovation, scalability, and societal impact of his initiatives, which leverage AI to foster 
+                equitable access, cultivate complex thinking, and empower lifelong learning. Additionally, 
+                his research has addressed adaptive learning systems enriched with generative AI to support diversity 
+                and inclusion, earning accolades such as the Best Paper Award at the IEEE EDUNINE 2025 conference. 
+                Through this body of work, Dr. Molina is shaping the academic discourse on how generative AI can be 
+                responsibly and effectively embedded into higher education to prepare students for the challenges of 
+                an AI-driven world.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Claudio Britto-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalBritto" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Dr. Claudio da Rocha Brito (PhD, Dr. rer nat. habil., Eta-Kappa-Nu) is a distinguished Professor of Electrical and Computer Engineering and President Emeritus of the IEEE Education Society. He currently serves as Chancellor of the International Institute of Education (IIE) and President of the Science and Education Research Organization (COPEC). He is also President of the Fishing Museum Friends Society (AAMP) and President of the (Brazilian) National Monitoring Committee of IGIP (Internationale Gesellschaft für Ingenieurpädagogik). Dr. Brito holds multiple leadership positions, including Vice President of INTERTECH (International Council for Engineering and Technology Education), WCSEIT (World Organization on System Engineering and Information Technology), SHERO (Safety Health and Environment Research Organization), and WCCA (World Organization on Communication and Arts). Academically, Dr. Brito holds a Ph.D., M.Sc., and B.Sc. in Electrical Engineering from the Polytechnic School of the University of São Paulo, as well as B.Sc. degree in Physics from the Institute of Physics, B. Sc. in Mathematics from the Institute of Mathematics and Statistics, B. Sc. in Mathematics Education and B. Sc. in Physics Education, both from the Faculty of Education all in the University of São Paulo. He is an active member of several international engineering education societies including IGIP, SEFI (European Society for Engineering Education), ASEE (American Society for Engineering Education), INTERTECH, and RCI (Cartagena Network of Engineering). Throughout his career, Dr. Brito has received numerous awards, including the IEEE Edwin C. Jones Jr. Meritorious Service Award (2011), IEEE Meritorious Service Award (2018), IEEE Outstanding Recognition Award (2022), IEEE Unmatched Dedication Award (2023), IEEE Leadership in Conference Organization Award (2024) and IEEE Excellence in Inspiration Award (2025). His biography is featured in several international directories such as Who's Who in the World, Who's Who in America, Who's Who in Science and Engineering, and Dictionary of International Biography.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Melany-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalMelany" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Dr. Melany M. Ciampi Ciampi (PhD, Dr. rer nat. habil., Eta-Kappa-Nu) is a renowned Professor of Electrical and Computer 
+                Engineering and a global leader in engineering education. She currently serves as Rector of the International Institute of Education 
+                (IIE) and holds several top international leadership positions, including President of the World Organization on System Engineering 
+                and Information Technology (WCSEIT), President of the Safety Health and Environment Research Organization (SHERO) and President of 
+                the World Organization on Communication and Arts (WCCA). She is also Vice-President of the Science and Education Research Organization 
+                (COPEC), the Fishing Museum Friends Society (AAMP), and Brazil’s National Monitoring Committee of IGIP (International Society for 
+                Engineering Education). Dr. Ciampi has been a long-standing board member of major international organizations, such as the Global 
+                Council on Manufacturing and Management (GCMM) and the Board of Governors for INTERTECH, WCSEIT, SHERO and WCCA. Her leadership has 
+                significantly shaped global collaboration in engineering and technology education. She has served in key roles within the IEEE 
+                Education Society, including Vice President for Conferences and Workshops (2022–2023), Secretary across three terms 
+                (2016–2017, 2018–2019, 2020–2021) and Member of Board of Governors (2003-2023). She was also Vice-President of IGIP (2010–2014), 
+                Co-Chair of Working Group Engineering Education in International Context (2002–2018), and President of the Brazilian Chapter of the IEEE
+                Education Society (2002–2004). Dr. Ciampi is a member of IGIP, SEFI, ASEE, INTERTECH, and RCI (Cartagena Network of Engineering). 
+                Her many accolades include the the IEEE Edwin C. Jones Jr. Meritorious Service Award 2011 and Ronald J. Schmitz Outstanding Service 
+                Award 2016, IEEE Meritorious Service Award 2018, IEEE Outstanding Recognition Award 2022, IEEE Unmatched Dedication Award 2023, 
+                IEEE Leadership in Conference Organization Award 2024, IEEE Education Society Distinguished Member Award 2024 and IEEE Excellence 
+                in Inspiration Award 2025.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Agatha de Silva-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalAgatha" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Agatha da Silva is an Associate Professor and Director of the Logistics Operations Center at Universidad Privada Boliviana (Bolivia). She is currently a Doctoral Candidate in Logistics and Supply Chain Management at Universidad de La Sabana, Colombia. She holds a Postgraduate Certificate in Logistics and Supply Chain Management from the Massachusetts Institute of Technology (MIT), a Master’s degree in Product Design Management from Bournemouth University (United Kingdom), and an MBA from UPB.
+                Her work focuses on operations management, conducting research on food supply chains, last-mile logistics, and educational innovation. She has collaborated with companies and organizations on projects related to last-mile solutions and sustainable logistics.
+                She serves as Track Leader for Educational Innovation in Logistics and Supply Chain Management in the MIT SCALE Network. She is Vice President of the MIT GCLOG Alumni Association for the 2024–2026 term, and was elected Vice President of Meetings for the POMS LAC Chapter for the 2023–2026 term.
+                In 2024, she received the Nada Sanders Emerging Economies Doctoral Dissertation Award for Latin America and the Caribbean.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Ana Luna-->
+    <div class="modal coordinators-modal fade" 
+        id="coordinatorsModalAnaLuna" 
+        tabindex="-1" 
+        aria-labelledby="coordinatorsModalLabel" 
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+                <p class="lh-sm mx-2">
+                Associate Professor in the Department of Engineering at Universidad del Pacífico 
+                (Lima, Peru) and Researcher at CIUP. Holds a Ph.D. and Licentiate in Physical Sciences 
+                from the University of Buenos Aires, specializing in optics, photonics, and sustainability. 
+                Academic career includes leadership as Vice Dean of Business Engineering, coordination of 
+                courses in Sustainable Development Technology, and extensive teaching experience in higher 
+                education. Research spans engineering education, sustainability, laser physics, and photonic 
+                structures, with over 20 peer-reviewed articles, multiple book chapters, and presentations 
+                at international conferences. Senior Member of IEEE and Vice President for Outreach Activities, 
+                recipient of awards such as Best Paper at EDUNINE 2019 and ICECB 2018, and contributor to public 
+                policy initiatives on gender equality and environmental issues.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Ale-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalAle" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Alejandro Adorjan is a Professor of Software Engineering and Adjunct Academic Coordinator at the School of Engineering, Universidad ORT Uruguay. He is currently a Ph.D. candidate in Informatics at PEDECIBA. He holds both a Master’s degree in Computer Science and an Engineering degree in Software Engineering from Universidad ORT Uruguay. 
+                        With over 15 years of experience in higher and technical education, Adorjan has designed and delivered undergraduate courses in Software Engineering, Programming, and Mathematics. He has been teaching at Universidad ORT Uruguay since 2007 and previously taught at Universidad del Trabajo del Uruguay.<br>
+                        <br>Adorjan has authored and co-authored several peer-reviewed publications presented at leading international conferences, including EDUCON, FIE, TALE, EDUNINE. His academic work focuses on topics such as competency-based education, educational innovation, human-in-the-loop data processes, and collaborative learning in virtual environments.
+                        He is a recognised leader in the academic community, serving as a member of the Academic Advisory Council (Consejo Académico Consultivo) of the School of Engineering at Universidad ORT Uruguay. His work has been recognised with multiple awards, including for his commitment to pedagogical innovation and teaching at ORT University Uruguay.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Mario Chong-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalChong" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Associate Dean of Innovation & Design Engineering, Faculty of Engineering Professor, Study Center of China & Asia Pacific Member (CECHAP), Research Center Member (CIUP); Universidad del Pacífico. IEEE Senior Member. Horizon Europe National Contact Point. Stanford WIDS Ambassador. PANAMSTR Board Member. IEEE Edunine Board Member. POMS HOCM Member.
+                        <br>PhD in Business Management (UNMSM). Master in industrial engineering, Master in Systems Engineering, and Industrial Engineer (UL). Advanced Supply Chain Management (MIT) certification. VREF Advanced Studies on Sustainable Urban Freight Systems (RPI).
+                        <br>Former business engineering associate dean, special projects coordinator, development director, master's degrees in business administration (MBA), global business, food and agribusiness, and supply chain management academic director; Universidad del Pacífico.
+                        <br><a href="https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong">
+                        https://faculty.up.edu.pe/en/persons/mario-gustavo-chong-chong
+                        </a>
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Maria Isabel Pozzo-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalMariaIsabel" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        María Isabel Pozzo is a Teacher, Professor, Licentiate and Doctor in Educational
+                        Sciences graduated at National University of Rosario, Argentina and Master from Barcelona
+                        University, Spain. She is currently a Full Professor at the National University of Rosario;
+                        Principal Investigator of the National Scientific and Technical Research Council of Argentina,
+                        and Director of Specialization and Master Programs in University Teaching at the National
+                        Technological University, Rosario Faculty, Argentina. She delivers numerous postgraduate
+                        courses related to research methodology and thesis writing at different Higher Education
+                        Institutions and Programs in Engineering, Medicine, Psychology, and Veterinarian. She has
+                        been granted with international scholarships for research and/or teaching stages in
+                        Universities of Spain, Belgium, Canada, Italy, Brazil, and Denmark. Dr. Pozzo has coordinated
+                        several research projects, is intensely active as supervisor and evaluator of theses, researchers,
+                        and research projects. Author of numerous Conference papers and keynote presentations,
+                        journal articles and books, and member of the Scientific Committee of international
+                        conferences and academic journals. Keynote (ICBL Cuba 2019, EDUCON 2021 Austria), panelist
+                        (SITED Brazil 20219, WEEF-GEDC Spain 2021) and workshop presenter (EDUNINE Argentina
+                        2018, Peru 2019 &amp; 2022) in Engineering Education Conferences. Researcher at Erasmus+
+                        VISIR+ Project cofounded by the European Commission. Member of the Executive Committee
+                        of International Association of Online Engineering (IAOE).
+                        Her areas of interest are Engineering Education, university didactics (graduate and
+                        postgraduate level), scientific skills development &amp; research training, academic literacy in
+                        native and foreign languages, ICT &amp; education, and intercultural education.
+                        <br><strong>ORCID:</strong>
+                        <a href="https://orcid.org/0000-0003-0186-0910">
+                        https://orcid.org/0000-0003-0186-0910
+                        </a>
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Rafael Rentería-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalRafael" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Rafael Ricardo Rentería Ramos is a researcher and innovation manager with extensive experience in linking science, technology, and digital transformation to foster social, territorial, and organizational development. His work has focused on strengthening the relationship between applied research, high-quality academic training, and sustainability, generating measurable impact on both regional and national competitiveness.
+                        He has led strategic research projects in data analytics, artificial intelligence, and open innovation, with emphasis on agri-food supply chains, energy management, and digital ecosystems. Among his most significant contributions are the consolidation of a Human Rights Analytics Center, the design of technological and postgraduate academic programs recognized for their relevance and quality, and the creation of dual training models and international certification frameworks.
+                        His scientific contributions are reflected in articles, strategic plans, and innovation models recognized through competitive research calls and by leading higher education institutions. He has received academic awards and institutional distinctions for his ability to lead interdisciplinary projects, drive the adoption of exponential technologies in higher education, and promote sustainability through innovation.
+                        His achievements include directing research groups to obtain official recognition from Minciencias, advising public and private organizations on digitalization and knowledge management, and training human talent in innovation, business intelligence, and foresight.
+                        His career positions him as a benchmark in applied research and innovation, with strategic vision, ethical commitment, and the ability to integrate the quadruple helix to generate transformative and sustainable solutions.
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Roberto Portillo-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalRoberto" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Roberto Portillo began his involvement in engineering education as an undergraduate student. Due to his academic performance and interpersonal skills, one of his mathematics professors requested him to be a teaching assistant. Since then, he has discovered his vocation as an educator and has become increasingly involved in education. In addition to being a professor, he serves as the head of the Academic Support Department at Galileo University. He has a Bachelor of Science in Electronics and Computer Science from Galileo University, Guatemala, and a Master of Science in Operations Research from the same university. His involvement with the Education Society began with presenting research papers at EDUCON 2017 and EDUNINE 2019, where he received the best paper award. He continued with a more significant commitment to technically support EDUNINE as a conference chair in the 2021 virtual conference, where he received the prestigious Meritorious Service Award. Award for outstanding and continued service to engineering education. In 2022 and 2023, he served as a conference support chair, and in 2024, he successfully organized the conference venue at Galileo University. Besides, in his commitment to research advances in science and technology, he acts as a National Contact Point (NCP) in the CELAC (Community of Latin American Countries) group for the SENACYT (National Secretariat of Science and Technology), promoting research infrastructure collaborations between countries in Latin America and the European Union (EU).
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Orlando-->
+    <div class="modal coordinators-modal fade" id="coordinatorsModalOrlando" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center" style="text-align: justify;">
+
+                    <p class="lh-sm mx-2">
+                        Dr. Orlando Fittipaldi is Professor of Classical History with habilitation in the Greco-Roman period. 
+                        He holds degrees in both History and Business Administration, combining academic expertise with extensive 
+                        experience in management and research. With over 35 years of experience as CEO of Fittipaldi Enterprise, 
+                        Prof. Fittipaldi led several research initiatives, including developments in the automotive sector. 
+                        His leadership bridged the gap between technical innovation and strategic business planning. 
+                        In recent years, he transitioned into academia and research administration, becoming the Technical Administrative 
+                        Director of COPEC – Science and Education Research Organization. In this role, he has played a crucial part in 
+                        managing the financial and operational coordination between COPEC and various international research institutions. 
+                        These include the World Organization for Systems Engineering and Information Technology (WCSEIT), Safety Health 
+                        and Environment Research Organization (SHERO), World Communication and Arts Organization (WCCA), and the International 
+                        Council for Engineering and Technology Education (INTERTECH). Prof. Fittipaldi has also served as the financial 
+                        administrator for several major projects led by COPEC over the past three years, ensuring transparency, efficiency, 
+                        and strategic alignment of resources.His unique background in both classical scholarship and enterprise management 
+                        makes him a valuable contributor to interdisciplinary research and international collaboration across educational, 
+                        scientific, and technological fields. "Recently appointed as Financial Administrator at the International Institute 
+                        of Education (IIE), with a mandate to enhance the organization's financial sustainability."
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src ="../js/readmorereadless.js"></script> 
     <script src ="../js/backTop.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <!-- START SLICK CAROUSEL-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -248,5 +598,8 @@
     <script src="../js/slick-carousel-config.js"></script>
     <!-- END  SLICK CAROUSEL-->   
 
+    <!-- Bootstrap 5 JS (bundle) for CVs -->
+    <script src="../js/pauseCoordinatorsSlider.js"></script>
+    <script src ="../js/backgrounfScrollOff.js"></script> 
 </body>
 </html>                      

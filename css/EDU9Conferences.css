@@ -1369,12 +1369,6 @@ font-family: 'Quicksand', 'sans-serif';
 
 .carousel-item {
   max-height: 600px;    
-<<<<<<< HEAD
   overflow-y: auto;
   overflow: hidden;    
 }
-=======
-  overflow-y: auto;     
-}
-
->>>>>>> program-design
