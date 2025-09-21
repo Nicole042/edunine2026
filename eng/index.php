@@ -176,6 +176,17 @@
                     <!-- </div> -->
                 </div>
             </section>
+
+            <!--boton extra -->
+            <section style="text-align: center; padding: 40px 0;">
+                <div>
+                    <span style="font-size: 1.5rem; margin-right: 20px;">Important Information</span>
+                    <a href="https://easychair.org/cfp/EDUNINE2026" target="_blank"><button type="button" class="btn btn-primary">Submit Your Paper</button></a>
+                </div>
+            </section>                      
+                        
+            <!--FIN BOTON EXTRA -->
+        
             <!-- NAVAR SCHEDULE SECTION -->
             <section id="dates">    
             <!-- SCHEDULE SECTION -->
