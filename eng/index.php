@@ -558,8 +558,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="Conference Chair">
                     <div class="overlay-content">
-                        <h2>José Martín Molina Espinosa</h2>
-                        <h2>Conference Chair</h2><br>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">José Martín Molina Espinosa</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Conference Chair</h3><br>
                         
                          <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalJoséMartín">
@@ -589,7 +589,7 @@
                         alt="General Chair">
                     <div class="overlay-content">
                         <h3 style="font-size: clamp(17px, 2vw, 25px);">Melany M. Ciampi</h3>
-                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Co-Chair / Awards Chair</h3><br>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Co-Chair & Awards Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -604,8 +604,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Agatha da Silva Ovando</h2>
-                        <h2>Technical Program Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Agatha da Silva Ovando</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Chair</h3><br>
                         
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAgatha">
@@ -619,8 +619,8 @@
                         class="img-fluid rounded-circle mb-2" 
                         alt="Conference Chair">
                     <div class="overlay-content">
-                        <h2>Ana Luna</h2>
-                        <h2>Technical Program Co-Chair</h2><br>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Ana Luna</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Technical Program Co-Chair</h3><br>
                         
                          <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coordinatorsModalAnaLuna">
@@ -653,7 +653,7 @@
                 
                     <div class="overlay-content">
                         <h3 style="font-size: clamp(17px, 2vw, 25px);">Mario Chong</h3>
-                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Publication Chair / Public Relations Chair</h3><br><br>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Publication Chair & Public Relations Chair</h3><br>
                             
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -716,8 +716,8 @@
                                     alt="Logo SBC">
                 
                     <div class="overlay-content">
-                        <h2>Orlando Fittipaldi</h2>
-                        <h2>Finance / Treasurer Chair</h2>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Orlando Fittipaldi</h3>
+                        <h3 style="font-size: clamp(17px, 2vw, 25px);">Finance / Treasurer Chair</h3><br>
 
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" 
@@ -904,7 +904,7 @@
 
     <!-- Modal Ale-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalAle" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -928,7 +928,7 @@
 
     <!-- Modal Mario Chong-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalChong" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -955,7 +955,7 @@
 
     <!-- Modal Maria Isabel Pozzo-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalMariaIsabel" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -1001,7 +1001,7 @@
 
     <!-- Modal Rafael Rentería-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalRafael" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -1027,7 +1027,7 @@
 
     <!-- Modal Roberto Portillo-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalRoberto" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
@@ -1048,7 +1048,7 @@
 
     <!-- Modal Orlando-->
     <div class="modal coordinators-modal fade" id="coordinatorsModalOrlando" tabindex="-1" aria-labelledby="coordinatorsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="coordinatorsModalLabel">Short Bio</h1>              
