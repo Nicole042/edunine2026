@@ -267,6 +267,11 @@
                                         <div class="col-3 bg-light border text-secondary">
                                             <p class="lh-sm text-center" id ="proposals"></p>
                                         </div>
+                                        <div class="col-9 bg-light border text-secondary">
+                                            <p class="lh-sm text-center">New Deadline for Submissions</p>
+                                        </div>
+                                        <div class="col-3 bg-light border text-secondary">
+                                            <p class="lh-sm text-center" id ="proposals">October 20, 2025</p>
                                     </div>
                                 </div>
                             </div>
