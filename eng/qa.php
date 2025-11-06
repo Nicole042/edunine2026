@@ -213,6 +213,163 @@
                     </div>
                 </div>
 
+                <!-- SARA QUESTIONS -->
+
+                <!-- INDEXING & PUBLICATION -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <h1 class="mb-4 mt-4 mx-3 fw-bold text-center">Indexing & Publication</h1>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                        <span class="fs-4 fs-md-2 fs-sm-4">Will all accepted papers be published in IEEE Xplore®?</span>
+                    </button>
+                    </h2>
+                    <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                Accepted papers that meet IEEE quality/format standards will be submitted to and published in IEEE Xplore®.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                            <span class="fs-4 fs-md-2 fs-sm-4">Are the papers automatically indexed in Scopus and Web of Science (WoS)?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseFourteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                Indexing is handled by the digital libraries/services; IEEE Xplore partners with major indexers.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                            <span class="fs-4 fs-md-2 fs-sm-4">What type of publication will the papers appear in?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseFifteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                IEEE conference proceedings in IEEE Xplore®.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                            <span class="fs-4 fs-md-2 fs-sm-4">To which Scopus-indexed journals may accepted papers be extended or transferred?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseSixteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                The best papers will receive an invitation to extend their contribution and submit the paper to the <b>IEEE-RITA – Revista Iberoamericana de Tecnologías del Aprendizaje</b>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- REVIEWERS & CERTIFICATES -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <h1 class="mb-4 mt-4 mx-3 fw-bold text-center">Reviewers & Certificates</h1>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+                        <span class="fs-4 fs-md-2 fs-sm-4">How can I become a reviewer for EDUNINE 2026?</span>
+                    </button>
+                    </h2>
+                    <div id="collapseSeventeen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                If you are interested in becoming a reviewer, please contact our team at edunine@edunine.eu
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+                            <span class="fs-4 fs-md-2 fs-sm-4">How can reviewers request a certificate with the number of papers reviewed?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseEighteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                Certificates are issued after the conference; request details by email.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">
+                            <span class="fs-4 fs-md-2 fs-sm-4">Can the reviewer's certificate specify the number of papers evaluated?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseNineteen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                Usually, the certificates do not present the number of papers evaluated; however, upon request, the board can issue a letter stating said number.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GENERAL INFORMATION -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <h1 class="mb-4 mt-4 mx-3 fw-bold text-center">General Information</h1>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+                        <span class="fs-4 fs-md-2 fs-sm-4">Who can I contact for questions about submission, payment, or participation?</span>
+                    </button>
+                    </h2>
+                    <div id="collapseTwenty" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                Please, contact the organizers by email.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
+                            <span class="fs-4 fs-md-2 fs-sm-4">What are the benefits of participating as an author or reviewer?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseTwentyOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <b>Authors:</b> IEEE Xplore® eligibility, hybrid access to sessions/workshops, certificates, networking. <b>Reviewers:</b> service on the Program Committee and appreciation certificates.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
+                            <span class="fs-4 fs-md-2 fs-sm-4">Is there any support or discount for participants from Latin American universities?</span>
+                        </button>
+                    </h2>
+                    <div id="collapseTwentyTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                There are no regional discounts; discounts apply by category (IEEE member, IEEE Education Society member, student, life member).
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
