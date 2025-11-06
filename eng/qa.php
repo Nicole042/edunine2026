@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Quesetions and Answers </h1>
+    <h1> Questions and Answers </h1>
     
 </body>
 </html>
