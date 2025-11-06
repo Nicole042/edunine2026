@@ -284,7 +284,7 @@
 
             </div>
 
-            <!--New Implementation, breadcrumb-->
+            <!--New Implementation, accordion-->
             <div class = "container-peerReview"> 
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
@@ -370,7 +370,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            <span class="fs-4 fs-md-2 fs-sm-4">Manuscript Format</span>
+                            <span class="fs-4 fs-md-2 fs-sm-4">Manuscript Format </span>
                         </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
