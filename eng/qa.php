@@ -54,7 +54,9 @@
     </div>
 
     <main class="px-4">
-
+        <div class="container-peerReview text-center mb-5">
+            <h1> Q & A </h1>
+        </div>
         <!--New Implementation, accordion-->
         <div class="container-peerReview">
             <div class="accordion" id="accordionExample">
