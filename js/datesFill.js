@@ -13,9 +13,9 @@ var papersVector = [["September 30, 2025", "Paper Submission due date"], ["4 Ago
 /* submission deadline, propuestas de workshops, plenarias y panels que nunca tienen vencimiento real y son revisados por el TPC (Technical Program Committee */
 var proposalsVector = [["September 30, 2025", "Proposals submission due date"], ["3 Nov 2025", ""], ["3 Nov 2025", ""], ["2025-10-01"]];
 /* notification peer review solamente papers de autores */
-var pnotifVector = [["October 30, 2025", "Notification of Peer Review (Round #1)"], ["29 Set 2025", ""], ["29 Set 2025", ""], ["2025-11-01"]];
+var pnotifVector = [["December 20, 2025", "Notification of Peer Review (Round #1)"], ["29 Set 2025", ""], ["29 Set 2025", ""], ["2025-11-01"]];
 /* notification TPC review of proposals (workshop, plenary, panel). Esto es teorico*/
-var snotifVector = [["October 30, 2025", "Notification of Proposals"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2025-10-31"]];
+var snotifVector = [["December 20, 2025", "Notification of Proposals"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2025-10-31"]];
 /* conditional accepted final papers multiple TPC review due date */
 var pfCondVector = [["November 31, 2025", "Final Paper Conditional Acceptance Review due date (Round #2)"], ["17 Out 2025", ""], ["17 Oct 2025", ""], ["2025-12-01"]];
 /* final papers todos incluidos los prerevisados condicionales, para la última revisión por TPC (Round #2) */ 

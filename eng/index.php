@@ -271,7 +271,7 @@
                                             <p class="lh-sm text-center">New Deadline for Submissions</p>
                                         </div>
                                         <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id ="proposals">October 20, 2025</p>
+                                            <p class="lh-sm text-center" id ="proposals">November 11, 2025</p>
                                     </div>
                                 </div>
                             </div>
