@@ -233,7 +233,7 @@
                     </div> 
                 </div> 
                 <!-- TABLAS DE CONTENIDOS -->
-                <div class="mt-3 showContentBtn">
+                <div class="mt-3 showContentBtn show-content">
                     <div class="container-fluid p-4">
                             <div class= "col text-center p-5 tope rounded-3">
                                 <div class="clearfix">
@@ -271,7 +271,8 @@
                                             <p class="lh-sm text-center">New Deadline for Submissions</p>
                                         </div>
                                         <div class="col-3 bg-light border text-secondary">
-                                            <p class="lh-sm text-center" id ="proposals">November 11, 2025</p>
+                                            <p class="lh-sm text-center" id="proposals">November 11, 2025</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
