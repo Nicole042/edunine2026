@@ -28,9 +28,9 @@ var sfnotifVector = [["December 15, 2025", "Special Proposals final submission d
 /* due date de los periodos de registración. EARLY */
 var reg1Vector = [["December 15, 2025", "Registration and Payment Options: Due Dates Early"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2026-12-16"]];
 /* registration NORMAL */
-var reg2Vector = [["February 15, 2026", "Normal"], ["1 Dez 2025", ""], ["1 Dic 2025", ""], ["2025-12-16"]];
+var reg2Vector = [["February 15, 2026", "Normal"], ["1 Dez 2025", ""], ["1 Dic 2025", ""], ["2026-12-16"]];
 /* registration late */
-var reg3Vector = [["March 8, 2026", "Late"], ["22 Dez 2025", ""], ["22 Dic 2025", ""], ["2025-13-09"]];
+var reg3Vector = [["March 8, 2026", "Late"], ["22 Dez 2025", ""], ["22 Dic 2025", ""], ["2026-13-09"]];
 /* chair registration */
 var chairVector = [["September 30, 2026", "Late"], ["2 Fev 2026", ""], ["2 Feb 2025", ""], ["2026-10-01"]];
 /* tour inscription due date */
