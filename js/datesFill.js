@@ -13,9 +13,9 @@ var papersVector = [["September 30, 2025", "Paper Submission due date"], ["4 Ago
 /* submission deadline, propuestas de workshops, plenarias y panels que nunca tienen vencimiento real y son revisados por el TPC (Technical Program Committee */
 var proposalsVector = [["September 30, 2025", "Proposals submission due date"], ["3 Nov 2025", ""], ["3 Nov 2025", ""], ["2025-10-01"]];
 /* notification peer review solamente papers de autores */
-var pnotifVector = [["December 20, 2025", "Notification of Peer Review (Round #1)"], ["29 Set 2025", ""], ["29 Set 2025", ""], ["2025-11-01"]];
+var pnotifVector = [["December 20, 2025", "Notification of Peer Review (Round #1)"], ["29 Set 2025", ""], ["29 Set 2025", ""], ["2025-12-26"]];
 /* notification TPC review of proposals (workshop, plenary, panel). Esto es teorico*/
-var snotifVector = [["December 20, 2025", "Notification of Proposals"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2025-10-31"]];
+var snotifVector = [["December 20, 2025", "Notification of Proposals"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2025-12-26"]];
 /* conditional accepted final papers multiple TPC review due date */
 var pfCondVector = [["November 31, 2025", "Final Paper Conditional Acceptance Review due date (Round #2)"], ["17 Out 2025", ""], ["17 Oct 2025", ""], ["2025-12-01"]];
 /* final papers todos incluidos los prerevisados condicionales, para la última revisión por TPC (Round #2) */ 
@@ -28,9 +28,9 @@ var sfnotifVector = [["December 15, 2025", "Special Proposals final submission d
 /* due date de los periodos de registración. EARLY */
 var reg1Vector = [["December 15, 2025", "Registration and Payment Options: Due Dates Early"], ["10 Nov 2025", ""], ["10 Nov 2025", ""], ["2026-12-16"]];
 /* registration NORMAL */
-var reg2Vector = [["February 15, 2026", "Normal"], ["1 Dez 2025", ""], ["1 Dic 2025", ""], ["2025-02-16"]];
+var reg2Vector = [["February 15, 2026", "Normal"], ["1 Dez 2025", ""], ["1 Dic 2025", ""], ["2025-12-16"]];
 /* registration late */
-var reg3Vector = [["March 8, 2026", "Late"], ["22 Dez 2025", ""], ["22 Dic 2025", ""], ["2025-03-09"]];
+var reg3Vector = [["March 8, 2026", "Late"], ["22 Dez 2025", ""], ["22 Dic 2025", ""], ["2025-13-09"]];
 /* chair registration */
 var chairVector = [["September 30, 2026", "Late"], ["2 Fev 2026", ""], ["2 Feb 2025", ""], ["2026-10-01"]];
 /* tour inscription due date */
