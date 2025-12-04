@@ -64,7 +64,11 @@
         <ol>
             <li>Choose your type of payment.</li>
             <li>Make your payment in PayPal using the corresponding link.</li>
-            <li>Fill in the form to register your paper.</li>
+            <li>Fill in the form to register your paper.
+                <a class="paypal-link" href="https://forms.gle/fEEA8vZ7g5P2bRwS8" target="_blank">
+                Complete Registration Form
+                </a>
+            </li>
         </ol>
     </div>
 
@@ -102,7 +106,7 @@
                 <td>Non-Member of IEEE</td>
                 <td>500 Euros</td>
                 <td>
-                    <a class="paypal-link" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=7WA4Y6UC5T7PE" target="_blank">
+                    <a class="paypal-link" href="https://www.paypal.com/webapps/hermes?token=9E8545149W0880719&useraction=commit&wpsFlowRedirectToXorouterSkipHermesStartTime=1764502464449&flowType=WPS&mfid=1764502464309_c9a6a090d98b6" target="_blank">
                         Pay via PayPal
                     </a>
                 </td>
@@ -169,7 +173,7 @@
                 <td>Non-Member of IEEE</td>
                 <td>600 Euros</td>
                 <td>
-                    <a class="paypal-link" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2HNKZ7EPFM9Y" target="_blank">
+                    <a class="paypal-link" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2HNKZR7EPFM9Y" target="_blank">
                         Pay via PayPal
                     </a>
                 </td>
