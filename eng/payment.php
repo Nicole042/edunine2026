@@ -17,7 +17,7 @@
             <li>Choose your type of payment.</li>
             <li>Make your payment in PayPal using the corresponding link.</li>
             <li>Fill in the form to register your paper.
-                <a class="paypal-link" href="https://forms.gle/fEEA8vZ7g5P2bRwS8" target="_blank">
+                <a class="paypal-link" href="https://forms.gle/RTKpRGRR1qUosxUf9" target="_blank">
                 Complete Registration Form
                 </a>
             </li>
