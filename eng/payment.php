@@ -15,67 +15,6 @@
 
 <body>
     <div class="page-wrapper">
-        <h2>BANK TRANSFER INFORMATION</h2>
-        <div class="policies-card">
-            <h3>BANK TRANSFER IN EUROS</h3>
-            <ol class="conduct-rules">
-                <li class="conduct-rule">
-                    <div class="d-flex align-items-center">
-                        <span class="rule-title">Payment Information</span>
-                    </div>
-                    <div class="rule-content">
-                        <div class="rule-item">
-                            <b>Bank transfer to Caixa Geral de Depósitos</b><br>
-                            <b>Account Number:</b> 0130 005085500<br>
-                            <b>IBAN:</b> PT50.0035.0130.00005085500.67<br>
-                            <b>BIC:</b> CGDIPTPL<br>
-                            <b>Bank account owner:</b> Dra. Melany Maria Ciampi T Rocha Brito<br>
-                            <b>Bank address:</b> Caixa Geral de Depósitos<br>
-                            Univ. do Minho,<br>
-                            Campus de Azurém, R/C<br>
-                            4800-001 Guimarães<br>
-                            PORTUGAL<br>
-                            <b>Phone:</b> +351-253.540.320<br>
-                            <b>Fax:</b>+351-253.540.327<br>
-                        </div>
-                    </div>
-                </li>
-            </ol>
-        </div>
-
-        <div class="policies-card">
-            <h3>BANK TRANSFER IN DOLLARS (USD)</h3>
-            <ol class="conduct-rules">
-                <li class="conduct-rule">
-                    <div class="d-flex align-items-center">
-                        <span class="rule-title">Payment Information</span>
-                    </div>
-                    <div class="rule-content">
-                        <div class="rule-item">
-                            <b>Beneficiary's Bank Number:</b> OR1 -127 -01 - 01<br>
-                            <b>Beneficiary's Bank Account Number:</b> 0045 4068 7552<br>
-                            <b>Beneficiary's Name:</b> Dr Claudio R. Brito<br>
-                            <b>Beneficiary's Address:</b> 1041 Stanton Terrace<br>
-                            <b>Beneficiary's City:</b> Pittsburgh, PA<br>
-                            <b>Beneficiary's Country: </b> United States of America<br>
-                            <b>ZIP Code:</b> 15201<br>
-                            Personal Account<br>
-                        </div>
-                        <div class="rule-item">
-                            <b>For payments outside the U.S.</b><br>
-                            Bank of America<br>
-                            <b>SWIFT code:</b> BOFAUS3N<br>
-                            <b>Bank address:</b> BANK OF AMERICA, NA 222 BROADWAY NEW YORK, NEW
-                            YORK 10038, USA.<br>
-                        </div>
-                    </div>
-                </li>
-            </ol>
-        </div>
-    </div>
-
-
-    <div class="page-wrapper">
         <h2>PAYPAL PAYMENT LINKS</h2>
 
         <div class="steps">
@@ -286,6 +225,66 @@
 
         <div class="note">
             <strong>Note:</strong> These early-registration payments are only valid until December 31, 2025.
+        </div>
+    </div>
+
+    <div class="page-wrapper">
+        <h2>BANK TRANSFER INFORMATION</h2>
+        <div class="policies-card">
+            <h3>BANK TRANSFER IN EUROS</h3>
+            <ol class="conduct-rules">
+                <li class="conduct-rule">
+                    <div class="d-flex align-items-center">
+                        <span class="rule-title">Payment Information</span>
+                    </div>
+                    <div class="rule-content">
+                        <div class="rule-item">
+                            <b>Bank transfer to Caixa Geral de Depósitos</b><br>
+                            <b>Account Number:</b> 0130 005085500<br>
+                            <b>IBAN:</b> PT50.0035.0130.00005085500.67<br>
+                            <b>BIC:</b> CGDIPTPL<br>
+                            <b>Bank account owner:</b> Dra. Melany Maria Ciampi T Rocha Brito<br>
+                            <b>Bank address:</b> Caixa Geral de Depósitos<br>
+                            Univ. do Minho,<br>
+                            Campus de Azurém, R/C<br>
+                            4800-001 Guimarães<br>
+                            PORTUGAL<br>
+                            <b>Phone:</b> +351-253.540.320<br>
+                            <b>Fax:</b>+351-253.540.327<br>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <div class="policies-card">
+            <h3>BANK TRANSFER IN DOLLARS (USD)</h3>
+            <ol class="conduct-rules">
+                <li class="conduct-rule">
+                    <div class="d-flex align-items-center">
+                        <span class="rule-title">Payment Information</span>
+                    </div>
+                    <div class="rule-content">
+                        <div class="rule-item">
+                            <b>Beneficiary's Bank Number:</b> OR1 -127 -01 - 01<br>
+                            <b>Beneficiary's Bank Account Number:</b> 0045 4068 7552<br>
+                            <b>Beneficiary's Name:</b> Dr Claudio R. Brito<br>
+                            <b>Beneficiary's Address:</b> 1041 Stanton Terrace<br>
+                            <b>Beneficiary's City:</b> Pittsburgh, PA<br>
+                            <b>Beneficiary's Country: </b> United States of America<br>
+                            <b>ZIP Code:</b> 15201<br>
+                            Personal Account<br>
+                        </div>
+                        <div class="rule-item">
+                            <b>For payments outside the U.S.</b><br>
+                            Bank of America<br>
+                            <b>SWIFT code:</b> BOFAUS3N<br>
+                            <b>Bank address:</b> BANK OF AMERICA, NA 222 BROADWAY NEW YORK, NEW
+                            YORK 10038, USA.<br>
+                        </div>
+                    </div>
+                </li>
+            </ol>
         </div>
     </div>
 </body>
