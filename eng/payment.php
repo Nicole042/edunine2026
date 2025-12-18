@@ -21,8 +21,13 @@
     <link href="../css/edu9parts.css" rel="stylesheet">
 
     <!--SLICK CAROUSEL-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!--END  SLICK CAROUSEL -->
 
     <title>EDUNINE 2026 - PayPal Registration</title>
 
@@ -55,6 +60,8 @@
             }
         }
     </script>
+
+    <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
 
     <div>
         <!-- Navigation bar  -->
@@ -335,6 +342,30 @@
             </ol>
         </div>
     </div>
+
+    <!-- Footer section -->
+    <section id="organizers">
+        <div class ="container-fluid">
+            <?php include '../includesHtml/final.html' ?>
+        </div> 
+    </section>
+
+    <script src ="../js/datesFill.js?1"></script>
+    <script src ="../js/readmorereadless.js"></script>
+    <script src ="../js/backTop.js"></script>      
+    <script src="../js/scheduleSection.js"></script>
+    
+    <!-- START SLICK CAROUSEL-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="../js/slick-carousel-config.js"></script>
+    <!-- END  SLICK CAROUSEL--> 
+
+    <!-- Bootstrap 5 JS (bundle) for CVs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/pauseCoordinatorsSlider.js"></script>
 </body>
 
 </html>
