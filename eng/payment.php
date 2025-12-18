@@ -116,7 +116,7 @@
                     <td>500 Euros</td>
                     <td>
                         <a class="paypal-link"
-                            href="https://www.paypal.com/webapps/hermes?token=9E8545149W0880719&useraction=commit&wpsFlowRedirectToXorouterSkipHermesStartTime=1764502464449&flowType=WPS&mfid=1764502464309_c9a6a090d98b6"
+                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7WA4Y6UCST7PE"
                             target="_blank">
                             Pay via PayPal
                         </a>
