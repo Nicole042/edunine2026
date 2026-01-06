@@ -244,17 +244,17 @@
                             <thead>
                                 <tr>
                                     <th>FEES (Euros)</th>
-                                    <th>EARLY 1 PAPER</th>
+                                    <th>NORMAL 1 PAPER</th>
                                     <th>PAYPAL LINK (Authors and participants)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>Non-Member of IEEE</td>
-                                    <td>500 Euros</td>
+                                    <td>550 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7WA4Y6UCST7PE"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=S9DVWSYPVERV4"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -262,10 +262,10 @@
                                 </tr>
                                 <tr>
                                     <td>IEEE Member</td>
-                                    <td>420 Euros</td>
+                                    <td>462 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=UKQJMAKT8RL3S"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WDK24Q25V7R8E"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -273,10 +273,10 @@
                                 </tr>
                                 <tr>
                                     <td>IEEE EdSoc Member</td>
-                                    <td>356 Euros</td>
+                                    <td>392 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=XRYLXGLR7N734"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KSVQADYHTTP8W"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -284,10 +284,10 @@
                                 </tr>
                                 <tr>
                                     <td>IEEE Student Member</td>
-                                    <td>260 Euros</td>
+                                    <td>286 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MAT79MKWA5QJ4"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TLMGM7EC7XV46"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -295,10 +295,10 @@
                                 </tr>
                                 <tr>
                                     <td>Student Non-Member of IEEE</td>
-                                    <td>300 Euros</td>
+                                    <td>330 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=R33WBHDE49NUL"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UJWSEHQKPQEHJ"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -306,10 +306,10 @@
                                 </tr>
                                 <tr>
                                     <td>IEEE Life Member</td>
-                                    <td>260 Euros</td>
+                                    <td>286 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HT94MNKCD47WN"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RY4S4XBVDXZ3W"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -318,22 +318,22 @@
                             </tbody>
                         </table>
 
-                        <!-- TABLE 2: EARLY 2 PAPER -->
+                        <!-- TABLE 2: NORMAL 2 PAPER -->
                         <table>
                             <thead>
                                 <tr>
                                     <th>FEES (Euros)</th>
-                                    <th>EARLY 2 PAPER</th>
+                                    <th>NORMAL 2 PAPER</th>
                                     <th>PAYPAL LINK (Authors only)</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>Non-Member of IEEE</td>
-                                    <td>600 Euros</td>
+                                    <td>650 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2HNKZR7EPFM9Y"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XBZXRGZJVQXHW"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -341,10 +341,10 @@
                                 </tr>
                                 <tr>
                                     <td>IEEE Member</td>
-                                    <td>520 Euros</td>
+                                    <td>562 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=VF32GHKRM4XMQ"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5835WMUBL93EQ"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -352,10 +352,10 @@
                                 </tr>
                                 <tr>
                                     <td>IEEE EdSoc Member</td>
-                                    <td>456 Euros</td>
+                                    <td>492 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=E9Y63XEVGDFE8"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PN7P4GTBE2JF8"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -363,10 +363,10 @@
                                 </tr>
                                 <tr>
                                     <td>IEEE Student Member</td>
-                                    <td>360 Euros</td>
+                                    <td>386 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=7CCBESFVK5H34"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C6B87HQ5JA93A"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -374,10 +374,10 @@
                                 </tr>
                                 <tr>
                                     <td>Student Non-Member of IEEE</td>
-                                    <td>400 Euros</td>
+                                    <td>430 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=XJWS3HDUUT8UG"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z2X7Y3C268ML2"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -385,10 +385,10 @@
                                 </tr>
                                 <tr>
                                     <td>IEEE Life Member</td>
-                                    <td>360 Euros</td>
+                                    <td>386 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=S7M8JDDGQRQBJ"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E2CDMQLUW52UE"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
@@ -399,10 +399,10 @@
                                 </tr>
                                 <tr>
                                     <td>Guest</td>
-                                    <td>150 Euros</td>
+                                    <td>165 Euros</td>
                                     <td>
                                         <a class="paypal-link"
-                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TRDHZ2UC9J86J"
+                                            href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=58KPQL7CWC6G8"
                                             target="_blank">
                                             Pay via PayPal
                                         </a>
