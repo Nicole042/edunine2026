@@ -1,0 +1,83 @@
+/* 
+ * CSS for Travel Award Page Only
+ * This file contains styles specific to travelAward.php
+ * Any modifications here will NOT affect other pages
+ */
+
+:root {
+    --ieee-blue: #00629B; /* Standard IEEE Blue */
+    --ieee-dark: #002855;
+    --light-gray: #f4f4f4;
+}
+
+.award-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.award-header {
+    border-bottom: 2px solid var(--ieee-blue);
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.award-header h1 {
+    color: var(--ieee-dark);
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.award-content {
+    background-color: #fff;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.awardTravel-card {
+    background: var(--light-gray);
+    border-left: 5px solid var(--ieee-blue);
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 4px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.award-btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: inline-block;
+}
+
+.award-btn-primary {
+    background-color: var(--ieee-blue);
+    color: white;
+}
+
+.award-btn-primary:hover {
+    background-color: var(--ieee-dark);
+    color: white;
+}
+
+.award-btn-secondary {
+    background-color: transparent;
+    border: 2px solid var(--ieee-blue);
+    color: var(--ieee-blue);
+}
+
+.award-btn-secondary:hover {
+    background-color: var(--ieee-blue);
+    color: white;
+}
