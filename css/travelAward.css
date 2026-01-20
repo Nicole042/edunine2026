@@ -1,9 +1,20 @@
-/*  Any modifications here will NOT affect other pages*/
+/* 
+ * CSS for Travel Award Page Only
+ * This file contains styles specific to travelAward.php
+ * Any modifications here will NOT affect other pages
+ */
 
 :root {
     --ieee-blue: #00629B; /* Standard IEEE Blue */
     --ieee-dark: #002855;
     --light-gray: #f4f4f4;
+}
+
+.award-container {
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
 }
 
 .award-header {
