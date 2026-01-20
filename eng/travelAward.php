@@ -80,11 +80,11 @@
                 </p>
                 
                 <div class="action-buttons ">
-                    <a href="https://ieee-edusociety.org/conferences/ieee-education-society-student-travel-award" class="award-btn award-btn-primary" target="_blank">
+                    <a href="https://ieee-edusociety.org/form/edunine-student-travel-award-for"  class="award-btn award-btn-primary" target="_blank">
                         Apply Now for Travel Award
                     </a>
 
-                    <a href="https://ieee-edusociety.org/form/edunine-student-travel-award-for" class="award-btn award-btn-secondary" target="_blank">
+                    <a href="https://ieee-edusociety.org/conferences/ieee-education-society-student-travel-award" class="award-btn award-btn-secondary" target="_blank">
                         Visit IEEE EdSoc Website
                     </a>
                 </div>
