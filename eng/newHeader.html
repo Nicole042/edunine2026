@@ -73,11 +73,6 @@
                                         </li>  
                                         <!-- END DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
 
-                                        <!--<li><a class="dropdown-item nav-link" href="information.php?id=suitable">Topics & Pre-Submission Checklist</a></li>
-                                        <li><a class="dropdown-item nav-link" href="information.php?id=typeChoose">Manuscript Categories (1 to 5) and Types (Full, WIP, Workshop, DS Paper)</a></li>
-                                        <li><a class="dropdown-item nav-link" href="information.php?id=templateChoose">Mandatory Conference Paper Templates</a></li>
-                                        <li><a class="dropdown-item nav-link" href="information.php?id=submission">Manuscript Submission</a> </li>-->
-
                                         <!-- DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
                                         <li class="nav-item dropdown half-width-1200">                             
                                 
@@ -187,18 +182,11 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Conference</a>   
                                     <ul class="dropdown-menu" aria-labelledby="dropdown05">
-
-                                        <!--<li><a class="dropdown-item nav-link" href="program.php">Conference Programs</a></li>-->
-
-                                        <!--<li><a class="dropdown-item nav-link" href="program.php?id=tour">Pre-Conference Tour</a></li>
-                                        <li><a class="dropdown-item nav-link" href="program.php?id=pcworkshops">Pre-Conference Workshops</a></li>
-                                        <li><a class="dropdown-item nav-link" href="program.php?id=program">Conference Program</a></li>
-                                        <li><a class="dropdown-item nav-link" href="program.php?id=awards">Awards</a></li>-->
                                     
-
                                         <!-- DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
                                         <li class="nav-item dropdown half-width-1200">                             
-                                
+                                        
+
                                         <div class="btn-group dropend ">
                                             <a class="dropdown-item nav-link" href="program.php">Conference Programs</a>
                                             <a class="nav-link dropdown-toggle ps-1" href="#" id="dropdown05-1" data-bs-toggle="dropdown"  aria-expanded="false"></a>
@@ -218,7 +206,7 @@
                                         </li>  
                                         <!-- END DROPDOWN WITH SUBMENU INCLUDED mx-1 for extra left space-->
 
-                                        
+                                        <li><a class="dropdown-item nav-link" href="travelAward.php">Student Travel Award</a></li>
 
 
 
@@ -236,14 +224,7 @@
                             </div>
 
                             <!-- Language Dropdown -->
-                            
-                            <!-- <div class="dropdown"> d-sm-none makes it not appear for screen higher than 575px width -->
-                            <!-- <button class="btn btn-light dropdown-toggle d-flex align-items-center" type="button" 
-                                    id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="../images/languages/selector/eng.jpg" alt="English" style="height: 20px;" class="me-2">
-                                <!--Styles for language dropdown-->
-                                <!-- <span class="d-none d-sm-inline">Language</span> -->
-                                
+                                                  
                             </button>
                                 <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                                     <li>
@@ -367,35 +348,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
 });
-////////////////////////////////////////////////////////////////////////////////////////
 
-/* FOR SOME REASON, WHEN DEACTIVATED THE AUTOMATIZATION, I CANNOT CLICK THE SUBMENU, MUST BE SOMETHING AUTOMATIC BY BOOTSTRAP BUT THIS JAVASRIPT CLASS IS NOT WORKING PROPERLY*/
-/*
-document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.dropdown-submenu > a').forEach(function (el) {
-    el.addEventListener('click', function (e) {
-      e.preventDefault();         // Stop default link behavior
-      e.stopPropagation();        // ❗ Stop Bootstrap from closing the parent dropdown
-
-      // Close other open submenus
-      document.querySelectorAll('.dropdown-submenu').forEach(function (submenu) {
-        if (submenu !== el.parentElement) {
-          submenu.classList.remove('show');
-        }
-      });
-
-      // Toggle current submenu
-      el.parentElement.classList.toggle('show');
-    });
-  });
-
-  // Optional: click anywhere outside to close
-  document.addEventListener('click', function () {
-    document.querySelectorAll('.dropdown-submenu').forEach(function (submenu) {
-      submenu.classList.remove('show');
-    });
-  });
-});*/
 </script>
 
 
