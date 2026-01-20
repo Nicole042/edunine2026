@@ -60,43 +60,42 @@
         
         <img class="img-fluid w-100" src="../images/city/homeImage.jpg" alt="EDUNINE Banner">
 
-        <main class="award-container">
             
-            <div class="award-header">
-                <h1>IEEE Education Society Student Travel Award</h1>
-            </div>
+        <div class="award-header">
+            <h1>IEEE Education Society Student Travel Award</h1>
+        </div>
 
-            <div class="award-content">
+        <div class="award-content">
+            <p>
+                The IEEE Education Society is pleased to announce the opening of applications for the 
+                <strong>EDUNINE Student Travel Award</strong>. This award is designed to support students 
+                attending the conference by providing financial assistance for travel expenses.
+            </p>
+
+            <div class="awardTravel-card">
+                <h3>Eligibility & Details</h3>
                 <p>
-                    The IEEE Education Society is pleased to announce the opening of applications for the 
-                    <strong>EDUNINE Student Travel Award</strong>. This award is designed to support students 
-                    attending the conference by providing financial assistance for travel expenses.
+                    We invite all eligible student registrants to apply. Please review the criteria 
+                    on the IEEE Education Society website before submitting your application.
                 </p>
+                
+                <div class="action-buttons ">
+                    <a href="https://ieee-edusociety.org/conferences/ieee-education-society-student-travel-award" class="award-btn award-btn-primary" target="_blank">
+                        Apply Now for Travel Award
+                    </a>
 
-                <div class="awardTravel-card">
-                    <h3>Eligibility & Details</h3>
-                    <p>
-                        We invite all eligible student registrants to apply. Please review the criteria 
-                        on the IEEE Education Society website before submitting your application.
-                    </p>
-                    
-                    <div class="action-buttons">
-                        <a href="https://ieee-edusociety.org/conferences/ieee-education-society-student-travel-award" class="award-btn award-btn-primary" target="_blank">
-                            Apply Now for Travel Award
-                        </a>
-
-                        <a href="https://ieee-edusociety.org/form/edunine-student-travel-award-for" class="award-btn award-btn-secondary" target="_blank">
-                            Visit IEEE EdSoc Website
-                        </a>
-                    </div>
+                    <a href="https://ieee-edusociety.org/form/edunine-student-travel-award-for" class="award-btn award-btn-secondary" target="_blank">
+                        Visit IEEE EdSoc Website
+                    </a>
                 </div>
-
-                <p>
-                    <em>Note: Ensure you are registered for the conference before applying. Deadlines may apply.</em>
-                </p>
             </div>
 
-        </main>
+            <p>
+                <em>Note: Ensure you are registered for the conference before applying. Deadlines may apply.</em>
+            </p>
+        </div>
+
+
 
         <section id="organizers">
             <div class="container-fluid">
