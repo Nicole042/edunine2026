@@ -394,6 +394,17 @@ function formatMoney($amount)
                 </div>
 
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+                <!-- HOW TO BOOK A ROOM -->
+                <div class="row mt-5 mb-4">
+                    <div class="col-12 text-center">
+                        <a href="../images/city/howToBookEDUNINE2026.pdf" target="_blank" class="btn btn-lg btn-primary">
+                            <i class="bi bi-file-pdf-fill me-2"></i>
+                            HOW TO BOOK A ROOM 
+                        </a>
+                    </div>
+                </div>
+
             </div>
 
             <!-- TAXIS -->
