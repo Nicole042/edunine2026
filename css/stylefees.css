@@ -135,6 +135,38 @@
     padding: 15px;
 }
 
+/*Clarification*/
+.payment-title {
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.note-card {
+  background-color: #eaf6ff; 
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.note-card::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  left: 0;
+  width: 6px;
+  background-color: #084da3; 
+  border-radius: 6px;
+}
+
+.note-card .card-body {
+  font-family: "Inter", "Roboto", "Open Sans", Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #1b416f;
+}
+
+
 @media (max-width: 768px) {
     .edunine-registration-table {
         font-size: 12px;

@@ -162,7 +162,21 @@
                             </div>
                         </div>
                     </div>
-
+                    <div class="container my-5">
+                        <!-- Clarification -->
+                        <h2> NOTE</h2>
+                        <!-- Card -->
+                        <div class="card note-card border-0">
+                            <div class="card-body p-4 p-md-5">
+                            <p class="mb-3 ">
+                                Below you will find the fee corresponding to your category. Please review the available options and select the one that best suits your needs.
+                            </p>
+                            <p class="mb-0">
+                                Kindly note that each registration covers the presentation of one (1) paper. An additional fee applies for a second paper, as specified in the table. Each registration may include up to two (2) papers.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
                     <hr>
                     <h2>PAYMENT OPTIONS</h2>
                     <ul>
