@@ -1165,7 +1165,7 @@
                             <div class="card border-0 shadow-lg rounded-4 overflow-hidden">
                                 <div class="row g-0">
                                     <div class="col-md-5">
-                                        <img src="../images/decoration/universidadtecmonterrey.jpg" class="img-fluid h-100 object-fit-cover" alt="Tecnologico de Monterrey Campus">
+                                        <img src="../images/Mexico Campus/Campus CCM AII BIBL.jpg" class="img-fluid h-100 object-fit-cover" alt="Tecnologico de Monterrey Campus">
                                     </div>
                                     <div class="col-md-6">
                                         <div class="card-body p-4">
