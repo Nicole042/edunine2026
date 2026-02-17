@@ -1191,13 +1191,13 @@
                             <div class="row g-4">
                                 <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
                                     <div class="address-card text center">
-                                        <h3 class="address-title">Campus Address</h3>
+                                        <h3 class="address-title">Mexico City Campus</h3>
                                         <div class="address-text">
-                                            <strong>Mexico City Campus</strong><br>
-                                            Calle del Puente #222<br>
-                                            Col. Ejidos de Huipulco<br>
-                                            Tlalpan C.P. 14380<br>
-                                            México D.F., México
+                                            Tecnológico de Monterrey Campus Ciudad de México, <br>
+                                            Anillo Periférico 6666,<br>
+                                            Coapa, San Bartolo el Chico,<br>
+                                            Tlalpan, 14380,<br>
+                                            Mexico City, CDMX
                                         </div>
                                     </div>
                                 </div>
