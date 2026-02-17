@@ -1111,7 +1111,7 @@
                     <div class="modern-card position-relative mb-4">
                         <div class="institution-header">
                             <div class="institution-logo-container">
-                                <img src="../images/logos_special/LogoTec2.png" alt="Tecnológico de Monterrey Logo">
+                                <img src="../images/logos_special/Logo EIC Vertical RGB.png" alt="Tecnológico de Monterrey Logo">
                             
                             </div>
                             <div>
