@@ -1171,11 +1171,7 @@
                                         <div class="card-body p-4">
                                             <h2 class="h3 mb-3">Mexico City Campus</h2>
                                             <p class="mb-4">Our conference will be held at the prestigious Mexico City campus, featuring state-of-the-art facilities and modern infrastructure designed to provide an exceptional academic and conference experience.</p>
-                                            
-                                            <div class="alert alert-success d-flex align-items-center mb-4">
-                                                <i class="bi bi-bus-front me-2 fs-4"></i>
-                                                <div>Free transportation will be provided from the recommended hotels in Mexico City to the campus.</div>
-                                            </div>
+                                        
                                             
                                             <div class="d-flex flex-wrap gap-2">
                                                 <a href="https://tec.mx/en/ciudad-de-mexico-campus" class="btn btn-outline-primary">Campus Details</a>
