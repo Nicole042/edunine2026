@@ -6,17 +6,16 @@ $main_hotel = [
     'id' => 'city_express',
     'name' => 'City Express Plus by Marriott Ciudad de México Periférico Sur Tlalpan',
     'address' => 'Anillo Perif. Col, Coapa, Guadalupe #4860, Tlalpan, 14388 CDMX',
-    'contact_name' => 'Cinthya Lara Manzanero',
-    'contact_email' => 'clara@norte19.com',
-    'booking_info' => 'Tel: 55 54836700 - Ext.2 | Email: cppst.ventas1@norte19.com',
+    'contact_name' => 'Ventas', // La imagen no especifica nombre personal, solo departamento
+    'contact_email' => 'cppst.ventas1@norte19.com',
+    'booking_info' => 'Tel: 55 54836700 - Ext.2 | Email: cppst.ventas1@norte19.com / cppst.ventas@norte19.com',
     'web_url' => '',
-    // Main hotel only had one option in the csv, but we keep structure consistent
     'options' => [
         [
             'desc' => 'Standard Rate',
-            'single' => 1553.50,
-            'double' => 1768.60,
-            'taxes_included' => true,
+            'single' => 1554.00, // Actualizado según imagen ($1,554)
+            'double' => 1769.00, // Actualizado según imagen ($1,769)
+            'taxes_included' => true, 
             'breakfast' => true,
             'code' => 'EDUNINE2026'
         ]
@@ -26,65 +25,65 @@ $main_hotel = [
 $other_hotels = [
     [
         'name' => 'ONE Ciudad de México Periférico Sur',
-        'address' => 'Periferico Sur 5530 Colonia, El Caracol, Coyoacán, CDMX',
-        'contact_info' => 'Roydel Vargas (roydel.vargas@posadas.com) (Tel:(81) 8116906631)',
+        'address' => 'Periferico Sur 5530 Colonia, El Caracol, Coyoacán, 04710 CDMX',
+        'contact_info' => 'Central de Reservaciones',
         'phones' => 'CDMX: 55 5326 69 00 | Interior: 800 50 450 00',
         'booking_url' => 'https://www.corpo-rate.com/login',
         'options' => [
             [
                 'desc' => 'Standard Rate',
                 'single' => 1100.00,
-                'double' => 1100.00,
-                'taxes_included' => false,
+                'double' => 1100.00, // Asumido igual a sencilla ya que no se especifica diferencia
+                'taxes_included' => false, // "Más impuestos"
                 'breakfast' => true,
-                'code' => 'EDUNINE 2026 (G1V7UU@OGS)'
+                'code' => 'EDUNINE 2026 (GROUP ID: G1V7UU@OGS)'
             ]
         ]
     ],
     [
         'name' => 'Fiesta Inn Periférico Sur',
-        'address' => 'Periferico Sur 5530, Pedregal de Carrasco, Coyoacán, CDMX',
-        'contact_info' => 'Roydel Vargas (roydel.vargas@posadas.com) (Tel:(81) 8116906631)',
+        'address' => 'Periferico Sur 5530, Pedregal de Carrasco, Coyoacán, 04700 CDMX',
+        'contact_info' => 'Central de Reservaciones',
         'phones' => 'CDMX: 55 5326 69 00 | Interior: 800 50 450 00',
         'booking_url' => 'https://www.corpo-rate.com/login',
         'options' => [
             [
-                'desc' => 'Option A',
+                'desc' => 'Opción A (Sin Desayuno)',
                 'single' => 1500.00,
                 'double' => 1500.00,
-                'taxes_included' => false,
+                'taxes_included' => false, // "Más impuestos"
                 'breakfast' => false,
-                'code' => 'EDUNINE 2026 (G1V7UO@SUR)'
+                'code' => 'EDUNINE 2026 (GROUP ID: G1V7UO@SUR)'
             ],
             [
-                'desc' => 'Option B',
+                'desc' => 'Opción B (Con Desayuno)',
                 'single' => 2296.70,
                 'double' => 2760.90,
-                'taxes_included' => true,
+                'taxes_included' => true, // "Ya con impuestos"
                 'breakfast' => true,
-                'code' => 'EDUNINE 2026 (G1VFQE@SUR)'
+                'code' => 'EDUNINE 2026 (GROUP ID: G1VFQE@SUR)'
             ]
         ]
     ],
     [
         'name' => 'Camino Real Pedregal',
-        'address' => 'Periferico Sur 3647, Héroes de Padierna, CDMX',
-        'contact_info' => 'Eréndira Vizcaya (erendira.vizcaya@caminoreal.com)',
-        'phones' => 'Toll Free: 01 800 90 123 00 | Direct: 52 27 72 00 / 52 63 88 99',
+        'address' => 'Periferico Sur 3647, Héroes de Padierna, 10700 CDMX',
+        'contact_info' => 'Reservas (reservas.mex@caminoreal.com.mx)',
+        'phones' => 'Lada sin costo: 01 800 90 123 00 | Directos: 52 27 72 00 / 52 63 88 99',
         'booking_url' => 'https://bit.ly/48WCBK5',
         'options' => [
             [
                 'desc' => 'Room Only',
-                'single' => 2031.50,
-                'double' => 2031.50,
-                'taxes_included' => true,
+                'single' => 2032.00, // Actualizado a $2,032
+                'double' => 2032.00,
+                'taxes_included' => true, // "Ya con impuestos"
                 'breakfast' => false,
                 'code' => 'EDUNINE'
             ],
             [
                 'desc' => 'Breakfast Included',
-                'single' => 2562.86,
-                'double' => 3064.22,
+                'single' => 2563.00, // Actualizado a $2,563
+                'double' => 3064.00, // Actualizado a $3,064
                 'taxes_included' => true,
                 'breakfast' => true,
                 'code' => 'EDUNINE'
@@ -398,9 +397,10 @@ function formatMoney($amount)
                 <!-- HOW TO BOOK A ROOM -->
                 <div class="row mt-5 mb-4">
                     <div class="col-12 text-center">
-                        <a href="../images/city/howToBookEDUNINE2026.pdf" target="_blank" class="btn btn-lg btn-primary">
+                        <a href="../images/city/howToBookEDUNINE2026.pdf" target="_blank"
+                            class="btn btn-lg btn-primary">
                             <i class="bi bi-file-pdf-fill me-2"></i>
-                            HOW TO BOOK A ROOM 
+                            HOW TO BOOK A ROOM
                         </a>
                     </div>
                 </div>
@@ -408,7 +408,7 @@ function formatMoney($amount)
             </div>
 
             <!-- TAXIS -->
-            <div class="row mt-5">
+            <div class="row mt-5 px-5">
                 <div class="col-12">
                     <div class="card bg-info-subtle border-info shadow-sm">
                         <div class="card-body p-4">
