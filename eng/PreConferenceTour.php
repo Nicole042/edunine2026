@@ -1,3 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description"
+        content="The IEEE World Engineering Education Conference - EDUNINE is the flagship annual conference for the IEEE Region 9 (Latin America and the Caribbean) of the IEEE Education Society. The EDUNINE international conference on Education in Engineering, Technology, Computer Science, and related topics, held every year in March in a different Latin American city,  is organized by  COPEC - Science and Education Research Organization. The conference program covers the main issues present in education today.">
+    <meta name="Keywords"
+        content="IEEE, COPEC, Education in Engineering, Technology, and Computer Science, STEM, Teaching, Learning, Higher Education, University Education, Educación en Ingeniería, Tecnología e Informática, Enseñanza, Aprendizaje, Educacion Superior, Educación Universitaria, Educação em Engenharia, Tecnologia e Informática, Ensino, Aprendizagem, Ensino Superior, Educação Universitária, Latin America and the Caribbean, Latinoamérica y el Caribe, América Latina e Caribe, Conference, Congress, Conferencia, Congreso, Conferência, Congresso">
+    <meta name="author" content="COPEC">
+    <meta name="copyright" content="COPEC">
+    <title> EDUNINE2026 English Website: Home </title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="../css/EDU9Conferences.css" rel="stylesheet">
+    <link href="../css/edu9parts.css" rel="stylesheet">
+    <link href="../css/preConferenceTour.css" rel="stylesheet">
+
+    <!--SLICK CAROUSEL-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body onload="jump()">
+    <?php
+    if (empty($_GET["id"])) {
+        $id = "top";
+    } else {
+        $id = $_GET["id"];
+    }
+    ?>
+
+    <script>
+        function jump() {
+            const id = "<?php echo $id; ?>";
+            const element = document.getElementById(id);
+
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth", block: "start" });
+            } else {
+                console.warn(`Element with id "${id}" not found.`);
+            }
+        }
+    </script>
+
+    <button onclick="topFunction()" id="myTopBtn" title="Back to top">↑</button>
+
+    <div>
+        <!-- Navigation bar  -->
+        <?php include "newHeader.html" ?>
+    </div>
+
 <?php
 $title = "EDUNINE 2026 Cultural Activity";
 ?>
@@ -7,70 +65,16 @@ $title = "EDUNINE 2026 Cultural Activity";
 <head>
     <meta charset="UTF-8">
     <title><?php echo $title; ?></title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f5f7fa;
-            color: #333;
-        }
-        header {
-            background: linear-gradient(135deg, #8B0000, #C0392B);
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        h2 {
-            color: #C0392B;
-            margin-top: 30px;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .highlight {
-            background: #ffe6e6;
-            padding: 10px;
-            border-left: 5px solid #C0392B;
-            border-radius: 5px;
-        }
-        .button {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 12px 20px;
-            background-color: #C0392B;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #222;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
 </head>
 <body>
 
+<br><br><br><br>
 <header>
     <h1>Exploring Mexico City</h1>
     <p><?php echo $title; ?></p>
 </header>
 
-<div class="container">
+<div class="tour-container">
 
     <div class="card">
         <p>
