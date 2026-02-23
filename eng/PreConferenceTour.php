@@ -56,6 +56,7 @@
         <?php include "newHeader.html" ?>
     </div>
 
+<main class="px-4 preconf-tour">
 <?php
 $title = "EDUNINE 2026 Cultural Activity";
 ?>
@@ -71,7 +72,7 @@ $title = "EDUNINE 2026 Cultural Activity";
 <br><br><br><br>
 <header>
     <h1>Exploring Mexico City</h1>
-    <p><?php echo $title; ?></p>
+    <p class="tour-title"><?php echo $title; ?></p>
 </header>
 
 <div class="tour-container">
@@ -121,17 +122,35 @@ $title = "EDUNINE 2026 Cultural Activity";
         </p>
 
         <!-- Example of dynamic PHP variable -->
-        <?php $registration_link = "#"; ?>
-        <a href="<?php echo $registration_link; ?>" class="button">Register Here</a>
+        <?php $registration_link = "https://forms.office.com/pages/responsepage.aspx?id=pj5axnwPC0CJNFptwXBWRR_MPTe18zhBqgP9IvpOUzxURTNXSDBFRTlKRTg0MTJRNkJMT1hZSUFZVC4u&route=shorturl"; ?>
+        <a href="<?php echo $registration_link; ?>" class="tour-button" target="_blank">Register Here</a>
 
         <p><em>Spaces are limited and assigned on a first-come, first-served basis.</em></p>
     </div>
 
 </div>
 
-<footer>
-    <p>&copy; <?php echo date("Y"); ?> EDUNINE. All rights reserved.</p>
-</footer>
+<!-- Footer section -->
+    <section id="organizers">
+        <div class="container-fluid">
+            <!-- Footer  -->
+            <?php include "../includesHtml/final.html" ?>
+        </div>
+    </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <!--SLICK CAROUSEL-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../js/slick-carousel-config.js"></script>
+    <script src="../js/backTop.js"></script>
+</main>
 </body>
+
 </html>

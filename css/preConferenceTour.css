@@ -1,37 +1,43 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f5f7fa;
-    color: #333;
-}
+.preconf-tour header {
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('../images/preConference/temploMayor.jpg'),
+        url('../images/preConference/City2.jpg');
 
-header {
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../images/preConference/temploMayor.jpg');
-    background-size: cover;
-    background-position: center;
+    background-size: cover, 50% 100%, 50% 100%;
+    background-position: center, left, right;
     background-repeat: no-repeat;
-    height: 300px;
+
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     color: white;
     text-align: center;
 }
 
-.tour-container {
+.preconf-tour .tour-title {
+    color: #ffffff;
+}
+
+.preconf-tour .tour-container {
     max-width: 900px;
     margin: auto;
     padding: 20px;
 }
 
-h2 {
-    color: #C0392B;
+.preconf-tour .tour-container h2 {
+    color: #8b4513;
     margin-top: 30px;
 }
 
-.card {
+.preconf-tour .tour-container h3 {
+    color: #8b4513;
+    margin-top: 10px;
+}
+
+.preconf-tour .card {
     background: white;
     padding: 20px;
     margin-top: 20px;
@@ -39,31 +45,31 @@ h2 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-ul {
+.preconf-tour ul {
     padding-left: 20px;
 }
 
-.highlight {
+.preconf-tour .highlight {
     background: #ffe6e6;
     padding: 10px;
-    border-left: 5px solid #C0392B;
+    border-left: 5px solid #8b4513;
     border-radius: 5px;
 }
 
-.button {
+.preconf-tour .tour-button {
     display: inline-block;
     margin-top: 15px;
     padding: 12px 20px;
-    background-color: #C0392B;
+    background-color: #8b4513;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #222;
-    color: white;
-    margin-top: 40px;
+.preconf-tour .footer .footer-links {
+    text-align: left;
+}
+
+.preconf-tour .footer .footer-links ul li {
+    justify-content: flex-start;
 }
