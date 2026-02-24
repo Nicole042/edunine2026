@@ -414,7 +414,7 @@
 
                         <p class="lh-sm">To ensure accessibility for online authors, presentations will be
                             scheduled with consideration for both their local time zone and optimal alignment
-                            with the conference schedule (9 AM to 6 PM Montevideo time, UTC-3). This approach
+                            with the conference schedule (9:00 AM to 6:00 PM Mexico City time, UTC-6). This approach
                             aims to balance providing authors with reasonable presentation times while
                             maintaining the overall conference program for in-person attendees.</p>
                         <p class="lh-sm">After registering as a presenter, authors with specific time
@@ -438,7 +438,7 @@
                             <li><strong>Doctoral Symposium</strong></li>
                             <li><strong>Special Sessions</strong></li>
                         </ul>
-                        <p class="mb-0">Live-streamed and hosted at Universidad ORT Uruguay.</p>
+                        <p class="mb-0">Live-streamed and hosted at Tecnológico de Monterrey, Campus Ciudad de México.</p>
                     </div>
                 </div>
             </div>
@@ -489,10 +489,9 @@
 
                     <p class="fs-5 text-muted">
                         The <b>EDUNINE2026 Committees</b> are proud to announce the recipients of the
-                        <b>2026 IEEE X World Engineering Education Conference (EDUNINE2026) Awards</b>. These
-                        esteemed awards will be presented during a special ceremony in Montevideo, Uruguay.
-                        Award winners will be recognized in the official conference proceedings (IEEE Xplore) and on
-                        the conference website.
+                        <b>2026 IEEE X World Engineering Education Conference (EDUNINE2026) Awards</b>. These esteemed awards will be 
+                        presented during a special ceremony in Mexico City, Mexico. Award winners will be recognized in the official 
+                        conference proceedings (IEEE Xplore) and on the conference website.
                     </p>
                 </div>
             </div>
