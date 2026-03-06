@@ -177,8 +177,30 @@
                     </div>
                 </div>
             </div>
+        <section class="conference-program py-5">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
 
+                        <h2 class="fw-bold mb-3 text-primary">
+                            Conference Program
+                        </h2>
 
+                        <p class="lead text-muted mb-4">
+                            Explore the full schedule of presentations, keynote talks, and sessions for the conference.
+                            Click the button below to view the official program.
+                        </p>
+
+                        <a href="https://easychair.org/smart-program/EDUNINE2026/2026-03-08.html"
+                        target="_blank"
+                        class="btn btn-primary btn-lg px-4 py-3 shadow">
+                        
+                        View Conference Program
+                        </a>
+
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Pre-Conference tour -->

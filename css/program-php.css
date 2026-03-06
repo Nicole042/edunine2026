@@ -154,3 +154,22 @@
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
+.conference-program {
+    background: linear-gradient(135deg, #f8f9fa, #eef2ff);
+    border-radius: 12px;
+}
+
+.conference-program h2 {
+    font-size: 2.2rem;
+}
+
+.conference-program .btn {
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.conference-program .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
