@@ -199,6 +199,19 @@
                         </a>
 
                     </div>
+                    <div class="col-lg-8">
+                        <p class="lead text-muted mb-4 padTop">
+                            Discover the official EDUNINE 2026 Plenary Sessions Program, including keynote plenaries, the IEEE round table, featured speakers, and session schedules across the three conference days.
+                        </p>
+
+                        <a href="../cfp/plenary.pdf"
+                        target="plenary edunine"
+                        class="btn btn-primary btn-lg px-4 py-3 shadow">
+                        
+                        View Plenary Program
+                        </a>
+
+                    </div>
                 </div>
             </div>
         </section>
